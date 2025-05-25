@@ -1,0 +1,6 @@
+- Chay spark_batch
+spark-submit --packages org.elasticsearch:elasticsearch-spark-30_2.12:8.14.1 /opt/bitnami/spark/apps/spark_batch.py
+
+spark-submit --packages org.elasticsearch:elasticsearch-spark-30_2.12:8.14.1 /opt/bitnami/spark/apps/spark_ml.py
+
+spark-submit --packages org.elasticsearch:elasticsearch-spark-30_2.12:8.14.1,org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.3 /opt/bitnami/spark/apps/spark_streaming.py

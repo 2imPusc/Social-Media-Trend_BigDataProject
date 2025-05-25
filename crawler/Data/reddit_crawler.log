@@ -1,0 +1,700 @@
+2025-05-21 14:19:24,692 - API còn lại: 872.0 yêu cầu, reset sau 0.60 phút
+2025-05-21 14:20:53,195 - Đã lưu 100 bản ghi vào Data/contents_20250521_142053.csv
+2025-05-21 14:21:09,796 - API còn lại: 957.0 yêu cầu, reset sau 8.88 phút
+2025-05-21 14:21:21,398 - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2025-05-21 14:21:21,399 - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2025-05-21 14:21:21,399 - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=host.docker.internal:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2025-05-21 14:21:55,412 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/contents_20250521_142053.csv', 'hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_142053.csv']' returned non-zero exit status 1.
+2025-05-21 14:21:55,448 - Đã gửi 100 bản ghi vào Kafka topic reddit_data
+2025-05-21 14:21:55,472 - Đã lưu 3589 bản ghi vào Data/comments_20250521_142155.csv
+2025-05-21 14:22:57,495 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/comments_20250521_142155.csv', 'hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_142155.csv']' returned non-zero exit status 1.
+2025-05-21 14:22:57,764 - Đã gửi 3589 bản ghi vào Kafka topic reddit_data
+2025-05-21 14:22:57,764 - Đã thu thập 100 bài đăng từ r/gadgets
+2025-05-21 14:22:57,764 - Đang thu thập từ r/programming... (Lần thử 1)
+2025-05-21 14:23:01,460 - API còn lại: 929.0 yêu cầu, reset sau 7.03 phút
+2025-05-21 14:25:09,063 - API còn lại: 873.0 yêu cầu, reset sau 4.87 phút
+2025-05-21 14:25:36,662 - API còn lại: 845.0 yêu cầu, reset sau 4.40 phút
+2025-05-21 14:26:48,500 - API còn lại: 769.0 yêu cầu, reset sau 3.20 phút
+2025-05-21 14:27:26,120 - API còn lại: 722.0 yêu cầu, reset sau 2.58 phút
+2025-05-21 14:27:45,686 - API còn lại: 698.0 yêu cầu, reset sau 2.23 phút
+2025-05-21 14:28:47,159 - API còn lại: 625.0 yêu cầu, reset sau 1.23 phút
+2025-05-21 14:29:42,137 - API còn lại: 556.0 yêu cầu, reset sau 0.30 phút
+2025-05-21 14:29:53,057 - API còn lại: 543.0 yêu cầu, reset sau 0.13 phút
+2025-05-21 14:30:34,513 - API còn lại: 955.0 yêu cầu, reset sau 9.43 phút
+2025-05-21 14:31:29,435 - API còn lại: 881.0 yêu cầu, reset sau 8.52 phút
+2025-05-21 14:32:05,447 - API còn lại: 835.0 yêu cầu, reset sau 7.92 phút
+2025-05-21 14:32:20,905 - API còn lại: 813.0 yêu cầu, reset sau 7.67 phút
+2025-05-21 14:33:11,050 - API còn lại: 736.0 yêu cầu, reset sau 6.82 phút
+2025-05-21 14:33:52,364 - API còn lại: 677.0 yêu cầu, reset sau 6.15 phút
+2025-05-21 14:33:59,971 - Đã lưu 500 bản ghi vào Data/contents_20250521_143359.csv
+2025-05-21 14:34:01,975 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/contents_20250521_143359.csv', 'hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_143359.csv']' returned non-zero exit status 1.
+2025-05-21 14:34:02,063 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 14:34:02,098 - Đã lưu 2584 bản ghi vào Data/comments_20250521_143402.csv
+2025-05-21 14:34:04,215 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/comments_20250521_143402.csv', 'hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_143402.csv']' returned non-zero exit status 1.
+2025-05-21 14:34:04,496 - Đã gửi 2584 bản ghi vào Kafka topic reddit_data
+2025-05-21 14:34:04,496 - Đã thu thập 500 bài đăng từ r/programming
+2025-05-21 14:34:05,829 - API còn lại: 660.0 yêu cầu, reset sau 5.92 phút
+2025-05-21 14:34:55,034 - API còn lại: 584.0 yêu cầu, reset sau 5.08 phút
+2025-05-21 14:35:34,069 - API còn lại: 531.0 yêu cầu, reset sau 4.43 phút
+2025-05-21 14:35:49,387 - API còn lại: 507.0 yêu cầu, reset sau 4.20 phút
+2025-05-21 14:40:14,154 - BẮT ĐẦU THU THẬP DỮ LIỆU: 2025-05-21 14:40:14
+2025-05-21 14:40:14,154 - 
+--- LĨNH VỰC: Technology ---
+2025-05-21 14:40:14,154 - Đang thu thập từ r/technology... (Lần thử 1)
+2025-05-21 14:40:14,154 - Đang thu thập từ r/gadgets... (Lần thử 1)
+2025-05-21 14:40:16,935 - API còn lại: 998.0 yêu cầu, reset sau 9.73 phút
+2025-05-21 14:40:17,259 - API còn lại: 999.0 yêu cầu, reset sau 9.73 phút
+2025-05-21 14:41:42,213 - BẮT ĐẦU THU THẬP DỮ LIỆU: 2025-05-21 14:41:42
+2025-05-21 14:41:42,213 - 
+--- LĨNH VỰC: Technology ---
+2025-05-21 14:41:42,213 - Đang thu thập từ r/technology... (Lần thử 1)
+2025-05-21 14:41:42,215 - Đang thu thập từ r/gadgets... (Lần thử 1)
+2025-05-21 14:41:44,918 - API còn lại: 988.0 yêu cầu, reset sau 8.27 phút
+2025-05-21 14:41:45,217 - API còn lại: 987.0 yêu cầu, reset sau 8.27 phút
+2025-05-21 14:44:19,142 - API còn lại: 905.0 yêu cầu, reset sau 5.68 phút
+2025-05-21 14:45:32,027 - Đã lưu 100 bản ghi vào Data/contents_20250521_144532.csv
+2025-05-21 14:45:34,566 - Đã đẩy Data/contents_20250521_144532.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_144532.csv
+2025-05-21 14:45:34,566 - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2025-05-21 14:45:34,566 - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2025-05-21 14:45:34,567 - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=host.docker.internal:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2025-05-21 14:45:34,579 - Đã gửi 100 bản ghi vào Kafka topic reddit_data
+2025-05-21 14:45:34,608 - Đã lưu 3590 bản ghi vào Data/comments_20250521_144534.csv
+2025-05-21 14:45:36,539 - Đã đẩy Data/comments_20250521_144534.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_144534.csv
+2025-05-21 14:45:36,832 - Đã gửi 3590 bản ghi vào Kafka topic reddit_data
+2025-05-21 14:45:36,833 - Đã thu thập 100 bài đăng từ r/gadgets
+2025-05-21 14:45:36,833 - Đang thu thập từ r/programming... (Lần thử 1)
+2025-05-21 14:45:38,838 - API còn lại: 836.0 yêu cầu, reset sau 4.38 phút
+2025-05-21 14:45:43,879 - API còn lại: 834.0 yêu cầu, reset sau 4.30 phút
+2025-05-21 14:47:35,894 - API còn lại: 758.0 yêu cầu, reset sau 2.42 phút
+2025-05-21 14:48:56,506 - API còn lại: 686.0 yêu cầu, reset sau 1.07 phút
+2025-05-21 14:49:04,169 - API còn lại: 679.0 yêu cầu, reset sau 0.95 phút
+2025-05-21 14:49:57,479 - API còn lại: 615.0 yêu cầu, reset sau 0.03 phút
+2025-05-21 14:50:56,303 - API còn lại: 932.0 yêu cầu, reset sau 9.08 phút
+2025-05-21 14:51:23,073 - API còn lại: 898.0 yêu cầu, reset sau 8.63 phút
+2025-05-21 14:51:50,455 - API còn lại: 862.0 yêu cầu, reset sau 8.15 phút
+2025-05-21 14:52:45,437 - API còn lại: 790.0 yêu cầu, reset sau 7.27 phút
+2025-05-21 14:53:38,378 - API còn lại: 722.0 yêu cầu, reset sau 6.37 phút
+2025-05-21 14:53:44,759 - API còn lại: 714.0 yêu cầu, reset sau 6.27 phút
+2025-05-21 14:54:31,299 - API còn lại: 651.0 yêu cầu, reset sau 5.50 phút
+2025-05-21 14:55:22,599 - API còn lại: 580.0 yêu cầu, reset sau 4.62 phút
+2025-05-21 14:55:55,776 - API còn lại: 536.0 yêu cầu, reset sau 4.08 phút
+2025-05-21 14:56:11,936 - Đã lưu 500 bản ghi vào Data/contents_20250521_145611.csv
+2025-05-21 14:56:13,842 - Đã đẩy Data/contents_20250521_145611.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_145611.csv
+2025-05-21 14:56:13,930 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 14:56:13,964 - Đã lưu 2584 bản ghi vào Data/comments_20250521_145613.csv
+2025-05-21 14:56:15,903 - Đã đẩy Data/comments_20250521_145613.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_145613.csv
+2025-05-21 14:56:16,240 - Đã gửi 2584 bản ghi vào Kafka topic reddit_data
+2025-05-21 14:56:16,240 - Đã thu thập 500 bài đăng từ r/programming
+2025-05-21 14:56:17,937 - API còn lại: 509.0 yêu cầu, reset sau 3.72 phút
+2025-05-21 14:57:09,766 - API còn lại: 434.0 yêu cầu, reset sau 2.83 phút
+2025-05-21 14:57:43,979 - API còn lại: 383.0 yêu cầu, reset sau 2.28 phút
+2025-05-21 14:58:00,167 - API còn lại: 357.0 yêu cầu, reset sau 2.02 phút
+2025-05-21 14:58:49,802 - API còn lại: 281.0 yêu cầu, reset sau 1.17 phút
+2025-05-21 14:59:38,141 - API còn lại: 228.0 yêu cầu, reset sau 0.37 phút
+2025-05-21 14:59:50,877 - API còn lại: 208.0 yêu cầu, reset sau 0.17 phút
+2025-05-21 15:00:41,046 - API còn lại: 937.0 yêu cầu, reset sau 9.32 phút
+2025-05-21 15:01:18,345 - API còn lại: 884.0 yêu cầu, reset sau 8.72 phút
+2025-05-21 15:01:34,287 - API còn lại: 860.0 yêu cầu, reset sau 8.45 phút
+2025-05-21 15:02:25,473 - API còn lại: 780.0 yêu cầu, reset sau 7.57 phút
+2025-05-21 15:02:44,808 - API còn lại: 750.0 yêu cầu, reset sau 7.27 phút
+2025-05-21 15:03:17,467 - API còn lại: 698.0 yêu cầu, reset sau 6.72 phút
+2025-05-21 15:04:09,881 - Đã lưu 500 bản ghi vào Data/contents_20250521_150409.csv
+2025-05-21 15:04:10,331 - API còn lại: 617.0 yêu cầu, reset sau 5.83 phút
+2025-05-21 15:04:11,818 - Đã đẩy Data/contents_20250521_150409.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_150409.csv
+2025-05-21 15:04:11,884 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 15:04:12,060 - Đã lưu 27752 bản ghi vào Data/comments_20250521_150411.csv
+2025-05-21 15:04:13,973 - Đã đẩy Data/comments_20250521_150411.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_150411.csv
+2025-05-21 15:04:16,372 - Đã gửi 27752 bản ghi vào Kafka topic reddit_data
+2025-05-21 15:04:16,372 - Đã thu thập 500 bài đăng từ r/technology
+2025-05-21 15:04:17,768 - Đã lưu 456 bản ghi vào Data/contents_20250521_150417.csv
+2025-05-21 15:04:18,861 - API còn lại: 611.0 yêu cầu, reset sau 5.72 phút
+2025-05-21 15:04:19,724 - Đã đẩy Data/contents_20250521_150417.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_150417.csv
+2025-05-21 15:04:19,789 - Đã gửi 456 bản ghi vào Kafka topic reddit_data
+2025-05-21 15:04:19,795 - Đã lưu 672 bản ghi vào Data/comments_20250521_150419.csv
+2025-05-21 15:04:21,756 - Đã đẩy Data/comments_20250521_150419.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_150419.csv
+2025-05-21 15:04:21,824 - Đã gửi 672 bản ghi vào Kafka topic reddit_data
+2025-05-21 15:04:21,825 - Đã thu thập 456 bài đăng từ r/programming
+2025-05-21 15:04:21,825 - Đang thu thập từ r/science... (Lần thử 1)
+2025-05-21 15:04:23,927 - API còn lại: 607.0 yêu cầu, reset sau 5.62 phút
+2025-05-21 15:05:55,283 - API còn lại: 540.0 yêu cầu, reset sau 4.08 phút
+2025-05-21 15:07:23,096 - API còn lại: 464.0 yêu cầu, reset sau 2.68 phút
+2025-05-21 15:07:48,462 - API còn lại: 445.0 yêu cầu, reset sau 2.23 phút
+2025-05-21 15:08:42,906 - API còn lại: 384.0 yêu cầu, reset sau 1.28 phút
+2025-05-21 15:09:40,702 - API còn lại: 318.0 yêu cầu, reset sau 0.35 phút
+2025-05-21 15:09:55,395 - API còn lại: 300.0 yêu cầu, reset sau 0.10 phút
+2025-05-21 15:10:58,348 - API còn lại: 926.0 yêu cầu, reset sau 9.03 phút
+2025-05-21 15:11:23,239 - API còn lại: 893.0 yêu cầu, reset sau 8.62 phút
+2025-05-21 15:12:06,043 - API còn lại: 835.0 yêu cầu, reset sau 7.92 phút
+2025-05-21 15:12:44,584 - API còn lại: 782.0 yêu cầu, reset sau 7.28 phút
+2025-05-21 15:13:10,009 - API còn lại: 745.0 yêu cầu, reset sau 6.83 phút
+2025-05-21 15:13:57,650 - API còn lại: 671.0 yêu cầu, reset sau 6.03 phút
+2025-05-21 15:14:12,035 - API còn lại: 648.0 yêu cầu, reset sau 5.82 phút
+2025-05-21 15:15:00,856 - API còn lại: 567.0 yêu cầu, reset sau 5.00 phút
+2025-05-21 15:15:10,033 - API còn lại: 550.0 yêu cầu, reset sau 4.83 phút
+2025-05-21 15:16:00,052 - API còn lại: 466.0 yêu cầu, reset sau 4.00 phút
+2025-05-21 15:16:09,773 - Đã lưu 500 bản ghi vào Data/contents_20250521_151609.csv
+2025-05-21 15:16:11,804 - Đã đẩy Data/contents_20250521_151609.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_151609.csv
+2025-05-21 15:16:11,861 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 15:16:11,908 - Đã lưu 6591 bản ghi vào Data/comments_20250521_151611.csv
+2025-05-21 15:16:13,817 - Đã đẩy Data/comments_20250521_151611.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_151611.csv
+2025-05-21 15:16:14,334 - Đã gửi 6591 bản ghi vào Kafka topic reddit_data
+2025-05-21 15:16:14,334 - Đã thu thập 500 bài đăng từ r/technology
+2025-05-21 15:16:14,337 - Đang thu thập từ r/todayilearned... (Lần thử 1)
+2025-05-21 15:16:16,251 - API còn lại: 445.0 yêu cầu, reset sau 3.75 phút
+2025-05-21 15:16:58,023 - API còn lại: 397.0 yêu cầu, reset sau 3.05 phút
+2025-05-21 15:17:52,758 - API còn lại: 335.0 yêu cầu, reset sau 2.12 phút
+2025-05-21 15:18:47,062 - Đã lưu 500 bản ghi vào Data/contents_20250521_151847.csv
+2025-05-21 15:18:48,989 - Đã đẩy Data/contents_20250521_151847.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_151847.csv
+2025-05-21 15:18:49,053 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 15:18:49,133 - Đã lưu 8647 bản ghi vào Data/comments_20250521_151849.csv
+2025-05-21 15:18:51,062 - Đã đẩy Data/comments_20250521_151849.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_151849.csv
+2025-05-21 15:18:52,030 - Đã gửi 8647 bản ghi vào Kafka topic reddit_data
+2025-05-21 15:18:52,030 - Đã thu thập 500 bài đăng từ r/science
+2025-05-21 15:18:53,660 - API còn lại: 270.0 yêu cầu, reset sau 1.12 phút
+2025-05-21 15:19:46,900 - API còn lại: 208.0 yêu cầu, reset sau 0.22 phút
+2025-05-21 15:20:01,788 - API còn lại: 194.0 yêu cầu, reset sau 0.02 phút
+2025-05-21 15:20:40,718 - API còn lại: 952.0 yêu cầu, reset sau 9.32 phút
+2025-05-21 15:21:02,534 - Đã lưu 120 bản ghi vào Data/contents_20250521_152102.csv
+2025-05-21 15:21:04,415 - Đã đẩy Data/contents_20250521_152102.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_152102.csv
+2025-05-21 15:21:04,464 - Đã gửi 120 bản ghi vào Kafka topic reddit_data
+2025-05-21 15:21:04,469 - Đã lưu 237 bản ghi vào Data/comments_20250521_152104.csv
+2025-05-21 15:21:06,333 - Đã đẩy Data/comments_20250521_152104.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_152104.csv
+2025-05-21 15:21:06,378 - Đã gửi 237 bản ghi vào Kafka topic reddit_data
+2025-05-21 15:21:06,378 - Đã thu thập 120 bài đăng từ r/science
+2025-05-21 15:23:28,566 - API còn lại: 890.0 yêu cầu, reset sau 6.55 phút
+2025-05-21 15:26:04,724 - API còn lại: 840.0 yêu cầu, reset sau 3.95 phút
+2025-05-21 15:28:18,561 - API còn lại: 789.0 yêu cầu, reset sau 1.72 phút
+2025-05-21 15:30:20,955 - API còn lại: 991.0 yêu cầu, reset sau 9.67 phút
+2025-05-21 15:32:12,772 - API còn lại: 940.0 yêu cầu, reset sau 7.80 phút
+2025-05-21 15:33:57,864 - API còn lại: 890.0 yêu cầu, reset sau 6.03 phút
+2025-05-21 15:35:32,410 - API còn lại: 839.0 yêu cầu, reset sau 4.48 phút
+2025-05-21 15:37:06,098 - API còn lại: 789.0 yêu cầu, reset sau 2.90 phút
+2025-05-21 15:38:22,212 - Đã lưu 500 bản ghi vào Data/contents_20250521_153822.csv
+2025-05-21 15:38:24,153 - Đã đẩy Data/contents_20250521_153822.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_153822.csv
+2025-05-21 15:38:24,235 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 15:38:24,368 - Đã lưu 21058 bản ghi vào Data/comments_20250521_153824.csv
+2025-05-21 15:38:26,188 - Đã đẩy Data/comments_20250521_153824.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_153824.csv
+2025-05-21 15:38:27,813 - Đã gửi 21058 bản ghi vào Kafka topic reddit_data
+2025-05-21 15:38:27,813 - Đã thu thập 500 bài đăng từ r/todayilearned
+2025-05-21 15:38:29,828 - API còn lại: 738.0 yêu cầu, reset sau 1.53 phút
+2025-05-21 15:39:40,374 - API còn lại: 688.0 yêu cầu, reset sau 0.33 phút
+2025-05-21 15:40:47,820 - API còn lại: 963.0 yêu cầu, reset sau 9.22 phút
+2025-05-21 15:41:50,203 - API còn lại: 913.0 yêu cầu, reset sau 8.17 phút
+2025-05-21 15:42:53,775 - API còn lại: 862.0 yêu cầu, reset sau 7.12 phút
+2025-05-21 15:43:48,418 - API còn lại: 812.0 yêu cầu, reset sau 6.20 phút
+2025-05-21 15:44:45,696 - API còn lại: 761.0 yêu cầu, reset sau 5.25 phút
+2025-05-21 15:45:40,906 - API còn lại: 711.0 yêu cầu, reset sau 4.32 phút
+2025-05-21 15:46:34,206 - Đã lưu 398 bản ghi vào Data/contents_20250521_154634.csv
+2025-05-21 15:46:36,143 - Đã đẩy Data/contents_20250521_154634.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_154634.csv
+2025-05-21 15:46:36,191 - Đã gửi 398 bản ghi vào Kafka topic reddit_data
+2025-05-21 15:46:36,217 - Đã lưu 3668 bản ghi vào Data/comments_20250521_154636.csv
+2025-05-21 15:46:38,163 - Đã đẩy Data/comments_20250521_154636.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_154636.csv
+2025-05-21 15:46:38,482 - Đã gửi 3668 bản ghi vào Kafka topic reddit_data
+2025-05-21 15:46:38,482 - Đã thu thập 398 bài đăng từ r/todayilearned
+2025-05-21 15:46:38,483 - 
+--- LĨNH VỰC: News ---
+2025-05-21 15:46:38,483 - Đang thu thập từ r/worldnews... (Lần thử 1)
+2025-05-21 15:46:38,484 - Đang thu thập từ r/news... (Lần thử 1)
+2025-05-21 15:46:40,238 - API còn lại: 661.0 yêu cầu, reset sau 3.35 phút
+2025-05-21 15:46:40,631 - API còn lại: 662.0 yêu cầu, reset sau 3.35 phút
+2025-05-21 15:50:25,812 - API còn lại: 988.0 yêu cầu, reset sau 9.60 phút
+2025-05-21 15:50:26,522 - API còn lại: 989.0 yêu cầu, reset sau 9.62 phút
+2025-05-21 15:53:46,733 - API còn lại: 889.0 yêu cầu, reset sau 6.23 phút
+2025-05-21 15:53:56,167 - API còn lại: 883.0 yêu cầu, reset sau 6.08 phút
+2025-05-21 15:56:35,151 - API còn lại: 787.0 yêu cầu, reset sau 3.42 phút
+2025-05-21 15:56:40,457 - API còn lại: 785.0 yêu cầu, reset sau 3.37 phút
+2025-05-21 15:59:11,286 - API còn lại: 685.0 yêu cầu, reset sau 0.83 phút
+2025-05-21 15:59:12,755 - API còn lại: 684.0 yêu cầu, reset sau 0.80 phút
+2025-05-21 16:01:22,486 - API còn lại: 936.0 yêu cầu, reset sau 8.63 phút
+2025-05-21 16:01:23,502 - API còn lại: 937.0 yêu cầu, reset sau 8.63 phút
+2025-05-21 16:03:26,303 - API còn lại: 844.0 yêu cầu, reset sau 6.57 phút
+2025-05-21 16:03:53,749 - API còn lại: 822.0 yêu cầu, reset sau 6.12 phút
+2025-05-21 16:05:08,549 - API còn lại: 754.0 yêu cầu, reset sau 4.87 phút
+2025-05-21 16:05:49,047 - API còn lại: 714.0 yêu cầu, reset sau 4.18 phút
+2025-05-21 16:06:36,568 - API còn lại: 663.0 yêu cầu, reset sau 3.40 phút
+2025-05-21 16:06:47,569 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1ka73vr/
+2025-05-21 16:06:51,546 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1kl1as7/
+2025-05-21 16:07:51,909 - API còn lại: 581.0 yêu cầu, reset sau 2.13 phút
+2025-05-21 16:07:53,274 - API còn lại: 580.0 yêu cầu, reset sau 2.13 phút
+2025-05-21 16:08:50,662 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1kfpezn/
+2025-05-21 16:08:58,490 - Đã lưu 500 bản ghi vào Data/contents_20250521_160858.csv
+2025-05-21 16:09:00,371 - Đã đẩy Data/contents_20250521_160858.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_160858.csv
+2025-05-21 16:09:00,427 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 16:09:00,556 - Đã lưu 23262 bản ghi vào Data/comments_20250521_160900.csv
+2025-05-21 16:09:02,437 - Đã đẩy Data/comments_20250521_160900.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_160900.csv
+2025-05-21 16:09:04,263 - Đã gửi 23262 bản ghi vào Kafka topic reddit_data
+2025-05-21 16:09:04,263 - Đã thu thập 500 bài đăng từ r/news
+2025-05-21 16:09:05,033 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1kfnuni/
+2025-05-21 16:09:05,039 - API còn lại: 494.0 yêu cầu, reset sau 0.92 phút
+2025-05-21 16:09:21,028 - Đã lưu 14 bản ghi vào Data/contents_20250521_160921.csv
+2025-05-21 16:09:22,868 - Đã đẩy Data/contents_20250521_160921.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_160921.csv
+2025-05-21 16:09:22,871 - Đã gửi 14 bản ghi vào Kafka topic reddit_data
+2025-05-21 16:09:22,872 - Đã lưu 68 bản ghi vào Data/comments_20250521_160922.csv
+2025-05-21 16:09:24,761 - Đã đẩy Data/comments_20250521_160922.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_160922.csv
+2025-05-21 16:09:24,808 - Đã gửi 68 bản ghi vào Kafka topic reddit_data
+2025-05-21 16:09:24,809 - Đã thu thập 14 bài đăng từ r/news
+2025-05-21 16:09:24,809 - Đang thu thập từ r/VietNam... (Lần thử 1)
+2025-05-21 16:09:27,752 - API còn lại: 468.0 yêu cầu, reset sau 0.57 phút
+2025-05-21 16:09:39,926 - API còn lại: 458.0 yêu cầu, reset sau 0.35 phút
+2025-05-21 16:09:54,064 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1kc3jiv/
+2025-05-21 16:10:59,336 - API còn lại: 937.0 yêu cầu, reset sau 9.03 phút
+2025-05-21 16:11:24,624 - Đã lưu 500 bản ghi vào Data/contents_20250521_161124.csv
+2025-05-21 16:11:26,500 - Đã đẩy Data/contents_20250521_161124.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_161124.csv
+2025-05-21 16:11:26,558 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 16:11:26,703 - Đã lưu 26857 bản ghi vào Data/comments_20250521_161126.csv
+2025-05-21 16:11:28,537 - Đã đẩy Data/comments_20250521_161126.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_161126.csv
+2025-05-21 16:11:30,469 - Đã gửi 26857 bản ghi vào Kafka topic reddit_data
+2025-05-21 16:11:30,469 - Đã thu thập 500 bài đăng từ r/worldnews
+2025-05-21 16:11:32,359 - API còn lại: 902.0 yêu cầu, reset sau 8.48 phút
+2025-05-21 16:12:24,669 - API còn lại: 844.0 yêu cầu, reset sau 7.63 phút
+2025-05-21 16:12:32,215 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1kkvrut/
+2025-05-21 16:13:08,971 - API còn lại: 794.0 yêu cầu, reset sau 6.88 phút
+2025-05-21 16:13:41,536 - API còn lại: 751.0 yêu cầu, reset sau 6.30 phút
+2025-05-21 16:14:29,512 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1kav3f8/
+2025-05-21 16:14:35,675 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1ko3kqi/
+2025-05-21 16:14:38,293 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1koupnj/
+2025-05-21 16:14:41,386 - API còn lại: 677.0 yêu cầu, reset sau 5.33 phút
+2025-05-21 16:14:56,013 - API còn lại: 658.0 yêu cầu, reset sau 5.10 phút
+2025-05-21 16:15:59,601 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1kj60sn/
+2025-05-21 16:15:59,608 - API còn lại: 570.0 yêu cầu, reset sau 4.00 phút
+2025-05-21 16:16:09,220 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1ka3i8u/
+2025-05-21 16:16:11,752 - API còn lại: 553.0 yêu cầu, reset sau 3.80 phút
+2025-05-21 16:16:45,339 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1k8rmpp/
+2025-05-21 16:17:01,689 - API còn lại: 484.0 yêu cầu, reset sau 3.00 phút
+2025-05-21 16:17:37,512 - API còn lại: 431.0 yêu cầu, reset sau 2.38 phút
+2025-05-21 16:17:52,740 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1kjl5nq/
+2025-05-21 16:18:02,482 - API còn lại: 395.0 yêu cầu, reset sau 1.97 phút
+2025-05-21 16:18:59,541 - API còn lại: 319.0 yêu cầu, reset sau 1.03 phút
+2025-05-21 16:19:05,535 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1ki9jwl/
+2025-05-21 16:19:07,987 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1ki9jwl/
+2025-05-21 16:19:35,116 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1kkqtvf/
+2025-05-21 16:19:37,222 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1khh4dv/
+2025-05-21 16:19:46,290 - API còn lại: 267.0 yêu cầu, reset sau 0.28 phút
+2025-05-21 16:19:55,780 - API còn lại: 251.0 yêu cầu, reset sau 0.07 phút
+2025-05-21 16:20:49,100 - Đã lưu 500 bản ghi vào Data/contents_20250521_162049.csv
+2025-05-21 16:20:51,005 - Đã đẩy Data/contents_20250521_162049.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_162049.csv
+2025-05-21 16:20:51,096 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 16:20:51,153 - Đã lưu 8520 bản ghi vào Data/comments_20250521_162051.csv
+2025-05-21 16:20:53,040 - Đã đẩy Data/comments_20250521_162051.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_162051.csv
+2025-05-21 16:20:53,703 - Đã gửi 8520 bản ghi vào Kafka topic reddit_data
+2025-05-21 16:20:53,703 - Đã thu thập 500 bài đăng từ r/VietNam
+2025-05-21 16:20:55,699 - API còn lại: 933.0 yêu cầu, reset sau 9.10 phút
+2025-05-21 16:21:40,828 - API còn lại: 864.0 yêu cầu, reset sau 8.33 phút
+2025-05-21 16:21:46,313 - API còn lại: 854.0 yêu cầu, reset sau 8.22 phút
+2025-05-21 16:22:40,873 - API còn lại: 767.0 yêu cầu, reset sau 7.35 phút
+2025-05-21 16:22:59,118 - API còn lại: 738.0 yêu cầu, reset sau 7.02 phút
+2025-05-21 16:23:30,723 - API còn lại: 685.0 yêu cầu, reset sau 6.48 phút
+2025-05-21 16:23:52,489 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1kdty1d/
+2025-05-21 16:24:12,149 - API còn lại: 618.0 yêu cầu, reset sau 5.82 phút
+2025-05-21 16:24:17,029 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1kak87l/
+2025-05-21 16:24:22,646 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1kabqml/
+2025-05-21 16:24:30,553 - API còn lại: 589.0 yêu cầu, reset sau 5.52 phút
+2025-05-21 16:25:19,645 - API còn lại: 505.0 yêu cầu, reset sau 4.67 phút
+2025-05-21 16:25:23,705 - API còn lại: 498.0 yêu cầu, reset sau 4.62 phút
+2025-05-21 16:25:47,249 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1kd1jab/
+2025-05-21 16:26:09,638 - API còn lại: 413.0 yêu cầu, reset sau 3.85 phút
+2025-05-21 16:26:26,136 - Đã lưu 500 bản ghi vào Data/contents_20250521_162626.csv
+2025-05-21 16:26:27,995 - Đã đẩy Data/contents_20250521_162626.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_162626.csv
+2025-05-21 16:26:28,053 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 16:26:28,124 - Đã lưu 10708 bản ghi vào Data/comments_20250521_162628.csv
+2025-05-21 16:26:29,991 - Đã đẩy Data/comments_20250521_162628.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_162628.csv
+2025-05-21 16:26:30,848 - Đã gửi 10708 bản ghi vào Kafka topic reddit_data
+2025-05-21 16:26:30,848 - Đã thu thập 500 bài đăng từ r/worldnews
+2025-05-21 16:26:30,853 - Đang thu thập từ r/AskReddit... (Lần thử 1)
+2025-05-21 16:26:32,138 - API còn lại: 376.0 yêu cầu, reset sau 3.47 phút
+2025-05-21 16:27:00,320 - API còn lại: 343.0 yêu cầu, reset sau 2.98 phút
+2025-05-21 16:27:55,056 - API còn lại: 281.0 yêu cầu, reset sau 2.10 phút
+2025-05-21 16:28:31,646 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1kdywsz/
+2025-05-21 16:28:47,405 - API còn lại: 220.0 yêu cầu, reset sau 1.20 phút
+2025-05-21 16:28:58,456 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1kbdsqp/
+2025-05-21 16:29:04,246 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1kb8z5j/
+2025-05-21 16:29:41,004 - Đã lưu 500 bản ghi vào Data/contents_20250521_162940.csv
+2025-05-21 16:29:42,841 - Đã đẩy Data/contents_20250521_162940.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_162940.csv
+2025-05-21 16:29:42,920 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 16:29:42,937 - Đã lưu 1673 bản ghi vào Data/comments_20250521_162942.csv
+2025-05-21 16:29:44,819 - Đã đẩy Data/comments_20250521_162942.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_162942.csv
+2025-05-21 16:29:44,963 - Đã gửi 1673 bản ghi vào Kafka topic reddit_data
+2025-05-21 16:29:44,963 - Đã thu thập 500 bài đăng từ r/VietNam
+2025-05-21 16:30:49,580 - API còn lại: 990.0 yêu cầu, reset sau 9.23 phút
+2025-05-21 16:31:30,891 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1k75hb4/
+2025-05-21 16:33:01,400 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1kpz8n7/
+2025-05-21 16:35:28,541 - API còn lại: 937.0 yêu cầu, reset sau 4.53 phút
+2025-05-21 16:40:18,600 - API còn lại: 998.0 yêu cầu, reset sau 9.80 phút
+2025-05-21 16:45:23,685 - API còn lại: 947.0 yêu cầu, reset sau 4.62 phút
+2025-05-21 16:49:56,511 - API còn lại: 897.0 yêu cầu, reset sau 0.16 phút
+2025-05-21 16:53:49,338 - API còn lại: 950.0 yêu cầu, reset sau 6.18 phút
+2025-05-21 16:57:13,787 - API còn lại: 900.0 yêu cầu, reset sau 2.78 phút
+2025-05-21 17:01:01,495 - API còn lại: 986.0 yêu cầu, reset sau 8.98 phút
+2025-05-21 17:04:39,997 - API còn lại: 936.0 yêu cầu, reset sau 5.38 phút
+2025-05-21 17:09:00,401 - Đã lưu 500 bản ghi vào Data/contents_20250521_170900.csv
+2025-05-21 17:09:02,246 - Đã đẩy Data/contents_20250521_170900.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_170900.csv
+2025-05-21 17:09:02,303 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 17:09:02,640 - Đã lưu 48959 bản ghi vào Data/comments_20250521_170902.csv
+2025-05-21 17:09:04,645 - Đã đẩy Data/comments_20250521_170902.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_170902.csv
+2025-05-21 17:09:08,928 - Đã gửi 48959 bản ghi vào Kafka topic reddit_data
+2025-05-21 17:09:08,928 - Đã thu thập 500 bài đăng từ r/AskReddit
+2025-05-21 17:09:11,581 - API còn lại: 885.0 yêu cầu, reset sau 0.83 phút
+2025-05-21 17:12:22,771 - API còn lại: 959.0 yêu cầu, reset sau 7.63 phút
+2025-05-21 17:15:08,497 - API còn lại: 908.0 yêu cầu, reset sau 4.87 phút
+2025-05-21 17:17:49,539 - API còn lại: 858.0 yêu cầu, reset sau 2.20 phút
+2025-05-21 17:20:13,455 - API còn lại: 994.0 yêu cầu, reset sau 9.78 phút
+2025-05-21 17:22:39,374 - API còn lại: 944.0 yêu cầu, reset sau 7.35 phút
+2025-05-21 17:24:55,263 - API còn lại: 893.0 yêu cầu, reset sau 5.08 phút
+2025-05-21 17:27:03,060 - API còn lại: 843.0 yêu cầu, reset sau 2.97 phút
+2025-05-21 17:29:13,713 - API còn lại: 792.0 yêu cầu, reset sau 0.78 phút
+2025-05-21 17:31:22,319 - API còn lại: 969.0 yêu cầu, reset sau 8.65 phút
+2025-05-21 17:33:23,358 - Đã lưu 500 bản ghi vào Data/contents_20250521_173323.csv
+2025-05-21 17:33:26,723 - Đã đẩy Data/contents_20250521_173323.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_173323.csv
+2025-05-21 17:33:26,873 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 17:33:27,229 - Đã lưu 45210 bản ghi vào Data/comments_20250521_173326.csv
+2025-05-21 17:33:30,556 - Đã đẩy Data/comments_20250521_173326.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_173326.csv
+2025-05-21 17:33:37,842 - Đã gửi 45210 bản ghi vào Kafka topic reddit_data
+2025-05-21 17:33:37,843 - Đã thu thập 500 bài đăng từ r/AskReddit
+2025-05-21 17:33:37,872 - 
+--- LĨNH VỰC: Entertainment ---
+2025-05-21 17:33:37,873 - Đang thu thập từ r/movies... (Lần thử 1)
+2025-05-21 17:33:37,875 - Đang thu thập từ r/gaming... (Lần thử 1)
+2025-05-21 17:33:40,045 - API còn lại: 917.0 yêu cầu, reset sau 6.35 phút
+2025-05-21 17:33:40,437 - API còn lại: 918.0 yêu cầu, reset sau 6.35 phút
+2025-05-21 17:37:04,567 - API còn lại: 820.0 yêu cầu, reset sau 2.97 phút
+2025-05-21 17:37:15,840 - API còn lại: 815.0 yêu cầu, reset sau 2.78 phút
+2025-05-21 17:40:00,103 - API còn lại: 724.0 yêu cầu, reset sau 0.02 phút
+2025-05-21 17:40:35,410 - API còn lại: 981.0 yêu cầu, reset sau 9.43 phút
+2025-05-21 17:42:33,384 - API còn lại: 904.0 yêu cầu, reset sau 7.45 phút
+2025-05-21 17:43:05,963 - API còn lại: 881.0 yêu cầu, reset sau 6.92 phút
+2025-05-21 17:44:47,692 - API còn lại: 808.0 yêu cầu, reset sau 5.22 phút
+2025-05-21 17:45:36,857 - API còn lại: 772.0 yêu cầu, reset sau 4.40 phút
+2025-05-21 17:47:04,328 - API còn lại: 707.0 yêu cầu, reset sau 2.93 phút
+2025-05-21 17:47:51,855 - API còn lại: 675.0 yêu cầu, reset sau 2.13 phút
+2025-05-21 17:49:22,016 - API còn lại: 608.0 yêu cầu, reset sau 0.65 phút
+2025-05-21 17:49:59,276 - API còn lại: 570.0 yêu cầu, reset sau 0.03 phút
+2025-05-21 17:51:20,819 - API còn lại: 937.0 yêu cầu, reset sau 8.68 phút
+2025-05-21 17:51:58,774 - API còn lại: 904.0 yêu cầu, reset sau 8.03 phút
+2025-05-21 17:53:22,173 - API còn lại: 834.0 yêu cầu, reset sau 6.65 phút
+2025-05-21 17:53:56,863 - API còn lại: 801.0 yêu cầu, reset sau 6.07 phút
+2025-05-21 17:55:12,319 - API còn lại: 730.0 yêu cầu, reset sau 4.80 phút
+2025-05-21 17:55:28,851 - API còn lại: 711.0 yêu cầu, reset sau 4.52 phút
+2025-05-21 17:56:51,922 - Đã lưu 500 bản ghi vào Data/contents_20250521_175651.csv
+2025-05-21 17:56:55,295 - Đã đẩy Data/contents_20250521_175651.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_175651.csv
+2025-05-21 17:56:55,547 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 17:56:55,813 - Đã lưu 31269 bản ghi vào Data/comments_20250521_175655.csv
+2025-05-21 17:56:59,056 - Đã đẩy Data/comments_20250521_175655.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_175655.csv
+2025-05-21 17:56:59,243 - Đã lưu 500 bản ghi vào Data/contents_20250521_175659.csv
+2025-05-21 17:57:03,265 - Đã đẩy Data/contents_20250521_175659.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_175659.csv
+2025-05-21 17:57:04,103 - Đã gửi 31269 bản ghi vào Kafka topic reddit_data
+2025-05-21 17:57:04,109 - Đã thu thập 500 bài đăng từ r/movies
+2025-05-21 17:57:04,227 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 17:57:04,512 - Đã lưu 32610 bản ghi vào Data/comments_20250521_175704.csv
+2025-05-21 17:57:06,283 - API còn lại: 617.0 yêu cầu, reset sau 2.92 phút
+2025-05-21 17:57:07,701 - Đã đẩy Data/comments_20250521_175704.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_175704.csv
+2025-05-21 17:57:12,959 - Đã gửi 32610 bản ghi vào Kafka topic reddit_data
+2025-05-21 17:57:12,959 - Đã thu thập 500 bài đăng từ r/gaming
+2025-05-21 17:57:14,805 - API còn lại: 612.0 yêu cầu, reset sau 2.77 phút
+2025-05-21 17:58:46,952 - API còn lại: 519.0 yêu cầu, reset sau 1.22 phút
+2025-05-21 17:58:50,759 - API còn lại: 515.0 yêu cầu, reset sau 1.17 phút
+2025-05-21 18:00:14,803 - API còn lại: 985.0 yêu cầu, reset sau 9.78 phút
+2025-05-21 18:00:24,232 - API còn lại: 975.0 yêu cầu, reset sau 9.62 phút
+2025-05-21 18:01:45,129 - API còn lại: 881.0 yêu cầu, reset sau 8.25 phút
+2025-05-21 18:01:45,974 - API còn lại: 880.0 yêu cầu, reset sau 8.23 phút
+2025-05-21 18:03:02,130 - API còn lại: 787.0 yêu cầu, reset sau 6.98 phút
+2025-05-21 18:03:14,087 - API còn lại: 770.0 yêu cầu, reset sau 6.77 phút
+2025-05-21 18:04:10,631 - API còn lại: 692.0 yêu cầu, reset sau 5.83 phút
+2025-05-21 18:04:28,374 - API còn lại: 664.0 yêu cầu, reset sau 5.52 phút
+2025-05-21 18:05:11,233 - API còn lại: 598.0 yêu cầu, reset sau 4.83 phút
+2025-05-21 18:05:39,359 - API còn lại: 554.0 yêu cầu, reset sau 4.37 phút
+2025-05-21 18:06:10,050 - API còn lại: 506.0 yêu cầu, reset sau 3.83 phút
+2025-05-21 18:06:52,664 - API còn lại: 441.0 yêu cầu, reset sau 3.12 phút
+2025-05-21 18:07:12,306 - API còn lại: 412.0 yêu cầu, reset sau 2.82 phút
+2025-05-21 18:08:04,473 - API còn lại: 329.0 yêu cầu, reset sau 1.95 phút
+2025-05-21 18:08:08,132 - API còn lại: 321.0 yêu cầu, reset sau 1.87 phút
+2025-05-21 18:09:05,223 - Đã lưu 500 bản ghi vào Data/contents_20250521_180905.csv
+2025-05-21 18:09:05,724 - API còn lại: 224.0 yêu cầu, reset sau 0.90 phút
+2025-05-21 18:09:08,373 - Đã đẩy Data/contents_20250521_180905.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_180905.csv
+2025-05-21 18:09:08,553 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 18:09:08,688 - Đã lưu 14125 bản ghi vào Data/comments_20250521_180908.csv
+2025-05-21 18:09:11,728 - Đã đẩy Data/comments_20250521_180908.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_180908.csv
+2025-05-21 18:09:13,728 - Đã gửi 14125 bản ghi vào Kafka topic reddit_data
+2025-05-21 18:09:13,728 - Đã thu thập 500 bài đăng từ r/gaming
+2025-05-21 18:09:13,738 - Đang thu thập từ r/music... (Lần thử 1)
+2025-05-21 18:09:15,184 - API còn lại: 217.0 yêu cầu, reset sau 0.77 phút
+2025-05-21 18:10:06,577 - Đã lưu 500 bản ghi vào Data/contents_20250521_181006.csv
+2025-05-21 18:10:09,651 - Đã đẩy Data/contents_20250521_181006.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_181006.csv
+2025-05-21 18:10:09,817 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 18:10:09,949 - Đã lưu 15628 bản ghi vào Data/comments_20250521_181009.csv
+2025-05-21 18:10:13,133 - Đã đẩy Data/comments_20250521_181009.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_181009.csv
+2025-05-21 18:10:15,588 - Đã gửi 15628 bản ghi vào Kafka topic reddit_data
+2025-05-21 18:10:15,589 - Đã thu thập 500 bài đăng từ r/movies
+2025-05-21 18:10:15,599 - Đang thu thập từ r/funny... (Lần thử 1)
+2025-05-21 18:10:17,450 - API còn lại: 990.0 yêu cầu, reset sau 9.73 phút
+2025-05-21 18:12:28,883 - API còn lại: 914.0 yêu cầu, reset sau 7.57 phút
+2025-05-21 18:12:56,320 - API còn lại: 896.0 yêu cầu, reset sau 7.10 phút
+2025-05-21 18:14:32,627 - API còn lại: 820.0 yêu cầu, reset sau 5.47 phút
+2025-05-21 18:15:27,497 - API còn lại: 783.0 yêu cầu, reset sau 4.57 phút
+2025-05-21 18:16:29,641 - API còn lại: 725.0 yêu cầu, reset sau 3.52 phút
+2025-05-21 18:17:17,970 - API còn lại: 681.0 yêu cầu, reset sau 2.75 phút
+2025-05-21 18:18:14,210 - API còn lại: 624.0 yêu cầu, reset sau 1.78 phút
+2025-05-21 18:18:59,596 - API còn lại: 580.0 yêu cầu, reset sau 1.03 phút
+2025-05-21 18:19:54,296 - API còn lại: 521.0 yêu cầu, reset sau 0.13 phút
+2025-05-21 18:20:24,920 - API còn lại: 973.0 yêu cầu, reset sau 9.58 phút
+2025-05-21 18:21:33,494 - API còn lại: 899.0 yêu cầu, reset sau 8.47 phút
+2025-05-21 18:21:52,043 - API còn lại: 877.0 yêu cầu, reset sau 8.15 phút
+2025-05-21 18:23:06,272 - API còn lại: 794.0 yêu cầu, reset sau 6.93 phút
+2025-05-21 18:23:11,472 - API còn lại: 783.0 yêu cầu, reset sau 6.80 phút
+2025-05-21 18:24:10,027 - API còn lại: 697.0 yêu cầu, reset sau 5.85 phút
+2025-05-21 18:24:24,197 - API còn lại: 677.0 yêu cầu, reset sau 5.62 phút
+2025-05-21 18:25:15,176 - Retrying due to ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Read timed out. (read timeout=16.0)")) status: GET https://oauth.reddit.com/comments/1ka11cr/
+2025-05-21 18:25:17,333 - Retrying due to ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Read timed out. (read timeout=16.0)")) status: GET https://oauth.reddit.com/comments/1k6to99/
+2025-05-21 18:25:36,528 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /comments/1ka11cr/?limit=2048&sort=confidence&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ca1bb55f7d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/comments/1ka11cr/
+2025-05-21 18:25:38,668 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /comments/1k6to99/?limit=2048&sort=confidence&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ca1cd9d7b10>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/comments/1k6to99/
+2025-05-21 18:25:59,041 - Lỗi API khi thu thập r/funny: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /comments/1ka11cr/?limit=2048&sort=confidence&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ca1ccb66bd0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-05-21 18:25:59,041 - Thử lại sau 60s...
+2025-05-21 18:26:02,667 - Lỗi API khi thu thập r/music: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /comments/1k6to99/?limit=2048&sort=confidence&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ca1ce5d6750>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-05-21 18:26:02,667 - Thử lại sau 60s...
+2025-05-21 18:26:59,041 - Đang thu thập từ r/funny... (Lần thử 2)
+2025-05-21 18:27:02,667 - Đang thu thập từ r/music... (Lần thử 2)
+2025-05-21 18:28:29,590 - API còn lại: 591.0 yêu cầu, reset sau 1.55 phút
+2025-05-21 18:28:49,631 - API còn lại: 581.0 yêu cầu, reset sau 1.20 phút
+2025-05-21 18:31:24,790 - Đã lưu 500 bản ghi vào Data/contents_20250521_183124.csv
+2025-05-21 18:31:27,880 - Đã đẩy Data/contents_20250521_183124.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_183124.csv
+2025-05-21 18:31:28,017 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 18:31:28,222 - Đã lưu 24016 bản ghi vào Data/comments_20250521_183128.csv
+2025-05-21 18:31:31,296 - Đã đẩy Data/comments_20250521_183128.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_183128.csv
+2025-05-21 18:31:33,001 - Đã lưu 500 bản ghi vào Data/contents_20250521_183132.csv
+2025-05-21 18:31:35,085 - Đã gửi 24016 bản ghi vào Kafka topic reddit_data
+2025-05-21 18:31:35,086 - Đã thu thập 500 bài đăng từ r/music
+2025-05-21 18:31:35,104 - API còn lại: 945.0 yêu cầu, reset sau 8.45 phút
+2025-05-21 18:31:36,536 - Đã đẩy Data/contents_20250521_183132.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_183132.csv
+2025-05-21 18:31:36,702 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 18:31:36,951 - Đã lưu 32018 bản ghi vào Data/comments_20250521_183136.csv
+2025-05-21 18:31:40,049 - Đã đẩy Data/comments_20250521_183136.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_183136.csv
+2025-05-21 18:31:44,825 - Đã gửi 32018 bản ghi vào Kafka topic reddit_data
+2025-05-21 18:31:44,825 - Đã thu thập 500 bài đăng từ r/funny
+2025-05-21 18:31:44,844 - API còn lại: 942.0 yêu cầu, reset sau 8.27 phút
+2025-05-21 18:33:52,024 - API còn lại: 852.0 yêu cầu, reset sau 6.17 phút
+2025-05-21 18:34:07,791 - API còn lại: 837.0 yêu cầu, reset sau 5.88 phút
+2025-05-21 18:35:45,112 - API còn lại: 750.0 yêu cầu, reset sau 4.25 phút
+2025-05-21 18:35:59,040 - API còn lại: 739.0 yêu cầu, reset sau 4.05 phút
+2025-05-21 18:37:35,606 - API còn lại: 642.0 yêu cầu, reset sau 2.47 phút
+2025-05-21 18:37:35,855 - API còn lại: 641.0 yêu cầu, reset sau 2.43 phút
+2025-05-21 18:39:01,710 - API còn lại: 547.0 yêu cầu, reset sau 0.97 phút
+2025-05-21 18:39:13,432 - API còn lại: 535.0 yêu cầu, reset sau 0.80 phút
+2025-05-21 18:40:36,720 - API còn lại: 963.0 yêu cầu, reset sau 9.38 phút
+2025-05-21 18:40:59,442 - API còn lại: 936.0 yêu cầu, reset sau 9.00 phút
+2025-05-21 18:41:53,693 - API còn lại: 872.0 yêu cầu, reset sau 8.12 phút
+2025-05-21 18:42:23,534 - API còn lại: 829.0 yêu cầu, reset sau 7.62 phút
+2025-05-21 18:43:04,667 - API còn lại: 769.0 yêu cầu, reset sau 6.95 phút
+2025-05-21 18:43:33,770 - API còn lại: 730.0 yêu cầu, reset sau 6.45 phút
+2025-05-21 18:44:18,172 - API còn lại: 661.0 yêu cầu, reset sau 5.70 phút
+2025-05-21 18:44:34,952 - API còn lại: 635.0 yêu cầu, reset sau 5.42 phút
+2025-05-21 18:45:29,841 - API còn lại: 554.0 yêu cầu, reset sau 4.50 phút
+2025-05-21 18:45:39,382 - API còn lại: 539.0 yêu cầu, reset sau 4.33 phút
+2025-05-21 18:46:32,333 - Đã lưu 500 bản ghi vào Data/contents_20250521_184632.csv
+2025-05-21 18:46:35,426 - Đã đẩy Data/contents_20250521_184632.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_184632.csv
+2025-05-21 18:46:35,587 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 18:46:35,784 - Đã lưu 21797 bản ghi vào Data/comments_20250521_184635.csv
+2025-05-21 18:46:38,969 - Đã đẩy Data/comments_20250521_184635.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_184635.csv
+2025-05-21 18:46:40,878 - Đã lưu 500 bản ghi vào Data/contents_20250521_184640.csv
+2025-05-21 18:46:42,381 - Đã gửi 21797 bản ghi vào Kafka topic reddit_data
+2025-05-21 18:46:42,382 - Đã thu thập 500 bài đăng từ r/funny
+2025-05-21 18:46:42,409 - API còn lại: 446.0 yêu cầu, reset sau 3.29 phút
+2025-05-21 18:46:44,366 - Đã đẩy Data/contents_20250521_184640.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_184640.csv
+2025-05-21 18:46:44,533 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 18:46:44,682 - Đã lưu 15550 bản ghi vào Data/comments_20250521_184644.csv
+2025-05-21 18:46:47,771 - Đã đẩy Data/comments_20250521_184644.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_184644.csv
+2025-05-21 18:46:49,733 - Đã gửi 15550 bản ghi vào Kafka topic reddit_data
+2025-05-21 18:46:49,734 - Đã thu thập 500 bài đăng từ r/music
+2025-05-21 18:46:49,744 - API còn lại: 440.0 yêu cầu, reset sau 3.17 phút
+2025-05-21 18:47:42,059 - API còn lại: 351.0 yêu cầu, reset sau 2.30 phút
+2025-05-21 18:47:49,662 - API còn lại: 338.0 yêu cầu, reset sau 2.17 phút
+2025-05-21 18:48:41,134 - API còn lại: 248.0 yêu cầu, reset sau 1.32 phút
+2025-05-21 18:48:45,612 - API còn lại: 241.0 yêu cầu, reset sau 1.23 phút
+2025-05-21 18:49:37,772 - API còn lại: 145.0 yêu cầu, reset sau 0.37 phút
+2025-05-21 18:49:40,097 - API còn lại: 140.0 yêu cầu, reset sau 0.33 phút
+2025-05-21 18:50:35,551 - API còn lại: 941.0 yêu cầu, reset sau 9.42 phút
+2025-05-21 18:50:37,869 - API còn lại: 937.0 yêu cầu, reset sau 9.37 phút
+2025-05-21 18:51:36,802 - API còn lại: 839.0 yêu cầu, reset sau 8.38 phút
+2025-05-21 18:51:39,231 - API còn lại: 835.0 yêu cầu, reset sau 8.35 phút
+2025-05-21 18:52:36,156 - API còn lại: 739.0 yêu cầu, reset sau 7.40 phút
+2025-05-21 18:52:39,524 - API còn lại: 734.0 yêu cầu, reset sau 7.33 phút
+2025-05-21 18:53:37,738 - API còn lại: 636.0 yêu cầu, reset sau 6.37 phút
+2025-05-21 18:53:39,722 - API còn lại: 633.0 yêu cầu, reset sau 6.33 phút
+2025-05-21 18:54:37,960 - API còn lại: 535.0 yêu cầu, reset sau 5.37 phút
+2025-05-21 18:54:38,978 - API còn lại: 533.0 yêu cầu, reset sau 5.35 phút
+2025-05-21 18:54:55,109 - Đã lưu 414 bản ghi vào Data/contents_20250521_185455.csv
+2025-05-21 18:54:58,292 - Đã đẩy Data/contents_20250521_185455.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_185455.csv
+2025-05-21 18:54:58,416 - Đã gửi 414 bản ghi vào Kafka topic reddit_data
+2025-05-21 18:54:58,473 - Đã lưu 5054 bản ghi vào Data/comments_20250521_185458.csv
+2025-05-21 18:55:01,565 - Đã đẩy Data/comments_20250521_185458.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_185458.csv
+2025-05-21 18:55:02,328 - Đã gửi 5054 bản ghi vào Kafka topic reddit_data
+2025-05-21 18:55:02,328 - Đã thu thập 414 bài đăng từ r/funny
+2025-05-21 18:55:02,328 - Đang thu thập từ r/memes... (Lần thử 1)
+2025-05-21 18:55:04,068 - API còn lại: 499.0 yêu cầu, reset sau 4.95 phút
+2025-05-21 18:55:14,935 - Đã lưu 430 bản ghi vào Data/contents_20250521_185514.csv
+2025-05-21 18:55:18,129 - Đã đẩy Data/contents_20250521_185514.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_185514.csv
+2025-05-21 18:55:18,297 - Đã gửi 430 bản ghi vào Kafka topic reddit_data
+2025-05-21 18:55:18,340 - Đã lưu 1926 bản ghi vào Data/comments_20250521_185518.csv
+2025-05-21 18:55:21,638 - Đã đẩy Data/comments_20250521_185518.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_185518.csv
+2025-05-21 18:55:22,006 - Đã gửi 1926 bản ghi vào Kafka topic reddit_data
+2025-05-21 18:55:22,006 - Đã thu thập 430 bài đăng từ r/music
+2025-05-21 18:58:00,719 - API còn lại: 439.0 yêu cầu, reset sau 2.00 phút
+2025-05-21 19:00:10,671 - API còn lại: 994.0 yêu cầu, reset sau 9.85 phút
+2025-05-21 19:02:03,221 - API còn lại: 944.0 yêu cầu, reset sau 7.95 phút
+2025-05-21 19:03:49,589 - API còn lại: 893.0 yêu cầu, reset sau 6.20 phút
+2025-05-21 19:05:23,046 - API còn lại: 843.0 yêu cầu, reset sau 4.63 phút
+2025-05-21 19:06:51,838 - API còn lại: 792.0 yêu cầu, reset sau 3.15 phút
+2025-05-21 19:08:21,896 - API còn lại: 742.0 yêu cầu, reset sau 1.63 phút
+2025-05-21 19:09:39,479 - API còn lại: 691.0 yêu cầu, reset sau 0.37 phút
+2025-05-21 19:10:57,045 - API còn lại: 963.0 yêu cầu, reset sau 9.05 phút
+2025-05-21 19:12:12,003 - Đã lưu 500 bản ghi vào Data/contents_20250521_191211.csv
+2025-05-21 19:12:15,151 - Đã đẩy Data/contents_20250521_191211.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_191211.csv
+2025-05-21 19:12:15,344 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 19:12:15,566 - Đã lưu 23735 bản ghi vào Data/comments_20250521_191215.csv
+2025-05-21 19:12:18,758 - Đã đẩy Data/comments_20250521_191215.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_191215.csv
+2025-05-21 19:12:22,104 - Đã gửi 23735 bản ghi vào Kafka topic reddit_data
+2025-05-21 19:12:22,104 - Đã thu thập 500 bài đăng từ r/memes
+2025-05-21 19:12:24,548 - API còn lại: 912.0 yêu cầu, reset sau 7.62 phút
+2025-05-21 19:13:34,676 - API còn lại: 862.0 yêu cầu, reset sau 6.42 phút
+2025-05-21 19:14:44,024 - API còn lại: 811.0 yêu cầu, reset sau 5.28 phút
+2025-05-21 19:15:54,110 - API còn lại: 761.0 yêu cầu, reset sau 4.10 phút
+2025-05-21 19:17:02,157 - API còn lại: 710.0 yêu cầu, reset sau 2.98 phút
+2025-05-21 19:18:10,881 - API còn lại: 660.0 yêu cầu, reset sau 1.82 phút
+2025-05-21 19:19:15,745 - API còn lại: 609.0 yêu cầu, reset sau 0.77 phút
+2025-05-21 19:20:13,543 - API còn lại: 988.0 yêu cầu, reset sau 9.77 phút
+2025-05-21 19:21:12,651 - API còn lại: 937.0 yêu cầu, reset sau 8.80 phút
+2025-05-21 19:22:11,163 - API còn lại: 887.0 yêu cầu, reset sau 7.82 phút
+2025-05-21 19:22:59,005 - Đã lưu 491 bản ghi vào Data/contents_20250521_192258.csv
+2025-05-21 19:23:02,182 - Đã đẩy Data/contents_20250521_192258.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_192258.csv
+2025-05-21 19:23:02,304 - Đã gửi 491 bản ghi vào Kafka topic reddit_data
+2025-05-21 19:23:02,395 - Đã lưu 7276 bản ghi vào Data/comments_20250521_192302.csv
+2025-05-21 19:23:05,642 - Đã đẩy Data/comments_20250521_192302.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_192302.csv
+2025-05-21 19:23:06,725 - Đã gửi 7276 bản ghi vào Kafka topic reddit_data
+2025-05-21 19:23:06,725 - Đã thu thập 491 bài đăng từ r/memes
+2025-05-21 19:23:06,725 - 
+--- LĨNH VỰC: Lifestyle ---
+2025-05-21 19:23:06,726 - Đang thu thập từ r/fitness... (Lần thử 1)
+2025-05-21 19:23:06,726 - Đang thu thập từ r/food... (Lần thử 1)
+2025-05-21 19:23:07,842 - API còn lại: 845.0 yêu cầu, reset sau 6.88 phút
+2025-05-21 19:23:10,254 - API còn lại: 844.0 yêu cầu, reset sau 6.87 phút
+2025-05-21 19:24:34,873 - API còn lại: 753.0 yêu cầu, reset sau 5.43 phút
+2025-05-21 19:24:49,670 - Đã lưu 48 bản ghi vào Data/contents_20250521_192449.csv
+2025-05-21 19:24:53,096 - Đã đẩy Data/contents_20250521_192449.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_192449.csv
+2025-05-21 19:24:53,133 - Đã gửi 48 bản ghi vào Kafka topic reddit_data
+2025-05-21 19:24:53,172 - Đã lưu 1739 bản ghi vào Data/comments_20250521_192453.csv
+2025-05-21 19:24:56,463 - Đã đẩy Data/comments_20250521_192453.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_192453.csv
+2025-05-21 19:24:56,868 - Đã gửi 1739 bản ghi vào Kafka topic reddit_data
+2025-05-21 19:24:56,868 - Đã thu thập 48 bài đăng từ r/fitness
+2025-05-21 19:24:56,868 - Đang thu thập từ r/travel... (Lần thử 1)
+2025-05-21 19:25:00,735 - API còn lại: 729.0 yêu cầu, reset sau 5.03 phút
+2025-05-21 19:25:39,462 - API còn lại: 679.0 yêu cầu, reset sau 4.38 phút
+2025-05-21 19:26:39,048 - API còn lại: 603.0 yêu cầu, reset sau 3.37 phút
+2025-05-21 19:26:58,231 - API còn lại: 576.0 yêu cầu, reset sau 3.03 phút
+2025-05-21 19:27:36,600 - API còn lại: 526.0 yêu cầu, reset sau 2.42 phút
+2025-05-21 19:28:31,438 - API còn lại: 450.0 yêu cầu, reset sau 1.47 phút
+2025-05-21 19:28:41,702 - API còn lại: 434.0 yêu cầu, reset sau 1.33 phút
+2025-05-21 19:29:28,237 - API còn lại: 368.0 yêu cầu, reset sau 0.57 phút
+2025-05-21 19:30:12,940 - API còn lại: 981.0 yêu cầu, reset sau 9.80 phút
+2025-05-21 19:30:22,926 - API còn lại: 965.0 yêu cầu, reset sau 9.62 phút
+2025-05-21 19:31:19,583 - API còn lại: 873.0 yêu cầu, reset sau 8.70 phút
+2025-05-21 19:31:23,072 - API còn lại: 868.0 yêu cầu, reset sau 8.65 phút
+2025-05-21 19:32:13,168 - API còn lại: 778.0 yêu cầu, reset sau 7.78 phút
+2025-05-21 19:32:22,844 - API còn lại: 762.0 yêu cầu, reset sau 7.62 phút
+2025-05-21 19:33:09,908 - Đã lưu 500 bản ghi vào Data/contents_20250521_193309.csv
+2025-05-21 19:33:13,164 - Đã đẩy Data/contents_20250521_193309.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_193309.csv
+2025-05-21 19:33:13,326 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 19:33:13,414 - Đã lưu 6167 bản ghi vào Data/comments_20250521_193313.csv
+2025-05-21 19:33:16,665 - Đã đẩy Data/comments_20250521_193313.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_193313.csv
+2025-05-21 19:33:17,327 - Đã gửi 6167 bản ghi vào Kafka topic reddit_data
+2025-05-21 19:33:17,327 - Đã thu thập 500 bài đăng từ r/food
+2025-05-21 19:33:20,433 - API còn lại: 675.0 yêu cầu, reset sau 6.70 phút
+2025-05-21 19:33:26,926 - API còn lại: 663.0 yêu cầu, reset sau 6.58 phút
+2025-05-21 19:34:14,869 - API còn lại: 574.0 yêu cầu, reset sau 5.75 phút
+2025-05-21 19:34:23,345 - API còn lại: 560.0 yêu cầu, reset sau 5.62 phút
+2025-05-21 19:35:17,488 - API còn lại: 473.0 yêu cầu, reset sau 4.75 phút
+2025-05-21 19:35:25,793 - API còn lại: 460.0 yêu cầu, reset sau 4.60 phút
+2025-05-21 19:36:15,775 - API còn lại: 373.0 yêu cầu, reset sau 3.73 phút
+2025-05-21 19:36:24,422 - API còn lại: 358.0 yêu cầu, reset sau 3.58 phút
+2025-05-21 19:36:30,694 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1kdrv9i/
+2025-05-21 19:36:32,900 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1kdrv9i/
+2025-05-21 19:36:36,360 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1kebrwg/
+2025-05-21 19:37:19,219 - API còn lại: 271.0 yêu cầu, reset sau 2.72 phút
+2025-05-21 19:37:26,501 - Đã lưu 500 bản ghi vào Data/contents_20250521_193726.csv
+2025-05-21 19:37:29,562 - Đã đẩy Data/contents_20250521_193726.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_193726.csv
+2025-05-21 19:37:29,808 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 19:37:29,955 - Đã lưu 12130 bản ghi vào Data/comments_20250521_193729.csv
+2025-05-21 19:37:33,033 - Đã đẩy Data/comments_20250521_193729.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_193729.csv
+2025-05-21 19:37:35,099 - Đã gửi 12130 bản ghi vào Kafka topic reddit_data
+2025-05-21 19:37:35,100 - Đã thu thập 500 bài đăng từ r/travel
+2025-05-21 19:37:37,755 - API còn lại: 245.0 yêu cầu, reset sau 2.40 phút
+2025-05-21 19:38:12,198 - API còn lại: 178.0 yêu cầu, reset sau 1.80 phút
+2025-05-21 19:38:33,881 - API còn lại: 142.0 yêu cầu, reset sau 1.43 phút
+2025-05-21 19:39:16,481 - API còn lại: 77.0 yêu cầu, reset sau 0.78 phút
+2025-05-21 19:39:34,504 - API còn lại: 43.0 yêu cầu, reset sau 0.45 phút
+2025-05-21 19:39:34,504 - Đang chờ 36.98s do giới hạn API...
+2025-05-21 19:40:08,810 - API còn lại: 991.0 yêu cầu, reset sau 9.85 phút
+2025-05-21 19:41:04,405 - API còn lại: 894.0 yêu cầu, reset sau 8.95 phút
+2025-05-21 19:41:06,497 - API còn lại: 889.0 yêu cầu, reset sau 8.88 phút
+2025-05-21 19:42:04,125 - API còn lại: 793.0 yêu cầu, reset sau 7.93 phút
+2025-05-21 19:42:08,688 - API còn lại: 787.0 yêu cầu, reset sau 7.87 phút
+2025-05-21 19:43:03,673 - Đã lưu 500 bản ghi vào Data/contents_20250521_194303.csv
+2025-05-21 19:43:06,765 - Đã đẩy Data/contents_20250521_194303.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_194303.csv
+2025-05-21 19:43:06,797 - API còn lại: 689.0 yêu cầu, reset sau 6.88 phút
+2025-05-21 19:43:06,908 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 19:43:06,923 - Đã lưu 1329 bản ghi vào Data/comments_20250521_194306.csv
+2025-05-21 19:43:10,058 - Đã đẩy Data/comments_20250521_194306.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_194306.csv
+2025-05-21 19:43:10,304 - Đã gửi 1329 bản ghi vào Kafka topic reddit_data
+2025-05-21 19:43:10,305 - Đã thu thập 500 bài đăng từ r/food
+2025-05-21 19:43:10,307 - Đang thu thập từ r/aww... (Lần thử 1)
+2025-05-21 19:43:13,196 - API còn lại: 685.0 yêu cầu, reset sau 6.82 phút
+2025-05-21 19:44:00,357 - API còn lại: 625.0 yêu cầu, reset sau 6.02 phút
+2025-05-21 19:44:52,234 - API còn lại: 555.0 yêu cầu, reset sau 5.13 phút
+2025-05-21 19:45:27,909 - API còn lại: 504.0 yêu cầu, reset sau 4.55 phút
+2025-05-21 19:45:45,299 - API còn lại: 479.0 yêu cầu, reset sau 4.27 phút
+2025-05-21 19:46:36,704 - API còn lại: 395.0 yêu cầu, reset sau 3.38 phút
+2025-05-21 19:46:51,046 - API còn lại: 373.0 yêu cầu, reset sau 3.18 phút
+2025-05-21 19:47:25,263 - Đã lưu 498 bản ghi vào Data/contents_20250521_194725.csv
+2025-05-21 19:47:28,339 - Đã đẩy Data/contents_20250521_194725.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_194725.csv
+2025-05-21 19:47:28,614 - Đã gửi 498 bản ghi vào Kafka topic reddit_data
+2025-05-21 19:47:28,655 - Đã lưu 1685 bản ghi vào Data/comments_20250521_194728.csv
+2025-05-21 19:47:31,794 - Đã đẩy Data/comments_20250521_194728.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_194728.csv
+2025-05-21 19:47:32,184 - Đã gửi 1685 bản ghi vào Kafka topic reddit_data
+2025-05-21 19:47:32,184 - Đã thu thập 498 bài đăng từ r/travel
+2025-05-21 19:48:06,224 - API còn lại: 287.0 yêu cầu, reset sau 1.90 phút
+2025-05-21 19:49:23,558 - API còn lại: 236.0 yêu cầu, reset sau 0.65 phút
+2025-05-21 19:50:33,098 - API còn lại: 978.0 yêu cầu, reset sau 9.47 phút
+2025-05-21 19:51:43,166 - API còn lại: 927.0 yêu cầu, reset sau 8.33 phút
+2025-05-21 19:52:47,412 - API còn lại: 877.0 yêu cầu, reset sau 7.20 phút
+2025-05-21 19:53:53,157 - API còn lại: 826.0 yêu cầu, reset sau 6.15 phút
+2025-05-21 19:54:53,015 - API còn lại: 776.0 yêu cầu, reset sau 5.12 phút
+2025-05-21 19:55:52,720 - Đã lưu 500 bản ghi vào Data/contents_20250521_195552.csv
+2025-05-21 19:55:55,868 - Đã đẩy Data/contents_20250521_195552.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_195552.csv
+2025-05-21 19:55:56,003 - Đã gửi 500 bản ghi vào Kafka topic reddit_data
+2025-05-21 19:55:56,117 - Đã lưu 15013 bản ghi vào Data/comments_20250521_195556.csv
+2025-05-21 19:55:59,188 - Đã đẩy Data/comments_20250521_195556.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_195556.csv
+2025-05-21 19:56:01,164 - Đã gửi 15013 bản ghi vào Kafka topic reddit_data
+2025-05-21 19:56:01,165 - Đã thu thập 500 bài đăng từ r/aww
+2025-05-21 19:56:04,142 - API còn lại: 726.0 yêu cầu, reset sau 3.97 phút
+2025-05-21 19:57:01,656 - API còn lại: 676.0 yêu cầu, reset sau 2.97 phút
+2025-05-21 19:58:01,021 - API còn lại: 625.0 yêu cầu, reset sau 2.03 phút
+2025-05-21 19:58:56,193 - API còn lại: 575.0 yêu cầu, reset sau 1.07 phút
+2025-05-21 19:59:56,288 - API còn lại: 524.0 yêu cầu, reset sau 0.10 phút
+2025-05-21 20:00:51,146 - API còn lại: 953.0 yêu cầu, reset sau 9.15 phút
+2025-05-21 20:01:48,767 - API còn lại: 902.0 yêu cầu, reset sau 8.23 phút
+2025-05-21 20:02:43,865 - API còn lại: 852.0 yêu cầu, reset sau 7.27 phút
+2025-05-21 20:03:40,640 - API còn lại: 801.0 yêu cầu, reset sau 6.35 phút
+2025-05-21 20:04:34,671 - API còn lại: 751.0 yêu cầu, reset sau 5.42 phút
+2025-05-21 20:05:26,455 - Đã lưu 497 bản ghi vào Data/contents_20250521_200526.csv
+2025-05-21 20:05:29,555 - Đã đẩy Data/contents_20250521_200526.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_200526.csv
+2025-05-21 20:05:29,709 - Đã gửi 497 bản ghi vào Kafka topic reddit_data
+2025-05-21 20:05:29,740 - Đã lưu 2571 bản ghi vào Data/comments_20250521_200529.csv
+2025-05-21 20:05:32,886 - Đã đẩy Data/comments_20250521_200529.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_200529.csv
+2025-05-21 20:05:33,163 - Đã gửi 2571 bản ghi vào Kafka topic reddit_data
+2025-05-21 20:05:33,164 - Đã thu thập 497 bài đăng từ r/aww
+2025-05-21 20:05:33,239 - Đã lưu 3466 bản ghi vào Data/contents_20250521_200533.csv
+2025-05-21 20:05:36,302 - Đã đẩy Data/contents_20250521_200533.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250521_200533.csv
+2025-05-21 20:05:37,171 - Đã gửi 3466 bản ghi vào Kafka topic reddit_data
+2025-05-21 20:05:37,447 - Đã lưu 28486 bản ghi vào Data/comments_20250521_200537.csv
+2025-05-21 20:05:40,628 - Đã đẩy Data/comments_20250521_200537.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250521_200537.csv
+2025-05-21 20:05:44,873 - Đã gửi 28486 bản ghi vào Kafka topic reddit_data
+2025-05-21 20:05:44,874 - 
+HOÀN TẤT THU THẬP DỮ LIỆU: 2025-05-21 20:05:44
+2025-05-21 20:05:44,874 - Tổng thời gian chạy: 5.40 giờ

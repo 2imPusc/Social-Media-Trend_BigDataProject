@@ -1,9 +1,9 @@
 FROM bitnami/spark:3.5.3
 
 # # Copy các JAR cần thiết
-# COPY jars/spark-sql-kafka-0-10_2.12-3.5.3.jar /opt/bitnami/spark/jars/
-# COPY jars/kafka-clients-3.5.1.jar /opt/bitnami/spark/jars/
-# COPY jars/elasticsearch-spark-30_2.12-8.14.1.jar /opt/bitnami/spark/jars/
+COPY jars/spark-sql-kafka-0-10_2.12-3.5.3.jar /opt/bitnami/spark/jars/
+COPY jars/kafka-clients-3.5.1.jar /opt/bitnami/spark/jars/
+COPY jars/elasticsearch-spark-30_2.12-8.14.1.jar /opt/bitnami/spark/jars/
 
 # Copy requirements.txt
 COPY requirements.txt /tmp/requirements.txt
