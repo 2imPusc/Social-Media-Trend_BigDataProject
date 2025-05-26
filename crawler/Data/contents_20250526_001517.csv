@@ -1,0 +1,114 @@
+﻿content_id,platform,title,content,created_at,source_id,source_name,category_id,category_name,tags,views,score,comment_count,duration,upvote_ratio,url,author,crawl_time
+1kbswlq,reddit,RustAssistant: Using LLMs to Fix Compilation Errors in Rust Code,,2025-04-30T22:10:15Z,programming,programming,technology,Technology,[],0,0,2,,0.07,https://www.microsoft.com/en-us/research/publication/rustassistant-using-llms-to-fix-compilation-errors-in-rust-code/,ketralnis,2025-05-25T17:14:32.831115Z
+1k9amd6,reddit,How to Grow From Mid-Level to Senior Software Engineer,,2025-04-27T18:19:13Z,programming,programming,technology,Technology,[],0,0,0,,0.2,https://www.youtube.com/watch?v=2O9yZNVpgao,gregorojstersek,2025-05-25T17:14:33.715491Z
+1kqo2tc,reddit,Why Rust is a Terrible First Language for New Programmers (Despite the Hype),,2025-05-19T21:40:54Z,programming,programming,technology,Technology,[],0,0,41,,0.36,https://medium.com/p/20375d37f6d4,Starks-Technology,2025-05-25T17:14:34.552408Z
+1kjayic,reddit,"Build Your Own Local AI Podcaster with Kokoro, LangChain, and Streamlit",,2025-05-10T14:00:10Z,programming,programming,technology,Technology,[],0,0,1,,0.06,https://www.youtube.com/watch?v=h5D4rDNe8xk&list=PLp01ObP3udmq2quR-RfrX4zNut_t_kNot&index=19,Flashy-Thought-5472,2025-05-25T17:14:35.793881Z
+1kiyn9d,reddit,"Trabajando con partes de colecciones sin copiar: slices, spans y más",,2025-05-10T01:23:25Z,programming,programming,technology,Technology,[],0,0,1,,0.07,https://emanuelpeg.blogspot.com/2025/05/trabajando-con-partes-de-colecciones.html,emanuelpeg,2025-05-25T17:14:36.694469Z
+1khikf2,reddit,Beans Singleton en Spring: ¿Son un riesgo en entornos concurrentes?,,2025-05-08T05:32:55Z,programming,programming,technology,Technology,[],0,0,0,,0.07,https://emanuelpeg.blogspot.com/2025/05/beans-singleton-en-spring-son-un-riesgo.html,emanuelpeg,2025-05-25T17:14:37.559328Z
+1k9s69y,reddit,AI Agents = Mentor + Assistant,,2025-04-28T10:24:10Z,programming,programming,technology,Technology,[],0,0,4,,0.07,https://open.substack.com/pub/thehustlingengineer/p/how-ai-agents-can-be-your-mentor?r=yznlc&utm_medium=ios,musskk,2025-05-25T17:14:38.410179Z
+1ks4p1o,reddit,I wrote a piece about what it means to be a programmer in 2025 – would love your thoughts,"Hey folks,  
+I’ve been thinking a lot about how programming is changing—especially with the rise of generative AI. It feels like the job isn’t just about writing code anymore, but more about guiding and shaping conversations, both with humans and machines.
+
+I tried to capture some of those thoughts in an article I just finished:  
+👉 *How Programming Has Changed Forever – Inside the 2025 mindset — and how to thrive alongside AI*
+
+It’s not a hype piece—it’s more of a reflection on how we work, think, and what skills still matter. I also share how I wrote the article using the same back-and-forth workflow I now use for coding with AI.
+
+If you give it a read, I’d really appreciate any feedback or pushback. Curious how others see this shift.
+
+Thanks!",2025-05-21T18:07:00Z,programming,programming,technology,Technology,[],0,0,9,,0.24,https://mikael-ainalem.medium.com/how-programming-has-changed-forever-58393eaaf446,mikaelainalem,2025-05-25T17:14:39.257957Z
+1kp97a1,reddit,The Fastest Way to Spend Less Time Debugging - Uncle Bob,,2025-05-18T02:04:48Z,programming,programming,technology,Technology,[],0,0,5,,0.15,https://youtu.be/6sN7nTj6Ud8,ConcentrateOk8967,2025-05-25T17:14:40.161702Z
+1kn0czy,reddit,Random Ask,# Can you envision a scenario in which VIBE CODING ceases to exist entirely?,2025-05-15T05:20:06Z,programming,programming,technology,Technology,[],0,0,1,,0.11,https://youtu.be/Tw18-4U7mts?si=3UpYdj1XO7jl79R0,Abir_Islam,2025-05-25T17:14:41.045389Z
+1kkao8a,reddit,7 Common Mistakes When Growing From Engineer to a Lead Role,,2025-05-11T20:35:06Z,programming,programming,technology,Technology,[],0,0,2,,0.11,https://youtu.be/zdDDTofqC9E?feature=shared,gregorojstersek,2025-05-25T17:14:41.901140Z
+1kj82r7,reddit,Degrees Are Cool. But So Is Actually Tinkering and Writing Code,"This post talks about the importance of actually writing code and getting your hands dirty, instead of waiting for the perfect course, college, curriculum, or teacher.  
+And in this rapidly changing tech world? I think it is really important.",2025-05-10T11:28:41Z,programming,programming,technology,Technology,[],0,0,8,,0.33,https://medium.com/@prouspwhs/degrees-are-cool-but-so-is-actually-tinkering-and-writing-code-d36e6a9002f4,Maleficent-Fall-3246,2025-05-25T17:14:42.761452Z
+1k8hqgz,reddit,"Introducing ""Vibe-Ops""",,2025-04-26T17:03:05Z,programming,programming,technology,Technology,[],0,0,4,,0.25,https://infrabase.co,utpalnadiger,2025-05-25T17:14:43.687613Z
+1ks5vdc,reddit,Why I started writing test cases for my code.,,2025-05-21T18:53:51Z,programming,programming,technology,Technology,[],0,0,19,,0.27,https://medium.com/@nageshrajcodes/why-writing-tests-wasnt-natural-for-me-and-how-i-finally-got-over-the-hump-b4bc275f0732?sk=276d4517daadf37741ac01e62a5420b9,pseudonym24,2025-05-25T17:14:44.603139Z
+1kpol01,reddit,AGILE is NOT what you think!,,2025-05-18T16:54:44Z,programming,programming,technology,Technology,[],0,0,9,,0.15,https://medium.com/javarevisited/agile-is-not-what-you-think-e1a7fb592a27?sk=abe0692e4403bcbc543d3ab9132c77d4,SamuraiDeveloper21,2025-05-25T17:14:45.555357Z
+1knwxhb,reddit,I never really liked the term “10x engineer”,"I never really liked the term “10x engineer” for many reasons:  
+\- It’s more of a buzzword than a real thing  
+\- It doesn’t really measure growth or success  
+\- It’s thrown around way too much for it to be true in every case  
+\- I’ve never met a true “10x engineer” that called himself as such
+
+There are people that write legendary code, avoid meetings, and outperform entire teams? Yes, but I prefer the term “Self Guided Missile”. You point them at a target and they figure out how to hit it on their own, no micro-management needed.
+
+That’s why these people avoid meetings and dodge calls, they would rather keep their flow state, finish their task independently, and direct report when they’re done. (Definitely talking from personal experience here)
+
+\- Excellent people select their goal and reach it independently  
+\- Strong people need to be shown the goal and reach it themselves  
+\- Average people need weekly guidance to reach goals  
+\- Below average people often don’t reach goals even with constant guidance
+
+If you’re a startup founder looking to build your MVP quick and get to market fast, you don’t need a round of investment to hire a team of below average senior engineers. You need to partner with a single “Self Guided Missile” that can ship your product while you focus on the business and sales.",2025-05-16T09:52:41Z,programming,programming,technology,Technology,[],0,0,31,,0.22,https://rj11io.substack.com/p/i-never-really-liked-the-term-10x,External_Storm_4715,2025-05-25T17:14:46.473129Z
+1km440g,reddit,Replacement for CSS,"After writing this post in the CSS subreddit, which was admittedly a bit of a rant, I'm looking for more input on this. I'm considering to build some kind of replacement for CSS, which in its first version just renders to CSS with JavaScript or WebAssembly as a compatibility mechanism. The long-time goal is, that this engine should be able to replace CSS in its entirety. At least theoretically, that this is unlikely to happen from today's point of view is a different question.
+
+The comments I got in the CSS subreddit seem to be predominantly from people who view CSS and the W3C as some kind of divine entities which can, by definition, never be wrong and only deliver perfection.
+
+Any ideas how to do a better layout engine based on constraints are really appreciated. Constructive criticism is very welcome, too.",2025-05-14T02:17:07Z,programming,programming,technology,Technology,[],0,0,20,,0.17,https://www.reddit.com/r/css/comments/1kju06n/css_is_badly_designed_prove_me_wrong/,Unique_Hope8794,2025-05-25T17:14:47.475467Z
+1kkha8d,reddit,Day 40: Are You Underusing `JSON.stringify()` in JavaScript?,,2025-05-12T02:02:25Z,programming,programming,technology,Technology,[],0,0,3,,0.26,https://javascript.plainenglish.io/day-40-are-you-underusing-json-stringify-in-javascript-aa05f04e89f0,MysteriousEye8494,2025-05-25T17:14:48.447400Z
+1kielb2,reddit,Why developers and their bosses disagree over generative AI,,2025-05-09T09:49:05Z,programming,programming,technology,Technology,[],0,0,7,,0.18,https://leaddev.com/technical-direction/why-developers-and-their-bosses-disagree-over-generative-ai,scarey102,2025-05-25T17:14:49.319732Z
+1kd7zn1,reddit,unsafe acceso directo a la memoria en C#,,2025-05-02T18:21:11Z,programming,programming,technology,Technology,[],0,0,0,,0.1,https://emanuelpeg.blogspot.com/2025/05/unsafe-acceso-directo-la-memoria-en-c.html,emanuelpeg,2025-05-25T17:14:50.237007Z
+1kbdqnu,reddit,Why Auto-Generated Technical Documentation from Your Codebase Is Better,,2025-04-30T11:07:08Z,programming,programming,technology,Technology,[],0,0,5,,0.14,https://stackstudio.io/blog/the-death-of-the-readme-why-ai-generated-technical-documentation-from-your-codebase-is-the-future,LeadingFarmer3923,2025-05-25T17:14:51.114635Z
+1kayh28,reddit,Why you should maintain a personal LLM coding benchmark,,2025-04-29T20:45:51Z,programming,programming,technology,Technology,[],0,0,0,,0.21,http://blog.ezyang.com/2025/04/why-you-should-maintain-a-personal-llm-coding-benchmark/,alexeyr,2025-05-25T17:14:51.989975Z
+1kpmmis,reddit,2025 Guide to Prompt Engineering in your IDE,,2025-05-18T15:29:12Z,programming,programming,technology,Technology,[],0,0,2,,0.17,https://read.highgrowthengineer.com/2025-guide-to-prompt-engineering,xxjcutlerxx,2025-05-25T17:14:53.254304Z
+1kld233,reddit,LLM-God (Prompt multiple LLM's at once!),"I’ve been building and maintaining LLM-God, a desktop LLM prompting app for Windows, built with Electron. It allows you to ask one question to multiple LLM web interfaces at once and see all the returned answers in one place. If you hate tabbing through multiple browser tabs to ask multiple LLM's the same question, this project is the antidote for that.
+
+It is using JavaScript to inject the global user prompt into the HTML DOM bodies of the individual browser views, which contain the webpages of the different LLM's. When the user clicks Ctrl + Enter, a message is sent to the main app which tells the individual pages to programatically click the ""send"" button. The communication using IPC is also happening when the user tries to add more LLM browser views to the main view. 
+
+The challenging part for me was to come up with the code for allowing the individual LLM websites to detect user input and the clicking of the send button. As it turns out, each major LLM providers often change the makeup of the HTML bodies for some reason, causing the code to break. But so far, the fixes have been manageable.
+
+Key features:
+
+• Starts with a default of Perplexity, ChatGPT, and Gemini, with the option to add more LLM's like Grok, Claude, and DeepSeek.
+
+• Responsive, keyboard-friendly interface.
+
+Link to the video demo is here: [https://drive.google.com/file/d/10ECa\_\_WWmJEAWAfwrCGPYDnEzvMFgtph/view?usp=drive\_link](https://drive.google.com/file/d/10ECa__WWmJEAWAfwrCGPYDnEzvMFgtph/view?usp=drive_link)
+
+Feedback is welcome here, on GitHub: [https://github.com/czhou578/llm-god/tree/1.0.3](https://github.com/czhou578/llm-god/tree/1.0.3)",2025-05-13T04:22:09Z,programming,programming,technology,Technology,[],0,0,3,,0.14,https://github.com/czhou578/llm-god,zuniloc01,2025-05-25T17:14:54.116502Z
+1kcxivr,reddit,"Build a Text-to-SQL AI Assistant with DeepSeek, LangChain and Streamlit",,2025-05-02T10:22:52Z,programming,programming,technology,Technology,[],0,0,0,,0.14,https://youtu.be/kem-v9MXuG4?si=3UaE3VImDPJRMBD9,Flashy-Thought-5472,2025-05-25T17:14:54.981503Z
+1kjw3jp,reddit,This engineer tracked his time for more than a year and this is what he learned,,2025-05-11T08:18:40Z,programming,programming,technology,Technology,[],0,0,1,,0.29,https://strategizeyourcareer.com/p/this-engineer-tracked-his-time-for-a-year,strategizeyourcareer,2025-05-25T17:14:55.870811Z
+1kjigtz,reddit,"Zig, the ideal C replacement or?",,2025-05-10T19:39:20Z,programming,programming,technology,Technology,[],0,0,5,,0.23,https://bitshifters.cc/2025/05/04/zig.html,Sufficient-Loss5603,2025-05-25T17:14:56.787654Z
+1kgyoew,reddit,Zed: The Fastest AI Code Editor,,2025-05-07T14:26:09Z,programming,programming,technology,Technology,[],0,0,15,,0.3,https://zed.dev/blog/fastest-ai-code-editor,rtfeldman,2025-05-25T17:14:58.536590Z
+1kcs160,reddit,¿Qué es ImplicitUsings en C# y por qué es útil?,,2025-05-02T04:03:09Z,programming,programming,technology,Technology,[],0,0,0,,0.09,https://emanuelpeg.blogspot.com/2025/05/que-es-implicitusings-en-c-y-por-que-es.html,emanuelpeg,2025-05-25T17:14:59.521284Z
+1kpo2fi,reddit,How HelloBetter Designed Their Interview Process Against AI Cheating,,2025-05-18T16:32:15Z,programming,programming,technology,Technology,[],0,0,4,,0.26,https://newsletter.eng-leadership.com/p/how-hellobetter-designed-their-interview,gregorojstersek,2025-05-25T17:15:00.378303Z
+1kdl1wf,reddit,¿Qué significa Nullable en el archivo .csproj de C#?,,2025-05-03T04:57:58Z,programming,programming,technology,Technology,[],0,0,1,,0.13,https://emanuelpeg.blogspot.com/2025/05/que-significa-nullable-en-el-archivo.html,emanuelpeg,2025-05-25T17:15:01.285766Z
+1kpuw6n,reddit,AI Is Destroying and Saving Programming at the Same Time,,2025-05-18T21:24:50Z,programming,programming,technology,Technology,[],0,0,0,,0.19,https://nmn.gl/blog/ai-and-programmers,namanyayg,2025-05-25T17:15:02.182261Z
+1ked6t3,reddit,The 10 Software Engineering Acronyms You MUST Know,,2025-05-04T06:21:00Z,programming,programming,technology,Technology,[],0,0,5,,0.19,https://strategizeyourcareer.com/p/the-10-software-engineering-acronyms,strategizeyourcareer,2025-05-25T17:15:03.160178Z
+1kd13k9,reddit,0.1 doesn’t really exist… at least not for your computer,"In the IEEE 754 standard, which defines how floating-point numbers are represented, 0.1 cannot be represented exactly.
+
+Why?
+For the same reason you can’t write 1/3 as a finite decimal:
+0.3333… forever.
+
+In binary, 0.1 (decimal) becomes a repeating number:
+0.00011001100110011… (yes, forever here too).
+But computers have limited memory. So they’re forced to round.
+
+The result?
+0.1 != 0.1
+(when comparing the real value vs. what’s actually stored)
+
+This is one reason why numerical bugs can be so tricky — and why understanding IEEE 754 is a must for anyone working with data, numbers, or precision.
+
+I’ve included a tiny program in the article that lets you convert decimal numbers to binary, so you can see exactly what happens when real numbers are translated into bits.",2025-05-02T13:34:41Z,programming,programming,technology,Technology,[],0,0,7,,0.26,https://puleri.it/university/numerical-representations-in-computer-systems/,Giuseppe_Puleri,2025-05-25T17:15:04.087022Z
+1kneqv1,reddit,Python Hits All-Time High in TIOBE Index —  It's Time to Call It the Default Language,"In May 2025, Python reached a 25.35% share in the TIOBE Programming Community Index, marking one of the highest percentages of developer interest since the index's inception in 2001. This underscores Python's continued dominance in the programming world.",2025-05-15T17:55:43Z,programming,programming,technology,Technology,[],0,0,4,,0.04,https://content.techgig.com/technology/python-dominates-2025-programming-landscape-with-unprecedented-popularity/articleshow/121134781.cms,bootdotdev,2025-05-25T17:15:04.959342Z
+1kk9u45,reddit,"XKCD's ""Is It Worth the Time?"" Considered Harmful",,2025-05-11T19:58:58Z,programming,programming,technology,Technology,[],0,0,15,,0.28,https://will-keleher.com/posts/its-not-worth-the-time-yet.html,agumonkey,2025-05-25T17:15:05.828738Z
+1kb4gjw,reddit,PATH isn't real on Linux,,2025-04-30T01:19:02Z,programming,programming,technology,Technology,[],0,0,10,,0.24,https://blog.danielh.cc/blog/path,NXGZ,2025-05-25T17:15:06.782875Z
+1kpkow1,reddit,Why gRPC is x50 faster than REST,,2025-05-18T14:02:27Z,programming,programming,technology,Technology,[],0,0,69,,0.17,https://medium.com/javarevisited/why-grpc-is-x50-better-than-rest-8497f485f749?sk=2cf3139959288ea4296496b29b1273e7,SamuraiDeveloper21,2025-05-25T17:15:07.707134Z
+1ke034r,reddit,Battle of the AI Code Assistants: Who Writes the Best Python Integration Code?,,2025-05-03T18:46:08Z,programming,programming,technology,Technology,[],0,0,1,,0.13,https://medium.com/@wjleon/battle-of-the-ai-code-assistants-who-writes-the-best-python-integration-code-f78e09a5554c,danenania,2025-05-25T17:15:09.085109Z
+1k8xxh1,reddit,"Tech Debt doesn't exist, but trade-offs do",,2025-04-27T07:00:05Z,programming,programming,technology,Technology,[],0,0,11,,0.13,https://www.architecture-weekly.com/p/tech-debt-doesnt-exist-but-trade,Adventurous-Salt8514,2025-05-25T17:15:09.981293Z
+1ksc6gz,reddit,The problem with TODO comments,,2025-05-21T23:19:24Z,programming,programming,technology,Technology,[],0,0,5,,0.04,https://youtu.be/lZyMS1HF5jc,ConcentrateOk8967,2025-05-25T17:15:11.009916Z
+1kkan4l,reddit,How to Use AI to Be a Great Engineering Leader,,2025-05-11T20:33:43Z,programming,programming,technology,Technology,[],0,0,1,,0.03,https://newsletter.eng-leadership.com/p/how-to-use-ai-to-be-a-great-engineering,gregorojstersek,2025-05-25T17:15:11.931264Z
+1ktncur,reddit,The AI That Coded for Seven Hours Straight (And Why That Changes Everything),,2025-05-23T16:06:19Z,programming,programming,technology,Technology,[],0,0,16,,0.11,https://medium.com/@hoklengnob/the-ai-that-coded-for-seven-hours-straight-and-why-that-changes-everything-a8882b37d351,gmhokleng,2025-05-25T17:15:12.797394Z
+1kdx227,reddit,New Programmers Don't Really Have a Choice About AI,,2025-05-03T16:34:20Z,programming,programming,technology,Technology,[],0,0,16,,0.18,https://nmn.gl/blog/ai-and-programmers,namanyayg,2025-05-25T17:15:13.821670Z
+1kqf4p8,reddit,How To Vibe Code Better,,2025-05-19T15:50:43Z,programming,programming,technology,Technology,[],0,0,5,,0.03,https://nibodhdaware.hashnode.dev/how-to-vibe-code-better,NicDevIam,2025-05-25T17:15:14.870689Z
+1knsxew,reddit,My 16 Year Old Vibe Coded His School Project With GitHub Copilot,,2025-05-16T05:09:54Z,programming,programming,technology,Technology,[],0,0,16,,0.06,https://programmers.fyi/my-16-year-old-vibe-coded-his-school-project-with-github-copilot,derjanni,2025-05-25T17:15:15.761198Z
+1kdzabt,reddit,Will AI Replace the Need for Developers in the Future?,"Excuse my EnglishI’m still improving! I’m a first-year CS major working hard to learn through courses, problemsolving, and projects.
+
+Recently, I saw that Canvas (or some other platform) released an AI code generator tool. It made me wonder: *If AI can already write functional programs today, could it build entire applications like Instagram in 5 years?* And if so, why would companies hire developers when anyone could generate apps with AI?
+
+And why I would buy software when I can make AI make it for me ?
+
+I’m curious to hear your thoughts",2025-05-03T18:11:25Z,programming,programming,technology,Technology,[],0,0,17,,0.11,https://3dvf.com/en/bill-gates-predicts-ai-will-replace-humans-in-almost-all-fields-except-these-jobs/,LawfulnessHead6214,2025-05-25T17:15:16.689941Z

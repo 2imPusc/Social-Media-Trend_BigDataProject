@@ -44,7 +44,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.spark
-    image: custom-spark:es
+    image: custom-spark:es-3.3.4
     container_name: spark-master
     hostname: spark-master
     environment:
@@ -66,6 +66,7 @@ services:
       - ./data:/opt/bitnami/spark/data
       - ./requirements.txt:/opt/bitnami/spark/requirements.txt
       - /home/phuc/hadoop/etc/hadoop:/opt/bitnami/spark/hadoop-conf:ro
+      - ./checkpoints:/opt/bitnami/spark/checkpoints
     networks:
       - lambda-net
 
@@ -73,7 +74,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.spark
-    image: custom-spark:es 
+    image: custom-spark:es-3.3.4
     container_name: spark-worker
     hostname: spark-worker
     depends_on:
@@ -95,6 +96,7 @@ services:
       - ./data:/opt/bitnami/spark/data
       - ./requirements.txt:/opt/bitnami/spark/requirements.txt
       - /home/phuc/hadoop/etc/hadoop:/opt/bitnami/spark/hadoop-conf:ro
+      - ./checkpoints:/opt/bitnami/spark/checkpoints
     ports:
       - "8081:8081"
     extra_hosts:

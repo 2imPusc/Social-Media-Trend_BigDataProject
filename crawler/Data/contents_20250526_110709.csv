@@ -1,0 +1,397 @@
+﻿content_id,platform,title,content,created_at,source_id,source_name,category_id,category_name,tags,views,score,comment_count,duration,upvote_ratio,url,author,crawl_time
+1kitgzb,reddit,MCP Server and Google ADK,"I was experimenting with MCP using different Agent frameworks and curated a video that covers:
+
+\- What is an Agent?  
+\- How to use Google ADK and its Execution Runner  
+\- Implementing code to connect the Airbnb MCP server with Google ADK, using Gemini 2.5 Flash.",2025-05-09T21:11:27Z,programming,programming,technology,Technology,[],0,0,0,,0.14,https://www.youtube.com/watch?v=aGlxgHvYFOQ,External_Ad_11,2025-05-26T04:05:33.418553Z
+1kino25,reddit,Developer Productivity With IntelliJ IDEA • Trisha Gee,,2025-05-09T17:05:55Z,programming,programming,technology,Technology,[],0,0,2,,0.38,https://youtu.be/8ZRI3fFaMAw,goto-con,2025-05-26T04:05:34.245931Z
+1kijwvm,reddit,Programming Myths We Desperately Need to Retire,,2025-05-09T14:30:51Z,programming,programming,technology,Technology,[],0,0,10,,0.38,https://amritpandey.io/programming-myths-we-desperately-need-to-retire/,SpecialFun2249,2025-05-26T04:05:35.119500Z
+1kijc6z,reddit,Unit Testing That Doesn’t Blow Up Productivity: An Explosive Guide.,,2025-05-09T14:05:59Z,programming,programming,technology,Technology,[],0,0,0,,0.22,https://programmers.fyi/unit-testing-that-doesnt-blow-up-productivity-an-explosive-guide,derjanni,2025-05-26T04:05:36.050292Z
+1ki97ud,reddit,How to simplify your design,,2025-05-09T03:42:49Z,programming,programming,technology,Technology,[],0,0,3,,0.33,https://uxplanet.org/how-to-simplify-your-design-69d97fde11b9,stackoverflooooooow,2025-05-26T04:05:36.919604Z
+1khzaqp,reddit,April 2025 (version 1.100),,2025-05-08T19:45:33Z,programming,programming,technology,Technology,[],0,0,1,,0.36,https://code.visualstudio.com/updates/v1_100,feross,2025-05-26T04:05:37.771426Z
+1kh6ia4,reddit,Let's make a game! 260: The link command,,2025-05-07T19:40:56Z,programming,programming,technology,Technology,[],0,0,0,,0.13,https://www.youtube.com/watch?v=Ou8iplVs6Io,apeloverage,2025-05-26T04:05:38.670164Z
+1kh4j9o,reddit,Spring Data JPA: How to bulk insert data,,2025-05-07T18:21:16Z,programming,programming,technology,Technology,[],0,0,1,,0.14,https://javabulletin.substack.com/p/spring-data-jpa-how-to-bulk-insert,Educational-Ad2036,2025-05-26T04:05:39.634637Z
+1kg0ab5,reddit,The Hidden Challenges of AI Agents,,2025-05-06T09:32:11Z,programming,programming,technology,Technology,[],0,0,0,,0.33,https://paul-nameless.com/ai-agent.html,paul_nameless,2025-05-26T04:05:40.513027Z
+1kep0dw,reddit,Let's make a game! 259: Choosing a character,,2025-05-04T17:15:58Z,programming,programming,technology,Technology,[],0,0,0,,0.14,https://www.youtube.com/watch?v=FpaVJH3Ozh0,apeloverage,2025-05-26T04:05:41.477745Z
+1kekdz8,reddit,Biometric issue,"I'm working on a side project – a mobile clocking system for employees. A key feature I'd like to implement is using biometric authentication (fingerprint/face) for clocking in and out.
+
+However, I'm running into a conceptual challenge: Is it possible to use a standard Android or iOS phone's internal biometric scanner to store and differentiate the biometric data of multiple different employees for clocking in/out?                                                                                                                           For more indo on the projct posted the projct scope on my LinkIN see link any advice would be greatly appreciated 👏🏻",2025-05-04T13:56:13Z,programming,programming,technology,Technology,[],0,0,6,,0.27,https://www.linkedin.com/posts/raymond-van-wyk-3497b6268_paylocity-payrolltech-internshipapplication-activity-7324780941367762944-htO4?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAEGdOWkB0E3oFEcf8TlGt6oygIhq-DjIF1M&utm_campaign=copy_link,Lordstark326,2025-05-26T04:05:42.501971Z
+1kei2qk,reddit,Happy Birthday Paradox,"An article with an aim to help people develop a deeper intuition towards the famous ""birthday-problem"" and collections/sets in general. Basic familiarity of sets, probability and algabra is recommeded.",2025-05-04T11:55:32Z,programming,programming,technology,Technology,[],0,0,6,,0.25,https://nyadgar.com/posts/happy-birthday-paradox/,No-Bug-242,2025-05-26T04:05:43.454352Z
+1kef5ms,reddit,The Clone Wars: A Star Wars Story of Monorepos,**May the 4th Be With You!**,2025-05-04T08:40:01Z,programming,programming,technology,Technology,[],0,0,0,,0.13,https://www.aviator.co/blog/the-clone-wars-a-star-wars-story-of-monorepos/,aviator_co,2025-05-26T04:05:44.448769Z
+1kc4wql,reddit,The Optimisation Lie: Why Your 'Optimised' Code Might Still Be Slow,,2025-05-01T09:53:14Z,programming,programming,technology,Technology,[],0,0,12,,0.44,https://www.darrenhorrocks.co.uk/optimisation-lie-why-your-optimised-code-might-still-be-slow/,bizzehdee,2025-05-26T04:05:45.368951Z
+1kbwjyn,reddit,Spring Data JPA: Replace multiple queries with a single query,,2025-05-01T01:05:18Z,programming,programming,technology,Technology,[],0,0,3,,0.31,https://javabulletin.substack.com/p/spring-data-jpa-replace-multiple,Educational-Ad2036,2025-05-26T04:05:46.499037Z
+1kbcw5k,reddit,"💥 Tech Talks Weekly #57 👉 Vibe Coding, Cost-Saving Autoscaling, Communicating in Types, Future of Frontend Tooling, Scaling Haskell Apps, Web Apps with Signals at Grammarly, Async Communication, ...",,2025-04-30T10:12:47Z,programming,programming,technology,Technology,[],0,0,0,,0.13,https://www.techtalksweekly.io/p/tech-talks-weekly-57-vibe-coding,TechTalksWeekly,2025-05-26T04:05:47.521669Z
+1katwlh,reddit,Can you achieve true parallelism in Python??,,2025-04-29T17:36:30Z,programming,programming,technology,Technology,[],0,0,6,,0.36,https://youtu.be/7eKC9KEZPxk?si=TsS9ZeOJsWuVJPmE,python4geeks,2025-05-26T04:05:48.371995Z
+1kasw22,reddit,Strategies for naming your side project,"Picking a name for a project is a magical moment, but some people can get stuck staring at a blank canvas that stubbornly refuses to accept any name. In this post, I share three strategies that’ll help shake up your mind until, like magic, the perfect name pops into it.",2025-04-29T16:56:19Z,programming,programming,technology,Technology,[],0,0,8,,0.23,https://rafaelcamargo.com/blog/strategies-for-naming-your-side-project/,rafaelcamargo,2025-05-26T04:05:49.239592Z
+1kaf6dx,reddit,"A parody song of ""No Type"" by Rae Sremmurd for a dynamically typed programming language",,2025-04-29T04:08:48Z,programming,programming,technology,Technology,[],0,0,1,,0.33,https://x.com/getlsd/status/1917050330954797393,yevbar,2025-05-26T04:05:50.489907Z
+1kad5b3,reddit,El Poder del underscore (_) en Scala,,2025-04-29T02:17:02Z,programming,programming,technology,Technology,[],0,0,2,,0.36,https://emanuelpeg.blogspot.com/2025/04/el-poder-del-underscore-en-scala.html,emanuelpeg,2025-05-26T04:05:51.413114Z
+1k9zafc,reddit,How we made our optical character recognition (OCR) code more accurate using Tesseract?,,2025-04-28T16:06:38Z,programming,programming,technology,Technology,[],0,0,0,,0.27,https://pieces.app/blog/how-we-made-our-optical-character-recognition-ocr-code-more-accurate,Party-Tower-5475,2025-05-26T04:05:52.333021Z
+1k9x1a0,reddit,Deploy MERN Stack App on AWS EC2 using GitHub Actions & SSL Setup,,2025-04-28T14:34:04Z,programming,programming,technology,Technology,[],0,0,0,,0.38,https://youtu.be/eRdeAbGKyuk,integrationninjas,2025-05-26T04:05:53.355822Z
+1k9wed7,reddit,Building a Successful Web Dev Career (and Podcast) with West Bos,,2025-04-28T14:06:35Z,programming,programming,technology,Technology,[],0,0,0,,0.2,https://www.youtube.com/watch?v=wqKk4TsVY8M,IliasHad,2025-05-26T04:05:54.267195Z
+1k8iyqo,reddit,When AI Tools Backfire: The Hidden Cost of Poor Planning,"# When AI Tools Backfire: The Hidden Cost of Poor Planning
+
+In a heated Reddit thread, developers voiced growing frustrations with Cursor's Claude 3.7 MAX integration. What was supposed to be a productivity booster became a nightmare: **over 20 redundant tool calls** just to fix **two minor TypeScript linter errors**, racking up unexpected costs and endless frustration.
+
+Even more alarming, users reported:
+
+* **$60+ daily charges** without meaningful results.
+* **Worse productivity** compared to earlier Cursor versions.
+* **Support teams ignoring emails** and DMs.
+* **Massive usage spikes** seemingly triggered by silent updates.
+
+Comments poured in with a common thread: developers feel **trapped** — reliant on AI tools that burn through budgets while delivering half-finished or error-prone outputs.
+
+Is this a Cursor-specific issue? Is it Claude 3.7 MAX being ""not ready""? Or is it a deeper problem in how AI is integrated into modern coding workflows?
+
+# The Real Problem: Misaligned AI Expectations
+
+Here's the uncomfortable truth:
+
+**AI coding assistants are not developers.**  
+They are powerful prediction engines that guess at your intent based on the input and context you provide.
+
+When your project lacks:
+
+* Clear task definitions,
+* Explicit architecture guidelines,
+* Real contextual grounding from the codebase,
+
+…you are essentially *asking the AI to guess*. And guesses, no matter how intelligent, often lead to:
+
+* Infinite loops,
+* Inefficient tool calls,
+* Misinterpretations,
+* And ultimately, **higher costs and more frustration**.
+
+The reality many developers are waking up to is simple:
+
+>
+
+# Why AI Loops and Costs Explode
+
+Several core reasons explain the problems users faced with tools like Claude MAX:
+
+1. **Lack of Project Scope Understanding** When AI agents don't have a solid grasp of what the project is about, they chase irrelevant solutions, re-read code unnecessarily, and misdiagnose issues.
+2. **Poor Error Handling Strategies** Instead of understanding the broader goal, AIs often fixate on tiny local errors, leading to endless ""lint fix"" loops.
+3. **Context Window Mismanagement** Most LLMs have a limited ""memory"" (context window). Poor structuring of input data can cause them to lose track of the task halfway through and start over repeatedly.
+4. **Lack of User Control** Automation sounds great — until the AI decides to spend your credits investigating unnecessary files without your permission.
+
+# How to Avoid Falling Into the AI Trap
+
+If you want to use AI tools effectively (and affordably), you must **lead the AI** — not follow it.
+
+Here’s how:
+
+# 1. Plan Before You Prompt
+
+Before even typing a prompt, clearly define:
+
+* What feature you are building,
+* What parts of the codebase it touches,
+* Any architectural constraints or requirements.
+
+Think of it as **prepping a task ticket for a junior developer**. The clearer the briefing, the better the result.
+
+# 2. Create a Clear System Architecture Map
+
+Don’t rely on the AI to ""figure out"" your app’s structure.  
+Instead:
+
+* Diagram the major components.
+* List dependencies between services.
+* Highlight critical models, APIs, or modules.
+
+A simple diagram or spec document saves hundreds of tool calls later.
+
+# 3. Give Rich, Relevant Context
+
+When prompting:
+
+* Attach or reference only the necessary files.
+* Include relevant API signatures, data models, or interface definitions.
+* Summarize the problem and desired outcome explicitly.
+
+The AI needs the **right amount of the right information** — not a firehose of random files.
+
+# 4. Control Linter and Auto-Fix Settings
+
+Especially when using ""MAX"" modes:
+
+* **Disable automatic linter fixes** unless necessary.
+* Prefer manual review of AI-suggested code changes.
+
+Letting the AI ""autonomously"" fix things often results in new errors.
+
+# 5. Monitor Requests and Set Usage Limits
+
+If your platform allows it:
+
+* Set caps on daily tool call spend.
+* Review request logs regularly.
+* Pause or disable agent modes that behave unpredictably.
+
+Early detection can prevent runaway costs.
+
+# AI Doesn’t Eliminate Good Engineering Practices — It Demands Them
+
+There’s a growing myth that AI tools will replace the need for design documents, system architecture, or thorough scoping. The reality is the opposite:
+
+>
+
+Good engineering hygiene — thoughtful planning, solid documentation, clear scope definitions — is now **more important than ever**.
+
+Without it, even the best models spiral into chaos, burning your money and your time.
+
+# Final Thoughts
+
+AI-assisted coding can be a massive force multiplier when used wisely. But it requires a **shift in mindset**:
+
+* Don’t treat AI like a magic black box.
+* Treat it like a junior engineer who needs clear instructions, plans, and oversight.
+
+Those who adapt their workflows to this new reality will outperform — building faster, better, and cheaper. Those who don't will continue to experience frustration, spiraling costs, and broken codebases.
+
+The future of coding isn’t ""prompt and pray.""  
+It’s **plan, prompt, and guide**.",2025-04-26T17:56:28Z,programming,programming,technology,Technology,[],0,0,0,,0.31,https://stackstudio.io/blog/when-ai-tools-backfire-the-hidden-cost-of-poor-planning,LeadingFarmer3923,2025-05-26T04:05:55.199384Z
+1kumy10,reddit,Creating a better TypeScript-like language,"I am creating a language similar to Rust and TypeScript that give me the benefits of C and C++ without them actually being C and C++. I wanted to mix the absolute control from C with the simplicity of TypeScript so writing code can be as fast as scripting and it will still run as fast as possible. I know a lot of people like Rust for this purpose, but I find the compiler to be somewhat of a headache when trying to take any shortcuts. Velocity, the name of the language for now, will compile to C and Javascript (later) so it can be used for full-stack and back-end applications.
+
+Right now the language is at the most primal stages of development, but I hope that sharing it will get people to force me to continue working on it and not lose interest. I would also like to get ideas from others for features they like to see in a language.
+
+For now, the gist of the language is again similar to TypeScript, except there will be more low-level types like specific integer types, pointers, and self-managed memory\*. The self-managed memory is not a requirement, however, as there will be map types, vectors, and similar collection types. I also want to create a nice macro system like Rust has, especially for iterators which I think will be a main mechanism in the language. I also want to create structures on the stack rather than classes that are allocated to the heap to keep the language fast like C.
+
+If you want to read some of the code, it is written in C. If you are triggered by unsafe code, do not compile it :), and do not read files outside of /src/parse/ because they are files I threw together very quickly to start my programming. All of this code will be rewritten in the new language once I get a somewhat stable version, and any updates will be written in the new language.
+
+Please let me know what you think of the idea or if you want to contribute in some way!",2025-05-24T21:58:00Z,programming,programming,technology,Technology,[],0,0,3,,0.31,https://github.com/ephf/velocity,SeaInformation8764,2025-05-26T04:05:56.129229Z
+1ktxzkn,reddit,Android Auto to support browser and video apps officially,,2025-05-23T23:43:16Z,programming,programming,technology,Technology,[],0,0,9,,0.13,https://android-developers.googleblog.com/2025/05/android-for-cars-google-io-2025.html,namanyayg,2025-05-26T04:05:57.042915Z
+1ktpq3s,reddit,ELI5: How does OAuth work?,,2025-05-23T17:41:59Z,programming,programming,technology,Technology,[],0,0,1,,0.31,https://lukasniessen.medium.com/oauth-explained-e8b01af3056e,trolleid,2025-05-26T04:05:57.947202Z
+1krph3d,reddit,How to learn programming — the do’s and don’ts.,"For people who don't get it btw, THIS IS SARCASM, PLEASE DO NOT ACTUALLY DO THIS.
+
+It both pained and amused me so much to write this honestly, I really hope you guys like this and stick around for more.",2025-05-21T04:46:02Z,programming,programming,technology,Technology,[],0,0,0,,0.37,https://medium.com/@prouspwhs/how-to-learn-programming-the-dos-and-don-ts-0a1b89b68ac5,Maleficent-Fall-3246,2025-05-26T04:05:58.987961Z
+1krb4di,reddit,Supercharge Your DevOps Workflow with MCP,"With MCP, AI can fetch real-time data, trigger actions, and act like a real teammate.
+
+In this blog, I’ve listed powerful MCP servers for tools like GitHub, GitLab, Kubernetes, Docker, Terraform, AWS, Azure & more.
+
+Explore how DevOps teams can use MCP for CI/CD, GitOps, security, monitoring, release management & beyond.",2025-05-20T17:41:40Z,programming,programming,technology,Technology,[],0,0,0,,0.38,https://blog.prateekjain.dev/supercharge-your-devops-workflow-with-mcp-3c9d36cbe0c4?sk=1e42c0f4b5cb9e33dc29f941edca8d51,prateekjaindev,2025-05-26T04:05:59.909452Z
+1kq8g8c,reddit,Build Software Consultancy Website using UIkit,UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.,2025-05-19T10:37:27Z,programming,programming,technology,Technology,[],0,0,0,,0.29,https://www.blackslate.io/articles/build-software-consultancy-website-using-uikit,ram-foss,2025-05-26T04:06:00.752330Z
+1kq6rrn,reddit,The Significant Impact of Porting TypeScript to Go,,2025-05-19T08:42:49Z,programming,programming,technology,Technology,[],0,0,2,,0.2,https://www.pixelstech.net/article/1747365073-the-significant-impact-of-porting-typescript-to-go,stackoverflooooooow,2025-05-26T04:06:01.650437Z
+1kpkj7r,reddit,ELI5: How does Database Replication work?,,2025-05-18T13:55:09Z,programming,programming,technology,Technology,[],0,0,0,,0.23,https://lukasniessen.medium.com/eli5-database-replication-1797f83add7a,trolleid,2025-05-26T04:06:02.573556Z
+1koqyoi,reddit,The art of being the Puppeteer programmer,,2025-05-17T11:41:27Z,programming,programming,technology,Technology,[],0,0,7,,0.35,https://voidflower.dev/blog/art-of-being-puppeteer-programmer,ExiledDude,2025-05-26T04:06:03.492946Z
+1kof7gm,reddit,🚀 Route Optimization Backend: Revolutionizing Logistics with Java!,,2025-05-16T23:39:17Z,programming,programming,technology,Technology,[],0,0,0,,0.18,https://www.linkedin.com/posts/activity-7328575129620320257-feIT?utm_source=share&utm_medium=member_desktop&rcm=ACoAACpKUkoBZlvPnbs_E9sJR5C3u_R28fuIqto,endmr111,2025-05-26T04:06:04.516346Z
+1ko52ve,reddit,"Run Qwen3, Llama4, or VLMs Across Devices with 20MB Dependency",Here is the tutorial link for Llama4 [https://www.secondstate.io/articles/llama-4/](https://www.secondstate.io/articles/llama-4/),2025-05-16T16:24:09Z,programming,programming,technology,Technology,[],0,0,0,,0.2,https://www.secondstate.io/articles/qwen-3/,Quirky-Reveal-6502,2025-05-26T04:06:05.438920Z
+1kndh67,reddit,"ELI5: HTTP Authentication - Basic Auth, Bearer Auth and Cookie Auth",,2025-05-15T17:05:14Z,programming,programming,technology,Technology,[],0,0,0,,0.27,https://lukasniessen.com/blog/05-http-authentication/,trolleid,2025-05-26T04:06:06.279795Z
+1km8fwf,reddit,Ethics in AI: Biases & Responsibilities • Michelle Frost & Hannes Lowette,,2025-05-14T06:31:37Z,programming,programming,technology,Technology,[],0,0,0,,0.22,https://youtu.be/ZPlD0rpiFwQ,goto-con,2025-05-26T04:06:07.182422Z
+1klo5ji,reddit,"JavaScript Runtime Environments Explained 🚀 How JavaScript Actually Runs - JS Engine, Call Stack, Event Loop, Callback Queue and Microtask Queue",,2025-05-13T15:00:46Z,programming,programming,technology,Technology,[],0,0,0,,0.11,https://youtu.be/akzvd9XQX4U,caffeinated_coder_,2025-05-26T04:06:08.126498Z
+1kl132a,reddit,Exception-Driven Development Gives You Back Your Time and Sanity,,2025-05-12T19:10:24Z,programming,programming,technology,Technology,[],0,0,6,,0.25,https://smustafa.blog/2025/05/12/exception-driven-development-gives-you-back-your-time-and-sanity/,reeses_boi,2025-05-26T04:06:09.134255Z
+1kl03x2,reddit,Explain LLMs like I am 5,,2025-05-12T18:32:22Z,programming,programming,technology,Technology,[],0,0,42,,0.41,https://andrewarrow.dev/2025/may/explain-llms-like-i-am-5/,andrewfromx,2025-05-26T04:06:10.252750Z
+1kkvbyr,reddit,Stop Manually Testing Your Frontend — Automate It Like a Pro,"Guys in the article im trying to explain why and when you should implement e2e tests in your application, feel free to say what you think.
+
+if you have Medium sub, use this link: [https://medium.com/lets-code-future/stop-manually-testing-your-frontend-automate-it-like-a-pro-61ce27dff7b8](https://medium.com/lets-code-future/stop-manually-testing-your-frontend-automate-it-like-a-pro-61ce27dff7b8)
+
+If you don't have Medium sub, use this link: [https://medium.com/lets-code-future/stop-manually-testing-your-frontend-automate-it-like-a-pro-61ce27dff7b8?sk=abf8d3717d4dfdc4512bf0953cab94aa](https://medium.com/lets-code-future/stop-manually-testing-your-frontend-automate-it-like-a-pro-61ce27dff7b8?sk=abf8d3717d4dfdc4512bf0953cab94aa)",2025-05-12T15:26:06Z,programming,programming,technology,Technology,[],0,0,0,,0.18,https://medium.com/lets-code-future/stop-manually-testing-your-frontend-automate-it-like-a-pro-61ce27dff7b8,N/A,2025-05-26T04:06:11.487487Z
+1kiwqsx,reddit,The problem with beta testing,,2025-05-09T23:45:28Z,programming,programming,technology,Technology,[],0,0,4,,0.18,https://youtu.be/3sVdDSlhEgo,ConcentrateOk8967,2025-05-26T04:06:12.401938Z
+1khvndp,reddit,Void: Open-Source Cursor alternative,,2025-05-08T17:18:47Z,programming,programming,technology,Technology,[],0,0,6,,0.31,https://github.com/voideditor/void,ChiliPepperHott,2025-05-26T04:06:13.324623Z
+1kh1k0s,reddit,"Requests for Startups from YCombinator, Summer 2025 - 12/14 are related to AI",,2025-05-07T16:22:47Z,programming,programming,technology,Technology,[],0,0,4,,0.23,https://www.ycombinator.com/rfs,juanviera23,2025-05-26T04:06:14.384249Z
+1kgtv94,reddit,The Psychology of Clean Code: Why We Write Messy React Components,,2025-05-07T10:20:39Z,programming,programming,technology,Technology,[],0,0,10,,0.4,https://cekrem.github.io/posts/psychology-of-clean-code/,cekrem,2025-05-26T04:06:15.474431Z
+1kf9uu5,reddit,No AI Mondays,,2025-05-05T12:01:30Z,programming,programming,technology,Technology,[],0,0,2,,0.35,https://fadamakis.com/no-ai-mondays-c4c341a51956,galher,2025-05-26T04:06:16.501366Z
+1keu3ze,reddit,I Built an Open-Source Framework to Make LLM Data Extraction Dead Simple,"After getting tired of writing endless boilerplate to extract structured data from documents with LLMs, I built [ContextGem](https://github.com/shcherbak-ai/contextgem) \- a free, open-source framework that makes this radically easier.
+
+# What makes it different?
+
+Unlike other LLM frameworks that require dozens of lines of custom code to extract even basic information, ContextGem handles the complex, most time-consuming parts with powerful abstractions, eliminating boilerplate and reducing development overhead:
+
+✅ Automated dynamic prompts and data modeling  
+✅ Precise reference mapping to source content  
+✅ Built-in justifications for extractions  
+✅ Nested context extraction  
+✅ Works with any LLM provider  
+and more built-in abstractions that save developer time.
+
+# Simple LLM extraction in just a few lines:
+
+    from contextgem import Aspect, Document, DocumentLLM, StringConcept
+    
+    # Define what to extract
+    doc = Document(raw_text=""<text of your document, e.g. a contract>"")
+    doc.aspects = [
+        Aspect(
+            name=""Intellectual property"",
+            description=""Clauses on intellectual property rights"",
+        )
+    ]
+    doc.concepts = [
+        StringConcept(
+            name=""Anomalies"",  # in longer contexts, this concept is hard to capture with RAG
+            description=""Anomalies in the document"",
+            add_references=True,
+            reference_depth=""sentences"",
+            add_justifications=True,
+            justification_depth=""brief"",
+        )
+    ]
+    
+    # Extract with any LLM
+    llm = DocumentLLM(model=""<provider>/<model>"", api_key=""<api_key>"")
+    doc = llm.extract_all(doc)
+    
+    # Get results
+    print(doc.aspects[0].extracted_items)
+    print(doc.concepts[0].extracted_items)
+
+ContextGem leverages LLMs' expanding context windows for better extraction accuracy from complete documents. Unlike RAG approaches that often struggle with complex concepts and nuanced insights, The framework enables direct information extraction from entire documents, eliminating retrieval inconsistencies while optimizing for in-depth analysis.
+
+ContextGem features a native DOCX converter, support for multiple LLMs, and full serialization - all under *Apache 2.0* permissive license.
+
+**The project is just getting started, and your early adoption and feedback will help shape its future. If you find it useful, the best way to support is by sharing it and giving the project a star ⭐!**
+
+View project on GitHub: [https://github.com/shcherbak-ai/contextgem](https://github.com/shcherbak-ai/contextgem)
+
+Try it out and let me know your thoughts!",2025-05-04T20:52:07Z,programming,programming,technology,Technology,[],0,0,0,,0.13,https://github.com/shcherbak-ai/contextgem,shcherbaksergii,2025-05-26T04:06:17.419654Z
+1ket428,reddit,"Introducing Flux: A Universal, Cross-Platform Hot-Reload Manager for Any Language or Framework 🚀","Hey everyone! I’ve been working on an CLI tool called **flux-reload** that brings true “hot-reload” to *any* language, framework, or shell command—no more being stuck with nodemon for Node.js or ptw for Python.
+
+# What is Flux?
+
+Flux is a lightweight, cross-platform utility that watches your files (or folders) and automatically restarts **any** command when changes are detected. Think nodemon, watchexec, or entr—but:
+
+* **Language-agnostic**: works with Python, Go, Rust, TypeScript, SASS, GCC, rsync… you name it.
+* **Zero-config defaults**: watch `./`, ignore `.git`/`venv`/`node_modules`, 200 ms debounce, all extensions.
+* **Optional config**: TOML or YAML file support for custom watch paths, ignores, extensions, debounce, and command.
+* **Debounced restarts**: coalesce rapid file saves into a single restart.
+
+I want you guys to use this and give me feedback and please tell me if anything can be improved, I am stuck at TUI part of this, stuck at few technical issues. Will try few more things next weekend.
+
+* ⭐ Star the repo: [https://github.com/Ashutosh619-sudo/flux](https://github.com/Ashutosh619-sudo/flux)
+* 🐛 Report issues or feature requests
+* 💻 Contribute code or docs
+* 📦 Try it out and let me know what you think!
+
+Looking forward to feedback, ideas, or any crazy edge-cases I haven’t thought of yet. Let’s make reloading code effortless—regardless of your tech stack!",2025-05-04T20:09:31Z,programming,programming,technology,Technology,[],0,0,9,,0.2,https://github.com/Ashutosh619-sudo/flux,NoHistory8511,2025-05-26T04:06:18.342413Z
+1kerkvd,reddit,From Monolith to Modular 🚀 Module Federation in Action with React,,2025-05-04T19:04:14Z,programming,programming,technology,Technology,[],0,0,2,,0.18,https://youtu.be/VBsPBBswxXE,caffeinated_coder_,2025-05-26T04:06:19.469682Z
+1keek2a,reddit,Navigate to T-Shaped Software Engineer Path,,2025-05-04T07:56:29Z,programming,programming,technology,Technology,[],0,0,1,,0.27,https://open.substack.com/pub/thehustlingengineer/p/career-playbook-to-navigate-your?r=yznlc&utm_medium=ios,musskk,2025-05-26T04:06:20.387670Z
+1ke5296,reddit,Modelando Procesos de Limpieza de Datos con BPMN y BizAgi,Automatiza la limpieza de datos con Python y BPMN. Incluye diagrama y código real.  ,2025-05-03T22:35:17Z,programming,programming,technology,Technology,[],0,0,1,,0.2,https://jorgealexandervalencia.hashnode.dev/modelando-procesos-de-limpieza-de-datos-con-bpmn-y-bizagi,Same_Durian4197,2025-05-26T04:06:21.309656Z
+1kdrirm,reddit,Let's make a game! 258: A new project,,2025-05-03T12:12:03Z,programming,programming,technology,Technology,[],0,0,1,,0.13,https://www.youtube.com/watch?v=CJCrAZjU3I4,apeloverage,2025-05-26T04:06:22.231302Z
+1kd6vmw,reddit,Prompt chaining reimagined with type inference,,2025-05-02T17:35:15Z,programming,programming,technology,Technology,[],0,0,0,,0.11,https://www.haskellforall.com/2025/05/prompt-chaining-reimagined-with-type_2.html,Tekmo,2025-05-26T04:06:23.153594Z
+1kd58zk,reddit,The Chromium Security Paradox,,2025-05-02T16:27:46Z,programming,programming,technology,Technology,[],0,0,1,,0.18,https://www.island.io/blog/the-chromium-security-paradox,ketralnis,2025-05-26T04:06:24.074703Z
+1kcfxja,reddit,Template Strings in Python 3.14: An Unnecessary New Feature?,,2025-05-01T18:29:02Z,programming,programming,technology,Technology,[],0,0,1,,0.22,https://medium.com/techtofreedom/template-strings-in-python-3-14-an-unnecessary-new-feature-aeb28394132d?sk=41a4bc22f7524fd795d10e769204735e,yangzhou1993,2025-05-26T04:06:24.996668Z
+1kcfuvw,reddit,Is this a new Programming Paradigm?,"I've been experimenting with a coding style for some years now and I've come to believe that it is a new coding paradigm. The main characteristic is the use of DSLs to encode logic, behaviour and relationships. These are coded through the use of Swift's nested and associated enums — something I have seen in no other language. I am curious: have you seen something similar elsewhere? ",2025-05-01T18:25:57Z,programming,programming,technology,Technology,[],0,0,8,,0.28,https://medium.com/codex/is-this-programming-paradigm-new-0036a2c79f2a,vikingosegundo,2025-05-26T04:06:25.873687Z
+1kc4frd,reddit,A case study of using Cursor for Front-end Development,,2025-05-01T09:19:10Z,programming,programming,technology,Technology,[],0,0,0,,0.13,https://medium.com/@muhammad.shafat/cursor-for-front-end-development-a-comprehensive-review-and-framework-31bf35aa7c5b,Street_Shelter4969,2025-05-26T04:06:26.944431Z
+1kbq9xb,reddit,Do You Really Know How To SQL? What Database Engineers Actually Recommend You Should Do.,,2025-04-30T20:18:17Z,programming,programming,technology,Technology,[],0,0,37,,0.42,https://programmers.fyi/do-you-really-know-how-to-sql-what-database-engineers-actually-recommend-you-should-do,derjanni,2025-05-26T04:06:27.864239Z
+1kauo40,reddit,We built an open-source TS framework for building AI Agent,,2025-04-29T18:07:24Z,programming,programming,technology,Technology,[],0,0,4,,0.42,https://github.com/voltagent/voltagent,omeraplak,2025-05-26T04:06:28.897483Z
+1kagrms,reddit,"Parámetros por Referencia en C#: ref, out, in y Punteros (unsafe)",,2025-04-29T05:49:51Z,programming,programming,technology,Technology,[],0,0,0,,0.13,https://emanuelpeg.blogspot.com/2025/04/parametros-por-referencia-en-c-ref-out.html,emanuelpeg,2025-05-26T04:06:29.913519Z
+1k90s6e,reddit,Let's make a game! 255: Tracking destinations,,2025-04-27T10:22:47Z,programming,programming,technology,Technology,[],0,0,0,,0.25,https://www.youtube.com/watch?v=MrZOojMeDpY,apeloverage,2025-05-26T04:06:30.768421Z
+1kvb0p3,reddit,"What is gRPC? Use Cases, Limitations & Why It’s So Popular","What is gRPC? Use Cases, Limitations & Why It’s So Popular | gRPC Tutorial for Beginners  
+  
+Are you curious about how top tech companies like Google, Netflix, and Kubernetes build high-performance, scalable microservices?  
+  
+In this beginner-friendly gRPC tutorial, we break down everything you need to know about gRPC — a powerful, open-source Remote Procedure Call (RPC) framework.  
+  
+🎯 In this video, you'll learn:  
+✅ What is gRPC and how it works  
+✅ Why gRPC is faster than REST APIs  
+✅ How gRPC uses Protocol Buffers (Protobuf) for efficient data transmission  
+✅ gRPC architecture explained step by step  
+✅ 4 powerful gRPC communication patterns: Unary, Server Streaming, Client Streaming & Bidirectional Streaming  
+✅ Real-world gRPC use cases in microservices, real-time systems, cloud-native apps, IoT, and more  
+✅ Common gRPC limitations and when not to use it  
+  
+💡 Whether you're a backend developer, DevOps engineer, or simply exploring modern APIs, this is your go-to crash course on gRPC for beginners.  
+  
+👍 Like this video if it helped, and don’t forget to subscribe for more backend and microservices tutorials!  
+  
+\#grpc #grpcTutorial #grpcForBeginners #microservices #protobuf #restvsgrpc #backenddevelopment #cloudnative #systemdesign #netflixtech #googletech",2025-05-25T19:35:39Z,programming,programming,technology,Technology,[],0,0,2,,0.37,https://youtu.be/whHA8FTFJfY,integrationninjas,2025-05-26T04:06:31.755027Z
+1kv4k8h,reddit,Setting Effective Targets for Developer Productivity Metrics in the Age of Gen AI,,2025-05-25T14:58:57Z,programming,programming,technology,Technology,[],0,0,0,,0.18,https://newsletter.eng-leadership.com/p/setting-effective-targets-for-developer,gregorojstersek,2025-05-26T04:06:32.676931Z
+1ku7e0d,reddit,We’ll be ending web hosting for your apps on Glitch,,2025-05-24T09:12:31Z,programming,programming,technology,Technology,[],0,0,0,,0.23,https://blog.glitch.com/post/changes-are-coming-to-glitch/,namanyayg,2025-05-26T04:06:33.598378Z
+1ktjgzy,reddit,GitHub Copilot angles for promotion from assistant to agent,,2025-05-23T13:23:19Z,programming,programming,technology,Technology,[],0,0,2,,0.31,https://www.theregister.com/2025/05/19/github_copilot_angles_for_promotion/,imp0ppable,2025-05-26T04:06:34.621308Z
+1krrgjq,reddit,The State of the Art of Spring AI • Josh Long,,2025-05-21T06:55:59Z,programming,programming,technology,Technology,[],0,0,1,,0.11,https://youtu.be/9mOuvrZtLbc,goto-con,2025-05-26T04:06:35.548214Z
+1kr9zl3,reddit,Lerp smoothing is broken,,2025-05-20T16:57:42Z,programming,programming,technology,Technology,[],0,0,14,,0.38,https://www.youtube.com/watch?v=LSNQuFEDOyQ,ketralnis,2025-05-26T04:06:36.465776Z
+1kr1jf3,reddit,Did AI Kill Stack Overflow?— I Hope It Survives,,2025-05-20T10:30:51Z,programming,programming,technology,Technology,[],0,0,45,,0.44,https://medium.com/tech-ai-chat/did-ai-kill-stack-overflow-i-hope-it-survives-798f66d9a6da?sk=ea2ad725fbe1794d877e2b1bfd47e0bb,ElyeProj,2025-05-26T04:06:37.492031Z
+1kqnapy,reddit,Jonathan Blow on Removing Dependencies,,2025-05-19T21:09:15Z,programming,programming,technology,Technology,[],0,0,22,,0.42,https://twitter.com/Jonathan_Blow/status/1924509394416632250,ketralnis,2025-05-26T04:06:38.831381Z
+1kqkpwl,reddit,Memorandum: Tips for Ensuring Scrum Compliance,,2025-05-19T19:27:39Z,programming,programming,technology,Technology,[],0,0,2,,0.23,https://rethinkingsoftware.substack.com/p/scrum-managerial-research-institute,adamard,2025-05-26T04:06:40.367549Z
+1kq8qyp,reddit,"How to Participate in PR Reviews, Make Friends and Influence People",,2025-05-19T10:56:04Z,programming,programming,technology,Technology,[],0,0,1,,0.11,https://shiftmag.dev/code-review-best-practices-5276/,shift_devs,2025-05-26T04:06:41.278454Z
+1kpo5i4,reddit,How to Thrive in Your First 90 Days in a New Role as an Engineer,,2025-05-18T16:35:57Z,programming,programming,technology,Technology,[],0,0,1,,0.11,https://www.youtube.com/watch?v=G2t8yc9HGv8,gregorojstersek,2025-05-26T04:06:42.200235Z
+1kpf8b8,reddit,Coding with Agents: Bootstrapping SWE-Agent,"AI coding assistants have evolved far beyond simple autocompletion. Tools like GitHub Copilot in Visual Studio Code now offer capabilities such as searching your workspace, executing terminal commands, and running builds or tests directly within the editor. In my experience, Copilot is particularly effective at identifying build systems and executing tests across various languages — including Python, Scala, Kotlin, and C++. When prompted to apply small code changes, its suggestions are often highly relevant and context-aware.",2025-05-18T08:31:24Z,programming,programming,technology,Technology,[],0,0,2,,0.18,https://blog.ivan.digital/coding-with-agents-bootstrapping-swe-agent-a8d0a227a6c2,ivan_digital,2025-05-26T04:06:43.121754Z
+1kp6w36,reddit,Can V Deliver on Its Promises?,,2025-05-17T23:59:25Z,programming,programming,technology,Technology,[],0,0,5,,0.35,https://bitshifters.cc/2025/05/17/vlang.html,Sufficient-Loss5603,2025-05-26T04:06:44.043370Z
+1kp2uoc,reddit,"New ""field"" keyword in .Net","    public int Age
+    {
+        get;
+        set => field = value >= 0 ? value : throw new ArgumentOutOfRangeException();
+    }",2025-05-17T20:44:44Z,programming,programming,technology,Technology,[],0,0,7,,0.41,https://medium.com/c-sharp-programming/3-perfect-use-cases-for-c-14s-field-keyword-10087912c7d8?sk=96a2127401805951a6dead46fe7b5988,ssukhpinder,2025-05-26T04:06:44.889861Z
+1koroam,reddit,Feature Flags for the Win: Implementing Feature Flags the Right Way,,2025-05-17T12:20:56Z,programming,programming,technology,Technology,[],0,0,1,,0.1,https://medium.com/itnext/implementing-feature-flags-the-right-way-74e9b1f31423,madflojo,2025-05-26T04:06:45.888030Z
+1kons4r,reddit,Deploy Angular or React apps to Cloudflare Pages using GitHub Actions,"I just published a quick guide that walks through deploying a front-end app (Angular or React) to Cloudflare Pages using GitHub Actions for CI/CD.
+
+If you're looking for a simpler alternative to S3 + CloudFront or want to set up blazing-fast, globally distributed static hosting, this might help.",2025-05-17T08:02:12Z,programming,programming,technology,Technology,[],0,0,0,,0.1,https://medium.com/@prateekjain.dev/deploy-angular-react-apps-on-cloudflare-pages-9212e91a55d5,prateekjaindev,2025-05-26T04:06:46.808798Z
+1kok4oe,reddit,Is software architecture set in stone?,,2025-05-17T04:04:50Z,programming,programming,technology,Technology,[],0,0,6,,0.11,https://youtu.be/ewbaJVrATs4,ConcentrateOk8967,2025-05-26T04:06:47.729494Z
+1kn6l36,reddit,What Every Programmer Should Know About Enumerative Combinatorics,,2025-05-15T12:10:36Z,programming,programming,technology,Technology,[],0,0,11,,0.36,https://leetarxiv.substack.com/p/counting-integer-compositions,DataBaeBee,2025-05-26T04:06:48.756595Z
+1kmvcdb,reddit,The problem with manual testing,,2025-05-15T00:46:34Z,programming,programming,technology,Technology,[],0,0,4,,0.32,https://youtu.be/nG1cgmiUZsk,ConcentrateOk8967,2025-05-26T04:06:49.695910Z
+1klz02t,reddit,Automate git commit messages with a simple bash script and openrouter,,2025-05-13T22:10:52Z,programming,programming,technology,Technology,[],0,0,5,,0.29,https://tomdekan.com/articles/ai-commit-messages,tomdekan,2025-05-26T04:06:50.598997Z
+1klby7z,reddit,Thinking of starting Cloud Career - Is it too late at 28,"
+Hi everyone,
+
+I’m 28 years old, and I’ve been working in Health & Safety (WHS) at Amazon for some time. Lately, I’ve been thinking seriously about shifting my career toward cloud computing — particularly AWS and Azure.
+
+The truth is, I have no programming background, but I’m willing to put in the effort and invest my time and energy into this field. I’m excited about the possibilities and growth in the cloud world, and I admire companies like Amazon and Microsoft that lead in this space.
+
+So I’m asking honestly:
+
+Is this a smart move at 28, or is it too late to switch?
+
+How long would it realistically take to become job-ready in cloud roles?
+
+What’s the best starting point for someone like me — no code, no tech degree?
+
+Has anyone here done a similar shift?
+
+
+I’d love to hear your thoughts, advice, or personal experiences. Every bit of input means a lot.
+
+Thanks in advance!
+
+
+",2025-05-13T03:20:33Z,programming,programming,technology,Technology,[],0,0,2,,0.11,http://advice.com,FeedbackTricky6731,2025-05-26T04:06:51.518878Z
+1kkusup,reddit,Stop Sending 10M Rows to LLMs: A Pragmatic Guide to Hybrid NL2SQL,"Everyone wants to bolt LLMs onto their databases.
+
+
+
+But dumping entire tables into GPT and expecting magic?
+
+That’s a recipe for latency, hallucinations, and frustration.
+
+
+
+This post explores a hybrid pattern: using traditional /meta + /data APIs and layering NL2SQL only where it makes sense.
+
+
+
+No hype. Just clean architecture for real-world systems.
+
+
+
+Would love feedback from anyone blending LLMs with structured APIs.",2025-05-12T15:04:23Z,programming,programming,technology,Technology,[],0,0,8,,0.17,https://dbconvert.com/blog/hybrid-nl2sql-vs-full-ai/,slotix,2025-05-26T04:06:52.438874Z
+1kjamuf,reddit,Level Up: Choosing The Technical Leadership Path • Patrick Kua,,2025-05-10T13:44:40Z,programming,programming,technology,Technology,[],0,0,0,,0.1,https://youtu.be/yQXR2_fMIog,goto-con,2025-05-26T04:06:53.362623Z
+1kijbfb,reddit,Who should own mocking in a microservices environment?,,2025-05-09T14:05:03Z,programming,programming,technology,Technology,[],0,0,1,,0.11,https://www.wiremock.io/post/who-should-own-mocking-in-a-microservices-environment,WireMock,2025-05-26T04:06:54.250161Z
+1kh8rsn,reddit,How we built Chatbots,,2025-05-07T21:12:46Z,programming,programming,technology,Technology,[],0,0,2,,0.28,https://codedoodles.substack.com/p/how-we-built-chatbots,gamedev-exe,2025-05-26T04:06:55.213767Z
+1kf3zfd,reddit,Simular punteros en Javascript,,2025-05-05T05:25:11Z,programming,programming,technology,Technology,[],0,0,1,,0.25,https://emanuelpeg.blogspot.com/2025/05/simular-punteros-en-javascript.html,emanuelpeg,2025-05-26T04:06:56.515373Z
+1kc5wgv,reddit,Deploying an ML App on GCP using L4 GPU-backed MIG,,2025-05-01T10:59:37Z,programming,programming,technology,Technology,[],0,0,1,,0.18,https://medium.com/@muhammad.shafat/deploying-a-fastapi-application-on-gcp-using-l4-gpu-57ca72e3b5cc,Street_Shelter4969,2025-05-26T04:06:57.388240Z
+1k9xd6y,reddit,"[Show] Introducing YINI — a lightweight, human-friendly configuration file format.","Hi everyone, 👋
+
+I recently finished a small project called **YINI** — a lightweight, human-friendly configuration file format.
+
+I created it because I needed a configuration format that would be **simple**, allow **structured data**, but **not become overly complex** with tons of types and rules.
+
+It aims to be **clean, readable, and structured** — simpler than YAML, easier than JSON, and more flexible than traditional INI files.
+
+If you're interested, you can read the full specification here:  
+➡️ [https://github.com/YINI-lang/YINI-spec](https://github.com/YINI-lang/YINI-spec)
+
+I'm looking for any feedback, thoughts, or ideas — anything you think is missing or could be improved.  
+Thanks a lot for reading!",2025-04-28T14:48:08Z,programming,programming,technology,Technology,[],0,0,13,,0.33,https://github.com/YINI-lang/YINI-spec,Effective_Tune_6830,2025-05-26T04:06:58.379753Z
+1k8j34q,reddit,Nuevas características de C# 13,,2025-04-26T18:01:43Z,programming,programming,technology,Technology,[],0,0,0,,0.17,https://emanuelpeg.blogspot.com/2025/04/nuevas-caracteristicas-de-c-13.html,emanuelpeg,2025-05-26T04:06:59.417951Z
+1k8i0i2,reddit,LMs aren't writing LLMs – why developers still matter,,2025-04-26T17:15:02Z,programming,programming,technology,Technology,[],0,0,15,,0.43,https://hfitz.substack.com/p/we-arent-at-endgame-yet?r=bd3zn,Best_Armadillo1060,2025-05-26T04:07:00.638500Z
+1k8dyef,reddit,Refactoring is secretly inlining,,2025-04-26T14:16:04Z,programming,programming,technology,Technology,[],0,0,17,,0.39,https://brontosource.dev/blog/2025-04-26-refactoring-is-secretly-inlining,asoffer,2025-05-26T04:07:01.658103Z
+1kv7tvh,reddit,Lessons Learned from 12 Years of Programming Experience,,2025-05-25T17:19:20Z,programming,programming,technology,Technology,[],0,0,0,,0.1,https://youtu.be/apC4C7bsR3Y?si=RMwwTKXsq-D7uZiC,Frequent-Football984,2025-05-26T04:07:02.785430Z
+1kv0718,reddit,Why Pydantic Became Our Go-To for Runtime Validation in Python,,2025-05-25T11:20:25Z,programming,programming,technology,Technology,[],0,0,2,,0.1,https://medium.com/@saibhargavr/pydantic-the-ultimate-guide-to-data-validation-in-python-ef269492337f,srtrsb10,2025-05-26T04:07:03.855970Z
+1ktnj17,reddit,"Google I/O 2025: A New Era of AI, and Digital Transformation",,2025-05-23T16:13:25Z,programming,programming,technology,Technology,[],0,0,0,,0.17,https://medium.com/@hoklengnob/google-i-o-2025-a-new-era-of-ai-and-digital-transformation-0ec61d7642f3,gmhokleng,2025-05-26T04:07:04.726996Z
+1ktcika,reddit,Asynchronous Coding AI Agents Revolution: Jules vs. Codex,,2025-05-23T06:14:36Z,programming,programming,technology,Technology,[],0,0,0,,0.29,https://youtu.be/Qefhjufs5sE,scorch4907,2025-05-26T04:07:05.650073Z
+1ks9ao6,reddit,Your API isn't finished until the SDK ships,,2025-05-21T21:12:14Z,programming,programming,technology,Technology,[],0,0,1,,0.3,https://www.stainless.com/blog/your-api-isnt-finished-until-the-sdk-ships,Bootyjjigs,2025-05-26T04:07:06.581399Z
+1ks2784,reddit,How to Transition from SOAP to REST APIs,,2025-05-21T16:28:16Z,programming,programming,technology,Technology,[],0,0,9,,0.19,https://zuplo.com/blog/2025/05/18/how-to-transition-from-soap-to-rest-apis,ZuploAdrian,2025-05-26T04:07:07.526141Z
+1kpygoj,reddit,ELI5: What exactly are ACID and BASE Transactions?,,2025-05-19T00:15:03Z,programming,programming,technology,Technology,[],0,0,9,,0.38,https://lukasniessen.com/blog/105-acid-base-transactions/,trolleid,2025-05-26T04:07:08.519964Z
+1kpil9f,reddit,"Traced What Actually Happens Under the Hood for ln, rm, and cat",,2025-05-18T12:15:31Z,programming,programming,technology,Technology,[],0,0,0,,0.1,https://github.com/adiaholic/Understand-OS/blob/main/hard_links/Readme.md,Dorshalsfta,2025-05-26T04:07:09.541669Z

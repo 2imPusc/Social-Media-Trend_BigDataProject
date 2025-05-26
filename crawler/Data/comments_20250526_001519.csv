@@ -1,0 +1,528 @@
+﻿comment_id,content_id,platform,content,created_at,score,author,source_name,crawl_time
+mpx5kw8,1kbswlq,reddit,Nice try Microsoft,2025-04-30T22:25:38Z,6,Lachee,programming,2025-05-25T17:14:33.215218Z
+mpxb5ee,1kbswlq,reddit,"Hey, whatyaknow another LLM can do anything post.  So Bigly!",2025-04-30T22:57:03Z,4,church-rosser,programming,2025-05-25T17:14:33.215221Z
+mt72mjt,1kqo2tc,reddit,"\> author tries a low-level systems language while (seemingly only) having experience in very high-level languages and struggles with it
+
+Nothing new. Not saying your woes are ""wrong"" or something, but given that you come from basically the opposite background from Rust and are NOT a beginner, you are the perfect candidate to struggle more than an actual beginner
+
+Rust is my first real programming language, as before that my maximum was a dead simple 40 LOC C# project that took data from a Google Sheet and converted it to a Telegram message (and some Python math stuff for my exams). I never wrote real projects with other languages before Rust, be it a proper CRUD, GUI or even web dev (if we exclude rawdogging HTML and CSS). I think I'm doing somewhat fine right now",2025-05-19T21:54:09Z,12,JustBadPlaya,programming,2025-05-25T17:14:35.293709Z
+mt72ihj,1kqo2tc,reddit,"This is basically the programming version of ""learning Japanese as an English speaker is hard, therefore it is not a good language for babies to learn""",2025-05-19T21:53:31Z,32,Aaron1924,programming,2025-05-25T17:14:35.293717Z
+mt77eam,1kqo2tc,reddit,"That is quite simple actually - an experienced in other languages programmer will struggle with Rust because many habits how to write the code don't work with Rust (except if your experience with C++11 with move semantics).
+
+For novices the ""borrowing"" is equally sophisticated as ""everything is an object"" from Python/JS and Rust imho would be even easier to learn because of best tooling, docs and compiler errors among all languages.",2025-05-19T22:21:06Z,7,ChristopherAin,programming,2025-05-25T17:14:35.293721Z
+mt7acr2,1kqo2tc,reddit,The pain of learning rust after coming from high level languages is just the burning of bad habits. As someone who didn't have a huge amount of experience and going into rust it actually was not too difficult because I feel like I didn't have old habits to fight against. I say this as someone who's worked in other industries and going from one sub industry to another had to kind of adapt to the new way of doing things.,2025-05-19T22:38:23Z,5,HomeyKrogerSage,programming,2025-05-25T17:14:35.293725Z
+mt70wyl,1kqo2tc,reddit,"So many people I have ran into on the Rust Discord. This was their first language, and they seem to be doing just fine.",2025-05-19T21:44:54Z,14,todo_code,programming,2025-05-25T17:14:35.293729Z
+mt738zi,1kqo2tc,reddit,"I think the argument being made in this article is not a good one, the author is using their experience of learning Rust while rewriting an algorithmic trading platform to make a judgement about Rusts viability as a first language. This is comparing apples to oranges in a pretty serious way.
+
+There are concepts that the authors app uses which would be hard for any beginner, somebody who is just learning programming isn’t going to be diving into multithreaded applications immediately. Rust was my second programming language (after C#) and where I’ve gained most of my experience. I think it’s a great learner language, it doesn’t abstract away important concepts (like Python or JavaScript) while remaining pretty easy to use with the compiler messages.
+
+The authors complaint of the compiler being difficult to understand is usually something you run into when making more advanced applications, generally when you pull in Tokio and write multithreaded code. Rust has great rules around threading, but it’s an area where the compiler output and syntax are still evolving.",2025-05-19T21:57:33Z,6,NullReference000,programming,2025-05-25T17:14:35.293733Z
+mt71u16,1kqo2tc,reddit,Sounds to me line you climbed the usual learning curve. There are languages that are much easier to learn and it does make sense to start with one of them. You appreciate Rust more if you experience the pitfalls of other languages.,2025-05-19T21:49:51Z,2,Carl_LaFong,programming,2025-05-25T17:14:35.293737Z
+mt75yfs,1kqo2tc,reddit,"I don't often see people saying rust should be a good first language, nor have I seen related hype.
+
+I think rust is consistently ranked high by people that know the problems that rust solves and like how it solves it. I don't expect a new programmer to really know why those things are important. If you're struggling with control flow (as a new dev) you'll probably struggle with pointers and references and the borrow checker and traits.
+
+I can absolutely prototype and write new things quickly in rust (i stood up a base k8s controller in rust just last night to chase down an idea) but it's not going to be a good solution for every usecase, including learning.
+
+I wonder if the author went through the rust book in addition to bouncing problems against some AI. I wonder if the author will keep using it and experience the ""Oh, I get it"" moment, but it doesn't seem like it.",2025-05-19T22:12:50Z,2,kryptn,programming,2025-05-25T17:14:35.293741Z
+mt7aea9,1kqo2tc,reddit,The Rust Evangelism Strike Force won't like it but it's true.  A first programming language should focus on getting the learner from typing something to seeing a result as quickly as possible without burdening them with conceptual overhead that's a complete distraction and you have to deal with way too much stuff in Rust that only matters if you are going to end up writing Rust when we just want to write some loops and conditionals and print some stuff to illustrate general computing principles.  Making someone taking data structures and algorithms 101 jump through the hoops Rust makes you jump through when you're just trying to illustrate a linked list is counterproductive.,2025-05-19T22:38:38Z,0,sisyphus,programming,2025-05-25T17:14:35.293746Z
+mt71ouw,1kqo2tc,reddit,"Rust is terrible at all, does not matter as the first or the last language...",2025-05-19T21:49:05Z,-15,Sibexico,programming,2025-05-25T17:14:35.293750Z
+mrljwfg,1kjayic,reddit,How about u goto hell instead OP!,2025-05-10T15:03:14Z,4,church-rosser,programming,2025-05-25T17:14:36.194301Z
+mrjv0z1,1kiyn9d,reddit,"Maybe you don't know, but there is a large Spanish subreddit for programming ([r/programacion](https://www.reddit.com/r/programacion/best/))",2025-05-10T06:55:40Z,2,waozen,programming,2025-05-25T17:14:37.059212Z
+mpgp6tj,1k9s69y,reddit,"Lol, I'd rather not be mentored by something that copy-pastes stolen code, hallucinates nonexistent API calls, and has no grasp of even the most basic of code structure and program design principles.
+
+Credit where it's due, at least the shill article admits they're a shill at the end of the opening paragraph. Most admit it at the end, if at all.",2025-04-28T11:05:17Z,4,newzilla7,programming,2025-05-25T17:14:38.757808Z
+mpiv680,1k9s69y,reddit,"Im sick of LLM discussions. Sick of LLM related SPAM.  Sick of LLM based companies and products and the hypers hyping the hype with blog articles, videos, and social media posts that provide no real substantive content.  Sick of LLM fanbois.  Sick of LLM related hyperbole and hyperbolic predictions about their potential.",2025-04-28T18:17:06Z,4,church-rosser,programming,2025-05-25T17:14:38.757812Z
+mtilr8r,1ks4p1o,reddit,"the writing is extremely formulaic and does not spark interest. it is nice that you at least admit to using AI to write the post, but it's just not interesting. we come to reddit to talk and engage with human created content. this is not it",2025-05-21T18:20:06Z,18,bzbub2,programming,2025-05-25T17:14:39.661516Z
+mtiky6e,1ks4p1o,reddit,sure reads like an AI hype piece,2025-05-21T18:16:09Z,15,neuralSalmonNet,programming,2025-05-25T17:14:39.661522Z
+mtil430,1ks4p1o,reddit,">feels like the job isn’t just about writing code anymore
+
+
+Has it ever been? Code is ~~useless~~merely a learning opportunity if it doesnt do what people want it to do.",2025-05-21T18:16:57Z,5,Ignisami,programming,2025-05-25T17:14:39.661527Z
+mtioee9,1ks4p1o,reddit,"another clue of AI generated, or at least edited, content is the use of endash or emdash. I have a key for a hyphen and don't even know how to get the others. no human uses them during casual internet usage or article writing. Unless you are formatting your paper in Tex or LaTex you probably aren't the type of person to care.",2025-05-21T18:32:59Z,3,ednark,programming,2025-05-25T17:14:39.661543Z
+msw5gf3,1kp97a1,reddit,"As I get older, I grow more tired of this man's platitudes. Maybe it's because the only professional credit he has to his name is his now defunct consulting company. 
+
+I've rarely encountered situations that permit this strict TDD order of operations. I've seen good tests and bad tests, and the good ones hardly ever were written prior to the code under test. If you can make that work for you, great. I've just personally never encountered many situations where this sort of methodology is applicable.",2025-05-18T02:22:14Z,16,NullCyg,programming,2025-05-25T17:14:40.545202Z
+mszg115,1kp97a1,reddit,"I have an even better trick how to save time: I stopped doing TDD. A long time ago.
+
+Let me tell you, the time saved by focusing on shipping a functional product to our customers, instead of strictly adhering to an ideology that demands that I write test coverage for code that doesn't even exist yet, is AMAZING!
+
+TDD is what you get when you take an idea that is good in principle, and based on trueisms like ""code should be tested"", and then inflate those to almost satirical proportions.
+
+Because at that point, things start being ideologies, rather than technical paradigms.",2025-05-18T17:21:06Z,3,Big_Combination9890,programming,2025-05-25T17:14:40.545206Z
+mswl5nl,1kp97a1,reddit,"Started programming C++ back in the mid '90s. Never thought a science would turn into such an opportunist and subjective market. Every day a new language, a new platform, a new strategy hero, a new YouTube hero, etc.
+
+I swear programming has gone pure tabloid. Lol.",2025-05-18T04:20:18Z,5,fliption,programming,2025-05-25T17:14:40.545209Z
+mseqbrp,1kn0czy,reddit,"You mean, what the world was a few months ago? It's kinda easy",2025-05-15T06:49:57Z,3,UltraPoci,programming,2025-05-25T17:14:41.400831Z
+ms2eeb2,1kkao8a,reddit,Mistake #1: making everything a YouTube video that I'm not going to watch.,2025-05-13T10:13:01Z,2,IanAKemp,programming,2025-05-25T17:14:42.261283Z
+mrte29f,1kkao8a,reddit,"CTO of what, Gregor?",2025-05-11T21:46:23Z,1,moreVCAs,programming,2025-05-25T17:14:42.261300Z
+mrkqp23,1kj82r7,reddit,"I dunno which strawman this is trying to argue against, I've yet to see a course or book that didn't have fingers on the keyboard work from day 1. Doing is necessary to learning. What a book or course provides is guidance on what works, and importantly, what doesn't. You don't need to spend time ""smashing your head"" against a solved problem, and as an instructor, I can catch you wandering off towards the proverbial staircase and catch you before you fall.
+
+I also disagree that a degree can't give you passion - I've gotten some of my best encouragement and spark for creativity from instructors and mentors. And even when you do come into engineering with that in mind, a program can still provide guidance and refinement that you won't get YOLOing at a keyboard with a vibe code assistant.
+
+Are there good instructors and bad instructors? Certainly. But the ""do""s in this advice are disjoint from that entirely.",2025-05-10T12:01:21Z,19,elprophet,programming,2025-05-25T17:14:43.187367Z
+mrkvhoo,1kj82r7,reddit,We would have even better surgeons if they could tinker around as we can do as programmers.,2025-05-10T12:36:04Z,7,DonaldStuck,programming,2025-05-25T17:14:43.187376Z
+mrkxacl,1kj82r7,reddit,I think you can waste a lot of time if you are only tinkering and don't have any idea about architecture. So yes degrees and tinkering are cool. And provide the best and fastest way to knowing what the fuck you are doing.,2025-05-10T12:48:13Z,3,Fluffy-Republic8610,programming,2025-05-25T17:14:43.187382Z
+mrkzs08,1kj82r7,reddit,"I got my start in ""programming"" in high school learning how to do html with Webmaster and then Lua scripting to mod some games I had just doing basic stuff.
+
+But being a script kiddie and building a basic website is cool and all, but my 4 years of computer science college classes are what built my actual skills and learn that I'm not a script kiddie / hackerman and want to actually be a software engineer, yknow what I mean?
+
+You're going to discover passion through formal education and learning things the right way, just like you can build passion by building random stuff with tutorials. The difference is that college also makes you learn the less sexy stuff to learn what parts of engineering you love and hate and excel at to better inform what kind of engineer you want to be when you graduate, ja feel?
+
+When you just take these online courses and build your starter project and portfolio with the stuff you want to learn and think is cool, you're not gonna be forced out of your comfort zone and pushed to your limit like a rigorous degree does.
+
+Did I do well in Systems Programming? Heck yeah, it was fun to learn how low level file systems and shit and pushing performance to the limit. Security, OS, all that was cool too.
+
+Did I do well in Databases? Heck yeah, relational model and stuff just clicked and I learned the fundamentals of SQL and database system design that's super important for a lot of roles.
+
+Did I do well in Game Dev? Fuck no, I hated that shit. Mobile Dev? Meh, fuck that too.
+
+Computer engineering ethics, system design, software engineer project planning - These courses taught me team work and the critical skills that differentiate a talented programmer into a ""proper"" engineer.
+
+And then my internship and senior projects forcing team work on top of those courses made it clear that this was the good career path more than just any solo dev projects possibly could.
+
+Plus your professors who have masters and PhDs and like a million years of combined professional experience can give mentorship and career advice and insight you'd never get following a YouTube tutorial.
+
+I think a lot of people in my 4 year degree learned early on with the ""weed out"" courses and such that they fucking hated this and others who were very... talented... solo devs had their ego stripped and put in line with a 4 year program.
+
+#TL;DR 
+
+idk man college worked for me and taught me I loved software engineering, I never did public github passion project shit, all my stuff is in private company repos doing stuff for a business and that was more valuable than spending my evenings trying to learn Golang, Rust, or some shit after hours and instead I go do other stuff that's not programming.
+
+Whatever works for you.",2025-05-10T13:04:37Z,2,Scottz0rz,programming,2025-05-25T17:14:43.187388Z
+mrl2kri,1kj82r7,reddit,"Nothing wrong with getting a degree. OTOH, you will never learn enough in college to make you much more than a rookie developer, unless you are doing it a lot on your own time and started doing that well before you got to college, working on real world stuff. Which means that it's ultimately the latter that gives you the skills that people want to pay for. 
+
+And, it has to be said that, if you are not someone who pushes yourself to learn, getting a degree isn't going to help that much long term. This is a profession that requires continuous education if you want to be more than a factory floor mercenary. And, if you are that kind of self-driven person, everything you want to know is out there for the taking. There are entire college lecture courses on all kinds of subjects online. And of course you are only in college for four or six'ish years, but in the profession for decades, so most of your life you'll have to be self-driven.
+
+I'm sure that for some people the pressure to get successfully through college will motivate them to learn more than they might otherwise at that age, when they'd prefer to be doing bong hits and stage diving, and that might provide an advantage getting in the door. But if they aren't self-driven, it's going to be tough moving forward. Nothing wrong with that of course. A whole world of opinionated super-star devs would be sort of hard to deal with anyway. Having folks who come in and do what they are asked and go home has its place as well.",2025-05-10T13:22:16Z,1,Dean_Roddey,programming,2025-05-25T17:14:43.187394Z
+mroic36,1kj82r7,reddit,"Yes because you almost never write any code in pursuit of a degree../s
+
+What an idiotic premise.",2025-05-11T01:27:08Z,1,toaster_scandal,programming,2025-05-25T17:14:43.187400Z
+mp6agy4,1k8hqgz,reddit,"""Yo Claude spin up a couple VMs for my vibe code app""
+
+$10k in lambda bills later",2025-04-26T17:08:03Z,32,Farados55,programming,2025-05-25T17:14:44.102942Z
+mp6d8ru,1k8hqgz,reddit,[removed],2025-04-26T17:22:01Z,6,N/A,programming,2025-05-25T17:14:44.102947Z
+mp6djrd,1k8hqgz,reddit,"""Why at work and for personal projects we are using different infra tools?""
+
+Because companies care about optimizing cloud spend, and any PaaS companies that are just wrappers around cloud infrastructure are going to just be marked up cloud infrastructure prices.
+
+I mean seriously, did you even think about the financial reasons behind this before coming up with your dumb idea?
+
+And sidenote I tried vibe coding python pulumi IaC. There's just too much hallucinations in it to be effective on anything more than an iterative basis.",2025-04-26T17:23:33Z,3,Bill3000,programming,2025-05-25T17:14:44.102950Z
+mtiw81y,1ks5vdc,reddit,Does the author want a gold star for doing the bare minimum?,2025-05-21T19:10:52Z,23,beardfearer,programming,2025-05-25T17:14:45.055161Z
+mtiwt9u,1ks5vdc,reddit,"Fuck it man, take your oppositional defiance to the next level. 
+
+“Why I started giving my variables meaningful names”
+
+“Why I started including null checks”
+
+“Why I started typing with my fingers instead of my tongue”",2025-05-21T19:13:44Z,14,moreVCAs,programming,2025-05-25T17:14:45.055165Z
+mtje1mr,1ks5vdc,reddit,"Not sure why everyone seems to have a bad reaction here. Sometimes when you start you just learn on the job. And if your company is not following best practices it can be really hard to learn what they actually are and how to get colleagues to follow them.
+
+This is coming from someone that pulled a company away from uploading files manually to the server to using CD/CI.
+Heck, we are still in the process of refactoring some old codebases where credentials were hardcoded.
+
+With that being said, I’ll share my own hot take. For marketing websites you don’t need tests.",2025-05-21T20:35:15Z,3,Flashy-Protection-13,programming,2025-05-25T17:14:45.055167Z
+mtj1ae4,1ks5vdc,reddit,"Nice motivational war story. I got started before unit testing was so mainstream and coding was always guessing what breaks in production.
+
+Docker and unit testing are pain in the ass sometimes but so much better than our business was 20 years ago",2025-05-21T19:35:28Z,2,rperanen,programming,2025-05-25T17:14:45.055170Z
+mtj8thn,1ks5vdc,reddit,"Thanks for the read! My company has a lot of legacy code and testing used to not be in our toolbox. It certainly is now, and I’ve also had to reframe my testing mindset!",2025-05-21T20:10:57Z,2,Makeitmagical,programming,2025-05-25T17:14:45.055172Z
+mtiuxk3,1ks5vdc,reddit,🤮,2025-05-21T19:04:30Z,3,Glokter,programming,2025-05-25T17:14:45.055174Z
+mszcnxj,1kpol01,reddit,🤮,2025-05-18T17:03:57Z,8,Glokter,programming,2025-05-25T17:14:45.972900Z
+mt02vxr,1kpol01,reddit,Hi u/SamuraiDeveloper21. This is a warning regarding the click bait titles. You need to step that back or we’re not going to allow your posts.,2025-05-18T19:21:04Z,3,ketralnis,programming,2025-05-25T17:14:45.972906Z
+mszkpqd,1kpol01,reddit,"Agile is crap in every form.
+
+P.,S. The fact that before Agile was Waterfall is a myth.",2025-05-18T17:44:53Z,5,florinp,programming,2025-05-25T17:14:45.972911Z
+msze8pw,1kpol01,reddit,"Trust me I know.
+
+Fang agile
+
+Corporate agile
+
+A large flake with chocolate sprinkles agile.
+
+Original Agile 
+
+Agile is just better than the alternative poop show.",2025-05-18T17:12:03Z,2,Beginning_Basis9799,programming,2025-05-25T17:14:45.972915Z
+mt1kgg6,1kpol01,reddit,">Agile is not a checklist of rituals or a set of rigid rules — it’s a mindset focused on adaptability, collaboration, and delivering working software that evolves with real needs. Too often, teams adopt the superficial aspects of Agile while missing its core principles, leading to frustration and reduced productivity. True Agile means trusting your team, embracing change, and building software iteratively with constant feedback. If we remember that being Agile means being flexible, thoughtful, and collaborative, we can create better products — and better teams.
+
+The issue is that most people want to get a paycheck.  If the person signing the paychecks want Agile, most people are going to go along with it to get the paycheck, leading to the highlighted ""too often, teams adopt the superficial aspects of Agile"".",2025-05-19T00:25:34Z,2,ronniethelizard,programming,2025-05-25T17:14:45.972924Z
+mszdip7,1kpol01,reddit,"> write me an insipid blog post in a rather lazy attempt to get name recognition as a software engineer, bonus points if it's about 10-15 years too late
+
+
+
+Title: Thoughts on Code and Stuff (Because Why Not?)
+
+Hey folks (if anyone's reading this),
+
+So I figured it's probably time I start a blog or whatever. You know, just a little corner of the internet where I can dump some thoughts and maybe trick Google into associating my name with ""software engineer"" in case anyone ever searches for it. Not that I expect them to, but still — SEO or something.
+
+Anyway, I've been coding for a while. Like, long enough to remember when jQuery was the hotness and Stack Overflow didn’t have ads. Things were simpler then. We FTP’d stuff live to production and prayed it worked. Now everything’s containers and microservices and CI/CD pipelines that break for reasons nobody understands.
+
+Lately, I've been ""thinking"" (read: mildly daydreaming during meetings) about how the industry has changed. JavaScript frameworks seem to spawn faster than I can unbox IKEA furniture. I still don't really know what the deal is with GraphQL but I nod confidently when it's mentioned in standups. And honestly, I think that's the real secret to surviving in tech — confident nodding.
+
+Do I have a hot take? Not really. But here's one anyway: writing clean code is still cool. Tests are still useful. And tabs are better than spaces, unless you're interviewing at a place where the opposite is true — in which case, obviously, I love spaces. Big fan.
+
+Anyway, if you've made it this far, wow. Thanks? Maybe I'll post something more useful next time. Or maybe this is all just a cleverly veiled attempt to get my name to show up when someone Googles ""competent backend dev blog."" (Hi, recruiter.)
+
+'Til next time — or never, Your Future Favorite Dev Blogger Probably
+
+
+(courtesy of chatgpt)",2025-05-18T17:08:19Z,1,suggestiveinnuendo,programming,2025-05-25T17:14:45.972928Z
+mslp7ld,1knwxhb,reddit,"Yes it is a real thing. You’ve never met an engineer that had 10x the business outcome of another?
+
+10x engineer *does* in fact measure success, in fact it’s the only thing it measures.
+
+Sure, yeah, it’s often claimed when not true.
+
+Sure, yeah, people don’t refer to themselves as it",2025-05-16T10:37:05Z,5,QuickShort,programming,2025-05-25T17:14:46.975254Z
+mslnftx,1knwxhb,reddit,self guided missile sounds like an insult. i would never use that for anyone i respect.,2025-05-16T10:21:24Z,2,timwaaagh,programming,2025-05-25T17:14:46.975264Z
+mslyitq,1knwxhb,reddit,"The ultimate problem is that, like so many other phrases used in our profession, this one has been co-opted by management weasels to mean what they choose when they choose.",2025-05-16T11:48:12Z,2,IanAKemp,programming,2025-05-25T17:14:46.975271Z
+msp8sq4,1knwxhb,reddit,"My hypothesis is that ""10x"" started as an abbreviation for ""thanks"" but people started reading it as ""10 times"" and started interpreting this as ""oh, you're thinking I'm 10 times better than everyone else?""",2025-05-16T22:04:42Z,2,somebodddy,programming,2025-05-25T17:14:46.975278Z
+mspoytd,1knwxhb,reddit,"I've never met anyone with 10x my capability either.
+
+Plenty of people with 1/10th though. So I guess maybe the 1/10th programmer is just super common and the 10x programmer is a myth.",2025-05-16T23:52:32Z,2,adr86,programming,2025-05-25T17:14:46.975284Z
+mslmtd1,1knwxhb,reddit,"The purpose of this term seems to be to put undue pressure on these poor folks so that they burn out 10x as fast as regular engineers.
+
+Business talk can be so disgusting.",2025-05-16T10:15:45Z,3,Aggressive-Two6479,programming,2025-05-25T17:14:46.975291Z
+msllgg1,1knwxhb,reddit,Fallacies...,2025-05-16T10:02:58Z,1,Positive_Method3022,programming,2025-05-25T17:14:46.975297Z
+msm3oti,1knwxhb,reddit,I go to 11%,2025-05-16T12:23:02Z,1,Full-Spectral,programming,2025-05-25T17:14:46.975304Z
+mslmw6h,1knwxhb,reddit,"Hear, hear. I'm not saying '10x engineers' don't *exist*, but they are so rare as to make the phrase meaningless.",2025-05-16T10:16:28Z,1,SmokyMcBongPot,programming,2025-05-25T17:14:46.975310Z
+mslkukk,1knwxhb,reddit,"lol. Sweet summer child. Look up full stack engineer.
+
+You’re good at things, not everything. It is a made up word by marketing goons.",2025-05-16T09:57:08Z,-7,HankOfClanMardukas,programming,2025-05-25T17:14:46.975316Z
+ms7hyb9,1km440g,reddit,"Whatever you end up writing will probably be even worse, no offense. 😆",2025-05-14T03:01:33Z,26,knowledgebass,programming,2025-05-25T17:14:47.947126Z
+ms7jugw,1km440g,reddit,"I don’t know who you are or what level of experience you have, but it sounds like you have a lot to learn. I’m not saying css is perfect, or that you’re incorrect for wanting to replace it. What I am gonna say though is you are going to need a dissertation, easy PhD topic here, complete with gobs of examples, to convince people this is a thing that needs to be done. Consider that some people are _wizards_ with native web tech, including css, check out https://a.singlediv.com for some bonkers examples. 
+
+Also, as ever, there is an XKCD for this. https://xkcd.com/927/",2025-05-14T03:14:09Z,10,drakythe,programming,2025-05-25T17:14:47.947132Z
+ms7wht0,1km440g,reddit,"OP, ngl... this reads very much like a junior dev who's hit a snag trying to implement something and now thinks reinventing it would somehow be easier than learning it. 
+
+CSS has the full weight of every browser vendor behind it along with decades of iteration and refinement. 
+
+Really, if you want to make a difference, your best shot isn't building a replacement.. it's joining [the CSS working group](https://www.w3.org/groups/wg/css/) and pitching actual changes. 
+
+Otherwise, you're just shouting into the void.",2025-05-14T04:43:50Z,6,absentmindedjwc,programming,2025-05-25T17:14:47.947136Z
+ms7ndi4,1km440g,reddit,[deleted],2025-05-14T03:37:49Z,8,N/A,programming,2025-05-25T17:14:47.947140Z
+ms7rkb4,1km440g,reddit,"Do it, prove all the haters wrong",2025-05-14T04:07:02Z,3,_BreakingGood_,programming,2025-05-25T17:14:47.947143Z
+ms7sz4q,1km440g,reddit,"A ""CSS replacement"" that ""compiles to CSS"" .... aren't you pretty much describing Sass/Less? ",2025-05-14T04:17:06Z,3,Aetheus,programming,2025-05-25T17:14:47.947147Z
+ms7vw5n,1km440g,reddit,[https://xkcd.com/927/](https://xkcd.com/927/),2025-05-14T04:39:09Z,3,Lachee,programming,2025-05-25T17:14:47.947150Z
+ms7wohk,1km440g,reddit,"I’m not going to be as negative as many of the other comments. If you are passionate about it, dive in!  It’s bound to be an educational project. 
+
+As far as the long term goal, you’ve got two difficulties. One is that literally thousands and thousands of hours of work have gone into designing and implementing CSS. You are starting a climb of a very large mountain. 
+
+If that doesn’t daunt you, cool, but it’s actually not your main problem. Your main problem is that browsers have a very, _very_ high standard for backwards compatibility, so there is essentially no chance of CSS ever being removed from browsers. You cannot replace CSS. It’s just not possible. What you create will have to be valuable existing alongside CSS. 
+
+What may be achievable is to genuinely implement something better that always compiles down to either JS or CSS. That’s where tools like Sass live. If you have good enough ideas, you could just maybe replace Sass.",2025-05-14T04:45:18Z,3,GrandOpener,programming,2025-05-25T17:14:47.947154Z
+ms7cnts,1km440g,reddit,"[Your example is easily done in CSS](https://codepen.io/fuzzybabyducks/pen/YPPBqGO)
+
+Trying to make a competitive engine to CSS is a fools errand as you would need buy-in from browsers and everything else. At best you can make another meta-framework like tailwind to make it easier, but unless you are Google, it's not happening.
+
+I would love something not as crap as CSS and for me to not have to use tailwind/bootstrap/whatever to do things that should be simple, but its not like anyone can just make a CSS competitor.",2025-05-14T02:28:07Z,7,SippieCup,programming,2025-05-25T17:14:47.947157Z
+ms7qff4,1km440g,reddit,"CSS3 is actually a beautiful piece of engineering.   
+You're getting untold features including GPU rendering for free in a way that works mostly the same across untold browsers. Honestly, it seems like you could just use [Fr units](https://css-tricks.com/introduction-fr-css-unit/). 
+
+You should checkout some of these playlists from Jen Simmons (Developer Advocate/Mozilla/CSS Working group) to see what's possible:  
+[https://www.youtube.com/@LayoutLand/playlists](https://www.youtube.com/@LayoutLand/playlists)
+
+The [Mondrian Layouts](https://labs.jensimmons.com/2017/01-011.html) are a really fun example.",2025-05-14T03:59:23Z,4,poralexc,programming,2025-05-25T17:14:47.947161Z
+ms7sc5t,1km440g,reddit,"Netscape introduced this as a [competitor to CSS](https://en.m.wikipedia.org/wiki/JavaScript_Style_Sheets). It never really got any traction in spite of the limitations of CSS at the time.
+
+Moving out of the web, there are also typesetting languages that overlap with CSS’s capabilities. [LaTeX](https://en.m.wikipedia.org/wiki/LaTeX) and [groff](https://en.m.wikipedia.org/wiki/Groff_\(software\)) come to mind.",2025-05-14T04:12:29Z,2,-jp-,programming,2025-05-25T17:14:47.947165Z
+ms7xp5x,1km440g,reddit,"I think you're only getting downvotes because of ""not the best communication""
+
+Apparently most will accept the ""You can do that with grid 1fr and 4fr"" but you've explained how thats does no solve the core of the problem, maybe it was not very clear on your post? I mean I only understood it after reading the comment threads you participated.
+
+Also, I like your rant, and think it is right, but there is no need to say CSS is garbage language, not because I think it's good, but because software with no flaws is exceptionally rare nowadays anyway (see [thirty million line problem](https://youtu.be/kZRE7HIO3vk)). It can produce working webapps, even if it has flaws that's not too terrible considering the amount of compatbility it has to maintain.
+
+Anyway, trying to replace CSS is no easy task, a js library to fix the rendering mechanics to me looks like simply overhead if I can achieve acceptable results with just CSS, so maybe hard for devs to adopt. Maybe you can work with towards adding things to the w3c spec to fix those problems in a backwards compatible way.",2025-05-14T04:53:29Z,2,Ashamed-Gap450,programming,2025-05-25T17:14:47.947168Z
+mrv2j39,1kkha8d,reddit,"I downvoted this post because it says
+
+> Create an account to read the full story.
+>
+>The author made this story available to Medium members only.",2025-05-12T04:27:43Z,7,TakenSeriously,programming,2025-05-25T17:14:48.819541Z
+mruprvs,1kkha8d,reddit,Betteridge's Law,2025-05-12T02:49:15Z,2,axonxorz,programming,2025-05-25T17:14:48.819549Z
+mre8444,1kielb2,reddit,"This has strong solutions looking for a problem energy. It  is kinda inevitable when you start with the assumption ""AI is really powerful"".
+
+Maybe the real reason most devs don't want AI anywhere near their workflow is because it's garbage, and doesn't add anything we need.",2025-05-09T10:08:08Z,32,NuclearVII,programming,2025-05-25T17:14:49.736720Z
+mrecezu,1kielb2,reddit,"This article seems to think developers are worried they'll be replaced by AI. We're not worried about this. At all.
+
+Writing code is very little of what we spend our time on, and the little time we spend on it we do much better than any AI.",2025-05-09T10:47:17Z,7,Anders_A,programming,2025-05-25T17:14:49.736733Z
+mree1tr,1kielb2,reddit,"""Atlassian’s State of DevEx Report found that developers lose one day a week to inefficiencies, including more than 30 minutes a day spent looking for things. This ties directly to developers pointing""
+
+I can see how it can be frustrating but I would also argue that the journey of looking is a skill that AI is eroding. I've heard too many people say ""LLM x said this made the most sense"". Then when going to implement x, issues start to arise.
+
+Also idk about others but I'm in a project right now that is using LLMs to lower headcount in a department. Software has been used in the corporate environment for a long time now to replace humans in the guise of increased efficiency so less people have more time to work on other tasks. LLMs feel like a divine gift where managers can boast about efficiency gains and when the time comes, justify layoffs.",2025-05-09T11:00:43Z,3,DandyHOBBO,programming,2025-05-25T17:14:49.736740Z
+mrfszqo,1kielb2,reddit,The answer is because developers are smart and their bosses are not.,2025-05-09T15:59:54Z,3,IanAKemp,programming,2025-05-25T17:14:49.736747Z
+mptl4m9,1kbdqnu,reddit,"No, not a chance in hell I'll let some clueless machine make up documentation. 
+
+Why won't these fucking people ever shut up?",2025-04-30T11:22:52Z,9,ByteArrayInputStream,programming,2025-05-25T17:14:51.489777Z
+mptku1s,1kbdqnu,reddit,Gaddamnit these posts are fuggin annoying and largely completely useless.,2025-04-30T11:20:39Z,8,church-rosser,programming,2025-05-25T17:14:51.489785Z
+msyxzc4,1kpmmis,reddit,"> If you’re a software engineer in 2025, you should be using Agent Mode in your editor, either in VSCode, Cursor, or Windsurf. It’s by far the single biggest productivity boost I’ve ever experienced.
+
+To paraphrase Charlton Heston:
+
+*""They can have my vim when the pry it out of my cold, dead hands!""*",2025-05-18T15:46:03Z,4,Big_Combination9890,programming,2025-05-25T17:14:53.616295Z
+msyyxc9,1kpmmis,reddit,"We already use the best method of describing software, It's called writing the code yourself.",2025-05-18T15:51:02Z,7,quiet-Omicron,programming,2025-05-25T17:14:53.616303Z
+ms1gg1s,1kld233,reddit,"This is actually pretty useful. I like to shit on LLM stuff but I might actually use this, thanks. So this doesn’t use API keys right? It’s just straight up browser pages embedded in the app?",2025-05-13T04:45:06Z,1,Farados55,programming,2025-05-25T17:14:54.481375Z
+ms1r50e,1kld233,reddit,I say prompt to create better prompt to get prompt perfection. Ultimately we get Ultima perfection which is all perfections assembled to one,2025-05-13T06:17:50Z,0,HarmadeusZex,programming,2025-05-25T17:14:54.481380Z
+mrpwt7s,1kjw3jp,reddit,"I would be interested in knowing how batching code reviews impacts their peers.
+
+
+I say this, because I generally treat reviews as interrupts, but I also probably do more reviews than writing code, so the hands on coding technically gets in the way of my job (team efficiency, mentoring, design).",2025-05-11T08:25:53Z,3,rnicoll,programming,2025-05-25T17:14:56.287524Z
+mrn45fy,1kjigtz,reddit,"I have no bone to pick in this fight (I'm Lisping) but that was a way too biased opinion piece. 
+The comptime section in particular was appaling, not even showing a comptime example.
+
+Nothing was learned other than: Well it's different to Odin and C...",2025-05-10T20:15:15Z,11,beders,programming,2025-05-25T17:14:58.036415Z
+mrp1o0f,1kjigtz,reddit,[Betteridge's law of headlines](https://en.wikipedia.org/wiki/Betteridge's_law_of_headlines) never fails.,2025-05-11T03:39:31Z,5,takanuva,programming,2025-05-25T17:14:58.036420Z
+mrmzpnk,1kjigtz,reddit,Previous one on Odin was discussed here: [https://www.reddit.com/r/programming/comments/1kex8ya/odin\_a\_pragmatic\_c\_alternative\_with\_a\_go\_flavour/](https://www.reddit.com/r/programming/comments/1kex8ya/odin_a_pragmatic_c_alternative_with_a_go_flavour/),2025-05-10T19:49:50Z,0,Sufficient-Loss5603,programming,2025-05-25T17:14:58.036423Z
+mr2n77a,1kgyoew,reddit,"I was like, why the hell is Richard Feldman writing some AI ad? Then I remembered he works for Zed. I guess Roc won't fund itself
+
+About this post, as expected, I don't know exactly what qualifies it as ""fastest"". Pretty sure all these features are available in every other editor (even nvim). Also, 500 prompts for 20$/month? Isn't that outrageously expensive?",2025-05-07T14:41:43Z,13,teerre,programming,2025-05-25T17:14:59.021114Z
+mr2o7qr,1kgyoew,reddit,AI editor? No thanks.,2025-05-07T14:46:43Z,21,phplovesong,programming,2025-05-25T17:14:59.021118Z
+mr2scn8,1kgyoew,reddit,I was so looking forward to zed being the next eMacs instead it’s just the next vscode ,2025-05-07T15:06:55Z,5,xFallow,programming,2025-05-25T17:14:59.021120Z
+msz8bxy,1kpo2fi,reddit,"To save you a click: the company shills AI products and openly allows for it to be used in interviewing. Like everyone who has decided to turn off their brain with the rise of AI, the solution to all the problems AI causes is just to rely on AI even more.",2025-05-18T16:41:19Z,24,wreckedadvent,programming,2025-05-25T17:15:00.785645Z
+mszaxt8,1kpo2fi,reddit,We designed our interview process to allow cheating with ai,2025-05-18T16:54:59Z,2,Lobreeze,programming,2025-05-25T17:15:00.785650Z
+mszf38x,1kpo2fi,reddit,"Contrary to what some of the other commenters here stated, I found a blog post that has an interesting take on the interview process as a whole (not only on the technical parts of the interview), while also getting down to the specifics of their methodology accompained by actionable advice.
+
+At my company, we used to do take home assessments for a very long time, and although we had almost no ""false positives"" (i.e. candidates that were unfit for the job), we also lost a lot of very good people in this process, especially (corroborsting with the post), more senior folks.
+
+Currently, we're moved to a leaner process that is heavier on pairing, live coding, etc, but I must say that the idea of using code that closely resembles the code we see in our day to day job + having tasks with increasing levels of difficulty is definitely something I'll be trying to incorporate in the process.",2025-05-18T17:16:19Z,1,HenriqueInonhe,programming,2025-05-25T17:15:00.785653Z
+mqhxj4b,1ked6t3,reddit,"The list is kinda trashy in the middle. Loon before you leap? Never heard of it despite being 10 years in software. And while dry, kiss, soc are really popular, it's hilarious to talk about solid and then kiss. 
+
+Has anyone actually implemented bdd? It sounds very cool for execs and very annoying for developers.
+
+Also rtfm and lgtm should be on the list.",2025-05-04T06:41:11Z,5,chethelesser,programming,2025-05-25T17:15:03.586866Z
+mqhwimb,1ked6t3,reddit,"""must"" lol",2025-05-04T06:31:17Z,4,mark_kovari,programming,2025-05-25T17:15:03.586870Z
+mqi0opa,1ked6t3,reddit,"> Why it matters: BDD encourages collaboration between developers, QA, and non-technical stakeholders. It ensures that everyone understands the expected behavior of the software, improving the quality of communication and reducing misunderstandings.
+
+Has anyone *actually* seen it work like that, as advertised?",2025-05-04T07:12:18Z,1,CptBartender,programming,2025-05-25T17:15:03.586874Z
+mqi1fc9,1ked6t3,reddit,LBYP? I've never heard that acronym. Is it really a must? 🤔,2025-05-04T07:19:44Z,1,SamTheSpellingBee,programming,2025-05-25T17:15:03.586876Z
+mq7b1j9,1kd13k9,reddit,Is this not common knowledge?,2025-05-02T14:31:14Z,6,PancAshAsh,programming,2025-05-25T17:15:04.459195Z
+mq75s1z,1kd13k9,reddit,👍 ok,2025-05-02T14:05:16Z,5,M44PolishMosin,programming,2025-05-25T17:15:04.459198Z
+mq76s2s,1kd13k9,reddit,"Wow, crazy stuff! 🤪",2025-05-02T14:10:17Z,2,JanErikJakstein,programming,2025-05-25T17:15:04.459200Z
+mq7krlf,1kd13k9,reddit,I worked for a payments product that had some subtle issues related to this,2025-05-02T15:17:41Z,1,uniquesnowflake8,programming,2025-05-25T17:15:04.459203Z
+mqbc38r,1kd13k9,reddit,Not my fault you don't have a rational numbers library,2025-05-03T03:23:39Z,1,xX_Negative_Won_Xx,programming,2025-05-25T17:15:04.459205Z
+mshnyfy,1kneqv1,reddit,"*Maybe.*
+
+But [Please stop citing TIOBE](https://nindalf.com/posts/stop-citing-tiobe/).",2025-05-15T18:14:33Z,11,guepier,programming,2025-05-25T17:15:05.328566Z
+mslywfi,1kneqv1,reddit,"Default language used by people who can't actually program their way out of a paper bag, maybe. Most of the ML/AI code seems to run on Python and such code is, in my experience, the most wretchedly unstructured garbage you'll ever encounter.",2025-05-16T11:50:53Z,3,IanAKemp,programming,2025-05-25T17:15:05.328580Z
+mshpe7t,1kneqv1,reddit,Year of the Python scripting language.,2025-05-15T18:21:40Z,2,BlueGoliath,programming,2025-05-25T17:15:05.328587Z
+mshsrwm,1kneqv1,reddit,Its time to use a real language instead ;-p,2025-05-15T18:38:34Z,3,nemesit,programming,2025-05-25T17:15:05.328595Z
+mrsxk2c,1kk9u45,reddit,"The article suggests that the XKCD cartoon is saying not to learn tools. It isn't though. It's saying don't waste time. In every case where this happens you'd be better off doing the task the quicker, manual way and then spending the remaining time learning the tool you wanted to learn in a more structured way. The author just wants to justify wasting their time to learn a tool in a suboptimal way.",2025-05-11T20:15:12Z,21,AdministrativeBlock0,programming,2025-05-25T17:15:06.282741Z
+mrsvl1h,1kk9u45,reddit,"Jesus, can we kill this ""considered harmful"" meme already? It's so fucking watered down.",2025-05-11T20:04:24Z,36,eviljelloman,programming,2025-05-25T17:15:06.282745Z
+mrsvo9r,1kk9u45,reddit,you also could've done something useful and learned useful skills,2025-05-11T20:04:53Z,20,TheoreticalDumbass,programming,2025-05-25T17:15:06.282747Z
+mrt5iqg,1kk9u45,reddit,"> This particular pattern was only in about 10 spots, so it would have only taken a minute to search and fix manually, but instead I spent an hour automating the fix using sed and xargs.
+
+Sounds like very little of that was ""automating the fix"", and a lot of it was learning aspects of the shell, sed, and xargs. The big win here is increased familiarity with some very useful tools. A smaller win is that you automated something that you'd have a small chance of erring on, doing it by hand. If you had taken an hour on the automation and not learned anything that might be useful in the future, that would've been a waste.",2025-05-11T20:58:25Z,7,khedoros,programming,2025-05-25T17:15:06.282749Z
+mrt3fy6,1kk9u45,reddit,"how about, and i know its a controversial take, but how about people can make whatever the heck they want with their own time without being told theres only one right way to do things?
+
+wasting time is not even a thing, the task is done and everyone happy",2025-05-11T20:47:08Z,2,zaidazadkiel,programming,2025-05-25T17:15:06.282751Z
+mrsviog,1kk9u45,reddit,"Love it! You're preaching to the choir with me, but curious to see what response other people have to the idea, but it's intuitively correct to me.",2025-05-11T20:04:03Z,-2,IAmTheKingOfSpain,programming,2025-05-25T17:15:06.282754Z
+mrt53hz,1kk9u45,reddit,"I think the original chart is off, since we have LLMs that can shit out a basic script that 90% where you want do get. Just read through it, customize it to fix the company's quality (if it's a Python script, enforce a style, logging style, etc), which would take a few minutes at best, instead of several hours pre-LLM.
+
+Yes, yes, don't blindly accept the output - maybe even debug-step through the code, if possible (maybe temporarily disable the state-changing bits, depending on the script). Force it to write functions, instead of one giant script, etc.",2025-05-11T20:56:06Z,-7,NostraDavid,programming,2025-05-25T17:15:06.282756Z
+mprlrhh,1kb4gjw,reddit,Next thing you're going to tell us is that the kernel doesn't even know how to start a executable and has to call out to the dynamic loader in user space....,2025-04-30T01:33:19Z,25,jdgordon,programming,2025-05-25T17:15:07.206968Z
+mprmb5q,1kb4gjw,reddit,"I highly disagree with this article saying it ""isn't real."" Just because the kernel isn't directly parsing it (which would frankly be weird) does not mean it ""isn't real.""
+
+
+`PATH` is a standard, just like most other environmental variables.
+
+
+Would you say the `XDG_*` variables aren't real because individual programs have to parse them?",2025-04-30T01:36:29Z,18,TheBrokenRail-Dev,programming,2025-05-25T17:15:07.206974Z
+mprlz5d,1kb4gjw,reddit,Yes it is,2025-04-30T01:34:32Z,18,anonymous-red-it,programming,2025-05-25T17:15:07.206979Z
+mprmyvb,1kb4gjw,reddit,...why is the author surprised that the shell parses `PATH` when it is a shell variable?,2025-04-30T01:40:10Z,18,sickofthisshit,programming,2025-05-25T17:15:07.206983Z
+mprocpx,1kb4gjw,reddit,AI slop,2025-04-30T01:47:58Z,10,Neat_Reference7559,programming,2025-05-25T17:15:07.206987Z
+mprsz6e,1kb4gjw,reddit,"So the author discovered that PATH is read by the shell and this somehow makes it not real? Even though, AFAIK it was like this since the original UNIX, so the author just discovered how *nix process calling works. What next? Pipes aren’t real?",2025-04-30T02:14:32Z,4,heraldev,programming,2025-05-25T17:15:07.206992Z
+msyg5dm,1kpkow1,reddit,"> as a senior developer I was shocked I never heard about this protocol
+
+A senior developer in name only I guess",2025-05-18T14:09:58Z,79,SZenC,programming,2025-05-25T17:15:08.584813Z
+msyh492,1kpkow1,reddit,So someone who just learned about gRPC and did some simple POCs is a good knowledge authority on it? You haven’t fell in the pits yet.,2025-05-18T14:15:23Z,17,SpaceToaster,programming,2025-05-25T17:15:08.584825Z
+msygoq7,1kpkow1,reddit,"> So yeah, gRPC can be 10 to 50 times faster when parsing objects.
+
+Yes, and that would be really really impressive...if the parsing of the objects (btw. that process is called ""(de)serialization"") was the bottleneck in inter-process communication over a network.
+
+Which it isn't. The bottlneck is, was, and always will be, IO.
+
+gRPC has advantages that make it worthwhile. For example, I get typing for free, code generation is easy, and so is automated documentation.
+
+But no, speed is not a good argument for it, other than in very rare edge cases, where I have an API that regularly deals with very large data objects.",2025-05-18T14:12:59Z,29,Big_Combination9890,programming,2025-05-25T17:15:08.584833Z
+msygeoo,1kpkow1,reddit,"They each have their own purposes. For public APIs, REST is much better.  gRPC is better for internal communication.  My issue with gRPC as a .NET developer is that they have pretty much given up on supporting it for .NET Framework and makes it hard to integrate for legacy systems / apps.",2025-05-18T14:11:25Z,9,MikeyJSabin,programming,2025-05-25T17:15:08.584840Z
+msz5218,1kpkow1,reddit,"REST is an  architectural style for distributed hypermedia systems. You are probably referring to RESTful APIs using HTTP (1.1), which is the protocol that was built using the same principles (Fielding is one of the original authors of the HTTP RFC).  
+What is most likely being compared is API using JSON payload over HTTP 1.1 vs gRPC. Speed gains  come from two things, much better serialization/deserialization for small payloads and better protocol (HTTP2 vs 1.1).",2025-05-18T16:23:42Z,3,drvobradi,programming,2025-05-25T17:15:08.584846Z
+mt1sq2c,1kpkow1,reddit,Why would you even expect REST to be performant?,2025-05-19T01:17:01Z,3,somebodddy,programming,2025-05-25T17:15:08.584853Z
+msyfw5a,1kpkow1,reddit,"And why it is irrelevant in 90% of scenarios, as the majority of processing happens in user code. And optimizing wire performance has a miniscule impact on overall throughput.",2025-05-18T14:08:31Z,6,Euphoricus,programming,2025-05-25T17:15:08.584859Z
+msyhoz8,1kpkow1,reddit,"Protobuf is great for some of the larger datasets that we have to store as flat files, we really see massive performance and optimization gains when using that format to stream those files in and out.
+
+We haven't had a usecase for it outside of that, and I doubt we ever will, but it's definitely very good at internal streaming of huge datasets.
+
+I would never consider it an alternative to REST because I would never try to use an API like that in the same place i would need protobuf type optimization.  It doesnt really make sense to compare the two, in my opinion, unless there are people out there, for some reason, using REST APIs for high throughout streaming between internal systems.",2025-05-18T14:18:30Z,5,Rivvin,programming,2025-05-25T17:15:08.584866Z
+msyr95c,1kpkow1,reddit,"\> ""When to choose gRPC instead of REST? ... When you want strong typing and auto-generated code""
+
+It's 2025, you might want to learn about OpenAPI.",2025-05-18T15:10:01Z,4,Stromcor,programming,2025-05-25T17:15:08.584873Z
+mtcz8ig,1kpkow1,reddit,"I've had my fair share of battles with REST and OpenAPI schemas. One time, managing endpoints felt like a never-ending chore until I tried using Swagger UI to visualize my APIs. It saved me tons of back and forth tweaking. DreamFactory can automate a lot of these hassles by instantly generating APIs from databases, which is a time-saver, kinda like Postman for API testing or OpenAPITools for client generator. Managing REST becomes way smoother.",2025-05-20T20:41:57Z,1,Known_Anywhere3954,programming,2025-05-25T17:15:08.584879Z
+msyfv83,1kpkow1,reddit,AI slop.,2025-05-18T14:08:23Z,-5,awfulentrepreneur,programming,2025-05-25T17:15:08.584886Z
+mqf09y3,1ke034r,reddit,Ohh fuck this.,2025-05-03T19:01:44Z,8,veryusedrname,programming,2025-05-25T17:15:09.481111Z
+mp9znby,1k8xxh1,reddit,"This just seems like someone being pedantic about the term and trying to imagine exceptions. 
+
+Yes exceptions exist, yes tech is still governed by the big three(quick, cheap, good) choose 2. But trying to say it doesn’t exist because in some cases the term is misused seems pedantic at best or deliberately obtuse at worst.",2025-04-27T07:13:20Z,12,Kallen-29,programming,2025-05-25T17:15:10.509643Z
+mpa01mw,1k8xxh1,reddit,"Bro misunderstood the term entirely.
+
+We engineers know what trade offs we made and what corners we had to cut and what impact it does have on the software we are building. The term was coined in order to explain it to managers who don't know jack shit about code nor do they care. They understand money and a debt spiral sounds scary to them. They can be convinced that the software will not only be worse but the effort required to even add features will increase over time.
+
+If you have to explain to a non technical person who has power over what you have to do, you might have to phrase it like you talk to a toddler to actually get the message through and not just get an empty stare and nodding while nothing changes.",2025-04-27T07:17:23Z,8,b8horpet,programming,2025-05-25T17:15:10.509655Z
+mpa83uu,1k8xxh1,reddit,"I'm honestly not entirely sure what the author is trying to say here. He's talking a lot around the idea of ""technical debt"" and making some interesting observations, but there's not really a consistent theme. He isn't really giving ""technical debt"" a solid definition and then explaining clearly and precisely what's wrong with that definition.
+
+Tech debt is a metaphor, and like all metaphors it breaks down if you overextend it. What it is is a potential answer to the question ""why is planned development progressing so slowly"" in terms that are relatable to people with business degrees instead of technical degrees. It isn't ""technical debt"" if you aren't having to ""service"" it on a recurring basis at the expense of other productive work. ""This repo doesn't meet an arbitrary unit testing threshold"" is not technical debt unless that repo accounts for an outsized percentage of your overall defects, and then the defects are the debt. Thorough unit testing is a proposed way to ""pay it off."" The goal, however you accomplish it, is for the team to spend less of their valuable time dealing with the same issues in that one shitty repo.
+
+The metaphor covers a lot of different types of problem that can seem individually unimportant, but collectively amount to a massive drain on resources. A gross hack you took on for expediency once is something that must be understood and worked around by every subsequent engineer that touches the code where that hack lives, and that comes at a cost in productivity even if the original hack is well-tested. Long compile times are technical debt. Manual deployments and rollbacks are technical debt. Lack of a comprehensive staging environment is technical debt. Technical debt is anything that has recurring costs in developer time and could *in principle* be solved by putting a pin in new development and focusing technical resources on that pain point so that the recurring time your team spends on it is eliminated or substantially reduced *forever*.
+
+The metaphor is extremely useful in a few ways. Like in finance, it is there is a danger in taking on so much debt that you cannot even service the interest. In personal finance eventually someone will say ""no"" when you ask for a new credit card. In development there is no such external authority that will say you can't blithely commit just a little more of your technical staff's time to riding herd on the ongoing consequences of one more shortsighted decision. Many of us have seen organizations that are all but completely paralyzed by technical debt, and managers who think the solution to that is to schedule more check-in meetings to explain why the team isn't making more progress.
+
+Moreover, similar strategies are used to dig your way out of this situation. If you're the sort of person who opened too many credit cards in college, the solution is to temporarily cut spending severely, and focus on one balance at a time, usually the one that best matches the description ""low-balance, high-interest,"" while making the minimum payment on the rest. Low-balance means it's relatively easy to kill off. High-interest means you're getting an outsized benefit from doing so. Thus this strategy means you're freeing up more money sooner to tackle the next link in the chain around your neck just a little faster. This is also the best strategy for technical debt, and calling it ""technical debt"" is a tactic to communicate to nontechnical stakeholders the value of committing to it.
+
+Of course while paying off either kind of debt there is a minimum threshold for survival. You won't benefit from paying off your credit cards if you starve yourself to death in the process, and you won't benefit from automated rollbacks if the company goes under before you can get them implemented. The ""debt"" metaphor is still a productive way of framing the *discussion* of trade-offs in a way that's accessible to everyone involved, particularly the people who have the money and are making decisions how best to spend it.",2025-04-27T08:40:24Z,1,gelfin,programming,2025-05-25T17:15:10.509663Z
+mpobtap,1k8xxh1,reddit,"FYI, some of the ad mins of /r/de were covid deniers.",2025-04-29T15:35:10Z,1,ShadowIcebar,programming,2025-05-25T17:15:10.509671Z
+mpa0hsi,1k8xxh1,reddit,"So, this article does appear to be written by a human (nice change of pace!) but I can't figure out if it's clickbait or just plain wrong. It's also probably 30% longer than it needs to be, but I shouldn't throw bricks like that given how I write.
+
+For example, this paragraph is egregious:
+
+>Unlike financial debt, code doesn't get worse on its own over time. It doesn't accrue interest. The challenges arise when we need to change or extend that code. The difficulty isn't a function of time but of context—new requirements, different team members, evolved understanding
+
+1. Even if the code isn't changing, \_the world in which the code is executing\_ is probably changing. The only thing worse than stale tests is no tests at all. The very point of the term ""technical debt"" is that ""good enough for now"" leans really hard on the ""for now"" bit. Poorly constructed and poorly tested code is more likely to cause exciting surprises when the context of the application changes (even within spec, so no requirements changes, no expansions of code, no code changes at all!) than code that is principled, robust, and well-tested.
+
+Another egregious example:
+
+>*When making a choice between two options, only consider what’s going to happen in the future, not which investments you’ve made in the past. The past investments are over, lost, gone forever. They are irrelevant to the future.*
+
+>That’s also why tech debt doesn't exist. There's simply no such thing. It's virtual.
+
+>You have the current state of the art. The rest is just sunk cost fallacy: your memory of what you did before.
+
+Is this willful misunderstanding of what technical debt is? It's not about sunk costs, it is, in fact, about what you have to live with today. You have to live with the things that were done, and the things that were not done. If I get a used car and the previous owner didn't properly maintain the powertrain that's not just ""in the past"", that's in the literal current state of the power train. Same with code, documentation, CI, etc.
+
+Yes, technical debt is just a metaphor, much in the same way that real life debt is measured in money which is an abstract representation of the potential for exchanging goods and services.
+
+There's so many other things in this article that make me just want to say ""did you seriously just write that?"" to the author. It's clear they put a lot of effort to make this point, and I cannot possibly figure out why.",2025-04-27T07:21:54Z,1,QuantumFTL,programming,2025-05-25T17:15:10.509678Z
+mpa44j7,1k8xxh1,reddit,">Unlike financial debt, code doesn't get worse on its own over time.
+
+People who believe that are the reason I keep seeing services in .Net Core 3.1 (that was outdated 4 years ago)....
+
+No, tech debt is a good term, because it achieves what is suppose to (can be used in communication with management and other devs). And there's no better alternative. 
+
+Ranting on the term is just nitpicking and it doesn't solve any problems.",2025-04-27T07:58:56Z,1,steve-7890,programming,2025-05-25T17:15:10.509685Z
+mtkbcu7,1ksc6gz,reddit,"So you found 6 years old videos of conferences Uncle Bob did on Youtube, and then you post them here trying to farm views for your shitty youtube because you have zero original ideas of your own.
+
+What a class act",2025-05-21T23:27:42Z,16,PrimeDoorNail,programming,2025-05-25T17:15:11.430941Z
+mtkbbiz,1ksc6gz,reddit,Todo: read the post,2025-05-21T23:27:30Z,6,chao0070,programming,2025-05-25T17:15:11.430953Z
+mtld1en,1ksc6gz,reddit,"i see uncle bob i skip
+
+i'd rather listen to people who have a career writing software.
+
+not ones pretendind to write.",2025-05-22T03:08:05Z,5,BubuX,programming,2025-05-25T17:15:11.430962Z
+mru1fie,1kkan4l,reddit,"This 'article' fails to say or provide much of anything useful or novel re AI and 'engineering leadership' that hasn't already been shared here numerous times already.  As usual the article is largely a sponsored ad with some hyperbolic razzle dazzle and trumped up hokem sprinkled throughout in order to appear substantive. 
+
+Good job with the LLM Spam OP!",2025-05-12T00:10:20Z,8,church-rosser,programming,2025-05-25T17:15:12.297247Z
+mtuvq1y,1ktncur,reddit,No. No it does not.,2025-05-23T16:09:22Z,19,AnnoyedVelociraptor,programming,2025-05-25T17:15:13.321409Z
+mtuyn1y,1ktncur,reddit,"The author claims these aren’t marginal improvements but according the numbers, they clearly are.
+
+Also agentic coding with extended session reasoning like this is not new, nor is Claude the first to do it. I also don’t buy the “fixes 80% of issues” number, where does that even come from? This sounds like a very sensationalized piece.",2025-05-23T16:23:21Z,10,infrastructure,programming,2025-05-25T17:15:13.321420Z
+mtv30h9,1ktncur,reddit,">The numbers tell the real story
+
+No they absolutely do not.
+
+What those ""numbers"" are telling us is how long it did something without crashing. It tells us nothing about the viability of the output. The fact that data is **not** mentioned does tell a story though.",2025-05-23T16:44:17Z,3,EliSka93,programming,2025-05-25T17:15:13.321428Z
+mtuzo62,1ktncur,reddit,"I do foresee a world where developers and models such as these work hand in hand. I have a hard time believing that AI will design, produce, deploy, iterate enterprise software without any oversight as doing so comes with extreme risks. “This thing makes millions but we don’t know how it works” is RIPE for exploit. 
+
+
+
+The unfortunate truth is that the developers who learn how to use this tool in impactful, demonstrated ways will weather the storm far better than those who think it’s a fad.
+
+
+
+I’ve been a software developer for a decade. I have seen new tools come and go, but AI is on another level and it’s here to stay. If you want to set yourself apart and stay in this game you must, and I cannot emphasize this enough, learn as much as you can about code, but also how to leverage AI in impressive ways.
+
+
+
+When AI first came out, I would cope like many do here “It’ll never be good enough to replace a human engineer.” - while this may be true to some degree, the world will expect developers to wield this technology with precision and expertise, “aptet aut mori” adapt or die.",2025-05-23T16:28:14Z,2,WhiskeyKid33,programming,2025-05-25T17:15:13.321434Z
+mtveop7,1ktncur,reddit,"Thank you all for the incredibly valuable feedback - you've helped me see some fundamental flaws in my original analysis that I needed to address.
+
+Based on all your input, I've significantly revised the article to:
+
+\- Focus on collaboration rather than replacement
+
+\- Emphasize quality over duration metrics
+
+\- Include the crucial point about enterprise oversight and risk
+
+Your collective feedback transformed this from AI hype into an honest discussion about where these tools fit in real development work. Thank you.",2025-05-23T17:39:00Z,1,gmhokleng,programming,2025-05-25T17:15:13.321441Z
+mqe8mo3,1kdx227,reddit,"tl;dr:
+
+
+> I gave up caring about actually learning how to do my job decided to let AI do it for me, and now you should do it too (and probably pay me bc I consult on this garbage). In fact, I'll present it as not being a choice anymore to make it feel more important. 
+
+
+Cool.",2025-05-03T16:40:08Z,32,apnorton,programming,2025-05-25T17:15:14.370472Z
+mqea007,1kdx227,reddit,"Let's celebrate the atrophy of critical thinking, problem solving, and inherent understanding of engineering principles! ",2025-05-03T16:47:18Z,11,mrmoreawesome,programming,2025-05-25T17:15:14.370475Z
+mqe9dw3,1kdx227,reddit,No.,2025-05-03T16:44:07Z,7,VegtableCulinaryTerm,programming,2025-05-25T17:15:14.370478Z
+mqearlo,1kdx227,reddit,You’ve made the unsubstantiated assumption that AI code is actually as effective or more effective than human written code and made a fake graph to support it. Your analogy is not an apt one.,2025-05-03T16:51:15Z,8,android_queen,programming,2025-05-25T17:15:14.370480Z
+mqeqhlw,1kdx227,reddit,"""AI"" is being hyped because MBAs think it will bring about the next wave of payroll reduction.",2025-05-03T18:09:48Z,6,Caraes_Naur,programming,2025-05-25T17:15:14.370482Z
+mqfl810,1kdx227,reddit,"> P.S. My AI code reviewer is saving 15 hours/week per developer. Used by developers & teams worldwide. Check out Giga AI (7 day free trial).
+
+It honestly feels like 60% of this subreddit is just dishonest AI dudebros disguising their advertisements as dogshit blog articles.",2025-05-03T20:56:54Z,7,DavidJCobb,programming,2025-05-25T17:15:14.370485Z
+mqec205,1kdx227,reddit,"I'm not sure how I feel about articles like this.  Sure, CEOs don't care about clean code.  That's not their problem.  They hire me for that.  I know it's value and I don't even try to convince the CEO of it.
+
+AI is great at boilerplate.  But it doesn't help me read code.  It doesn't help with me understanding a codebase.  Business problems are rarely static, and surely the CEO wants new problems solved.  Can I tell AI to read the new tax laws and make the necessary changes in the codebase?  That would be interesting.
+
+For new programmers, it's all about improving their skills.  If AI helps, great.  I'm sure it will help with their productivity.  But those 2 are not the same thing.",2025-05-03T16:57:43Z,3,RagingAnemone,programming,2025-05-25T17:15:14.370487Z
+mqer58u,1kdx227,reddit,Neither do veterans.,2025-05-03T18:13:10Z,2,Laleesh,programming,2025-05-25T17:15:14.370489Z
+mqead3z,1kdx227,reddit,"I mean its a facilitation tool, yes some people still write text docs in things like emacs or vi but no organization is going to avoid running linters and tests on their PRs.
+
+Automation is how code is so productive, AI will be packaged into automation tools.  How you respond to the parameters of your job directly impacts your employability.
+
+If you turn off your brain and just copy paste AI thats just copy pasting and will blow up in your face.
+
+You are paid to think, most of the time.  Sometimes you are paid to do what you are told.  Learn to understand which is important.",2025-05-03T16:49:09Z,1,Malforus,programming,2025-05-25T17:15:14.370491Z
+mqebdu4,1kdx227,reddit,Nobody has a choice about AI. Being able to use it effectively is the new literacy. You'll have to be able to do this to remain employed.,2025-05-03T16:54:23Z,-4,santaclaws_,programming,2025-05-25T17:15:14.370493Z
+mt532q5,1kqf4p8,reddit,"This article seems to essentially be “don’t vibe code, use the AI agent as a pair programming partner”
+
+Like, yeah, duh",2025-05-19T15:59:21Z,9,gonzofish,programming,2025-05-25T17:15:15.261019Z
+mt52qul,1kqf4p8,reddit,Just dont vibe code lol,2025-05-19T15:57:43Z,21,ninjadude93,programming,2025-05-25T17:15:15.261031Z
+mt53c3g,1kqf4p8,reddit,"> How to vibe code better
+
+> So, don’t blindly trust the code the AI gives; know what the source code is about and understand how it works.
+
+My man I think you're vastly overestimating the tab-warriors that do this shit.",2025-05-19T16:00:38Z,6,ScriptingInJava,programming,2025-05-25T17:15:15.261039Z
+msktkll,1knsxew,reddit,Damn. I hate to think what kind of message this is teaching your kids.,2025-05-16T05:23:57Z,15,-jackhax,programming,2025-05-25T17:15:16.189678Z
+msksm3u,1knsxew,reddit,What is a LLM powered web server exactly?,2025-05-16T05:15:30Z,13,00zoo,programming,2025-05-25T17:15:16.189690Z
+mskt0zf,1knsxew,reddit,"Yay for favoring the easy way out instead of actually learning how to write software properly. Congratulations?
+
+""High school student calculates the first 20 digits of pi by hitting 'pi' on an old TI-83""",2025-05-16T05:19:07Z,21,jonsca,programming,2025-05-25T17:15:16.189698Z
+mskv0bd,1knsxew,reddit,So he learned nothing other than to ask others to do complex thinking for him. What a wonderful teaching experience....,2025-05-16T05:36:49Z,6,Hunter259,programming,2025-05-25T17:15:16.189704Z
+msktmqw,1knsxew,reddit,This article is uncanny. No single red flag but on the whole it reads like it was written by a fifth grader.,2025-05-16T05:24:28Z,5,GetIntoGameDev,programming,2025-05-25T17:15:16.189711Z
+msktoll,1knsxew,reddit,Yikes,2025-05-16T05:24:56Z,4,AFXTWINK,programming,2025-05-25T17:15:16.189718Z
+mskueuo,1knsxew,reddit,What did he learn at the end? These types of tools are not meant for studying but for either senior positions or cheap labour.,2025-05-16T05:31:24Z,5,ArgoPanoptes,programming,2025-05-25T17:15:16.189725Z
+msksf1s,1knsxew,reddit,the future is bright ;),2025-05-16T05:13:47Z,4,Temporary_Author6546,programming,2025-05-25T17:15:16.189732Z
+msks0j4,1knsxew,reddit,Unpaywalled link to article: [https://programmers.fyi/my-16-year-old-vibe-coded-his-school-project-with-github-copilot](https://programmers.fyi/my-16-year-old-vibe-coded-his-school-project-with-github-copilot),2025-05-16T05:10:17Z,-13,derjanni,programming,2025-05-25T17:15:16.189738Z
+mqerowc,1kdzabt,reddit,No it won't,2025-05-03T18:15:57Z,15,Jotunn_Heim,programming,2025-05-25T17:15:17.132637Z
+mqerqmi,1kdzabt,reddit,No,2025-05-03T18:16:12Z,9,gboncoffee,programming,2025-05-25T17:15:17.132641Z
+mqesr3d,1kdzabt,reddit,this has already been answered over and over again,2025-05-03T18:21:31Z,9,RainbowPigeon15,programming,2025-05-25T17:15:17.132643Z
+mqes3j1,1kdzabt,reddit,"I doubt it. LLMs are good and getting better, but building an app as big and complex as Instagram is not at all within the scope of what they can do today, and I don’t see it happening on any relevant timescale.",2025-05-03T18:18:04Z,5,cmsj,programming,2025-05-25T17:15:17.132645Z
+mqestca,1kdzabt,reddit,"“And why would I buy software when I can make AI make it for me?”
+
+So you’ve been able to recreate Adobe’s whole suite of tools? Feature by feature? Damn nice. Guess you don’t need a CC license. They can’t even bring parity to lightroom CC. And you’re constantly maintaining the whole suite of tools with bug fixed, improvements, new technologies, by yourself? Even with AI that’s beyond a full time job.",2025-05-03T18:21:51Z,3,Farados55,programming,2025-05-25T17:15:17.132647Z
+mqet917,1kdzabt,reddit,Nope,2025-05-03T18:24:10Z,3,unleashedcode,programming,2025-05-25T17:15:17.132649Z
+mqesylu,1kdzabt,reddit,Sure why not,2025-05-03T18:22:37Z,1,uniquesnowflake8,programming,2025-05-25T17:15:17.132651Z
+mqf3zlu,1kdzabt,reddit,"In the long run I don't think so. 
+
+You can't get fine grain changes across complex systems using an LLM without also being a developer to know what to look for and understand the implications. 
+
+Otherwise you're basically playing a slot machine and hoping for the best.... 
+
+I reckon there will be a lot of good consulting work in the next decade fixing LLM mess. 
+
+I do think that LLMs will basically be supercharged auto-complete.",2025-05-03T19:22:03Z,1,def_the_yes,programming,2025-05-25T17:15:17.132654Z
+mqgbjlq,1kdzabt,reddit,"Fun fact Bill gates is onvolved in infectious disease pevention providing Africa with electricity and programming.  
+the three mentioned sectors.",2025-05-03T23:33:59Z,1,Connect_Tear402,programming,2025-05-25T17:15:17.132656Z
+mqhksnr,1kdzabt,reddit,No.,2025-05-04T04:44:53Z,1,chat-lu,programming,2025-05-25T17:15:17.132658Z
+mqesg5o,1kdzabt,reddit,No AI trained on Reddit will.,2025-05-03T18:19:55Z,1,BlueGoliath,programming,2025-05-25T17:15:17.132661Z
+mqes2px,1kdzabt,reddit,"You can't feed legacy systems into an AI model without your intellectual property becoming open sourced, and then anyone can copy your source material. What companies are more worried about is someone recreating their entire company at a fraction of the cost",2025-05-03T18:17:57Z,0,spark_this,programming,2025-05-25T17:15:17.132662Z

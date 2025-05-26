@@ -1,0 +1,364 @@
+﻿content_id,platform,title,content,created_at,source_id,source_name,category_id,category_name,tags,views,score,comment_count,duration,upvote_ratio,url,author,crawl_time
+1kcc5st,reddit,Non-control-Data Attacks and Defenses: A review [pdf],,2025-05-01T15:54:00Z,programming,programming,technology,Technology,[],0,0,0,,0.33,https://arxiv.org/pdf/2503.22765,ketralnis,2025-05-25T17:09:46.191565Z
+1kcc59g,reddit,Easier layout with margin-trim,,2025-05-01T15:53:22Z,programming,programming,technology,Technology,[],0,0,1,,0.5,https://webkit.org/blog/16854/margin-trim/,ketralnis,2025-05-25T17:09:47.032773Z
+1kbv91x,reddit,Heavy Metal Fast Motion Code Debugging,[https://www.freelance.wtf/](https://www.freelance.wtf/),2025-05-01T00:00:09Z,programming,programming,technology,Technology,[],0,0,0,,0.44,https://www.freelance.wtf/shared/videos/77e475a9-43ff-4082-86fc-80ce72842446,OkClerk7966,2025-05-25T17:09:47.912146Z
+1kbkf6q,reddit,modern version control apps & platforms -- a cheatsheet,,2025-04-30T16:14:26Z,programming,programming,technology,Technology,[],0,0,1,,0.43,https://cheatsheets.davidveksler.com/versioncontrol.html,HeroicLife,2025-05-25T17:09:48.798793Z
+1kbedkx,reddit,I built MCP on Ruby to help developers turn any Rails API into an MCP server,"I built MCP on Ruby, a gem that turns your Rails app into a fully-featured LLM server following the Model Context Protocol (MCP) standard.  
+  
+**What is it?**  
+Think of MCP as ""REST for LLMs"" - it standardizes how apps talk to AI models. 
+
+*  My implementation brings this to Ruby/Rails with:
+*  Provider adapters for OpenAI & Anthropic (just add your API key)
+*  Persistent storage options (memory, Redis, ActiveRecord)
+*  Streaming responses for dynamic UIs
+*  File handling & tool calling support
+*  Rails integration with just a few lines of code 
+
+  
+**Why I built it**  
+I wanted a clean, Rails-friendly way to add AI capabilities without writing boilerplate for each provider. The existing MCP implementations were Python-focused, so I built this for the Ruby community.  
+  
+The ActiveRecord storage (just released in v0.3.0) lets you store conversations in your existing Rails database.  
+  
+**Try it out**: [https://github.com/nagstler/mcp\_on\_ruby](https://github.com/nagstler/mcp_on_ruby)",2025-04-30T11:43:50Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://github.com/nagstler/mcp_on_ruby,nagstler,2025-05-25T17:09:49.628798Z
+1kbcxp1,reddit,What is an object / linker / toolchain / ...? (Glossary of compilation terms),,2025-04-30T10:15:44Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://tmewett.com/compilation-glossary/,tmewett,2025-05-25T17:09:50.454449Z
+1kbckil,reddit,Vectorizing ML models for fun,,2025-04-30T09:50:50Z,programming,programming,technology,Technology,[],0,0,0,,0.33,https://bernsteinbear.com/blog/vectorizing-ml-models/,FoxInTheRedBox,2025-05-25T17:09:51.269547Z
+1kb2i8o,reddit,"Between immutability and memoization, you might have to choose",,2025-04-29T23:42:16Z,programming,programming,technology,Technology,[],0,0,0,,0.42,https://thoughtbot.com/blog/between-immutability-and-memoization-you-might-have-to-choose,ketralnis,2025-05-25T17:09:52.153069Z
+1kapv80,reddit,Avoiding breaking changes in APIs with semantic metadata,"Disclosure: I didn't write this post, but I do work on the open source framework the author is discussing.",2025-04-29T14:52:58Z,programming,programming,technology,Technology,[],0,0,0,,0.43,https://theburningmonk.com/2025/04/bye-bye-schema-coupling-hello-semantic-coupling/,martypitt,2025-05-25T17:09:53.006034Z
+1kah7e2,reddit,The Samurai Way of Managing Memory Leaks,,2025-04-29T06:19:36Z,programming,programming,technology,Technology,[],0,0,6,,0.42,https://dpdzero.com/blogs/the-samurai-way-of-managing-memory-leaks/,dpdzero,2025-05-25T17:09:53.862283Z
+1k9r5gk,reddit,Searching in a search: let′s check Elasticsearch,,2025-04-28T09:11:18Z,programming,programming,technology,Technology,[],0,0,0,,0.33,https://pvs-studio.com/en/blog/posts/java/1247/,Xadartt,2025-05-25T17:09:54.744922Z
+1k9iv3f,reddit,Dining Philosophers in C: From Theory to Practice,"Hey Friends! I just finished writing a really clean and detailed documentation for my Dining Philosophers project. I spent a lot of time on it and made it with a lot of care — it’s super clear and helpful. Would you mind checking it out? I think it could really help if you’re working on something similar!😇
+
+https://medium.com/@yassinx4002/dining-philosophers-in-c-from-theory-to-practice-28582180aa37",2025-04-28T00:33:18Z,programming,programming,technology,Technology,[],0,0,0,,0.4,https://medium.com/@yassinx4002/dining-philosophers-in-c-from-theory-to-practice-28582180aa37,yassine_slvmi,2025-05-25T17:09:55.640856Z
+1k8q9xo,reddit,J is for JVM,,2025-04-26T23:33:17Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://www.youtube.com/watch?v=sWGBJpTSBhc,BlueGoliath,2025-05-25T17:09:56.480846Z
+1k7vznx,reddit,Next-Gen GPU Programming: Hands-On with Mojo and Max Modular HQ,,2025-04-25T21:10:18Z,programming,programming,technology,Technology,[],0,0,0,,0.4,https://www.youtube.com/live/uul6hZ5NXC8?si=mKxZJy2xAD-rOc3g,ketralnis,2025-05-25T17:09:57.345384Z
+1k7s3f6,reddit,🧊Watercooler Discussions about common Software Automation Topics,"Hola friends, the link above is a culmination of about over a years worth of Watercooler discussions gathered from this subreddit, r/QualityAssurance , [r/softwaretesting](https://www.reddit.com/r/softwaretesting/), and our Discord (almost 1k users now!).
+
+Please feel free to leave comments about ANY of the topics there and I will happily add it to the Watercooler Discussions so this document can be always growing with common questions and answers from all communities, thanks!",2025-04-25T18:25:21Z,programming,programming,technology,Technology,[],0,0,0,,0.4,https://softwareautomation.notion.site/Watercooler-Index-1d88569bb6ed8081b90cdf77d71a364e,basecase_,2025-05-25T17:09:58.209811Z
+1kuh0wk,reddit,How to Integrate AWS IAM Roles with RDS MySQL and Symfony for Secure Web Applications,,2025-05-24T17:28:26Z,programming,programming,technology,Technology,[],0,0,0,,0.38,https://symfonycloudinsider.hashnode.dev/how-to-integrate-aws-iam-roles-with-rds-mysql-and-symfony-for-secure-web-applications,UsefulAd9799,2025-05-25T17:09:59.107623Z
+1ktndbj,reddit,What I learned in 7 years while developing a Web App(SaaS),,2025-05-23T16:06:53Z,programming,programming,technology,Technology,[],0,0,0,,0.33,https://www.youtube.com/watch?v=dOlkcCie898,Frequent-Football984,2025-05-25T17:09:59.920972Z
+1ksljtt,reddit,LeetCode VLOG #2,,2025-05-22T08:23:44Z,programming,programming,technology,Technology,[],0,0,0,,0.25,https://www.youtube.com/live/u3-FYJ6wixI?si=ldgKFa1gtYPzrOz4,QuintonPang,2025-05-25T17:10:00.759799Z
+1ksaeph,reddit,Introducing Roto: A Compiled Scripting Language for Rust,,2025-05-21T21:58:41Z,programming,programming,technology,Technology,[],0,0,2,,0.44,https://blog.nlnetlabs.nl/introducing-roto-a-compiled-scripting-language-for-rust/,ketralnis,2025-05-25T17:10:01.605124Z
+1krvp26,reddit,Call for Speakers: MQ Summit 2025,"If you’ve worked with message queues or event-driven systems—think Kafka, RabbitMQ, Pulsar, NATS, LavinMQ, SQS, Pub/Sub—consider submitting a talk to MQ Summit.
+
+We're looking for programming-focused talks on real-world use cases, performance tuning, architecture patterns, and cool messaging innovations across cloud, edge, AI, and more.
+
+**CFP deadline: June 15, 2025**",2025-05-21T11:41:46Z,programming,programming,technology,Technology,[],0,0,0,,0.25,https://mqsummit.com/#cft,Code_Sync,2025-05-25T17:10:02.467970Z
+1krtdwz,reddit,Not-so-esoteric Kakoune: a point-by-point comparison with a Vim blog article about advanced text edits,,2025-05-21T09:15:34Z,programming,programming,technology,Technology,[],0,0,0,,0.33,https://strongly-typed-thoughts.net/blog/vim-kakoune-puzzles-2025,phaazon_,2025-05-25T17:10:03.332108Z
+1krfzvu,reddit,Just released YINI v1.0.0 Beta 6 — A lightweight config format gets even clearer,"Hey everyone! 👋
+
+A quick update on [**YINI**](https://github.com/YOUR-REPO) — a minimal, human-readable configuration format inspired by INI, JSON, and Python — designed to be easy to read, clean to write, and consistent to parse.
+
+**What’s new in Beta 6?**
+
+* `#` is now strictly a comment **only** when followed by a space/tab — so `#FF0033` (hex color) still works ✅
+* Section headers now use **Markdown-style nesting** via `^`, `^^`, `^^^` instead of symbols like `[section.sub]` — super clean and very readable.
+* Support for **multiple comment styles**: `//`, `#`, `;`, `--`, and even `/* block comments */`
+* Fully supports **quoted string types** (`raw`, `classic`, `hyper`, `triple-quoted`)
+* Numbers in **binary, octal, decimal, hex, and dozenal** (base-12) — all with validation
+* Formal grammar in ANTLR4 for building parsers in your favorite language
+
+🧪 Try it out:
+
+    # A YINI config format document
+    
+    ^ server
+    
+    ^^ connection
+    host = 'localhost'
+    port = 8080  // Dev port
+    
+    ^^ auth
+    enabled = true
+    
+    ^^^ credentials
+    username = 'admin'
+    password = 'secret'  // Change me!
+    
+    ; This config stays pretty clean and easy to read.
+
+
+
+👉 If you're into config formats, human-first syntax, or building tools around structured files — your feedback would be awesome.
+
+🔗 Spec, examples, and grammar here: [https://github.com/YINI-lang/YINI-spec](https://github.com/YINI-lang/YINI-spec)
+
+Thanks for reading, cheers!  
+– M. Seppänen",2025-05-20T20:57:14Z,programming,programming,technology,Technology,[],0,0,3,,0.38,https://github.com/YINI-lang/YINI-spec,Effective_Tune_6830,2025-05-25T17:10:04.240026Z
+1krfccr,reddit,Pyrefly: A new type checker and IDE experience for Python,,2025-05-20T20:30:15Z,programming,programming,technology,Technology,[],0,0,3,,0.41,https://engineering.fb.com/2025/05/15/developer-tools/introducing-pyrefly-a-new-type-checker-and-ide-experience-for-python/,namanyayg,2025-05-25T17:10:05.165472Z
+1kqznkm,reddit,Stop Drawing Pointless Arrows: Taming Complexity with Diagrams • David Khourshid,,2025-05-20T08:19:18Z,programming,programming,technology,Technology,[],0,0,2,,0.42,https://youtu.be/d3hVTXrV7ms,goto-con,2025-05-25T17:10:06.067350Z
+1kpdgn2,reddit,Quantum meets AI: DLR Institute for AI Safety and Security presents future technologies at ESANN 2025,,2025-05-18T06:26:12Z,programming,programming,technology,Technology,[],0,0,0,,0.44,https://www.dlr.de/en/ki/latest/news/esann-2025,donutloop,2025-05-25T17:10:07.044399Z
+1kp2jpx,reddit,Let's make a game! 264: Initiative: PCs win ties,,2025-05-17T20:30:51Z,programming,programming,technology,Technology,[],0,0,0,,0.33,https://www.youtube.com/watch?v=XVSVMcnet4g,apeloverage,2025-05-25T17:10:07.922635Z
+1kovucv,reddit,Google's directed acyclic graph build system for monorepos with special sparse-checkout features versus classic depth-first recursive types,"I've uploaded a talk to YouTube: [Google's directed acyclic graph build system for monorepos with special sparse-checkout features versus classic depth-first recursive types](https://youtube.com/watch?v=L67ri_xe2oQ)
+
+This talk compares both, with source in a cloneable repo that shows the structure. I also discuss how Google shrink their 9+ million source files in their trunk to something that is more manageable for a dev or QE who's wanting to achieve a specific coding task/story.
+
+You'd watch this if you don't understand how Bazel works ""under the hood"". Or if you don't understand how a ginormous VCS-relying company would actually use a single repo for all applications, apps, services, libraries they make themselves. Definately an education piece, rather than something you'd run it to work with for a ""stop everything"" declaration.
+
+Caveats:  
+
+1. Less than 100 companies would do this Google thing, I guess.
+2. Your company is **JUST FINE** with a multi-repo setup.
+3. There are multiple sub types of trunk-based development: https://trunkbaseddevelopment.com/styles/",2025-05-17T15:36:57Z,programming,programming,technology,Technology,[],0,0,0,,0.42,https://www.youtube.com/watch?v=L67ri_xe2oQ,paul_h,2025-05-25T17:10:08.827017Z
+1koof59,reddit,"UIBeam v0.2 is out!: A lightweight, JSX-style HTML template engine for Rust",,2025-05-17T08:48:07Z,programming,programming,technology,Technology,[],0,0,0,,0.42,https://github.com/ohkami-rs/uibeam,kanarus,2025-05-25T17:10:09.681299Z
+1koj1wm,reddit,Better Java Builds with the Mill Build Tool (GeeCon Krakow 2025),,2025-05-17T03:04:08Z,programming,programming,technology,Technology,[],0,0,0,,0.38,https://www.youtube.com/watch?v=3NllMpXMBT8,lihaoyi,2025-05-25T17:10:10.679170Z
+1knw08o,reddit,Let's make a game! 263: Individual initiative,,2025-05-16T08:45:15Z,programming,programming,technology,Technology,[],0,0,0,,0.44,https://www.youtube.com/watch?v=qbmdCKKjAlw,apeloverage,2025-05-25T17:10:11.514761Z
+1knldg3,reddit,Understanding task types in the Gemini Embedding API,,2025-05-15T22:31:26Z,programming,programming,technology,Technology,[],0,0,0,,0.44,https://technicalwriting.dev/ml/embeddings/tasks/index.html,kaycebasques,2025-05-25T17:10:12.432380Z
+1knc80u,reddit,Lambdaspeed: Computing 2^1000 in 7 seconds with semioptimal lambda calculus,,2025-05-15T16:14:54Z,programming,programming,technology,Technology,[],0,0,0,,0.29,https://github.com/etiams/lambdaspeed,etiams,2025-05-25T17:10:13.282004Z
+1kmyanr,reddit,Pippip_AES_Tri_XZ: Fastest Hash for Latin Wordlists with Top Dispersion,,2025-05-15T03:19:47Z,programming,programming,technology,Technology,[],0,0,0,,0.25,https://forums.fedoraforum.org/showthread.php?334463-In-search-for-the-FASTEST-hash-(for-lookup-tables)&p=1892804#post1892804,Miserable-Lychee-370,2025-05-25T17:10:14.157117Z
+1km7ktf,reddit,Rubber Ducky Interpreter,"So I never wrote ducky code before and needed to use a custom script for a project I am working on. Let's just say I was not looking forward to this tedious task, and was curious if I could write a script to track my keys while the program is running and format it in to ducky language without ever having to write a line of ducky code. So to save myself 10 minutes I spent all weekend creating an interpreter, and (today) I believe I have worked out most of the bugs, and think it is now user friendly , however I want people to try it out, let me know if they find any bugs and maybe use it for some projects. All the source code is posted directly on github and there is an executable, but you can compile the c++ code yourself and let me know ! :) 
+
+  
+P.S I'm not sure if this is the right place to post, but hopefully this finds the right people",2025-05-14T05:34:16Z,programming,programming,technology,Technology,[],0,0,0,,0.43,https://github.com/th3-coder/duckyinterpreter/blob/main/interpreter.cpp,teslah3,2025-05-25T17:10:14.997748Z
+1kkrzu4,reddit,Understanding Node.js Streams with a Real Example,,2025-05-12T13:03:59Z,programming,programming,technology,Technology,[],0,0,0,,0.33,https://blog.stackademic.com/day-22-understanding-node-js-streams-with-a-real-example-bb99606d4222,MysteriousEye8494,2025-05-25T17:10:15.869465Z
+1kkqtmb,reddit,16 years of CloudWatch and ........ has the neighbourhood changed?,,2025-05-12T12:05:52Z,programming,programming,technology,Technology,[],0,0,0,,0.4,https://signoz.io/blog/6-silent-traps-inside-cloudWatch-that-can-hurt-your-observability/,elizObserves,2025-05-25T17:10:16.741244Z
+1kk8zph,reddit,Colibri and Clean Architecture — Declarative Coding in Swift,,2025-05-11T19:22:08Z,programming,programming,technology,Technology,[],0,0,0,,0.25,https://decodemeester.medium.com/colibri-and-clean-architecture-declarative-coding-in-swift-c4246ccf9f21,vikingosegundo,2025-05-25T17:10:17.557515Z
+1kk0zxw,reddit,Zig: A New Direction for Low-Level Programming?,,2025-05-11T13:26:47Z,programming,programming,technology,Technology,[],0,0,15,,0.48,https://bitshifters.cc/2025/05/04/zig.html,lelanthran,2025-05-25T17:10:18.406753Z
+1kh17cs,reddit,It's not cheating if you write the video game solver yourself,,2025-05-07T16:08:39Z,programming,programming,technology,Technology,[],0,0,5,,0.46,https://robertheaton.com/cocoon/,businesstrout,2025-05-25T17:10:19.372730Z
+1kcev6a,reddit,Platform Engineering: A Deep Dive Conversation • Russ Miles & Kevlin Henney,,2025-05-01T17:44:59Z,programming,programming,technology,Technology,[],0,0,0,,0.33,https://youtu.be/0vkY2H2QDC8,goto-con,2025-05-25T17:10:20.228054Z
+1kce2i1,reddit,Let's make a game! 257: Expanding and collapsing the sidebar,,2025-05-01T17:12:37Z,programming,programming,technology,Technology,[],0,0,0,,0.46,https://www.youtube.com/watch?v=v0MKJLtwpxc,apeloverage,2025-05-25T17:10:21.103563Z
+1kbkwlq,reddit,Don't Let Implementation Details Ruin Your Microservice Tests,,2025-04-30T16:34:15Z,programming,programming,technology,Technology,[],0,0,9,,0.43,https://nejckorasa.github.io/posts/microservice-testing,nejcko,2025-05-25T17:10:21.992639Z
+1kb90rt,reddit,"MariaDB 11.8 vector features are new, but already has a bunch of integrations",,2025-04-30T05:34:38Z,programming,programming,technology,Technology,[],0,0,0,,0.33,https://mariadb.com/kb/en/vector-framework-integrations/,OttoKekalainen,2025-05-25T17:10:22.910014Z
+1k9rcwt,reddit,Let's make a game! 256: Tracking a single section,,2025-04-28T09:26:45Z,programming,programming,technology,Technology,[],0,0,0,,0.43,https://www.youtube.com/watch?v=oE9myBvt3Ts,apeloverage,2025-05-25T17:10:23.758913Z
+1k90mym,reddit,Lofify – to add randomly selected lofi BGMs to boring screen records,,2025-04-27T10:12:34Z,programming,programming,technology,Technology,[],0,0,1,,0.36,https://github.com/theapache64/lofify,theapache64,2025-05-25T17:10:24.673627Z
+1k8jmtn,reddit,It's a C+ at best,,2025-04-26T18:25:14Z,programming,programming,technology,Technology,[],0,0,2,,0.5,https://okmanideep.me/its-a-c-at-best/,theapache64,2025-05-25T17:10:25.530184Z
+1ktsvqs,reddit,A 10x Faster TypeScript [video],,2025-05-23T19:53:03Z,programming,programming,technology,Technology,[],0,0,0,,0.44,https://www.youtube.com/watch?v=UJfF3-13aFo,ketralnis,2025-05-25T17:10:26.379704Z
+1ktfyue,reddit,Loading Pydantic models from JSON without running out of memory,,2025-05-23T10:16:25Z,programming,programming,technology,Technology,[],0,0,0,,0.33,https://pythonspeed.com/articles/pydantic-json-memory/,Active-Fuel-49,2025-05-25T17:10:27.236759Z
+1ksmq8j,reddit,Google Lens Result Scraper + AI Image Analysis Pipeline + FastAPI end-to-end service,"Hi everyone,
+
+I recently released an open-source project that builds an end-to-end pipeline combining **Google Lens result scraping** and **LLM-based analysis** for images.
+
+**What My Project Does** :
+
+The idea is simple: given an image, it uploads it to **Google Lens**, collects the associated page links, scrapes the textual content from those pages, and sends it to a language model of your choice (OpenAI-compatible, including OpenRouter or even local models like Ollama) to generate a concise description or summary. You can use the scraper without using the analyser and any of the LLM part
+
+The project includes:
+
+* Automated Google Lens scraping using Selenium
+* LLM-based analysis of the aggregated context
+* A lightweight FastAPI server to run the full process via HTTP (just send base64 images and get back analysis)
+
+You can control every parameter by modifying the configuration, and you can use the scraper separately from the LLM analysis.
+
+**Target Audience** :
+
+It’s basically an open-source, unlimited, no-local-compute ""image to text"" service — assuming you have a free online LLM provider or a local model. Everyone dealing with AI, images or LLM could be interrested.
+
+I figured it might be useful for anyone working on dataset creation, automated image annotation, or quick content analysis based on visual input.
+
+**Comparison** :  
+I didn't found any working Google Lens scraper and its combined with a long process data pipeline and AI analys.
+
+**Repo**: [https://github.com/shanedonnelly/OpenLens](https://github.com/shanedonnelly/OpenLens)
+
+Feedback is welcome. Contact me to contribute",2025-05-22T09:49:04Z,programming,programming,technology,Technology,[],0,0,0,,0.33,https://github.com/shanedonnelly/OpenLens,shaned34,2025-05-25T17:10:28.131376Z
+1kskzh4,reddit,Serverless Compute at the Heart of Your EDA • Julian Wood,,2025-05-22T07:42:34Z,programming,programming,technology,Technology,[],0,0,0,,0.2,https://youtu.be/08M2lecaMcc,goto-con,2025-05-25T17:10:28.967079Z
+1kqn9bt,reddit,Llama from scratch (2023),,2025-05-19T21:07:43Z,programming,programming,technology,Technology,[],0,0,0,,0.36,https://blog.briankitano.com/llama-from-scratch/,ketralnis,2025-05-25T17:10:29.846847Z
+1kqlptr,reddit,Template Strings in Python 3.14: Structured Interpolation,"Python 3.14’s PEP 750 brings template strings (t""…""), a structured interpolation mechanism that cleanly separates format templates from data. This reduces the risk of injection attacks and enables better static analysis. I’ve put together a guide with examples, performance benchmarks, and migration tips. Would love to hear your experiences or questions!",2025-05-19T20:06:55Z,programming,programming,technology,Technology,[],0,0,0,,0.4,https://blog.abhimanyu-saharan.com/posts/template-strings-in-python-3-14-structured-interpolation,abhimanyu_saharan,2025-05-25T17:10:30.745064Z
+1kqc0px,reddit,Let's make a game! 265: Initiative: randomly resolving ties,,2025-05-19T13:42:42Z,programming,programming,technology,Technology,[],0,0,0,,0.29,https://www.youtube.com/watch?v=_jzQVhi9KB8,apeloverage,2025-05-25T17:10:32.059792Z
+1kohw51,reddit,What are flaps in squeak?,,2025-05-17T02:00:12Z,programming,programming,technology,Technology,[],0,0,1,,0.36,https://news.squeak.org/2025/05/16/what-are-flaps-in-squeak/,itsmeront,2025-05-25T17:10:32.950181Z
+1ko86u3,reddit,Data Related Non-Functional Requirements,,2025-05-16T18:30:44Z,programming,programming,technology,Technology,[],0,0,3,,0.44,https://lukasniessen.medium.com/brief-reminder-7d82406908a3,trolleid,2025-05-25T17:10:33.826964Z
+1kn2iwi,reddit,wget to Wipeout: Malicious Go Modules Fetch Destructive Payl...,,2025-05-15T07:45:57Z,programming,programming,technology,Technology,[],0,0,9,,0.44,https://socket.dev/blog/wget-to-wipeout-malicious-go-modules-fetch-destructive-payload,Maybe-monad,2025-05-25T17:10:34.700498Z
+1kn1kgk,reddit,"System Design Interview Guide with MCQ Quizzes, answers, and detailed explanations",,2025-05-15T06:38:45Z,programming,programming,technology,Technology,[],0,0,0,,0.25,https://javatechonline.com/system-design-interview-questions-mcq-practice/,erdsingh24,2025-05-25T17:10:35.646052Z
+1kmb24m,reddit,Apps Can’t Fly (But We Keep Trying to Make Them),,2025-05-14T09:40:24Z,programming,programming,technology,Technology,[],0,0,0,,0.42,https://shiftmag.dev/apps-cant-fly-but-we-keep-trying-to-make-them-5151/,shift_devs,2025-05-25T17:10:36.500475Z
+1klvahs,reddit,Let's make a game! 261: Pre-set encounters,,2025-05-13T19:41:05Z,programming,programming,technology,Technology,[],0,0,0,,0.29,https://www.youtube.com/watch?v=jzvHeMLt498,apeloverage,2025-05-25T17:10:37.427928Z
+1kk5wap,reddit,"Microservices on Unison Cloud: Statically Typed, Dynamically Deployed • Runar Bjarnason",,2025-05-11T17:08:28Z,programming,programming,technology,Technology,[],0,0,1,,0.42,https://youtu.be/8VDahC5uecE,goto-con,2025-05-25T17:10:38.436739Z
+1kicz2q,reddit,Dependency Inversion in React: Building Truly Testable Components,,2025-05-09T07:49:16Z,programming,programming,technology,Technology,[],0,0,4,,0.38,https://cekrem.github.io/posts/dependency-inversion-in-react/,cekrem,2025-05-25T17:10:39.345758Z
+1khi4yh,reddit,TypeScript enums: use cases and alternatives,,2025-05-08T05:04:41Z,programming,programming,technology,Technology,[],0,0,3,,0.4,https://2ality.com/2025/01/typescript-enum-patterns.html,Safe-Engineering69,2025-05-25T17:10:40.390334Z
+1kecprc,reddit,Scaling Horizons: Effective Strategies for Wix's Scaling challenges,"Key Takeaways:
+
+* Grasp various sharding techniques and routing strategies used at Wix.
+* Understand key considerations for sharding key and routing rule selection.
+* Learn when and why to choose specific horizontal scaling strategies.
+* Gain practical knowledge for applying these strategies to achieve scalability and high availability.",2025-05-04T05:48:39Z,programming,programming,technology,Technology,[],0,0,0,,0.17,https://youtu.be/goDAmu63Dy0,natan-sil,2025-05-25T17:10:41.282075Z
+1kdv498,reddit,I implemented Redis Ordered Sets from scratch for my Redis clone project - Part 2 of my series,"Hey everyone!
+
+I just released the second video in my series where I'm building a Redis clone from scratch. This time I focused on implementing ordered sets functionality with the following commands:
+
+* ZADD: Adding scored elements to a set
+* ZREM: Removing elements from a set
+* ZRANGE: Retrieving elements by their rank
+* ZSCORE: Getting the score of an element
+
+One of the most interesting challenges was figuring out how to efficiently store and retrieve elements while maintaining their sorted order. I used a combination of hash maps and skip lists to achieve this.
+
+**Video**: [https://youtu.be/yk1CzsjC\_Bg](https://youtu.be/yk1CzsjC_Bg) 
+
+**GitHub**: [https://github.com/Matrx123/redis-like-clone](https://github.com/Matrx123/redis-like-clone)
+
+I'd appreciate any feedback or suggestions on the implementation! Did I miss any important optimizations? What Redis commands would you like to see implemented next?
+
+Feel free to ask any questions about my approach or the implementation details.  
+And Subscribe ❤️🦀",2025-05-03T15:07:49Z,programming,programming,technology,Technology,[],0,0,0,,0.4,https://youtu.be/yk1CzsjC_Bg,vipinjoeshi,2025-05-25T17:10:42.167988Z
+1kaltns,reddit,Architect of Ruin,,2025-04-29T11:41:47Z,programming,programming,technology,Technology,[],0,0,1,,0.36,https://deadmoney.gg/news/articles/migrating-away-from-rust,Xadartt,2025-05-25T17:10:43.029663Z
+1kafz3n,reddit,Let the Bug Reporter Have the Last Word,,2025-04-29T04:57:48Z,programming,programming,technology,Technology,[],0,0,3,,0.38,https://www.yegor256.com/2025/04/24/dont-close-their-tickets.html,yegor256,2025-05-25T17:10:43.926104Z
+1k98mbj,reddit,How I built a Intelligent document processing system for insurance property records.,C,2025-04-27T16:55:38Z,programming,programming,technology,Technology,[],0,0,0,,0.36,https://medium.com/@pchippigiri/ai-driven-document-intelligence-system-378b440f642b,Comfortable-Fan-580,2025-05-25T17:10:44.797572Z
+1k94tu5,reddit,Understanding MCP Evals: Why Evals Matter for MCP,,2025-04-27T14:10:06Z,programming,programming,technology,Technology,[],0,0,3,,0.38,https://huggingface.co/blog/mclenhard/mcp-evals,thisguy123123,2025-05-25T17:10:45.949174Z
+1k82c64,reddit,"Superpowers, Pitfalls & Community: Software Engineering in the AI Era wi...",,2025-04-26T02:21:00Z,programming,programming,technology,Technology,[],0,0,1,,0.36,https://youtube.com/watch?v=G2D-MqLnL1U&si=NQF2ksupbi1vYvBH,Anxious_Algae9609,2025-05-25T17:10:46.843369Z
+1kuatip,reddit,My Secret to clearing AWS Solutions Architect Associate 2025,,2025-05-24T12:48:13Z,programming,programming,technology,Technology,[],0,0,0,,0.33,https://aws.plainenglish.io/aws-well-architected-framework-ultimate-cheat-sheet-for-solutions-architect-associate-2025-d4f3c397b3a0?sk=50ae0d52799adf7bdebf8caa0e071b13,pseudonym24,2025-05-25T17:10:47.726157Z
+1ktggqx,reddit,How Allegro Does Automated Code Migrations for over 2000 Microservices,,2025-05-23T10:47:50Z,programming,programming,technology,Technology,[],0,0,0,,0.29,https://www.infoq.com/news/2025/05/allegro-code-migrations-scale/,rgancarz,2025-05-25T17:10:48.593974Z
+1ksd6wi,reddit,how to break or continue from a lambda loop? -- Vittorio Romeo,,2025-05-22T00:08:06Z,programming,programming,technology,Technology,[],0,0,4,,0.33,https://vittorioromeo.com/index/blog/controlflow.html,SuperV1234,2025-05-25T17:10:49.493890Z
+1kq7i88,reddit,From Chaos to Clarity: Master a Seamless Knowledge Base - TruckleSoft,,2025-05-19T09:35:01Z,programming,programming,technology,Technology,[],0,0,0,,0.17,https://trucklesoft.org.uk/2025/04/30/taming-knowledge-base-chaos/,N/A,2025-05-25T17:10:50.388768Z
+1km1s7c,reddit,Understanding Pin and Self-Referential Data in Rust,"Rust’s memory safety guarantees are one of its greatest strengths, but they also create unique challenges when implementing certain programming patterns. One of the most fascinating examples is how Rust handles self-referential data structures: objects that contain pointers to themselves. This seemingly innocuous pattern becomes particularly critical when working with Rust’s `async/await` system.
+
+In this article, we’ll dive deep into Rust’s `Pin` type, explaining why it exists, how it solves the self-referential data problem, and how it enables the `async/await` ecosystem to function safely and efficiently.",2025-05-14T00:19:00Z,programming,programming,technology,Technology,[],0,0,1,,0.39,https://medium.com/@petervn1992/understanding-pin-and-self-referential-data-in-rust-e39a479a9a65,Snoo-4845,2025-05-25T17:10:51.251152Z
+1kl60od,reddit,🧪 YINI — Spec Update + What’s Coming,"Hi again! This is a brief update on the **YINI specification** — a lightweight, human-friendly configuration format designed to combine the simplicity of INI with modern clarity and structure.
+
+# ✅ Recent Internal Updates (not yet published)
+
+A few changes have already been finalized internally and will be included in the next spec version:
+
+* **Default mode changed to non-strict (lenient)**
+   *  → Document terminators like `/END` are now optional unless strict mode is explicitly enabled.
+* **Tabs are now illegal in backticked identifiers** 
+   * → Improves consistency and simplifies parsing.
+* **Deprecated** `>` **as a section marker** 
+   * → Visually clashes with quote syntax in emails, forums, and messaging platforms.
+* **Added full escape code support in C-Strings (like in C/C++)** 
+   * → YINI uses `\oOOO` for octal instead of C-style `\OOO` to clearly indicate octal intent.
+* **Reserved** `{ }` **for future use as inline object syntax**
+* **Renamed “Phrased identifiers” to “Backticked identifiers”** 
+   * → Simpler and more intuitive.
+* **Removed support for the** `###` **document terminator** 
+   * → Originally a shorter alternative to `/END`, but added ambiguity and didn’t align with YINI’s clarity-first design.
+
+# 🚧 Possible Upcoming Changes (in exploration)
+
+The next bigger update to the spec might include some notable syntax adjustments:
+
+* Possibly changing the **default section marker to** `~` (instead of `#`)
+* And, replacing `#` for use as **comment syntax** (instead of `//`)
+
+
+
+These aren’t finalized yet, but reflect current ideas being tested to improve **visual clarity** and better match common configuration conventions.
+
+  
+🧭 The core goal remains unchanged: **Minimal, readable, and robust configuration.**
+
+💬 I’d love to hear what you think — feedback, critiques, or ideas welcome!
+
+📘 Full spec (still v1.0.0 Beta 4 + Updates):  
+➡️ [https://github.com/YINI-lang/YINI-spec](https://github.com/YINI-lang/YINI-spec)
+
+Thanks for reading!  
+— M. Seppänen",2025-05-12T22:29:39Z,programming,programming,technology,Technology,[],0,0,0,,0.22,https://github.com/YINI-lang/YINI-spec,Effective_Tune_6830,2025-05-25T17:10:52.128263Z
+1kkrsyl,reddit,Database Sharding in 1 diagram and 204 words,,2025-05-12T12:55:10Z,programming,programming,technology,Technology,[],0,0,1,,0.25,https://www.systemdesignbutsimple.com/p/database-sharding-in-1-diagram-and-204-words,stmoreau,2025-05-25T17:10:53.012899Z
+1khmfj1,reddit,🐳 Supercharge Your Docker Workflow with the Container Optimization Tool (COT),,2025-05-08T10:08:46Z,programming,programming,technology,Technology,[],0,0,0,,0.29,https://amansnew.hashnode.dev/supercharge-your-docker-workflow-with-the-container-optimization-tool-cot,thebitchhunterishere,2025-05-25T17:10:53.895228Z
+1keab8w,reddit,Chapter 1: The Game We Didn’t Know We Were Playing,,2025-05-04T03:18:08Z,programming,programming,technology,Technology,[],0,0,0,,0.3,https://codewithshadman.com/the-game-we-didnt-know-we-were-playing/,kudchikarsk,2025-05-25T17:10:54.743625Z
+1ka3bp1,reddit,What if we embraced simulation-driven development?,,2025-04-28T18:50:22Z,programming,programming,technology,Technology,[],0,0,0,,0.14,https://pierrezemb.fr/posts/simulation-driven-development/,ketralnis,2025-05-25T17:10:55.635555Z
+1k9zpgs,reddit,Chain-of-Vibes,,2025-04-28T16:23:31Z,programming,programming,technology,Technology,[],0,0,1,,0.33,https://blog.thepete.net/blog/2025/04/14/chain-of-vibes/,TakAnnix,2025-05-25T17:10:56.489601Z
+1k9ueum,reddit,Data Oriented Programming in Java,,2025-04-28T12:33:14Z,programming,programming,technology,Technology,[],0,0,1,,0.29,https://nejckorasa.github.io/posts/data-oriented-programming-in-java,nejcko,2025-05-25T17:10:57.352835Z
+1kumy10,reddit,Creating a better TypeScript-like language,"I am creating a language similar to Rust and TypeScript that give me the benefits of C and C++ without them actually being C and C++. I wanted to mix the absolute control from C with the simplicity of TypeScript so writing code can be as fast as scripting and it will still run as fast as possible. I know a lot of people like Rust for this purpose, but I find the compiler to be somewhat of a headache when trying to take any shortcuts. Velocity, the name of the language for now, will compile to C and Javascript (later) so it can be used for full-stack and back-end applications.
+
+Right now the language is at the most primal stages of development, but I hope that sharing it will get people to force me to continue working on it and not lose interest. I would also like to get ideas from others for features they like to see in a language.
+
+For now, the gist of the language is again similar to TypeScript, except there will be more low-level types like specific integer types, pointers, and self-managed memory\*. The self-managed memory is not a requirement, however, as there will be map types, vectors, and similar collection types. I also want to create a nice macro system like Rust has, especially for iterators which I think will be a main mechanism in the language. I also want to create structures on the stack rather than classes that are allocated to the heap to keep the language fast like C.
+
+If you want to read some of the code, it is written in C. If you are triggered by unsafe code, do not compile it :), and do not read files outside of /src/parse/ because they are files I threw together very quickly to start my programming. All of this code will be rewritten in the new language once I get a somewhat stable version, and any updates will be written in the new language.
+
+Please let me know what you think of the idea or if you want to contribute in some way!",2025-05-24T21:58:00Z,programming,programming,technology,Technology,[],0,0,3,,0.23,https://github.com/ephf/velocity,SeaInformation8764,2025-05-25T17:10:58.213156Z
+1ktxzkn,reddit,Android Auto to support browser and video apps officially,,2025-05-23T23:43:16Z,programming,programming,technology,Technology,[],0,0,9,,0.2,https://android-developers.googleblog.com/2025/05/android-for-cars-google-io-2025.html,namanyayg,2025-05-25T17:10:59.082521Z
+1ktutra,reddit,Big Problems From Big IN lists with Ruby on Rails and PostgreSQL,,2025-05-23T21:16:22Z,programming,programming,technology,Technology,[],0,0,0,,0.25,https://andyatkinson.com/big-problems-big-in-clauses-postgresql-ruby-on-rails,ketralnis,2025-05-25T17:11:00.040478Z
+1ktr4ku,reddit,"x402, L402, EVMAuth, and Macaroons",,2025-05-23T18:39:26Z,programming,programming,technology,Technology,[],0,0,0,,0.25,https://shaunscovil.com/x402-l402-evmauth-and-macaroons-4c3f4862752f,shaunscovil,2025-05-25T17:11:00.895407Z
+1ktjr0m,reddit,Passion – a different blog post,,2025-05-23T13:36:20Z,programming,programming,technology,Technology,[],0,0,0,,0.22,https://cekrem.github.io/posts/passion/,cekrem,2025-05-25T17:11:01.789823Z
+1kt1xre,reddit,Dissecting the Code (YouTube channel),,2025-05-22T21:03:59Z,programming,programming,technology,Technology,[],0,0,0,,0.14,https://www.youtube.com/user/SergeyTeplyakov,GOPbIHbI4,2025-05-25T17:11:02.611454Z
+1ksyqed,reddit,My problem with backlogs,,2025-05-22T18:54:35Z,programming,programming,technology,Technology,[],0,0,0,,0.29,https://www.octomind.dev/blog/our-problem-with-backlogs,Samdrian,2025-05-25T17:11:03.519466Z
+1ksvbip,reddit,"I automated my React CRUD workflow using Hygen, Plop.js & VS Code snippets — here's a full guide with code examples","Hi everyone, I’ve been experimenting with code automation tools for frontend workflow. Thought of sharing this video that shows how I use Hygen, Plop.js and VS Code snippets for a clean React/Next.js setup.",2025-05-22T16:37:44Z,programming,programming,technology,Technology,[],0,0,1,,0.2,https://youtu.be/15GbisHl5Pk?si=dh2d000oMhxsVIMt,Harsimrat-Singh,2025-05-25T17:11:04.338083Z
+1kscnjc,reddit,Using Codex as a task inbox,"I decided to take a spin with Codex those days, and summarized my findings to everyone who might be tempted to test it. Spoiler: I was positively surprised, but it's not replacing me anytime soon.",2025-05-21T23:42:04Z,programming,programming,technology,Technology,[],0,0,0,,0.2,https://rafaelquintanilha.com/using-codex-as-a-task-inbox/,quintanilharafael,2025-05-25T17:11:05.192792Z
+1ksac3e,reddit,"What Is the Difference Between a Block, a Proc, and a Lambda in Ruby? (2013)",,2025-05-21T21:55:30Z,programming,programming,technology,Technology,[],0,0,0,,0.27,https://blog.awaxman.com/what-is-the-difference-between-a-block-a-proc-and-a-lambda-in-ruby,ketralnis,2025-05-25T17:11:06.066288Z
+1kr1l9y,reddit,The Emoji Problem: Part I,,2025-05-20T10:34:10Z,programming,programming,technology,Technology,[],0,0,1,,0.13,https://artofproblemsolving.com/community/c2532359h2760821_the_emoji_problem__part_i,FoxInTheRedBox,2025-05-25T17:11:06.898976Z
+1kq8pro,reddit,"How to make your MCP clients (Cursor, Windsurf...) share context with each other","With all this recent hype around MCP, I still feel like missing out when working with different MCP clients (especially in terms of context).
+
+I was looking for a personal, portable LLM “memory layer” that lives locally on my system, with complete control over the data.
+
+That’s when I found OpenMemory MCP (open source) by Mem0, which plugs into any MCP client (like Cursor, Windsurf, Claude, Cline) over SSE and adds a private, vector-backed memory layer.
+
+Under the hood:
+
+\- stores and recalls arbitrary chunks of text (`memories`) across sessions  
+\- uses a vector store (`Qdrant`) to perform relevance-based retrieval  
+\- runs fully on your infrastructure (`Docker + Postgres + Qdrant`) with no data sent outside  
+\- includes a `next.js` dashboard to show who’s reading/writing memories and a history of state changes  
+\- Provides four standard memory operations (`add_memories`, `search_memory`, `list_memories`, `delete_all_memories`)
+
+So I analyzed the [complete codebase](https://github.com/mem0ai/mem0/tree/main/openmemory) and created a [free guide](https://medium.com/gitconnected/how-to-make-your-clients-more-context-aware-with-openmemory-mcp-60057bcc24a3) to explain all the stuff in a simple way. Covered the following topics in detail.
+
+1. What OpenMemory MCP Server is and why does it matter?
+2. How it works (the basic flow).
+3. Step-by-step guide to set up and run OpenMemory.
+4. Features available in the dashboard and what’s happening behind the UI.
+5. Security, Access control and Architecture overview.
+6. Practical use cases with examples.
+
+Would love your feedback, especially if there’s anything important I have missed or misunderstood.",2025-05-19T10:53:58Z,programming,programming,technology,Technology,[],0,0,0,,0.14,https://levelup.gitconnected.com/how-to-make-your-clients-more-context-aware-with-openmemory-mcp-60057bcc24a3,anmolbaranwal,2025-05-25T17:11:07.762044Z
+1kp6ucp,reddit,How many lines of code have I really written?,"I built Lines of Code, a simple tool that shows how many lines of code you’ve written in each language across your GitHub repos.
+
+It generates a clean, interactive graph you can embed anywhere. You can customize the output with query parameters like theme, metric, limit, and more.
+
+Data updates weekly, and the project is open source: [https://github.com/yehiaabdelm/linesofcode](https://github.com/yehiaabdelm/linesofcode)",2025-05-17T23:57:01Z,programming,programming,technology,Technology,[],0,0,2,,0.42,https://linesofcode.yehiaabdelm.com,yehiaabdelm,2025-05-25T17:11:08.597892Z
+1kowxtz,reddit,Super-Quick Image Classification with MobileNetV2,"How to classify images using MobileNet V2 ? Want to turn any JPG into a set of top-5 predictions in under 5 minutes?
+
+In this hands-on tutorial I’ll walk you line-by-line through loading MobileNetV2, prepping an image with OpenCV, and decoding the results—all in pure Python.
+
+Perfect for beginners who need a lightweight model or anyone looking to add instant AI super-powers to an app.
+
+ 
+
+**What You’ll Learn** 🔍:
+
+* Loading MobileNetV2 pretrained on ImageNet (1000 classes)
+* Reading images with OpenCV and converting BGR → RGB
+* Resizing to 224×224 & batching with np.expand\_dims
+* Using preprocess\_input (scales pixels to **-1…1**)
+* Running inference on CPU/GPU (model.predict)
+* Grabbing the single highest class with np.argmax
+* Getting human-readable labels & probabilities via decode\_predictions
+
+ 
+
+ 
+
+You can find link for the code in the blog : [https://eranfeit.net/super-quick-image-classification-with-mobilenetv2/](https://eranfeit.net/super-quick-image-classification-with-mobilenetv2/)
+
+ 
+
+You can find more tutorials, and join my newsletter here : [https://eranfeit.net/](https://eranfeit.net/)
+
+ 
+
+**Check out our tutorial :** [**https://youtu.be/Nhe7WrkXnpM&list=UULFTiWJJhaH6BviSWKLJUM9sg**](https://youtu.be/Nhe7WrkXnpM&list=UULFTiWJJhaH6BviSWKLJUM9sg)
+
+ 
+
+Enjoy
+
+Eran",2025-05-17T16:24:36Z,programming,programming,technology,Technology,[],0,0,0,,0.22,https://eranfeit.net/super-quick-image-classification-with-mobilenetv2/,Feitgemel,2025-05-25T17:11:09.473561Z
+1korfen,reddit,Mastering the Walrus Operator (:=),"I wrote a breakdown on Python’s assignment expression — the walrus operator (`:=`)
+
+The post covers:  
+• Why it exists  
+• When to use it (and when *not* to)  
+• Real examples (loops, comprehensions, caching)
+
+Would love feedback or more use cases from your experience.",2025-05-17T12:07:47Z,programming,programming,technology,Technology,[],0,0,14,,0.44,https://blog.abhimanyu-saharan.com/posts/mastering-the-walrus-operator-in-python-3-8,abhimanyu_saharan,2025-05-25T17:11:10.324256Z
+1koh48x,reddit,10 System Design Trade-offs,,2025-05-17T01:17:54Z,programming,programming,technology,Technology,[],0,0,0,,0.25,https://betterengineers.substack.com/p/system-design-trade-offs,InspectionSpirite,2025-05-25T17:11:11.225119Z
+1ko2nwv,reddit,"GitHub - migliori/php-crud-generator: ⚙️ Visual PHP CRUD generator to build responsive admin panels from your database — no coding required, self-hosted, and customizable.",,2025-05-16T14:45:38Z,programming,programming,technology,Technology,[],0,0,0,,0.27,https://github.com/migliori/php-crud-generator,miglisoft,2025-05-25T17:11:12.069606Z
+1ko24pm,reddit,"YINI (lightweight, human-friendly configuration format) - # is now for Comments, ^ is the New Section Marker - Feedback Welcome!","Hey everyone 👋
+
+Just a quick update for those following the development of **YINI** — a lightweight, human-friendly configuration file format inspired by INI, TOML, and YAML but with its own clean and consistent rules.
+
+After some great community feedback and real-world testing, we've made two key changes to the syntax:  
+\- `#` is now strictly a comment marker  
+\- Section headers now use `^` instead of `#`
+
+The full Spec can be found here on GitHub:  
+[https://github.com/YINI-lang/YINI-spec](https://github.com/YINI-lang/YINI-spec)
+
+Would love to hear what you think about these changes, any other feedback or critic? 
+
+Anyway, thanks and have a good weekend!
+
+—Mr. Seppänen / YINI dev",2025-05-16T14:23:19Z,programming,programming,technology,Technology,[],0,0,10,,0.33,https://github.com/YINI-lang/YINI-spec,Effective_Tune_6830,2025-05-25T17:11:12.915742Z
+1kn7zfk,reddit,Flow Engineering • Steve Pereira & Andrew Davis,,2025-05-15T13:17:46Z,programming,programming,technology,Technology,[],0,0,0,,0.13,https://youtu.be/5Vk4NJrI2KE,goto-con,2025-05-25T17:11:13.847227Z

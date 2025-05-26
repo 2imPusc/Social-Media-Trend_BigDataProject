@@ -14,13 +14,13 @@ from kafka import KafkaProducer
 # Cấu hình
 DATA_DIR = "Data"
 MAX_THREADS = 2
-LIMIT_POSTS = 1000
+LIMIT_POSTS = 5000
 LIMIT_COMMENTS = 100
-BATCH_SIZE = 500
+BATCH_SIZE = 100
 
 # Cấu hình Kafka
 KAFKA_BOOTSTRAP_SERVERS = 'host.docker.internal:29092'
-KAFKA_TOPIC = 'reddit_data'
+KAFKA_TOPIC = 'reddit_stream'
 producer = KafkaProducer(
     bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,
     value_serializer=lambda v: json.dumps(v).encode('utf-8')

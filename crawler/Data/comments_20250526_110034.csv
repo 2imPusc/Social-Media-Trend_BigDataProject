@@ -1,0 +1,245 @@
+﻿comment_id,content_id,platform,content,created_at,score,author,source_name,crawl_time
+mp9kq6h,1k8vwvm,reddit,"It's missing the big bold text at the bottom where it says ""if you're asking this question then the answer is obviously, definitely Postgres.""",2025-04-27T04:52:23Z,27,gredr,programming,2025-05-26T03:59:02.341745Z
+mpb9vn2,1k8vwvm,reddit,This is awesome! Really well put together and straight to the point. I really like how everything is organized. Will be using it for quick references.,2025-04-27T13:54:41Z,4,deathcomzz,programming,2025-05-26T03:59:02.341758Z
+mpaxjox,1k8vwvm,reddit,Im 2025 the answer is almost always Postgres.,2025-04-27T12:35:41Z,3,church-rosser,programming,2025-05-26T03:59:02.341766Z
+mpe2oxp,1k8vwvm,reddit,"Just pick postgres.
+
+You will have pretty much the same performance with jsonb + gin indexes.
+
+Eats more storage, but storage is cheap as hell nowadays",2025-04-27T22:41:16Z,3,bicijay,programming,2025-05-26T03:59:02.341774Z
+mp7lwt6,1k89sov,reddit,Wasn't this particular blogger and their medium banned from /r/programming ?,2025-04-26T21:19:34Z,50,sumwheresumtime,programming,2025-05-26T03:59:03.368081Z
+mp7dmf5,1k89sov,reddit,"The others are nice, but whatever; but hell yeah lazy evaluation of type annotations",2025-04-26T20:34:34Z,16,ambirdsall,programming,2025-05-26T03:59:03.368094Z
+mp64zyd,1k89sov,reddit,I’ll be very disappointed if this release isn’t codenamed Pi-thon.,2025-04-26T16:39:55Z,12,pxm7,programming,2025-05-26T03:59:03.368104Z
+mp6xurt,1k89sov,reddit,"Thank you for sharing!
+
+I am looking forward to using the deferred types and I’m curious how the performance improvements compare to 3.10.",2025-04-26T19:08:09Z,2,OmicronFan22,programming,2025-05-26T03:59:03.368112Z
+mtoha25,1ksr017,reddit,"Site I did on ""Branch by Abstraction"" - boring sequence-diagram account of change over time: https://www.branchbyabstraction.com/
+
+And a more visual account using a stylized building metaphor - https://www.branchbyabstraction.com/building.html#choice - that I swear involved no drugs.
+
+There's a Java source-code-ish version of the same there too - https://www.branchbyabstraction.com/java.html#choice
+
+I'm always looking for a fourth alternate way of getting it across",2025-05-22T16:26:50Z,1,paul_h,programming,2025-05-26T03:59:05.209586Z
+mtjy9lv,1ksaesw,reddit,"Thank you. I always think of HAMT in terms of C++ or Java, but forgot about Lisp.",2025-05-21T22:14:26Z,1,tigrux,programming,2025-05-26T03:59:06.059465Z
+ms81qqy,1klvh7o,reddit,"just a small finding ""adopt kebab-case and use uppercase letters for header names"" then ""Example: custom-header""",2025-05-14T05:27:40Z,2,kress5,programming,2025-05-26T03:59:08.871354Z
+msm7fxt,1klvh7o,reddit,snake\_case because I don't want my postgres to be case sensitive,2025-05-16T12:46:37Z,0,raralala1,programming,2025-05-26T03:59:08.871372Z
+mqvrb8g,1kg32zc,reddit,"I swear tech is one giant timeline wheel... different age same stuff.  
+It's cool to see this come back into the spotlight the early to mid 2000s will live again... or maybe no because most people don't care about connectivity and the complexity to develop local first apps even with an abstraction is still higher than saying ""drive to starbucks"" in most business use cases.",2025-05-06T13:33:13Z,13,binarypie,programming,2025-05-26T03:59:09.775813Z
+mril86k,1kg32zc,reddit,"Expenses everyone is paying to the cloud oligopoly are getting so high, and personal computing devices are getting so good (especially the newer ARM platform laptops), that it will not surprise me at all to see the pendulum swinging back to on-device processing.
+
+The barriers I see will be perceptions around IP -- data and code security on devices in particular. But the business case is compelling -- I can be a lot more competitive if my software runs on your computer instead of on AWS or similar.",2025-05-10T01:04:46Z,2,maxinstuff,programming,2025-05-26T03:59:09.775827Z
+mq8srtv,1kd6z4u,reddit,That might also interest you https://research.swtch.com/bisect,2025-05-02T18:46:25Z,2,aatd86,programming,2025-05-26T03:59:11.762708Z
+mqdx2gh,1kd6z4u,reddit,"There is only one debugging technique: divide and conquer.
+
+Or... bifurcate the problem space lol",2025-05-03T15:39:39Z,1,a_marklar,programming,2025-05-26T03:59:11.762729Z
+mpnsydh,1kaoov8,reddit,"Few days I posted a link to my article about quad trees. Today I'm sharing second part, diving deeper into searching elements in a given region. Check out interactive demo at the end of it where you can visualise the concepts better! How would you approach getting elements within any polygon?",2025-04-29T14:02:06Z,3,ab-azure,programming,2025-05-26T03:59:16.267922Z
+mpcruw4,1k95gic,reddit,"There is /NODEFAULTLIB in Visual Studio to import absolutely nothing.
+
+If you want to build Hello World without a C standard library, you have two functions you need to call: ""GetStdHandle"" and ""WriteFile"".  GetStdHandle is used to get a file handle for STD_OUTPUT_HANDLE (-11), and WriteFile is used to send the 8-bit binary character data (Defaulting to your regional codepage, unless you specifically also have an embedded manifest resource declaring that you want UTF-8 to be the encoding instead)
+
+When you use no standard library and just call two imported functions, your executable is unbelievably tiny, around 4KB without doing any further size reductions, like merging sections.
+
+If you want really really small, you can change importing into manually finding the address of Kernel32 using the TIB, then following the memory to find imported functions.  Basically code that replaces GetModuleHandle(""kernel32.dll"") and GetProcAddress(""FunctionName"").",2025-04-27T18:34:50Z,11,Dwedit,programming,2025-05-26T03:59:18.418586Z
+mtlwmk1,1ksiv97,reddit,"I found getting auth set up for MCP can be a real pain. The MCP spec expects your authorization server to support several RFCs (OAuth 2.1, RFC8414, RFC 7591)
+
+I mean, these are solid standards, but honestly, they’re tough to implement **correctly**, or to check provider “compliance”, if you’re not an auth expert. This project has a verified list of compatible providers (with more on the way) and even includes a tool to test providers by url. Very sweet.",2025-05-22T05:34:18Z,2,HorrorFormal3170,programming,2025-05-26T03:59:19.340948Z
+mtmdtls,1ksiv97,reddit,"being able to connect an MCP server to any OAuth/OIDC provider opens up a lot of flexibility. Great option for teams already using identity providers like Auth0, Okta, or Azure AD. Definitely bookmarking this.",2025-05-22T08:20:48Z,0,Abelmageto,programming,2025-05-26T03:59:19.340962Z
+mtdlzt8,1kr4z94,reddit,"Wow, this looks really good! But I also have some constructive criticism:
+
+* There should only be one syntax for one thing! I don't think there's any good reason to have two styles of `nullable` or `vec` declaration.
+* Why the unusual `type type_name = struct{}` syntax instead of just `struct type_name{}`?
+* I think Go's channel syntax is actually clearer/better.
+* Since `self` is always a reference and methods can only be declared in the same module, then why not just declare methods inside their associated struct? Extensions to builtin types aren't any more useful than simple functions.
+   * Rather consider supporting subtyping builtin types, adding a pipe operator and/or [uniform function call syntax](https://en.wikipedia.org/wiki/Uniform_function_call_syntax).
+* Speaking of references: I think you should rename `ptr` to `ref` since it is completely transparent to the underlying type and people know what reference types are.
+   * How do you create a reference to a stack object?
+* Deciding at call site whether an object will be past by value or reference is terrible. This is one of the aspects that makes Go's interfaces so confusing. Interfaces should always be reference types.
+   * Consider adding immutable references.
+* Exceptions also require exception safe resource handling. I hope there will be some form of RAII.
+   * Is there any particular reason for not having constructors?
+* Something about `select` being random in certain cases feels very wrong, even if Go handles it the same way. There must be ways to prioritize and choose, making it deterministic.",2025-05-20T22:41:47Z,4,randomguy4q5b3ty,programming,2025-05-26T03:59:20.366306Z
+mtaxw50,1kr4z94,reddit,"Looks very cool!
+I always wanted a somewhat higher level Go which compiles to static binaries as a default.
+
+
+I really like the fact that you're going for conservative improvements rather than something super experimental.
+
+
+Have you already cross posted this to /r/ProgrammingLanguages?
+
+
+1. Does it have some form of constrained generics?
+
+
+2. I would also suggest you to avoid minor syntactic variations for languages which are meant as kind of a spiritual successor to another language . For example, I see that you're using go syntax in a lot of places, but with minor superficial distinctions. I'd avoid doing that unless there's a very strong reason to do so. For niche languages it has multiple advantages. It reduces minor friction for people trying it out. Further, it keeps you focused on things that really matter. 
+
+
+These are just my 2 cents as a fellow hobbyist language designer.",2025-05-20T14:44:48Z,2,Key-Cranberry8288,programming,2025-05-26T03:59:20.366317Z
+mtb6pmz,1kr4z94,reddit,[deleted],2025-05-20T15:27:46Z,-4,N/A,programming,2025-05-26T03:59:20.366324Z
+mt6uxgv,1kqne2i,reddit,[Previous discussion 9 months ago](https://old.reddit.com/r/programming/comments/1exzt21/mimalloc_cigarette_losing_one_week_of_my_life/?submit_url=https%3A%2F%2Fpwy.io%2Fposts%2Fmimalloc-cigarette%2F&already_submitted=true&submit_title=Mimalloc+Cigarette%3A+Losing+one+week+of+my+life+catching+a+memory+leak),2025-05-19T21:13:18Z,3,ketralnis,programming,2025-05-26T03:59:21.285353Z
+mt2hv7j,1kq1ete,reddit,"    // Wrap the event loop into the `smol` runtime.
+    let mut event_loop = Async::new(EventLoop::try_new()?)?;
+
+I wonder if my reaction to Rust code, might be actually a compilable piece of code: ""?!?!?!""",2025-05-19T04:08:10Z,11,Vasilev88,programming,2025-05-26T03:59:22.207397Z
+mt1kyhn,1kpojvv,reddit,"To your point about the reddit ads underperforming, I think reddit is a poor platform for ads in general. Reddit formats their ads to hide amongst the content, so people feel tricked if they click on them expecting real content.
+
+I think you're probably right that having an existing influencer platform to sell a book from would be the best way to make money from it. Especially a book on best practices, as you need to establish your credentials before people would be willing to part with their money.",2025-05-19T00:28:42Z,1,kani_kani_katoa,programming,2025-05-26T03:59:23.231799Z
+mswok5r,1kp3emf,reddit,"        template <typename driver_t>
+        inline void _add_thread(driver_t *driver, const key_t &key) {
+            this->_thread_map[static_cast<void *>(driver)] = new kv_thread<driver_t>(driver);
+        }
+
+  
+Shouldn't this be
+
+        template <typename driver_t>
+        inline void _add_thread(driver_t *driver, const key_t &key) {
+            this->_thread_map[key] = new kv_thread<driver_t>(driver);
+        }",2025-05-18T04:49:01Z,3,remenic,programming,2025-05-26T03:59:24.254631Z
+mrsw6vd,1kk9u31,reddit,"I haven't tried it myself only read your post and photo. But it would be cool if you could return the trace tree as a data structure to the caller. Then the caller can access the results for a specific line programmatically. Can be useful for performance monitoring of a project across releasrs
+
+Second idea would be to make a GitHub action out of it. Devs can run it against their pull requests and see the performance of each line they write before merging",2025-05-11T20:07:44Z,0,Local_Transition946,programming,2025-05-26T03:59:25.120183Z
+mrrs5tf,1kk44bo,reddit,"I think this article is an interesting start to solving Clue/Cluedo, but it doesn't even mention (unless I completely missed it -- admittedly I was only skimming) the two key constraints about guessing: (1) you must be present (by moving your pawn) in the room wish to use in your guess (except for your final accusation) and (2) there is strategy involved -- avoiding leaking information you know to other players and intentionally trying to deceive other players.
+
+I would like to read about those aspects of game solving -- similar to poker -- as applied to Clue/Cluedo",2025-05-11T16:31:44Z,4,danmactough,programming,2025-05-26T03:59:26.098622Z
+mrckj53,1khzvxl,reddit,It's interesting to me how similar much of the practical advice on how to avoid renaming things or requiring additional data is to the [KDE library standards for maintaining C++ binary compatibility](https://community.kde.org/Policies/Binary_Compatibility_Issues_With_C%2B%2B).,2025-05-09T01:36:17Z,3,mpyne,programming,2025-05-26T03:59:27.211894Z
+mqydck8,1kgcuac,reddit,A good AV forbids using native APIs from PowerShell.,2025-05-06T21:06:18Z,2,SergiusTheBest,programming,2025-05-26T03:59:28.146871Z
+mpwoh3a,1kbgh7r,reddit,When Mastodon first appeared and I saw it was Ruby it raised eyebrows for me. Still it’s very hard to find real world performance metrics of mastodon deployments. If anyone has some please let me know!,2025-04-30T20:56:39Z,2,derjanni,programming,2025-05-26T03:59:30.019071Z
+mu5jbx4,1kuzmlm,reddit,"I know your code examples are for teaching, but I would consider whether the comments really add much :
+
+// Update sorted positions array for efficient lookups
+updateSortedPositions() {
+this.sortedPositions = Array.from(this.ring.keys()).sort((a, b) => a - b);
+}
+
+Update sorted positions is just repeated. These descriptive kind of comments are a teaching clutch and I see too many use it in production code. It's also a mistake for people to rely on comments to understand what the code does, rather than just read the function name.
+
+I'd rather it be an explanation if some crucial implementation detail or why this is efficient rather than just describing what happens in the next line. This is a big gripe of mine with LLM generated code as well, these constant redundant comments.
+
+If refactoring is performed, IDEs or LLMs might change the function name and even behaviour later, and the comment is left over in that automatic refactoring, now being inconsistent.",2025-05-25T11:09:14Z,22,MaDpYrO,programming,2025-05-26T03:59:32.755271Z
+mu6s1zl,1kuzmlm,reddit,"Nice article.
+
+Short and clear.",2025-05-25T15:45:06Z,1,Smooth-Zucchini4923,programming,2025-05-26T03:59:32.755285Z
+mu5gjmc,1kuzmlm,reddit,"This is the repo, it contains more code examples: [https://github.com/LukasNiessen/consistent-hashing-explained](https://github.com/LukasNiessen/consistent-hashing-explained)",2025-05-25T10:44:12Z,-6,trolleid,programming,2025-05-26T03:59:32.755294Z
+mu18jz0,1kud4n9,reddit,Looks like just a paid and slower alternative to rr,2025-05-24T16:48:58Z,1,csdt0,programming,2025-05-26T03:59:33.676247Z
+mtsf4p8,1ktbezq,reddit,"debugging. 
+
+after programming professionally (data science so i'm not one of the cool ones) for ~17 years this is the one thing that i think kills people trying to learn. everyone wants instant satisfaction. i feel like good programmers, we're kind of masochists. not to say i'm anything special. i consider myself 'good'. but i feel like generally, anybody really involved in programming, loves the struggle. 
+
+i don't see how you could do it if you don't.",2025-05-23T05:53:48Z,5,YOUR_TRIGGER,programming,2025-05-26T03:59:36.441422Z
+mtsa2wt,1ktbezq,reddit,"AI
+
+Nothing wrong with it, but just too optimistic.",2025-05-23T05:10:20Z,9,Early-Lingonberry-16,programming,2025-05-26T03:59:36.441434Z
+mtsf450,1ktbezq,reddit,Bug-free code? My code IS the bug!,2025-05-23T05:53:40Z,1,CuddleMuse,programming,2025-05-26T03:59:36.441442Z
+mtthvdi,1ktbezq,reddit,Ok then still better if they never happen,2025-05-23T11:48:12Z,1,HarmadeusZex,programming,2025-05-26T03:59:36.441450Z
+mtqqup9,1ksujvu,reddit,"Given that COBOL was written in the age of punch cards, makes complete sense that the data structures are ""character width based"" rather than but based.
+
+(As someone born decades later - I could be entirely wrong too)",2025-05-22T23:14:27Z,1,nicholashairs,programming,2025-05-26T03:59:37.362505Z
+mtltryp,1ksagp2,reddit,"As a Kotlin backend developer, I'm really looking forward to this enhancement as it should reduce memory consumption while also improving performance.
+
+
+While I don't use Java, I'm really glad to see Oracle continue to enhance the JVM as that benefits all JVM languages.",2025-05-22T05:10:05Z,1,Determinant,programming,2025-05-26T03:59:38.283898Z
+mtjzq8h,1ksagp2,reddit,"I love when Java adds a new feature, decades after coworkers ask me to defend why Java isn't fun to program in.
+
+
+This is still experimental, and not adopted. So just another decade!",2025-05-21T22:22:25Z,-6,dakkeh,programming,2025-05-26T03:59:38.283910Z
+msvy6n8,1kp6y4b,reddit,"Seems like you could have I stand support in some apps if you supported pledge.
+
+https://man.openbsd.org/pledge.2
+https://crates.io/crates/pledge
+
+Cool project!",2025-05-18T01:31:59Z,2,fnordonk,programming,2025-05-26T03:59:41.971757Z
+ms0jtaf,1kkxith,reddit,"I'm not a JS guy, but damn.  That many sections in an explanation of what copy mechanism to use? Lol.",2025-05-13T01:14:46Z,-1,N/A,programming,2025-05-26T03:59:42.931020Z
+mrv3cn0,1kkhxcp,reddit,I think it was fairly old. Tsoding has done a few videos about it and it seemed interesting as a stop gap,2025-05-12T04:34:37Z,5,TankorSmash,programming,2025-05-26T03:59:43.915831Z
+mrrj73g,1kjw856,reddit,"AWS VPN is pretty cheap, and removes the need to manage yet another server, works pretty well with OpenVPN client.
+
+Tailscale looks easier, but remember if you’re creating a site to site you’re also increasing your security footprint 
+
+For a follow up, I would suggest you look into 
+1. Data loss prevention (DLP)
+2. Deep packet inspection firewall-ing
+3. Monitoring and logging
+
+
+Essentially how do you protect your cloud resources from your home network, now that would be an interesting post.",2025-05-11T15:43:54Z,1,olearyboy,programming,2025-05-26T03:59:44.773446Z
+mras5os,1khyyvt,reddit,For some reason it’s nice to hear about good ol’ machine learning applications in the current mega-fad of LLMs.,2025-05-08T19:35:40Z,17,Farados55,programming,2025-05-26T03:59:45.760451Z
+mrev901,1khyyvt,reddit,"Notifications were a mistake. Apps simply cannot be trusted with them. Apps should be tools, to serve users. Instead, they all act like 6 yearold children trying to get your attention.
+
+On my phone I allow notifications from only like 3 apps, and that includes the built in text messages. I'm literally on the verge of revoking gmail notification rights, because google is unable to filter spam.",2025-05-09T13:00:12Z,6,Macluawn,programming,2025-05-26T03:59:45.760463Z
+mrfathy,1khyyvt,reddit,"We already have the option and it's called ""block all notifications"". Sadly, google will never own up to their mistake to opening the pandora's box way back when they released the notifications API by removing it.",2025-05-09T14:27:31Z,3,Worth_Trust_3825,programming,2025-05-26T03:59:45.760471Z
+mrq52at,1khyyvt,reddit,"What is this ""Notifications are end to end encrypted"" nonsense? I'd expect Google of all companies to know what end to end encryption means. Feels like marketing got hold of the term and used it to mean ""not read by Google"".",2025-05-11T09:54:51Z,1,notR1CH,programming,2025-05-26T03:59:45.760479Z
+mpmhkra,1kaihsi,reddit,"* PDF: https://graz.elsevierpure.com/files/89650227/Final_Paper_Usenix.pdf from https://graz.elsevierpure.com/en/publications/choicejacking-compromising-mobile-devices-through-malicious-charg
+
+
+
+
+
+&nbsp;
+
+
+
+- See https://old.reddit.com/r/programming/comments/1k1jn9x/serbia_cellebrite_zeroday_exploit_used_to_target/mnmkmi0/ (""""Serbia: Cellebrite zero-day exploit used to target phone of Serbian student activist"" -- ""The exploit, which targeted Linux kernel USB drivers, enabled Cellebrite customers with physical access to a locked Android device to bypass"" the ""lock screen and gain privileged access on the device."" [PDF]""):
+
+  - ""Android Security Bulletin—April 2025"" (published on April 7, 2025 and updated on April 8, 2025) -- "" . . . The most severe of these issues is a critical security vulnerability in the System component that could lead to remote escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. The severity assessment is based on the effect that exploiting the vulnerability would possibly have on an affected device, assuming the platform and service mitigations are turned off for development purposes or if successfully bypassed.  . . ."": https://source.android.com/docs/security/bulletin/2025-04-01
+
+      - https://nvd.nist.gov/vuln/detail/CVE-2024-53150
+
+      - https://nvd.nist.gov/vuln/detail/CVE-2024-53197
+
+
+
+
+&nbsp;
+
+
+* ""iOS and Android juice jacking defenses have been trivial to bypass for years"" ""New ChoiceJacking attack allows malicious chargers to steal data from phones."" by Dan Goodin (April 28, 2025): https://arstechnica.com/security/2025/04/ios-and-android-juice-jacking-defenses-have-been-trivial-to-bypass-for-years/ , https://archive.is/JR43x
+
+
+
+
+&nbsp;",2025-04-29T07:51:57Z,3,throwaway16830261,programming,2025-05-26T03:59:50.367953Z
+mplz03z,1kaf3v5,reddit,"TLDR: don't.  
+
+JWT's can technically support a mechanism for coarse grained Authorization but implementing fine grained or transient Authorization rules off a token is very difficult.",2025-04-29T04:57:39Z,1,stfm,programming,2025-05-26T03:59:51.290191Z
+mu5h0jx,1krf66c,reddit,"This article describes how to build monorepos from 0 to 1, mentioning all the steps and hidden details. It’s a huge gem for people who care about good build system design. It’s almost a scientific study on how repository management develops in large scale projects, thanks to the author for combining such a massive amount of knowledge and expertise in a readable way! One thing that I would add is that even with monorepos sometimes you can’t make change in one commit and you need to be able to disable some part of the code to deploy everything, this could be done with dynamic configs and feature flags which can be provided with the tools like Typeconf (im a founder btw). lmk me know if you have questions about this and monorepos in general, love this topic!",2025-05-25T10:48:31Z,1,heraldev,programming,2025-05-26T04:00:01.426037Z
+ms7sk23,1klqz8c,reddit,"Nice, I've got a systemd socket-activated UDP proxy lying around I use to put in front of game servers on LXC containers that I wrote from scratch. Might see if I can use this instead and only have to manage the systemd socket side instead of all the transport as well.",2025-05-14T04:14:03Z,1,SharkBaitDLS,programming,2025-05-26T04:00:08.084211Z
+msslfnw,1klhkcr,reddit,[deleted],2025-05-17T13:58:08Z,1,N/A,programming,2025-05-26T04:00:09.109440Z
+mqdw0a6,1kdrlsj,reddit,"Reminds me of my first lesson in code review. At my first real programming job, I learned that my code reviews failed when me and the reviewer disagreed on the purpose of the change. Change tasks left a lot of room for interpretation. So I created a detailed description of what the code would do and started with that. If we did not agree here, we stopped the review to get clarification. No reason to review code that was not written for the appropriate task.
+
+Over the years I have learned this is a problem that manifests itself over and over in different development processes. As a senior I continue to push for better task documentation and analysis not over or too prescriptive. 
+
+Involving testing and requirements analysis teams helps.",2025-05-03T15:34:09Z,8,Groundbreaking-Fish6,programming,2025-05-26T04:00:14.944379Z
+mqbzjim,1kdjgl8,reddit,This is the highest quality shit post I’ve seen ever. But I’m not sure if you’re serious..,2025-05-03T06:44:07Z,4,Difficult-Court9522,programming,2025-05-26T04:00:16.889102Z
+mqc40li,1kdjgl8,reddit,My goat,2025-05-03T07:29:05Z,1,MistOrBeast,programming,2025-05-26T04:00:16.889115Z
+mqd2gzj,1kdjgl8,reddit,Validating this will be fun...,2025-05-03T12:46:16Z,1,church-rosser,programming,2025-05-26T04:00:16.889124Z
+mqe78n5,1kdjgl8,reddit,"I'm a radiation effect lead engineer, currently requested to work on IOT edge computing for onboard sound anomaly detection for equipment running in radiation environments, based. To be honest I don't know shit about this topic, would your framework work for such application? 
+
+Otherwise, a good entry point to gather attention is to write a scientific paper. They are conferences like NSREC in USA and RADECS in Europe, where you could have the chance to show your work. 
+
+On which hardware are you running currently?",2025-05-03T16:32:47Z,1,DendrophileAttitude4,programming,2025-05-26T04:00:16.889132Z
+mq8rkt8,1kd5aj7,reddit,"I'm the author. If anyone has any comments, questions or feedback I will follow this post. Thanks u/ketralnis :)",2025-05-02T18:40:32Z,2,middayc,programming,2025-05-26T04:00:18.731466Z
+mq9livx,1kd56ev,reddit,"Flat file tree is best file tree. Hierarchical file
+structures create unnecessary noise.",2025-05-02T21:08:47Z,0,church-rosser,programming,2025-05-26T04:00:19.653305Z
+mpslecu,1kb8u9o,reddit,What’s the use case for this? Do you want to generate MD for documentation?,2025-04-30T05:34:06Z,1,Farados55,programming,2025-05-26T04:00:22.418914Z
+mpq1ek4,1kahqb9,reddit,"Two things that seem missing - or at least missing from the README:
+
+1. It looks like all the commands need to be `command()` calls inside the `kli()` DSL, but when an application gets big you often want to arrange them in different files. Does KLI offer a way to do that?
+2. The CLI arguments are defined inside the `action` - wouldn't that prevent KLI from displaying `--help` text since the arguments cannot register before the command is actually invoked?",2025-04-29T20:29:58Z,2,somebodddy,programming,2025-05-26T04:00:23.340264Z
+mplp3x8,1ka3qxi,reddit,ChatGPT :P,2025-04-29T03:44:23Z,1,Apprehensive_Run7842,programming,2025-05-26T04:00:24.364599Z
+mpipm6p,1ka01zt,reddit,"The code snippet in ""No early returns"" feels really weird to me.
+
+Obviously, I'm talking with a lot of assumptions, because I didn't really check the rest of the code, but it feels like the author basically directly translated an imperative algorithm onto a functional language and then acts surprised that it's not very ergonomic.
+
+If I were writing this, I would probably make `eval` a recursive function on a list of statements, which would return an `(Option<Value>, Environment)` tuple. If the statement list contains no return / error, then the end result is `(None, env)`, otherwise it'd either be `(Some(value), env)` or `(Some(error), env)`.
+
+(Though, seeing that the author also mentions not really using functional programming languages before, I can't really fault him for struggling. Reminds me a little of my first bout with Haskell and how absolutely *nothing* made sense at first.)",2025-04-28T17:49:55Z,3,Nemin32,programming,2025-05-26T04:00:25.285524Z
+mu9dsod,1kvek9y,reddit,This is what happens when you rely on magic you don’t understand to fulfill a task that is dead simple to write. Just don’t be lazy and write the code to map the data. ,2025-05-26T00:11:24Z,15,vips7L,programming,2025-05-26T04:00:31.738082Z
+mu90ish,1kvek9y,reddit,"I genuinely don’t get how people work with big magic box libraries that are often used with Spring, like ModelMapper. They have driven me insane with random bugs like this multiple times in the past. I am now convinced that all of these magic box libraries are not only detrimental to software quality, they are downright evil and *will* cause you stress eventually.
+
+Need to convert objects? Just write a constructor or static method that takes the other object. It’s straightforward and the boilerplate is easy to debug.
+
+Need to interact with a database? Just write SQL, using some helpers to help you write it and deal with the result. Massive ORMs like Hibernate are almost guaranteed to cause you to want to rip your hair out at some point.
+
+The vast majority of libraries we use should be tool boxes, not all-encompassing black boxes that become nearly impossible to debug when you run into nontrivial problems. The additional boilerplate is usually worth it, except in rare cases (like maybe for Spring itself).",2025-05-25T22:50:06Z,14,sothatsit,programming,2025-05-26T04:00:31.738096Z
+mu8zxs2,1kvek9y,reddit,"Well, I am just starting a research for migrating our manual mappers to mapstruct, so why would you recommend it? We write tons of mappers, and our microservices are real small, so many times we are just copy-pasting tons of mappers everywhere.",2025-05-25T22:46:33Z,2,holyknight00,programming,2025-05-26T04:00:31.738105Z
+mu9og2s,1kvek9y,reddit,Couldn’t this have been avoided by not trusting the postResourceCertificationDTO? I am assuming this came directly from the client in your example. Using JPA transactions you could have called the DB to validate if the ID existed or not and pulled the entity if it existed or created it if it didn’t then use the mapper if necessary?,2025-05-26T01:18:10Z,2,theenigmathatisme,programming,2025-05-26T04:00:31.738114Z

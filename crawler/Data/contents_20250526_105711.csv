@@ -1,0 +1,210 @@
+﻿content_id,platform,title,content,created_at,source_id,source_name,category_id,category_name,tags,views,score,comment_count,duration,upvote_ratio,url,author,crawl_time
+1ko1bxx,reddit,Detecting malicious Unicode,,2025-05-16T13:49:20Z,programming,programming,technology,Technology,[],0,84,9,,0.93,https://daniel.haxx.se/blog/2025/05/16/detecting-malicious-unicode/,cake-day-on-feb-29,2025-05-26T03:55:30.178684Z
+1krgbf7,reddit,Why Good Programmers Use Bad AI,,2025-05-20T21:10:26Z,programming,programming,technology,Technology,[],0,84,146,,0.67,https://nmn.gl/blog/ai-and-programmers,namanyayg,2025-05-26T03:55:31.284888Z
+1ktzgq2,reddit,Visual Studio Code: Text Buffer Reimplementation (2018),,2025-05-24T00:59:26Z,programming,programming,technology,Technology,[],0,79,3,,0.88,https://code.visualstudio.com/blogs/2018/03/23/text-buffer-reimplementation,ketralnis,2025-05-26T03:55:33.121412Z
+1kassfn,reddit,Designing a Zero Trust architecture with open-source tools,,2025-04-29T16:52:13Z,programming,programming,technology,Technology,[],0,84,2,,0.86,https://www.cerbos.dev/blog/20-open-source-tools-for-zero-trust-architecture,West-Chard-1474,2025-05-26T03:55:34.049006Z
+1kc3nrc,reddit,I tested Firebase Studio so YOU DON'T have to (It's bad),Would love to get community review on this,2025-05-01T08:20:42Z,programming,programming,technology,Technology,[],0,79,22,,0.83,https://youtu.be/5tLeaSSNV7U,Coffiie,2025-05-26T03:55:35.075091Z
+1kqacf9,reddit,Coding Without a Laptop - Two Weeks with AR Glasses and Linux on Android | Hold The Robot,,2025-05-19T12:24:18Z,programming,programming,technology,Technology,[],0,78,28,,0.86,https://holdtherobot.com/blog/2025/05/11/linux-on-android-with-ar-glasses/,Xadartt,2025-05-26T03:55:36.101795Z
+1kma2ds,reddit,Running GTA V on AWS EC2: A Cloud Gaming Experiment That Actually Worked,,2025-05-14T08:27:42Z,programming,programming,technology,Technology,[],0,75,17,,0.89,https://www.dhairyashah.dev/posts/running-gta-v-on-aws-ec2-a-cloud-gaming-experiment-that-actually-worked/,dhairyashah_,2025-05-26T03:55:37.226898Z
+1kj18dg,reddit,Zed Hopes VS Code Forks Lose the AI Coding Race,,2025-05-10T03:48:37Z,programming,programming,technology,Technology,[],0,76,87,,0.74,https://analyticsindiamag.com/ai-features/zed-hopes-vs-code-forks-lose-the-ai-coding-race/,Soul_Predator,2025-05-26T03:55:38.216017Z
+1kh7m9w,reddit,"Ty: an extremely fast Python type checker and language server, written in Rust.",,2025-05-07T20:25:46Z,programming,programming,technology,Technology,[],0,76,9,,0.82,https://github.com/astral-sh/ty,ChiliPepperHott,2025-05-26T03:55:39.688884Z
+1knbyq5,reddit,Good runbooks are a MUST - unless you want to risk a heart attack,,2025-05-15T16:04:10Z,programming,programming,technology,Technology,[],0,72,12,,0.86,https://shiftmag.dev/how-to-create-good-runbooks-4950/,shift_devs,2025-05-26T03:55:40.705646Z
+1kgzyx8,reddit,PEP 751 Review: The New Standard for Python Dependency Management,,2025-05-07T15:19:11Z,programming,programming,technology,Technology,[],0,72,17,,0.88,https://medium.com/techtofreedom/pep-751-review-the-new-standard-for-python-dependency-management-0ce704364801?sk=a904ac961f873fe8e492cf814a9fb043,yangzhou1993,2025-05-26T03:55:41.631237Z
+1kqt86c,reddit,Git bisect : underrated debugging tools in a developer’s toolkit.,Something that I recently stumbled upon - Git bisect,2025-05-20T01:45:22Z,programming,programming,technology,Technology,[],0,73,21,,0.91,https://medium.com/@subodh.shetty87/git-bisect-underrated-debugging-tools-in-a-developers-toolkit-c0cbc1366d9a,ssh-tty0,2025-05-26T03:55:42.580267Z
+1kc80sa,reddit,Using Verlet Integration for basic Soft-Body Penis Dynamics,The power of Newton's equations and numerics to solve dynamics of arbitary planar meshes in real-time. A beginner friendly guide,2025-05-01T12:55:16Z,programming,programming,technology,Technology,[],0,70,12,,0.89,https://jerryi.github.io/wljs-demo/Dicks.html,Inst2f,2025-05-26T03:55:43.649889Z
+1kny3em,reddit,Beware the Complexity Merchants,,2025-05-16T11:06:12Z,programming,programming,technology,Technology,[],0,73,24,,0.85,https://chrlschn.dev/blog/2025/05/beware-the-complexity-merchants/,c-digs,2025-05-26T03:55:44.597288Z
+1kmr1rc,reddit,We started using Testcontainers to catch integration bugs before CI — huge improvement in speed and reliability,"Our devs used to rely on mocks and shared staging environments for integration testing. We switched to Testcontainers to run integration tests locally using real services like PostgreSQL, and it changed everything.
+
+* No more mock maintenance
+* Immediate feedback inside the IDE
+* Reduced CI load and test flakiness
+* Faster lead time to changes (thanks DORA metrics!)
+
+Would love feedback or to hear how others are doing shift-left testing.",2025-05-14T21:26:47Z,programming,programming,technology,Technology,[],0,69,17,,0.89,https://blog.abhimanyu-saharan.com/posts/catch-bugs-early-with-testcontainers-shift-left-testing-made-easy,abhimanyu_saharan,2025-05-26T03:55:45.626296Z
+1ktxyc0,reddit,Why I no longer have an old-school cert on my HTTPS site,,2025-05-23T23:41:29Z,programming,programming,technology,Technology,[],0,71,31,,0.81,https://rachelbythebay.com/w/2025/05/22/ssl/,namanyayg,2025-05-26T03:55:46.554807Z
+1krdjdi,reddit,Resisting the Rush: Why Careful Planning Beats Quick Coding,"AI tools like cursor and windsurf are making the consequences of quick and dirty code even worse.
+
+It is my impression that rushing into coding is encouraged by modern development culture and AI tool leading to fragile, buggy and  short-lived code. By understanding the domain, documenting clear plans, focusing on interfaces, and valuing literate programming, teams can avoid technical debt and create software that lasts and evolves successfully. 
+
+[Resisting the Rush: Why Careful Planning Beats Quick Coding](https://codingismycraft.blog/index.php/2025/05/20/resisting-the-rush-why-careful-planning-beats-quick-coding-in-software-design/)",2025-05-20T19:17:05Z,programming,programming,technology,Technology,[],0,71,19,,0.91,https://codingismycraft.blog/index.php/2025/05/20/resisting-the-rush-why-careful-planning-beats-quick-coding-in-software-design/,Greedy_Principle5345,2025-05-26T03:55:47.883315Z
+1knux32,reddit,A leap year check in three instructions,,2025-05-16T07:23:47Z,programming,programming,technology,Technology,[],0,72,6,,0.91,https://hueffner.de/falk/blog/a-leap-year-check-in-three-instructions.html,Xadartt,2025-05-26T03:55:48.899477Z
+1kjwmj9,reddit,A Critical Look at MCP,,2025-05-11T08:56:47Z,programming,programming,technology,Technology,[],0,70,14,,0.85,https://raz.sh/blog/2025-05-02_a_critical_look_at_mcp,inntenoff,2025-05-26T03:55:49.921376Z
+1kj67k5,reddit,Efficient Quadtrees,,2025-05-10T09:21:42Z,programming,programming,technology,Technology,[],0,65,0,,0.9,https://stackoverflow.com/a/48330314,_Sharp_,2025-05-26T03:55:50.913232Z
+1kb7ubh,reddit,The Abysmal State of Contract Software Development,,2025-04-30T04:19:45Z,programming,programming,technology,Technology,[],0,60,15,,0.86,https://smustafa.blog/2025/04/30/the-abysmal-state-of-contract-software-development/,reeses_boi,2025-05-26T03:55:51.865978Z
+1kkt7wd,reddit,A new Lazarus arises – for the fourth time – for Pascal programming fans,,2025-05-12T13:59:36Z,programming,programming,technology,Technology,[],0,60,6,,0.91,https://www.theregister.com/AMP/2025/05/09/new_lazarus_4/,waozen,2025-05-26T03:55:52.829440Z
+1kqxn4z,reddit,Notes on file format design,,2025-05-20T05:56:32Z,programming,programming,technology,Technology,[],0,61,38,,0.93,https://solhsa.com/oldernews2025.html#ON-FILE-FORMATS,sol_hsa,2025-05-26T03:55:53.713539Z
+1kpfsky,reddit,How I Beat the Midnight Rush: CDN + AES for Puzzle Delivery,"Hey, my name is Emil, and I am the creator of Everybody Codes, an online platform with programming puzzles similar to Advent of Code.
+
+I wanted to share with you a solution that might be useful for your projects. It's about blocking certain content on a page and unlocking it only under specific conditions.
+
+The problem seems trivial, but imagine the following scenario:
+
+* The programming puzzle's content becomes available, for instance, at midnight.
+* Until that moment, the content should be unavailable.
+* Users wanting to compete globally want to load the riddle content as quickly as possible, right after it is made available.
+
+What's the problem? If you are a small service and do not deliver content through the cloud, **your server has to send a large amount of data to many users simultaneously.**
+
+As the length of the puzzle description or input increases, the problem worsens, leading to a situation where, in the best-case scenario, the puzzle will not start evenly for all users. And in the worst case, the server will start rejecting some requests.
+
+I don't know if my solution is standard, but it works well.  
+It goes like this:
+
+* I encode the content using AES with a strong 32-character (256-bit) key.
+* This data goes to a regular CDN (I use Bunny CDN) and is then downloaded by users, even before the quest is globally released.
+* When the specified time comes, I provide users only with the AES key, which is 32 characters, and the decoding process is handled by JavaScript on the client side.
+
+Thanks to this, I can describe the quest as precisely as I need, add SVGs, and scale the input size as desired because serving content via CDN is very cheap.
+
+I can also better test performance in practice because I know exactly how much data I will be sending to users, regardless of the quest content.
+
+The trick is also useful when we want to offload data transfer to the CDN but need to control who has access to the content and under what conditions.
+
+That's it! Best regards,
+
+Emil",2025-05-18T09:12:53Z,programming,programming,technology,Technology,[],0,60,6,,0.93,https://everybody.codes,EverybodyCodes,2025-05-26T03:55:54.845157Z
+1kth8f4,reddit,Why Algebraic Effects?,,2025-05-23T11:32:24Z,programming,programming,technology,Technology,[],0,56,20,,0.9,https://antelang.org/blog/why_effects/,RndmPrsn11,2025-05-26T03:55:55.758001Z
+1kldmyq,reddit,"Traced What Actually Happens Under the Hood for ln, rm, and cat","Recently did a small research project where I traced the **Linux system calls** behind three simple file operations:
+
+* Creating a hard link (`ln file1.txt file1_hardlink.txt`)
+* Deleting a hard link (`rm file1_hardlink.txt`)
+* Reading a file (`cat file1.txt`)
+
+I used `strace -f -e trace=file` to capture what syscalls were actually being invoked.",2025-05-13T04:57:12Z,programming,programming,technology,Technology,[],0,52,10,,0.82,https://github.com/adiaholic/Understand-OS/blob/main/hard_links/Readme.md,pirate_husky,2025-05-26T03:55:56.781573Z
+1kugj8s,reddit,You Can Choose Tools That Make You Happy,,2025-05-24T17:07:18Z,programming,programming,technology,Technology,[],0,50,17,,0.82,https://borretti.me/article/you-can-choose-tools-that-make-you-happy,ForgotMyPassword17,2025-05-26T03:55:57.809028Z
+1kceoa1,reddit,Npm should remove the default license from new packages (ISC),,2025-05-01T17:37:16Z,programming,programming,technology,Technology,[],0,50,24,,0.8,https://extremq.com/npm-default-license.html,Technical_Cap_6946,2025-05-26T03:55:58.780958Z
+1kex8ya,reddit,"Odin, A Pragmatic C Alternative with a Go Flavour",,2025-05-04T23:15:06Z,programming,programming,technology,Technology,[],0,48,31,,0.79,https://bitshifters.cc/2025/05/04/odin.html,iamnp,2025-05-26T03:55:59.756983Z
+1klgv41,reddit,A programming language made for me,,2025-05-13T08:34:21Z,programming,programming,technology,Technology,[],0,49,23,,0.9,https://zylinski.se/posts/a-programming-language-for-me/,gingerbill,2025-05-26T03:56:00.783338Z
+1kktr8t,reddit,R in the Browser: Announcing Our WebAssembly Distribution,,2025-05-12T14:22:06Z,programming,programming,technology,Technology,[],0,42,2,,0.83,https://blog.jupyter.org/r-in-the-browser-announcing-our-webassembly-distribution-9450e9539ed5,FoxInTheRedBox,2025-05-26T03:56:01.757810Z
+1kd55nj,reddit,Bloom Filters,,2025-05-02T16:23:54Z,programming,programming,technology,Technology,[],0,44,9,,0.84,https://eli.thegreenplace.net/2025/bloom-filters/,ketralnis,2025-05-26T03:56:02.822750Z
+1kmn6zf,reddit,Does it scale (down)?,,2025-05-14T18:50:55Z,programming,programming,technology,Technology,[],0,47,8,,0.9,https://www.bugsink.com/blog/does-it-scale-down/,klaasvanschelven,2025-05-26T03:56:03.847429Z
+1khoysm,reddit,Working on Complex Systems: What I Learned Working at Google,,2025-05-08T12:33:44Z,programming,programming,technology,Technology,[],0,44,0,,0.76,https://www.thecoder.cafe/p/complex-systems,teivah,2025-05-26T03:56:04.770047Z
+1kfrlh5,reddit,HTAP databases are dead. RIP.,,2025-05-06T00:34:36Z,programming,programming,technology,Technology,[],0,43,20,,0.71,https://www.mooncake.dev/blog/htap-is-dead,InternetFit7518,2025-05-26T03:56:05.689565Z
+1kfd216,reddit,OneUptime: Open-Source Incident.io Alternative,"OneUptime ([https://github.com/oneuptime/oneuptime](https://github.com/oneuptime/oneuptime)) is the open-source alternative to Incident.io + StausPage.io + UptimeRobot + Loggly + PagerDuty. It's 100% free and you can self-host it on your VM / server. OneUptime has Uptime Monitoring, Logs Management, Status Pages, Tracing, On Call Software, Incident Management and more all under one platform.
+
+**Updates:**
+
+Native integration with Slack: Now you can intergrate OneUptime with Slack natively (even if you're self-hosted!). OneUptime can create new channels when incidents happen, notify slack users who are on-call and even write up a draft postmortem for you based on slack channel conversation and more!
+
+Dashboards (just like Datadog): Collect any metrics you like and build dashboard and share them with your team!
+
+**Roadmap:**
+
+Microsoft Teams integration, terraform / infra as code support, fix your ops issues automatically in code with LLM of your choice and more.
+
+OPEN SOURCE COMMITMENT: Unlike other companies, we will always be FOSS under Apache License. We're 100% open-source and no part of OneUptime is behind the walled garden.",2025-05-05T14:31:11Z,programming,programming,technology,Technology,[],0,46,7,,0.84,https://github.com/oneuptime/oneuptime,OuPeaNut,2025-05-26T03:56:06.717239Z
+1k9oj9z,reddit,How to program a text adventure in C,,2025-04-28T05:59:06Z,programming,programming,technology,Technology,[],0,44,4,,0.93,https://helderman.github.io/htpataic/htpataic01.html,ketralnis,2025-05-26T03:56:07.744530Z
+1ktp56t,reddit,The shell and its problems in handling of whitespace,,2025-05-23T17:18:51Z,programming,programming,technology,Technology,[],0,38,12,,0.87,https://blog.plover.com/Unix/whitespace.html,ketralnis,2025-05-26T03:56:08.762458Z
+1krk7nr,reddit,Making Video Games in 2025 (without an engine),,2025-05-21T00:05:37Z,programming,programming,technology,Technology,[],0,42,12,,0.93,https://noelberry.ca/posts/making_games_in_2025/,NXGZ,2025-05-26T03:56:09.890861Z
+1kltmst,reddit,The Line of Death,,2025-05-13T18:35:22Z,programming,programming,technology,Technology,[],0,43,1,,0.94,https://textslashplain.com/2017/01/14/the-line-of-death/,gavinhoward,2025-05-26T03:56:10.916612Z
+1kccugy,reddit,The birth of a programming language: Making the Overwatch Workshop usable,,2025-05-01T16:22:06Z,programming,programming,technology,Technology,[],0,41,9,,0.89,https://zez.dev/overpy,Zezombye,2025-05-26T03:56:11.936424Z
+1kncunj,reddit,10 Years of Stable Rust: An Infrastructure Story,,2025-05-15T16:40:17Z,programming,programming,technology,Technology,[],0,38,1,,0.82,https://rustfoundation.org/media/10-years-of-stable-rust-an-infrastructure-story/,steveklabnik1,2025-05-26T03:56:12.858880Z
+1ke9sh2,reddit,Why Your Product's Probably Mostly Just Integration Tests (And That's Okay),,2025-05-04T02:47:40Z,programming,programming,technology,Technology,[],0,41,37,,0.74,https://www.youtube.com/watch?v=1nKmYfbH2J8,cube-drone,2025-05-26T03:56:13.779110Z
+1k9op12,reddit,Bare metal printf - C standard library without OS,,2025-04-28T06:09:50Z,programming,programming,technology,Technology,[],0,39,3,,0.87,https://popovicu.com/posts/bare-metal-printf/,ketralnis,2025-05-26T03:56:15.006790Z
+1k9mcse,reddit,How Netflix Uses Java - 2025 Edition,,2025-04-28T03:42:44Z,programming,programming,technology,Technology,[],0,41,1,,0.88,https://youtu.be/XpunFFS-n8I?si=7JnfkeeecQaakknB,brunocborges,2025-05-26T03:56:16.039888Z
+1konhj0,reddit,The 3 Mental Models That Helped Me Actually Understand Cloud Architecture (Not Just Pass Exams),"Hey guys, tried something new. Do let me know your thoughts :)",2025-05-17T07:41:34Z,programming,programming,technology,Technology,[],0,37,20,,0.67,https://medium.com/@nageshrajcodes/the-3-mental-models-that-helped-me-actually-understand-cloud-architecture-not-just-pass-exams-6a1a0ffe99d7?sk=0d8e4aa80fa46b099f3cf7addb091bc5,pseudonym24,2025-05-26T03:56:16.954100Z
+1knnuze,reddit,The best new features and fixes in Python 3.14,"Template strings, deferred annotations, better error messages, and a new debugger interface are among the goodies in Python 3.14. Now in beta. (May 2025)",2025-05-16T00:33:02Z,programming,programming,technology,Technology,[],0,40,10,,0.82,https://www.infoworld.com/article/3975624/the-best-new-features-and-fixes-in-python-3-14.html,Choobeen,2025-05-26T03:56:17.898756Z
+1kud4qw,reddit,Postgres IDE in VS Code,,2025-05-24T14:38:16Z,programming,programming,technology,Technology,[],0,37,11,,0.82,https://techcommunity.microsoft.com/blog/adforpostgresql/announcing-a-new-ide-for-postgresql-in-vs-code-from-microsoft/4414648,namanyayg,2025-05-26T03:56:18.828493Z
+1ktcnrd,reddit,"Pharo 13, the pure object-oriented language and environment is released!",,2025-05-23T06:24:08Z,programming,programming,technology,Technology,[],0,40,28,,0.74,https://pharo.org/news/2025-05-21-pharo13-released.html,xkriva11,2025-05-26T03:56:19.925705Z
+1krfloh,reddit,France Endorses UN Open Source Principles,,2025-05-20T20:40:50Z,programming,programming,technology,Technology,[],0,41,6,,0.89,https://social.numerique.gouv.fr/@codegouvfr/114529954373492878,namanyayg,2025-05-26T03:56:20.905016Z
+1kijjjr,reddit,Lets Be Real About Dependencies,,2025-05-09T14:15:02Z,programming,programming,technology,Technology,[],0,40,18,,0.82,https://wiki.alopex.li/LetsBeRealAboutDependencies,mooreds,2025-05-26T03:56:21.870123Z
+1k9aqrd,reddit,Anatomy Of A SQL Engine,,2025-04-27T18:24:23Z,programming,programming,technology,Technology,[],0,39,1,,0.88,https://www.dolthub.com/blog/2025-04-25-sql-engine-anatomy/,mmaksimovic,2025-05-26T03:56:22.832826Z
+1kt3o1t,reddit,Closures And Objects Are Equivalent,,2025-05-22T22:17:51Z,programming,programming,technology,Technology,[],0,35,39,,0.8,https://wiki.c2.com/?ClosuresAndObjectsAreEquivalent,ketralnis,2025-05-26T03:56:23.814583Z
+1ko65ts,reddit,The Language That Never Was,,2025-05-16T17:08:19Z,programming,programming,technology,Technology,[],0,39,32,,0.85,https://blog.celes42.com/the_language_that_never_was.html,setzer22,2025-05-26T03:56:25.154639Z
+1kguuxa,reddit,[HAProxy] The State of SSL Stacks,,2025-05-07T11:20:55Z,programming,programming,technology,Technology,[],0,33,2,,0.88,https://www.haproxy.com/blog/state-of-ssl-stacks,Nimelrian,2025-05-26T03:56:26.377249Z
+1kn5s1y,reddit,Lazarus - Delphi risen from the dead?,,2025-05-15T11:26:26Z,programming,programming,technology,Technology,[],0,39,14,,0.83,https://ecency.com/@makerhacks/lazarus-delphi-risen-from-the-dead,loadingglife,2025-05-26T03:56:27.296325Z
+1kf5qdq,reddit,Side-Effects Are The Complexity Iceberg • Kris Jenkins,,2025-05-05T07:27:59Z,programming,programming,technology,Technology,[],0,32,37,,0.73,https://youtu.be/_nG09Z_tdUU,goto-con,2025-05-26T03:56:28.221689Z
+1kqrvvg,reddit,Palette lighting tricks on the Nintendo 64,,2025-05-20T00:37:35Z,programming,programming,technology,Technology,[],0,35,2,,0.93,https://30fps.net/pages/palette-lighting-tricks-n64/,NXGZ,2025-05-26T03:56:29.455408Z
+1kugjyy,reddit,A new custom font file format called Grayscale Raster Font (.grf) for hobbyist operating systems.,"Hey, Ive been working on creating a hobby operating system called \[PatchworkOS\](https://github.com/KaiNorberg/PatchworkOS) for quite a while, and ive very recently started considering modernization of its desktop interface. The main issue that I ran into when I did some early drafts is fonts. Up until now I've just used `.psf` fonts for everything which results in very pixelated and just straight up ugly fonts, until now!
+
+Truly modern fonts are definitely out of reach for me, I don't want to port something as massive as FreeType as I want to make as much as possible from scratch and rendering modern fonts from scratch is... time consuming to put it mildly.
+
+So I decided to make my own format `.grf` to serve as a middle ground between basic bitmap fonts and modern fonts. If you want to learn more about it, you can go to its [GitHub](https://github.com/KaiNorberg/grf/tree/main), the basic gist is that it supports antialiasing, kerning and similar but is fully rasterized into a grayscale 8BPP pixel buffer. With the goal of making modern *looking* fonts far easier to implement both for me and others should they want it. There are some limitations (e.g., each `.grf` file supports only one font size/style, no sub-pixel rendering) which are discussed in the GitHub repository.
+
+I also made a simple tool that uses FreeType that allows for conversion between modern font formats and `.grf` files, which can also be at [tools/font2grf](https://github.com/KaiNorberg/grf/tree/main/tools/font2grf) in the GitHub repository.
+
+I've tried to document things as well as I could, but if you have questions, id of course love to answer them!",2025-05-24T17:08:11Z,programming,programming,technology,Technology,[],0,35,25,,0.82,https://github.com/KaiNorberg/grf,KN_9296,2025-05-26T03:56:30.368615Z
+1kjlllf,reddit,How Windows 11 Killed A 90s Classic (& My Fix),,2025-05-10T22:03:29Z,programming,programming,technology,Technology,[],0,31,4,,0.74,https://www.youtube.com/watch?v=0nEy4iAdbME,Specialist_Sail_4453,2025-05-26T03:56:31.333391Z
+1kbsv2p,reddit,The best – but not good – way to limit string length,,2025-04-30T22:08:24Z,programming,programming,technology,Technology,[],0,35,10,,0.87,https://adam-p.ca/blog/2025/04/string-length/,ketralnis,2025-05-26T03:56:32.315396Z
+1kflm67,reddit,Modern Latex,,2025-05-05T20:11:44Z,programming,programming,technology,Technology,[],0,31,6,,0.77,https://github.com/mrkline/modern-latex,namanyayg,2025-05-26T03:56:33.339890Z
+1ktp1x6,reddit,John Carmack talk at Upper Bound 2025,,2025-05-23T17:15:23Z,programming,programming,technology,Technology,[],0,30,2,,0.79,https://twitter.com/ID_AA_Carmack/status/1925710474366034326,ketralnis,2025-05-26T03:56:34.366359Z
+1kp0i2g,reddit,"iceoryx2 v0.6.0 is out: high-performance, cross-language inter-process communication that just works (C, C++, Rust - and soon Python)","Hey everyone,
+
+We just released [iceoryx2 v0.6.0](https://github.com/eclipse-iceoryx/iceoryx2/releases/tag/v0.6.0), and it’s by far the most feature-packed update we’ve released so far.
+
+If you're new to it: **iceoryx2** is an IPC library for ultra-fast, zero-copy communication between processes — think of it like a faster, more structured alternative to domain sockets or queues. It's designed for performance-critical systems and supports Rust, C++, and C (with Python coming soon).
+
+🔍 Some highlights:
+
+* **Request-Response Streams**: Not just a response — get a stream of updates until completion.
+* **Zero-copy IPC across languages**: Share data between Rust ↔ C++ without serialization. Just match the memory layout and go.
+* **New CLI tool**: Debug and inspect running services easily with `iox2`.
+* **First built-in microservice**: A discovery service to support more dynamic architectures.
+* **ZeroCopySend derive macro**: Makes Rust IPC safer and easier.
+
+This wouldn’t be possible without the feedback, bug reports, questions, and ideas from all of you. We’re a small team, and your input honestly shapes this project in meaningful ways. Even just a thoughtful comment or example can turn into a feature or fix.
+
+We’re especially grateful to those who’ve trusted iceoryx2 in real systems, to those who patiently shared frustrations, and to the folks pushing us to support more languages and platforms.
+
+* [GitHub project](https://github.com/eclipse-iceoryx/iceoryx2)
+* [Benchmarks](https://github.com/eclipse-iceoryx/iceoryx2/tree/main/benchmarks)
+* [Cross-language example](https://github.com/eclipse-iceoryx/iceoryx2/tree/main/examples/rust/publish_subscribe_cross_language)
+
+If you’ve got ideas or feedback — we’re listening. And if you’re using it somewhere cool, let us know. That really motivates us.
+
+Thanks again to everyone who's helped us get to this point!
+
+* The iceoryx2 team",2025-05-17T19:00:54Z,programming,programming,technology,Technology,[],0,30,1,,0.83,https://ekxide.io/blog/iceoryx2-0-6-release/,elfenpiff,2025-05-26T03:56:35.245322Z
+1kd6c74,reddit,Create your own graphics library in C++,,2025-05-02T17:13:03Z,programming,programming,technology,Technology,[],0,31,9,,0.76,https://blog.wtdawson.info/programming/william/create-your-own-graphics-library-in-c,wtdawson,2025-05-26T03:56:36.205021Z
+1kd58m2,reddit,Reflecting on a Year of Gamedev in Zig,,2025-05-02T16:27:21Z,programming,programming,technology,Technology,[],0,34,12,,0.74,https://bgthompson.codeberg.page/blog/one-year-zig-gamedev-reflections/,ketralnis,2025-05-26T03:56:37.232595Z
+1krg28c,reddit,The Guide to Hashing I Wish I Had When I Started,,2025-05-20T20:59:57Z,programming,programming,technology,Technology,[],0,29,5,,0.9,https://banjocode.com/post/cs/hashing,Banjoanton,2025-05-26T03:56:38.132795Z
+1km0119,reddit,Open Source Vimium for Windows,,2025-05-13T22:56:40Z,programming,programming,technology,Technology,[],0,31,5,,0.93,https://github.com/petoncle/mousemaster,BlaiseLabs,2025-05-26T03:56:39.073039Z
+1kg9iya,reddit,I built my own asyncio to understand how async I/O works under the hood,,2025-05-06T16:55:34Z,programming,programming,technology,Technology,[],0,31,2,,0.81,https://dev.indooroutdoor.io/asyncio-demystified-rebuilding-it-from-scratch-one-yield-at-a-time,PhotoNavia,2025-05-26T03:56:40.406321Z
+1kdsdc7,reddit,Checklist for software engineers who think there's no growth without working at scale,,2025-05-03T12:58:39Z,programming,programming,technology,Technology,[],0,29,16,,0.61,https://bhupesh.me/growth-without-scale/,BhupeshV,2025-05-26T03:56:41.330550Z
+1kd5a9n,reddit,What I've learned from jj,,2025-05-02T16:29:18Z,programming,programming,technology,Technology,[],0,32,50,,0.79,https://zerowidth.com/2025/what-ive-learned-from-jj/,ketralnis,2025-05-26T03:56:42.351814Z
+1kqnfmb,reddit,The little editor that could [video],,2025-05-19T21:14:41Z,programming,programming,technology,Technology,[],0,28,4,,0.82,https://www.youtube.com/watch?v=GoyNMFccbow,ketralnis,2025-05-26T03:56:43.660071Z
+1kkrqos,reddit,How I ruined my vacation by reverse engineering WSC,,2025-05-12T12:52:07Z,programming,programming,technology,Technology,[],0,29,0,,0.76,https://blog.es3n1n.eu/posts/how-i-ruined-my-vacation/,NXGZ,2025-05-26T03:56:44.535140Z
+1kk1qil,reddit,How async/await works in Python,,2025-05-11T14:02:36Z,programming,programming,technology,Technology,[],0,29,0,,0.82,https://tenthousandmeters.com/blog/python-behind-the-scenes-12-how-asyncawait-works-in-python/,namanyayg,2025-05-26T03:56:45.523911Z
+1kf4mys,reddit,Driving Compilers,,2025-05-05T06:10:01Z,programming,programming,technology,Technology,[],0,27,1,,0.88,https://fabiensanglard.net/dc/index.php,stackoverflooooooow,2025-05-26T03:56:46.549902Z
+1kdk1eb,reddit,GPT-2 Implemented Using Graphics Shaders,,2025-05-03T03:57:16Z,programming,programming,technology,Technology,[],0,27,0,,0.77,https://github.com/nathan-barry/gpt2-webgl,ChiliPepperHott,2025-05-26T03:56:47.468902Z
+1ka6klb,reddit,No-engine gamedev using Odin + Raylib,,2025-04-28T21:04:49Z,programming,programming,technology,Technology,[],0,28,0,,0.88,https://zylinski.se/posts/no-engine-gamedev-using-odin-and-raylib/,ketralnis,2025-05-26T03:56:48.390427Z
+1ku5qm0,reddit,A First Successful Factorization of RSA-2048 Integer by D-Wave Quantum Computer,,2025-05-24T07:15:20Z,programming,programming,technology,Technology,[],0,25,38,,0.57,https://www.sciopen.com/article/10.26599/TST.2024.9010028,donutloop,2025-05-26T03:56:49.311696Z
+1kt3mak,reddit,When good pseudorandom numbers go bad,,2025-05-22T22:15:39Z,programming,programming,technology,Technology,[],0,30,10,,0.87,https://blog.djnavarro.net/posts/2025-05-18_multivariate-normal-sampling-floating-point/,ketralnis,2025-05-26T03:56:50.652639Z
+1kl8dgw,reddit,Embeddings are underrated,,2025-05-13T00:18:30Z,programming,programming,technology,Technology,[],0,30,2,,0.84,https://technicalwriting.dev/ml/embeddings/overview.html,iamkeyur,2025-05-26T03:56:51.567350Z
+1ksqbpt,reddit,Hidden Complexities of Distributed SQL,,2025-05-22T13:11:19Z,programming,programming,technology,Technology,[],0,29,18,,0.79,https://blog.vegasecurity.com/posts/distributed_search_optimizations/,TonTinTon,2025-05-26T03:56:52.487073Z
+1kdqm6n,reddit,"LZAV 4.20: Improved compression ratio, speed. Fast In-Memory Data Compression Algorithm (inline C/C++) 480+MB/s compress, 2800+MB/s decompress, ratio% better than LZ4, Snappy, and Zstd@-1",,2025-05-03T11:17:50Z,programming,programming,technology,Technology,[],0,26,10,,0.87,https://github.com/avaneev/lzav,avaneev,2025-05-26T03:56:53.513469Z
+1kbp1s5,reddit,"Introducing the Azure Key Vault Emulator - A fully featured, local instance of Azure Key Vault.","After numerous speedbumps building applications using Key Vault over the years I wanted to simplify the workflow by running an emulator; Microsoft had released a few propriatary products as runnable containers, sadly there wasn't a local alternative for Azure Key Vault that fit my needs.
+
+The Azure Key Vault Emulator features:
+
+- Complete support for the official Azure SDK clients, meaning you can use the standard SecretClient, KeyClient and CertificateClient in your application and just switch the VaultURI in production.
+
+- Built in .NET Aspire support for both the AppHost and client application(s).
+
+- Persisted or session based storage for secure data, meaning you no longer have lingering secrets after a debugging session.
+
+The repository (with docs): https://github.com/james-gould/azure-keyvault-emulator
+
+A full introduction blog post (with guides): https://jamesgould.dev/posts/Azure-Key-Vault-Emulator/
+
+This has been a ton of fun to work on and I'm really excited for you to give it a try as well. Any questions please let me know!
+",2025-04-30T19:26:05Z,programming,programming,technology,Technology,[],0,27,0,,0.92,https://jamesgould.dev/posts/Azure-Key-Vault-Emulator/,ScriptingInJava,2025-05-26T03:56:54.537028Z
+1kb2fpk,reddit,Jepsen: Amazon RDS for PostgreSQL 17.4,,2025-04-29T23:38:56Z,programming,programming,technology,Technology,[],0,25,0,,0.8,https://jepsen.io/analyses/amazon-rds-for-postgresql-17.4,craigkerstiens,2025-05-26T03:56:55.456416Z
+1k8hzcc,reddit,Parallel ./configure,,2025-04-26T17:13:37Z,programming,programming,technology,Technology,[],0,25,13,,0.85,https://tavianator.com/2025/configure.html,ketralnis,2025-05-26T03:56:56.344121Z
+1kvaz49,reddit,Balatro for the Nintendo E-Reader,,2025-05-25T19:33:46Z,programming,programming,technology,Technology,[],0,25,4,,0.75,https://mattgreer.dev/blog/balatro-for-the-nintendo-ereader/,NXGZ,2025-05-26T03:56:57.314288Z
+1kufrxq,reddit,ELI5: CAP Theorem in System Design,,2025-05-24T16:34:47Z,programming,programming,technology,Technology,[],0,24,5,,0.75,https://lukasniessen.medium.com/this-is-a-super-simple-eli5-explanation-of-the-cap-theorem-5cd9e8469ab1,trolleid,2025-05-26T03:56:58.324114Z
+1kb7bp2,reddit,An illustrated guide to automatic sparse differentiation,,2025-04-30T03:50:04Z,programming,programming,technology,Technology,[],0,26,7,,0.84,https://iclr-blogposts.github.io/2025/blog/sparse-autodiff/,ketralnis,2025-05-26T03:56:59.245664Z
+1kow0w7,reddit,Don't Oversell Ideas: Trunk-Based Development Edition,,2025-05-17T15:45:00Z,programming,programming,technology,Technology,[],0,22,6,,0.79,https://www.architecture-weekly.com/p/dont-oversell-ideas-trunk-based-development,Adventurous-Salt8514,2025-05-26T03:57:00.182105Z
+1kk2ue8,reddit,Why no one talks about querying across signals in observability?,,2025-05-11T14:53:15Z,programming,programming,technology,Technology,[],0,26,9,,0.78,https://signoz.io/blog/observability-requires-querying-across-signals/,elizObserves,2025-05-26T03:57:01.089284Z
+1k8a6ri,reddit,Good Code Design From Linux/Kernel,,2025-04-26T10:50:08Z,programming,programming,technology,Technology,[],0,26,3,,0.73,https://leandromoreira.com/2019/08/02/linux-ffmpeg-source-internals-a-good-software-design/,Active-Fuel-49,2025-05-26T03:57:01.972097Z
+1kryqpt,reddit,"Learning by doing instead of ""grinding LeetCode"": A distributed system from scratch in Scala 3 (Part 3: Worker scaling and leader election with Raft)",,2025-05-21T14:08:14Z,programming,programming,technology,Technology,[],0,21,8,,0.79,https://chollinger.com/blog/2025/05/a-distributed-system-from-scratch-with-scala-3-part-3-job-submission-worker-scaling-and-leader-election-consensus-with-raft/,otter-in-a-suit,2025-05-26T03:57:03.034648Z
+1kh1od4,reddit,The Many Types of Polymorphism,,2025-05-07T16:27:41Z,programming,programming,technology,Technology,[],0,22,26,,0.77,https://krishna.github.io/posts/many-types-of-polymorphism/,SunJuiceSqueezer,2025-05-26T03:57:04.060605Z
+1kdsd6l,reddit,PSA: The MavenCentral Publish Portal API is stable,,2025-05-03T12:58:26Z,programming,programming,technology,Technology,[],0,22,10,,0.78,https://central.sonatype.org/publish/publish-portal-api/,jskovmadadk,2025-05-26T03:57:05.293099Z
+1k9ojxb,reddit,SIGBOVIK 2025 conference proceedings,,2025-04-28T06:00:19Z,programming,programming,technology,Technology,[],0,22,2,,0.86,https://sigbovik.org/2025/proceedings.pdf,ketralnis,2025-05-26T03:57:06.312901Z
+1ktp6xa,reddit,"Flix is an effect-oriented, functional, imperative, and logic programming language",,2025-05-23T17:20:43Z,programming,programming,technology,Technology,[],0,20,2,,0.86,https://flix.dev/,ketralnis,2025-05-26T03:57:07.232663Z
+1kqng5j,reddit,The fastest Postgres inserts,,2025-05-19T21:15:21Z,programming,programming,technology,Technology,[],0,21,5,,0.82,https://docs.hatchet.run/blog/fastest-postgres-inserts,ketralnis,2025-05-26T03:57:08.256032Z
+1kjc9g8,reddit,Java build tooling could be so much better!,,2025-05-10T14:59:47Z,programming,programming,technology,Technology,[],0,17,22,,0.69,https://www.youtube.com/watch?v=REOCaHmUkH4,lihaoyi,2025-05-26T03:57:09.243577Z
+1kie3u9,reddit,TypR: a statically typed superset of the R programming language,"Written in Rust, this language aim to bring safety, modernity and ease of use for R, leading to better packages both maintainable and scalable !
+
+This project is still new and need some work to be ready to use",2025-05-09T09:14:04Z,programming,programming,technology,Technology,[],0,20,12,,0.73,https://github.com/fabriceHategekimana/typr,Artistic_Speech_1965,2025-05-26T03:57:10.267425Z
+1khx9ke,reddit,PostgreSQL 18 Beta 1 Released! (cross post from r/postgresql),,2025-05-08T18:22:46Z,programming,programming,technology,Technology,[],0,20,1,,0.79,https://www.postgresql.org/about/news/postgresql-18-beta-1-released-3070/,clairegiordano,2025-05-26T03:57:11.155374Z

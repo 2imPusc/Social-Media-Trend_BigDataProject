@@ -37,3 +37,4 @@ websocket-client==1.8.0
 textblob
 elasticsearch==8.14.0
 nltk==3.8.1
+spark-nlp==4.4.0

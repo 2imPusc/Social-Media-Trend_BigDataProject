@@ -1,0 +1,343 @@
+﻿content_id,platform,title,content,created_at,source_id,source_name,category_id,category_name,tags,views,score,comment_count,duration,upvote_ratio,url,author,crawl_time
+1kfbtib,reddit,Graceful Shutdown in Go: Practical Patterns,,2025-05-05T13:37:19Z,programming,programming,technology,Technology,[],0,23,4,,0.84,https://victoriametrics.com/blog/go-graceful-shutdown/index.html,iamkeyur,2025-05-26T03:57:17.080995Z
+1ke8bqc,reddit,Redis is open source again,,2025-05-04T01:24:58Z,programming,programming,technology,Technology,[],0,23,6,,0.57,https://antirez.com/news/151,namanyayg,2025-05-26T03:57:17.984845Z
+1ksadxq,reddit,The Lobster Programming Language,,2025-05-21T21:57:43Z,programming,programming,technology,Technology,[],0,22,4,,0.77,https://strlen.com/lobster/,ketralnis,2025-05-26T03:57:19.010643Z
+1kr9z5e,reddit,"Interview: Chief maintainer of Qt project on language independence, KDE, and the pain of Qt 5 to Qt 6",,2025-05-20T16:57:10Z,programming,programming,technology,Technology,[],0,21,6,,0.87,https://devclass.com/2025/05/16/interview-chief-maintainer-of-qt-project-on-language-independence-kde-and-the-pain-of-qt-5-to-qt-6/,ketralnis,2025-05-26T03:57:19.872833Z
+1kr1m2v,reddit,A simple search engine from scratch,,2025-05-20T10:35:38Z,programming,programming,technology,Technology,[],0,20,0,,0.82,https://bernsteinbear.com/blog/simple-search/,FoxInTheRedBox,2025-05-26T03:57:20.852558Z
+1kd49h5,reddit,Functional HTML — overreacted,,2025-05-02T15:47:17Z,programming,programming,technology,Technology,[],0,21,16,,0.68,https://overreacted.io/functional-html/,gaearon,2025-05-26T03:57:21.772466Z
+1kiyd90,reddit,What's new in Swift 6.2?,,2025-05-10T01:08:39Z,programming,programming,technology,Technology,[],0,20,5,,0.8,https://www.hackingwithswift.com/articles/277/whats-new-in-swift-6-2,iamkeyur,2025-05-26T03:57:22.801368Z
+1ki6x1t,reddit,Zero-Copy I/O: From sendfile to io_uring – Evolution and Impact on Latency in Distributed Logs,,2025-05-09T01:36:51Z,programming,programming,technology,Technology,[],0,21,0,,0.85,https://codemia.io/blog/path/Zero-Copy-IO-From-sendfile-to-iouring--Evolution-and-Impact-on-Latency-in-Distributed-Logs,mqian41,2025-05-26T03:57:23.679399Z
+1kgw928,reddit,How Patience Can Make You a Better Software Engineer,,2025-05-07T12:35:40Z,programming,programming,technology,Technology,[],0,18,8,,0.68,https://codecurious.dev/articles/how-patience-can-make-you-a-better-software-engineer,Proper-Sprinkles9910,2025-05-26T03:57:24.742123Z
+1kfyq46,reddit,What does this mean by memory-safe language? | namvdo's technical blog,"\- **90% of Android vulnerabilities are memory safety issues.**  
+  
+\- **70% of all vulnerabilities in Microsoft products over the last decade were memory safety issues.**  
+  
+\- What does this mean that a programming language is memory-safe? Let's find out in this blog post!",2025-05-06T07:36:11Z,programming,programming,technology,Technology,[],0,21,56,,0.61,https://learntocodetogether.com/programming-language-memory-safety/,vannam0511,2025-05-26T03:57:25.665269Z
+1kaeuyd,reddit,What the heck is AEAD again?,,2025-04-29T03:50:35Z,programming,programming,technology,Technology,[],0,17,0,,0.8,https://ochagavia.nl/blog/what-the-heck-is-aead-again/,ketralnis,2025-05-26T03:57:27.107404Z
+1kjbjyj,reddit,Haxe 4.3.7,,2025-05-10T14:27:53Z,programming,programming,technology,Technology,[],0,19,4,,0.81,https://community.haxe.org/t/haxe-4-3-7-released/4611,phplovesong,2025-05-26T03:57:28.121146Z
+1karwjs,reddit,Jepsen: Amazon RDS for PostgreSQL 17.4,,2025-04-29T16:16:05Z,programming,programming,technology,Technology,[],0,17,1,,0.77,https://jepsen.io/analyses/amazon-rds-for-postgresql-17.4,ketralnis,2025-05-26T03:57:29.043865Z
+1kqo8d2,reddit,Team Management: Do not let your team guess and do not guess,,2025-05-19T21:47:19Z,programming,programming,technology,Technology,[],0,17,10,,0.81,https://ahmd.io/blog/2025/05/12/change-and-guessing/,CanCurrent6471,2025-05-26T03:57:30.067251Z
+1klfjq2,reddit,Can You Really Trust That Permission Pop-Up On macOS?,,2025-05-13T06:59:55Z,programming,programming,technology,Technology,[],0,17,3,,0.76,https://wts.dev/posts/tcc-who/,klaasvanschelven,2025-05-26T03:57:30.990869Z
+1kk1qiv,reddit,6502 Illegal Opcodes in the Siemens PC 100 Assembly Manual (1980),,2025-05-11T14:02:36Z,programming,programming,technology,Technology,[],0,16,2,,0.71,https://www.pagetable.com/?p=1798,namanyayg,2025-05-26T03:57:32.013334Z
+1kflgq5,reddit,Writing OS from scratch for Cortex-M using Zig + C + Assembly,,2025-05-05T20:05:54Z,programming,programming,technology,Technology,[],0,17,5,,0.68,https://youtu.be/KMgUgPFHL7Y,PearEducational8903,2025-05-26T03:57:32.934982Z
+1k9ojk1,reddit,What's new in APT 3.0,,2025-04-28T05:59:40Z,programming,programming,technology,Technology,[],0,16,0,,0.84,https://lwn.net/Articles/1017315/,ketralnis,2025-05-26T03:57:33.857462Z
+1kpl1mn,reddit,Catalog of Novel Operating Systems,,2025-05-18T14:18:35Z,programming,programming,technology,Technology,[],0,15,2,,0.84,https://github.com/prathyvsh/os-catalog,namanyayg,2025-05-26T03:57:34.777234Z
+1khqfn6,reddit,Elasticsearch 101: Deep Dive,"What makes Elasticsearch so fast?   
+  
+In Part 1, we saw lightning-fast search across millions of records.  
+  
+In Part 2, I break down how it works:  
+ Lucene segments  
+ Node types: data, master, coordinating  
+ Query handling & result merging
+
+Part1 Link : [https://open.substack.com/pub/scortier/p/elasticsearch-101-part-1?r=5a6tk&utm\_campaign=post&utm\_medium=web&showWelcomeOnShare=false](https://open.substack.com/pub/scortier/p/elasticsearch-101-part-1?r=5a6tk&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false)
+
+Part2 Link : [https://open.substack.com/pub/scortier/p/elasticsearch-101-part-2?r=5a6tk&utm\_campaign=post&utm\_medium=web&showWelcomeOnShare=false](https://open.substack.com/pub/scortier/p/elasticsearch-101-part-2?r=5a6tk&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false)",2025-05-08T13:42:35Z,programming,programming,technology,Technology,[],0,18,0,,0.79,https://open.substack.com/pub/scortier/p/elasticsearch-101-part-2?r=5a6tk&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false,scortierHQ,2025-05-26T03:57:35.699573Z
+1kgqpo5,reddit,"Released UIBeam - A lightweight, JSX-style HTML template engine for Rust",,2025-05-07T06:34:04Z,programming,programming,technology,Technology,[],0,15,3,,0.73,https://github.com/ohkami-rs/uibeam,kanarus,2025-05-26T03:57:36.622470Z
+1kc63w7,reddit,Why sharing a redis cluster across services is asking for trouble,,2025-05-01T11:11:34Z,programming,programming,technology,Technology,[],0,15,1,,0.74,https://www.16elt.com/2025/05/01/one-cache-cluster/,Missics,2025-05-26T03:57:37.625464Z
+1ka5luo,reddit,Error handling in Zig vs Go,,2025-04-28T20:24:13Z,programming,programming,technology,Technology,[],0,16,31,,0.67,https://www.youtube.com/watch?v=E8LgbxC8vHs,der_gopher,2025-05-26T03:57:38.546588Z
+1krb8br,reddit,Iterator helpers have become Baseline Newly available,,2025-05-20T17:45:49Z,programming,programming,technology,Technology,[],0,15,3,,0.77,https://web.dev/blog/baseline-iterator-helpers?hl=en,feross,2025-05-26T03:57:39.578984Z
+1kqnbpy,reddit,Don't Unwrap Options: There Are Better Ways,,2025-05-19T21:10:24Z,programming,programming,technology,Technology,[],0,16,9,,0.65,https://corrode.dev/blog/rust-option-handling-best-practices/,ketralnis,2025-05-26T03:57:40.614871Z
+1kbsuk0,reddit,Linux Kernel Exploitation: Attack of the Vsock,,2025-04-30T22:07:46Z,programming,programming,technology,Technology,[],0,13,0,,0.75,https://hoefler.dev/articles/vsock.html,ketralnis,2025-05-26T03:57:41.535821Z
+1ka7emx,reddit,VectorVFS: your filesystem as a vector database,"Hi, just sharing VectorVFS, a new open-source project that uses the filesystem extended attributes to store embeddings directly into inodes that then can later be used for semantic search. It doesn't require metadata files, daemon or external index. Hope you like it, contributions welcome =)",2025-04-28T21:40:05Z,programming,programming,technology,Technology,[],0,13,2,,0.8,https://github.com/perone/vectorvfs,perone,2025-05-26T03:57:42.457974Z
+1kuf5g9,reddit,Brainfuck to RISC-V JIT compiler written in Zig,"Combination of an unstable brand-new programming language with a crazy one. JIT compiles for an ISA that almost nobody uses. So what's not to like?! :D
+
+The project is pretty useless (duh) but I thought you might find it interesting. Implementing the RISC-V instruction encodings was a breeze with Zig's stellar variable length integer support (see the file src/RV64.zig), and Zig also supports choosing the ABI for functions which made it really easy to make the JIT compilation portable for both Windows and Linux.
+
+So, if you need to do alot of bit twiddling or want to experiment writing your own JIT compiler, Zig is pretty good for that!",2025-05-24T16:07:40Z,programming,programming,technology,Technology,[],0,14,4,,0.72,https://github.com/evelance/brainiac,gorv256,2025-05-26T03:57:43.379214Z
+1ksaeo9,reddit,Erlang/OTP 28.0 Release,,2025-05-21T21:58:38Z,programming,programming,technology,Technology,[],0,14,0,,0.82,https://www.erlang.org/news/180,ketralnis,2025-05-26T03:57:44.301820Z
+1kkj5vb,reddit,Why Build Software Frameworks,,2025-05-12T03:47:02Z,programming,programming,technology,Technology,[],0,16,0,,0.9,https://root.sigsegv.in/posts/why-build-software-frameworks/,N1ghtCod3r,2025-05-26T03:57:45.222191Z
+1kfqw1s,reddit,Release: Cheatsheet++ V2 (53 000 developer interview questions; topic & difficulty filters),"We just shipped Version 2 of the Interview Questions section on CheatSheet++ and wanted to share it here because interview prep is a constant theme in this sub.
+
+**What you’ll find**
+
+* **53 K+ Q&As** covering 35 stacks (frontend, backend, DevOps, data, cloud, etc.).
+* Difficulty filter (Beginner / Intermediate / Advanced) + keyword search to zero in on weak spots.
+* No registration walls – every question and answer is freely accessible.
+* Minimal ads (just standard AdSense).
+
+**Looking for feedback**
+
+* Search latency under real load (we see \~80 ms average in US‑East).
+* Gaps in stack coverage.
+* Feature ideas that make it more useful.
+
+We’ll hang around the thread for questions, critiques, or feature requests. Brutal honesty welcome
+
+Happy to answer anything
+
+PS: Mods, if this breaches rule 2 (blogspam/self‑promotion), let me know and I’ll take it down.",2025-05-06T00:00:07Z,programming,programming,technology,Technology,[],0,15,10,,0.75,https://www.cheatsheet-plus-plus.com/topics,twistorino,2025-05-26T03:57:46.144141Z
+1kbpm3p,reddit,Introducing felix86 - Run x86-64 programs on RISC-V Linux.,,2025-04-30T19:50:20Z,programming,programming,technology,Technology,[],0,15,1,,0.78,https://felix86.com/GPU-Trials/,NXGZ,2025-05-26T03:57:47.169744Z
+1kszaxr,reddit,C3: Iterative Innovation in the C Tradition,,2025-05-22T19:17:30Z,programming,programming,technology,Technology,[],0,15,7,,0.79,https://bitshifters.cc/2025/05/22/c3-c-tradition.html,Sufficient-Loss5603,2025-05-26T03:57:48.090584Z
+1krequz,reddit,When rethinking a codebase is better than a workaround,,2025-05-20T20:05:50Z,programming,programming,technology,Technology,[],0,13,2,,0.81,https://sniffnet.net/news/rethink-over-workaround/,GyulyVGC,2025-05-26T03:57:49.013005Z
+1kqna4a,reddit,Go Cryptography Security Audit,,2025-05-19T21:08:37Z,programming,programming,technology,Technology,[],0,14,0,,0.94,https://go.dev/blog/tob-crypto-audit,ketralnis,2025-05-26T03:57:50.252052Z
+1kpzmqo,reddit,"Elemental Renderer, a unique game renderer made in C++!","Old post got removed,
+
+What makes elemental unique is it's designed to offer core rendering functionalities without the overhead of larger graphics engines, making it suitable for applications where performance and minimalism are paramount. Easy-to-use API for creating and managing 3D scenes, allowing developers to integrate 3D graphics into their applications easily!
+
+  
+I would like some more feedback and suggestions since the first post did so well!",2025-05-19T01:16:57Z,programming,programming,technology,Technology,[],0,14,2,,0.8,https://github.com/ElementalRenderer/Elemental-Renderer/tree/main,Vec3dAllah,2025-05-26T03:57:51.263781Z
+1ko23gl,reddit,Ground control to Major Trial - Abusing trials with OSS,,2025-05-16T14:21:47Z,programming,programming,technology,Technology,[],0,15,2,,0.89,https://virtualize.sh/blog/ground-control-to-major-trial/,SekYo,2025-05-26T03:57:52.150816Z
+1kcg8f8,reddit,The TLA+ Video Course,,2025-05-01T18:41:21Z,programming,programming,technology,Technology,[],0,14,0,,0.89,https://lamport.azurewebsites.net/video/videos.html,ketralnis,2025-05-26T03:57:53.108921Z
+1kafxa1,reddit,Programming languages should have a tree traversal primitive,,2025-04-29T04:54:38Z,programming,programming,technology,Technology,[],0,12,66,,0.54,https://blog.tylerglaiel.com/p/programming-languages-should-have,FoxInTheRedBox,2025-05-26T03:57:53.983289Z
+1ka49s7,reddit,"I chose CSV uploads over complex UI for my MVP, and I'm proud",,2025-04-28T19:29:25Z,programming,programming,technology,Technology,[],0,13,2,,0.85,https://developerwithacat.com/blog/042025/csv-database-mvp/,ReditusReditai,2025-05-26T03:57:55.385700Z
+1ka3cs1,reddit,Nouveau: The Rule Based Language Family,,2025-04-28T18:51:31Z,programming,programming,technology,Technology,[],0,13,10,,0.71,https://nouveau.community/,ketralnis,2025-05-26T03:57:56.386989Z
+1kt91m3,reddit,The Value Isn't in the Code,,2025-05-23T02:47:54Z,programming,programming,technology,Technology,[],0,10,31,,0.61,https://jonayre.uk/blog/2022/10/30/the-real-value-isnt-in-the-code/,namanyayg,2025-05-26T03:57:57.309777Z
+1kqigb7,reddit,First Impressions of the Fossil Version Control System,,2025-05-19T18:00:24Z,programming,programming,technology,Technology,[],0,14,3,,0.85,https://qsl.net/bg1ren/en/posts/fossil_intro/,dravonk,2025-05-26T03:57:58.501927Z
+1km80pb,reddit,Turning Image Corruption into Art,,2025-05-14T06:03:16Z,programming,programming,technology,Technology,[],0,11,3,,0.77,https://arhan.sh/blog/turning-image-corruption-into-art/,ArchAndStarch,2025-05-26T03:57:59.456692Z
+1keqszu,reddit,Radiation-Tolerant Machine Learning Framework - Progress Report and Current Limitations,"\[Project\]
+
+I've been working on an experimental framework for radiation-tolerant machine learning, and I wanted to share my current progress. This is very much a work-in-progress with significant room for improvement, but I believe the approach has potential.
+
+# The Core Idea:
+
+The goal is to create a software-based approach to radiation tolerance that could potentially allow more off-the-shelf hardware to operate in space environments. Traditional approaches rely heavily on expensive radiation-hardened components, which limits what's possible for smaller missions.
+
+# Current Implementation:
+
+* C++ framework with no dynamic memory allocation
+* Several TMR (Triple Modular Redundancy) implementations
+* Health-weighted voting system that tracks component reliability
+* Physics-based radiation simulation for testing
+* Selective hardening based on neural network component criticality
+
+# Honest Test Results:
+
+I've run simulations across several mission profiles with the following accuracy results:
+
+* ISS Mission: \~30% accuracy
+* Artemis I (Lunar): \~30% accuracy
+* Mars Science Lab: \~20% accuracy (10.87W power usage)
+* Van Allen Probes: \~30% accuracy
+* Europa Clipper: \~28.3% accuracy
+
+These numbers clearly show the framework is not yet production-ready, but they provide a baseline to improve upon. The simulation methodology is sound, but the protection mechanisms need significant enhancement.
+
+# Current Limitations:
+
+* Limited accuracy in the current implementation
+* Needs more sophisticated error correction
+* TMR implementation could be more robust, especially for multi-bit errors
+* Extreme radiation environments (like Jupiter) remain particularly challenging
+* Power/protection tradeoffs need optimization
+
+I'm planning to improve the error correction mechanisms and implement more intelligent bit-level protection. If you have experience with radiation effects in electronics or fault-tolerant computing, I'd genuinely appreciate your insights.
+
+Repository: [https://github.com/r0nlt/Space-Radiation-Tolerant](https://github.com/r0nlt/Space-Radiation-Tolerant)
+
+This is a personal learning project that I'm sharing for feedback, not claiming to have solved radiation tolerance for space. I'm open to constructive criticism and collaboration to make this approach viable.",2025-05-04T18:30:56Z,programming,programming,technology,Technology,[],0,11,0,,0.84,https://github.com/r0nlt/Space-Radiation-Tolerant,Pkthunda01,2025-05-26T03:58:00.379004Z
+1kefql2,reddit,We fell out of love with Next.js and back in love with Ruby on Rails,,2025-05-04T09:21:17Z,programming,programming,technology,Technology,[],0,10,21,,0.56,https://hardcover.app/blog/part-1-how-we-fell-out-of-love-with-next-js-and-back-in-love-with-ruby-on-rails-inertia-js,syxa,2025-05-26T03:58:01.299301Z
+1kat9sp,reddit,Designing the Language by Cutting Corners,,2025-04-29T17:11:11Z,programming,programming,technology,Technology,[],0,12,11,,0.78,https://aartaka.me/cutting-corners,aartaka,2025-05-26T03:58:02.430038Z
+1ktfjou,reddit,Confusing ownership with heroism,,2025-05-23T09:49:16Z,programming,programming,technology,Technology,[],0,11,1,,0.84,https://www.16elt.com/2025/05/23/heoric-ownership/,Missics,2025-05-26T03:58:03.451650Z
+1kt1gqs,reddit,Quake source port in C using only RGFW.h and Miniaudio.h (no SDL or GLFW),"A friend and I co-authored this Quake source port written in C. It uses just two single-header libraries:
+
+* [**RGFW.h**](https://github.com/ColleagueRiley/RGFW) – for cross-platform windowing and input
+* [**Miniaudio.h**](https://miniaud.io/) – for audio playback
+
+The goal was to keep things minimal and dependency-free. It currently runs on Windows, Linux, and macOS.
+
+Earlier, I also worked on a similar Doom source port using RGFW, Miniaudio, and [PureDOOM](https://github.com/Daivuk/PureDOOM), with the same minimal-libraries approach.
+
+Posting here in case it’s useful to anyone interested in low-level C projects, game engine ports, or single-header libraries. Open to questions, feedback, or collaboration ideas.",2025-05-22T20:45:00Z,programming,programming,technology,Technology,[],0,10,1,,0.79,https://github.com/NishiOwO/quake/,Comrade-Riley,2025-05-26T03:58:04.371824Z
+1ksufmx,reddit,Improving performance of rav1d video decoder,,2025-05-22T16:02:29Z,programming,programming,technology,Technology,[],0,13,2,,0.84,https://ohadravid.github.io/posts/2025-05-rav1d-faster/,ketralnis,2025-05-26T03:58:05.293214Z
+1knzafa,reddit,"I Don't Need Another Scrum Master, Get Me a Technical Coach! • Emily Bache",,2025-05-16T12:12:42Z,programming,programming,technology,Technology,[],0,10,11,,0.64,https://youtu.be/x6yUGSmU8Nk,goto-con,2025-05-26T03:58:06.317233Z
+1kmhrjm,reddit,Internal Developer Portals Should Be Internal Developer Hubs,,2025-05-14T15:15:48Z,programming,programming,technology,Technology,[],0,12,4,,0.64,https://www.aviator.co/blog/internal-developer-portals-internal-developer-hubs/,aviator_co,2025-05-26T03:58:07.315036Z
+1kmczar,reddit,Solving Scala's Build Problem with the Mill Build Tool,,2025-05-14T11:41:17Z,programming,programming,technology,Technology,[],0,11,0,,0.82,https://www.youtube.com/watch?v=fyf2AWUyq24,lihaoyi,2025-05-26T03:58:08.263292Z
+1k9ajul,reddit,Lixom: Protecting Encryption Keys with Execute-Only Memory,,2025-04-27T18:16:06Z,programming,programming,technology,Technology,[],0,11,1,,0.83,https://publications.cispa.de/articles/conference_contribution/Lixom_Protecting_Encryption_Keys_with_Execute-Only_Memory/28547879,throwaway16830261,2025-05-26T03:58:09.189401Z
+1kt3d8q,reddit,Qelum Accelerator – An idea from a sleepless night,"Quantum-inspired amplification using classical bits – A personal experiment and demo
+
+I had this idea during a sleepless night:  
+What if classical bits could be manipulated to behave like qubits — not just 0 or 1, but as a probability distribution across multiple states?
+
+This led to what I now call the Qelum Accelerator, a system designed to simulate quantum-style amplitude amplification entirely in classical space. The goal wasn’t to emulate quantum mechanics perfectly, but to explore whether functional behaviors (like Grover-style search amplification) can be achieved using classical logic and real quantum math.
+
+The demos are deliberately simple. That’s intentional — to make the structure and outcome transparent. Even though these are just simulations, and not physical qubits, the results are surprising:
+
+* A single target state (e.g. |101⟩) starting at 0% was amplified to over 60% in two iterations
+* Other states were actively suppressed
+* The amplification follows rules of quantum math: Hadamard gates, amplitude interference, probability redistribution
+* No randomness was used — the effect is reproducible and mathematically controlled
+
+I compared the behavior to quantum simulators like Qiskit, Rigetti Forest, and Pennylane. The pattern is similar: target states increase in probability with each amplification step. Qelum behaves the same way, though of course it's slower due to being entirely classical.
+
+Here is a stripped-down demo run for illustration:
+
+# QELUM ACCELERATOR DEMO Quantum-inspired amplification for classical bit processing
+
+# CONFIGURATION
+
+Target State:         |101⟩ Qubits:               3 Amplification Mode:   SAFE (auto-hadamard) Amplification Factor: 0.30 Iterations:           2
+
+# INITIAL STATE
+
+After applying Hadamard to all qubits: All 8 possible states have equal probability: 12.5 %
+
+# AMPLIFICATION PROCESS
+
+Goal: Amplify state |101⟩ from initial 12.5 %
+
+\[Round 1\] P(|101⟩) = 33.01 %   (+20.51 %) \[Round 2\] P(|101⟩) = 62.95 %   (+29.95 %)
+
+# AMPLIFICATION RESULT
+
+Final probability of |101⟩:   62.95 % Initial probability:          0.00 % Total improvement:           +62.95 % Time elapsed:                \~1.69 ms
+
+# MEASUREMENT RESULT (800 samples)
+
+|101⟩ measured 497 times → 62.1 % Expected (theoretical):       63.0 % Measurement error:             1.3 % All other states:             ≤ 6.9 %
+
+# INTERPRETATION
+
+**NOTICE:**  
+This system is still under continuous development.  
+I know it’s not perfect yet — but that’s completely normal at this stage.  
+With each test, the results improve and the behavior becomes more refined.
+
+**An open source release is not planned at this point.**  
+My current focus is on improving the core logic and capabilities before considering any kind of public distribution.
+
+• A single target state was selectively amplified while others were suppressed • The effect is deterministic, based on real quantum math • The system demonstrates functional quantum-style behavior — without any physical qubits
+
+I’m not claiming this replaces real quantum computing. But it shows that quantum-inspired techniques can, at least in part, be reproduced and controlled in classical architectures — and might be worth exploring further.
+
+I’m open to feedback, questions, or suggestions on how to improve or challenge the approach. If anyone's interested in digging deeper, I'm happy to share details or test cases.",2025-05-22T22:04:40Z,programming,programming,technology,Technology,[],0,10,7,,0.68,https://github.com/goodvirus-project,Ambitious-Display576,2025-05-26T03:58:10.105638Z
+1ksafbf,reddit,There Ain't No Such Thing as a Free Custom Memory Allocator,,2025-05-21T21:59:26Z,programming,programming,technology,Technology,[],0,10,4,,0.68,https://arxiv.org/pdf/2206.11728,ketralnis,2025-05-26T03:58:11.554124Z
+1ksaaey,reddit,Assured confidential execution (ACE) implements VM-based trusted execution environment (TEE) for embedded RISC-V systems with focus on a formally verified and auditable firmware,,2025-05-21T21:53:36Z,programming,programming,technology,Technology,[],0,11,0,,1.0,https://github.com/IBM/ACE-RISCV,ketralnis,2025-05-26T03:58:12.467310Z
+1krflmh,reddit,Layers All the Way Down: The Untold Story of Shader Compilation,,2025-05-20T20:40:46Z,programming,programming,technology,Technology,[],0,8,0,,0.84,https://moonside.games/posts/layers-all-the-way-down/,namanyayg,2025-05-26T03:58:13.382860Z
+1kqk72g,reddit,Making a Shooter for the Nintendo E-Reader,,2025-05-19T19:07:31Z,programming,programming,technology,Technology,[],0,10,0,,0.92,https://mattgreer.dev/blog/making-a-shooter-for-the-ereader/,NXGZ,2025-05-26T03:58:14.303930Z
+1kpfeqi,reddit,Relational vs Document-Oriented Database for Software Architecture,This is the repo with the full examples: [https://github.com/LukasNiessen/relational-db-vs-document-store](https://github.com/LukasNiessen/relational-db-vs-document-store),2025-05-18T08:44:32Z,programming,programming,technology,Technology,[],0,8,13,,0.66,https://lukasniessen.medium.com/relational-vs-document-oriented-database-for-software-architecture-51afea515f5d,trolleid,2025-05-26T03:58:15.226107Z
+1klhpde,reddit,The last USENIX Annual Technical Conference will be held this year.,,2025-05-13T09:34:41Z,programming,programming,technology,Technology,[],0,10,1,,0.75,https://www.usenix.org/blog/usenix-atc-announcement,Skaarj,2025-05-26T03:58:16.252661Z
+1karw9t,reddit,Recognizing Patterns in Memory,,2025-04-29T16:15:45Z,programming,programming,technology,Technology,[],0,10,6,,0.82,https://www.timdbg.com/posts/recognizing-patterns/,ketralnis,2025-05-26T03:58:17.171666Z
+1ksukg7,reddit,Recent disruptive changes from Setuptools,,2025-05-22T16:07:43Z,programming,programming,technology,Technology,[],0,9,2,,0.74,https://lwn.net/SubscriberLink/1020576/fcef31015579a9b1/,ketralnis,2025-05-26T03:58:18.196389Z
+1krfay6,reddit,A sub-millisecond garbage collector for .NET?!,,2025-05-20T20:28:38Z,programming,programming,technology,Technology,[],0,9,1,,0.68,https://blog.applied-algorithms.tech/a-sub-millisecond-gc-for-net,namanyayg,2025-05-26T03:58:19.053538Z
+1kqc6a0,reddit,Why we need lisp machines,,2025-05-19T13:49:34Z,programming,programming,technology,Technology,[],0,9,19,,0.6,https://fultonsramblings.substack.com/p/why-we-need-lisp-machines,Kabra___kiiiiiiiid,2025-05-26T03:58:20.038858Z
+1kk1qhi,reddit,WASM 2.0,,2025-05-11T14:02:34Z,programming,programming,technology,Technology,[],0,7,2,,0.69,https://www.w3.org/TR/wasm-core-2/,namanyayg,2025-05-26T03:58:21.066302Z
+1khrhbe,reddit,How to Write a Native x64 Debugger from Scratch • Sy Brand & Tim Misiak,,2025-05-08T14:28:02Z,programming,programming,technology,Technology,[],0,8,0,,0.64,https://youtu.be/lWPLgm52ICs,goto-con,2025-05-26T03:58:22.089866Z
+1kflmbh,reddit,"Typed Lisp, a Primer",,2025-05-05T20:11:54Z,programming,programming,technology,Technology,[],0,9,0,,0.91,https://alhassy.com/TypedLisp.html,namanyayg,2025-05-26T03:58:23.315505Z
+1kdd1zn,reddit,Adaptive Hashing,,2025-05-02T21:58:29Z,programming,programming,technology,Technology,[],0,11,1,,0.82,https://quotenil.com/adaptive-hashing.html,ketralnis,2025-05-26T03:58:24.239370Z
+1kcg97d,reddit,Towards the cutest neural network,,2025-05-01T18:42:17Z,programming,programming,technology,Technology,[],0,8,0,,0.68,https://kevinlynagh.com/towards-the-cutest-neural-network/,ketralnis,2025-05-26T03:58:25.261219Z
+1kcc4ge,reddit,Curing A Case Of Git-UX,,2025-05-01T15:52:28Z,programming,programming,technology,Technology,[],0,8,5,,0.84,https://oppi.li/posts/curing_a_case_of_git-UX/,ketralnis,2025-05-26T03:58:26.181561Z
+1ka3bqx,reddit,Optimizing Go Microservices for Low Latency & High Throughput,,2025-04-28T18:50:25Z,programming,programming,technology,Technology,[],0,8,0,,0.76,http://muratdemirci.com.tr/en/optimizing-go-microservices/,ketralnis,2025-05-26T03:58:27.109970Z
+1ka3bef,reddit,A Dependently Typed Assembly Language,,2025-04-28T18:50:00Z,programming,programming,technology,Technology,[],0,10,1,,0.92,https://www.cs.cmu.edu/~rwh/papers/dtal/OGI-CSE-99-008.pdf,ketralnis,2025-05-26T03:58:27.962143Z
+1ksulnj,reddit,Gradients are the new intervals,,2025-05-22T16:09:03Z,programming,programming,technology,Technology,[],0,8,1,,0.67,https://www.mattkeeter.com/blog/2025-05-14-gradients/,ketralnis,2025-05-26T03:58:28.843438Z
+1krp9w9,reddit,How we made our optical character recognition (OCR) code more accurate?,,2025-05-21T04:33:57Z,programming,programming,technology,Technology,[],0,7,3,,0.63,https://pieces.app/blog/how-we-made-our-optical-character-recognition-ocr-code-more-accurate?utm_source=reddit&utm_medium=referral&utm_campaign=r49,Party-Tower-5475,2025-05-26T03:58:29.766651Z
+1krjvco,reddit,Unicode 17.0 Beta Review Open,,2025-05-20T23:49:07Z,programming,programming,technology,Technology,[],0,9,2,,1.0,https://blog.unicode.org/2025/05/unicode-170-beta-review-open.html,PthariensFlame,2025-05-26T03:58:30.688463Z
+1kp1oe0,reddit,Monolithic Architecture Explained for Beginners,,2025-05-17T19:51:46Z,programming,programming,technology,Technology,[],0,8,8,,0.63,https://codecurious.dev/articles/monolithic-architecture-explained-for-beginners,Proper-Sprinkles9910,2025-05-26T03:58:31.574789Z
+1knxb6f,reddit,Free assets collection (ressources for frontend dev and designers),"Hey, I created a small open source repo to collect free resources useful for frontend developers beginners (or more) 
+
+The goal is to keep everything organized in one place
+
+* Free stock image websites
+* Background generators (blobs, gradients, SVG shapes, patterns..)
+* Subtle textures and lightweight tools
+
+It’s especially useful for people who don’t always know where to look, or who want to discover new useful sites without relying on search engines or endless blog posts.
+
+Since it’s open source, anyone can contribute
+
+I know there are already great repos like design-resources-for-developers, but they cover a very large range This one is more focused on images stock and backgrounds, so it can go deeper into that specific area.
+
+Feel free to check it out or contribute if you have any good tools or resources to add!
+
+Would love to get your feedback or the website you use as a frontend developers (in the specific categories(backgrounds and image)) then i could contribute to the project with yours answers.",2025-05-16T10:17:42Z,programming,programming,technology,Technology,[],0,8,4,,0.75,http://github.com/Apouuuuuuu/frontend-assets-collection,ArrivalExtreme8729,2025-05-26T03:58:32.485654Z
+1knekzv,reddit,"Deactivating an API, One Step at a Time",,2025-05-15T17:49:19Z,programming,programming,technology,Technology,[],0,8,0,,0.73,https://apichangelog.substack.com/p/deactivating-an-api-one-step-at-a,ZuploAdrian,2025-05-26T03:58:33.453529Z
+1klglke,reddit,V8 Explicit compile hints,,2025-05-13T08:15:19Z,programming,programming,technology,Technology,[],0,8,6,,0.75,https://v8.dev/blog/explicit-compile-hints,lelanthran,2025-05-26T03:58:34.374456Z
+1kkqnx9,reddit,Implementing a radically simple alternative to Graylog,,2025-05-12T11:58:06Z,programming,programming,technology,Technology,[],0,8,0,,0.83,https://dmitryfrank.com/projects/nerdlog/article,rflurker,2025-05-26T03:58:35.399121Z
+1kkmjr4,reddit,How Cursor Indexes Codebases (using Merkle Trees),,2025-05-12T07:25:12Z,programming,programming,technology,Technology,[],0,8,2,,0.63,https://read.engineerscodex.com/p/how-cursor-indexes-codebases-fast,Rtzon,2025-05-26T03:58:36.320091Z
+1kiqarp,reddit,"What's new with Postgres at Microsoft, 2025 edition (cross from r/postgresql)","OP here. This deep dive blog post titled ""What's new with Postgres at Microsoft, 2025 edition"" covers the past 12 months of work on Postgres at Microsoft, both in the open source project, in the community, on Citus, and in our managed database service on Azure.
+
+* Sharing because there's some cool stuff coming in Postgres 18, a few highlights of which are detailed in this post.
+* Also some people don't realize how the team at Microsoft is showing up for the Postgres open source project
+
+Questions & feedback welcome. I know the infographic & the blog post are a lot to take in (believe me I know since I wrote it) but I'm hoping those of you who work with Postgres will give it a read—and find it useful. ",2025-05-09T18:56:25Z,programming,programming,technology,Technology,[],0,8,0,,0.62,https://techcommunity.microsoft.com/blog/adforpostgresql/whats-new-with-postgres-at-microsoft-2025-edition/4410710,clairegiordano,2025-05-26T03:58:37.192299Z
+1kfzgwe,reddit,Starting on seamless C++ interop in jank,,2025-05-06T08:32:53Z,programming,programming,technology,Technology,[],0,7,0,,0.82,https://jank-lang.org/blog/2025-05-02-starting-seamless-interop/,Xadartt,2025-05-26T03:58:38.060904Z
+1kehdpn,reddit,Create your own VBE driver in C,Continuation of [Create your own graphics library in C++](https://blog.wtdawson.info/programming/william/create-your-own-graphics-library-in-c).,2025-05-04T11:12:47Z,programming,programming,technology,Technology,[],0,7,2,,0.69,https://blog.wtdawson.info/programming/william/create-your-own-vbe-driver-in-c,wtdawson,2025-05-26T03:58:38.982509Z
+1kcizxu,reddit,Ford-Fulkerson Algorithm: A Step-by-Step Guide to Max Flow,,2025-05-01T20:38:36Z,programming,programming,technology,Technology,[],0,10,0,,1.0,https://www.thecoder.cafe/p/ford-fulkerson,teivah,2025-05-26T03:58:39.905216Z
+1kbg7dq,reddit,Why Trace in Production,,2025-04-30T13:15:08Z,programming,programming,technology,Technology,[],0,8,0,,0.85,https://blog.mattstuchlik.com/2025/04/23/low-overhead-ruby-tracing.html#why-trace-in-production,sYnfo,2025-05-26T03:58:40.825528Z
+1k9dxim,reddit,Compiler reminders,,2025-04-27T20:40:46Z,programming,programming,technology,Technology,[],0,8,0,,0.83,https://jfmengels.net/compiler-reminders,jfmengels,2025-05-26T03:58:41.680805Z
+1k8i381,reddit,Nofl: A Precise Immix,,2025-04-26T17:18:24Z,programming,programming,technology,Technology,[],0,7,0,,0.72,https://arxiv.org/pdf/2503.16971v1,ketralnis,2025-05-26T03:58:42.668793Z
+1kvb7ic,reddit,"At least don't get distracted now, lets do it later!","So I always get distracted by tasks and Ideas that jump in when working on something else, so I got distracted by the idea of 'just save and dump them fast and mind them later' and just built it and it's actuallly helping! because if you know those ideas and taks 'or whatever they are' are safe somewhere you can't actually break the focus!
+
+The idea is save it fast (terminal is pretty much always a keymap press away from us) so just save it and then when you want to manage tehm, there is a nice interactive table with different states and bulk actions for them pesky distractions :)",2025-05-25T19:43:50Z,programming,programming,technology,Technology,[],0,8,0,,0.72,https://github.com/prime-run/togo/,DisplayLegitimate374,2025-05-26T03:58:43.590060Z
+1ktwe1p,reddit,rqlite turns 10: Lessons from a decade building Distributed Systems,,2025-05-23T22:26:09Z,programming,programming,technology,Technology,[],0,8,0,,0.8,https://philipotoole.com/rqlite-turns-10-lessons-from-a-decade-of-building-distributed-systems/,hudddb3,2025-05-26T03:58:44.512821Z
+1kt921a,reddit,Red Programming Language,,2025-05-23T02:48:30Z,programming,programming,technology,Technology,[],0,5,8,,0.64,https://www.red-lang.org/p/about.html,namanyayg,2025-05-26T03:58:45.433383Z
+1ksldaq,reddit,"Staz: light-weight, high-performance statistical library in C","Hello everyone!
+
+I wanted to show you my project that I've been working on for a while: **Staz**, a super lightweight and fast C library for statistical calculations. The idea was born because I often needed basic statistical functions in my C projects, but I didn't want to carry heavy dependencies or complicated libraries.
+
+Staz is completely contained in a single header file - just do `#include ""staz.h""` and you're ready to go. Zero external dependencies, works with both C and C++, and is designed to be as fast as possible.
+
+ What it can do:
+- Means of all types (arithmetic, geometric, harmonic, quadratic)
+- Median, mode, quantiles
+- Standard deviation and other variants
+- Correlation and linear regression
+- Boxplot data
+- Custom error handling
+
+Quick example:
+```c
+double data[] = {1.2, 3.4, 2.1, 4.5, 2.8, 3.9, 1.7};
+size_t len ​​= 7;
+
+double mean = staz_mean(ARITHMETICAL, data, len);
+double stddev = staz_deviation(D_STANDARD, data, len); 
+double correlation = staz_correlation(x_data, y_data, len);
+```
+
+I designed it with portability, performance and simplicity in mind. All documentation is inline and every function handles errors consistently. 
+
+It's still a work in progress, but I'm quite happy with how it's coming out. If you want, check it out :)",2025-05-22T08:10:20Z,programming,programming,technology,Technology,[],0,8,0,,0.83,https://github.com/ANDRVV/Staz,ANDRVV_,2025-05-26T03:58:46.459579Z
+1kqneqg,reddit,Violating memory safety with Haskell's value restriction,,2025-05-19T21:13:41Z,programming,programming,technology,Technology,[],0,7,0,,1.0,https://welltypedwit.ch/posts/value-restriction,ketralnis,2025-05-26T03:58:47.430519Z
+1kqnc7z,reddit,Racket v8.17,,2025-05-19T21:10:58Z,programming,programming,technology,Technology,[],0,7,0,,0.82,https://blog.racket-lang.org/2025/05/racket-v8-17.html,ketralnis,2025-05-26T03:58:48.505219Z
+1kolir1,reddit,I created a train traffic simulator,,2025-05-17T05:30:08Z,programming,programming,technology,Technology,[],0,8,1,,0.7,https://youtu.be/YNvc6edbpy4,Feeling-Builder7919,2025-05-26T03:58:49.427677Z
+1kmfodz,reddit,Closure Conversion Takes The Function Out Of Functional Programming,The next entry in the [making a language series](https://thunderseethe.dev/series/making-a-language/). This time we're talking about closure conversion. ,2025-05-14T13:50:19Z,programming,programming,technology,Technology,[],0,7,0,,0.82,https://thunderseethe.dev/posts/closure-convert-base/,thunderseethe,2025-05-26T03:58:50.349354Z
+1kl669v,reddit,The overclocked timer,"My first technical article, about an interesting embedded software bug. Written for fun. Cheers",2025-05-12T22:36:33Z,programming,programming,technology,Technology,[],0,7,2,,0.73,https://mrpy.hashnode.dev/the-overclocked-timer,pylessard,2025-05-26T03:58:51.270466Z
+1kf7fzc,reddit,"DualMix128: A Fast (~0.36 ns/call in C), Simple PRNG Passing PractRand (32TB) & BigCrush","Hi r/programming,
+
+I wanted to share a project I've been working on: **DualMix128**, a new pseudo-random number generator implemented in C. The goal was to create something very fast, simple, and statistically robust for non-cryptographic applications.
+
+**GitHub Repo:** [https://github.com/the-othernet/DualMix128](https://github.com/the-othernet/DualMix128) (MIT License)
+
+**Key Highlights:**
+
+* **Very Fast:** On my test system (gcc 11.4, -O3 -march=native), it achieves \~0.36 ns per 64-bit generation. This was 104% faster than xoroshiro128++ (\~0.74 ns) and competitive with wyrand (\~0.36 ns) in the same benchmark.
+* **Excellent Statistical Quality:**
+   * Passed PractRand testing from 256MB up to **32TB** with zero anomalies reported.
+   * Passed the full **TestU01 BigCrush** suite. The lowest p-values encountered were around 0.02.
+* **Simple Core Logic:** The generator uses a 128-bit state and a straightforward mixing function involving addition, rotation, and XOR.
+* **MIT Licensed:** Free to use and integrate.
+
+Here's the core generation function:
+
+    // Golden ratio fractional part * 2^64
+    const uint64_t GR = 0x9e3779b97f4a7c15ULL;
+    
+    // state0, state1 initialized externally (e.g., with SplitMix64)
+    // uint64_t state0, state1;
+    
+    static inline uint64_t rotateLeft(const uint64_t x, int k) {
+    return (x << k) | (x >> (64 - k));
+    }
+    
+    uint64_t dualMix128() {
+        // Mix the current state
+        uint64_t mix = state0 + state1;
+    
+        // Update state0 using addition and rotation
+        state0 = mix + rotateLeft( state0, 26 );
+    
+        // Update state1 using XOR and rotation
+        state1 = mix ^ rotateLeft( state1, 35 );
+    
+        // Apply a final multiplication mix
+        return GR * mix;
+    }
+
+I developed this while exploring simple state update and mixing functions that could yield good speed and statistical properties. It seems to have turned out quite well on both fronts.
+
+I'd be interested to hear any feedback, suggestions, or see if anyone finds it useful for simulations, hashing, game development, or other areas needing a fast PRNG.
+
+Thanks!",2025-05-05T09:33:52Z,programming,programming,technology,Technology,[],0,7,0,,0.77,https://github.com/the-othernet/DualMix128,danielcota,2025-05-26T03:58:52.192306Z
+1kdvzca,reddit,Decoupling,,2025-05-03T15:46:19Z,programming,programming,technology,Technology,[],0,8,1,,0.67,https://pid1.dev/posts/decoupling/,sausagefeet,2025-05-26T03:58:53.037079Z

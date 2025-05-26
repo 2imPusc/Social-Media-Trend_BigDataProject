@@ -1,0 +1,246 @@
+﻿comment_id,content_id,platform,content,created_at,score,author,source_name,crawl_time
+mu4edrs,1kusdac,reddit,"I've worked in an org where pair programming was expected by everyone. Each major task was supposed to be done by a pair of devs. They were given freedom to decide how to breakup the task and reach the finish line through pair programming.
+
+Here are my experiences:
+
+1. It is incredibly exhausting. After couple of hours of continuous screen-sharing call with my pair, I used to get tired and I had to continue with it if I don't want to handover the remaining task to my pair.
+
+2. One of my pair was rude and they used to get frustrated over little things. For example, if they want me to navigate to few files to review some code and if I overscroll a bit or don't use keyboard shortcuts to jump to a line, they showed frustration.
+
+3. It put me under immense pressure to keep up with my pair always. I was alert all the time, not trying to make any obvious mistakes, pushing myself trying to think faster than my pair.
+
+4. I'm not a fast thinker. My pair was. They had higher understanding of the codebase and I was few months old in the project and the org. This is an issue as well. The pair would want me to write some code because they thought of an approach before I could. Since it is their approach, they have higher understanding about it and I had to just follow their instructions to see how it turns out. Even when I am not sure about the practicality of their approach, I had no option but to continue listening to them and write the code they dictate. I hated it so much.
+
+5. When completing any task through pair programming, I didn't get any satisfaction which I used to get when I achieved the completion of task by myself. I felt my pair had more contribution to the task compared to me. I hated that feeling.
+
+6. In a team, the teammates are of varying work experiences. We can't expect them to match the thinking speed of each other while working in a pair. We can't expect them to match the code writing speed of each other while working on a pair.",2025-05-25T04:31:46Z,453,kvsn_1,programming,2025-05-25T17:06:44.713557Z
+mu43dps,1kusdac,reddit,"While there are many benefits to PP, it was one of the most miserable experiences of my life. I also found that code quality is more likely influenced by how much your team cares rather than a specific practice. 
+While I always believe in pairing for onboarding new team members or for selective tasks, I'd never mandate it to a team who isn't enthusiastic for it.",2025-05-25T03:05:28Z,106,poosjuice,programming,2025-05-25T17:06:44.713561Z
+mu4xk4x,1kusdac,reddit,"Is no one using VS Code Live Share or Jetbrains Code With Me for pair programming?
+
+It's so much better. No screensharing, it's a shared IDE.",2025-05-25T07:31:47Z,18,NiteShdw,programming,2025-05-25T17:06:44.713563Z
+mu4jovg,1kusdac,reddit,"And they forced you to write a hostage note as well?
+
+> It instilled a deeper appreciation for maintainable code and the long-term benefits of collaborative development.
+
+Rofl is this literally part of a punishment?",2025-05-25T05:18:03Z,111,Semick,programming,2025-05-25T17:06:44.713566Z
+mu4473i,1kusdac,reddit,"My personal experience with pair programming:
+
+* It's incredibly productive.
+* It produces far, far better code than any individual developer.
+* It's better if you switch partners fairly regularly.
+* It's best paired with TDD so you can refactor fearlessly.
+* It's absolutely exhausting. You cannot possibly do this for 8 hours a day.
+   * Do NOT introduce this in an environment where managers police people to make sure they're clicking the clickety keys.
+   * You need lots of breaks. But then, most developers should probably be taking more breaks than they do, even when they're not pairing.
+* It's not for everyone.
+   * However, in my experience, a lot of developers initial resistance is due to imposter syndrome. It doesn't take very long to become proficient at this.
+* Edit: I can see how doing pairing remotely would be a challenge.
+* As a side note: People who support this only for training are missing the point. It's not pair programming if both parties aren't contributing.",2025-05-25T03:11:32Z,180,DingBat99999,programming,2025-05-25T17:06:44.713568Z
+mu4iqqe,1kusdac,reddit,This is hyperbolic blogspam slop that's using reddit for promotion.,2025-05-25T05:09:30Z,43,VictoryMotel,programming,2025-05-25T17:06:44.713570Z
+mu47tf0,1kusdac,reddit,Pair programming can burn in the bullshit over hyped fire from whence it came. It’s utterly the worst experience for anyone who needs quiet to solve problems.,2025-05-25T03:39:06Z,64,dex206,programming,2025-05-25T17:06:44.713572Z
+mu49uqo,1kusdac,reddit,"Oh fuck right off you corporate tool. 
+
+Instill a deeper appreciation of this 🖕",2025-05-25T03:55:00Z,55,DrNoobz5000,programming,2025-05-25T17:06:44.713575Z
+mu5e3ly,1kusdac,reddit,"At my previous job I paired full time. I can’t remember an instance of solo work. It was a very small team overall, and everyone was empathetic, so it worked very well. I still get a drink with some of them when I’m in town, ten years on.
+
+In addition to the design aspect some mention, the value of pairing to me is the transfer of knowledge happening peripheral to the tasks at hand. Sharing how to edit faster in vim, or fix a quirk with a shell configuration, or share a tool someone isn’t familiar with. These all create skills and productivity that would take a much different path or amount of time otherwise. This only works in a truly collaborative setting and mindset, of course.
+
+Folks pair on occasion at my current job, but it’s usually more when someone is calling in cavalry to fix or finish something they’ve gotten stuck on. That’s fine, but usually doesn’t create much opportunity for real knowledge transfer given the sense of urgency. This is a lot more like some of the negative experiences others have shared.
+
+I absolutely see how remote pairing is less humanistic than in-person pairing, and I haven’t had to do remote pairing full days at a time, but I yearn for more pairing, usually. I have a natural desire to teach and to learn and like doing it conversationally, though.",2025-05-25T10:20:40Z,7,daneah,programming,2025-05-25T17:06:44.713577Z
+mu6c5n8,1kusdac,reddit,"Pair programming is dumb. What I do support though:
+
+1) Mentor/mentee relationships where a newer person just asks a crap ton of questions to someone more senior. Often the best way to learn.
+
+2) pair programming a very specific, hard to solve issue that both people have independently tried and failed to solve.",2025-05-25T14:22:41Z,3,Johnpecan,programming,2025-05-25T17:06:44.713579Z
+mu4zfme,1kusdac,reddit,"Ah, I see you weren't working with Steve.",2025-05-25T07:50:31Z,5,nadmaximus,programming,2025-05-25T17:06:44.713581Z
+mu4us5s,1kusdac,reddit,"Pair programming is new-wave-management eso-bullshit, end of discussion.
+
+The reason why this nonsense ever came to be, was during the hiring craze in the 2010s, when money was cheap, and tech businesses started hiring folks not because they needed them, but as a KPI to investors.
+
+At some point someone tried to find a way to justify all these devs at huge corporations, doing barely anything, and some consultant went *""oh I know...!""*. Thus the concept was sold by management types to other management types, neither of whom had to actually*do* it.
+
+Other consultant types then jumped on the bandwagon (because, if FAANG does it, it must be smart, see!) wrote blogs, articles, etc. about it. Then non-FAANG companies started doing it, even though most of them didn't even have surplus developers (but but but... that's what FAANG is doing, see, and we'd like to be like FAANG...what? cargo cult? what's that?) 
+
+And finally at some point it became this weird general-consciousness agreement that there must be something to it, even though no one can actually say what it is.
+
+And same as with similarly ""great"" ideas in tech, like writing only functions that are no longer than 4 lines, or pretending that javascript is a serious backend technology, it will be years before this absurdity slowly abates.",2025-05-25T07:04:01Z,12,usrlibshare,programming,2025-05-25T17:06:44.713583Z
+mu5r2m4,1kusdac,reddit,"It is fine and even enjoyable when done with a teammate you get along with, on a task you both have plenty of context of, where it makes sense, not for too long and used sparingly. If any of this doesn't apply, it can be hell.",2025-05-25T12:12:06Z,4,coldfeetbot,programming,2025-05-25T17:06:44.713585Z
+mu6r6kd,1kusdac,reddit,My workplace has forced us to pair program everyday. There’s been days I’ve been in a zoom call for most of the day. It’s been the worst experience I’ve had in my engineering career. I’m actively looking for new roles.,2025-05-25T15:40:42Z,2,Objective-Tax-9922,programming,2025-05-25T17:06:44.713587Z
+mu4mq8x,1kusdac,reddit,"I pair about 20 hours a week, and one of the most valuable improvements we’ve made is normalizing that anyone can ask for a break at any time.
+
+
+
+We rarely pair for more than an hour at a stretch, and I often find that the best answers come during those breaks, when we have a moment to step back and think.
+
+
+
+I’ve also noticed that pairing works better with some people than others. Finding the right pairing dynamic can really boost focus, energy, and overall productivity.",2025-05-25T05:45:57Z,8,tehmadnezz,programming,2025-05-25T17:06:44.713589Z
+mu4qbs6,1kusdac,reddit,"I'm a big fan of pair programming and I hate that it's so rare in the industry. I get that it's not for everyone. But I think the biggest problem for pair programming is that no one really knows what they're doing. Most of the time companies just throw a senior and a junior together and tell them to ""pair"", but no one has any real practice pairing.
+
+Pairing works best when there's a formal method involved. ""Extreme Programming"" had some formalized rules for how to handle pair programming, like the more experienced dev being the ""navigator"", and the less experienced dev being the ""driver"", or the guidelines they had around gauging when pairing was no longer productive. My personal experience leads me to believe it's best when time boxed to an hour or two. It's not an all day thing.
+
+It's also heavily dependent on the people involved and the work being done. Not all work is a great candidate for pair programming, and not all devs can pair well together. Some may not handle pair programming well in any situation. But if it's something you've tried and it hasn't worked, I wouldn't assume it's because pair programming just doesn't work for you. It's still worth trying on different projects, or with different people, or with a different method.",2025-05-25T06:20:10Z,6,KevinCarbonara,programming,2025-05-25T17:06:44.713591Z
+mu4ah95,1kusdac,reddit,Pair programming is the stupidest concept I've ever heard. Never understood why people do it.,2025-05-25T03:59:57Z,8,Metworld,programming,2025-05-25T17:06:44.713593Z
+mu65gpa,1kusdac,reddit,"Pair programming is a weird sore point for a lot of engineers. Personally to me if someone is loud with vehement dislike for pair programming, they are a poor collaborator that wants to be left alone for six months at a time. Sorry to say that being a software engineer doesn't mean you get to stick your head in the sand and talk exclusively to your AI girlfriend (copilot).
+
+Otherwise two thoughts on pair programming:
+
+1. It does suck when you don't share a physical location and/or IDE. Maybe tooling has gotten better in the last couple years, but being on screen share doesn't replace sitting next to the person. Pairing before and after COVID (WFH) was night and day.
+
+2. You very quickly find out whether the other individual you are working with is quietly an insufferable person.
+
+[2] is similar to going over a PR review that has actual back-and-forth, just accelerated.
+
+Edit: When I talk about pair programming, I don't mean every single piece of code is written by two people. That would be absurd. What pair programming should be, is ""hey (peer) can I grab 15-30 minutes with you, I'm having trouble with X here and could use another set of eyes / your knowledge"" and (as a senior) ""hey (junior), let's take a look at task X and we can pair on it for a bit so I can walk you through how Y works in the software"".",2025-05-25T13:45:46Z,2,Im12AndWatIsThis,programming,2025-05-25T17:06:44.713595Z
+mu4nq3z,1kusdac,reddit,"PP works better in waves where you look through the code beforehand separately, then get together to discuss and implement. Often the last bit of implementation is repetitive with no choices being made, so it doesn't make sense to do that together.
+
+It's tiring to be ""on"" with another person, so it's not something you can do the whole day.",2025-05-25T05:55:07Z,2,gulyman,programming,2025-05-25T17:06:44.713597Z
+mu4igar,1kusdac,reddit,"Right, another dev talking about fast coding. I have experience in seeing people THINK what fast coding means. What it means, in reality, is reinventing the wheel because alttabing to google/AI something = slow. Repeating code = good, because why would you spend 25 seconds using  your IDE to find similar or the same code? It means no standards, i.e. where you place libs / utils or how you deal with separation of concerns. It also means no tests. 
+
+I worked with several startups and witnessed this, and devs have their attention split between ""I am listening to podcast at 2x speed to learn while I code"" tiktok/youtube.
+
+  
+It's not fast. It's the slowest form of existence for a programmer. And then, this guy is faced with interacting with another dev and his world changes - OF COURSE IT DOES, YOU ARE SLOPPY AND SLOW!
+
+Every single valuable advice, guide, tutorial or method about programming has been raped to such extent and turned upside down that we're starting to get crap content where code plumbers re-discover what we knew 30 years ago.
+
+  
+In programming, time is accounted for at the start, during testing, during production, during fixing and during fixing shit that it broke that depend on it. For some reason, most of the dev content-producers seem to grasp the existence of only the start and ignore the rest. Therefore, the ""speed"" of developing, that this new-ish generation of devs is talking about, does not exist. Nothing is fast there, it's all just a human typing at 30 WPM for 10 minutes at a time thinking they produced something quickly because of copypasting a for loop 1000 times over.",2025-05-25T05:06:54Z,1,punkpang,programming,2025-05-25T17:06:44.713600Z
+mu60kly,1kusdac,reddit,I did pair-programming before COVID like I did share a single PC with my colleague watching me coding while sitting next to me. It was super fun but I can understand this screen sharing thing could be really nasty experience,2025-05-25T13:16:17Z,1,ishammohamed,programming,2025-05-25T17:06:44.713602Z
+mu6hu7u,1kusdac,reddit,Its shit. Gives nothing to the quality of the product but immense stress and anxiety for introverted developers.,2025-05-25T14:52:52Z,1,IceNorth81,programming,2025-05-25T17:06:44.713604Z
+mu6zviw,1kusdac,reddit,I will never work at a place that has me pair programming. No thank you.,2025-05-25T16:24:51Z,1,noodle-face,programming,2025-05-25T17:06:44.713606Z
+mu702d8,1kusdac,reddit,training your replacement with extra steps,2025-05-25T16:25:50Z,1,Specialist_Brain841,programming,2025-05-25T17:06:44.713608Z
+mu75y4b,1kusdac,reddit,"It shouldn't be forced but it is a cool thing every now and then, especially for hard to solve problems. 
+
+The issue I see in comments here are that some devs are just shy enough and don't know basic communication. This is something to be worked on, sorry. If you need a break, you tell it, also you shouldn't work under pressure",2025-05-25T16:54:55Z,1,GBcrazy,programming,2025-05-25T17:06:44.713610Z
+mu4d9br,1kusdac,reddit,"Pair programming is an extremely powerful way to write code. I have had massive success doing it.
+
+It is really important to find the right person who complements your skills and personality.",2025-05-25T04:22:22Z,-2,thatsamiam,programming,2025-05-25T17:06:44.713612Z
+mu5300k,1kusdac,reddit,"At my work, we pair on most tasks and work remotely. With a lot of trial and error we've made a workflow that's pretty good.
+
+  
+We use [mob.sh](http://mob.sh) to manage the git branch which lets us hand over code changes in a single command, and [mobti.me](http://mobti.me) to keep driving sessions down to 15 minutes. Slack huddles for screen sharing which has the ability to annotate over the other person's screen and point things out if needed.
+
+Pairing's not a perfect solution and I certainly wouldn't want to do it all day long because it is tiring but it does help collective understanding and improve code quality imo. I think it very much depends on team culture.",2025-05-25T08:26:48Z,1,ZargIndustries,programming,2025-05-25T17:06:44.713614Z
+mu5ts61,1kusdac,reddit,I don’t like it in the long term. Super inefficient and unnecessary for experienced developers.,2025-05-25T12:31:36Z,1,ail-san,programming,2025-05-25T17:06:44.713617Z
+mu6c9a1,1kusdac,reddit,ITT: people who are incapable of being professionals.  No wonder people look at techies as socially inept.,2025-05-25T14:23:13Z,1,Halkcyon,programming,2025-05-25T17:06:44.713619Z
+mu4ww7t,1kusdac,reddit,"Ive had a pair programmer who insisted on the best way to debug code is only through the debugger. 
+
+Production Logs? A waste
+
+Console logging for dev? Silly
+
+Walking through the code from API and mentally building a model? Obviously youre a chatgpt shill
+
+Its just painful imo",2025-05-25T07:25:06Z,-1,NotGoodSoftwareMaker,programming,2025-05-25T17:06:44.713621Z
+mu5fw1a,1kusdac,reddit,"If your pair partner is good, sure, it might turn out well.  that’s not the luxury I always have",2025-05-25T10:38:06Z,0,namotous,programming,2025-05-25T17:06:44.713623Z
+mu4k0ur,1kusdac,reddit,"I've done very little pair programming.
+
+It has been fantastic. Learned a massive amount, even from people who were quite a bit less skilled and experienced. Just having a different view was great.
+
+I hate doing it. I would think that it would be a good idea for programmers to do maybe 1 hour per month.",2025-05-25T05:21:02Z,-3,LessonStudio,programming,2025-05-25T17:06:44.713625Z
+mu4q8n8,1kusdac,reddit,"i pair program with AI, thats good enough thanks",2025-05-25T06:19:20Z,-12,the_ai_wizard,programming,2025-05-25T17:06:44.713627Z
+mu485qm,1kusdac,reddit,"If you are part of a remote team and still want to pair program, try Tuple: https://tuple.app (no referral link).",2025-05-25T03:41:44Z,-12,alexcristea,programming,2025-05-25T17:06:44.713629Z
+mtq5pkw,1ksxbdi,reddit,"(copied from my comment on the /r/rust crosspost)
+
+https://github.com/ashvardanian/fork_union/blob/cd885f3811bc7ff09c7132af4acbcc723aca36a2/fork_union.rs#L116
+
+this is undefined behavior. casting a & to a &mut is never allowed (other than for zero sized types)
+
+unsynchronized read
+https://github.com/ashvardanian/fork_union/blob/cd885f3811bc7ff09c7132af4acbcc723aca36a2/fork_union.rs#L439
+
+unsynchronized write
+https://github.com/ashvardanian/fork_union/blob/cd885f3811bc7ff09c7132af4acbcc723aca36a2/fork_union.rs#L367
+
+
+this is a data race, which is undefined behavior
+
+there's plenty of other data races. you should run your tests with miri",2025-05-22T21:18:04Z,5,reflexpr-sarah-,programming,2025-05-25T17:06:51.731948Z
+mtlx9q0,1ksackh,reddit,"""""""""""""""""""""""""""""""""""""""""""""""""""""new""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+(No, it wasn't new back in 2020 either)",2025-05-22T05:39:56Z,23,Dragdu,programming,2025-05-25T17:06:53.490681Z
+mu01gmz,1ksackh,reddit,"LTO goes back to 2009 (maybe even 2005).
+
+*""New Way to Do Compiler Optimizations""*",2025-05-24T12:50:07Z,2,RusselsTeap0t,programming,2025-05-25T17:06:53.490693Z
+mu4qc9x,1ksackh,reddit,Slop. Sad downfall of r/programming,2025-05-25T06:20:18Z,1,glaba3141,programming,2025-05-25T17:06:53.490701Z
+mu5h0jx,1krf66c,reddit,"This article describes how to build monorepos from 0 to 1, mentioning all the steps and hidden details. It’s a huge gem for people who care about good build system design. It’s almost a scientific study on how repository management develops in large scale projects, thanks to the author for combining such a massive amount of knowledge and expertise in a readable way! One thing that I would add is that even with monorepos sometimes you can’t make change in one commit and you need to be able to disable some part of the code to deploy everything, this could be done with dynamic configs and feature flags which can be provided with the tools like Typeconf (im a founder btw). lmk me know if you have questions about this and monorepos in general, love this topic!",2025-05-25T10:48:31Z,1,heraldev,programming,2025-05-25T17:06:55.268266Z
+mredfs4,1ki5ywm,reddit,"I'm not familiar with RIPEMD, but some things I noted scanning the article:
+
+> \#define F2(x, y, z) vorrq_u32(vandq_u32(x, y), vandq_u32(vmvnq_u32(x), z))
+
+Use BIC instead of AND+MVN.  Actually, you'll notice that this is a bit-select, so you can replace the whole thing with BSL (and do the same for F4).  
+Similarly, use ORN instead of ORR+MVN.
+
+> \#define ROTL(x, n) vorrq_u32(vshlq_n_u32(x, n), vshrq_n_u32(x, 32 - (n)))
+
+ARM does have SRI (shift-right and insert), which reduces the rotate from the 3 operations above, to 2.
+
+> Instead, it should be written in vaddq_u32(vec1, vdupq_n_u32(2)) style (if anyone knows why this is the case – please leave a comment).
+
+Actually MUL is the exception, as there's an instruction which allows multiplying by a single element (probably aimed at accelerating matrix multiplication).  SIMD in general operates on vectors, so you need to be passing everything in as one.  It's possible that they make shortcut intrinsics (like SVE does), but behind the scenes, it's broadcasting a scalar to a vector and adding it.
+
+> w[i] = vld1q_u32(((uint32_t[4]){x[0][i], x[1][i], x[2][i], x[3][i]})); // A bit faster
+
+Generally you want to arrange your data to avoid needing this interleaving (i.e. do `x[16][4]` instead of `x[4][16]`) - see [SoA layout](https://en.wikipedia.org/wiki/AoS_and_SoA).  If you can't rearrange your data, using LD4 will be faster than inserting items in lane by lane, though I don't think that can be done with a 16x4 layout, so it'd be better to transpose via TRN1 etc.
+
+> This is a great result, but it's unfortunate that M-chips don't have SVE for 256/512 bits (8/16 lanes), as that would make it even better!
+
+Not necessarily.  The width of a vector doesn't necessarily map to the execution unit width (e.g. Neoverse V1 declares 256-bit SVE but uses 128-bit EUs).  Though it can help if you're not making good use of ILP (which you might not be here, as it looks like you're only processing one vector at a time).  
+You can process 8 hashes at a time with NEON - just use two vectors instead of one.
+
+> It's a mystery to me why it works this way, and maybe there is an even more effective arrangement. Who knows? Please, write in the comments.
+
+My guess is that you're exploiting [ILP](https://en.wikipedia.org/wiki/Instruction-level_parallelism) better.  If the left and right rounds are independent, you want to interleave them, as it allows the processor to execute both parts simultaneously.  IIRC the M1 has 4 SIMD ports (M2 probably is the same) and you want to fill all of them for best performance.
+
+> What's interesting is that AVX2 on the Intel N100 runs 20% faster than Neon on the Apple M2 (mainly because of the vector size).
+
+It's worth noting that the N100 (Intel Gracemont) implements 256-bit AVX on 128-bit units, so it doesn't actually have wider processing width than the Apple M chips.
+
+---
+
+Edit: it's also worth pointing out that `(x | ~y) ^ z` can be rewritten as `~((~x & y) ^ z)` or `-((~x & y) ^ z) - 1`.  The '-1' can be coded into the constant, and the result of F subtracted instead of added (to subsume the negation).  This is particularly useful on x86 which lacks a ORN equivalent.",2025-05-09T10:55:47Z,5,YumiYumiYumi,programming,2025-05-25T17:07:07.720899Z
+mrctug4,1ki3ev6,reddit,"I maintain that programming, once you reduce the business requirements down, is just math in a trenchcoat.",2025-05-09T02:34:38Z,1,fallbyvirtue,programming,2025-05-25T17:07:08.633851Z
+mpeb3or,1k8y237,reddit,"Elasticsearch is a search engine masquerading as a database. Except for the narrow use case of searching text documents, you would have to be pretty brainwashed and ignorant to choose it over the many superior alternatives available nowadays.",2025-04-27T23:29:31Z,1,Adventurous-Race8315,programming,2025-05-25T17:07:19.174929Z
+mp9m64e,1k8aurh,reddit,"I always thought Dense-Rank was for stubborn people 😁
+
+I prefer using WITH...SELECT statements to modularize the ""steps"" of Rank-esque queries instead of use those keywords because it's easier to trouble-shoot in my experience. Breaking big things down into smaller steps is almost always more debugging-friendly. It's one reason why I don't think Functional Programming has really caught on. Those who use heavy LINQ are often chastised by maintainers, for example.",2025-04-27T05:04:47Z,2,Zardotab,programming,2025-05-25T17:07:22.775916Z
+mp4e3k6,1k7vzoz,reddit,"Ruby needs to address the problem of a low influx of new ruby developers. People get a lot more leverage using python these days. Too many try the ""ruby is not dying but maturing like fine wine"" - that is denying the reality of the situation. Of course developer retention is important too, but at this point in time it is very clear that the main problem is that people are much more likely to choose python for similar tasks. And possibly even JavaScript, for marketing themselves ""for the web"".",2025-04-26T09:52:29Z,1,shevy-java,programming,2025-05-25T17:07:25.431193Z
+mtviccp,1ktp4gd,reddit,So you're telling me their database is not an LLM?,2025-05-23T17:55:58Z,12,Farados55,programming,2025-05-25T17:07:31.666658Z
+mtxcxw0,1ktp4gd,reddit,"> Creating new tables or introducing new workloads is not permitted.
+
+The first one seems kinda weird, and I suppose it's tied to the new workloads. It's not explained why adding new tables might be an issue though. I would be more concerned about data backfills and updates than adding a new table. New workloads are always a pain if the impact is not being measured as that creates a cascading effect on anything using the same instance.",2025-05-23T23:51:17Z,2,TipsyRootNode,programming,2025-05-25T17:07:31.666670Z
+mu26i34,1ktp4gd,reddit,"I remember in the early 2010s saying that PostgreSQL would be the future and my Oracle DBA buddies laughing. I am happy for every love PSQL gets, even if it's from the devil itself.",2025-05-24T19:54:09Z,1,RoomyRoots,programming,2025-05-25T17:07:31.666677Z
+mtu9uin,1ktkwok,reddit,"Hey there! I wanted to plot the growing size of a repo over time, and was surprised to not find what I was looking for.
+
+So here it is: [https://www.npmjs.com/package/cloc-graph](https://www.npmjs.com/package/cloc-graph)
+
+and you can use it like this:
+
+`cloc-graph -p /path/to/repo -g weekly`
+
+Basically, I wrap cloc and iterate over the git history to generate a big CSV of all languages and a plot from this CSV.
+
+It can probably be extended in many ways to support more plot types or stuff like that, let me know what you think!",2025-05-23T14:26:10Z,1,cosmos-journeyer,programming,2025-05-25T17:07:35.277522Z
+mtti2m6,1kt3n22,reddit,Good old Hilbert eh,2025-05-23T11:49:35Z,0,HarmadeusZex,programming,2025-05-25T17:07:39.690816Z
+mtf1zmg,1kr9xfk,reddit,"I really like how this guide builds up a real-world example step by step, just like the one at [https://biffweb.com/docs/reference/project-layout/](https://biffweb.com/docs/reference/project-layout/)",2025-05-21T03:57:22Z,1,See-Ro-E,programming,2025-05-25T17:07:50.995736Z
+mt5zbxh,1kqjd98,reddit,"This is an attempt to answer the question ""Are there analogs to parallel computing rooted in number theory?""  
+Residue Number Systems are great for parallelization. But. Division and comparison are quite difficult to implement.   
+Also, it's difficult to represent floating or fixed point numbers. It's also challenging to detect integer overflow.  
+I wrote down all my attempts at solving these problems",2025-05-19T18:36:10Z,2,DataBaeBee,programming,2025-05-25T17:07:58.705440Z
+mt42ic4,1kqa2ql,reddit,"I just avoid using any form of justification in my documentation. I document HOW things work and avoid WHYs. This lends itself to a more maintainable but also adaptable code base. So long as the method performs the same task, does the internal use of Library A or Library B truly matter? IMHO, no. Although I’m sure others will argue differently.",2025-05-19T12:42:44Z,2,SeniorScienceOfficer,programming,2025-05-25T17:08:00.427029Z
+mt5s3ot,1kq9j51,reddit,"Back in days, that’s called master-slave replication.",2025-05-19T18:00:50Z,3,0xdef1,programming,2025-05-25T17:08:01.264737Z
+mse8wua,1kmf95y,reddit,"> Prerequisites
+> An Apple developer account
+
+That already sucks really. It kind of goes against the UNIX spirit and philosophy to have to beg a private entity for permission to distribute anything. All these ""AppStores"" in general are de-facto monopolies.",2025-05-15T04:18:08Z,5,shevy-java,programming,2025-05-25T17:08:03.799885Z
+ms58x1c,1kluv6w,reddit,"This video is basically the MS article on integration testing in asp net core. From experience, it is very convenient and easy to integration test asp net core and I quite enjoyed using it. The downside is the asp net documentation is all over the place and it is often very difficult to figure out how to configure/setup things.  Most frameworks can do this these days but not all make it as easy.",2025-05-13T19:33:36Z,2,deadron,programming,2025-05-25T17:08:04.637113Z
+ms1jk4s,1kkfy14,reddit,"> Many times, we end up saving these sensitive pieces of information in notepads, screenshots, photos, or unprotected files, which puts our digital security at risk.
+
+
+Don't drag me into your failure stew.
+
+
+Also, pick a better name for this.",2025-05-13T05:10:15Z,2,gredr,programming,2025-05-25T17:08:06.384310Z

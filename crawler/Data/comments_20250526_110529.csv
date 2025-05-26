@@ -1,0 +1,234 @@
+﻿comment_id,content_id,platform,content,created_at,score,author,source_name,crawl_time
+muaapyh,1kvdd3s,reddit,It just sends requests to OpenAI servers doesn't it?,2025-05-26T03:44:37Z,1,BlueGoliath,programming,2025-05-26T04:03:56.225590Z
+mtlw037,1ksaeph,reddit,Are we going to pretend https://github.com/rune-rs/rune doesn't exist?,2025-05-22T05:28:54Z,-2,coffeemaszijna,programming,2025-05-26T04:04:00.590149Z
+mte2j34,1krfzvu,reddit,"You got my attention, reading the spec. I'll be commenting as I go.
+
+First of all: link to the actual section in the ToC. Would also be nice to see cross-references. Guess Markdown limitations are kicking in.
+
+Second: character set. Lean into Unicode. It has a [number of properties](https://en.m.wikipedia.org/wiki/Unicode_character_property) you can use to be precise. ~~Spaces and tabs are not control characters.~~ Special characters do include combinators, which are sometimes used when a single graphene is combined from several code points, and should be allowed in strings. The stuff is actually quite complicated.
+
+Whitespace: same thing, there's more than just space, newline and tab.
+
+~~Whitespace, part two: is lack of support for Mac-style newlines (only `CR`) intentional?~~
+
+Numbers: you effectively specify two different types, floats and integers, then call them the same thing.
+
+Sections: You effectively contradict yourself on what is a higher level here:
+
+> ""It is not allowed to skip any level when going to higher/deeper levels, the levels must come in order when nesting to deeper levels. However, when returning to higher (shallower) levels it is allowed to skip levels.""
+
+Numbers, again: I'd like to see a separator, so I can write something like `10_000` for ten thousand. Whether it's underscore, single quote, or something else, doesn't matter much.
+
+Lists: I'm not a fan of allowing mixing types. Null could be an exception here, but a string array should be a string array. Not a mix of strings and numbers.
+
+Date and time: RFC3339. Recommend it's either UTC or local time zone.
+
+Invalid Sections or Keys: I don't like this part as a hard rule. In some use cases, it's nigh impossible to retain invalid keys. For example, when using the go-to Rust `serde` library I get either nice object mapping, or retaining invalid keys. I can't have both. A compliant specification would then need to be fully strict mode, and that may not be desirable.
+
+Semantic versioning: this section is incompatible with the spec hosted at [semver.org](https://semver.org/).
+
+Okay, I got two examples, that's probably it.
+
+While overall neat, and will likely support nested data structures better than TOML, I'm not a fan of the current section thing. At least recommend the sections be indented. As presented, the various section levels will be difficult to read. Your one differentiator from TOML (which is much closer to INI and already widely used) is good support for highly nested structures. But the way they're presented in examples (and this will highly influence usage), it'll be quite hard to read.
+
+In this example:
+
+```
+^ Settings
+theme = ""dark""
+language = ""en""
+
+^^ Display
+resolution = ""1920x1080""
+fullscreen = true
+```
+
+I'd prefer something like this, with or without the empty line.
+
+```
+^ Settings
+theme = ""dark""
+language = ""en""
+
+  ^^ Display
+  resolution = ""1920x1080""
+  fullscreen = true
+```
+
+Bonus trivia: the colon assignment reminded me of something I learned back in university. GNU Smalltalk supports using the underscore as an assignment operator. This came about because in ancient times (1970s or so) some terminals would render that character code as a left arrow, and it was used as such in the original Smalltalk.",2025-05-21T00:17:08Z,2,jaskij,programming,2025-05-26T04:04:03.329317Z
+mte1mqr,1krfccr,reddit,"It's great to see the Python LSP competition with BasedPyright, Ruff (Astral), Ty (Astral), and now Pyrefly (Meta).",2025-05-21T00:11:46Z,2,imbev,programming,2025-05-26T04:04:04.315580Z
+mtba7uc,1kqznkm,reddit,TL;DW?,2025-05-20T15:44:51Z,1,thicket,programming,2025-05-26T04:04:05.236851Z
+mrrpr5n,1kk0zxw,reddit,"The compiler errors only happening if the code is used was a deal breaker for me.
+
+I spent hours trying to make an API work, thought it was fine, and then couldn't even write basic unit tests without having to deal with name errors. I wish debug builds didn't do the dead code elimination or there was some flag to deal with it.
+
+I also don't like that you have to allocate the stack frame for recursion. Or I think you had to? Idk, never got around to unit tests for that part of my code because the compiler annoyed me too much.",2025-05-11T16:18:50Z,12,hugogrant,programming,2025-05-26T04:04:18.245289Z
+mrr64m5,1kk0zxw,reddit,"The author calls returning a result type ""novel"" so it's a bit hard to understand where they coming from with ""new direction""
+
+Personally I would say it's the opposite, Zig is certainly more ergonomic, but it's definitely in the same group as C/C++",2025-05-11T14:34:02Z,29,teerre,programming,2025-05-26T04:04:18.245294Z
+mrr6osq,1kk0zxw,reddit,"Zig could be great, but the ""no hidden control flow"" dogma is overly extreme and forbids incredibly useful features such as RAII and operator overloading from existing.
+
+And no, `defer` is not good enough.
+
+ I don't want to use a language in 2025 where I can forget to close a resource without any compilation warning/error and where I need to say `Matrix3x3Add(mat0, mat1)` instead of `mat0 + mat1`.",2025-05-11T14:37:09Z,38,SuperV1234,programming,2025-05-26T04:04:18.245296Z
+mrrtaoq,1kk0zxw,reddit,"This was already submitted yesterday, and the post hasn't gotten better.",2025-05-11T16:37:50Z,5,punkbert,programming,2025-05-26T04:04:18.245298Z
+mrt111g,1kk0zxw,reddit,"Zig is not even fully memory safe. It addresses some common C overflow issues, but falls short of Rust's capabilities. Zig was dropped for that reason alone when we discussed low-level languages for government use. We ended up with Rust.",2025-05-11T20:34:07Z,5,Bonejob,programming,2025-05-26T04:04:18.245301Z
+mrqv6il,1kk0zxw,reddit,Great another one,2025-05-11T13:29:10Z,5,echocage,programming,2025-05-26T04:04:18.245303Z
+mrrubpf,1kk0zxw,reddit,[Betteridge's law of headlines](https://en.wikipedia.org/wiki/Betteridge%27s_law_of_headlines).,2025-05-11T16:43:17Z,2,takanuva,programming,2025-05-26T04:04:18.245305Z
+mr37csm,1kh17cs,reddit,"I wrote a tool for multi-boxing in an MMORPG, does that count?",2025-05-07T16:19:16Z,8,ziplock9000,programming,2025-05-26T04:04:19.163211Z
+mr3iw5g,1kh17cs,reddit,\+1 from a random tumbleweed reader for 'pomodoro timer'. So often I forget about that technique. Having step-backs from time to time is \*so\* useful!,2025-05-07T17:14:33Z,3,quetzalcoatl-pl,programming,2025-05-26T04:04:19.163224Z
+mrw35nk,1kh17cs,reddit,"This article is like those recipe sites that start with a long ramble about the origins of the recipe lol
+
+Nothing you do in single player is cheating. Do what's fun.",2025-05-12T10:33:30Z,2,lmaydev,programming,2025-05-26T04:04:19.163232Z
+mrw05eo,1kh17cs,reddit,"Nice. I do the same thing too. I have Solvers for a couple of games. Fair warning -- some of these Solvers are being reworked, but they were working at least some time back, if not now.
+
+- Helltaker
+ - [Solver](https://github.com/davidalayachew/HelltakerPathFinder/)
+ - [Wikipedia](https://en.wikipedia.org/wiki/Helltaker)
+ - [Steam](https://store.steampowered.com/app/1289310/Helltaker/https://store.steampowered.com/app/1289310/Helltaker/)
+- Darkest Dungeon
+ - [Solver](https://github.com/davidalayachew/DarkestDungeonPathFinder)
+ - [Wikipedia](https://en.wikipedia.org/wiki/Darkest_Dungeon)
+ - [Steam](https://store.steampowered.com/app/262060/Darkest_Dungeon/)",2025-05-12T10:04:51Z,0,davidalayachew,programming,2025-05-26T04:04:19.163240Z
+mpvzftm,1kbkwlq,reddit,"But you don't have to couple to implementation details when writing unit tests. Use Chicago School and test the whole module as a black box. Avoid mocks. 
+
+In a big, very complex code integration tests gets too slow.",2025-04-30T18:54:50Z,4,steve-7890,programming,2025-05-26T04:04:21.928798Z
+mq6owc9,1kbkwlq,reddit,"I feel like this only works for naive APIs, where the inputs and outputs are the only thing you need to care about, and they fully represent the body of work that needs to be validated.  This feels like the exception and not the norm?  How is this useful when the API has side effects like:  creating or mutating data that is not surfaced in the response, calling a 3rd party service, or publishing to a message queue?  Asserting these actions take place has significant value and can't be understood with black box testing.",2025-05-02T12:29:57Z,1,CrispyFalafel,programming,2025-05-26T04:04:21.928811Z
+mpawnub,1k90mym,reddit,[deleted],2025-04-27T12:29:24Z,0,N/A,programming,2025-05-26T04:04:24.692667Z
+mp6zys5,1k8jmtn,reddit,"I thought this would be an article dissing C++ in favor of C, I did not expect it to be a about LLMs.",2025-04-26T19:19:46Z,14,ProductiveProgrammer,programming,2025-05-26T04:04:25.613679Z
+mssiyl7,1kohw51,reddit,Likes are now florps,2025-05-17T13:42:46Z,3,DocMcCoy,programming,2025-05-26T04:04:34.828776Z
+msojas5,1ko86u3,reddit,"""non-functional requirements"" are an really outdated concept. Performance, security, maintainability, ... those are all functional requirements. A system that does not perform, is not accessible, cannot evolve... that sure limits its functionality.
+
+The whole function, non-functional divide is more like customer requested feature vs customer expected feature divide. It's the ""what customer can be billed for"" vs the ""what the customer is already billed for"" discussion.",2025-05-16T19:51:18Z,1,elmuerte,programming,2025-05-26T04:04:35.856152Z
+msffwwj,1kn2iwi,reddit,"> Unlike centralized package managers such as npm or PyPI, the Go ecosystem's decentralized nature where modules are directly imported from GitHub repositories creates substantial confusion. Developers often encounter multiple similarly named modules with entirely different maintainers, as shown below. This ambiguity makes it exceptionally challenging to identify legitimate packages from malicious impostors, even when packages aren't strictly ""typosquatted."" Attackers exploit this confusion, carefully crafting their malicious module namespaces to appear trustworthy at a glance, significantly increasing the likelihood developers inadvertently integrate destructive code into their projects.
+
+Why would using GitHub make this problem worse than a dedicated central repository? I can think of two reasons (significantly smaller list of codebases for automatic tools to check, and less bureaucracy for ecosystem moderators to block malicious modules) but this is something the article needs to address and not leave as exercise to the reader.",2025-05-15T11:03:27Z,10,somebodddy,programming,2025-05-26T04:04:36.886487Z
+msqfc10,1kn2iwi,reddit,"Is this really typosquatting? The article never really says how these are supposed to get imported but it looks like they aren't trying to catch typos off another name, maybe just hoping that they get imported eventually as people find them via [pkg.go.dev](http://pkg.go.dev) or whatever.
+
+Also the comparison to npm and pypi is dumb, so those are 'centralised' but they've also had plenty of these kind of attacks too. Centralisation only helps if the central body vets everything, which turns out to be infeasible.",2025-05-17T02:40:50Z,2,BadlyCamouflagedKiwi,programming,2025-05-26T04:04:36.886500Z
+msgn71s,1kn2iwi,reddit,"YES LEFT-PAD GO TOO!!! Everyone needs to have their npm-inspired moment of exciting fame and fun.
+
+> even when packages aren't strictly ""typosquatted.""
+
+To be honest, I never found typosquatting to be one of the biggest problems. Anyone with a more dedicated stack should not fall victim to making any typo to begin with. If I have a list of dependencies and re-use it, typosquatting can not be a real problem. It could only be a problem for people who have too big fingers on small keyboards. How many companies face that issue?",2025-05-15T15:16:53Z,2,shevy-java,programming,2025-05-26T04:04:36.886509Z
+mrwh7p2,1kk5wap,reddit,"I definitely feel like unison will be one of those things that we look back on and say like, oh, unison had this 10 years ago. It feels like by rethinking some base concepts in programming. They've changed the game but also they've changed so much that I don't think I can practically use it. But I love the ideas.",2025-05-12T12:22:14Z,2,agbell,programming,2025-05-26T04:04:41.074977Z
+mrejncp,1kicz2q,reddit,"Do you really use this pattern in production regularly?
+
+I mean theoretically, this looks super nice, but in practice, I doubt it is worth the extra effort. 
+
+It either kind of breaks the Idea of self-contained components cause every parent component now has to be aware of the children's details to inject the dependencies.
+
+Or you have to go down the dependency injection rabbit hole and put decorators everywhere. This would feel very strange, like writing Java in typescript. Also, it can introduce possible runtime errors that were not there before.
+
+I encountered maybe 3 cases in which this pattern felt right in the last years.
+
+Most of the times the components that I would want to test in seperation, only have internal logic which needs no dependency inversion to test. E.g. A date picker widget.
+
+All other components that interfere with API's are usually light on logic and thus fine to be indirectly tested by e2e tests.
+
+But maybe there are also really good use cases that I just not have encountered, yet.",2025-05-09T11:43:41Z,8,maurice-doepke,programming,2025-05-26T04:04:42.101692Z
+mreg0ss,1kicz2q,reddit,"You've made the classic mistake of confusing Dependency Inversion with Dependency Injection. i.e. in your example, where's the inversion?",2025-05-09T11:16:19Z,3,brutal_seizure,programming,2025-05-26T04:04:42.101698Z
+mrpvdgw,1kicz2q,reddit,"Not sure I get it...
+
+I currently make an API file with named export for each of the functions. As long as each function doesn't rely on each other, you can just mock the whole file as if you were mocking a class.
+
+Dependency injection doesn't help much here. Jest allows you to ""jest.mock('./myapi')"" which will auto mock the whole module. Especially going through the props of the component making harder for devs to use a component because they need to provide the dependencies.
+
+I would use the react context API if I wanted to inject a dependency broadly through my components.
+
+In tests, you could just inject the mocked dependency in the provider then call it a day.",2025-05-11T08:10:37Z,1,HolyPommeDeTerre,programming,2025-05-26T04:04:42.101702Z
+mr7iivn,1khi4yh,reddit,`const enum`,2025-05-08T07:37:28Z,1,Blue_Moon_Lake,programming,2025-05-26T04:04:43.023448Z
+mpogrzn,1kaltns,reddit,Already posted https://old.reddit.com/r/programming/comments/1ka48nb/migrating_away_from_rust/,2025-04-29T15:58:46Z,2,IanAKemp,programming,2025-05-26T04:04:45.887952Z
+mpmej8m,1kafz3n,reddit,I still want those pesky issues off my mind. I'll close them with a nice remark to check and get back to me if the fix was not sufficient.,2025-04-29T07:19:58Z,3,Roi1aithae7aigh4,programming,2025-05-26T04:04:46.910772Z
+mpmhuig,1kafz3n,reddit,"Proper bug tracking systems (not GitHub) let the developer mark a bug as fixed and then let the reporter mark it as closed (or let them reopen it if they are unsatisfied).
+
+Admittedly such a system works better with dedicated QA personnel whose jobs are to report bugs and to verify fixes.  It'd work less well with public bug trackers where bug reporters are quite likely to fire-and-forget and can never be expected to verify fixes to close bugs.  Half the time it's hard enough trying to get them to respond to queries for more information.",2025-04-29T07:54:46Z,3,ozyx7,programming,2025-05-26T04:04:46.910779Z
+mpu0k13,1kafz3n,reddit,The traditional GitHub way is to never respond and let a bot close the ticket as 'stale' /s,2025-04-30T13:03:27Z,2,snack_case,programming,2025-05-26T04:04:46.910783Z
+mpc3733,1k94tu5,reddit,"I may be missing something, but this doesn't seem to make sense to me. You are asking GPT-4 whether some output produced by GPT-4 is correct? Why would the evaluator be any smarter?",2025-04-27T16:30:50Z,6,jdehesa,programming,2025-05-26T04:04:48.754369Z
+mtkpp8o,1ksd6wi,reddit,"I’m surprised there is no mention of continuations since they make implementing break/continue pretty trivial. As for C++, the author seems to have also forgotten about exceptions. You can implement break by just throwing an exception.
+
+The trickier thing to implement with these for-each methods is zipping two loops together. For those, you probably need real continuations/generators.",2025-05-22T00:50:39Z,0,slaymaker1907,programming,2025-05-26T04:04:50.769464Z
+mspen9j,1km1s7c,reddit,"why is there no relative reference type, e.g. +8 bytes from &self ? this would survive moves.",2025-05-16T22:43:36Z,1,RRumpleTeazzer,programming,2025-05-26T04:04:52.474752Z
+ms03x7y,1kkrsyl,reddit,"Please change the term ""sharding"", it generates too many damned jokes, [not unlike Uranus. ](https://www.youtube.com/watch?v=0czFnIvKOJY)",2025-05-12T23:43:11Z,1,Zardotab,programming,2025-05-26T04:04:54.191497Z
+mpioq3q,1k9zpgs,reddit,more like a Chain of Fools,2025-04-28T17:45:40Z,3,church-rosser,programming,2025-05-26T04:04:57.664172Z
+mpiq8f5,1k9ueum,reddit,What's old is new again.,2025-04-28T17:52:51Z,2,BlueGoliath,programming,2025-05-26T04:04:58.585506Z
+mu55c0t,1kuxzov,reddit,The repo: [https://github.com/LukasNiessen/oidc-explained](https://github.com/LukasNiessen/oidc-explained),2025-05-25T08:50:38Z,-21,trolleid,programming,2025-05-26T04:04:59.507733Z
+mtojma9,1ksvbip,reddit,"GitHub Repo: [https://github.com/hsimrat/my-hybrid-app](https://github.com/hsimrat/my-hybrid-app)
+
+Full Blog Post: [https://www.techscriptaid.com/en/blog/DevWorkflow-Automation-Hygen-Plop-CustomSnippets](https://www.techscriptaid.com/en/blog/DevWorkflow-Automation-Hygen-Plop-CustomSnippets)",2025-05-22T16:38:24Z,1,Harsimrat-Singh,programming,2025-05-26T04:05:06.002684Z
+mtc04u4,1kr1l9y,reddit,What’s our feeling in 2025 of sites that don’t have a mobile-friendly view?,2025-05-20T17:49:43Z,1,SaltineAmerican_1970,programming,2025-05-26T04:05:08.930352Z
+msxou2g,1kp6ucp,reddit,Why would lines of code be a metric of interest?,2025-05-18T10:53:57Z,3,Few-Satisfaction6221,programming,2025-05-26T04:05:10.780971Z
+mss9awm,1korfen,reddit,"Nice writeup.
+
+I might be old, but to me, every example with the walrus operator is harder to read and interpret than the ones without it. Fewer lines, yes, but still slightly harder to understand. It can accumulate in a larger code base.",2025-05-17T12:38:29Z,11,bitconvoy,programming,2025-05-26T04:05:12.835362Z
+mssrm18,1korfen,reddit,Good old Pascal (or actually ALGOL) times.,2025-05-17T14:34:07Z,3,elmuerte,programming,2025-05-26T04:05:12.835373Z
+mssdu2t,1korfen,reddit,I just realized its called the Walrus operator because it looks like one... all these years,2025-05-17T13:09:32Z,2,Valuable_Tomato_2854,programming,2025-05-26T04:05:12.835382Z
+mss7oy6,1korfen,reddit,is the variable available outside of the scope of the loop/if statement as well?,2025-05-17T12:26:53Z,1,some3uddy,programming,2025-05-26T04:05:12.835389Z
+mssgcau,1korfen,reddit,"I don't use Python much these days, but this does make me wonder - why is the regular assignment operator just not updated to produce a value? Is there some benefit from having a separate operator?
+
+(I'm guessing it's mainly BC issues?)",2025-05-17T13:26:02Z,1,jhartikainen,programming,2025-05-26T04:05:12.835397Z
+msq3pth,1ko24pm,reddit,"I don't want to be overly harsh, but can't say im a fan. Not saying it's bad, but i don't really see much benefit over using regular ini or toml. 
+
+using ^ or ~ as a section marker is less clear then brackets imo. [section] creates a pretty clear delineation of where the previous section ends and a new one begins. ^ section looks more like flowing text, which in dense files is easy to look over
+
+You say you have strict parsing mode (which is weird that the language spec defines how the parser should work), but don't explain what the actual difference is.
+
+You mention ""YAML's flexible boolean handling can result in unintended type coercion, as behavior varies between parsers."". But i feel like this should be an argument against the parsers, not the language.
+
+I don't want to badmouth your work here or anything since you clearly put a lot of effort in it. But for me personally, it's toml with different section markers.",2025-05-17T01:25:59Z,5,Arxae,programming,2025-05-26T04:05:15.575874Z
+msr8jgz,1ko24pm,reddit,"Is that really a problem that needed solving? If you just need a cleaner ini file, why not use yaml with only one level ? It's just as clean and is more flexible if ever you need something more complicated like a list",2025-05-17T06:45:10Z,1,dakotapearl,programming,2025-05-26T04:05:15.575893Z
+mstf31m,1ko24pm,reddit,"Just to add, - yes I know all about the 927 :P 
+
+
+https://xkcd.com/927/
+
+
+YINI main intention is not to replace existing formats, rather to be a complement to existing good formats already - though there is a small gap there that YINI tries to improve upon, so I need to be more clear about that (in the repo) :)
+
+
+Thanks for reading!",2025-05-17T16:41:38Z,1,Effective_Tune_6830,programming,2025-05-26T04:05:15.575907Z
+ms4ucaj,1klfkfo,reddit,[deleted],2025-05-13T18:23:08Z,7,N/A,programming,2025-05-26T04:05:18.460572Z
+ms62aem,1klfkfo,reddit,"I've been in places that have used long lived feature branches and I'm not a fan. The integration is always messy and the chances of breaking things during that merge are HIGH.
+
+Almost every shop I've been to that used this type of strategy also relied heavily on manual testing. Automated testing is far superior, in my opinion, and helps ensure you can delivery continually.
+
+The ideal setup I've found (for most SaaS companies) is a continual delivery pipeline:
+- every PR merges to `main` and deploys straight to prod
+- automated testing is CRITICAL here
+- feature flags for everything
+- code can be ""tested"" in live environments way easier
+- if something breaks, it's easy to detect when and where, and rollback that specific change
+
+Most of the benefits come from deploying lots of small commits and constantly monitoring your app. The feature flags help make this a reality. They're just a necessary part of continual integration.",2025-05-13T21:59:32Z,4,TheCritFisher,programming,2025-05-26T04:05:18.460587Z
+ms6eej4,1klfkfo,reddit,Or just use feature flags to gate the features of the epic and save yourself a lot of trouble,2025-05-13T23:07:40Z,1,hammonjj,programming,2025-05-26T04:05:18.460595Z
+ms20bko,1klfk7y,reddit,No love for Nix here?,2025-05-13T07:48:49Z,-3,klaasvanschelven,programming,2025-05-26T04:05:19.475582Z
+ms1azde,1klb7xi,reddit,"For a number of years now, work has been proceeding in order to bring perfection to the crudely conceived idea of a transmission that would not only supply inverse reactive current for use in unilateral phase detractors, but would also be capable of automatically synchronizing cardinal grammeters. Such an instrument is the turbo encabulator.",2025-05-13T04:04:27Z,-1,CloudandCodewithTori,programming,2025-05-26T04:05:20.364356Z
+mryeshk,1kkz73p,reddit,"You describe three programming paradigms, and lost me up front.
+
+There are plenty of declarative language semantics out there that aren't listed. You also seem to be simultaneously ignoring and conflating the various imperative paradigms.",2025-05-12T18:24:07Z,10,N/A,programming,2025-05-26T04:05:21.319776Z
+mryuf5l,1kkz73p,reddit,"```
+(let ((statement (list 'some 'purely 'functional 'languages 'like '[...] 'Lisp)))
+  (set-car! (member 'like statement) 'BULLSHIT)
+  (set-cdr! (member 'BULLSHIT statement) (member 'BULLSHIT statement))
+  statement)
+```",2025-05-12T19:42:10Z,5,PerceptionWinter3674,programming,2025-05-26T04:05:21.319791Z
+mrzmy3p,1kkz73p,reddit,"I mean, I guess the point of programming paradigms (or, more generally, higher-level abstractions) adding restrictions instead of removing them is kind of right, in a sense, but also a bit of a moot point. It should be obvious that no programming paradigm can ever be more ""powerful"" than writing assembly, there are only so many things a CPU can do. But the argument is a bit like saying that using a ruler takes away power from you, because, without a ruler, you can do straight and non-straight lines. The advantage of any programming paradigm is not that it prevents you from doing something (though that is definitely important), but that it gives you more _expressive_ power. You are given a readily set of proven building blocks that you can confidently use, and that other people will understand when you use them.",2025-05-12T22:07:55Z,2,jdehesa,programming,2025-05-26T04:05:21.319800Z
+mrywy7l,1kkz73p,reddit,"Short metaphor: use fork for spaghetti and use spoon for soup. Sometimes screwdriver replaces hammer, but hammer was made to knock down nails.",2025-05-12T19:54:48Z,1,HaskellLisp_green,programming,2025-05-26T04:05:21.319808Z
+mrymkse,1kkz73p,reddit,"Here is the repo, it’s always up to date with examples etc: https://github.com/LukasNiessen/programming-paradigms-explained :-)",2025-05-12T19:02:34Z,-3,trolleid,programming,2025-05-26T04:05:21.319816Z
+mryv8ew,1kky0p5,reddit,Any way to read this without a login/paywall? ,2025-05-12T19:46:16Z,4,R4vendarksky,programming,2025-05-26T04:05:22.343033Z
+ms1bh3c,1kky0p5,reddit,QuillBot reports 100% AI generated slop.,2025-05-13T04:08:00Z,2,Cube00,programming,2025-05-26T04:05:22.343045Z
+mtfy8g6,1kky0p5,reddit,"Static Assets should be served as Static Assets, not stored and served from R2. You're wasting resources (and $) by doing so.
+
+[https://developers.cloudflare.com/workers/static-assets/](https://developers.cloudflare.com/workers/static-assets/)",2025-05-21T08:58:23Z,1,Chinoman10,programming,2025-05-26T04:05:22.343053Z
+mrnn5ji,1kjfh9t,reddit,"Other commenters are no fun; yes it might seem pointless to you the dear reader - but it's fun to go on the journey.
+
+All of my learning is done because I did something fun like this.
+
+Great read!",2025-05-10T22:06:37Z,7,SikhGamer,programming,2025-05-26T04:05:26.848049Z
+mrmmld6,1kjfh9t,reddit,"Reducing the loading time from the already-fast 0.45 seconds is meaningless because our reaction time is 0.3 seconds anyway and then you need to start thinking about what to type.
+
+
+It's not like we need to load the terminal multiple times per second.  Any perceived improvement in productivity is simply the placebo effect.",2025-05-10T18:34:08Z,4,Determinant,programming,2025-05-26T04:05:26.848064Z
+mrmz43j,1kjfh9t,reddit,Size does matter,2025-05-10T19:46:19Z,1,Positive_Method3022,programming,2025-05-26T04:05:26.848073Z
+mrmx0b9,1kjfh9t,reddit,or just switch to fish.,2025-05-10T19:34:03Z,0,SltLt,programming,2025-05-26T04:05:26.848082Z
+mrmqlnd,1kjfh9t,reddit,"I only have to let it load like once week, when I boot my machine I open a terminal with 4 splits and good chance I am not turning anything off for at least a week. So not really sure what the benefit of spending hours on a very infrequent less than a second wait.",2025-05-10T18:56:56Z,-2,passerbycmc,programming,2025-05-26T04:05:26.848091Z

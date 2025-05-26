@@ -1,0 +1,350 @@
+﻿content_id,platform,title,content,created_at,source_id,source_name,category_id,category_name,tags,views,score,comment_count,duration,upvote_ratio,url,author,crawl_time
+1kbus5m,reddit,Simplify[0].Base: Back to basics by simplifying our IR,,2025-04-30T23:37:46Z,programming,programming,technology,Technology,[],0,1,0,,0.67,https://thunderseethe.dev/posts/simplify-base/,thunderseethe,2025-05-26T04:02:16.500519Z
+1kbswct,reddit,passt - Plug A Simple Socket Transport,,2025-04-30T22:09:57Z,programming,programming,technology,Technology,[],0,1,0,,0.6,https://passt.top/passt/about/,ketralnis,2025-05-26T04:02:17.430857Z
+1kbsvps,reddit,Co-dfns versus BQN's implementation,,2025-04-30T22:09:10Z,programming,programming,technology,Technology,[],0,1,1,,1.0,https://mlochbaum.github.io/BQN/implementation/codfns.html,ketralnis,2025-05-26T04:02:18.324538Z
+1kbnskx,reddit,Problem with React Update Model,,2025-04-30T18:33:16Z,programming,programming,technology,Technology,[],0,1,0,,0.57,https://blog.bloomca.me/2025/04/20/problem-with-react-update-model.html,ketralnis,2025-05-26T04:02:19.204641Z
+1kb32av,reddit,Implement Decorator Pattern For Online Payment System,,2025-04-30T00:09:29Z,programming,programming,technology,Technology,[],0,1,3,,0.53,https://javabulletin.substack.com/p/implement-decorator-pattern-for-online,Educational-Ad2036,2025-05-26T04:02:20.267356Z
+1kb1md6,reddit,Export Google Analytics data to Sheets via Apps Script,,2025-04-29T23:01:03Z,programming,programming,technology,Technology,[],0,1,0,,0.6,https://technicalwriting.dev/analytics/sheets.html,kaycebasques,2025-05-26T04:02:21.190610Z
+1kay5m1,reddit,protoc-gen-go-mcp: Go protobuf compiler extension to turn any gRPC service into an MCP server,,2025-04-29T20:32:32Z,programming,programming,technology,Technology,[],0,1,0,,0.67,https://github.com/redpanda-data/protoc-gen-go-mcp,birdayz,2025-05-26T04:02:22.029415Z
+1karp34,reddit,Building with purpose 5: Configuring Husky for commit linting,,2025-04-29T16:07:32Z,programming,programming,technology,Technology,[],0,1,0,,1.0,https://www.jordi-olle.com/blog/building-with-purpose-5-configuring-husky-for-commit-linting,jordiolle11,2025-05-26T04:02:22.889022Z
+1kajpm0,reddit,Expose home server with Rathole tunnel and Traefik,"Hello everyone.
+
+I wrote a straightforward guide for everyone who wants to experiment with self-hosting websites from home but is unable to because of the lack of a public, static IP address. The reality is that most consumer-grade IPv4 addresses are behind CGNAT, and IPv6 is still not widely adopted.
+
+Code is also included, you can run everything and have your home server available online in less than 30 minutes, whether it is a virtual machine, an LXC container in Proxmox, or a Raspberry Pi - anywhere you can run Docker.
+
+I used Rathole for tunneling due to performance reasons and Docker for flexibility and reusability. Traefik runs on the local network, so your home server is tunnel-agnostic.
+
+Here is the link to the article:
+
+https://nemanjamitic.com/blog/2025-04-29-rathole-traefik-home-server
+
+Have you done something similar yourself, did you take a different tools and approaches? I would love to hear your feedback.",2025-04-29T09:23:34Z,programming,programming,technology,Technology,[],0,1,0,,1.0,https://nemanjamitic.com/blog/2025-04-29-rathole-traefik-home-server,nemanja_codes,2025-05-26T04:02:23.750751Z
+1kajk0g,reddit,Difference Between Implicit and Explicit Cursor in Oracle PLSQL,,2025-04-29T09:11:41Z,programming,programming,technology,Technology,[],0,1,0,,0.66,https://www.javainhand.com/2025/04/difference-between-implicit-and-explicit-cursor-in-oracle-plsql.html,apexysatish,2025-05-26T04:02:24.670863Z
+1ka6jhz,reddit,Running Clojure in WASM with GraalVM,,2025-04-28T21:03:34Z,programming,programming,technology,Technology,[],0,1,0,,0.6,https://romanliutikov.com/blog/running-clojure-in-wasm,ketralnis,2025-05-26T04:02:25.592651Z
+1ka4md7,reddit,Cattle vs. Pets,,2025-04-28T19:43:42Z,programming,programming,technology,Technology,[],0,2,2,,0.58,https://www.youtube.com/watch?v=pzoBbFIEH3I,cube-drone,2025-05-26T04:02:26.462773Z
+1k9ohhu,reddit,Unlocking Ractors: Object_id,,2025-04-28T05:55:31Z,programming,programming,technology,Technology,[],0,1,0,,1.0,https://byroot.github.io/ruby/performance/2025/04/26/unlocking-ractors-object-id.html,ketralnis,2025-05-26T04:02:27.333677Z
+1k8i3wz,reddit,McEliece standardization,,2025-04-26T17:19:14Z,programming,programming,technology,Technology,[],0,1,1,,0.56,https://blog.cr.yp.to/20250423-mceliece.html,ketralnis,2025-05-26T04:02:28.254656Z
+1k8fz2b,reddit,VernamVeil: A Fresh Take on Function-Based Encryption,"I've open-sourced VernamVeil, an experimental cipher written in pure Python, designed for developers curious about cryptography’s inner workings. It’s only about 200 lines of Python code with no external dependencies other than standard Python libraries.   
+
+
+VernamVeil was built as a learning exercise by someone outside the cryptography field. If you happen to be a cryptography expert, **I would deeply appreciate any constructive criticism**. :)",2025-04-26T15:47:18Z,programming,programming,technology,Technology,[],0,1,6,,0.53,https://blog.datumbox.com/vernamveil-a-fresh-take-on-function-based-encryption/,datumbox,2025-05-26T04:02:29.135092Z
+1k8f6t4,reddit,From Docker to WebAssembly,,2025-04-26T15:12:15Z,programming,programming,technology,Technology,[],0,3,0,,0.61,https://boxer.dev/,BlaiseLabs,2025-05-26T04:02:30.099542Z
+1k8ct03,reddit,Electric Clojure in 5 minutes — Systems Distributed 2024 (with transcript),,2025-04-26T13:20:41Z,programming,programming,technology,Technology,[],0,1,0,,0.57,https://share.descript.com/view/nJkFVXo15lM,dustingetz,2025-05-26T04:02:31.224261Z
+1k8859g,reddit,An open community-run domain registry,"Pushed my weekend project live.
+
+Calling it ""**The Domains Project**"".
+
+It offers free subdomains under domains we manage.
+
+Like this: [http://\[username\].owns.it.com](http://owns.it.com/)
+
+Everything’s open-source and managed on [Github](https://github.com/domainsproject/register).
+
+Best part? New domains can be added by the community.
+
+Please feel free to put a star on the repo + grab your own space.",2025-04-26T08:23:21Z,programming,programming,technology,Technology,[],0,1,0,,0.57,https://github.com/domainsproject/register,getemtanvir,2025-05-26T04:02:32.145930Z
+1kv4sq8,reddit,"Lamber is a minimalist functional programming language with a focus on graspability, readability… and compilation to pure untyped Lambda Calculus",,2025-05-25T15:09:05Z,programming,programming,technology,Technology,[],0,0,4,,0.5,https://github.com/aartaka/lamber,mooreds,2025-05-26T04:02:33.067851Z
+1kuwh48,reddit,🚀 Just Built a High-Performance Java Library for Multi-threaded File Processing – Feedback Welcome!,"Hey folks,  
+I just released a new Java library: `SmartFileProcessor`. It's designed for **high-throughput, multithreaded file processing** with configurable batching, line/batch processors, and in-depth thread-level stats (JSON/CSV/human-readable output).
+
+🧵 Features:
+
+* Multi-threaded processing with backpressure
+* Buffered + batched writes with async flushes
+* Pluggable `LineProcessor` or `BatchProcessor`
+* Export runtime performance metrics (JSON/CSV)
+* Tracks memory, wall-clock time, thread-level timing
+
+Perfect for large log files, ETL workflows, and pre-processing pipelines.
+
+📦 GitHub:  [https://github.com/MayankPratap/Samchika](https://github.com/MayankPratap/Samchika)  
+✨ Would love feedback, issues, PRs, or just thoughts!
+
+\#Java #Multithreading #Performance #OpenSource",2025-05-25T07:04:27Z,programming,programming,technology,Technology,[],0,0,2,,0.5,https://github.com/MayankPratap/Samchika,SatyamEvaJayat,2025-05-26T04:02:33.990553Z
+1ku5v3p,reddit,Deadlocks in Go: the dark side of concurrency,,2025-05-24T07:23:57Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://www.craig-wood.com/nick/articles/deadlocks-in-go/,ketralnis,2025-05-26T04:02:34.913388Z
+1ktxzm4,reddit,New Privacy Principles for a more trustworthy web,,2025-05-23T23:43:19Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://www.w3.org/blog/2025/new-privacy-principles-for-a-more-trustworthy-web/,namanyayg,2025-05-26T04:02:35.832065Z
+1ktxyik,reddit,Loading Pydantic models from JSON without running out of memory,,2025-05-23T23:41:42Z,programming,programming,technology,Technology,[],0,1,0,,0.56,https://pythonspeed.com/articles/pydantic-json-memory/,namanyayg,2025-05-26T04:02:36.753587Z
+1ktqhvh,reddit,Syntactic musings on match expressions,,2025-05-23T18:13:34Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://blog.yoshuawuyts.com/syntactic-musings-on-match-expressions/,mooreds,2025-05-26T04:02:37.675649Z
+1ktp4gd,reddit,OpenAI: Scaling PostgreSQL to the Next Level,,2025-05-23T17:18:04Z,programming,programming,technology,Technology,[],0,0,3,,0.47,https://www.pixelstech.net/article/1747708863-openai%3a-scaling-postgresql-to-the-next-level,ketralnis,2025-05-26T04:02:38.546303Z
+1ktl50g,reddit,"TargetJS: Unifying UI Dev – Animations, State, APIs","
+
+TargetJS offers a fresh approach in UI Dev: a single unifying consistent approach for animations, state management, APIs, event handling.
+
+We've designed TargetJS around a few core ideas:
+
+* Variables and methods are unified via an internal wrapper called ""targets.""
+* Execute targets sequentially and predictably in the order they are written leveraging ES2015's guaranteed property order.
+* Enable functional pipelines between adjacent targets.
+* Add lifecycles targets enabling them to behave like living, responsive cells.
+
+Here's a quick example of a growing and shrinking box, first in JS and then its pure HTML equivalent:
+
+    import { App } from ""targetj"";
+    
+    App({
+        background: ""mediumpurple"",
+        // width animates through 100 → 250 → 100, over 50 steps, 10ms interval
+        width: [{ list: [100, 250, 100] }, 50, 10], 
+        // `$` creates a reactive pipeline: the `height` updates each time `width` executes
+        _height$() { 
+          return this.prevTargetValue / 2;
+        } 
+    });
+
+Or in HTML using tg- attributes that mirror object literal keys:
+
+    <div
+       tg-background=""mediumpurple""
+       tg-width=""[{ list: [100, 250, 100] }, 50, 10]""
+       tg-height$=""return this.prevTargetValue / 2;"">
+    </div>
+
+Ready to see it in action or learn more?
+
+[https://github.com/livetrails/targetjs](https://github.com/livetrails/targetjs)",2025-05-23T14:35:56Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://github.com/livetrails/targetjs,Various-Beautiful417,2025-05-26T04:02:39.521510Z
+1ktb86q,reddit,Complex Defaults,,2025-05-23T04:51:10Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://gebna.gg/blog/complex-defaults.html,GebnaTorky,2025-05-26T04:02:40.439982Z
+1kt3cu0,reddit,Visualizing Financial Data with DuckDB And Plotly,,2025-05-22T22:04:08Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://pgrs.net/2025/05/22/visualizing-financial-data-with-duckdb-and-plotly/,pgr0ss,2025-05-26T04:02:41.366460Z
+1ksz7y6,reddit,Understanding BLE Advertising and How to make it with the tool,,2025-05-22T19:14:07Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://www.bleuio.com/blog/understanding-ble-advertising-and-how-bleuio-makes-it-easy/,bleuio,2025-05-26T04:02:42.283112Z
+1ksukhp,reddit,"Whippet GC notes on Guile, heuristics, and heap growth",,2025-05-22T16:07:45Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://wingolog.org/archives/2025/05/22/whippet-lab-notebook-guile-heuristics-and-heap-growth,ketralnis,2025-05-26T04:02:43.204598Z
+1ksufyi,reddit,Adventures in Symbolic Algebra with Model Context Protocol,,2025-05-22T16:02:48Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://www.stephendiehl.com/posts/computer_algebra_mcp/,ketralnis,2025-05-26T04:02:44.125817Z
+1ksp69n,reddit,Multi-Leader Replication in 1 diagram and 229 words,,2025-05-22T12:15:03Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://www.systemdesignbutsimple.com/p/multi-leader-replication-in-1-diagram-and-229-words,stmoreau,2025-05-26T04:02:45.047543Z
+1ksfaxn,reddit,Question Driven Development,,2025-05-22T01:56:51Z,programming,programming,technology,Technology,[],0,0,1,,0.5,https://kinduff.com/2025/05/22/question-driven-development/,kinduff,2025-05-26T04:02:45.883151Z
+1ksaftc,reddit,"Why we'd like to compile Gren to WebAssembly, and how we'll get there [video]",,2025-05-21T22:00:00Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://www.youtube.com/watch?v=OCpzEw4T5bA,ketralnis,2025-05-26T04:02:46.788967Z
+1ksadyy,reddit,Writing into Uninitialized Buffers in Rust,,2025-05-21T21:57:46Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://blog.sunfishcode.online/writingintouninitializedbuffersinrust/,ketralnis,2025-05-26T04:02:47.632355Z
+1ks6dv0,reddit,Defining Your Paranoia Level: Navigating Change Without the Overkill,,2025-05-21T19:14:31Z,programming,programming,technology,Technology,[],0,0,0,,0.42,https://www.architecture-weekly.com/p/defining-your-paranoia-level-navigating,Adventurous-Salt8514,2025-05-26T04:02:48.631566Z
+1krlttp,reddit,Day 24: Combine Node.js Streams with Async Operations Like a Pro,,2025-05-21T01:27:45Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://blog.stackademic.com/day-24-combine-node-js-streams-with-async-operations-like-a-pro-563a233b3446,MysteriousEye8494,2025-05-26T04:02:49.479274Z
+1krfm87,reddit,A simple search engine from scratch,,2025-05-20T20:41:27Z,programming,programming,technology,Technology,[],0,0,1,,0.5,https://bernsteinbear.com/blog/simple-search/,namanyayg,2025-05-26T04:02:50.327179Z
+1krfb8k,reddit,A shower thought turned into a Collatz visualization,,2025-05-20T20:28:57Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://abstractnonsense.com/collatz/,namanyayg,2025-05-26T04:02:51.297272Z
+1krbneb,reddit,Node.js memory limits visualized,,2025-05-20T18:01:56Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://github.com/csabapalfi/node-memory-limits,csabapalfi,2025-05-26T04:02:52.215263Z
+1kr9zw1,reddit,Kicking the Tires on CedarDB's SQL,,2025-05-20T16:58:03Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://buttondown.com/jaffray/archive/kicking-the-tires-on-cedardbs-sql/,ketralnis,2025-05-26T04:02:53.044900Z
+1kqn8ax,reddit,Telum II at Hot Chips 2024: Mainframe with a Unique Caching Strategy,,2025-05-19T21:06:31Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://chipsandcheese.com/p/telum-ii-at-hot-chips-2024-mainframe-with-a-unique-caching-strategy,ketralnis,2025-05-26T04:02:54.185307Z
+1knep30,reddit,Making Sense of Lambda Calculus 5: Bring Computation to (Aggregate) Data,,2025-05-15T17:53:47Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://aartaka.me/lambda-5.html,aartaka,2025-05-26T04:02:55.020488Z
+1kkvwia,reddit,Final call for submissions: Join us at the workshop on Computational Design and Computer-Aided Creativity,,2025-05-12T15:48:54Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://computationalcreativity.net/workshops/computational-design-iccc25/,sergiommrebelo,2025-05-26T04:02:55.904363Z
+1kkobvz,reddit,TanStack Query RFC: Unified Imperative Query Methods,,2025-05-12T09:35:42Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://github.com/TanStack/query/discussions/9135,Emotional-Plum-5970,2025-05-26T04:02:56.925793Z
+1kkivkq,reddit,"📦 Comparing static binary sizes & memory of ""Hello, World!"" programs across languages using ❄️ Nix + Flakes.",,2025-05-12T03:30:41Z,programming,programming,technology,Technology,[],0,1,11,,0.52,https://github.com/rezigned/hello-world-sizes,rezigned,2025-05-26T04:02:57.847465Z
+1kipdhg,reddit,Lazarus Release 4.0,,2025-05-09T18:16:52Z,programming,programming,technology,Technology,[],0,2,8,,0.51,"https://forum.lazarus.freepascal.org/index.php/topic,71050.0.html",sysrpl,2025-05-26T04:02:58.827299Z
+1kg88g8,reddit,Code Lifecycles,,2025-05-06T16:03:11Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://saewitz.com/code-lifecycles,switz213,2025-05-26T04:02:59.794601Z
+1kg27y1,reddit,Exploring Apache Kafka Internals and Codebase,,2025-05-06T11:35:59Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://cefboud.com/posts/exploring-kafka-internals,Active-Fuel-49,2025-05-26T04:03:00.714215Z
+1kfzrp9,reddit,"Smaller, faster serialization for Ruby apps and beyond!",,2025-05-06T08:55:36Z,programming,programming,technology,Technology,[],0,0,1,,0.5,https://oldmoe.blog/2025/05/05/smaller-faster-serialization-for-ruby-apps-and-beyond/,Kabra___kiiiiiiiid,2025-05-26T04:03:01.637711Z
+1kfkg78,reddit,Tool for dynamically managing Cookies and URL Parameters,I made this script that adds dynamic functionality to managing URL parameters and cookies in HTML and JavaScript.,2025-05-05T19:25:22Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://github.com/MineFartS/JS-Data-Manager/,philtrondaboss,2025-05-26T04:03:02.557913Z
+1kf6slk,reddit,Handling real-time two-way voice translation in SwiftUI using AVFoundation + Combine,"Hi all,  
+I’ve been working on a voice translator app in SwiftUI and wanted to share some of the implementation details that might be relevant to others working with real-time audio processing or conversational UI.
+
+**Key technical aspects:**
+
+* Built entirely in **SwiftUI** with **Combine** managing real-time state and UI updates.
+* **AVFoundation** is used for continuous speech recognition and synthesis.
+* I integrated **CoreHaptics** to provide tactile feedback during mic activation — similar to how Apple’s own apps behave.
+* Custom layout challenges: managing mirrored text and interactive zones for each user on a shared screen (like a dual-sided conversation).
+* Optimized for iPhone and iPad with reactive layout resizing.
+* Localization pipeline handles 40+ languages, fallback handling, and preview simulation using mock data.
+
+I’m particularly interested in how others have approached:
+
+* Real-time translation pipelines
+* Efficient Combine usage in audio-heavy apps
+* Haptic coordination in conversational UIs
+
+Would love to hear thoughts or improvements if you’ve done similar work. No app store links here — just keen to nerd out on the architecture and share ideas.",2025-05-05T08:47:14Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://gist.github.com/Jash-Balar/bc1d6b4d464e77af8cffe41433397040#file-swiftui-voice-translator-md,Intelligent_iOS,2025-05-26T04:03:03.403508Z
+1kelags,reddit,Data Cleaning Process Modeling with BPMN and BizAgi,,2025-05-04T14:36:32Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://jorgealexandervalencia.hashnode.dev/data-cleaning-process-modeling-with-bpmn-and-bizagi,Same_Durian4197,2025-05-26T04:03:04.405136Z
+1kehlub,reddit,DCP – A Protocol to Generate APIs from Contracts (No OpenAPI or Postman Needed),"We ran into recurring friction when onboarding new services and clients through OpenAPI, Swagger, or Postman collections — especially when dealing with dynamic endpoints, auth policies, and evolving schema versions.
+
+
+
+So we built DCP: a lightweight protocol that allows APIs to be generated at runtime from contracts, instead of relying on static definitions.
+
+
+
+Clients send a \`ContractMessage\`. The server replies with an \`Acknowledgment\`, which includes everything required to interact with the API — endpoint definitions, auth policy, test data, and more.
+
+
+
+\*\*Highlights:\*\*
+
+\- Supports REST, GraphQL, and OData
+
+\- Works with JWT, API Key, and ABAC/RBAC policy models
+
+\- Includes built-in support for test automation and contract compliance
+
+
+
+GitHub: [https://github.com/gokayokutucu/dcp-spec](https://github.com/gokayokutucu/dcp-spec)
+
+
+
+We’re actively refining the protocol and would appreciate feedback or discussion — especially from teams dealing with multi-environment onboarding, client SDK generation, or similar challenges.",2025-05-04T11:26:59Z,programming,programming,technology,Technology,[],0,0,5,,0.5,https://gokayokutucu.github.io/dcp-spec/,okutucu,2025-05-26T04:03:05.531992Z
+1kdd1gn,reddit,Starting on seamless C++ interop in jank,,2025-05-02T21:57:49Z,programming,programming,technology,Technology,[],0,0,1,,0.5,https://jank-lang.org/blog/2025-05-02-starting-seamless-interop/,ketralnis,2025-05-26T04:03:06.449923Z
+1kcc5bk,reddit,Understanding Kafka KRaft: How Controllers and Brokers Talk in the Zookeeper-less World,,2025-05-01T15:53:26Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://medium.com/@katyagorshkova/understanding-kafka-kraft-how-controllers-and-brokers-talk-in-the-zookeeper-less-world-a5e05a063f34,ketralnis,2025-05-26T04:03:07.371191Z
+1kcc4v7,reddit,A quick demo of core.async.flow (Clojure),,2025-05-01T15:52:54Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://youtu.be/lXFwf3O4BVY,ketralnis,2025-05-26T04:03:08.291841Z
+1kc5p77,reddit,TBMQ 2.1 levels up your MQTT stack with embedded integrations and Helm support,,2025-05-01T10:46:16Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://thingsboard.io/blog/tbmq-2-1-new-chapter-in-mqtt-messaging-with-embedded-integrations/,dlandiak,2025-05-26T04:03:09.213541Z
+1kbns0u,reddit,Sharding a real Rails app,,2025-04-30T18:32:38Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://pgdog.dev/blog/sharding-a-real-rails-app,ketralnis,2025-05-26T04:03:10.238321Z
+1kbnroo,reddit,Swarm Testing Data Structures,,2025-04-30T18:32:16Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://tigerbeetle.com/blog/2025-04-23-swarm-testing-data-structures/,ketralnis,2025-05-26T04:03:11.158886Z
+1kapezq,reddit,ClickHouse and OpenTelemetry,,2025-04-29T14:33:25Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://clickhouse.com/blog/clickhouse-and-open-telemtry,mmaksimovic,2025-05-26T04:03:12.080568Z
+1kafyha,reddit,How I Solved the Expression Problem,,2025-04-29T04:56:44Z,programming,programming,technology,Technology,[],0,0,5,,0.5,https://gavinhoward.com/2025/04/how-i-solved-the-expression-problem/,gavinhoward,2025-05-26T04:03:13.002259Z
+1kaaxwp,reddit,How to Create Custom Field Validator Annotation In Java,,2025-04-29T00:23:47Z,programming,programming,technology,Technology,[],0,0,0,,0.43,https://javabulletin.substack.com/p/how-to-create-custom-field-validator-e63,Educational-Ad2036,2025-05-26T04:03:13.909205Z
+1k9op6q,reddit,DataFusion - The Database Building Toolkit,,2025-04-28T06:10:07Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://www.youtube.com/watch?v=8QNNCr8WfDM,ketralnis,2025-05-26T04:03:14.844073Z
+1k9oo7x,reddit,"Past, Present, and Future of Sorbet Type Syntax",,2025-04-28T06:08:12Z,programming,programming,technology,Technology,[],0,0,1,,0.5,https://blog.jez.io/history-of-sorbet-syntax/,ketralnis,2025-05-26T04:03:15.766427Z
+1k8i2o6,reddit,"K Slices, K Dices",,2025-04-26T17:17:45Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://beyondloom.com/blog/slicedice.html,ketralnis,2025-05-26T04:03:16.687446Z
+1kttxt5,reddit,"Building WebRTC in PHP — A Four-Month Journey of Asynchronous Struggles, Shared Libraries, and Teamwork","The challenges we faced, how we overcame them, and what comes next.",2025-05-23T20:38:27Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://medium.com/@AminYazdanpanah/how-we-built-webrtc-in-php-a-four-month-journey-of-asynchronous-struggles-shared-libraries-and-38fb7c414c1d,RefrigeratorOk3257,2025-05-26T04:03:17.608803Z
+1ktm6rk,reddit,How to write (and read) a bug report,,2025-05-23T15:18:58Z,programming,programming,technology,Technology,[],0,0,0,,0.4,https://badsoftwareadvice.substack.com/p/how-to-write-and-read-a-bug-report,mixteenth,2025-05-26T04:03:18.640939Z
+1ksjztb,reddit,Let's make a game! 266: Initiative: using attributes to resolve ties,,2025-05-22T06:32:31Z,programming,programming,technology,Technology,[],0,0,0,,0.4,https://www.youtube.com/watch?v=MOZGgL5gTfU,apeloverage,2025-05-26T04:03:19.555816Z
+1krdxje,reddit,Red Programming Language,,2025-05-20T19:32:58Z,programming,programming,technology,Technology,[],0,0,0,,0.43,https://www.red-lang.org/p/about.html,ketralnis,2025-05-26T04:03:20.477136Z
+1kqcw7c,reddit,The Journey Behind Meeting Schedule Assistant - TruckleSoft,,2025-05-19T14:20:10Z,programming,programming,technology,Technology,[],0,0,0,,0.33,https://trucklesoft.org.uk/2025/04/25/the-journey-behind-meeting-schedule-assistant/,N/A,2025-05-26T04:03:21.398451Z
+1kq4otb,reddit,Building Long-Term memories using hierarchical summarization,,2025-05-19T06:14:31Z,programming,programming,technology,Technology,[],0,0,0,,0.33,https://pieces.app/blog/hierarchical-summarization?utm_source=reddit&utm_medium=referral&utm_campaign=r47,Party-Tower-5475,2025-05-26T04:03:22.320262Z
+1knx0ic,reddit,RouteSage - Auto-generate Docs for your FastAPI projects,"I have just built RouteSage as one of my side project. Motivation behind building this package was due to the tiring process of manually creating documentation for FastAPI routes. So, I thought of building this and this is my first vibe-coded project.
+
+My idea is to set this as an open source project so that it can be expanded to other frameworks as well and more new features can be also added.
+
+Feel free to contribute to this project. Also this is my first open source project as a maintainer so your suggestions and tips would be much appreciated. 
+
+This is my first project I’m showcasing on Reddit. Your suggestions and validations are welcomed.",2025-05-16T09:58:28Z,programming,programming,technology,Technology,[],0,0,2,,0.45,https://github.com/dijo-d/RouteSage,Creative-Shoulder472,2025-05-26T04:03:23.241562Z
+1knc5xi,reddit,Day 23: Build Your Own Custom Transform Stream in Node.js,,2025-05-15T16:12:29Z,programming,programming,technology,Technology,[],0,0,0,,0.4,https://blog.stackademic.com/day-23-build-your-own-custom-transform-stream-in-node-js-9b2be484405d,MysteriousEye8494,2025-05-26T04:03:24.164075Z
+1kn2bqt,reddit,💥 Tech Talks Weekly #59: 🆕 Devoxx UK 2025 and many more!,,2025-05-15T07:31:28Z,programming,programming,technology,Technology,[],0,0,0,,0.4,https://www.techtalksweekly.io/p/tech-talks-weekly-59-devoxx-uk-2025,TechTalksWeekly,2025-05-26T04:03:25.084996Z
+1klhhah,reddit,A programming language made for me,,2025-05-13T09:18:45Z,programming,programming,technology,Technology,[],0,0,1,,0.45,https://zylinski.se/posts/a-programming-language-for-me/,Sufficient-Loss5603,2025-05-26T04:03:26.006360Z
+1kj1qdr,reddit,How to Improve Performance of Your Database?,,2025-05-10T04:17:34Z,programming,programming,technology,Technology,[],0,0,2,,0.46,https://newsletter.scalablethread.com/p/how-to-improve-performance-of-your,scalablethread,2025-05-26T04:03:26.928258Z
+1kiqhyo,reddit,Re-evaluating Fan-Out-on-Write vs. Fan-Out-on-Read Under Celebrity Traffic Spikes (2025),,2025-05-09T19:04:51Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://codemia.io/blog/path/Re-evaluating-Fan-Out-on-Write-vs-Fan-Out-on-Read-Under-Celebrity-Traffic-Spikes-2025,mqian41,2025-05-26T04:03:27.812221Z
+1kg7qfy,reddit,DynamoDB Global Secondary Indexes - Internal Working and Best Practices,,2025-05-06T15:43:21Z,programming,programming,technology,Technology,[],0,0,3,,0.46,https://engineeringatscale.substack.com/p/dynamodb-gsi-best-practices-optimization,Local_Ad_6109,2025-05-26T04:03:28.872750Z
+1kf8i24,reddit,Shipping business the same way we ship software: OCI for contracts,"I wrote an article on using the Open Container Initiative (OCI) Distribution as an underlying system to create and distribute natural language contracts (that can also have workloads associated with them).
+
+I'm working on integrating this with our open-source Decombine Smart Legal Contracts specification (available at [https://github.com/decombine/slc](https://github.com/decombine/slc) with Apache 2.0 license) and with the Linux Foundation's [Accord Project](https://accordproject.org) Agreement Protocol available at [https://github.com/accordproject/apap](https://github.com/accordproject/apap) (looks like we need to add a license to this).
+
+The text is as follows (minus some diagrams and code examples):  
+\----------
+
+# OCI for Contracts
+
+Ship contracts like software.
+
+May 5, 2025
+
+In this article, we will discuss a novel way of creating natural language contracts atop the Open Container Initiative (OCI) standard for artifacts. This is relevant for any business or organization that is foundationally built on software or regularly deals with high volumes of contracts.
+
+The business case is simple: the vast majority of executed contracts are templates and OCI is arguably the most pervasive set of technologies and standards in the world for handling templates. When we think contracts, we think arbitrarily verbose documents. The reality is much different, though. They’re usually copies of an existing document that has perhaps been customized.
+
+This isn't unlike existing software and how it is distributed using software containers. For those unfamiliar, software is shared in public repositories such as DockerHub and GitHub Container Registry which allows for using standardized packages to quickly start and build software, much like Legos. There exists a similar business case where software-defined contracts could centralized among relevant parties and distributed in a similar manner. Since containers and their implementation is standardized, there is a high degree of confidence in how software is built and shared. This same confidence can be applied to contracts.
+
+In the following diagram, we can see how an agentic automation system could use standardized contracts and terms to interact with a specific supplier. Assuming both parties have access to the standardized contracts via OCI, they can be assured that they're speaking the same language in terms of expectations. A well defined set of standards could enable industries to operate much more autonomously, and with less friction. This is especially true in industries that are heavily regulated, such as finance, healthcare, and government.
+
+    sequenceDiagram
+      BuyerAgent->>+Supplier: Sales Offer
+      Supplier-->>-BuyerAgent: Delivery Terms
+      BuyerAgent->>+Supplier: Collateral 
+      Supplier-->>-BuyerAgent: Confirmation
+
+  
+Let's be more specific about what kinds of contracts we're talking about though. This discussion right now is mostly targeted for those who reside in the spectrum between these two:
+
+* For organizations providing online services, much of their contract offerings are literally just web pages with text displayed. This is colloquially termed “click wrap”. You take it or leave it.
+* For organizations conducting standardized offerings in more complex environments where customers have negotiating power (consulting, services, etc.) there are typically standardized documents that are customized as necessary.
+
+
+
+**What is OCI?**
+
+>\- Open Container Initiative
+
+OCI has since become synonymous with the world of shipped software. It is used regularly by every company that provides containerized software; most likely all of them. Five years ago, OCI finalized their Distribution Specification v1.0. The Distribution Specification provides a protocol to facilitate and standardize content distribution. It has since become a cornerstone of packaging software.
+
+**Where Contracts and OCI Meet**
+
+Let's examine a simple example. At Decombine, we want to provide our users assurances of how their data will be handled during a sales process. We can take the contents of our policy for the sales process, package it into OCI, and then sign it. This is an overly simple scenario, but it illustrates the key points: our policy becomes a commitment that can be easily distributed, reproduced, and verified. Here is how we might do it with conventional tools today:
+
+*Start with a simple document.*
+
+    # Sales Engagement Agreement
+    
+    ## Data Handling
+    
+    ### 1. Data Collection
+    
+    You agree to provide us with the following data to facilitate the sales engagement process:
+    
+    Stakeholders:
+    
+    - Name
+    ...
+    
+
+*Push the document to a registry.*
+
+    oras push --artifact-type ""application/vnd.decombine.text.v1+markdown"" docker.io/decombine/texts:sales-v0.0.1
+
+Contracts being packaged, stored, and transmitted via OCI involves services and tooling interacting with registries, but most software distributed cloud-natively already do that, so organizations should already have a base level of familiarity. The tangle benefits are clear, across the following major value proposition categories:
+
+**Improved security supply chain using cryptographic digital signatures**
+
+OCI artifacts can be validated and signed out of the box. Artifacts are typically verified at multiple levels and layers to ensure that what you’re getting when you retrieve one is exactly what you expected. This is relied on heavily for things like Software Bill of Materials (SBOM).
+
+Contracts can take advantage of these same principles to validate that a specific template is unchanged, comes from a specific party, and can prove all of this using the same industry standards relied on for financial services, federal government, and other regulated industries.
+
+This establishes a base level of attestation and verification that simply doesn't exist today. Organizations may independently digitally sign their documents, but that process isn't baked in. It also isn't cost-effective, simple, or easily verifiable, whereas OCI artifacts of all kinds have this potential out of the box with relatively little configuration.
+
+Smart organizations have been shifting security left for years now, including building in supply chain attestation and verification into their software development lifecycles. Adopting these practices would effectively achieve the same thing for business procedures that can be automated for use in more complex environments such as regulated industries or by automated systems such as AI agents.
+
+OCI for contracts would enable the adopting organization to effectively standardize published contracts as indisputably validated in their respective business processes / value chains.
+
+**Sustainability and efficiency using protocol basics**
+
+Conventional document storage and distribution is effectively the copying of thousands, millions, or even billions of independent files. Some storage systems may support highly complex deduplication techniques to reduce storage requirements, but this may not be at all possible with many types of contracts.
+
+Producing contracts programmatically using templates that are intelligently layered would drastically change the economics. OCI can be used to chunk contracts into template layers. If 90% of the end product is standardized, that means 90% of the contract could be in a single layer. Even if there are a billion independent versions of that file, as long as they share a common ancestor template, we're only concerned with storing the changes of that last 10%.
+
+The same goes for uploading, downloading, and transferring in general - we're just moving the changes. Let's put this into a practical example where we have 10 million contract file records. Each contract file is a PDF of about 6 MB. 90% of these files is exactly the same with the remaining 10% being customized.
+
+The storage benefits are clear, but this also means that the user experience around working with these documents is significantly improved. We're not downloading and interacting with huge files, but only pulling little chunks as necessary.
+
+**Improved model context performance**
+
+Large Language Models (LLM) are being widely used to perform analysis over document sets. This can be very useful, but also incredibly expensive, energy inefficient, and not altogether reliable. Models are limited by their compute capacity on how much data they can ingest at any one time. Analyzing a document that is structurally the same doesn't inherently mean the model will be more effective or accurate in its performance the next time.
+
+The model will still need to ingest the entirety of the document into its current context to perform analysis. A contract or document leveraging OCI, however, could be indexed more time/space efficiently as part of a RAG or context fine-tuning lifecycle.
+
+The model would not need to ingest the entire document, and instead can focus on only the changes between layers, reducing the context size by that 90%.
+
+**Ready for smart legal contract integration**
+
+The most impactful scenario is that once the contract has been packaged as OCI; it can be shipped right alongside software. This enables scenarios at the cutting edge of innovation where software can be shaped by the contract itself, or vice versa. This can improve user experience, reduce regulatory burdens, and drastically change the quality of service that can be delivered out of the box.
+
+If these scenarios seem interesting to you, Decombine is looking for the innovators and early adopters across industries to lead their peers in delivering higher quality and reliability to their users.",2025-05-05T10:43:43Z,programming,programming,technology,Technology,[],0,0,1,,0.5,https://decombine.com/blog/oci-for-contracts,TheFilterJustLeaves,2025-05-26T04:03:29.761927Z
+1kej3mu,reddit,Monitoring your infra with OpenTelemetry,,2025-05-04T12:52:44Z,programming,programming,technology,Technology,[],0,0,0,,0.4,https://signoz.io/blog/opentelemetry-the-new-standard-for-infra-monitoring/,elizObserves,2025-05-26T04:03:30.717979Z
+1ke8bv0,reddit,Felix86: Run x86-64 programs on RISC-V Linux,,2025-05-04T01:25:10Z,programming,programming,technology,Technology,[],0,0,1,,0.43,https://felix86.com/,namanyayg,2025-05-26T04:03:31.741709Z
+1ke41ph,reddit,"Taking a Look at Database Disk, Memory, and Concurrency Management",,2025-05-03T21:46:31Z,programming,programming,technology,Technology,[],0,0,0,,0.43,https://cefboud.com/posts/database-internals/,Cefor111,2025-05-26T04:03:32.766605Z
+1kdrsv7,reddit,Jeff Dean's talk at ETH Zurich in April 2025 on important trends in AI,,2025-05-03T12:27:53Z,programming,programming,technology,Technology,[],0,0,1,,0.46,https://www.youtube.com/watch?v=q6pAWOG_10k&ab_channel=CongXu,stackoverflooooooow,2025-05-26T04:03:33.686023Z
+1kdot8o,reddit,Bold (Text Editor) - April Summary,,2025-05-03T09:14:58Z,programming,programming,technology,Technology,[],0,0,3,,0.46,https://bold-edit.com/devlog/25-04-summary.html,levodelellis,2025-05-26T04:03:34.608272Z
+1kd5b7z,reddit,April 2025 Baseline monthly digest,,2025-05-02T16:30:25Z,programming,programming,technology,Technology,[],0,0,0,,0.33,https://web.dev/blog/baseline-digest-apr-2025?hl=en,feross,2025-05-26T04:03:35.530049Z
+1kd5azi,reddit,An Apple Library Primer,,2025-05-02T16:30:09Z,programming,programming,technology,Technology,[],0,0,1,,0.4,https://developer.apple.com/forums/thread/715385,ketralnis,2025-05-26T04:03:36.373236Z
+1kcvn5k,reddit,"httpok is a fast, minimalistic desktop HTTP client","**httpok** is a fast, minimalistic desktop HTTP client built with Tauri and SvelteKit. It lets you compose and test HTTP requests in a code editor interface, offering a lightweight alternative to tools like Postman or Insomnia.",2025-05-02T08:07:00Z,programming,programming,technology,Technology,[],0,0,0,,0.33,https://github.com/iondodon/httpok,AggressiveBee4152,2025-05-26T04:03:37.270269Z
+1kcc5st,reddit,Non-control-Data Attacks and Defenses: A review [pdf],,2025-05-01T15:54:00Z,programming,programming,technology,Technology,[],0,0,0,,0.33,https://arxiv.org/pdf/2503.22765,ketralnis,2025-05-26T04:03:38.191537Z
+1kcc59g,reddit,Easier layout with margin-trim,,2025-05-01T15:53:22Z,programming,programming,technology,Technology,[],0,0,1,,0.42,https://webkit.org/blog/16854/margin-trim/,ketralnis,2025-05-26T04:03:39.065555Z
+1kbv91x,reddit,Heavy Metal Fast Motion Code Debugging,[https://www.freelance.wtf/](https://www.freelance.wtf/),2025-05-01T00:00:09Z,programming,programming,technology,Technology,[],0,0,0,,0.44,https://www.freelance.wtf/shared/videos/77e475a9-43ff-4082-86fc-80ce72842446,OkClerk7966,2025-05-26T04:03:39.950008Z
+1kbkf6q,reddit,modern version control apps & platforms -- a cheatsheet,,2025-04-30T16:14:26Z,programming,programming,technology,Technology,[],0,0,1,,0.43,https://cheatsheets.davidveksler.com/versioncontrol.html,HeroicLife,2025-05-26T04:03:40.857087Z
+1kbedkx,reddit,I built MCP on Ruby to help developers turn any Rails API into an MCP server,"I built MCP on Ruby, a gem that turns your Rails app into a fully-featured LLM server following the Model Context Protocol (MCP) standard.  
+  
+**What is it?**  
+Think of MCP as ""REST for LLMs"" - it standardizes how apps talk to AI models. 
+
+*  My implementation brings this to Ruby/Rails with:
+*  Provider adapters for OpenAI & Anthropic (just add your API key)
+*  Persistent storage options (memory, Redis, ActiveRecord)
+*  Streaming responses for dynamic UIs
+*  File handling & tool calling support
+*  Rails integration with just a few lines of code 
+
+  
+**Why I built it**  
+I wanted a clean, Rails-friendly way to add AI capabilities without writing boilerplate for each provider. The existing MCP implementations were Python-focused, so I built this for the Ruby community.  
+  
+The ActiveRecord storage (just released in v0.3.0) lets you store conversations in your existing Rails database.  
+  
+**Try it out**: [https://github.com/nagstler/mcp\_on\_ruby](https://github.com/nagstler/mcp_on_ruby)",2025-04-30T11:43:50Z,programming,programming,technology,Technology,[],0,0,0,,0.45,https://github.com/nagstler/mcp_on_ruby,nagstler,2025-05-26T04:03:41.693631Z
+1kbcxp1,reddit,What is an object / linker / toolchain / ...? (Glossary of compilation terms),,2025-04-30T10:15:44Z,programming,programming,technology,Technology,[],0,0,0,,0.44,https://tmewett.com/compilation-glossary/,tmewett,2025-05-26T04:03:42.594134Z
+1kbckil,reddit,Vectorizing ML models for fun,,2025-04-30T09:50:50Z,programming,programming,technology,Technology,[],0,0,0,,0.33,https://bernsteinbear.com/blog/vectorizing-ml-models/,FoxInTheRedBox,2025-05-26T04:03:43.417488Z
+1kb2i8o,reddit,"Between immutability and memoization, you might have to choose",,2025-04-29T23:42:16Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://thoughtbot.com/blog/between-immutability-and-memoization-you-might-have-to-choose,ketralnis,2025-05-26T04:03:44.335353Z
+1kapv80,reddit,Avoiding breaking changes in APIs with semantic metadata,"Disclosure: I didn't write this post, but I do work on the open source framework the author is discussing.",2025-04-29T14:52:58Z,programming,programming,technology,Technology,[],0,0,0,,0.43,https://theburningmonk.com/2025/04/bye-bye-schema-coupling-hello-semantic-coupling/,martypitt,2025-05-26T04:03:45.257196Z
+1kah7e2,reddit,The Samurai Way of Managing Memory Leaks,,2025-04-29T06:19:36Z,programming,programming,technology,Technology,[],0,0,6,,0.44,https://dpdzero.com/blogs/the-samurai-way-of-managing-memory-leaks/,dpdzero,2025-05-26T04:03:46.116037Z
+1k9r5gk,reddit,Searching in a search: let′s check Elasticsearch,,2025-04-28T09:11:18Z,programming,programming,technology,Technology,[],0,0,0,,0.33,https://pvs-studio.com/en/blog/posts/java/1247/,Xadartt,2025-05-26T04:03:46.999191Z
+1k9iv3f,reddit,Dining Philosophers in C: From Theory to Practice,"Hey Friends! I just finished writing a really clean and detailed documentation for my Dining Philosophers project. I spent a lot of time on it and made it with a lot of care — it’s super clear and helpful. Would you mind checking it out? I think it could really help if you’re working on something similar!😇
+
+https://medium.com/@yassinx4002/dining-philosophers-in-c-from-theory-to-practice-28582180aa37",2025-04-28T00:33:18Z,programming,programming,technology,Technology,[],0,0,0,,0.4,https://medium.com/@yassinx4002/dining-philosophers-in-c-from-theory-to-practice-28582180aa37,yassine_slvmi,2025-05-26T04:03:47.958748Z

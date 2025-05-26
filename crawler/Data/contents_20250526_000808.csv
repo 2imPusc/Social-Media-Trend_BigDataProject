@@ -1,0 +1,283 @@
+﻿content_id,platform,title,content,created_at,source_id,source_name,category_id,category_name,tags,views,score,comment_count,duration,upvote_ratio,url,author,crawl_time
+1k8ex7k,reddit,How to Build Idempotent APIs?,,2025-04-26T15:00:32Z,programming,programming,technology,Technology,[],0,3,0,,0.62,https://newsletter.scalablethread.com/p/how-to-build-idempotent-apis,scalablethread,2025-05-25T17:06:39.847865Z
+1k863sa,reddit,Mastering Regex: A Comprehensive Practical Guide,,2025-04-26T06:03:25Z,programming,programming,technology,Technology,[],0,3,0,,0.8,https://blog.hexploration.dev/mastering-regex-a-comprehensive-practical-guide,lazyhawk20,2025-05-25T17:06:40.745052Z
+1k7vx73,reddit,5 Levels of Using Exception Groups in Python,,2025-04-25T21:07:27Z,programming,programming,technology,Technology,[],0,4,0,,0.67,https://yangzhou1993.medium.com/9d8e40cdd4b2?sk=132e8eea485dd44b24db0d20014b231f,yangzhou1993,2025-05-25T17:06:41.600209Z
+1k7nj3e,reddit,Some __nonstring__ Turbulence,,2025-04-25T15:18:34Z,programming,programming,technology,Technology,[],0,3,0,,1.0,https://lwn.net/SubscriberLink/1018486/1dcd29863655cb25/,iamkeyur,2025-05-25T17:06:42.466153Z
+1kusdac,reddit,I had to pair program at my new company. This was my experience,"TL;DR
+Despite my initial resistance, pair programming ultimately broadened my skillset and perspective. It forced me to articulate my thought process, consider alternative solutions, and learn from others in a way that the rapid pace of startup life didn’t always allow.
+
+It instilled a deeper appreciation for maintainable code and the long-term benefits of collaborative development.",2025-05-25T02:46:39Z,programming,programming,technology,Technology,[],0,261,164,,0.76,https://medium.com/stackademic/how-pair-programming-made-me-a-better-developer-and-why-i-almost-quit-after-day-1-bb79696aff4a?sk=20a890308bf662a7580c47498c625fad,pseudonym24,2025-05-25T17:06:43.356411Z
+1kudb4t,reddit,Wrote this to demystify Lucene index creation — would love feedback from folks here.,,2025-05-24T14:46:33Z,programming,programming,technology,Technology,[],0,3,0,,0.6,https://lostbit.substack.com/p/lucene-not-as-you-know-it-part-1?r=5hd6mv,Arckman_,2025-05-25T17:06:45.213787Z
+1ktzhoz,reddit,Forgotten APL Influences (2016),,2025-05-24T01:00:47Z,programming,programming,technology,Technology,[],0,1,0,,0.56,https://pok.acm.org/meetings/foils/McGrew18paper.pdf,ketralnis,2025-05-25T17:06:46.043163Z
+1ktsyrp,reddit,Understanding Parquet and Columnar Data,"Before working with Parquet, I had never heard of column-oriented data, and I didn't understand how it would work or why it would be desirable. But file formats are all about trade-offs, and the way that Parquet stores data has some intriguing benefits.",2025-05-23T19:56:54Z,programming,programming,technology,Technology,[],0,1,0,,0.6,https://www.dolthub.com/blog/2025-05-23-parquet/,nick_at_dolt,2025-05-25T17:06:46.965223Z
+1ktsw23,reddit,A brief history of JavaScript,,2025-05-23T19:53:27Z,programming,programming,technology,Technology,[],0,3,0,,0.8,https://deno.com/blog/history-of-javascript,ketralnis,2025-05-25T17:06:47.857143Z
+1ktp5t8,reddit,PLTDI Discord Lightning Talks 2025-05,,2025-05-23T17:19:30Z,programming,programming,technology,Technology,[],0,2,0,,0.75,https://www.youtube.com/playlist?list=PLIE7bEVjHIayFWo0g9buPHpBmW44-nnYQ,ketralnis,2025-05-25T17:06:48.738636Z
+1ktp39f,reddit,Simon Peyton Jones: Bits with Soul [video],,2025-05-23T17:16:48Z,programming,programming,technology,Technology,[],0,2,0,,0.75,https://www.youtube.com/watch?v=A2QWxT9a8HU&feature=youtu.be,ketralnis,2025-05-25T17:06:49.571874Z
+1kt3n3f,reddit,Async from scratch 3: Pinned against the wall,,2025-05-22T22:16:40Z,programming,programming,technology,Technology,[],0,2,0,,0.67,https://natkr.com/2025-05-22-async-from-scratch-3/,ketralnis,2025-05-25T17:06:50.417129Z
+1ksxbdi,reddit,Fork Union: Beyond OpenMP in C++ and Rust?,,2025-05-22T17:57:10Z,programming,programming,technology,Technology,[],0,2,8,,0.67,https://ashvardanian.com/posts/beyond-openmp-in-cpp-rust/,ashvar,2025-05-25T17:06:51.294233Z
+1ksujg4,reddit,TypeID in Lua,,2025-05-22T16:06:37Z,programming,programming,technology,Technology,[],0,2,0,,0.63,https://push.cx/typeid-in-lua,ketralnis,2025-05-25T17:06:52.232156Z
+1ksackh,reddit,Link Time Optimizations: New Way to Do Compiler Optimizations,,2025-05-21T21:56:03Z,programming,programming,technology,Technology,[],0,2,4,,0.53,https://johnnysswlab.com/link-time-optimizations-new-way-to-do-compiler-optimizations/,ketralnis,2025-05-25T17:06:53.107409Z
+1ksaauf,reddit,Collaborative Text Editing Without CRDTs or OT,,2025-05-21T21:54:04Z,programming,programming,technology,Technology,[],0,2,0,,0.76,https://mattweidner.com/2025/05/21/text-without-crdts.html,ketralnis,2025-05-25T17:06:53.990933Z
+1krf66c,reddit,The Ingredients of a Productive Monorepo,,2025-05-20T20:23:13Z,programming,programming,technology,Technology,[],0,3,1,,0.8,https://blog.swgillespie.me/posts/monorepo-ingredients/,ketralnis,2025-05-25T17:06:54.882890Z
+1kra075,reddit,"Not causal chains, but interactions and adaptations",,2025-05-20T16:58:24Z,programming,programming,technology,Technology,[],0,4,0,,0.7,https://surfingcomplexity.blog/2025/05/19/not-causal-chains-but-interactions-and-adaptations/,ketralnis,2025-05-25T17:06:55.768419Z
+1kr9zxi,reddit,How the jax.jit() JIT compiler works in jax-js,,2025-05-20T16:58:05Z,programming,programming,technology,Technology,[],0,2,0,,0.63,https://ekzhang.substack.com/p/how-the-jaxjit-jit-compiler-works,ketralnis,2025-05-25T17:06:56.634998Z
+1kr9yf7,reddit,Memory Consistency Models: A Tutorial,,2025-05-20T16:56:24Z,programming,programming,technology,Technology,[],0,3,0,,0.71,https://jamesbornholt.com/blog/memory-models/,ketralnis,2025-05-25T17:06:57.503446Z
+1kr9wi4,reddit,Production tests: a guidebook for better systems and more sleep,,2025-05-20T16:54:20Z,programming,programming,technology,Technology,[],0,2,0,,0.67,https://martincapodici.com/2025/05/13/production-tests-a-guidebook-for-better-systems-and-more-sleep/,ketralnis,2025-05-25T17:06:58.357358Z
+1kr9voc,reddit,The Lisp in the Cellar: Dependent types that live upstairs [pdf],,2025-05-20T16:53:30Z,programming,programming,technology,Technology,[],0,2,0,,0.61,https://zenodo.org/records/15424968,ketralnis,2025-05-25T17:06:59.193756Z
+1kr9uwj,reddit,27000 Dragons and 10'000 Lights: GPU-Driven Clustered Forward Renderer,,2025-05-20T16:52:39Z,programming,programming,technology,Technology,[],0,4,0,,0.7,https://logdahl.net/p/gpu-driven,ketralnis,2025-05-25T17:07:00.113443Z
+1kqyl1e,reddit,Hypervisor as a Library,,2025-05-20T07:01:59Z,programming,programming,technology,Technology,[],0,2,0,,0.75,https://seiya.me/blog/hypervisor-as-a-library,FoxInTheRedBox,2025-05-25T17:07:01.041901Z
+1kqn7kl,reddit,Too Much Go Misdirection,,2025-05-19T21:05:42Z,programming,programming,technology,Technology,[],0,4,0,,0.74,https://flak.tedunangst.com/post/too-much-go-misdirection,ketralnis,2025-05-25T17:07:01.911293Z
+1ko0zfw,reddit,Interact With the Docker Engine in Go,,2025-05-16T13:34:06Z,programming,programming,technology,Technology,[],0,3,0,,0.61,https://www.alexisbouchez.com/blog/docker-engine-in-go,SoftwareCitadel,2025-05-25T17:07:02.829108Z
+1knykf6,reddit,Managing Side Effects in Jetpack Compose,"🚀 I just published a new Medium article exploring how to manage side effects in Jetpack Compose!In this article, I walk through the most commonly used side-effect APIs in Compose with clear, minimal examples to help you understand their behavior, use cases, and differences.🧠 Covered APIs:LaunchedEffect: for lifecycle-aware coroutinesrememberCoroutineScope: for manually controlled coroutine launchesDisposableEffect: for cleanup and resource disposalSideEffect: for one-off actions after every successful recompositionrememberUpdatedState: for capturing the latest values in long-lived side effects🎯 If you're building declarative UIs and want to avoid common pitfalls when dealing with side effects, this article is for you.",2025-05-16T11:33:39Z,programming,programming,technology,Technology,[],0,2,1,,0.67,https://medium.com/@cenkeraydin14/managing-side-effects-in-jetpack-compose-6adafff83b59,CenkAyd1,2025-05-25T17:07:03.767755Z
+1kmbrln,reddit,"Towards React Server Components in Clojure, Part 2",,2025-05-14T10:28:52Z,programming,programming,technology,Technology,[],0,2,0,,0.67,https://romanliutikov.com/blog/towards-react-server-components-in-clojure-part-2,roman01la,2025-05-25T17:07:04.648440Z
+1km9wa0,reddit,"Traced What Actually Happens Under the Hood for ln, rm, and cat",,2025-05-14T08:15:17Z,programming,programming,technology,Technology,[],0,2,0,,0.57,https://github.com/adiaholic/Understand-OS/blob/main/hard_links/Readme.md,Physicalan,2025-05-25T17:07:05.557089Z
+1km32lr,reddit,"I built a lightweight function‑call tracer with structured logging, context, and metrics!","Hey guys! Super happy to share my first ever python library :)
+I made this tiny tracing/logging library for python in a few hours and thought I’d share it with y’all. I’d love to hear back on what could be done better. I’m honestly not sure about how solid the implementation is but I’d love to keep building this depending on feedback, usefulness and potential for real world usage. 
+
+Why I bothered:
+I bounce between logging, structlog, loguru, and various tracing libs. They’re great, but flipping between call‑graph visualisation, pretty console output, and JSON shipping always felt clunky. So I slammed the bits I wanted into one decorator/context‑manager combo and called it a night.
+
+Road‑map (if the idea has legs):
+- ContextVar‑based propagation so async tasks keep the same request ID
+- stdlib‑logging bridge + OTLP exporter for distributed traces
+- sampling / dedup for high‑volume prod logs
+- multiprocess‑safe queue handler
+
+Looking for honest — but kind — feedback 😅
+I’m sharing because:
+1. I don’t want to reinvent wheels that already roll better.
+2. If this is useful, I’ll polish it; if not, I’ll archive it and move on.
+3. I’d love to know what you need from a tiny tracing/logger lib.
+
+
+TIA!",2025-05-14T01:24:03Z,programming,programming,technology,Technology,[],0,2,0,,0.75,https://github.com/jeffersonaaron25/PyEzTrace,Living-Purpose-8428,2025-05-25T17:07:06.450754Z
+1ki5ywm,reddit,Optimizing RIPEMD-160 with SIMD – Arm Neon and Beyond,,2025-05-09T00:46:49Z,programming,programming,technology,Technology,[],0,2,6,,0.75,https://vladkens.cc/rmd160-simd/,vladkens,2025-05-25T17:07:07.290611Z
+1ki3ev6,reddit,Linear Programming for Fun and Profit,,2025-05-08T22:40:58Z,programming,programming,technology,Technology,[],0,2,1,,0.6,https://modal.com/blog/resource-solver,Sufficient-Loss5603,2025-05-25T17:07:08.221062Z
+1kg553s,reddit,Augmentation / Replacement,,2025-05-06T13:57:35Z,programming,programming,technology,Technology,[],0,2,0,,0.76,https://olano.dev/blog/augmentation-replacement/,facundoolano,2025-05-25T17:07:09.134108Z
+1kfzmkp,reddit,"Mastering Kafka in .NET: Schema Registry, Error Handling & Multi-Message Topics","Hi everyone!
+
+Curious how to improve the reliability and scalability of your Kafka setup in .NET?
+
+How do you handle evolving message schemas, multiple event types, and failures without bringing down your consumers?  
+And most importantly — how do you keep things running smoothly when things go wrong?
+
+I just published a blog post where I dig into some advanced Kafka techniques in .NET, including:
+
+* Using Confluent Schema Registry for schema management
+* Handling multiple message types in a single topic
+* Building resilient error handling with retries, backoff, and Dead Letter Queues (DLQ)
+* Best practices for production-ready Kafka consumers and producers
+
+Fun fact: This post was inspired by a comment from u/Finickyflame on my previous Kafka blog — thanks for the nudge!
+
+Would love for you to check it out — happy to hear your thoughts or experiences!
+
+You can read it here:  
+[https://hamedsalameh.com/mastering-kafka-in-net-schema-registry-amp-error-handling/](https://hamedsalameh.com/mastering-kafka-in-net-schema-registry-amp-error-handling/)
+
+",2025-05-06T08:44:57Z,programming,programming,technology,Technology,[],0,2,0,,0.67,https://hamedsalameh.com/mastering-kafka-in-net-schema-registry-amp-error-handling/,DotDeveloper,2025-05-25T17:07:10.082988Z
+1kf93kn,reddit,Rate Limiting in 1 diagram and 252 words,,2025-05-05T11:19:09Z,programming,programming,technology,Technology,[],0,2,0,,0.67,https://www.systemdesignbutsimple.com/p/rate-limiting-in-1-diagram-and-252-words,stmoreau,2025-05-25T17:07:10.951302Z
+1kcm0dg,reddit,Geonum: n-dimensional Geometric Algebra,,2025-05-01T22:50:22Z,programming,programming,technology,Technology,[],0,2,0,,0.67,https://crates.io/crates/geonum,Effective-Award-4600,2025-05-25T17:07:11.825833Z
+1kckkca,reddit,Lichen – Manage and create code licenses on the CLI and with TOML,"Hey! I'm Miles, I built this tool to be a fast and reliable solution for generating licenses on the CLI. Licensing has always been a point of stress for me, with how much is at stake. I speak code, not legalese. If I copy one from the wrong website, the version I download is the wrong one, or any number of mishaps, my whole code is at risk. We see this fiasco play out all the time. We shake our saddened heads and go on.
+
+No longer! Lichen is designed to generate licenses sensibly with three words on the CLI. `lic gen MIT`. Or in a `.lichen.toml` in your project root. Add authors/maintainers with --authors, date it with --date, license specific parts with exclude patterns and double licenses. Project big or small, it's got everything (I think). (Tell me what it's missing please). It uses SPDX licenses for correctness.
+
+Written in Rust, you'll know you're safe, and if you want to be extra cautious, feel free to create license headers on all your files (Fast too! Can do this for the entire cargo project in 22s uncached).
+
+I'm happy to answer any questions/concerns/whatever about my tool, it's my biggest project to date (And therefore my most bug-ridden...)",2025-05-01T21:45:32Z,programming,programming,technology,Technology,[],0,2,0,,0.75,https://github.com/philocalyst/lichen,Philocalyst,2025-05-25T17:07:12.716116Z
+1kcg9fh,reddit,Designing type inference for high quality type errors,,2025-05-01T18:42:31Z,programming,programming,technology,Technology,[],0,2,0,,0.75,https://blog.polybdenum.com/2025/02/14/designing-type-inference-for-high-quality-type-errors.html,ketralnis,2025-05-25T17:07:13.630669Z
+1kbns81,reddit,Do you really need a Vector Search Database?,,2025-04-30T18:32:52Z,programming,programming,technology,Technology,[],0,3,0,,0.6,https://fin.ai/research/do-you-really-need-a-vector-search-database/,ketralnis,2025-05-25T17:07:14.501464Z
+1kbg87i,reddit,The Innocent Loop,,2025-04-30T13:16:07Z,programming,programming,technology,Technology,[],0,2,0,,0.63,https://lackofimagination.org/2025/04/the-innocent-loop/,aijan1,2025-05-25T17:07:15.391968Z
+1kb2htu,reddit,Throwing it all away - how extreme rewriting changed the way I build databases,,2025-04-29T23:41:43Z,programming,programming,technology,Technology,[],0,2,0,,0.58,https://www.hytradboi.com/2025/03580e19-4646-4fba-91c3-17eaba6935b0-throwing-it-all-away---how-extreme-rewriting-changed-the-way-i-build-databases,ketralnis,2025-05-25T17:07:16.252916Z
+1k9sz3p,reddit,Database Index in 1 diagram and 229 words,,2025-04-28T11:14:32Z,programming,programming,technology,Technology,[],0,2,0,,0.67,https://www.systemdesignbutsimple.com/p/database-index-in-1-diagram-and-229,stmoreau,2025-05-25T17:07:17.116421Z
+1k9bx7e,reddit,Coordination Crisis in Modern Tech Work,,2025-04-27T19:14:53Z,programming,programming,technology,Technology,[],0,2,0,,0.58,https://newsletter.eng-leadership.com/p/coordination-crisis-in-modern-tech,gregorojstersek,2025-05-25T17:07:17.960921Z
+1k8y237,reddit,ElasticSearch 101: Part 1,"# An Introduction to the Basics of Search and Indexing with Elasticsearch!
+
+What all covered in this article :  
+\- Basics  
+\- Uses Cases  
+\- How things work under the hood
+
+Do check it out : [https://open.substack.com/pub/scortier/p/elasticsearch-101-part-1?r=5a6tk&utm\_campaign=post&utm\_medium=web&showWelcomeOnShare=false](https://open.substack.com/pub/scortier/p/elasticsearch-101-part-1?r=5a6tk&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false)
+
+Part 2 will be live in next week!
+
+Follow the weekly System Design Newsletter here: [https://scortier.substack.com/](https://scortier.substack.com/)",2025-04-27T07:08:58Z,programming,programming,technology,Technology,[],0,3,1,,0.61,https://open.substack.com/pub/scortier/p/elasticsearch-101-part-1?r=5a6tk&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false,scortierHQ,2025-05-25T17:07:18.813153Z
+1k8i32k,reddit,Implementing Silent Hill's Fog in My (Real) PS1 Game,,2025-04-26T17:18:12Z,programming,programming,technology,Technology,[],0,2,0,,0.6,https://www.youtube.com/watch?v=EwpFdMJlVP4,ketralnis,2025-05-25T17:07:19.675064Z
+1k8i2tv,reddit,A taxonomy of C++ types,,2025-04-26T17:17:55Z,programming,programming,technology,Technology,[],0,1,0,,0.54,https://blog.knatten.org/2025/04/25/a-taxonomy-of-c-types/,ketralnis,2025-05-25T17:07:20.601934Z
+1k8bp33,reddit,[C++20] Views as Data Members for Custom Iterators,,2025-04-26T12:22:04Z,programming,programming,technology,Technology,[],0,2,0,,0.63,https://www.cppstories.com/2025/custom_iter_cpp_20_ranges_views/,joebaf,2025-05-25T17:07:21.496153Z
+1k8aurh,reddit,Difference Between RANK and DENSE_RANK In Oracle SQL,,2025-04-26T11:32:26Z,programming,programming,technology,Technology,[],0,2,1,,0.75,https://www.javainhand.com/2025/04/difference-between-rank-and-denserank-in-oracle-sql.html,apexysatish,2025-05-25T17:07:22.382384Z
+1k83h8g,reddit,React Reconciliation: The Hidden Engine Behind Your Components,,2025-04-26T03:22:57Z,programming,programming,technology,Technology,[],0,1,0,,0.57,https://cekrem.github.io/posts/react-reconciliation-deep-dive/,stackoverflooooooow,2025-05-25T17:07:23.276059Z
+1k7w0p6,reddit,Building a Robust Data Synchronization Framework with Rails,,2025-04-25T21:11:28Z,programming,programming,technology,Technology,[],0,2,0,,0.76,https://pcreux.com/2024/10/07/rails-data-sync-service.html,ketralnis,2025-05-25T17:07:24.175450Z
+1k7vzoz,reddit,Write an Interpreter in Ruby,,2025-04-25T21:10:21Z,programming,programming,technology,Technology,[],0,1,1,,0.56,https://speakerdeck.com/marioariasc/write-an-interpreter-in-ruby,ketralnis,2025-05-25T17:07:25.030627Z
+1k7vz0o,reddit,Programming in D: Tutorial and Reference,,2025-04-25T21:09:33Z,programming,programming,technology,Technology,[],0,2,0,,1.0,https://ddili.org/ders/d.en/,ketralnis,2025-05-25T17:07:25.931310Z
+1k7oqbz,reddit,Differential Coverage for Debugging,,2025-04-25T16:08:28Z,programming,programming,technology,Technology,[],0,2,0,,1.0,https://research.swtch.com/diffcover,ketralnis,2025-05-25T17:07:26.818104Z
+1k7fukh,reddit,Build an image gallery with Astro and React,"
+
+Recently, I rewrote the image gallery on my website and took notes on the most important and interesting parts of the process, which I then turned into a blog article. 
+
+It's a step-by-step guide based on a practical example that shows how to manage images on a static website, including how to load images, where to use server and client components, how to optimize and handle responsive images, add CSS transitions on load, implement infinite scroll pagination, and include a lightbox preview.
+
+https://nemanjamitic.com/blog/2025-04-02-astro-react-gallery
+
+Have you done something similar yourself, did you take a different approach? I would love to hear your feedback.
+",2025-04-25T08:25:03Z,programming,programming,technology,Technology,[],0,2,0,,1.0,https://nemanjamitic.com/blog/2025-04-02-astro-react-gallery,nemanja_codes,2025-05-25T17:07:27.704711Z
+1ku430w,reddit,De-Abstraction and Conditional Escape Analysis,,2025-05-24T05:23:54Z,programming,programming,technology,Technology,[],0,1,0,,0.57,https://github.com/dotnet/runtime/blob/main/docs/design/coreclr/jit/DeabstractionAndConditionalEscapeAnalysis.md#de-abstraction-and-conditional-escape-analysis,ketralnis,2025-05-25T17:07:28.565924Z
+1ktzguv,reddit,From RPC to transactions and durable executions,,2025-05-24T00:59:40Z,programming,programming,technology,Technology,[],0,1,0,,0.67,https://www.pramodb.com/index.php/2025/05/21/from-rpc-to-transactions-and-durable-executions/,ketralnis,2025-05-25T17:07:29.423674Z
+1ktwi93,reddit,epub-utils: A Python library and CLI tool for inspecting EPUB files,"I've been working on [epub-utils](https://github.com/ernestofgonzalez/epub-utils), a Python library and command-line tool that makes it quick and easy to inspect EPUB files from the terminal or in your Python scripts.
+
+**The problem I was trying to solve**
+
+I frequently work with EPUB files and found myself constantly needing to peek inside them to check metadata, validate structure, or debug formatting issues. The existing tools were either too heavy-weight (full EPUB readers/editors) or required extracting the ZIP manually and parsing XML by hand.
+
+I wanted something as simple as `file` or `head` but for EPUB files - just run a command and immediately see what's inside.
+
+**Quick examples**
+
+Install from PyPI:
+
+    pip install epub-utils
+
+Then inspect any EPUB file:
+
+    # See the container.xml structure
+    epub-utils book.epub container
+    
+    # Extract metadata from package.opf
+    epub-utils book.epub package
+    
+    # View table of contents
+    epub-utils book.epub toc
+
+By default you get syntax-highlighted XML output, but you can get plain text with `--format text` if you're piping to other tools.
+
+**As a Python library**
+
+A `Document` interface is available in the Python library
+
+    from epub_utils import Document
+    
+    
+    doc = Document(""book.epub"")
+    
+    # See the container.xml structure
+    doc.container.to_str()
+    
+    # Extract metadata from package.opf
+    doc.package.to_str()
+    
+    # View table of contents
+    doc.toc.to_str()
+    
+
+This makes it trivial to batch-process EPUB collections, validate metadata, or build other tools on top of it.
+
+**Why I built this**
+
+I work with digital publishing workflows and kept running into the same friction: I'd have a folder of EPUB files and need to quickly check their metadata or structure. Opening each one in a full reader was too slow, and manually extracting the ZIP was tedious.
+
+epub-utils scratches that itch - it's designed for the command line first, with the Python API as a nice bonus for automation.
+
+**What's next**
+
+I'm considering adding features like:
+
+* Metadata validation against EPUB specs
+* Bulk operations (process entire directories)
+* Export to CSV/JSON for analysis
+
+If you work with EPUB files, I'd love to hear what features would be most useful to you!
+
+**Links:**
+
+* GitHub: [https://github.com/ernestofgonzalez/epub-utils](vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/code/electron-sandbox/workbench/workbench.html)
+* PyPI: [https://pypi.org/project/epub-utils/](vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/code/electron-sandbox/workbench/workbench.html)
+* Docs: [https://ernestofgonzalez.github.io/epub-utils/](vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/code/electron-sandbox/workbench/workbench.html)",2025-05-23T22:31:38Z,programming,programming,technology,Technology,[],0,1,0,,1.0,https://github.com/ernestofgonzalez/epub-utils,makeascript,2025-05-25T17:07:30.271177Z
+1ktp4gd,reddit,OpenAI: Scaling PostgreSQL to the Next Level,,2025-05-23T17:18:04Z,programming,programming,technology,Technology,[],0,1,3,,0.53,https://www.pixelstech.net/article/1747708863-openai%3a-scaling-postgresql-to-the-next-level,ketralnis,2025-05-25T17:07:31.142907Z
+1ktp1h4,reddit,Writing A Job Runner (In Elixir) (Again) (10 years later),,2025-05-23T17:14:53Z,programming,programming,technology,Technology,[],0,1,0,,1.0,https://github.com/notactuallytreyanastasio/genstage_tutorial_2025/blob/main/README.md,ketralnis,2025-05-25T17:07:32.166859Z
+1ktomee,reddit,A video essay on text editors and typing,,2025-05-23T16:58:24Z,programming,programming,technology,Technology,[],0,1,0,,0.67,https://youtu.be/sqm4-B07LsE?si=fmz6yckTgRPWFexh,BlaiseLabs,2025-05-25T17:07:33.030859Z
+1ktn4bi,reddit,Mockbin Web is Back! Open-source Instant API Mocks with OpenAPI Support,,2025-05-23T15:56:43Z,programming,programming,technology,Technology,[],0,2,0,,1.0,https://mockbin.io/,ZuploAdrian,2025-05-25T17:07:33.950210Z
+1ktkwok,reddit,Plot your repo language stats with cloc-graph,,2025-05-23T14:26:00Z,programming,programming,technology,Technology,[],0,1,1,,0.67,https://www.npmjs.com/package/cloc-graph,cosmos-journeyer,2025-05-25T17:07:34.830524Z
+1ktczoe,reddit,"🚀 Introducing Lynx Proxy: A High-Performance, Modern Proxy Tool Built with Rust!","Hey everyone!
+
+I'm excited to introduce **Lynx Proxy**—an open-source, high-performance, and flexible proxy tool developed in Rust. Lynx Proxy efficiently handles HTTP/HTTPS and WebSocket traffic, and features a modern web client (with dark mode support). It's built on top of popular Rust networking libraries like hyper, axum, and tower.
+
+**Key Features:**
+
+* 🚀 High performance and safety powered by Rust
+* 🌐 HTTP/HTTPS proxy support
+* 🔗 Native WebSocket proxying
+* 💻 Modern web management interface (dark mode included)
+* 🦀 Built with hyper, axum, and tower
+
+**Getting Started:** Install with one command:
+
+    curl --proto '=https' --tlsv1.2 -LsSf https://github.com/suxin2017/lynx-server/releases/latest/download/lynx-cli-installer.sh | sh
+
+Start the service:
+
+    lynx-cli
+
+**Web UI Prototype:**  
+You can preview the web UI prototype here (not a live demo):  
+[https://v0-modern-proxy-tool-wq.vercel.app/](https://v0-modern-proxy-tool-wq.vercel.app/)
+
+**GitHub:**  
+[https://github.com/suxin2017/lynx-server](https://github.com/suxin2017/lynx-server)
+
+The project is under active development and open to contributions. Feedback, stars, and PRs are welcome! If you’re looking for a modern, efficient proxy solution, give Lynx Proxy a try!",2025-05-23T06:46:23Z,programming,programming,technology,Technology,[],0,1,0,,0.57,https://github.com/suxin2017/lynx-server,Vivid_Ad4049,2025-05-25T17:07:35.777650Z
+1ktanaf,reddit,Function: A Way of Handling Webhook Verification Chaos,,2025-05-23T04:16:10Z,programming,programming,technology,Technology,[],0,1,0,,0.67,https://webhookx.io/blog/engineering/function-a-way-of-handling-webhook-verification-chaos,vm-001,2025-05-25T17:07:36.790286Z
+1kt92zn,reddit,Clojuring the web application stack: Meditation One,,2025-05-23T02:49:57Z,programming,programming,technology,Technology,[],0,1,0,,0.57,https://www.evalapply.org/posts/clojure-web-app-from-scratch/index.html,namanyayg,2025-05-25T17:07:37.614324Z
+1kt3o05,reddit,"Debugging memory leaks in Postgres, heaptrack edition",,2025-05-22T22:17:47Z,programming,programming,technology,Technology,[],0,1,0,,0.6,https://www.enterprisedb.com/blog/debugging-memory-leaks-postgres-heaptrack-edition,ketralnis,2025-05-25T17:07:38.481743Z
+1kt3n22,reddit,Practicing graphical debugging using visualizations of the Hilbert curve,,2025-05-22T22:16:37Z,programming,programming,technology,Technology,[],0,1,1,,0.6,https://akkartik.name/debugUIs.html,ketralnis,2025-05-25T17:07:39.320656Z
+1kt3lz8,reddit,Loading Pydantic models from JSON without running out of memory,,2025-05-22T22:15:17Z,programming,programming,technology,Technology,[],0,1,0,,0.67,https://pythonspeed.com/articles/pydantic-json-memory/,ketralnis,2025-05-25T17:07:40.190972Z
+1ksulow,reddit,Root Cause Analysis: PostgreSQL MultiXact member exhaustion incidents,,2025-05-22T16:09:05Z,programming,programming,technology,Technology,[],0,1,0,,0.6,https://metronome.com/blog/root-cause-analysis-postgresql-multixact-member-exhaustion-incidents-may-2025,ketralnis,2025-05-25T17:07:41.088615Z
+1ksukmf,reddit,Idiomatic errors in Clojure,,2025-05-22T16:07:53Z,programming,programming,technology,Technology,[],0,1,0,,0.67,https://www.daveliepmann.com/articles/idiomatic-clojure-errors.html,ketralnis,2025-05-25T17:07:41.942180Z
+1ksukkr,reddit,another tale of go.mod bloat,,2025-05-22T16:07:51Z,programming,programming,technology,Technology,[],0,1,0,,0.57,https://flak.tedunangst.com/post/another-tale-of-gomod-bloat,ketralnis,2025-05-25T17:07:42.822007Z
+1ksuijb,reddit,Understanding the Go Scheduler,,2025-05-22T16:05:38Z,programming,programming,technology,Technology,[],0,2,0,,0.75,https://nghiant3223.github.io/2025/04/15/go-scheduler.html,ketralnis,2025-05-25T17:07:43.710645Z
+1ksugpk,reddit,Property-Based Testing,,2025-05-22T16:03:38Z,programming,programming,technology,Technology,[],0,1,0,,1.0,https://www.thecoder.cafe/p/property-based-testing,teivah,2025-05-25T17:07:44.582323Z
+1ksufor,reddit,Fast Allocations in Ruby 3.5,,2025-05-22T16:02:33Z,programming,programming,technology,Technology,[],0,1,0,,0.6,https://railsatscale.com/2025-05-21-fast-allocations-in-ruby-3-5/,ketralnis,2025-05-25T17:07:45.432183Z
+1kstlbk,reddit,The Art and Science of Architectural Decision-Making,# A practical guide to Architecture Decision Records (ADRs).,2025-05-22T15:28:35Z,programming,programming,technology,Technology,[],0,1,0,,0.67,https://newsletter.techworld-with-milan.com/p/the-art-and-science-of-architectural,milanm08,2025-05-25T17:07:46.316588Z
+1kss5fb,reddit,Dynamically Adapting To Application Sizes,,2025-05-22T14:29:39Z,programming,programming,technology,Technology,[],0,1,0,,0.6,https://maoni0.medium.com/dynamically-adapting-to-application-sizes-2d72fcb6f1ea,FoxInTheRedBox,2025-05-25T17:07:47.176162Z
+1ksrvdg,reddit,Serverless Apps on Cloudflare • Ashley Peacock & Ricky Robinett,,2025-05-22T14:18:08Z,programming,programming,technology,Technology,[],0,1,0,,0.67,https://youtu.be/5rOjtdh7kmU,goto-con,2025-05-25T17:07:48.041121Z
+1krdy75,reddit,Optional Rust-In-FreeBSD Support May 2025 Status Report,,2025-05-20T19:33:42Z,programming,programming,technology,Technology,[],0,1,0,,0.56,https://hardenedbsd.org/article/shawn-webb/2025-05-20/optional-rust-freebsd-support-may-2025-status-report,ketralnis,2025-05-25T17:07:48.921043Z
+1krbdcq,reddit,CodeCompath - A system for exploring the logic behind version numbers,"Hi everyone,
+
+For a long time, I’ve been fascinated by the idea that software version numbers aren’t just arbitrary - they often follow subtle patterns that reflect logic, progress, and compatibility. I started noticing rules in how version numbers evolve, almost like they formed a structured space. That idea stayed with me for 15 years.
+
+Recently, I built a tool called **CodeCompath** that brings this idea to life. It helps generate and visualize software versions based on inferred rules. It's not about managing semver - it’s about mapping the *underlying structure* that version numbers can form, especially when treated as meaningful points along a path.
+
+Here’s the short demo (3 min):  
+📹 [https://youtu.be/leL6y5uHXEg](https://youtu.be/leL6y5uHXEg)
+
+And here’s a longer explanation (28 min) if you're curious about the thinking behind it:  
+📹 [https://youtu.be/8R0HMyHwm-c](https://youtu.be/8R0HMyHwm-c)
+
+This project is more philosophical than practical, but I’ve put a lot into it, and I’d be really interested to hear what people here think - especially if you’ve ever wrestled with versioning systems, modeling change, or structuring evolution.",2025-05-20T17:51:09Z,programming,programming,technology,Technology,[],0,1,0,,0.56,https://youtu.be/leL6y5uHXEg,a1t3rn,2025-05-25T17:07:49.791455Z
+1kr9xfk,reddit,Biff – a batteries-included web framework for Clojure,,2025-05-20T16:55:19Z,programming,programming,technology,Technology,[],0,1,1,,0.56,https://biffweb.com,ketralnis,2025-05-25T17:07:50.622042Z
+1kqrpak,reddit,An in-depth exploration and explanation of the Go Scheduler,,2025-05-20T00:28:16Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://nghiant3223.github.io/2025/04/15/go-scheduler.html,stackoverflooooooow,2025-05-25T17:07:51.495966Z
+1kqqpwh,reddit,The value of model checking in distributed protocols design,,2025-05-19T23:39:43Z,programming,programming,technology,Technology,[],0,1,0,,0.67,https://protocols-made-fun.com/modelchecking/2025/04/08/value.html,ketralnis,2025-05-25T17:07:52.360971Z
+1kqnfsj,reddit,Inline Your Runtime,,2025-05-19T21:14:55Z,programming,programming,technology,Technology,[],0,1,0,,0.67,https://willmcpherson2.com/2025/05/18/inline-your-runtime.html,ketralnis,2025-05-25T17:07:53.197887Z
+1kqnc3y,reddit,Introducing Obelisk deterministic workflow engine,,2025-05-19T21:10:51Z,programming,programming,technology,Technology,[],0,1,0,,1.0,https://obeli.sk/blog/introducing-obelisk/,ketralnis,2025-05-25T17:07:54.076273Z
+1kqnawd,reddit,Programming in Martin-Lof's Type Theory: An Introduction (1990),,2025-05-19T21:09:27Z,programming,programming,technology,Technology,[],0,1,0,,0.66,https://www.cse.chalmers.se/research/group/logic/book/,ketralnis,2025-05-25T17:07:54.935255Z
+1kqna2y,reddit,SDB Scans the Ruby Stack Without the GVL,,2025-05-19T21:08:35Z,programming,programming,technology,Technology,[],0,1,0,,1.0,https://github.com/yfractal/blog/blob/master/blog/2025-01-15-non-blocking-stack-profiler.md,ketralnis,2025-05-25T17:07:55.771997Z
+1kqn9oy,reddit,Emulator Debugging: Area 5150's Lake Effect,,2025-05-19T21:08:08Z,programming,programming,technology,Technology,[],0,1,0,,0.67,https://martypc.blogspot.com/2025/05/emulator-debugging-area-5150s-lake.html,ketralnis,2025-05-25T17:07:56.626420Z
+1kqkm57,reddit,System Design: Choosing the Right Dataflow,,2025-05-19T19:23:47Z,programming,programming,technology,Technology,[],0,1,0,,0.56,https://lukasniessen.medium.com/system-design-choosing-the-right-dataflow-a6116ac1e905,trolleid,2025-05-25T17:07:57.476915Z
+1kqjd98,reddit,Residue Number Systems for GPU computing. Everything I tried to get it working,,2025-05-19T18:35:40Z,programming,programming,technology,Technology,[],0,1,1,,0.6,https://leetarxiv.substack.com/p/residue-number-systems-for-gpu-computing,DataBaeBee,2025-05-25T17:07:58.335598Z
+1kqe8iy,reddit,Moondust: Handcrafted theme for those who haven't found syntax highlighting useful for themself,,2025-05-19T15:14:58Z,programming,programming,technology,Technology,[],0,0,0,,0.46,https://github.com/vanyauhalin/moondusttheme,vanyauhalin,2025-05-25T17:07:59.205626Z
+1kqa2ql,reddit,Justification Filler Phrases,,2025-05-19T12:10:31Z,programming,programming,technology,Technology,[],0,0,3,,0.47,https://serce.me/posts/2025-05-19-justification-filler-phrases,SerCeMan,2025-05-25T17:08:00.069944Z
+1kq9j51,reddit,Leader-Follower Replication in 1 diagram and 243 words,,2025-05-19T11:41:48Z,programming,programming,technology,Technology,[],0,1,1,,0.56,https://www.systemdesignbutsimple.com/p/leader-follower-replication-in-1-diagram-and-243-words,stmoreau,2025-05-25T17:08:00.927186Z
+1knyb3h,reddit,.NET Digest #7,,2025-05-16T11:18:53Z,programming,programming,technology,Technology,[],0,1,0,,0.6,https://pvs-studio.com/en/blog/posts/csharp/1250/,Xadartt,2025-05-25T17:08:01.764852Z
+1knais1,reddit,Simulating GraphQL APIs,,2025-05-15T15:05:42Z,programming,programming,technology,Technology,[],0,1,0,,0.67,https://www.wiremock.io/post/how-to-simulate-graphql-apis-and-how-we-do-it,WireMock,2025-05-25T17:08:02.637312Z
+1kmf95y,reddit,Distributing command line tools for macOS,,2025-05-14T13:32:03Z,programming,programming,technology,Technology,[],0,1,2,,0.56,https://ofek.dev/words/guides/2025-05-13-distributing-command-line-tools-for-macos/,Ofekmeister,2025-05-25T17:08:03.473671Z
+1kluv6w,reddit,Testing Endpoints With ASP .NET Core Integration Tests,,2025-05-13T19:23:41Z,programming,programming,technology,Technology,[],0,1,2,,0.56,https://youtu.be/XyQeixviX0o?si=6LF-YKcXacoEZkAk,emanresu_2017,2025-05-25T17:08:04.299998Z
+1klfq8i,reddit,iOS app - Accelerate framework,"I created an iOS app showing an interactive visualization of mathematical curve interpolation using the Accelerate framework. Users can view, manipulate, and analyze curves using different interpolation algorithms, calculate the area under specified regions, and interact with a dynamic coordinate system.
+",2025-05-13T07:12:32Z,programming,programming,technology,Technology,[],0,1,0,,0.67,https://github.com/Adco30/Interpolation/blob/master/README.md,Small_Trifle_2309,2025-05-25T17:08:05.137296Z
+1kkfy14,reddit,S4F3-C0D3S : Recovery Codes Manager,"**S4F3-C0D3S** is a secure, encrypted, offline, cloud-free, free, open-source recovery codes (2FA) manager with no subscriptions, no data collection, cross-platform, and portable.
+
+# 💡 The Idea
+
+* **S4F3-C0D3S** was born from a real and personal need to securely store recovery codes (2FA). Many times, we end up saving these sensitive pieces of information in **notepads**, **screenshots**, **photos**, or **unprotected files**, which puts our digital security at risk.
+* Although password managers like **Bitwarden** or **KeePass** are very popular and effective for storing credentials, the saying **""don’t put all your eggs in one basket""** reminds us that it’s important to separate different types of sensitive data, such as 2FA recovery codes. With **S4F3-C0D3S**, you can store this information in a dedicated encrypted vault, reducing the risk of compromising multiple security layers at once.",2025-05-12T00:50:02Z,programming,programming,technology,Technology,[],0,1,11,,0.6,https://github.com/fajremvp/S4F3-C0D3S,FajreMVP,2025-05-25T17:08:05.956899Z
+1kix706,reddit,C++: Constexpr Optional and trivial relocation,,2025-05-10T00:07:46Z,programming,programming,technology,Technology,[],0,0,0,,0.5,https://quuxplusone.github.io/blog/2025/05/08/siren-song-2-optional/,Sufficient-Loss5603,2025-05-25T17:08:06.884422Z
+1kikba3,reddit,Replicating Postgres production traffic,,2025-05-09T14:47:42Z,programming,programming,technology,Technology,[],0,1,0,,0.57,https://pgdog.dev/blog/replicating-postgres-production-traffic,levkk1,2025-05-25T17:08:07.736290Z

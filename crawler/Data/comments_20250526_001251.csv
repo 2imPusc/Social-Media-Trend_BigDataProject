@@ -1,0 +1,511 @@
+﻿comment_id,content_id,platform,content,created_at,score,author,source_name,crawl_time
+ms4ucaj,1klfkfo,reddit,[deleted],2025-05-13T18:23:08Z,7,N/A,programming,2025-05-25T17:11:21.306908Z
+ms62aem,1klfkfo,reddit,"I've been in places that have used long lived feature branches and I'm not a fan. The integration is always messy and the chances of breaking things during that merge are HIGH.
+
+Almost every shop I've been to that used this type of strategy also relied heavily on manual testing. Automated testing is far superior, in my opinion, and helps ensure you can delivery continually.
+
+The ideal setup I've found (for most SaaS companies) is a continual delivery pipeline:
+- every PR merges to `main` and deploys straight to prod
+- automated testing is CRITICAL here
+- feature flags for everything
+- code can be ""tested"" in live environments way easier
+- if something breaks, it's easy to detect when and where, and rollback that specific change
+
+Most of the benefits come from deploying lots of small commits and constantly monitoring your app. The feature flags help make this a reality. They're just a necessary part of continual integration.",2025-05-13T21:59:32Z,3,TheCritFisher,programming,2025-05-25T17:11:21.306913Z
+ms6eej4,1klfkfo,reddit,Or just use feature flags to gate the features of the epic and save yourself a lot of trouble,2025-05-13T23:07:40Z,1,hammonjj,programming,2025-05-25T17:11:21.306915Z
+ms20bko,1klfk7y,reddit,No love for Nix here?,2025-05-13T07:48:49Z,-3,klaasvanschelven,programming,2025-05-25T17:11:22.235464Z
+ms1azde,1klb7xi,reddit,"For a number of years now, work has been proceeding in order to bring perfection to the crudely conceived idea of a transmission that would not only supply inverse reactive current for use in unilateral phase detractors, but would also be capable of automatically synchronizing cardinal grammeters. Such an instrument is the turbo encabulator.",2025-05-13T04:04:27Z,-1,CloudandCodewithTori,programming,2025-05-25T17:11:23.131033Z
+mryeshk,1kkz73p,reddit,"You describe three programming paradigms, and lost me up front.
+
+There are plenty of declarative language semantics out there that aren't listed. You also seem to be simultaneously ignoring and conflating the various imperative paradigms.",2025-05-12T18:24:07Z,10,N/A,programming,2025-05-25T17:11:24.041059Z
+mryuf5l,1kkz73p,reddit,"```
+(let ((statement (list 'some 'purely 'functional 'languages 'like '[...] 'Lisp)))
+  (set-car! (member 'like statement) 'BULLSHIT)
+  (set-cdr! (member 'BULLSHIT statement) (member 'BULLSHIT statement))
+  statement)
+```",2025-05-12T19:42:10Z,5,PerceptionWinter3674,programming,2025-05-25T17:11:24.041310Z
+mrzmy3p,1kkz73p,reddit,"I mean, I guess the point of programming paradigms (or, more generally, higher-level abstractions) adding restrictions instead of removing them is kind of right, in a sense, but also a bit of a moot point. It should be obvious that no programming paradigm can ever be more ""powerful"" than writing assembly, there are only so many things a CPU can do. But the argument is a bit like saying that using a ruler takes away power from you, because, without a ruler, you can do straight and non-straight lines. The advantage of any programming paradigm is not that it prevents you from doing something (though that is definitely important), but that it gives you more _expressive_ power. You are given a readily set of proven building blocks that you can confidently use, and that other people will understand when you use them.",2025-05-12T22:07:55Z,2,jdehesa,programming,2025-05-25T17:11:24.041317Z
+mrywy7l,1kkz73p,reddit,"Short metaphor: use fork for spaghetti and use spoon for soup. Sometimes screwdriver replaces hammer, but hammer was made to knock down nails.",2025-05-12T19:54:48Z,1,HaskellLisp_green,programming,2025-05-25T17:11:24.041577Z
+mrymkse,1kkz73p,reddit,"Here is the repo, it’s always up to date with examples etc: https://github.com/LukasNiessen/programming-paradigms-explained :-)",2025-05-12T19:02:34Z,-2,trolleid,programming,2025-05-25T17:11:24.041583Z
+mryv8ew,1kky0p5,reddit,Any way to read this without a login/paywall? ,2025-05-12T19:46:16Z,6,R4vendarksky,programming,2025-05-25T17:11:24.932391Z
+ms1bh3c,1kky0p5,reddit,QuillBot reports 100% AI generated slop.,2025-05-13T04:08:00Z,2,Cube00,programming,2025-05-25T17:11:24.932396Z
+mtfy8g6,1kky0p5,reddit,"Static Assets should be served as Static Assets, not stored and served from R2. You're wasting resources (and $) by doing so.
+
+[https://developers.cloudflare.com/workers/static-assets/](https://developers.cloudflare.com/workers/static-assets/)",2025-05-21T08:58:23Z,1,Chinoman10,programming,2025-05-25T17:11:24.932401Z
+mrnn5ji,1kjfh9t,reddit,"Other commenters are no fun; yes it might seem pointless to you the dear reader - but it's fun to go on the journey.
+
+All of my learning is done because I did something fun like this.
+
+Great read!",2025-05-10T22:06:37Z,7,SikhGamer,programming,2025-05-25T17:11:29.298224Z
+mrmmld6,1kjfh9t,reddit,"Reducing the loading time from the already-fast 0.45 seconds is meaningless because our reaction time is 0.3 seconds anyway and then you need to start thinking about what to type.
+
+
+It's not like we need to load the terminal multiple times per second.  Any perceived improvement in productivity is simply the placebo effect.",2025-05-10T18:34:08Z,4,Determinant,programming,2025-05-25T17:11:29.298232Z
+mrmz43j,1kjfh9t,reddit,Size does matter,2025-05-10T19:46:19Z,1,Positive_Method3022,programming,2025-05-25T17:11:29.298238Z
+mrmx0b9,1kjfh9t,reddit,or just switch to fish.,2025-05-10T19:34:03Z,0,SltLt,programming,2025-05-25T17:11:29.298243Z
+mrmqlnd,1kjfh9t,reddit,"I only have to let it load like once week, when I boot my machine I open a terminal with 4 splits and good chance I am not turning anything off for at least a week. So not really sure what the benefit of spending hours on a very infrequent less than a second wait.",2025-05-10T18:56:56Z,-3,passerbycmc,programming,2025-05-25T17:11:29.298249Z
+mrjnr66,1kino25,reddit,"Still doesn't support multiple projects in the same window properly but sure, Jetbrains cares so much about productivity.",2025-05-10T05:46:09Z,-3,BlueGoliath,programming,2025-05-25T17:11:31.920714Z
+mrfcea2,1kijwvm,reddit,"People seem to think git is somehow an improvement.
+
+As someone who happily used Team foundation server for years before being forced to use git for years. I can assure you that this is purest bullshit.",2025-05-09T14:35:47Z,-20,santaclaws_,programming,2025-05-25T17:11:32.848616Z
+mre1ame,1ki97ud,reddit,">Remove everything unnecessary
+
+Like headphone jack, useful ports  
+or simply put it - remove everything that you can charge money as accessory  
+plus add subjective reason - it is beatify without that useful feature
+
+and unnecessary is such subjective word  
+You can remove firestaires in a building, they are useless until they are lifesaver",2025-05-09T08:57:21Z,2,gjosifov,programming,2025-05-25T17:11:34.565571Z
+mrdfq8q,1ki97ud,reddit,"Greate suggestions. I'm only unsure about the inline edit. For the example of the table, you would have to provide validation for each colmn etc., making every component more complex. What about a hybrid approach: A inline popup, that has all the form complexity build in?",2025-05-09T05:20:17Z,1,skypescraper,programming,2025-05-25T17:11:34.565578Z
+mrei4uy,1ki97ud,reddit,"> 6. Provide recommendations where multiple choices are presented
+
+Please don't. It feels condescending.",2025-05-09T11:32:27Z,0,reddit_wisd0m,programming,2025-05-25T17:11:34.565581Z
+mrfznln,1khzaqp,reddit,Chat AI CoPilot AI AI ML LLM MCP AI AI prompt chat instruction chat AI AI AI,2025-05-09T16:34:08Z,1,unaligned_access,programming,2025-05-25T17:11:35.457441Z
+mr55cke,1kh4j9o,reddit,"Options #2 and #3 look like a very bad idea, they are not transactional and are made bypassing the framework. Clearly Spring would have something to batch, right? Well yes it has. In this example Option #1 doesn't work because of autogenerated IDs, which cause batching to be disabled by default. But it can be activated back via properties, as explained in [this article](https://www.baeldung.com/spring-data-jpa-batch-inserts).",2025-05-07T21:56:08Z,1,st4rdr0id,programming,2025-05-25T17:11:37.213795Z
+mqks3fx,1kekdz8,reddit,"No idea about iOS but for Android this isn't possible on a single device, unless the mobile device in question has multiple device user accounts which I don't think solves your problem.",2025-05-04T18:26:37Z,2,kin_of_the_caves,programming,2025-05-25T17:11:39.909893Z
+mqnf8dr,1kekdz8,reddit,"If I understand correctly you want people to clock in biometrically (fingerprint) but you do not want to store the biometric data on your side?
+
+I’d look at using AuthN certificate over NFC from an app on the users phone. Use their fingerprint to unlock the app/generate the initial certificate locally on their device if you want - but I personally don’t see a firm reason to require that.
+
+If your use case dictates that people MUST use their biometric to get in, there’s no way to avoid storing it SOMEWHERE — in which case you need to investigate secure ways of doing that.",2025-05-05T03:31:18Z,2,maxinstuff,programming,2025-05-25T17:11:39.909897Z
+mqntcax,1kei2qk,reddit,Three times so far in my career I've managed to persuade coworkers to redesign a serialization protocol after I explained why the birthday paradox meant that hash collisions were going to be a lot more common than they thought.,2025-05-05T05:25:10Z,2,CaptainCrowbar,programming,2025-05-25T17:11:40.804439Z
+mqogcu7,1kei2qk,reddit,"Went in with great expectations. Went out with blue balls because the article assumes that you already know everything about the birthday paradox, and explains Git and SHA-256 hash collisions instead.
+
+In conclusion, the author must be a uni prof, or on the way to becoming one.",2025-05-05T09:23:01Z,1,CorespunzatorAferent,programming,2025-05-25T17:11:40.804443Z
+mqna3vt,1kei2qk,reddit,"Interesting math, probabilities suck, and I thought this would be an article about the Borland desktop database that was Microshits first Embrace, Enshittify E-something. Just my two cents, but it should be titled THE Happy Birthday Paradox.",2025-05-05T02:57:35Z,0,N/A,programming,2025-05-25T17:11:40.804445Z
+mpzx09e,1kc4wql,reddit,"If you have not measured it, you are not optimizing it.",2025-05-01T10:50:15Z,66,Asyncrosaurus,programming,2025-05-25T17:11:42.619913Z
+mq08iys,1kc4wql,reddit,">Database Optimisation Often, the biggest performance bottlenecks lie in database interactions. This involves writing efficient SQL queries, using appropriate indexing, and understanding your database’s execution plan. While not strictly C# code, it’s a critical part of many C# applications.
+
+Haha. Reminds me of my first job after leaving academia. Some firm had this report that they wanted running on the first of every month. Its core was a huge SQL script and it took three days to run. I walk in, clad in an ill-fitting suit as was the fashion at the time, and change the nested cursors at the heart of the query into a LEFT OUTER JOIN. Boom! not even ten minutes. Then had to spend a couple of days proving it matched the other report to the fourth decimal place everywhere in all the downstream excel files, which was my first *real* corporate experience.",2025-05-01T12:16:21Z,28,Advanced-Essay6417,programming,2025-05-25T17:11:42.619918Z
+mq0ai2z,1kc4wql,reddit,"Everything in programming is harder than a naive person would expect.
+
+Not sure why author was surprised that this also happens with optimization, but they wrote up a nice summary of the optimization issues.",2025-05-01T12:29:31Z,5,planodancer,programming,2025-05-25T17:11:42.619920Z
+mpz0ccj,1kbwjyn,reddit,I assume software developers know how to use relational databases. Using screen shots for code is terrible. You can just use query method derivation `existsByEmailIn`.,2025-05-01T05:20:48Z,5,Holothuroid,programming,2025-05-25T17:11:43.497367Z
+mpp4wgx,1katwlh,reddit,"Short answer: yes
+
+Long answer: yeeeeeeeeessssssss",2025-04-29T17:54:08Z,4,zjm555,programming,2025-05-25T17:11:45.256342Z
+mpp2ovt,1katwlh,reddit,Doesn't this basically means just different programs with same code and different data running on the OS?,2025-04-29T17:43:58Z,2,-Xentios,programming,2025-05-25T17:11:45.256347Z
+mpp1tir,1katwlh,reddit,Also mpi4py.,2025-04-29T17:39:55Z,1,victotronics,programming,2025-05-25T17:11:45.256350Z
+mpp59pw,1katwlh,reddit,"There's work being done in CPython to eliminate the GIL. I believe the latest version has it available for testing. 
+
+
+I was very annoyed when I first learned about the GIL.",2025-04-29T17:55:50Z,1,pfp-disciple,programming,2025-05-25T17:11:45.256352Z
+mpqciya,1kasw22,reddit,"Find a word that roughly describes something adjacent to what your project does - and then translate it to a language other than English. There are many languages to choose from, and there are often synonyms, so you have plenty of choices to find a good sounding name.",2025-04-29T21:23:43Z,3,somebodddy,programming,2025-05-25T17:11:46.169795Z
+mpp3e4x,1kasw22,reddit,"This is actually one of the very few things where asking an AI is acceptable.
+
+Just ask ChatGPT for 10 suggestions and pick the least cringe one.",2025-04-29T17:47:11Z,2,vytah,programming,2025-05-25T17:11:46.169805Z
+mpwzrqg,1kasw22,reddit,Just generate a UUID.,2025-04-30T21:54:06Z,2,birdbrainswagtrain,programming,2025-05-25T17:11:46.169812Z
+mpqnw7i,1kasw22,reddit,"I used to give fancy names to projects. However had, some time ago I tried to just simplify it.
+
+For instance, the project I use to deal with web-related stuff, primarily written in ruby, is simply called ... 'web'.
+
+On the practical side, I can just do:
+
+    require 'web'
+
+This is also important to me as I can type very little and have a lot of functionality available.
+
+I don't always use short names though. For instance, the project I use to compile and install software, is called ... 'software_manager'. This one is more annoying to type e. g.:
+
+    require 'software_manager'
+
+I used an abbreviation prior to this called ""rbt"", for ""ruby build tools"". But I think the name software_manager is more appropriate, also because I moved away (at the least from a design point) to single things out onto one programming language. In other words, via 'software_manager', it is more easy for me mentally to just add any other programming language.
+
+I used nicer names in the past; some could be used for marketing. But at the end of the day, I am more interested in solving problems and getting-things-done, so at the least internally I would want to keep names that are very close to what the project at hand does. The project I use for manipulating images, is called ... 'images'. And so on and so forth. I also group a LOT of things - for instance, the project I use for games is called ... you may have guess it ... 'games'. But I also store other things in it, e. g. roleplaying games (pen and paper stuff and data, so not just computer games), various yaml files about fantasy and science fiction novels, also text-based MUDs (at the least one incomplete mud-engine) and so forth.
+
+It is often also harder to find the FIRST name for a project; changing the name lateron is a bit harder.",2025-04-29T22:23:50Z,1,shevy-java,programming,2025-05-25T17:11:46.169819Z
+mpnz12g,1kaf6dx,reddit,"Lyrics are impressively translated, rapping needs some work.",2025-04-29T14:33:01Z,2,wonkynonce,programming,2025-05-25T17:11:47.041058Z
+mplk1k6,1kad5b3,reddit,The timing of this article is a bit funny. What inspired it?,2025-04-29T03:11:25Z,1,BlueGoliath,programming,2025-05-25T17:11:47.912640Z
+mp16agw,1k7jm6o,reddit,"Three pages in, the author is still talking circles about how to actually generate and use SGX beyond basically ""I'm lazy and clicked the button to let cloud flare do it."" 
+
+
+No thanks. ",2025-04-25T20:28:24Z,3,YetAnotherRobert,programming,2025-05-25T17:11:52.348366Z
+mtvjt4c,1ktpq3s,reddit,"You say OAuth solves the problem of not giving away your username and password (an authentication problem), therefore it solves an authorisation problem?",2025-05-23T18:02:53Z,1,OffbeatDrizzle,programming,2025-05-25T17:11:54.122265Z
+mt3rfw7,1kq6rrn,reddit,"Gotta say OP, this is a low effort post. Can you give an opinion , spark a discussion or at least note some interesting points from the article?",2025-05-19T11:24:37Z,3,Lngdnzi,programming,2025-05-25T17:11:57.561153Z
+msshnzf,1koqyoi,reddit,"> For the sake of not setting it up from scratch every time we choose to try something, we can have a separate folder on our machine where all these kind of projects go and live, and then we can have them as either templates to just cp them and add the things we need, or manage everything in one place, adding or removing the dependencies however we see fit.
+
+Sorry, what exactly is presented in this article?
+
+That people can try things out without ruining production by using a testbed? That the `cp` command and templates exist? That containers are a good way to quickly set up a test environment?
+
+Erm...yes. We know. We have known for a veeeeery long time.",2025-05-17T13:34:34Z,6,Big_Combination9890,programming,2025-05-25T17:11:59.302619Z
+mrzn26j,1kl132a,reddit,"Low effort, bad article.
+
+But, at least I don't have the feeling it was written by AI.
+
+So, well done.",2025-05-12T22:08:32Z,2,neopointer,programming,2025-05-25T17:12:04.476034Z
+mryraoc,1kl132a,reddit,"Surprised you asked for donations at the end, rather than going into examples and more details of the pattern in the languages mentioned.",2025-05-12T19:26:24Z,1,Professional-Exit007,programming,2025-05-25T17:12:04.476045Z
+mrykyva,1kl03x2,reddit,The fact is that the octopus is really a dish towel making Lima bean casserole jumping jacks. You are welcome.,2025-05-12T18:54:31Z,20,show_me_your_secrets,programming,2025-05-25T17:12:05.824794Z
+mryllo0,1kl03x2,reddit,"A generative AI is trained on existing material. The content of that material is broken down during training into ""symbols"" representing discrete, commonly used units of characters (like ""dis"", ""un"", ""play"", ""re"", ""cap"" and so forth). The AI keeps track of how often symbols are used and how often any two symbols are found adjacent to each other (""replay"" and ""display"" are common, ""unplay"" and ""discap"" are not).
+
+
+The training usually involves trillions and trillions of symbols, so there is a LOT of information there.
+
+
+
+Once the model is trained, it can be used to complete existing fragments of content. It calculates that the symbols making up ""What do you get when you multiply six by seven?"" are almost always followed by the symbols for ""forty-two"", so when prompted with the question it appears to provide the correct answer.
+
+
+Edit: trillions, not millions. Thanks u/shoop45",2025-05-12T18:57:40Z,16,myka-likes-it,programming,2025-05-25T17:12:05.824806Z
+mryivq2,1kl03x2,reddit,LLM's and I are going to the store and then I can get it out of the house by the way I can get it out of the house by the time I get it out of the house by the time I get it out of the house.,2025-05-12T18:44:15Z,7,IAmAThing420YOLOSwag,programming,2025-05-25T17:12:05.824813Z
+mrz5jh6,1kl03x2,reddit,"Calling them ""AI"" is already explaining it like you're 5",2025-05-12T20:37:40Z,5,lqstuart,programming,2025-05-25T17:12:05.824821Z
+mrz8032,1kl03x2,reddit,"It's an autocomplete, but a very advanced one.",2025-05-12T20:50:03Z,5,AKJ90,programming,2025-05-25T17:12:05.824828Z
+ms05a1p,1kl03x2,reddit,Points for the King Crimson Reference,2025-05-12T23:50:32Z,2,Groundbreaking-Fish6,programming,2025-05-25T17:12:05.824835Z
+mrznlel,1kl03x2,reddit,Just put that into ChatGPT or Gemini and see what happens.,2025-05-12T22:11:30Z,1,davecrist,programming,2025-05-25T17:12:05.824841Z
+mrz4qop,1kl03x2,reddit,Math and (literally) some random bullshit predicts the next input,2025-05-12T20:33:39Z,1,aookami,programming,2025-05-25T17:12:05.824848Z
+mryh14s,1kl03x2,reddit,If you were 5 you wouldn't know what an LLM was. Now go and help mummy fold the towels.,2025-05-12T18:35:10Z,-5,Chorus23,programming,2025-05-25T17:12:05.824855Z
+mrikdoj,1kiwqsx,reddit,"Did you pay for it?   
+  
+No. Then you have no entitlement and should have no expectation that it works or is fit for any purpose.
+
+Yes. Then it's not a beta product and it should work. Unless, it's a beta version of an update to a product that you purchased and subscribed to. Then see 'No' above.",2025-05-10T00:59:21Z,4,Few-Satisfaction6221,programming,2025-05-25T17:12:07.533645Z
+mrijorr,1kiwqsx,reddit,Old man yells at cloud,2025-05-10T00:54:56Z,0,KagakuNinja,programming,2025-05-25T17:12:07.533658Z
+mra4a2a,1khvndp,reddit,Not to be confused with r/voidlinux,2025-05-08T17:39:17Z,7,pfp-disciple,programming,2025-05-25T17:12:08.483990Z
+mrb0rg3,1khvndp,reddit,"... so... another  vscode fork?  Which cannot run all the extensions? 
+
+Why not a simple extension?",2025-05-08T20:18:05Z,6,diegoiast,programming,2025-05-25T17:12:08.483999Z
+mra8iue,1khvndp,reddit,Why wouldn’t you just fork codium instead?,2025-05-08T17:59:21Z,2,Farados55,programming,2025-05-25T17:12:08.484005Z
+mrar507,1khvndp,reddit,"How does it compare to PearAI?  
+[https://trypear.ai/](https://trypear.ai/)",2025-05-08T19:30:36Z,1,Amgadoz,programming,2025-05-25T17:12:08.484011Z
+mrbim8s,1khvndp,reddit,I believe Zed is way more exciting than another vs code fork,2025-05-08T21:49:00Z,1,Zealousideal_Wolf624,programming,2025-05-25T17:12:08.484017Z
+mr5k3de,1kh1k0s,reddit,Pump and Dump the chumps.,2025-05-07T23:18:51Z,5,church-rosser,programming,2025-05-25T17:12:09.438517Z
+mr61uqh,1kh1k0s,reddit,"... I mean, I know the joke is that ""saying you're doing something that involves AI is a secret infinite money glitch when it comes to VC funding"", but for them to just... openly admit it is kind of crazy.",2025-05-08T01:01:44Z,2,tnemec,programming,2025-05-25T17:12:09.438520Z
+mrftll0,1kh1k0s,reddit,"YCombinator hasn't been funding anything actually good for years now, it's just become another VC buzzword bullshit barn, I don't know why people still care about it.",2025-05-09T16:03:00Z,2,IanAKemp,programming,2025-05-25T17:12:09.438523Z
+mr8pyyl,1kh1k0s,reddit,Bleak. ,2025-05-08T13:30:44Z,1,tomster10010,programming,2025-05-25T17:12:09.438525Z
+mr1la5b,1kgtv94,reddit,"> It’s doing too much, handling too many concerns
+
+No, it's not.
+
+> and will be difficult to maintain.
+
+No, it won't be.",2025-05-07T10:50:53Z,16,cdb_11,programming,2025-05-25T17:12:10.504691Z
+mr1mhcn,1kgtv94,reddit,Because you're working with React instead of Angular and you aren't forced into writing your code in a particular style that scales and isn't a total mess.,2025-05-07T11:00:30Z,-2,TCB13sQuotes,programming,2025-05-25T17:12:10.504702Z
+mqp4bpk,1kf9uu5,reddit,"A tool that you have to ""detox"" from is one it's probably better to just not touch at all... 
+
+Not knowing how to write your own tests is wild",2025-05-05T12:38:19Z,16,Jmc_da_boss,programming,2025-05-25T17:12:11.383506Z
+mqozo12,1kf9uu5,reddit,No AI period,2025-05-05T12:06:51Z,13,themistik,programming,2025-05-25T17:12:11.383510Z
+mqlm9l4,1ket428,reddit,"You are going to create confusing ambiguations and search engine hell with the name Flux. 
+
+https://fluxcd.io/
+
+I wouldn't name a new tool I wanted to see succeed the same name as a major project in the software development space.",2025-05-04T21:04:24Z,13,daedalus_structure,programming,2025-05-25T17:12:13.160867Z
+mqlz8ny,1ket428,reddit,This is the opposite of hot reloading. Hot reloading is about not restarting the whole application to see code changes reflected,2025-05-04T22:14:57Z,10,NotTheBluesBrothers,programming,2025-05-25T17:12:13.160879Z
+mqpjo6l,1ket428,reddit,"good stuff, alternatively there is reflex as well https://github.com/cespare/reflex",2025-05-05T14:07:49Z,2,samuel1604,programming,2025-05-25T17:12:13.160887Z
+mqmr42p,1kerkvd,reddit,Complexity merchants peddling their wares,2025-05-05T00:59:35Z,3,NotTheBluesBrothers,programming,2025-05-25T17:12:14.147331Z
+mqijpzf,1keek2a,reddit,"There is no information here, just 3 calls to action to subscribe to your stuff",2025-05-04T10:29:05Z,2,ketralnis,programming,2025-05-25T17:12:14.997673Z
+mqglb2k,1ke5296,reddit,Ha yes. Sure thing ,2025-05-04T00:35:50Z,1,Ok-Pace-8772,programming,2025-05-25T17:12:15.875731Z
+mqibyio,1kdrirm,reddit,Another shameless spammer detected.,2025-05-04T09:08:34Z,1,TrenchSquire,programming,2025-05-25T17:12:16.785849Z
+mq88kn0,1kd58zk,reddit,"This article seems, at first, to just be grousing that once a user's system is compromised, almost everything *on* the user's system is compromised, and treating this like a failing of Chromium specifically. Then they say at the end that it's unreasonable to expect Chromium to defend against that, before getting to their actual point, which is... a sales pitch --
+
+> The Path Forward: Chromium's Role and the Enterprise Solution
+
+-- for ""Island Enterprise Browser,"" made by the company that published the article.
+
+Like, literally, this is just an ad.",2025-05-02T17:10:11Z,7,DavidJCobb,programming,2025-05-25T17:12:18.571562Z
+mqd5y3x,1kcfxja,reddit,"""There should be one-- and preferably only one --obvious way to do it."" -- Zen of Python 
+
+
+What ever happened to this?",2025-05-03T13:08:53Z,2,tubaman,programming,2025-05-25T17:12:19.476210Z
+mq2dqpj,1kcfuvw,reddit,"Like you said yourself: it’s just making extensive use of DSLs (or EDSLs — embedded DSLs — to be more specific). In languages that support it well, it’s a popular pattern. Anything with proper algebraic data types and pattern matching gets you halfway there, Swift is a pretty decent language to do it in, but functional languages tend to be where it shines.
+
+If you’re interested in this approach, you might want to look at Kotlin. They have a killer feature, receiver lambdas, that make this sort of deal really easy and really really powerful. E.g. take a look at [Exposed](https://github.com/JetBrains/Exposed), JetBrains’ own SQL EDSL.",2025-05-01T18:52:44Z,7,pdpi,programming,2025-05-25T17:12:20.359929Z
+mq3kmk9,1kcfuvw,reddit,This has a long tradition. Lisp is the granddaddy of this style.,2025-05-01T22:27:47Z,5,pobbly,programming,2025-05-25T17:12:20.359938Z
+mq2qm14,1kcfuvw,reddit,That's called language-oriented programming; you might be interested in [Ward's seminal 1994 paper](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=825a90a7eaebd7082d883b198e1a218295e0ed3b) about LOP.,2025-05-01T19:55:17Z,3,pythaaa,programming,2025-05-25T17:12:20.359944Z
+mq2aye1,1kcfuvw,reddit,Isn't that kinda like how Java and XML be doing?,2025-05-01T18:39:06Z,1,snarkhunter,programming,2025-05-25T17:12:20.359948Z
+mq3mya3,1kcfuvw,reddit,"""Is this a new""... no.",2025-05-01T22:41:00Z,1,recurrence,programming,2025-05-25T17:12:20.359953Z
+mpwilde,1kbq9xb,reddit,"Ah yes, keep all your logic in a difficult to version track and expensive to scale system. And instead of separate databases for isolation, just everyone share one giant database because we put all the logic in there already. What could possibly go wrong?",2025-04-30T20:28:30Z,31,PolyPill,programming,2025-05-25T17:12:22.312836Z
+mpwjzp5,1kbq9xb,reddit,"This just reads like a database admin trying to ensure job security. These techniques have their place, of course, but to ham-handedly insist that anything else is Wrong™️ is pretty naive and/or driven by other agendas.",2025-04-30T20:35:11Z,24,v4ss42,programming,2025-05-25T17:12:22.312840Z
+mpx9ytw,1kbq9xb,reddit,"Having now read the article, it feels unfocused. Its thesis seems to be, ""This is what some boomers told me to do 20 years ago, isolate the db like it is its own service"". But it doesn't argue for why that's a good idea, just that you can and should.
+
+Sure, we can put a contractual layer in to the database with a view, and I will never have to know if you've added a field in the backend. But why is this contractual layer good? What downsides does it have?
+
+This might have been useful when you had several applications accessing the same database. In that time, your web sales app doesn't need to know the stock level, just if it's in stock or not, and only your inventory app needs to know the exact number. If I change that in stock boolean to a number, a view would allow me to isolate the web sales app from the change.
+
+In today's world, we tend to stick to one app per database, and put the contractual layer in front of a microservice instead. With that paradime, if I add a field, it's probably because I want my application to use it. Now I need to update both my table and my view. Instead, we'd modify the field and use the stock app to isolate the web sales app from the change. It adds additional overhead.
+
+I think my biggest counterargument is that the sql ecosystem isn't that mature by modern standards. For example, I can't easily unit test a trigger in a database.",2025-04-30T22:50:23Z,4,Goodie__,programming,2025-05-25T17:12:22.312842Z
+mpwq5by,1kbq9xb,reddit,Recommendations of somebody that only knows SQL.,2025-04-30T21:04:46Z,6,BenchOk2878,programming,2025-05-25T17:12:22.312844Z
+mpy3hhb,1kbq9xb,reddit,"This article seems to reflect organizational patterns more than solution patterns.  When a piece of tech is owned by a dedicated group, protectionism yields operational patterns.  The more core that tech is to the business the more the dedicated group can dictate the terms of service.
+
+My time in fortune 100's confirms much of the articles points.  But, that was also at a time when you needed to procure massively expensive hardware to build a system that would then need to be shared across applications/groups to distribute its expense. 
+
+Today, I avoid keeping application logic in the database....",2025-05-01T01:39:07Z,3,BotBarrier,programming,2025-05-25T17:12:22.312846Z
+mpwnsg5,1kbq9xb,reddit,"I'd like to agree with most of this article. However:
+
+""Developers also often struggle with version control and managing deployment or updates. A golden rule is that all your SQL belongs into Git. From the very first CREATE DATABASE and CREATE TABLE to the very last TRIGGER and EVENT. If it’s hard, you’re likely doing it wrong.""
+
+I have no Idea how to do this. I use pg_dump to create a full backup including the structure. How do I use git with SQL? Put all queries in text? Those become decoherent fast.",2025-04-30T20:53:27Z,7,3548468468,programming,2025-05-25T17:12:22.312849Z
+mpwx6yi,1kbq9xb,reddit,"While this makes some sense in the traditional RDBMS way of doing things, you can often afford to and should change the code to accommodate schema changes, though. Fewer apps these days truly share a common database independently and I'd argue that granular sharing is often an enterprise antipattern and it's induced by excessive attempts at isolating development efforts. There may be an argument based on costs (of hiring highly-skilled engineers) to be made here that seems reasonable at large scales, but it tends to lose credibility on small scales. There's a rather obvious impedance mismatch, which partly explains the rise of ORMs (although they're not a good solution either, not entirely of their own fault though).",2025-04-30T21:40:37Z,2,edgmnt_net,programming,2025-05-25T17:12:22.312851Z
+mtrfamj,1kbq9xb,reddit,"Totally get the versioning struggle. I've tried Flyway and Liquibase for versioning, and while they help, they can't do everything. DreamFactory simplifies SQL work by handling APIs so you focus less on those gritty details. And for collaborating without headaches, Git is a lifesaver too.",2025-05-23T01:39:14Z,1,Known_Anywhere3954,programming,2025-05-25T17:12:22.312854Z
+mpwp3a1,1kbq9xb,reddit,Low quality blog posts should be banned,2025-04-30T20:59:36Z,1,BrianRin,programming,2025-05-25T17:12:22.312856Z
+mpparhk,1kauo40,reddit,Ya don't say.  Not every day someone builds an LLM agent... or a framework for doing so.,2025-04-29T18:22:11Z,16,church-rosser,programming,2025-05-25T17:12:23.234944Z
+mppcccf,1kauo40,reddit,Could you do a quick comparison to Mastra? I’ve just migrated from using Vercel’s AI SDK directly to Mastra and although there seems to be a lot of rapidly evolving APIs it’s been amazing to work with in contrast to langchain.js,2025-04-29T18:29:48Z,0,davidarenas,programming,2025-05-25T17:12:23.234947Z
+mpp7w9e,1kauo40,reddit,"Hello, I’m Omer and maintainer of VoltAgent. It's a framework for building AI agents and provides more visibility into how they work internally, making the ""black box"" part clearer. 
+
+Some core features that set it apart (at least, that's what I believe )
+
+* It works with multiple LLMs so you’re not tied to a single provider. We also avoid the limitations like vendor-lock in often seen in no-code platforms.
+* Having a built-in visual developer console to see executions step by step for better insights into how our agents perform.
+
+It’s open-source and actively developed. Feedback is greatly appreciated as we continue to improve it.",2025-04-29T18:08:19Z,-5,omeraplak,programming,2025-05-25T17:12:23.234949Z
+moxtijl,1k7ci8l,reddit,"So to get experience as a software engineer, you need to experience being a software engineer. Riveting insight.",2025-04-25T08:53:44Z,5,ClownPFart,programming,2025-05-25T17:12:26.761419Z
+mox8var,1k7ci8l,reddit,"This was actually a pretty good read.  Short and to the point.  I agree it really is as simple as picking an area of focus and putting in the time, and the trick is all about making the most efficient use out of your time spent.",2025-04-25T05:28:50Z,2,artibyrd,programming,2025-05-25T17:12:26.761422Z
+moyueln,1k7ci8l,reddit,TLDR - write code.,2025-04-25T13:34:04Z,1,limitless__,programming,2025-05-25T17:12:26.761425Z
+mu11rck,1kuewhd,reddit,"""All of the frameworks"" would be an exhaustively long article, likely having to compare too many complicated nuances and tradeoffs to give solid advice. Usually people compare choices within one programming language, or sometimes even in a narrower context than that, and I suspect the reason this one doesn't is because it's mostly just an ad for their services.
+
+  
+For example, bringing up and seriously discussing MAUI as an option in 2025 needs to have the massive asterisk that this is a Microsoft-developed UI product, which means it most likely will be replaced in approximately three or four years with the next new hotness. Maybe it won't happen, but it should absolutely be a consideration before you decide to use it. 
+
+I don't have a bone to pick with flutter, but it really ought to be uno in that place. At least then the three frameworks would be roughly analogous (C#, Xaml, cross-platform).",2025-05-24T16:12:18Z,-1,wreckedadvent,programming,2025-05-25T17:12:27.639173Z
+mu1md4j,1kuewhd,reddit,"All of a sudden I'm more interested in the AI slop topic brought up here. I can tell sometimes sometimes I can't tell and there's just no world I want to have to filter every article in my brain and critique it to figure out if it's AI generated. I don't care if it's AI assisted or AI edited or AI researched, I'm just talking about purely AI generated and posted with minimal inspection.  How can we as a community and humans get to a point where we can trust anything anymore?",2025-05-24T18:01:12Z,-1,Professional-Ad3724,programming,2025-05-25T17:12:27.639185Z
+mtva6d5,1ktjgzy,reddit,"""but sir, I've written 10000 lines of code for you. I quality for the promotion""
+
+""but don't you think that's a lot of code for an egg timer app""",2025-05-23T17:17:56Z,4,commenterzero,programming,2025-05-25T17:12:28.534141Z
+mtw0uk0,1ktjgzy,reddit,"> Having evidently inherited Microsoft's penchant for confusing names, the GitHub Copilot coding agent is not the same thing as the GitHub Copilot agent mode, which debuted in February.
+
+Of course.",2025-05-23T19:28:18Z,3,loptr,programming,2025-05-25T17:12:28.534154Z
+mtioe3t,1krrgjq,reddit,Finally I can make a state of the art Spring Boot Pet Clinic app with AI.,2025-05-21T18:32:57Z,2,BlueGoliath,programming,2025-05-25T17:12:29.426579Z
+mtbr9a1,1kr9zl3,reddit,"OK, I don't want to watch the video. Why is it broken?",2025-05-20T17:07:53Z,19,theChaosBeast,programming,2025-05-25T17:12:30.500372Z
+mtcoq6a,1kr9zl3,reddit,That guy is a master of clickbait holy fuck. Lerp is not broken,2025-05-20T19:49:57Z,-2,Advanced_Front_2308,programming,2025-05-25T17:12:30.500377Z
+mt9umer,1kr1jf3,reddit,site closed as duplicate,2025-05-20T10:37:37Z,66,obetu5432,programming,2025-05-25T17:12:31.751637Z
+mt9u4t6,1kr1jf3,reddit,"Well, this is just what SO mods asked for. ",2025-05-20T10:33:18Z,28,Synth_Sapiens,programming,2025-05-25T17:12:31.751641Z
+mt9vhfz,1kr1jf3,reddit,"That’s a duplicate, we’ve talked about that subject on this sub already.
+
+Joke aside, I still don't know how this site could be populated with SOO many hateful people with overinflated egos and so hostile towards newcomers/beginners, good riddance I guess.",2025-05-20T10:44:59Z,16,LlamaSenpaiii,programming,2025-05-25T17:12:31.751644Z
+mt9v8ul,1kr1jf3,reddit,"Stack overflow did it to themselves. They got a bit overzealous with “closed as duplicate” or “off topic” or whatever instead of answering questions or taking the time to understand what the OP was really asking. I am amongst the top 2% of contributors on stack overflow, and even i dont use it as much nowadays because the responses are generally not so helpful.
+
+The sad thing is, if it goes offline a lot of useful information that surfaces via search engines will be gone too. So best to back it up on usb stick or something 😂",2025-05-20T10:43:00Z,18,StarkAndRobotic,programming,2025-05-25T17:12:31.751646Z
+mtabpjs,1kr1jf3,reddit,"I’m a senior software engineer, and I can confidently tell you that Stack Overflow provides more accurate answers than AI. One more thing — most AIs get their answers by searching Stack Overflow.  
+Did AI kill Stack Overflow? The answer is no. What it’s killing is the intelligence of the younger generation.  
+I’ve seen too many junior engineers who have absolutely no foundational knowledge of development, producing garbage and being proud of it.",2025-05-20T12:42:30Z,10,Secure_Maintenance55,programming,2025-05-25T17:12:31.751649Z
+mt9vkze,1kr1jf3,reddit,"Chatgpt is really good at reading stack overflow and reddit and coming up with something I can use. it's self limiting though, without a source. I think AI will kill SO, and will not function with any new languages and tech until SO is replaced.
+
+
+My fear is that it limits the tech we use to what exists the day SO dies.",2025-05-20T10:45:49Z,9,pohart,programming,2025-05-25T17:12:31.751651Z
+mtaobib,1kr1jf3,reddit,"SO kind of has its own demise programmed in from day one.
+
+The problem lies in how its social mechanism works: any question that has been asked before is rejected, any answer that doesn't add substantial value to a question is rejected. When SO was new, this created a gigantic burst of activity - nothing had been answered, the entire history of programming and software development was up for grabs, anyone who knew anything about the field could find something to answer, earn fake internet points, climb the fake social ladder, and stay engaged, and because of this, a very active community popped up that would answer questions faster than people could ask them. But because of the ""no duplicate information"" policy, finding new questions to ask and answer becomes increasingly difficult, a bit like mining cryptocurrency, and this means that while the body of knowledge contained in SO's database is massive and still growing, the rate of growth has been slowing down for years, and with it, engagement and profit opportunities.
+
+In other words, the way SO is set up, the more mature it gets, the less activity is sees. The problem is that its success model is tied to how fast its body of knowledge grows, rather than how big it is.",2025-05-20T13:56:00Z,3,tdammers,programming,2025-05-25T17:12:31.751653Z
+mta0sfa,1kr1jf3,reddit,"I think it is most telliing that whenever I open an SO search result, the good ones are all older. 
+
+Far too often the interesting topics get cut short by being ""closed as duplicate"" as has been stated too many times already. The problems here are systematic with absolitely no sign of anybody realizing it and changing course.
+
+Why even bother asking new questions? The moderation is so toxic that most of the time nothing comes from it.
+
+Even without AI it would decline ever further and eventually become irrelevant, but if you have a tool that can distill the useful bits from the noise and present it in a more accessible fashion, why even go there? Which also results in less answers being posted.
+
+In this case AI is not the cause of the problems but merely an indicator.",2025-05-20T11:27:11Z,4,Aggressive-Two6479,programming,2025-05-25T17:12:31.751655Z
+mta1qr6,1kr1jf3,reddit,If stack overflow would disappear Ai for programmers will die after.,2025-05-20T11:34:22Z,2,Alex999991,programming,2025-05-25T17:12:31.751658Z
+mta1983,1kr1jf3,reddit,"If Stack Overflow actually goes away, we are legit doomed without an equivalent replacement. I develop C++/C/Fortran/Python, probably the most well documented stack of languages on the internet, and SO is almost always the place I’m able to find high quality answers to specific questions, while the AI summaries foisted upon me by Google are downright horrible and misleading. SO’s policy of aggressive moderation resulted in an extremely searchable and high quality knowledge repository, and if you’re going to get upset because your high effort question “How do hello world python HELP” got deleted, perhaps you should take a moment to reflect upon your own problem solving abilities.",2025-05-20T11:30:43Z,6,DaMan999999,programming,2025-05-25T17:12:31.751660Z
+mt9uhi8,1kr1jf3,reddit,"Beyond Stack Overflow vs. ChatGPT, this is the trend of Human-AI Interaction vs Human-Human interaction.",2025-05-20T10:36:26Z,1,ElyeProj,programming,2025-05-25T17:12:31.751662Z
+mta0prb,1kr1jf3,reddit,"The main problem of SO is related to its moderators, quite closed-minded. 
+
+ChapGPT is just accelerating its decline.",2025-05-20T11:26:37Z,3,mondoblu,programming,2025-05-25T17:12:31.751664Z
+mtaev67,1kr1jf3,reddit,"Some sites thrive due to the community. Some are strangled to death.
+
+SO could have thrived if they had *embraced* churn the way reddit did, instead of trying to curate an immutable list of unique answers to unique questions with no duplications. By allowing things to get re-asked and answered, within reason, new, fresh content pertaining to the latest APIs, and best practices (which evolve continuously) would be automatically prioritized by search engines and users on the site. Contributors would be rewarded and incentivized to keep contributing. They could have worked *WITH* AI to help group similar answers and help users of the site connect with the right information-- and even other users to help them. An enormous lost opportunity and a lost resource for future developers to rely on each other instead of the machines.",2025-05-20T13:02:04Z,2,SpaceToaster,programming,2025-05-25T17:12:31.751666Z
+mtac99p,1kr1jf3,reddit,"I still use Stack Overflow a lot. I do prefer answers from Stack Overflow for the occasions where there is context injected. I also like having to try to take the code from Stackoverflow, and convert it into whatever I am using. Whether this be style changes, or functionality changes, I think the act of taking something and changing it helps cement it faster. 
+
+  
+That said, there are times where what I want is a small snippet to do something otherwise trivial. Something that there's not much real benefit in me trying to do myself. And this made up a decent amount of my requests to it.",2025-05-20T12:45:59Z,1,Podgietaru,programming,2025-05-25T17:12:31.751669Z
+mtaermi,1kr1jf3,reddit,"Hmm I haven't had to use stack overflow in a while,  it's been replaced by ""DONT FUCKING REMOVE ANY CODE JUST FIX THE bug!!!!""",2025-05-20T13:01:29Z,1,N/A,programming,2025-05-25T17:12:31.751671Z
+mtalkel,1kr1jf3,reddit,Any real software engineer has had their rite of passage of having their question closed for being “off-topic” or duplicate on SO.,2025-05-20T13:40:54Z,1,spaceneenja,programming,2025-05-25T17:12:31.751673Z
+mtswolp,1kr1jf3,reddit,"SO killed itself. It just turned into an unwelcoming place where people did not feel safe asking question.
+I turned using Reddit years ago and never looked back.",2025-05-23T08:43:04Z,1,jeenajeena,programming,2025-05-25T17:12:31.751676Z
+mtaclvc,1kr1jf3,reddit,"When ChatGPT started becoming popular, I remember one of the most popular answers on why people were choosing to use it for coding assistance (even though it hallucinated and gave wrong answers) was that ChatGPT is never rude, dismissive or condescending. Let this be a lesson.",2025-05-20T12:48:13Z,1,GrumpiestRobot,programming,2025-05-25T17:12:31.751678Z
+mtaf7fl,1kr1jf3,reddit,"Honestly, let it die. My only major memories of Stack Overflow was how mean spirited and elitist the moderation team was. There were genuinely curious people trying to get help and genuinely talented people trying to offer help but every question getting closed for being a duplicate, having a typo, or whatever other nitpick they had genuinely turned me off the platform as a whole.",2025-05-20T13:04:05Z,1,PersianMG,programming,2025-05-25T17:12:31.751680Z
+mt9vf5z,1kr1jf3,reddit,"I do not hope it survives, stack overflow is toxic af",2025-05-20T10:44:27Z,-6,Aaron1924,programming,2025-05-25T17:12:31.751684Z
+mt6wme2,1kqnapy,reddit,"Twitter variously does and doesn't work logged out, so here's the contents:
+
+> Some people might read this and think, that's just not my world, I am stuck in this world where software breaks all the time and everything I build is disposable.
+
+> Even if that is kind of the case for you, there is still good news, because this isn't an all-or-nothing problem. It's a dial that can be turned; you can turn that dial in a direction that reduces flailing and results in more-stable long-term progress.
+
+> You don't have to remove all the dependencies, because every dependency you remove contributes to stability. Even getting rid of 1/3 of your dependencies can do amazing things.
+
+> You can look at all the things you depend on and divide them into two categories: major and minor. Major dependencies are things that, realistically, you are never going to have your own version of. I am never going to make my own graphics API, so those count as major dependencies for me (DirectX12, Vulkan, Metal, etc). I am not going to write my own CPU-side font rasterization, so anything I choose to use there (FreeType, stb_truetype) goes in that category.
+
+> With Major Dependencies, you limit your contact surface with them: You call only the functions you really need, and you do this only from the surface of your program -- you don't build data structures deep into your program that propagate the particular data structures or API decisions of any of these systems. A good API author will help you do this (stb_truetype), a bad API author will be trying as hard as they can to screw you up and force you to become tied to their system forever (anything from Microsoft or Apple).
+
+> Understanding that many API authors are hostile can cause a big change of perspective here, and once you see it, the correct tactics become much more obvious.
+
+> So, that's the major dependencies. Minor dependencies are things that are smaller, and that you want to use much more thoroughly throughout your program: for systems programmers this might be a data structure like an expanding array or hash table, for Web, maybe there are some string or file operations that you like to do.
+
+> Minor dependencies can be eliminated and it's not even hard. You just do one at a time: hey, I need this data structure, I have been importing this other code to provide that functionality, I have suffered X, Y and Z problems because of this, how about if I just implement my own simple version of this one thing?
+
+> People can get scared of implementing core stuff like this, because they look at the implementation they are using now, and it looks huge and complicated and hard to reproduce. But the thing to realize is most of this implementation is spam. It is mostly doing things for people who are not you, for reasons you don't necessarily agree with, chosen by a decision-making method that is deeply flawed. Your own implementation can be cleaner and smaller, and it can give you good feelings when you go look at it. You don't need all the functionality of the thing you are importing; you only need 8% of the functionality. Implementing that is easy.
+
+> Once you do this a few times, you have your own stable body of code that you bring with you from project to project. It won't break unless you mess with it. You can keep improving it if you want, incrementally over time, but the cost of this is small because this code represents stable algorithms that don't change with fashion, so work on this is never forced.
+
+> Every big company has their own internal version of this, but the problem in that scenario is that a big company is full of people who want different things, and have varying levels of decision-making skill, so these usually end up not so good. But when it's your own personal thing, it can in fact be very good, and help make you happy on a daily basis.
+
+> And, your software will break much less often. Which is great.",2025-05-19T21:22:04Z,21,ketralnis,programming,2025-05-25T17:12:32.760586Z
+mt6vsa5,1kqnapy,reddit,I hate X/Twitter more than I love removing dependencies so I guess I’ll never know what Blow has to say on the matter.,2025-05-19T21:17:43Z,45,red_planet_smasher,programming,2025-05-25T17:12:32.760592Z
+mt6ytn5,1kqnapy,reddit,Game developers making self-contained little games which basically never need to change thanks to their system calls being supported by Windows in perpetuity. Trying to educate the rest of us that our integration software that needs to talk to craptons of other things can be the same! Nice.,2025-05-19T21:33:39Z,13,yawaramin,programming,2025-05-25T17:12:32.760596Z
+mt716fu,1kqnapy,reddit,"""...your own stable body of code that you bring with you from project to project.""
+
+Definitely know the type of dev who does this...and I'm not sure I like working with them. Inevitably, it'll be their ""stable body of code"" vs. the existing project code, and then you end up with more complexity than if you'd just all agreed to use common dependencies.",2025-05-19T21:46:18Z,7,Technical_Income4722,programming,2025-05-25T17:12:32.760600Z
+mt77hsr,1kqnapy,reddit,Everything Blow says you could turn on its head and then you have something worth thinking about. The guy's a perpetual wrong opinion machine,2025-05-19T22:21:40Z,7,DocMcCoy,programming,2025-05-25T17:12:32.760603Z
+mt6y04a,1kqnapy,reddit,Game dev found out about ports and adapters,2025-05-19T21:29:19Z,10,PositiveUse,programming,2025-05-25T17:12:32.760607Z
+mt70i8f,1kqnapy,reddit,"jonathan blow is a gigantic blowhard. he makes single-user software with no network access and thinks that gives him license to talk about every programming problem known to man. he said he could build twitter with 20 engineers. he has no idea what he's talking about if it's anything other than game development. 
+
+you should not roll your own authenticaion/authorization libraries, cryptography libraries, security software, etc because there are a million issues and attacks that exist that you've never even heard of, that library authors spend years learning about, fixing, testing, and iterating on. jonathan blow has never had to worry about any of that because he makes single-user software designed to run on a single machine.",2025-05-19T21:42:41Z,6,FistLampjaw,programming,2025-05-25T17:12:32.760610Z
+mt6y12q,1kqnapy,reddit,"If I had infinite time, sure.",2025-05-19T21:29:27Z,2,Rhed0x,programming,2025-05-25T17:12:32.760613Z
+mt72t0v,1kqnapy,reddit,"Regarding ""minor dependencies"", he's right that you aren't using most of what you get from those libraries, and that implementing what you actually care about is much easier than trying to reimplement the whole library.
+
+
+But then he goes a step further into ""those libraries didn't do it the way I would, and therefore they're wrong"" which makes me glad I don't share any code with him.",2025-05-19T21:55:09Z,2,PaleCommander,programming,2025-05-25T17:12:32.760617Z
+mt70r02,1kqnapy,reddit,nah,2025-05-19T21:44:00Z,2,zazzersmel,programming,2025-05-25T17:12:32.760621Z
+mt6gq0c,1kqkpwl,reddit,"The poor, oppressed devs that would be targeted by this memo in your parody world sound pretty childish and unprofessional, tbh.
+
+If you've raised your concerns, and they've been dismissed, then either shut up and work with it or find another company that gels better with your values. Whining and refusing to contribute because you don't agree with managerial decisions says far more about you than your supposedly wicked bosses.",2025-05-19T20:02:52Z,0,newzilla7,programming,2025-05-25T17:12:33.657477Z
+mt3zx6h,1kq8qyp,reddit,blogspam,2025-05-19T12:25:47Z,1,bhison,programming,2025-05-25T17:12:34.526628Z
+msz82nv,1kpo5i4,reddit,Make questions and be curious. Next,2025-05-18T16:39:59Z,1,DevGrohl,programming,2025-05-25T17:12:35.369262Z
+msxenu2,1kpf8b8,reddit,"The highlight for me were the links to the academic papers, provided as references.
+
+Thanks for that",2025-05-18T09:09:51Z,2,dotemacs,programming,2025-05-25T17:12:36.244954Z
+msvpwzt,1kp6w36,reddit,"The tone of the article strikes me as artificially neutral. This is not to accuse the OP of using AI tools, (though who knows), I think this has to do with the [stated purpose of the blag](https://bitshifters.cc/2025/04/20/after-cplusplus.html), where the OP appears to be taking a whirlwind tour through various c/c++ ""replacement"" languages. Spending a weekend doing a raylib coding kata isn't really going to give you any useful insight into most of these languages and will (somewhat obviously) bias the author against languages with a harsher difficulty curve.
+
+V is one of those languages precisely designed to fool people who look at the cover and don't [scrutinize the details](https://justinas.org/the-bizarre-world-of-v). It is *uniquely* ill-suited to be covered in such brevity.",2025-05-18T00:36:12Z,12,wreckedadvent,programming,2025-05-25T17:12:37.165821Z
+mt3t77t,1kp6w36,reddit,"The blog post had numerous factual errors and was full of misinformation. To the extent that when it was posted on Hacker News, it was flagged and the title removed, which is very unusual for them. It appears the post was such egregious clickbait, in addition to trying to stir up language flamewars and drama, that their moderators aren't tolerating it.
+
+To the OP, of course particular competitors and individuals associated with them, will encourage or instigate others to carry out attacks for them against the V language or whichever competitors are on their target list. They will attempt to convert you or anyone susceptible into being their tool. Sincerely hope you can find the moral courage to resist being recruited for such unethical behavior, for the love of programming and allowing people to freely choose.
+
+Problems with the blog post:
+
+**1)** Ignoring why other competitors (called players in the blog) actually do worry about Vlang?
+
+As of May 2025, in the TIOBE Index, Vlang is ranked # 43. That is above many of their competitors, despite all the things they have done or do to inhibit the language or damage its reputation.
+
+Furthermore, we are also comparing corporate produced languages that are several years older. In the case of Vlang, it's not finished yet. It should be allowed to have its time to develop. But being ranked in the top 50 of TIOBE index, while in beta, means it's making decent progress.
+
+**2)** Linking to flamewars, drama, and disinformation
+
+This prevents an article from standing on its own merit, and becomes indicators of bias and intent. The links set the stage for any such articles to be viewed as about drama, versus being for learning or helpful.
+
+Even more so, when the creator of it then gives links of where they have posted it on various social media sites, it gives the appearance of desperately trying to promote drama at those places and to get attention.
+
+**3)** Vlang has Module Import Aliasing (per documentation)
+
+Overlooking this, shows that there was little studying done about Vlang. Aliasing means the module name of ""raylib"" can be aliased as ""rl"". Instead of `raylib.is_key_down`, you can type it as `rl.is_key_down`, in Vlang.
+
+**4)** Raylib is not Vlang's primary UI module
+
+As was mentioned at HN, focusing on Raylib in Vlang, is odd. Vlang has VUI, and then various derivative libraries that focus on certain areas: GUI, IUI, MUI, etc... The Raylib bindings is a demonstration of using Vlang's C2V library for making such graphic libraries more accessible to their users.
+
+**5)** Global variables in Vlang (see below example)
+
+The blog arguably degenerates into misinformation, along with a HN post I saw, about the practices and what is encouraged. As was pointed out over at HN, Vlang encourages using struct fields instead of global variables. Global variables have to be specifically activated from the command line and are very discouraged. They are reserved for primarily compatibility with other languages or very specific use cases.
+
+**6)** Vlang and Null (Bonus)
+
+This was not in your blog, but was in the HN post. It's an example of the weird push to create negative or twisted narratives. For example, languages like Kotlin do indeed have ""null"", which can be assigned to variables. Why someone would lie about or overlook that? Your guess is as good as mine. Kotlin has the concept of nullability, where users can choose which variables can hold null or not (per their documentation).
+
+In many languages, their variables can be declared, but have no defined value or have null (which represents no value). Vlang variables are always initialized with a value once declared, based on type. In the reverse context, they are not undefined or without a value, which is a difference various people might not be aware of.
+
+To change V's default behavior requires the use of `unsafe`. The use of unsafe, is primarily for compatibility with other languages. After all, V can compile to C and others. It's also for backwards compatibility, as the language progresses and slowly removes unnecessary things. We are still dealing with a language in beta.
+
+Along those lines, Vlang has `isnil`, option types (? or !), and `none`. Option types, depending on what is being done, can also replace the usage of `unsafe {nil}`.
+
+`unsafe {nil}` can be used to replace `voidptr(0)` . The objective appears to be to move instances of such code into unsafe or to be expressed as `unsafe {nil}`.
+
+`voidptr` is elaborated on at several places in the documentation, along with example usage. It's not anything hidden, unknown, or surprising to users of the language. Yet, is presented by detractors as somehow nefarious.
+
+Example- What is done instead of using global variables
+
+    struct Example { 
+      mut: 
+      x int = 1 
+    }
+    
+    fn (mut adder Example) add() int { 
+      adder.x += 1 
+      return adder.x 
+    }
+    
+    fn main() { 
+      mut struct_adder := Example{} 
+      println(struct_adder.add()) 
+      println(struct_adder.add()) 
+    }",2025-05-19T11:38:06Z,2,waozen,programming,2025-05-25T17:12:37.165825Z
+msunyr3,1kp2uoc,reddit,Or just read [the doc page for the `field` keyword](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/field)…,2025-05-17T20:46:59Z,20,SpikeX,programming,2025-05-25T17:12:38.082924Z
+msur57w,1kp2uoc,reddit,"I've started writing more C#/dotnet recently, so I'm looking for opinions on idiomatic c#.
+
+Throwing an exception with a setter feels icky. Wouldn't better design be a set method that can return a result? Something the developer can reasonably handle without catching exceptions?
+
+I use get/set in C# so I can expose ""complex"" functionality with simple properties. Is this a good place for side-effects?",2025-05-17T21:04:31Z,3,pbNANDjelly,programming,2025-05-25T17:12:38.082936Z
+msslsqv,1koroam,reddit,"Author strangely waffles between “💡 If You Can, Use a Feature Flags Product”, and “you might not need a third-party solution”.
+
+They also don’t really show *when* you need something more trivial than a bool in a conf: when you want to give some users an early preview, for example.",2025-05-17T14:00:22Z,6,chucker23n,programming,2025-05-25T17:12:38.956346Z
+msqvxma,1kok4oe,reddit,No. That's just architecture.,2025-05-17T04:47:38Z,4,dark-light92,programming,2025-05-25T17:12:40.698803Z
+msr4jks,1kok4oe,reddit,"Ugh, don't listen to this guy.",2025-05-17T06:05:44Z,2,mohragk,programming,2025-05-25T17:12:40.698815Z
+msqw348,1kok4oe,reddit,Of course not. Any software system can be completely rewritten given you have enough manpower and time to do it,2025-05-17T04:48:56Z,1,shogun77777777,programming,2025-05-25T17:12:40.698823Z
+msft1ua,1kn6l36,reddit,What *every* programmer should know about most things is the empty set.,2025-05-15T12:35:09Z,24,zombiecalypse,programming,2025-05-25T17:12:41.663294Z
+msglkb0,1kn6l36,reddit,"Why?  
+Why does this article start with Integer partitions only to mention that there is no closed form formula to calculate the number of interger partititons.
+
+>There is no known closed-form formula to count the number of partitions of an integer (Knuth 1994). Therefore, we turn to integer compositions, for which closed-form formulas are known.
+
+What do you mean ""we turn to integer compositions""? Aren't those two different things? What does integer compositions help me if i need to know integer partitions. The article then goes on to never mention integer partitions ever again. So why mention integer partitions it in the first place if it is apparently not useful?
+
+The article also fails to mention why any of this is useful or interesting in the first place.  
+Out of all the ""every programmer should no"" articles, this is certainly one of them.",2025-05-15T15:08:50Z,6,Psychoscattman,programming,2025-05-25T17:12:41.663303Z
+msfh6e8,1kmvcdb,reddit,"It's glaringly obvious Uncle Bob has no idea about what testing is about. I know he was trying to make a point about cutting the manual in half, but it's the wrong point to make.
+
+Yes, sometimes you cannon run all the tests, be it manual or automated.  
+How do you decide which ones to keep? Based on risk. What areas of the system are less risky if they aren't properly tested. Is it a big problem if the users can't update they profile picture? Not really. Make payments? Well, you decide.  
+
+Yes, if you have the same tests to run aver and over again in the same conditions, you should automate them. But those weren't in question to begin with.  
+
+But how do you automate exploratory testing? How do you automatically find defects you don't know about?  
+There always be a need of manual testing, if you're serious about quality. Just don't force human testers to do repetitive stuff that can be easily automated and complain about ""manual"" testing being silly.",2025-05-15T11:13:14Z,6,atika,programming,2025-05-25T17:12:42.563817Z
+msejneh,1kmvcdb,reddit,"There's always extreme examples to ""prove"" a point, however in the real world with time/budget constraints you need to be pragmatic. Some tests lend themselves to be tested automatically without much effort, so they are a no brainer to automate, however at the other end of the spectrum some tests are very hard, if not impossible, to automate, so taking an idealistic viewpoint to automate everything is not sensible ...",2025-05-15T05:46:38Z,6,Anderook,programming,2025-05-25T17:12:42.563820Z
+ms6bf43,1klz02t,reddit,"Hot take: if you can't even write a commit message summarizing your own changes and need a chatbot to do it for you, you should probably be prevented from committing.",2025-05-13T22:50:22Z,15,tnemec,programming,2025-05-25T17:12:43.459053Z
+ms64yud,1klz02t,reddit,"Hi all. I wrote a short script that takes a Git diff and outputs a concise commit summary plus a detailed description following best practices.
+
+It works with any repo. I've added it to my .bashrc. Now, I simply write
+`gca` and create a commit with an autogenerate commit message.
+
+Posting in case someone else also finds it useful. 
+
+Tom",2025-05-13T22:14:03Z,-7,tomdekan,programming,2025-05-25T17:12:43.459064Z
+ms1bdpt,1klby7z,reddit,"Id post in others subs, this isnt really the place
+
+try r/cscareerquestions or r/learnprogramming",2025-05-13T04:07:18Z,6,theboston,programming,2025-05-25T17:12:44.410326Z
+ms1ogva,1klby7z,reddit,"Never too late. Switched careers from admin work to software engineering at 29. It’s a lot of work, I went back to school at 24 to take community college classes to get into a grad program in math. Finished my degree at 28/29, and finally in a field I’m proud of working in 
+
+I don’t have much advice. If I were you in your shoes, I would get an online degree from an accredited university. Either bachelors or masters. Get involved in as many cloud computing projects during your studies as you can. (That is what I did. I was interested in ai, so I involved myself in every single project at university that involved ai) 
+
+Then, look for new grad roles as those are the ones that are super welcoming and awesome for people with zero work experience. 
+
+I don’t know anything about bootcamps and transitioning into a new role thru that realm, so maybe someone else can provide better help. I can help with any questions you might have about the academia route.",2025-05-13T05:53:08Z,1,suzyq9,programming,2025-05-25T17:12:44.410330Z
+mrxdqqe,1kkusup,reddit,">Everyone wants to bolt LLMs onto their databases.
+
+I would run so fast and so far away from anyone I ever saw say this at any company I've ever worked at. I would put in applications today if anyone in our DB team said this out loud.
+
+This is the absolute worst idea I've ever heard of.",2025-05-12T15:23:56Z,17,Deranged40,programming,2025-05-25T17:12:45.322618Z
+mrxbq7s,1kkusup,reddit,"I'm gonna be real, I will *never* connect AI to an actual database. God only knows what kind of privacy laws you're breaking without knowing (or that haven't been defined yet), let alone trust that something beyond your control is writing and executing against that database is doing everything safely.
+
+AI to generate an SQL statement, that you then take and verify (with *knowledge*, not token lookups) before executing it? Sure, it's a tool. 
+
+Deploying AI as an interim for users to speak to and nuke the database? No thanks.",2025-05-12T15:14:00Z,5,ScriptingInJava,programming,2025-05-25T17:12:45.322624Z
+mrzrq3m,1kkusup,reddit,"The main question I have is why isn't your API built to answer the questions from your users? Using your example, why isn't there an API to answer questions about how many orders placed over a certain amount? Your prompt becomes something along the lines of ""You are a consumer of these APIs: <links to swagger, whatever API doc format>. You have the access to these APIs based on the security info of the current user asking for information. Using these APIs and security info, make the appropriate read-only API calls.""
+
+You then ask ""How many orders over $500?"". The AI can go ""Oh, orders... That's available through this API endpoint. Oh, it's a paginated endpoint. I'll make sure to let the user know I'm only giving them X results, there are Y total, and they can ask me for the next Z. Oh... But this API requires these privleges, which they don't have. NVM... I won't call the API but tell them they don't have access to this data.""
+
+As others have said, hooking up AI to a database for people to ask questions seems unwise, a rich target for Little Bobby Tables to run riot. Given the constant news reports of how people are gaming AI to get around any safety mechanisms ([inception, etc.](https://thehackernews.com/2025/04/new-reports-uncover-jailbreaks-unsafe.html)), I would want AI at as high a level as possible with as little knowledge of possible of the raw internals of the system.",2025-05-12T22:34:43Z,1,sprak3000,programming,2025-05-25T17:12:45.322627Z
+mrfj231,1kijbfb,reddit,"Completely unrelated to the post, and I use mocking myself, but... I simply can't read the word mocking without thinking of that _other_ meaning of the word, and then applying it to the thing in question.",2025-05-09T15:09:43Z,1,klaasvanschelven,programming,2025-05-25T17:12:47.093237Z
+mr5fegr,1kh8rsn,reddit,"Ah, the good ole days, back before the all the LLM slop 
+started enshitifying everything.",2025-05-07T22:52:07Z,5,church-rosser,programming,2025-05-25T17:12:47.965677Z
+mr53b8g,1kh8rsn,reddit,"> Ever since ChatGPT was released in 2022, I’m sure not a lot of developers have tried to build their own, small chatbots without using APIs or integrating LLMs. That got me thinking— do they even remember how we used to build the world’s simplest chatbots for fun, back then? Maybe. Maybe not.
+
+Oh yeah, I remember building stuff like that for fun way back in the day. Break text into sentences, try to anticipate and recognize common phrases and grammar, things like that. It was fun to think about different ways to recognize and model sentiments and topics of discussion, and think about how the bot should react to them and what demeanor it should have.
+
+It'll be nice to read about some [Eliza](https://en.m.wikipedia.org/wiki/ELIZA)-style chatbots that aren't just someone dumping a bunch of scraped text into a blender and letting matrix math figure it out. This article oughta be--
+
+> The chatterbot The library we have used is a Python module that lets you train machine learning-based chatbots using pre-defined conversations (or datasets). Talking about pre-defined conversations, it’s one of the best things about building a chatbot this way.
+
+...Oh.",2025-05-07T21:45:25Z,2,DavidJCobb,programming,2025-05-25T17:12:47.965690Z
+mqnwgbr,1kf3zfd,reddit,¿Dónde está la biblioteca?,2025-05-05T05:54:22Z,1,JavierReyes945,programming,2025-05-25T17:12:48.847641Z
+mq02i0q,1kc5wgv,reddit,Hey what if we talked about literally anything else?,2025-05-01T11:34:01Z,2,CanvasFanatic,programming,2025-05-25T17:12:49.743244Z

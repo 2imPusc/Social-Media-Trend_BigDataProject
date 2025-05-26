@@ -1,0 +1,585 @@
+﻿comment_id,content_id,platform,content,created_at,score,author,source_name,crawl_time
+mqhw190,1ke8bqc,reddit,"Tomorrow, it's my turn to post this, guys.",2025-05-04T06:26:33Z,92,0xdef1,programming,2025-05-25T17:03:23.650718Z
+mqgxsci,1ke8bqc,reddit,repost,2025-05-04T01:57:28Z,25,KrazyKirby99999,programming,2025-05-25T17:03:23.650722Z
+mqi5hoh,1ke8bqc,reddit,Tomorrow is Groundhog Day again everyone!,2025-05-04T08:01:04Z,3,gnpwdr1,programming,2025-05-25T17:03:23.650724Z
+mqi9m2c,1ke8bqc,reddit,Brb. Launching _forkedit_,2025-05-04T08:44:09Z,1,psaux_grep,programming,2025-05-25T17:03:23.650726Z
+mqmc180,1ke8bqc,reddit,We did it Reddit!,2025-05-04T23:29:33Z,1,dangerbird2,programming,2025-05-25T17:03:23.650728Z
+mtm53wn,1ksadxq,reddit,Reading the docs there's a lot to love here :),2025-05-22T06:52:42Z,3,just_another_scumbag,programming,2025-05-25T17:03:24.524981Z
+mto2l41,1ksadxq,reddit,"I'm curious: why the `:` at the end of a `for` or an `if`, besides the obvious Python reference? I imagine that a syntax without that `:` would not get to any ambiguity, would it?",2025-05-22T15:15:58Z,1,jeenajeena,programming,2025-05-25T17:03:24.524985Z
+mtobbtl,1ksadxq,reddit,"> The call to find is in its maximum terse form
+
+Hate it, personally. One of the main reasons why I find Swift to be so annoying to read. 
+
+When I am reading code, I don’t want to have to bring forth the laws of sugar. I want it to speak to me directly and obviously. 
+
+The chase for tenseness is a mistake. ",2025-05-22T15:57:39Z,1,uCodeSherpa,programming,2025-05-25T17:03:24.524987Z
+mtcdlut,1kr9z5e,reddit,C++ is now technical debt if you read between the lines here,2025-05-20T18:55:01Z,9,brigadierfrog,programming,2025-05-25T17:03:25.451623Z
+mq9fgps,1kd49h5,reddit,"A more accurate title might be ""functional JSX"".  There's an implicit assumption throughout that HTML exists as a way for JS apps to render their UI, rather than being the core language of the web in it's own right.
+
+This is a relatively minor gripe though.  I think React Server Components mostly make sense as a solution to the specific problems they're trying to solve (even if I personally prefer going with a more hypermedia driven approach most of the time)",2025-05-02T20:38:43Z,19,lunar_mycroft,programming,2025-05-25T17:03:27.328871Z
+mq922kg,1kd49h5,reddit,"> In this article, we’ve reinvented React Server Components from scratch.
+
+This is mentioned at the end in the conclusion, but I think readers may want to know the article’s context up front.",2025-05-02T19:32:32Z,21,MoTTs_,programming,2025-05-25T17:03:27.328875Z
+mq9vyn3,1kd49h5,reddit,"I love this approach to learning, it was a great read. It's easier to demystify established tech like this, instead of digging through the source trying to figure out all these parts at the same time.
+
+My ""vote"" for the next challenge to write about is HMR. I recently made a pretty bare bones HMR implementation using Vite for my company's legacy app (10+ year old code). There's virtually no documentation on making your own HMR implementation out there. It was a very fun process! Highly recommended.",2025-05-02T22:04:22Z,6,JoshYx,programming,2025-05-25T17:03:27.328877Z
+mqaa1d0,1kd49h5,reddit,Wouldnt using [custom elements](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements) make more sense for this?,2025-05-02T23:24:57Z,2,Jejerm,programming,2025-05-25T17:03:27.328879Z
+mqaqpdl,1kd49h5,reddit,Wasn't an almost identical article posted just like a week ago? ,2025-05-03T01:04:37Z,2,tomster10010,programming,2025-05-25T17:03:27.328881Z
+mqh6o8q,1kd49h5,reddit,"My reaction is a no. HTML is a lean mean MVP and let's keep it that way. The proposal is more like pre-installing Candy Crush when you install Windows 10, it is unnecessary.",2025-05-04T02:57:14Z,1,BoBoBearDev,programming,2025-05-25T17:03:27.328883Z
+mqadgmq,1kd49h5,reddit,"[DOM just sucks for regular biz GUI's](https://www.reddit.com/r/CRUDology/comments/10ze9hu/missing_or_defective_gui_idioms_in_htmldom/). We need a state-ful GUI-over-https markup standard. DOM cannot be fixed for this use without breaking backward compatibility. Therefore, it needs competition in Standardsville. 
+
+And please don't quote [that XKCD comic on ""too many standards"".](https://xkcd.com/927/) There's only ONE, not 15. Let's make it 2.",2025-05-02T23:44:40Z,1,Zardotab,programming,2025-05-25T17:03:27.328885Z
+mrl30ij,1kiyd90,reddit,Do we finally get a real IDE?,2025-05-10T13:25:00Z,4,PrimeDoorNail,programming,2025-05-25T17:03:28.250900Z
+mr3c2a5,1kgw928,reddit,"This is so extremely surface-level and generic.  It does seem well written, but the content is bland.  Also, I would not say that patience is one of my critical skills as an engineer.  Patience is important for me as an adult interacting with others, but not as an engineer.  Knowledge of the system/domain, understanding of the languages/frameworks involved, and clear requirements are so much more important than just being patient.",2025-05-07T16:42:14Z,16,lurksponge0,programming,2025-05-25T17:03:30.069740Z
+mr4e3jh,1kgw928,reddit,Is this sub becoming LinkedIn?,2025-05-07T19:43:48Z,17,itaranto,programming,2025-05-25T17:03:30.069751Z
+mr275di,1kgw928,reddit,s/Software Engineer/human.,2025-05-07T13:17:16Z,28,jimbojsb,programming,2025-05-25T17:03:30.069759Z
+mr4hfyh,1kgw928,reddit,"I don't have time to read this, can someone break it down real quick?",2025-05-07T19:59:52Z,4,bautin,programming,2025-05-25T17:03:30.069766Z
+mr3lzw7,1kgw928,reddit,"I am trying to be patient, but this damn computer isn't listening!!!",2025-05-07T17:29:12Z,1,shevy-java,programming,2025-05-25T17:03:30.069773Z
+mqx6vmh,1kfyq46,reddit,"> Spatial memory safety violations: Accessing memory outside of the bounds of allocated objects (e.g, accessing an index that doesn’t belong to an array)
+Temporal memory safety violations: Accessing the memory that has already been deallocated or not yet allocated (like accessing the variable after it’s freed)
+
+The fact that they took the time to actually formally define memory safety is refreshing.",2025-05-06T17:44:03Z,24,stonerism,programming,2025-05-25T17:03:31.470163Z
+mqul3c0,1kfyq46,reddit,"Run down of memory safty, examples in Java and Rust, counter example in C. Nice.",2025-05-06T07:45:06Z,36,przemo_li,programming,2025-05-25T17:03:31.470167Z
+mqwov1s,1kfyq46,reddit,"> if this was an integer at compile time then it still must be an integer at ~~the compile~~ runtime.
+
+You mistyped. I won’t comment on the grammar. Info itself is good!",2025-05-06T16:19:22Z,7,backfire10z,programming,2025-05-25T17:03:31.470169Z
+mqxm2d9,1kfyq46,reddit,"An issue that may also be worth addressing is the range of actions that can cause violations of memory safety.  In K&R2 C on most target platforms, the only actions that can violate memory safety within non-recursive code are pointer dereferences, indirect function calls, and calls to outside code or library functions.  In ""modern"" C as processed by gcc and clang, constructs like \`uint1 = ushort1\*ushort2;\` and \`while((uint1 & 0xFFFF) != uint2) uint1\*=3;\` may disrupt the behavior of surrounding code in ways that violate memory safety even if all names refer to automatic-duration objects whose address isn't taken.",2025-05-06T18:56:34Z,3,flatfinger,programming,2025-05-25T17:03:31.470172Z
+mr0vmfa,1kfyq46,reddit,Someone who does heap memory allocations for integers should definitely not be using C/C++...,2025-05-07T06:32:14Z,-1,Heazen,programming,2025-05-25T17:03:31.470174Z
+mqumarg,1kfyq46,reddit,"C is memory safe if you aren't bad. By which I mean, you should never be doing coding like this. You should be freeing ptr only when you leave the scope. After that point, \*ptr shouldn't be possible, because ptr should already be out of scope.
+
+Of course, C++ takes care of this for you with its descructors so it's a lot easier to write correctly. But even in C, it's seriously not that difficult to scope variables properly. It just isn't.
+
+Almost all examples like these should never ever happen. So I have a hard time taking them seriously.
+
+  
+When I read these numbers, rather than thinking: ""Wow, these languages sure are unsafe,"" it just makes me think: ""Wow, many people sure can't code properly""",2025-05-06T07:58:06Z,-115,EsShayuki,programming,2025-05-25T17:03:31.470176Z
+mr04uwx,1kfyq46,reddit,"Imagine you have a bug like:
+
+        int monthNumber = 14;      // must be a number from 0 to 11
+
+This is a ""memory safety"" bug because the bug doesn't have anything to do with memory (but later on the integer might be used in 100% correct code as an index into an array of 12 entries, to get the name of the month).
+
+> What does this mean that a programming language is memory-safe?
+
+It means that the programming language probably doesn't do anything about the bug shown above, but may whine annoyingly about stupid crap (symptoms of the root cause, not the root cause) after it failed to do anything useful about the actual bug.
+
+The important thing is that by taking bugs that are not memory safety bugs and letting morons misclassify them (by choosing any of many possible symptoms to suit an agenda, and not classifying them by the root cause), you can spread ignorant bullshit like ""90% of Android vulnerabilities are memory safety issues"" to help promote stupid crappy products that don't actually solve as much as the false claims pretend they do.",2025-05-07T03:01:02Z,-11,Qweesdy,programming,2025-05-25T17:03:31.470178Z
+mtyhze4,1ktp6xa,reddit,I know some of these words,2025-05-24T04:25:07Z,3,light24bulbs,programming,2025-05-25T17:03:33.270182Z
+mtwbwf8,1ktp6xa,reddit,"For me, that presents an opportunity to learn about a lot of unfamiliar programming language topics!",2025-05-23T20:24:12Z,1,igouy,programming,2025-05-25T17:03:33.270194Z
+mrqz9a9,1kjbjyj,reddit,I didnt know this was still alive,2025-05-11T13:54:37Z,4,PrimeDoorNail,programming,2025-05-25T17:03:34.159060Z
+mrqep4i,1kjbjyj,reddit,"> so the last release supporting win32, and including C# and Java targets (Jvm target is still fine)
+
+Where can I read more about this? I tried searching information about Haxe 5 and couldn't find anything.",2025-05-11T11:28:54Z,2,jezek_2,programming,2025-05-25T17:03:34.159073Z
+mpuxj6u,1karwjs,reddit,"Zero comments?
+
+Zero?
+
+Okay, now one I guess.
+
+Isn't Amazon RDS Amazon RDS for Postgres?",2025-04-30T15:51:50Z,0,Engineering-Guy-185,programming,2025-05-25T17:03:35.085057Z
+mt72m74,1kqo8d2,reddit,"I mean… I guess. I get tired of these “here’s a problem the way I see it in my terms, here’s a solution the way I see it in my terms (it worked for me one time for real tho)” posts. 
+
+Yeah, communicate. Yeah, write stuff down. That’s like 30+ year old advice.",2025-05-19T21:54:06Z,29,petrol_gas,programming,2025-05-25T17:03:36.834218Z
+mt771xg,1kqo8d2,reddit,"Looks like the problem agile is meant to solve.
+
+MVP and iteration means that people guess and deliver, and you get feedback and the cycle continues. You improve your feedback gathering mechanisms, and your iteration process, or you fail.",2025-05-19T22:19:06Z,4,spaceneenja,programming,2025-05-25T17:03:36.834230Z
+mt91287,1kqo8d2,reddit, Guess so.,2025-05-20T05:39:34Z,2,church-rosser,programming,2025-05-25T17:03:36.834237Z
+ms8f313,1klfjq2,reddit,"Nice write up.  If I understand correctly, to make use of this exploit in ""the wild"" would require root escalation in order to modify another user's home directory contents; a large enough barrier to make any exploit impractical and therfore a low-level security risk IMO.  Not that it's not worth fixing and exploring and again, I appreciate the details but I can understand the delay in patch response from Apple.  If root access escalation is feasible, you're already pwned 10 other ways to Sunday.",2025-05-14T07:36:56Z,6,Fit_Gap7151,programming,2025-05-25T17:03:37.754469Z
+msefzuk,1klfjq2,reddit,The entirety of that class dialogs are unauthentic. In Windows (I switched from that to Mac in 2003) you had a safe sequence Ctrl-Alt-Delete that would allow you to be sure that dialogs such as that were authentic. At least that was the idea.  Mac has these things come up from time to time. You can't click to see more details about the requester for the change that'd need a password. It's just a string. Not a process that was launched from a executuable on the file system.  Even the [Activity Monitor it is not so straight forward](https://apple.stackexchange.com/questions/407366/how-do-i-view-full-process-paths-in-activity-monitor),2025-05-15T05:14:23Z,2,paul_h,programming,2025-05-25T17:03:37.754474Z
+mscpmc8,1klfjq2,reddit,It's such a bad design.,2025-05-14T22:41:20Z,-1,pickledplumber,programming,2025-05-25T17:03:37.754477Z
+mrs8g21,1kk1qiv,reddit,https://www.nesdev.org/wiki/CPU_unofficial_opcodes,2025-05-11T17:57:04Z,3,zeroone,programming,2025-05-25T17:03:38.673559Z
+mqublrs,1kflgq5,reddit,"Nice. I'm on my way to write my own Unix-like OS, as well.",2025-05-06T06:07:29Z,1,Tanawat_Jukmonkol,programming,2025-05-25T17:03:39.602225Z
+mqt68y7,1kflgq5,reddit,[removed],2025-05-06T01:17:19Z,-16,N/A,programming,2025-05-25T17:03:39.602229Z
+mt37bi9,1kpl1mn,reddit,Thanks! Looks like a fun read.,2025-05-19T08:09:34Z,1,WillemDaFo,programming,2025-05-25T17:03:41.368586Z
+mt45229,1kpl1mn,reddit,I didn't see Novell in there once. I expected to at least see Netware,2025-05-19T12:58:38Z,1,bekd70,programming,2025-05-25T17:03:41.368591Z
+mr1jf6c,1kgqpo5,reddit,[Cool name](https://tenor.com/view/%E3%81%97%E3%81%90%E3%82%8C%E3%81%86%E3%81%84-shigure-ui-vtuber-3d-live-ui-gif-24529262),2025-05-07T10:35:14Z,11,Cilph,programming,2025-05-25T17:03:43.183809Z
+mr0w1bd,1kgqpo5,reddit,Is the name a VTuber reference?,2025-05-07T06:36:18Z,11,Aktanith,programming,2025-05-25T17:03:43.183813Z
+mr1r8iz,1kgqpo5,reddit,The old good rusty beam,2025-05-07T11:36:24Z,1,HarmadeusZex,programming,2025-05-25T17:03:43.183815Z
+mq2w5hd,1kc63w7,reddit,pretty reasonable,2025-05-01T20:21:55Z,3,No_Technician7058,programming,2025-05-25T17:03:44.052189Z
+mplycz7,1ka5luo,reddit,"Zig error handling is the worst thing on earth only slightly better than errno because it is basically a local errno in a fancy dress: it doesn't provide mechanism to return arbitrary information, so the moment you want to get the details, it's useless. Imagine getting ""Config error: conflicting keys"" instead of ""Config error: Alt-Left bound to 2 actions: at (wm.cfg:115), at (included_file.cfg:234)""
+
+Even go variant is infinitely better. 
+
+Even C++ committee was not drunk enough to prevent putting arbitrary info into std::exception(just drunk enough to still permit `throw ""up""` if one desires).",2025-04-29T04:52:46Z,22,Maykey,programming,2025-05-25T17:03:45.186094Z
+mpk0wkf,1ka5luo,reddit,"My DBTRTA[*]:
+
+Go's error handling is the worst thing since C's, while Zig is a refreshing new take, though it is only applicable to Zig's niche (it requires compiling the whole source, not really compatible with (dynamic) linking). 
+
+
+[*]: Didn't bother to read the article",2025-04-28T21:49:53Z,32,Ok-Scheme-913,programming,2025-05-25T17:03:45.186100Z
+mpo7t9t,1ka5luo,reddit,"All languages have or will have about the same requirements.
+
+The developer must handle the errors, and the tooling should assist/force him. Errors need to be fast to compare. Errors can wrap other errors and include metadata/context.",2025-04-29T15:16:00Z,5,GoTheFuckToBed,programming,2025-05-25T17:03:45.186103Z
+mplf1oi,1ka5luo,reddit,Implicit error returns is the new implicit blocks (Python).,2025-04-29T02:40:27Z,3,scottrycroft,programming,2025-05-25T17:03:45.186107Z
+mu1rpps,1kugjyy,reddit,"Is that .grf extension pronounced ""griff"" with a hard G like in gif or ""jriff"" with a soft g/j like in gif?",2025-05-24T18:30:16Z,29,zed857,programming,2025-05-25T17:03:46.135204Z
+mu1vreh,1kugjyy,reddit,"I'd be happy to make a UnifontEX port, though Unicode support would be ideal.",2025-05-24T18:52:39Z,4,stgiga,programming,2025-05-25T17:03:46.135208Z
+mu5ym81,1kugjyy,reddit,"> grayscale 8BPP pixel buffer
+
+I did just mention on another subreddit's thread regarding this, but might as well mention here too (more for others than OP who's already aware) -  You can of course generalise such things beyond greyscale.  e.g. Amiga world used ColorFonts - multicolor bitmap fonts - back in the day.  And AnimFonts - animated color bitmap fonts.   Useful for gfx and video titling apps.   If you want that 80s/90s retro look, don't forget the multicolor fonts haha.
+
+* https://www.youtube.com/watch?v=7IMqeqGTLCQ&t=310s 
+* https://www.youtube.com/watch?v=uwmz2_FMiiA&t=150s
+* https://www.stone-oakvalley-studios.com/amiga_colorfonts/amiga_colorfonts.php / https://www.stone-oakvalley-studios.com/post.php?id=000913112022231233
+* https://aminet.net/package/text/bfont/TKC_ColorFonts / https://aminet.net/package/text/bfont/TKC_AnimFonts
+
+Similar color and animation can be done for outline fonts of course, an obvious generalization just like for bitmap fonts. Color kind of already is but mostly for emoji already - just don't see many outline fonts with all the ordinary letters in multicolor too like the Amiga bitmap colorfont days, nor animated fonts.   OpenType-SVG format for color outline fonts does now exist as a format though https://helpx.adobe.com/ie/fonts/using/ot-svg-color-fonts.html",2025-05-25T13:03:56Z,2,DGolden,programming,2025-05-25T17:03:46.135211Z
+mu3fdxw,1kugjyy,reddit,"I assume, since you aren't doing otf/ttf font rendering, that you aren't doing otf/ttf font shaping either, which is necessary for large sections of unicode to work (i.e. produce reasonable output), which I guess means that you are just supporting ascii or ascii + various code pages?
+
+Edit: And, I wish I had a less rude/mean way of putting it, that makes the whole thing sort of useless, however neat it is. (It is a cool project, just that because of its limitations it doesn't seem like it will ever be able to spin out anything of general usefulness. Outside of retro-computing, where you might only have a single character ROM/system font--or maybe even just the upper case letters--projects that wouldn't want unicode support seem fairly rare.)",2025-05-25T00:25:40Z,2,schombert,programming,2025-05-25T17:03:46.135213Z
+mu3bpy2,1kugjyy,reddit,"I've done the thing where you have a compressed 1bpp font with giant characters, then shrink it down to a grayscale image.  This also lets you place each character at a fractional coordinate, so it's not tied to pixel coordinates.",2025-05-25T00:01:42Z,1,Dwedit,programming,2025-05-25T17:03:46.135216Z
+mtg4jqo,1krb8br,reddit,"Welcome to ... 1980 I guess?
+
+Now that JavaScript has both eager and non-eager `map`/`filter`/... operations, they will just need to deal  with the endless stream of people confused by it. (Hat tip to C# in that regard.)",2025-05-21T10:03:09Z,2,simon_o,programming,2025-05-25T17:03:47.026001Z
+mtdpcs5,1krb8br,reddit,☺️,2025-05-20T23:00:41Z,1,d0ct0r-d00m,programming,2025-05-25T17:03:47.026015Z
+mtm2gxj,1krb8br,reddit,"Oh that's neat, kinda like linq?
+
+I've always wondered how chaining filter and map works. For arrays do they iterate over the list for each function? Because using these new iterables might be more efficient if that's the case.",2025-05-22T06:27:35Z,1,Lachee,programming,2025-05-25T17:03:47.026023Z
+mt71wai,1kqnbpy,reddit,">     let user = get_user().ok_or(get_logged_in_username())?;
+
+In that case, you should prefer `ok_or_else`:
+
+    let user = get_user().ok_or_else(get_logged_in_username)?;
+
+`ok_or_else` accepts a function (closure, actually) and only invokes it in the `or_else` case, so if the function is expensive or if it allocates memory `ok_or_else` will avoid calling it in the `ok` case just to discard the result.",2025-05-19T21:50:11Z,64,somebodddy,programming,2025-05-25T17:03:47.975459Z
+mt8076p,1kqnbpy,reddit,It depends. Sometimes you cannot express the invariant with types. In such cases it is ok to use panic.,2025-05-20T01:12:39Z,8,AnnoyedVelociraptor,programming,2025-05-25T17:03:47.975463Z
+mt8s36y,1kqnbpy,reddit,"maybe (Left ""my error"") Right $ user",2025-05-20T04:23:17Z,2,loop-spaced,programming,2025-05-25T17:03:47.975466Z
+mt8b11q,1kqnbpy,reddit,"For nightly users, `try` blocks can also be helpful!",2025-05-20T02:20:21Z,2,ferreira-tb,programming,2025-05-25T17:03:47.975468Z
+mt8tv7y,1kqnbpy,reddit,"The real problem is that Option is a separate type from Result. It really should’ve been defined as `Option<T> = Result<T, ()>`",2025-05-20T04:37:46Z,1,Linguistic-mystic,programming,2025-05-25T17:03:47.975471Z
+mt9cv7b,1kqnbpy,reddit,burn it with fire,2025-05-20T07:34:49Z,-7,Specialist_Brain841,programming,2025-05-25T17:03:47.975473Z
+mpnl6h3,1ka7emx,reddit,An external index would still be useful for improved retrieval performance.,2025-04-29T13:19:52Z,3,XNormal,programming,2025-05-25T17:03:49.745978Z
+mqu9lqh,1kfqw1s,reddit,👍Share da pdf bro 👊,2025-05-06T05:48:45Z,-1,StarkAndRobotic,programming,2025-05-25T17:03:51.526679Z
+mpwyjg5,1kbpm3p,reddit,"this is tangential, only related to the apparent namesake of this project...
+
+I'd like to imagine what Subaru feels when he returns by death is roughly equivalent to what my computer feels when my program causes a kernel panic",2025-04-30T21:47:43Z,2,cheraphy,programming,2025-05-25T17:03:52.403875Z
+moyku51,1k7j6g8,reddit,"Solid summary, the only missing one I caught is ""are code reviews used as a political tool""?
+
+My favorite solution has long been ""everyone checks in without code reviews for quick turnaround, but every change has to have been signed off on before reverse integration""",2025-04-25T12:38:46Z,7,ysustistixitxtkxkycy,programming,2025-05-25T17:03:53.350522Z
+mp6ncp3,1k7j6g8,reddit,"Code Reviews are fairly easy to do if the responsibilities are clear. 
+
+What works well for us in enterprise context.
+
+ TL;DR People get paid to write software. An Engineer is not necessarily a Manager. Trust, Respect, Tests and a good Failure Culture makes Code Review blazingly fast and easy. 
+
+-------------
+A contributer is responsible for delivering good enough quality software. He or she must actively stste if there is a closer look desired which most of the time is resolved in pairing. 
+
+The reviewer has supportive responsibilities and looks out for obvious mistakes, reading tests, and also may provide helpful insights with project specifics stuff like internal libraries, which may is not known to the contributer. A reviewer may approve a PR even if there are objections stated.
+
+
+It is the contributers decision if, when or how the comments or objections are adressed. 
+
+
+This means in short, the reviewer will not take most responsibility for oversight or a decision to merge poor quality code. If the contributer makes a mistake, no worries, we will fix and learn together. 
+
+If the contributor cant be trusted, then we have a diffrent issue we can't solve in PR.",2025-04-26T18:13:10Z,1,deamon1266,programming,2025-05-25T17:03:53.350527Z
+mp4lwhz,1k7j6g8,reddit,"From my point of view it’s always about the understanding of trust and responsibility.   
+   
+To beginn with: if I can’t trust my teammates and/or I can’t take the responsibility of reviewing code, it resolves to a me problem. And what I mean by that =>   
+    
+Imagine I work with a junior, I know his success and learning is directly related to my commitment of checking her/his code. If the task was clear and given junior can handle it alone, I will just check the PRs general structure and tests. Is there the possibility that given Junior made a mistake and I didn’t see it in the PR … of course there is and then we have to fix it (ideally together). But this is always the case, so I rather I accept.   
+ If it’s a very big change, I rather do actual code reviews.    
+    
+If it’s a non junior coworker I expect the person is doing her/his job, while keeping in mind that I’m not perfect either. That’s why I’m scanning the code for the “typical” errors and check the tests (if architecture is a thing, make tests for it as well). Or again it’s a big change, then we go through the code together.   
+    
+This is why and how I always do quick reviews. The code won’t become better if I’m letting it stand for 5 days. It rather blocks everyone at the end and it is just burning money. And the money aspect is the key argument to bring to your PO/PM when you explain why reviewing code is always a high priority",2025-04-26T11:08:00Z,1,MayBeArtorias,programming,2025-05-25T17:03:53.350537Z
+mtqfwvf,1kszaxr,reddit,"Taking a Quick Look through the language here. I just dunno if I’m totally sold that C programmers would pick it up any more than they might be swayed to zig.
+
+The biggest advantage language wise is the interfaces, but that appears to just be vtables, so I’m not sure C programmers would take that trade off. 
+
+Nice to have C ABI by default, but other languages trying to get in the space can easily expose C ABI compatibility with pretty minimal effort. I’m not sure this is a major win over other languages tbh. ",2025-05-22T22:12:52Z,2,uCodeSherpa,programming,2025-05-25T17:03:54.292665Z
+mtda3d7,1krequz,reddit,"Whatever floats your boat. One could argue that doing it the quick way would means you have more time to work on more important projects issues. It's all very well and good rewriting  the architecture in order to minimise perceived future issues, but a lot of the time you got issues right now elsewhere, rewriting for readability and maintenance is a luxury few have the privilege to choose.",2025-05-20T21:36:50Z,6,wenhamton,programming,2025-05-25T17:03:56.068753Z
+mt2elpz,1kpzmqo,reddit,"Looks like a cool project, but I don't know enough about graphics to provide useful feedback. You might have better luck asking a more specialized community. It also might help to wait until your project is a bit more mature, and build some demos that show off your library's capabilities.
+
+That said, I don't know why your last post got removed. If this sub about **programming** can tolerate endless blog spam about AI, management processes, and random niche tutorials, I think it should be able to handle stuff like this.",2025-05-19T03:42:36Z,2,birdbrainswagtrain,programming,2025-05-25T17:03:57.834476Z
+mt3sjwg,1kpzmqo,reddit,"Please add screenshots, it's the first thing I look for.",2025-05-19T11:33:12Z,3,frostgirl-bigboobs,programming,2025-05-25T17:03:57.834479Z
+msohzn7,1ko23gl,reddit,"In commercial world unless its blocker in way organization can function its not something anyone will bother touching. This is that good old ""dont touch if it works"". If you offer to business option to pay 100k$ or 0$, any financial department will say ""I'm not giving you any budget, pick 0$"".
+
+When I read such blogs, I just can't comprehend product offering representatives expecting they're speaking to average Joe there. They're speaking to business, and its main interest is to minimize spending and maximize profit for itself and shareholders. Moreover, even people making these decisions to not pay don't read such blogs, so it might actually not reach its main audience.",2025-05-16T19:44:33Z,3,dimon222,programming,2025-05-25T17:03:58.765240Z
+msqui3s,1ko23gl,reddit,"reading it I get the feeling its maybe just individual devs building on one-off access that they cant even get someone higher up to even respond to their messages asking for the paid version
+
+but even if not, well, the article comes across incredibly whiny & passive-aggressive
+
+is the company violating some license that says commercial use with _N_ users requires the paid version? if they are, sue them, and name them in the article. if not, but youre big sad about their uses for it anyway? -- then push interface-breaking updates that would send those satellites on a fiery course back into the atmosphere, at least for anyone who just relies on the free docs & no corporate tier support. serves them right for using the free version for expensive business-critical uses.
+
+if neither approach is workable, then why tell us instead of nutting up?",2025-05-17T04:35:31Z,-1,Messy-Recipe,programming,2025-05-25T17:03:58.765244Z
+mpm2rzd,1kafxa1,reddit,"Hard disagree. You seem to be projecting certain omissions of C++'s syntax and standard library onto all other programming languages. Though even there: part of `containers` and STL are the types, algorithms and re-usable functions such as `iterator` that will make this work even decently in C++. And if that' s not enough, Boost, Abseil and co also exist. (though it's been a while I used C++ so take this paragraph with a grain of salt.)
+
+Looking outside of C++: languages such as Rust or Haskell, traversing datastructures can be done using the `.map` method (Rust) / the `Functor` typeclass (Haskell), collapsing can be done using `Iterator`/`Foldable`, and turning them inside out (e. g. a tree containing optionals into an optional containing a tree) using `Collect`/`Traversable`. 
+Many dynamically-typed languages expose similar mechanics, though they often are not as explicitly named.
+
+Speaking generally, I am of the opinion that languages should be [grown](https://www.youtube.com/watch?v=_ahvzDzKdB0). Provide those core building blocks which allow programmers to add their own trees and traversals, and have it work just as well as any builtin/standard library constructs.
+
+For trees specifically, you might like to become acquainted with the concept of 'zippers'. This is a functional approach to walk back and forth over a tree (rather than only iterating in one particular order). Very flexible, no extra builtin syntax required.",2025-04-29T05:28:18Z,110,qqwy,programming,2025-05-25T17:04:01.040694Z
+mpmmlbk,1kafxa1,reddit,"Uh ok, let’s just do a traversal. Ok, cool. Which one? Postoder, preorder, inorder? Depth first or breadth first? This is not a serious idea.",2025-04-29T08:46:18Z,52,shizzy0,programming,2025-05-25T17:04:01.040698Z
+mpm5eir,1kafxa1,reddit,"No. What they should have though, is internal iterators. Trees should know how to traverse themselves in different ways.",2025-04-29T05:51:23Z,38,yxhuvud,programming,2025-05-25T17:04:01.040700Z
+mpm2dh1,1kafxa1,reddit,"It needs a condition to define which branch to take. You can't just flatten a tree.
+
+Also this construction appears to be limited to binairy trees.",2025-04-29T05:24:53Z,34,elmuerte,programming,2025-05-25T17:04:01.040702Z
+mpmbzjp,1kafxa1,reddit,"> a range based for loop requires that your tree exist in memory
+
+No, it doesn’t any more than the hypothetical `for_tree` loop does. Ranges can be defined lazily via fat iterators (i.e. iterators with logic that computes the next item).
+
+> AND that you have an iterator defined for your tree
+
+So does the `for_tree` loop. Most of the logic for that iterator can be abstracted. In fact, writing a `for_tree_iterator` that accepts basically the same arguments as this `for_tree` syntax and generates a lazy iterator to be used with a classical loop is a neat little algorithm exercise. — Left for the reader.
+
+At any rate there’s absolutely no need to build this into the language as dedicated syntax.",2025-04-29T06:54:18Z,15,guepier,programming,2025-05-25T17:04:01.040704Z
+mpo8b4f,1kafxa1,reddit,"This reads like it was written by someone who failed their data structures class tree-implementing homework and is looking for validation that they don’t need to know how to traverse a tree.
+
+Anyway, to pile onto the reasons this isn’t a good idea, I can’t figure out how it would handle trees that aren’t k-trees.",2025-04-29T15:18:24Z,14,its-been-a-decade,programming,2025-05-25T17:04:01.040706Z
+mpmktui,1kafxa1,reddit,C++ iterators do this already except the logic is tucked away.,2025-04-29T08:26:56Z,5,_FedoraTipperBot_,programming,2025-05-25T17:04:01.040708Z
+mpnkcfh,1kafxa1,reddit,"How is this up voted? Has the author ever heard of iterators? Slop blogspam
+
+Edit: ah I thought this was r/cpp, but it's r/programming, no wonder it's up voted, sub went to shit long time ago",2025-04-29T13:15:06Z,14,glaba3141,programming,2025-05-25T17:04:01.040710Z
+mpojzti,1kafxa1,reddit,"As someone who just left this phase, this is very ""student learning c++"" coded",2025-04-29T16:15:18Z,6,h3ie,programming,2025-05-25T17:04:01.040712Z
+mpm91pp,1kafxa1,reddit,So generator?,2025-04-29T06:25:31Z,5,unrealhoang,programming,2025-05-25T17:04:01.040714Z
+mpmcywh,1kafxa1,reddit,*Laughing in Java Collections/Streams*,2025-04-29T07:04:01Z,5,zam0th,programming,2025-05-25T17:04:01.040716Z
+mpnkyie,1kafxa1,reddit,"Haskell monad are functional and composable, so tree traversal can be completed using just a few operators.
+
+`countupLeaf (Leaf _) = Leaf <$> increment`  
+`countupLeaf (Node l r) = Node <$> countupLeaf l <*> countupLeaf r`
+
+really fun.",2025-04-29T13:18:35Z,5,stock_lover45,programming,2025-05-25T17:04:01.040718Z
+mpo3c9n,1kafxa1,reddit,"No.  Trees are too varied to standardize.  Is it a binary tree, a m-ary tree, a tree with no limits on the number of children?  Are the children separate fields on a node data structure, and if so are they pointers, references, or indexes (and how many bits for the index)?  Or are the children stored in an array or a container?  That's just for the tree structure and doesn't get into the actual data associated with each node.",2025-04-29T14:54:16Z,2,AmalgamDragon,programming,2025-05-25T17:04:01.040720Z
+mprjbx2,1kafxa1,reddit,"I think they should have graph traversal primitives, a tree being a special case.",2025-04-30T01:19:26Z,2,Bloaf,programming,2025-05-25T17:04:01.040722Z
+mpm2o4j,1kafxa1,reddit,How about using a library?,2025-04-29T05:27:23Z,2,Traveling-Techie,programming,2025-05-25T17:04:01.040725Z
+mpm2snv,1kafxa1,reddit,"Hard disagree. You seem to be projecting certain omissions of C++'s syntax and standard library onto all other programming languages. Though even there: part of `containers` and STL are the types, algorithms and re-usable functions such as `iterator` that will make this work even decently in C++. And if that' s not enough, Boost, Abseil and co also exist. (though it's been a while I used C++ so take this paragraph with a grain of salt.)
+
+Looking outside of C++: languages such as Rust or Haskell, traversing datastructures can be done using the `.map` method (Rust) / the `Functor` typeclass (Haskell), collapsing can be done using `Iterator`/`Foldable`, and turning them inside out (e. g. a tree containing optionals into an optional containing a tree) using `Collect`/`Traversable`. 
+Many dynamically-typed languages expose similar mechanics, though they often are not as explicitly named.
+
+Speaking generally, I am of the opinion that languages should be [grown](https://www.youtube.com/watch?v=_ahvzDzKdB0). Provide those core building blocks which allow programmers to add their own trees and traversals, and have it work just as well as any builtin/standard library constructs.
+
+For trees specifically, you might like to become acquainted with the concept of 'zippers'. This is a functional approach to walk back and forth over a tree (rather than only iterating in one particular order). Very flexible, no extra builtin syntax required.",2025-04-29T05:28:28Z,3,qqwy,programming,2025-05-25T17:04:01.040727Z
+mpqek6p,1kafxa1,reddit,Your compiler is your tree traversal primitive.,2025-04-29T21:34:06Z,1,ToaruBaka,programming,2025-05-25T17:04:01.040730Z
+mpv1q1w,1kafxa1,reddit,Lisp's have tree traversal baked in :-),2025-04-30T16:12:11Z,1,church-rosser,programming,2025-05-25T17:04:01.040732Z
+mpma4zq,1kafxa1,reddit,"Interesting concept. I do an unreasonable amount of work with trees, for some reason, and I'm curious if this would address some of my needs. At first glance, the main thing I would miss, I think, is a way to say from within the for_tree loop body whether or not to recurse further from the current node. I often want to do a depth-first walk but skip subbranches (e.g. because I'm cleaning the tree and don't need to recurse into parts of the tree that aren't dirty).",2025-04-29T06:36:06Z,-2,Hixie,programming,2025-05-25T17:04:01.040734Z
+mpmmewl,1kafxa1,reddit,"Can you imagine not having hash tables or maps and making the same argument?
+
+Good data structures and their use solve most problems and should be a core language feature.",2025-04-29T08:44:24Z,-8,danikov,programming,2025-05-25T17:04:01.040736Z
+mqdazkl,1ka49s7,reddit,"A few years ago -- okay, yes, a decade, I'm getting old -- I was working on decomissioning a routing application running on a mainframe, to port it to a more modern, distributed, Linux stack.
+
+Configuring the routing was done via the terminal on the mainframe: the operator would input the commands one at a time.
+
+For the new application, we had settled on storing the configuration in SQLite for various reasons, amongst which the ease of copying the configuration file from one node to another (distributed, remember?).
+
+We just needed to solve how the operators would input the changes into the system.
+
+Well, it turned out the operators were used to actually preparing the changes with Excel -- for better and worse, it regularly truncated the leading 0 of string IDs, treating them as numbers -- so my team lead who had done a bit of VBA early on in his career prepared an Excel template with a VBA macro which would export each sheet as a CSV file, and bundle them into a ZIP archive (uncompressed) for easy upload to the server.
+
+There was a whole workflow tool on top, which would upload the ZIP and uncompress it for us, then call a web service which would trigger the validation of said set of changes, and write out the result + the automatically calculated fallback, before calling back the workflow tool, which would compress the results into a ZIP, and download said ZIP to its own server so a human could check the result of the validation & manually double-check the change and its fallback.
+
+All CSV files.
+
+It worked great.",2025-05-03T13:39:53Z,3,matthieum,programming,2025-05-25T17:04:02.294848Z
+mpjxq0g,1ka3cs1,reddit,It has nothing to do with GPU’s..,2025-04-28T21:31:54Z,15,Difficult-Court9522,programming,2025-05-25T17:04:03.189788Z
+mpjm3r4,1ka3cs1,reddit,Now included by default in most linux distros,2025-04-28T20:32:09Z,3,nekokattt,programming,2025-05-25T17:04:03.189794Z
+mpjvk39,1ka3cs1,reddit,How's the progress on it? Can you compile Mira to Vera?,2025-04-28T21:20:21Z,1,PerceptionWinter3674,programming,2025-05-25T17:04:03.189798Z
+mpkyyy3,1ka3cs1,reddit,[deleted],2025-04-29T01:05:34Z,1,N/A,programming,2025-05-25T17:04:03.189801Z
+mpj7p5y,1ka3cs1,reddit,Can you fix Reddit instead of posting?,2025-04-28T19:19:44Z,-16,BlueGoliath,programming,2025-05-25T17:04:03.189805Z
+mu15894,1kud4qw,reddit,Is this the replacement for Azure Data Studio?,2025-05-24T16:31:03Z,10,gredr,programming,2025-05-25T17:04:04.150619Z
+mu3jl4p,1kud4qw,reddit,"They should build the same thing for sqlite.
+
+Having said that what I wouldn't give for an embedded version of pg. All the features of PG without a server.",2025-05-25T00:52:59Z,6,myringotomy,programming,2025-05-25T17:04:04.150632Z
+mu3bh3l,1kud4qw,reddit,PgAdmin is pretty great.,2025-05-25T00:00:05Z,-2,KeyboardG,programming,2025-05-25T17:04:04.150640Z
+mt5s20a,1kqigb7,reddit,"I have personally used Fossil for my (solo) projects for many years and I am often quite happy with it. It makes it quite easy to set up a fully featured project page using CGI even on quite low tiered webhosting services. In a world dominated by Git however, it does put you in a rather isolated position. And sometimes I am worried that it tries to do too many tasks at once (version control, bug tracker, wiki, forum, chat, user-management).",2025-05-19T18:00:37Z,6,dravonk,programming,2025-05-25T17:04:05.062041Z
+msd4t50,1km80pb,reddit,Thats pretty cool ngl,2025-05-15T00:08:09Z,1,diliny867,programming,2025-05-25T17:04:06.011220Z
+msgrh0q,1km80pb,reddit,[deleted],2025-05-15T15:37:42Z,1,N/A,programming,2025-05-25T17:04:06.011230Z
+ms86nif,1km80pb,reddit,"Call it ""schizo art"".",2025-05-14T06:12:47Z,-3,BlueGoliath,programming,2025-05-25T17:04:06.011238Z
+mqiv7qo,1kefql2,reddit,"Oh man, I loved Ruby on Rails to the moon and back. It paid my house. But boy, I fell hard in love with statically typed languages and Ruby isn't one of them.",2025-05-04T12:08:34Z,81,DonaldStuck,programming,2025-05-25T17:04:07.956110Z
+mqiik0m,1kefql2,reddit,Hard to be a fan of Next with them shitting the bed so hard with the security vuln. Plus all the Vercel lockin and Vercel's poor reliability overall.,2025-05-04T10:17:26Z,19,n_lens,programming,2025-05-25T17:04:07.956114Z
+mqro8j4,1kefql2,reddit,Why go to ruby when you could go to elixir and love Phoenix instead,2025-05-05T20:23:31Z,5,Scavenger53,programming,2025-05-25T17:04:07.956116Z
+mr7h85u,1kefql2,reddit,Honestly I could never understand how people maintain actually big and complex systems in dynamic languages. At a certain point it becomes very hard to keep it under control without any help from the type system.,2025-05-08T07:23:48Z,2,rflurker,programming,2025-05-25T17:04:07.956118Z
+mpow1h6,1kat9sp,reddit,"I'm not gonna lie, I expected this to be about Go.",2025-04-29T17:13:08Z,17,imachug,programming,2025-05-25T17:04:08.897838Z
+mpszoux,1kat9sp,reddit,"Not concatenative(like forth) = bloat.
+
+Forth-inspired are the most cutting corners language
+
+> Just use if!
+
+With stack based languages you don't need loops or conditions built-in. Just make them as ~~assembler~~ machine-code code block.",2025-04-30T07:53:14Z,3,Maykey,programming,2025-05-25T17:04:08.897842Z
+mq76yii,1kat9sp,reddit,"This is a really great and interesting article! Thanks for posting it!
+
+It kinda mirrors questions I also had during language design, and it is interesting to see where we had the same concern, but picked different solutions:
+
+##### Cutting on Parsing: 5 Forms
+
+I have a distinction between ""big shape"" keywords (all 5 letters, `class`, `value`, `trait`, `union`...) and ""small shape"" keywords (`fun`, `let`, `var`) with which I'm [pretty happy](https://soc.me/languages/consistent-keyword-length).
+
+I also cut down on different syntactic forms of conditionals (`if` statements/expressions, `switch` on values, `match` on patterns and pattern guards, `if-let`, ...) and replaced them with [unified condition expressions](https://soc.me/languages/unified-condition-expressions).
+
+##### Cutting on Function/Value: Functions Always Have Args
+
+Here we have an interesting difference, because I decided that functions without an argument list are useful because I have an explicit distinction between storing values (`let`) and computing values (`fun`).
+
+It also allows me to get rid of the [various hacks](https://soc.me/languages/fields-methods-properties-pick-two) languages use to add properties.
+
+##### Cutting on Operator Precedence: (Reverse?) Polish Notation
+
+I tackled this by aggressively [eliminating](https://soc.me/languages/unary-operators-are-unnecessary) and [reducing](https://soc.me/languages/binary-operators-are-overused) operators and precedence levels.
+
+##### Cutting on Runtime: Using a Host Language
+
+I was kinda focused on having the language having its own backend, i. e. not using LLVM.",2025-05-02T14:11:10Z,2,simon_o,programming,2025-05-25T17:04:08.897844Z
+mptolba,1kat9sp,reddit,"Bro, that’s awful way of designing a language. The only cutting corners that makes sense here (and it’s not about the language) is to lower to C first, and do other backends later.",2025-04-30T11:48:08Z,0,Nuoji,programming,2025-05-25T17:04:08.897846Z
+mu1gc6m,1kufrxq,reddit,"Great ELI5, thank you!",2025-05-24T17:29:44Z,3,Sergi0w0,programming,2025-05-25T17:04:09.804610Z
+mu5hns8,1kufrxq,reddit,"You're conflating Partition Tolerance with Partitioning. Yes, network issues, and thus partitions, will happen, but designing your system in a way that tolerates them is a tradeoff. 
+
+
+Couldn't an Available-Consistent (AC) system exist? It doesn't tolerate network issues and is likely not a worthwhile tradeoff in most circumstances, but it still exists as an option.",2025-05-25T10:54:22Z,2,LaptopsInLabCoats,programming,2025-05-25T17:04:09.804635Z
+mu1c8lc,1kufrxq,reddit,good read,2025-05-24T17:08:19Z,2,holyknight00,programming,2025-05-25T17:04:09.804640Z
+mu19o9c,1kufrxq,reddit,Here is the repo: [https://github.com/LukasNiessen/cap-theorem-explained](https://github.com/LukasNiessen/cap-theorem-explained) It's updated regularly :-),2025-05-24T16:54:51Z,0,trolleid,programming,2025-05-25T17:04:09.804647Z
+mtu6moa,1ktfjou,reddit,Good points,2025-05-23T14:10:20Z,1,EnGammalTraktor,programming,2025-05-25T17:04:10.676578Z
+mtrs38h,1kt91m3,reddit,"Obviously. If the value was in the code it would be considered hard-coding, which is frowned upon. Instead values should be kept in config files.",2025-05-23T02:57:27Z,140,StarkAndRobotic,programming,2025-05-25T17:04:11.834880Z
+mtryto1,1kt91m3,reddit,"Yes, code is a cost.
+
+The value is in understanding the problem sufficiently well to automatically find a solution.",2025-05-23T03:43:23Z,32,zhivago,programming,2025-05-25T17:04:11.834885Z
+mts76wk,1kt91m3,reddit,"So irrespective of intention, the author seems to be talking about ""domain knowledge"" without ever mentioning the terms. That is know-how of working in a specific domain, and in this case how it relates to building software.
+
+They are basically saying that the donation knowledge is more important than the artifacts it produces (processes, documentation, and software) because once you have obtained the domain knowledge it becomes very easy to replicate the solution (and all the artifacts that go with it).
+
+However in the context of an organisation, the domain knowledge a person has is only valuable as long as that person is employed there (or that knowledge is valuable to the organisation). The reality is that the organisation is highly likely to exist longer than a single person stays with the organisation so all that domain knowledge needs to be conveyed to artifacts to be able to share with future persons / continue to produce value while the original author is no longer there.
+
+Related is the idea of ""core-business"" - that domain knowledge that is your business. Anything outside this generally doesn't produce value and may not be worth keeping knowledge of even if the artifacts it produced are still there. A classic example is all the things that exist in most business before you get there: how to setup Google workspace, your ticketing system, email, slack, etc. Knowing how to set these up is different to simply using / maintaining them and the business only gets value from your domain knowledge the first time. In fact you only get value from that domain knowledge when you need it, which if you're not a consultant or a serial entrepreneur is probably not very often.
+
+
+Finally to say that the domain knowledge is not the code is absolutely correct, and to say that it is more valuable than the code can also be correct, but specifically where you can patent that knowledge. A non-technical example would be chemical manufacturing where neither the machinery or the products produced are necessarily valuable by themselves, but it is the knowledge of the process that is super valuable (and can continuously be turned into money).",2025-05-23T04:46:48Z,13,nicholashairs,programming,2025-05-25T17:04:11.834887Z
+mtsvv3j,1kt91m3,reddit,"Ok, throw your code away then :)",2025-05-23T08:34:44Z,5,Thiht,programming,2025-05-25T17:04:11.834889Z
+mtsslw1,1kt91m3,reddit,"I get the sentiment, but it's a misused trope.
+
+If the ""real value"" is not in the code, then delete it. Then go explain to your customers that the real value is not actually in the code, so they should keep paying you even though it's gone.",2025-05-23T08:01:24Z,5,maxinstuff,programming,2025-05-25T17:04:11.834893Z
+mtsuchr,1kt91m3,reddit,"> What’s WAP? Google it
+
+No Jon, I don’t think I will ",2025-05-23T08:19:05Z,6,joe_fishfish,programming,2025-05-25T17:04:11.834895Z
+mtt6hia,1kt91m3,reddit,"Good code's value is that it encodes the domain knowledge.
+
+Domain knowledge is why onboarding new software engineers is so expensive; they can learn some of it from existing software, but only if the existing software is working correctly and doing the right things (ie the bits of the code that don't need fixing).
+
+Ironically, the people most likely to want to do a full rewrite are those new engineers that are missing big chunks of the domain knowledge, and are thus least suited to it.",2025-05-23T10:18:58Z,3,ben_sphynx,programming,2025-05-25T17:04:11.834897Z
+mtsz834,1kt91m3,reddit,bloggerboi64,2025-05-23T09:09:00Z,1,hennipasta,programming,2025-05-25T17:04:11.834899Z
+mtso6ps,1kt91m3,reddit,"Yes and no. It takes time to create code, which means it inherently has value. Think of it like this; if the code base would instantly vanish, that would be an economic catastrophe. Why? Because it takes a lot of time to recreate it, which means it costs a lot. 
+
+Of course, domain knowledge is inversely proportional to the time it takes to (re)create code. Noobs would take forever, seniors would be faster.",2025-05-23T07:17:28Z,0,mohragk,programming,2025-05-25T17:04:11.834901Z
+mtqqj74,1ksufmx,reddit,super cool. thanks for sharing. the partialeq trick was neat.,2025-05-22T23:12:39Z,1,CooperNettees,programming,2025-05-25T17:04:12.775771Z
+mtt9eym,1ksufmx,reddit,"I was half-expecting the comparison issue to be that the order of comparisons is different. I once managed to lose ~20% of performance in macrobenchmark by adding actual comparison operator to a type, and letting it be defined in the order of members.
+
+As it turns out, doing the comparison in the inverse order was much better at disambiguating different instances quickly.",2025-05-23T10:44:40Z,1,Dragdu,programming,2025-05-25T17:04:12.775775Z
+msmx8h8,1knzafa,reddit,What if the Scrum Master is Certified?,2025-05-16T15:04:17Z,15,-grok,programming,2025-05-25T17:04:13.707994Z
+msusfzb,1knzafa,reddit,"Good talk. Too bad it's at a programming conference... The audience already knows everything Emily mentioned. It's not new or revolutionary to engineers on the ground. 
+
+Hire good people, get a good system. Hire bad people, get a bad system.
+
+People like to complain ""modern software is slow"", ""no one builds for performance"", ""people use bloated frameworks"", ""modern software is filled with bugs"", etc. 
+
+C-level execs are incentivized to optimise for the next quarter, not the next 5 years. And they'll do just that, by hiring cheap, and making devs prioritize speed of delivery over literally anything else so that numbers look good.
+
+It's not a problem for programmers to solve...",2025-05-17T21:11:58Z,13,FirefighterAntique70,programming,2025-05-25T17:04:13.707998Z
+mstgsio,1knzafa,reddit,"I'd like to watch the whole thing when I have time, but the headline sure seems like an obvious truth.",2025-05-17T16:50:44Z,2,ryobiguy,programming,2025-05-25T17:04:13.708000Z
+msmfwku,1knzafa,reddit,Lick my scrum,2025-05-16T13:35:34Z,4,ImHughAndILovePie,programming,2025-05-25T17:04:13.708002Z
+msyth5b,1knzafa,reddit,"If TDD is the pill against scrum masters, let's all pretend we take it just to spit it out when nobody is looking.",2025-05-18T15:21:59Z,1,neopointer,programming,2025-05-25T17:04:13.708004Z
+mszrz38,1knzafa,reddit,"look at that!
+
+listen to her, she repackaged the same thing!",2025-05-18T18:22:38Z,1,mpanase,programming,2025-05-25T17:04:13.708006Z
+msa9vv8,1kmhrjm,reddit,Most of what you suggest is currently being handled by GitHub in a lot of companies stacks. You'd think just integrating with that tooling rather than trying to replace it would make the most sense. And luckily there's a big huge graphql api to do so,2025-05-14T15:28:05Z,16,light24bulbs,programming,2025-05-25T17:04:14.571588Z
+msfkjgz,1kmhrjm,reddit,AI slop image so I'm gonna assume AI slop article that can safely be ignored.,2025-05-15T11:38:24Z,12,InfectedShadow,programming,2025-05-25T17:04:14.571591Z
+msg0d8l,1kmhrjm,reddit,"/s/portals/hubs/g, done.",2025-05-15T13:18:38Z,2,lunchmeat317,programming,2025-05-25T17:04:14.571594Z
+mtq94lr,1kt1gqs,reddit,How much did this hurt,2025-05-22T21:36:28Z,0,Farados55,programming,2025-05-25T17:04:17.288410Z
+mtmmkbm,1ksafbf,reddit,"The title of the paper is a little bizarre but this paper is mostly just talking about `malloc` (a general purpose memory allocator (GPA)) as if it's the only form of memory allocator.
+
+And many would argue (and have done) that you can get much better performance and maintenance, if you use different memory allocation strategies to begin with. Things like [Arenas](https://www.gingerbill.org/article/2019/02/08/memory-allocation-strategies-002/), [Pools](https://www.gingerbill.org/article/2019/02/16/memory-allocation-strategies-004/), basic [free lists](https://www.gingerbill.org/article/2021/11/30/memory-allocation-strategies-005/) (not full blown GPAs), or even inline GPAs like a [Two Level Segmented Fit memory allocator](http://www.gii.upv.es/tlsf/).
+
+A lot of the issues caused by use blindly using `malloc` is not thinking in terms of [lifetimes](https://www.gingerbill.org/article/2019/02/01/memory-allocation-strategies-001/) of aggregate ""objects"", since how most people use `malloc` tend to use it for individual object allocations, and wonder why it's difficult manage anything.
+
+For me, an Arena is usually the go-to allocator I need because an Arena maps to a lifetime. So when that lifetime is finished with, I can free everything allocated by that Arena rather than having to individually free each object.",2025-05-22T09:50:36Z,13,gingerbill,programming,2025-05-25T17:04:18.203334Z
+mtuqgdq,1ksafbf,reddit,I was expecting a bit more substance. This paper could have been a blog post.,2025-05-23T15:44:39Z,2,trailing_zero_count,programming,2025-05-25T17:04:18.203343Z
+msytt5v,1kpfeqi,reddit,">those who forget the past are doomed to repeat it
+
+Relational model and normalization were invented to address deficiencies of other database models. Document databases are nothing more than denormalized databases that are not in 1NF. And have all the issues of denormalized databases.
+
+Please, at least mention Codd's work and the principles behind it.",2025-05-18T15:23:46Z,30,klekpl,programming,2025-05-25T17:04:21.766876Z
+msxg472,1kpfeqi,reddit,"What I don't get with NoSQL DBs is, because they don't rely on joins and embed the data into the documents, when you update a nested element from a document you need to first get (one operation) the document and then update (another operation) the document entirelly.
+
+For SQL DBs, the update is tipically just one operation, the update itself cause you are updating ""where id = something"", so no need to query first.
+
+Not to mention, if that embedded element is present in multiple documents, you need to get all of the docs and update them for NoSQL, opposed to SQL not needing that since you updated the table where the other tables join with to aggregate data.
+
+I guess this means easier reads for NoSQL but harder writes.",2025-05-18T09:25:22Z,2,lcserny,programming,2025-05-25T17:04:21.766891Z
+mt1rqc4,1kpfeqi,reddit,Never used nosql solutions as primary database,2025-05-19T01:10:50Z,2,chom-pom,programming,2025-05-25T17:04:21.766898Z
+msz9qnw,1kpfeqi,reddit,This is the repo with the full examples: https://github.com/LukasNiessen/relational-db-vs-document-store :-) It’s regularly updated,2025-05-18T16:48:40Z,0,trolleid,programming,2025-05-25T17:04:21.766904Z
+ms4cgol,1klhpde,reddit,"The old ways fade away ...
+
+I am also noticing this when watching old videos on youtube. It's a lot of fun looking at the 1980s and 1990s era here, but boy, this now feels like archaic people ... a cheap computer today is so much more efficient in literally everything, for a fraction of the cost.",2025-05-13T16:57:48Z,3,shevy-java,programming,2025-05-25T17:04:22.690315Z
+mpomayy,1karw9t,reddit,[deleted],2025-04-29T16:26:37Z,7,N/A,programming,2025-05-25T17:04:23.658004Z
+mtm3p2r,1krfay6,reddit,I wonder how this fairs against Unity's incremental gc. I imagine significantly better.,2025-05-22T06:39:20Z,1,Lachee,programming,2025-05-25T17:04:24.565860Z
+mt4lm6e,1kqc6a0,reddit,"There are only a couple of interesting points about the lisp machines that existed.
+
+I think the most interesting point is that they used fixed size words (called cells) with tagging.
+
+Which meant that you could tell what kind of value was at any point in memory.
+
+You could walk through memory and say, this is an integer, this is an instance, this is a cons cell, this is a nil, etc.
+
+And that's all you need for a lot of very cool stuff, like garbage collection, and so on.
+
+And it keeps it all very low level -- you just have a giant cell vector, effectively, at the lowest level.
+
+What's interesting is that we have the tagged word model with a lot of languages (e.g., ecmascript), but we don't see the cell vector exposed -- the fundamental structure of the machine is hidden.
+
+And generally that's a good thing -- if it were exposed people could go in and break the invariant structure or read data they shouldn't (which turns out to be really important when you're doing things like running mobile agents).
+
+So a lot of what the lisp machine infrastructure did was to hide the giant cell vector so that you couldn't be bad unless you asked nicely.
+
+So, I guess the real question to ask is -- what's the cost-benefit analysis of getting access to the low-level structure vs' having a secure system?
+
+And generally, I think, history has opted toward the secure system, which is why we don't see lisp machines much.
+
+You can compare this with C, which prior to standardization, could be thought of as having a giant cell vector of its own, only its cells were 8 bit chars, and they weren't tagged.
+
+And then you can see its long trek away from that model toward something more secure, and the gradual march of history away from insecure C and toward languages which provide more secure models.",2025-05-19T14:31:35Z,21,zhivago,programming,2025-05-25T17:04:25.606039Z
+mt4teuk,1kqc6a0,reddit,"> Everything worked in a single address space, programs could talk to each other in ways operating systems of today couldn’t dream of.
+
+So did consumer OSes for a while. It was a mess.
+
+> They required a lot of memory and a frame buffer.
+
+In what way would the frame buffer have been an actual requirement? Couldn't they have built machines aroud LISP in a similar text-based manner to the Unix machines?
+
+> There is a massive hole forming in computing, a hole lisp machines can fill.
+
+Seems like a repeated unsupported assertion.",2025-05-19T15:11:12Z,12,khedoros,programming,2025-05-25T17:04:25.606046Z
+mt53mmb,1kqc6a0,reddit,It’s really strange how close we came several times to having the perfect computing environment. If only lisp machines would’ve won. Or if only Brendan Eich stuck with his initial concept of JS being a lisp language. It’s a shame.,2025-05-19T16:02:08Z,1,RealLordDevien,programming,2025-05-25T17:04:25.606051Z
+mtnijq0,1kqc6a0,reddit,No we don't.,2025-05-22T13:35:10Z,0,moxyte,programming,2025-05-25T17:04:25.606055Z
+mrrrvf3,1kk1qhi,reddit,"What warrants the ""2.0"" version number? All that the change log shows are generalizations and new functions, which would perfectly fit in a non-breaking version.",2025-05-11T16:30:09Z,4,chrysn,programming,2025-05-25T17:04:26.626852Z
+mqb9y3n,1kdd1zn,reddit,This is very cool!,2025-05-03T03:08:26Z,1,sothatsit,programming,2025-05-25T17:04:29.369663Z
+mq5pibf,1kcc4ge,reddit,"Title should really mention worktrees. I skipped over this in my reddit feed a number of times, assuming it was the 1001th article on deprecating `git checkout` in favor of `git switch` et al.",2025-05-02T07:14:18Z,4,ReversedGif,programming,2025-05-25T17:04:31.118121Z
+mq7dgea,1kcc4ge,reddit,"> With the temporary branch, you are forced to create a partial, non-working commit, and then reset said commit once done with the fix.
+
+Who cares if is a partial and non-working commit? It is in your own branch. 
+
+You don't even have to use worktrees if you don't need git holding your hand. Just clone the repo again in a different directory and switch to your branch there. It isn't really rocket science.
+
+Why do git users make everything so complicated? Be pragmatic.",2025-05-02T14:42:53Z,2,wildjokers,programming,2025-05-25T17:04:31.118133Z
+mq6ltm2,1kcc4ge,reddit,"I should really use work trees more. I always just stash and change branches thinking, ""it will just be a quick patch/PR"". A dozen revisions and switches later I'm kicking myself.",2025-05-02T12:10:03Z,1,yodal_,programming,2025-05-25T17:04:31.118142Z
+mplmrul,1ka3bef,reddit,"Check out Vale (https://github.com/project-everest/vale) for formally verified assembly code… memory safety, secret leak checking, and algorithmic correctness.",2025-04-29T03:28:31Z,3,Vast_Worldliness_328,programming,2025-05-25T17:04:32.828502Z
+mtrw9dt,1kt3d8q,reddit,"You could also model entanglement by keeping a graph data structure of entangled bits such that when a value is chosen for one, it automatically forces the opposite quantum state for the other entangled bits (recursively as it traverses the graph).",2025-05-23T03:25:15Z,6,Determinant,programming,2025-05-25T17:04:35.605139Z
+mtqrx3j,1kt3d8q,reddit,"Go easy on the ChatGPT and the weed, mate.",2025-05-22T23:20:23Z,11,NuclearVII,programming,2025-05-25T17:04:35.605151Z
+mtqkkr2,1kt3d8q,reddit,"**To clarify the deeper idea behind Qelum:**
+
+
+
+In classical computing, a bit is either 0 or 1 — strictly binary, strictly separate.  
+
+Qelum challenges that by introducing an abstracted logic layer where 0 and 1 can coexist in a weighted state — not physically, but mathematically.
+
+
+
+This means:
+
+\- 0 can behave like 1  
+
+\- 1 can behave like 0  
+
+\- OFF can lead to ON  
+
+\- and ON might only exist as a potential, not a constant
+
+
+
+Now — yes, this is a stretch. It’s a conceptual model, not physical quantum logic.  
+
+Bits are not qubits. And in my case, not even close.  
+
+What I work with are \*\*QBits\*\* — \*Quelum Bits\* — simulated probability containers that follow certain quantum-inspired principles, but remain classical at their core.
+
+
+
+So while it behaves \*functionally similar\* in some amplification effects, it’s still very far from real quantum behavior.  
+
+But even in this approximation, we can simulate:
+
+
+
+\- interference of patterns  
+
+\- state probability shifts  
+
+\- and gradual amplification of “impossible” outcomes
+
+
+
+You’re not flipping binary states in Qelum —  
+
+you’re shaping probability waves to converge toward a desired target.
+
+
+
+And that’s why sometimes, a bit that should be “off” becomes the strongest signal —  
+
+because in this model, \*\*OFF isn’t the opposite of ON anymore — it’s just lower amplitude\*\*.
+
+
+
+Still, this is early work. The math holds, but the architecture is nowhere near physical qubits.  
+
+And it’s not trying to be. It's something in between — a system that borrows the \*behavior\*, not the physics.  
+
+
+Also, just to be clear:  
+
+I don’t take myself too seriously with this. I’m not claiming this will change the world.  
+
+I don’t make money with it. This is just a fun side project.  
+
+I like exploring weird ideas — and this one’s been especially fun to follow through.
+
+
+
+In other words:  
+
+\*\*Yeah, it works — but... meh.\*\*",2025-05-22T22:39:04Z,1,Ambitious-Display576,programming,2025-05-25T17:04:35.605159Z
+mtt3ofe,1ksukg7,reddit,"> Setuptools is seen as critical infrastructure for Python, and it's clear that the Python world will be stuck with old packages following deprecated packaging practices for quite some time.
+
+This actually affected me too. Many programs depend on python - just look at meson-built projects. Setuptools is also kind of important, together with wheels. I don't quite understand what happened, but I consistently had more problems with more recent python versions. It is still the primary reason why I am using python 3.11.11; every time I try to switch to a more recent python version, the whole ecosystem and infrastructure - in particular outside of python - causes me to have to invest more time, whereas with 3.11.x things ""just work"". So, this is in part my fault for being lazy, but in part it is also annoying to have to deal with things like this. These should not really be an issue. Upstream folks should take this all into consideration; whether the fault lies with setuptools, wheels or how python itself is released and changed over time, I have no clue, but whoever or whatever is responsible, really has to think more about these things in general. It's what happens to languages that become very popular and successful.",2025-05-23T09:53:06Z,1,shevy-java,programming,2025-05-25T17:04:36.505097Z
+mu0a1nl,1ksukg7,reddit,"A core part of the ecosystem having 10+ breaking changes in a year is crazy.
+That is a huge amount of churn and instability pushed onto the ecosystem.
+
+When I see that amount of breaking changes in a library, you can be sure I do NOT want a dependency on it. It’s going to create endless work and typically indicates some poor design decisions.
+
+And for language and ecosystem tooling, there is even more of a burden of backwards compatibility than libraries.",2025-05-24T13:43:26Z,1,seanamos-1,programming,2025-05-25T17:04:36.505101Z
+msul6gx,1kp1oe0,reddit,">Single Codebase: Everything lives in one project folder or repository.
+
+Not true. Monolithic doesn't mean the big ball of mug. Linux Kernel is a monolith.
+
+A monolith can and should be modular. That's how they're built for last 50 years or so.
+
+It happens that someone creates a monolith that is not modular. It's called the ""big ball of mud"".",2025-05-17T20:31:48Z,28,steve-7890,programming,2025-05-25T17:04:37.404294Z
+mswutz6,1kp1oe0,reddit,"In shops that settle on a single database brand, big applications are often broken down into smaller applications that communicate via the database. It's similar to the microservice concept except database I/O replaces JSON. And unlike JSON, you get A.C.I.D. compliance. Further, the message tables can double as message logs. 
+
+Thus, you don't need ""one big EXE"".
+
+(Disclaimer, the definition of ""microservice"" seems to be in the eye of the beholder.)",2025-05-18T05:46:06Z,2,Zardotab,programming,2025-05-25T17:04:37.404305Z
+msmcvkp,1knxb6f,reddit,"I suggest you turn this into an ""awesome {topic}"" repo:
+These are usually single README.md files with all the links organizer per subtopic.
+It has become some sort of github standard, every software topic has a few o them, it will help people search and find this content.
+Thanks for sharing, keep going!",2025-05-16T13:18:30Z,5,erubim,programming,2025-05-25T17:04:38.289381Z
+ms3zj6u,1klglke,reddit,"Compile (or query) hints are bad, they introduce technical debt. While they right now might produce a better result, future changes might have the exact opposite effect.",2025-05-13T15:54:53Z,5,elmuerte,programming,2025-05-25T17:04:40.147423Z
+ms60yuw,1klglke,reddit,"Seems like it would be better to delay non critical features and load them later. 
+
+This way the first bundle only contains critical js. ",2025-05-13T21:52:32Z,1,Pyrolistical,programming,2025-05-25T17:04:40.147435Z
+mrvpfqj,1kkmjr4,reddit,Great article though. Now I’m curious if windsurf does the same thing,2025-05-12T08:09:44Z,4,realPrimoh,programming,2025-05-25T17:04:41.890965Z
+mrwnkyx,1kkmjr4,reddit,Great write up!,2025-05-12T13:03:25Z,0,olearyboy,programming,2025-05-25T17:04:41.890968Z
+mqj58p7,1kehdpn,reddit,It would help if you could specify your hardware platform. Video driver is like the least standardized nowadays and it's quite a lot of code if you don't rely on VGA emulation.,2025-05-04T13:17:33Z,2,BibianaAudris,programming,2025-05-25T17:04:44.697415Z
+mtr1rrj,1ksulnj,reddit,"Please use more descriptive titles.
+
+This is an interesting article, but I really want to downvote your post.",2025-05-23T00:17:55Z,7,zhivago,programming,2025-05-25T17:04:50.042123Z
+mtg6bz6,1krp9w9,reddit,"Your title is a statement, not a question.",2025-05-21T10:20:14Z,18,dstutz,programming,2025-05-25T17:04:51.817513Z
+mtgajxc,1krp9w9,reddit,"tldr;
+
+- preprocess your image before calling tesseract (nothing too surprising here, just traditional image preprocessing)
+- use the resulting text bounding boxes from tesseract and the average character spacing to infer the code indentation (relevant when reading python code where white spaces matter)
+
+On a side note, their [AI product](https://i.imgur.com/W5MbP90.png) sounds dystopian to me. The same shit Microsoft is pulling off with Recall, but you additionally have to pay for it.",2025-05-21T10:56:44Z,6,zzzthelastuser,programming,2025-05-25T17:04:51.817517Z
+mtm4uv5,1krjvco,reddit,[new emoji](https://imgur.com/a/9ZSpPiX),2025-05-22T06:50:19Z,2,Lachee,programming,2025-05-25T17:04:52.742216Z
+mtm4g85,1krjvco,reddit,"Woo more scripts!
+Unicode doing a underappreciated service for human kind and the internet",2025-05-22T06:46:30Z,1,Lachee,programming,2025-05-25T17:04:52.742224Z
+mssb2to,1kolir1,reddit,awesome,2025-05-17T12:50:49Z,4,yousef_mo532,programming,2025-05-25T17:04:55.383438Z

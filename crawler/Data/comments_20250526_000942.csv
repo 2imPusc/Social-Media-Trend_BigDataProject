@@ -1,0 +1,143 @@
+﻿comment_id,content_id,platform,content,created_at,score,author,source_name,crawl_time
+mqyvj31,1kgex8t,reddit,If the source code is public can I have the download so I can see how it works. Also pretty cool 😎 ,2025-05-06T22:39:30Z,1,jaxoncv,programming,2025-05-25T17:08:16.323953Z
+mr32z9w,1kgex8t,reddit,Former Canadian Prime Minister Stephen Harper?,2025-05-07T15:57:56Z,1,DazzlingDeparture225,programming,2025-05-25T17:08:16.323965Z
+mresnjh,1kgex8t,reddit,Jim Harper?,2025-05-09T12:44:19Z,1,HazelCuate,programming,2025-05-25T17:08:16.323972Z
+mq7o4u1,1kd0j29,reddit,">To address this, Netflix built an open-source Gradle plugin that rewrites bytecode at dependency resolution time, allowing older libraries to work seamlessly with the new Jakarta-based APIs.
+
+
+Netflix really went ""instead of contributing to the libraries we use and getting them up to date, let's write a Gradle plugin that spins bytecode."".
+
+
+>While Streams offer readability, conciseness, and safety, especially for complex transformations, the performance concerns arise in simpler, more basic use cases.
+
+
+Oracle's ""don't worry about it, we'll optimize it for you"" employees in shambles.",2025-05-02T15:33:34Z,1,BlueGoliath,programming,2025-05-25T17:08:20.546898Z
+mq56382,1kcc5l1,reddit,"Really interesting to see this shift from patch-and-pray manual fixes to automated, continuous upgrades. In my experience, the hardest part is orchestrating heterogeneous components—databases, message queues, microservices—so every upgrade step can run safely in the right order...\[rest of the comment as provided\]",2025-05-02T04:19:33Z,1,withmagi,programming,2025-05-25T17:08:21.399069Z
+mq3svcc,1kbsvps,reddit,Can Co-dfns run code on the GPU or does it just compile on the GPU?,2025-05-01T23:14:35Z,1,Koolala,programming,2025-05-25T17:08:24.835524Z
+mpuhkwu,1kb32av,reddit,"Ye as someone who works in the payment side of a major bank in South Africa, this is infact not how we fo or would do it",2025-04-30T14:34:31Z,2,aUnicornInTheClouds,programming,2025-05-25T17:08:26.539746Z
+mprj1up,1kb32av,reddit,People put Abstract at the end of a class name?,2025-04-30T01:17:49Z,2,BlueGoliath,programming,2025-05-25T17:08:26.539750Z
+mpk9xfy,1ka4md7,reddit,"the comment disappeared but someone posted that a sufficiently large group of cattle with a sufficiently arcane pile of setup scripts turns into a super-pet, which is ... also true and worth noting?",2025-04-28T22:41:06Z,3,cube-drone,programming,2025-05-25T17:08:32.531974Z
+mptksq4,1k8fz2b,reddit,"Your general approach is sound: given a good enough random bit generator (which is what your functions are), you can produce a good enough cipher by XORing plaintext with the bit stream. AES in OFB and CTR modes, for example, use the same trick.
+
+The problem is that finding a sufficiently good and unpredictable PRNG is *hard*. You can't just write an arbitrary function (like `fx` in your code snippet) and expect it to work well -- that's going to be crackable. Instead, cryptographers settle on a single design and reuse it for all applications by changing the seed. AES is one example of such a design, and the seed is typically called a key.
+
+In effect, what you've built is not a cipher but a cipher *framework*, and you've passed the responsibility of choosing the cipher onto the user. Which is kinda fine if that's what you're going for, but it's not a cipher per se. Real-world cryptographic libraries do use some of the methods you've applied, like chunking and MACs, but they don't typically expose them alone without the cipher itself.",2025-04-30T11:20:22Z,2,imachug,programming,2025-05-25T17:08:35.192249Z
+mp62u80,1k8fz2b,reddit,"I applaud your desire to learn (and teach) cryptography. I'm a bit uneasy, however, with the idea that you're presenting your tool as something that someone might want to use. It emphatically *is not*, and you should make that *very clear*.
+
+I am not a cryptographer, but I am aware that people who *are* cryptographers make mistakes that cause their systems to be completely ineffective. Are you confident you have not made any of these mistakes?
+
+Allow me to provide an example: you suggest that a future improvement might ""build a pool"" of randomness. How will you protect that pool from attackers? Anyone who gets to peek at that pool will be able to decrypt everything you encrypt with it.",2025-04-26T16:28:29Z,4,gredr,programming,2025-05-25T17:08:35.192265Z
+mp1ga81,1k7vyqn,reddit,what if i put itself into it,2025-04-25T21:19:10Z,2,Powerful-Document633,programming,2025-05-25T17:08:39.492319Z
+mp3ji3t,1k7vyqn,reddit,"This is very interesting.
+
+If it can make generating reference implementations cheap that would be great.",2025-04-26T04:57:22Z,1,zhivago,programming,2025-05-25T17:08:39.492330Z
+moyp8ou,1k7gobj,reddit,"I'm sure your explanation made sense to you, but it went completely over my head. You might want to rework if you're trying to appeal to an uninitiated audience.",2025-04-25T13:04:46Z,1,gredr,programming,2025-05-25T17:08:40.367816Z
+mp0uiam,1k7gobj,reddit,"Sounds a bit like ""Actors"" to me.  What does it add on top of actors-like behavior?",2025-04-25T19:28:19Z,1,Weekly-Ad7131,programming,2025-05-25T17:08:40.367822Z
+mttifjk,1ksfaxn,reddit,Question ?,2025-05-23T11:52:02Z,1,HarmadeusZex,programming,2025-05-25T17:08:53.075724Z
+mrz98ky,1kkivkq,reddit,"May I interest you in our Lord and Savior, Turbo Pascal 6.0?
+
+A real programming language.
+
+The binaries are measured in tens of bytes.
+
+The entire IDE+Compiler fits on half of a floppy.
+
+
+
+>!.... You can put an MS-DOS emulator on the other half, because the binaries are not compatible with any recent OS.!<",2025-05-12T20:56:18Z,3,CorespunzatorAferent,programming,2025-05-25T17:09:03.457186Z
+mrv4x1g,1kkivkq,reddit,"""Hello world"" file size comparisons are irrelevant.
+
+No one wants a ""hello world"" project in production.",2025-05-12T04:47:59Z,10,DBalashov,programming,2025-05-25T17:09:03.457197Z
+ms1mrzm,1kkivkq,reddit,"How the hell does Go, which includes a whole runtime with garbage collection, beat out C++? What am I missing?",2025-05-13T05:38:08Z,2,johndoe2561,programming,2025-05-25T17:09:03.457205Z
+mrvljea,1kkivkq,reddit,Ken Thompson started the development of Unix on a PDP-7 with 4kb of memory.,2025-05-12T07:28:01Z,2,youngbull,programming,2025-05-25T17:09:03.457213Z
+mrgrxv9,1kipdhg,reddit,Same deal as always: no project description means a downvote.,2025-05-09T18:56:25Z,31,jaskij,programming,2025-05-25T17:09:04.352426Z
+mri5on4,1kipdhg,reddit,"As always, such a fitting name.",2025-05-09T23:28:14Z,5,granadesnhorseshoes,programming,2025-05-25T17:09:04.352432Z
+mrgwv4x,1kipdhg,reddit,"wow, a blast from the past",2025-05-09T19:21:50Z,5,heraldev,programming,2025-05-25T17:09:04.352436Z
+mri5aoh,1kipdhg,reddit,Heroes,2025-05-09T23:25:56Z,2,faustoc5,programming,2025-05-25T17:09:04.352439Z
+mrhb0bs,1kipdhg,reddit,Congrats on the release. I see it in the Fedora repos. A Flatpak would be handy to not have to worry about runtimes.,2025-05-09T20:34:42Z,3,KeyboardG,programming,2025-05-25T17:09:04.352442Z
+mqveag6,1kfzrp9,reddit,Looks really interesting!,2025-05-06T12:13:14Z,1,funny_falcon,programming,2025-05-25T17:09:06.895642Z
+mqodxld,1kehlub,reddit,"Does a client need to send a new ContractMessage for every subsequent change in the request? If the client wants to add sorting in addition to filtering - do we need to acknowledge that contract change on the server?
+
+Static API documentation is usually fine - if it's updated when the code is updated, if it's not too bloated with model attributes, and if it doesn't have conditional fields/parameters.",2025-05-05T08:57:09Z,3,Ok_Dust_8620,programming,2025-05-25T17:09:10.308950Z
+mqulrnz,1kehlub,reddit,"Unless I am missing something, the only place I can see something like this being useful is in an environment where an application can make breaking changes without clients needing to change.
+
+But even then, it would be really difficult to make this work unless there is a layer or adapter that can seamlessly transform the client data to request data, and the response back to something that the client can use reliably.",2025-05-06T07:52:23Z,2,elssar,programming,2025-05-25T17:09:10.308960Z
+msfs6w6,1kehlub,reddit,">Happy to answer any questions or hear your thoughts on DCP.
+
+>It’s still evolving and I’d love to hear how others handle dynamic API generation or client-specific endpoints in multi-tenant systems.
+
+>
+
+>Full write-up on the idea and use cases here:
+
+>[https://medium.com/@gokayokutucu/a-complementary-approach-to-mcp-and-a2a-dynamic-contract-protocol-984333cc74ee](https://medium.com/@gokayokutucu/a-complementary-approach-to-mcp-and-a2a-dynamic-contract-protocol-984333cc74ee)",2025-05-15T12:29:45Z,1,okutucu,programming,2025-05-25T17:09:10.308967Z
+mqtruxp,1kdd1gn,reddit,"If the author sees this, he/she might be interested in https://discourse.llvm.org/t/llvm-introduce-an-abi-lowering-library/84554 (the proposal will be funded I believe)",2025-05-06T03:29:06Z,1,Serious-Regular,programming,2025-05-25T17:09:11.204091Z
+mpmv38u,1kafyha,reddit,"I always understood the ""without recompiling existing code, and while retaining static type safety"" requirement as Expression Problem needing to be solved during compile time. The moment the solution is using dynamic dispatch during runtime, then it is no longer solution to ""true"" Expression Problem. But a weaker one, that no one argues is difficult.
+
+The question that needs to be answered : When my solution is using Library A, that adds operations X, and Library B, that adds structures Y . When I compile my solution, will I get error that combination XY is missing? What would happen if A and B were loaded dynamically, and new version would add new operations or structures. When would the missing combinations be detected? Would I be forced to recompile with new version, thus being forced to use static loading of specific library versions?",2025-04-29T10:15:14Z,6,Euphoricus,programming,2025-05-25T17:09:17.224323Z
+mpmu1lj,1kafyha,reddit,"So roughly the same approach as virtual classes, but using closures/traits instead.",2025-04-29T10:05:03Z,2,simon_o,programming,2025-05-25T17:09:17.224328Z
+mphik1q,1k9oo7x,reddit,"    sig.params(x: Integer).returns(String)
+
+It reads so wrong to me ...
+
+Types in python aren't the prettiest thing either, but I found the syntax less distracting compared to Sorbet.
+
+    Integer? instead of T.nilable(Integer)
+
+So, compared to T.nilable it is better, but it is still not pretty.
+
+    It can’t break compatibility with Ruby, or no one will use it.
+
+I am not the main target audience, as I feel the whole slap-types-onto-ruby
+is the wrong philosophy (thankfully matz isn't the biggest fan of it either), but this is not just about compatibility. It also is more code I have to maintain and I don't need any of the assumed ""benefits"". The type proponents claim that there are advantages in a large, shared code base; this may be the case, but of what benefit is it to me for solo projects? I don't have any of the problems the type afficionados claim are rampant in ruby (admittedly I use ruby quite differently to those people, who usually come from languages with mandatory and strict types, so their mindset is already very different to any ""real"" rubyist).
+
+    There’s only so far you can go with “types as expressions,” but we could probably go a little further with optional monkey patches.
+
+Please don't. Being able to duck-patch is nice for flexibility, but people get into a magic-rage and keep on writing the most complex, obfuscated code possible; and ruby makes this fun. Which is bad, because it often leads to utter gutter trash code. More magic, harder to maintain in many cases, and that includes about 80% of the DSLs out there.
+
+> But I want to suggest one more option, which is a bit more radical: what if the Ruby VM parsed RBS comments and associated them with method definitions?
+
+    class A
+      #: (Integer) -> String
+      def self.foo(x)
+      end
+    end
+
+This is in comments? This could actually be useful, similar to how rdoc may be used. Having that as an option, if flexible, may be interesting; I could then use the first block as comment, including instructions how to use it; and the rest is additional information. (One could ask ""but why not have it in code 1:1; I could focus on the code without having to think about the types, and at a later time work on the documentation, so I see this as having a bit more options available, just like when you write tests for code you could start either with the code, or with the tests.)
+
+The one thing that is not solved is that all the type systems are quite ugly. There is probably no pretty type system (I am ok-ish with Haskell syntax, at the least compared to what else is available), but for some reason the python types annoy me significantly less than what has been proposed and implemented for ruby.",2025-04-28T14:16:08Z,1,shevy-java,programming,2025-05-25T17:09:19.801744Z
+mthsry0,1krfm87,reddit,"It's interesting that the authors chose cosine similarity to measure the closeness between the query and the documents, as it allows them to account for the direction of the word vector representations rather than their absolute values.",2025-05-21T16:02:53Z,2,AndrewManzyk,programming,2025-05-25T17:09:23.335645Z
+mt2hzzm,1knx0ic,reddit,"Such slop. Why did you check in byte code? Your project.toml lists the author as ""Your name"".
+
+
+If you want to be taken seriously, fix the slop before you ask for feedback.",2025-05-19T04:09:14Z,3,CramNBL,programming,2025-05-25T17:09:26.854753Z
+ms9t1vg,1klhhah,reddit,great job ! how many times for this project?,2025-05-14T14:05:05Z,1,M4d1c1n4l,programming,2025-05-25T17:09:29.483349Z
+mrjln0j,1kj1qdr,reddit,"This was interesting and the idea of denormalizing gave me an idea that you could create lookup tables of data likely to change and normalize that. 
+
+This way, you are storing keys to the denormalized data that can readily be updated but still using the denormalized approach for fast queries.
+
+Since editing the values might not be time constrained this should merge the two ideas well.
+
+Untested",2025-05-10T05:26:36Z,1,Early-Lingonberry-16,programming,2025-05-25T17:09:30.395148Z
+mrnnjqp,1kj1qdr,reddit,"Eh, this feels weak.
+
+Having the correct index will take you a long way.
+
+I find the next best thing to do is to separate your read vs non-read workloads.
+
+If you are doing 99% reads then your read replica can be beefy and super specced out.",2025-05-10T22:09:03Z,1,SikhGamer,programming,2025-05-25T17:09:30.395165Z
+mr3efj4,1kg7qfy,reddit,It is ironic that these schema-less NoSQL databases require the most rigid schemas to be able to actually answer useful questions.,2025-05-07T16:53:28Z,2,BotBarrier,programming,2025-05-25T17:09:32.139228Z
+mqop492,1kf8i24,reddit,"Whoops, looks like the quote from the Open Container Initiative page got cut off:
+
+**What is OCI?**
+
+*The Open Container Initiative (OCI) is a lightweight, open governance structure (project), formed under the auspices of the Linux Foundation, for the express purpose of creating open industry standards around container formats and runtimes. The OCI was launched on June 22nd 2015 by Docker, CoreOS and other leaders in the container industry.*
+
+*- Open Container Initiative*",2025-05-05T10:46:32Z,1,TheFilterJustLeaves,programming,2025-05-25T17:09:33.008302Z
+mqgxu8p,1ke8bv0,reddit,repost,2025-05-04T01:57:47Z,2,KrazyKirby99999,programming,2025-05-25T17:09:34.766160Z
+mqloww9,1kdrsv7,reddit,A Google Sacred Holy Infallible Truth nanny talking about misinformation is peak irony.,2025-05-04T21:18:19Z,1,Traveler3141,programming,2025-05-25T17:09:36.425583Z
+mqdaec7,1kdot8o,reddit,wher code?,2025-05-03T13:36:24Z,1,PerceptionWinter3674,programming,2025-05-25T17:09:37.314479Z
+mqcf01y,1kdot8o,reddit,"LMK if this is too high level. I try to keep it high level enough that most people (like myself who have never written a GUI system) can get an idea of the challenges, and I try to keep it short enough that you can read it in 5 minutes and not be bored by details you don't care about",2025-05-03T09:25:13Z,0,levodelellis,programming,2025-05-25T17:09:37.314483Z
+mr2rhte,1kd5azi,reddit,"It is great to all of this terminology and definitions in one place; the mental overhead of fixing linking errors feels higher than with any other kind of bug.
+
+Does anyone know if there is something analogous for Linux?",2025-05-07T15:02:46Z,1,an1sotropy,programming,2025-05-25T17:09:39.051055Z

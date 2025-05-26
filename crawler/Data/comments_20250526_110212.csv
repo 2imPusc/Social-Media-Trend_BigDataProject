@@ -1,0 +1,111 @@
+﻿comment_id,content_id,platform,content,created_at,score,author,source_name,crawl_time
+mtq5pkw,1ksxbdi,reddit,"(copied from my comment on the /r/rust crosspost)
+
+https://github.com/ashvardanian/fork_union/blob/cd885f3811bc7ff09c7132af4acbcc723aca36a2/fork_union.rs#L116
+
+this is undefined behavior. casting a & to a &mut is never allowed (other than for zero sized types)
+
+unsynchronized read
+https://github.com/ashvardanian/fork_union/blob/cd885f3811bc7ff09c7132af4acbcc723aca36a2/fork_union.rs#L439
+
+unsynchronized write
+https://github.com/ashvardanian/fork_union/blob/cd885f3811bc7ff09c7132af4acbcc723aca36a2/fork_union.rs#L367
+
+
+this is a data race, which is undefined behavior
+
+there's plenty of other data races. you should run your tests with miri",2025-05-22T21:18:04Z,4,reflexpr-sarah-,programming,2025-05-26T04:00:44.231194Z
+mtlx9q0,1ksackh,reddit,"""""""""""""""""""""""""""""""""""""""""""""""""""""new""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+(No, it wasn't new back in 2020 either)",2025-05-22T05:39:56Z,24,Dragdu,programming,2025-05-26T04:00:48.654091Z
+mu01gmz,1ksackh,reddit,"LTO goes back to 2009 (maybe even 2005).
+
+*""New Way to Do Compiler Optimizations""*",2025-05-24T12:50:07Z,2,RusselsTeap0t,programming,2025-05-26T04:00:48.654103Z
+mu4qc9x,1ksackh,reddit,Slop. Sad downfall of r/programming,2025-05-25T06:20:18Z,1,glaba3141,programming,2025-05-26T04:00:48.654112Z
+mredfs4,1ki5ywm,reddit,"I'm not familiar with RIPEMD, but some things I noted scanning the article:
+
+> \#define F2(x, y, z) vorrq_u32(vandq_u32(x, y), vandq_u32(vmvnq_u32(x), z))
+
+Use BIC instead of AND+MVN.  Actually, you'll notice that this is a bit-select, so you can replace the whole thing with BSL (and do the same for F4).  
+Similarly, use ORN instead of ORR+MVN.
+
+> \#define ROTL(x, n) vorrq_u32(vshlq_n_u32(x, n), vshrq_n_u32(x, 32 - (n)))
+
+ARM does have SRI (shift-right and insert), which reduces the rotate from the 3 operations above, to 2.
+
+> Instead, it should be written in vaddq_u32(vec1, vdupq_n_u32(2)) style (if anyone knows why this is the case – please leave a comment).
+
+Actually MUL is the exception, as there's an instruction which allows multiplying by a single element (probably aimed at accelerating matrix multiplication).  SIMD in general operates on vectors, so you need to be passing everything in as one.  It's possible that they make shortcut intrinsics (like SVE does), but behind the scenes, it's broadcasting a scalar to a vector and adding it.
+
+> w[i] = vld1q_u32(((uint32_t[4]){x[0][i], x[1][i], x[2][i], x[3][i]})); // A bit faster
+
+Generally you want to arrange your data to avoid needing this interleaving (i.e. do `x[16][4]` instead of `x[4][16]`) - see [SoA layout](https://en.wikipedia.org/wiki/AoS_and_SoA).  If you can't rearrange your data, using LD4 will be faster than inserting items in lane by lane, though I don't think that can be done with a 16x4 layout, so it'd be better to transpose via TRN1 etc.
+
+> This is a great result, but it's unfortunate that M-chips don't have SVE for 256/512 bits (8/16 lanes), as that would make it even better!
+
+Not necessarily.  The width of a vector doesn't necessarily map to the execution unit width (e.g. Neoverse V1 declares 256-bit SVE but uses 128-bit EUs).  Though it can help if you're not making good use of ILP (which you might not be here, as it looks like you're only processing one vector at a time).  
+You can process 8 hashes at a time with NEON - just use two vectors instead of one.
+
+> It's a mystery to me why it works this way, and maybe there is an even more effective arrangement. Who knows? Please, write in the comments.
+
+My guess is that you're exploiting [ILP](https://en.wikipedia.org/wiki/Instruction-level_parallelism) better.  If the left and right rounds are independent, you want to interleave them, as it allows the processor to execute both parts simultaneously.  IIRC the M1 has 4 SIMD ports (M2 probably is the same) and you want to fill all of them for best performance.
+
+> What's interesting is that AVX2 on the Intel N100 runs 20% faster than Neon on the Apple M2 (mainly because of the vector size).
+
+It's worth noting that the N100 (Intel Gracemont) implements 256-bit AVX on 128-bit units, so it doesn't actually have wider processing width than the Apple M chips.
+
+---
+
+Edit: it's also worth pointing out that `(x | ~y) ^ z` can be rewritten as `~((~x & y) ^ z)` or `-((~x & y) ^ z) - 1`.  The '-1' can be coded into the constant, and the result of F subtracted instead of added (to subsume the negation).  This is particularly useful on x86 which lacks a ORN equivalent.",2025-05-09T10:55:47Z,5,YumiYumiYumi,programming,2025-05-26T04:01:02.970753Z
+mrctug4,1ki3ev6,reddit,"I maintain that programming, once you reduce the business requirements down, is just math in a trenchcoat.",2025-05-09T02:34:38Z,1,fallbyvirtue,programming,2025-05-26T04:01:03.851855Z
+mpeb3or,1k8y237,reddit,"Elasticsearch is a search engine masquerading as a database. Except for the narrow use case of searching text documents, you would have to be pretty brainwashed and ignorant to choose it over the many superior alternatives available nowadays.",2025-04-27T23:29:31Z,1,Adventurous-Race8315,programming,2025-05-26T04:01:15.564771Z
+mp9m64e,1k8aurh,reddit,"I always thought Dense-Rank was for stubborn people 😁
+
+I prefer using WITH...SELECT statements to modularize the ""steps"" of Rank-esque queries instead of use those keywords because it's easier to trouble-shoot in my experience. Breaking big things down into smaller steps is almost always more debugging-friendly. It's one reason why I don't think Functional Programming has really caught on. Those who use heavy LINQ are often chastised by maintainers, for example.",2025-04-27T05:04:47Z,2,Zardotab,programming,2025-05-26T04:01:19.251179Z
+mu4u1nq,1kuvtk7,reddit,"It's nice that you're still using the slide where you run entire maven and compare it against javac, which is moot on its own, as you're not comparing same things. Is Gradle 2 really necesssary?",2025-05-25T06:56:47Z,2,Worth_Trust_3825,programming,2025-05-26T04:01:21.196227Z
+mu7u8e7,1kuvtk7,reddit,One vote after 12 hours? I don't think Proggit likes build tool convos that feature Java,2025-05-25T18:56:47Z,1,paul_h,programming,2025-05-26T04:01:21.196233Z
+mtu9uin,1ktkwok,reddit,"Hey there! I wanted to plot the growing size of a repo over time, and was surprised to not find what I was looking for.
+
+So here it is: [https://www.npmjs.com/package/cloc-graph](https://www.npmjs.com/package/cloc-graph)
+
+and you can use it like this:
+
+`cloc-graph -p /path/to/repo -g weekly`
+
+Basically, I wrap cloc and iterate over the git history to generate a big CSV of all languages and a plot from this CSV.
+
+It can probably be extended in many ways to support more plot types or stuff like that, let me know what you think!",2025-05-23T14:26:10Z,1,cosmos-journeyer,programming,2025-05-26T04:01:28.467027Z
+mtti2m6,1kt3n22,reddit,Good old Hilbert eh,2025-05-23T11:49:35Z,0,HarmadeusZex,programming,2025-05-26T04:01:33.791411Z
+mtf1zmg,1kr9xfk,reddit,"I really like how this guide builds up a real-world example step by step, just like the one at [https://biffweb.com/docs/reference/project-layout/](https://biffweb.com/docs/reference/project-layout/)",2025-05-21T03:57:22Z,1,See-Ro-E,programming,2025-05-26T04:01:42.974806Z
+mt5zbxh,1kqjd98,reddit,"This is an attempt to answer the question ""Are there analogs to parallel computing rooted in number theory?""  
+Residue Number Systems are great for parallelization. But. Division and comparison are quite difficult to implement.   
+Also, it's difficult to represent floating or fixed point numbers. It's also challenging to detect integer overflow.  
+I wrote down all my attempts at solving these problems",2025-05-19T18:36:10Z,2,DataBaeBee,programming,2025-05-26T04:01:51.150309Z
+mt42ic4,1kqa2ql,reddit,"I just avoid using any form of justification in my documentation. I document HOW things work and avoid WHYs. This lends itself to a more maintainable but also adaptable code base. So long as the method performs the same task, does the internal use of Library A or Library B truly matter? IMHO, no. Although I’m sure others will argue differently.",2025-05-19T12:42:44Z,2,SeniorScienceOfficer,programming,2025-05-26T04:01:53.153978Z
+mt5s3ot,1kq9j51,reddit,"Back in days, that’s called master-slave replication.",2025-05-19T18:00:50Z,5,0xdef1,programming,2025-05-26T04:01:54.072088Z
+mse8wua,1kmf95y,reddit,"> Prerequisites
+> An Apple developer account
+
+That already sucks really. It kind of goes against the UNIX spirit and philosophy to have to beg a private entity for permission to distribute anything. All these ""AppStores"" in general are de-facto monopolies.",2025-05-15T04:18:08Z,5,shevy-java,programming,2025-05-26T04:01:56.834107Z
+ms58x1c,1kluv6w,reddit,"This video is basically the MS article on integration testing in asp net core. From experience, it is very convenient and easy to integration test asp net core and I quite enjoyed using it. The downside is the asp net documentation is all over the place and it is often very difficult to figure out how to configure/setup things.  Most frameworks can do this these days but not all make it as easy.",2025-05-13T19:33:36Z,2,deadron,programming,2025-05-26T04:01:57.752971Z
+ms1jk4s,1kkfy14,reddit,"> Many times, we end up saving these sensitive pieces of information in notepads, screenshots, photos, or unprotected files, which puts our digital security at risk.
+
+
+Don't drag me into your failure stew.
+
+
+Also, pick a better name for this.",2025-05-13T05:10:15Z,2,gredr,programming,2025-05-26T04:01:59.700472Z
+mqyvj31,1kgex8t,reddit,If the source code is public can I have the download so I can see how it works. Also pretty cool 😎 ,2025-05-06T22:39:30Z,1,jaxoncv,programming,2025-05-26T04:02:04.306816Z
+mr32z9w,1kgex8t,reddit,Former Canadian Prime Minister Stephen Harper?,2025-05-07T15:57:56Z,1,DazzlingDeparture225,programming,2025-05-26T04:02:04.306829Z
+mresnjh,1kgex8t,reddit,Jim Harper?,2025-05-09T12:44:19Z,1,HazelCuate,programming,2025-05-26T04:02:04.306838Z
+mq7o4u1,1kd0j29,reddit,">To address this, Netflix built an open-source Gradle plugin that rewrites bytecode at dependency resolution time, allowing older libraries to work seamlessly with the new Jakarta-based APIs.
+
+
+Netflix really went ""instead of contributing to the libraries we use and getting them up to date, let's write a Gradle plugin that spins bytecode."".
+
+
+>While Streams offer readability, conciseness, and safety, especially for complex transformations, the performance concerns arise in simpler, more basic use cases.
+
+
+Oracle's ""don't worry about it, we'll optimize it for you"" employees in shambles.",2025-05-02T15:33:34Z,1,BlueGoliath,programming,2025-05-26T04:02:08.913740Z
+mq56382,1kcc5l1,reddit,"Really interesting to see this shift from patch-and-pray manual fixes to automated, continuous upgrades. In my experience, the hardest part is orchestrating heterogeneous components—databases, message queues, microservices—so every upgrade step can run safely in the right order...\[rest of the comment as provided\]",2025-05-02T04:19:33Z,1,withmagi,programming,2025-05-26T04:02:09.937958Z

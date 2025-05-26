@@ -1,0 +1,389 @@
+﻿content_id,platform,title,content,created_at,source_id,source_name,category_id,category_name,tags,views,score,comment_count,duration,upvote_ratio,url,author,crawl_time
+1kmfodz,reddit,Closure Conversion Takes The Function Out Of Functional Programming,The next entry in the [making a language series](https://thunderseethe.dev/series/making-a-language/). This time we're talking about closure conversion. ,2025-05-14T13:50:19Z,programming,programming,technology,Technology,[],0,7,0,,0.82,https://thunderseethe.dev/posts/closure-convert-base/,thunderseethe,2025-05-25T17:05:01.431213Z
+1kl669v,reddit,The overclocked timer,"My first technical article, about an interesting embedded software bug. Written for fun. Cheers",2025-05-12T22:36:33Z,programming,programming,technology,Technology,[],0,7,2,,0.73,https://mrpy.hashnode.dev/the-overclocked-timer,pylessard,2025-05-25T17:05:02.532815Z
+1kf7fzc,reddit,"DualMix128: A Fast (~0.36 ns/call in C), Simple PRNG Passing PractRand (32TB) & BigCrush","Hi r/programming,
+
+I wanted to share a project I've been working on: **DualMix128**, a new pseudo-random number generator implemented in C. The goal was to create something very fast, simple, and statistically robust for non-cryptographic applications.
+
+**GitHub Repo:** [https://github.com/the-othernet/DualMix128](https://github.com/the-othernet/DualMix128) (MIT License)
+
+**Key Highlights:**
+
+* **Very Fast:** On my test system (gcc 11.4, -O3 -march=native), it achieves \~0.36 ns per 64-bit generation. This was 104% faster than xoroshiro128++ (\~0.74 ns) and competitive with wyrand (\~0.36 ns) in the same benchmark.
+* **Excellent Statistical Quality:**
+   * Passed PractRand testing from 256MB up to **32TB** with zero anomalies reported.
+   * Passed the full **TestU01 BigCrush** suite. The lowest p-values encountered were around 0.02.
+* **Simple Core Logic:** The generator uses a 128-bit state and a straightforward mixing function involving addition, rotation, and XOR.
+* **MIT Licensed:** Free to use and integrate.
+
+Here's the core generation function:
+
+    // Golden ratio fractional part * 2^64
+    const uint64_t GR = 0x9e3779b97f4a7c15ULL;
+    
+    // state0, state1 initialized externally (e.g., with SplitMix64)
+    // uint64_t state0, state1;
+    
+    static inline uint64_t rotateLeft(const uint64_t x, int k) {
+    return (x << k) | (x >> (64 - k));
+    }
+    
+    uint64_t dualMix128() {
+        // Mix the current state
+        uint64_t mix = state0 + state1;
+    
+        // Update state0 using addition and rotation
+        state0 = mix + rotateLeft( state0, 26 );
+    
+        // Update state1 using XOR and rotation
+        state1 = mix ^ rotateLeft( state1, 35 );
+    
+        // Apply a final multiplication mix
+        return GR * mix;
+    }
+
+I developed this while exploring simple state update and mixing functions that could yield good speed and statistical properties. It seems to have turned out quite well on both fronts.
+
+I'd be interested to hear any feedback, suggestions, or see if anyone finds it useful for simulations, hashing, game development, or other areas needing a fast PRNG.
+
+Thanks!",2025-05-05T09:33:52Z,programming,programming,technology,Technology,[],0,7,0,,0.82,https://github.com/the-othernet/DualMix128,danielcota,2025-05-25T17:05:03.436552Z
+1kdvzca,reddit,Decoupling,,2025-05-03T15:46:19Z,programming,programming,technology,Technology,[],0,7,1,,0.65,https://pid1.dev/posts/decoupling/,sausagefeet,2025-05-25T17:05:04.304360Z
+1kd5ap5,reddit,Optimizing Guile Scheme,,2025-05-02T16:29:47Z,programming,programming,technology,Technology,[],0,6,0,,0.81,https://dthompson.us/posts/optimizing-guile-scheme.html,ketralnis,2025-05-25T17:05:05.157511Z
+1kb2iyr,reddit,Prolog Notes,,2025-04-29T23:43:12Z,programming,programming,technology,Technology,[],0,8,0,,0.83,https://github.com/dtonhofer/prolog_notes,ketralnis,2025-05-25T17:05:06.019787Z
+1k9vknm,reddit,"History of C#: versions, .NET, Unity, Blazor, and MAUI",,2025-04-28T13:29:42Z,programming,programming,technology,Technology,[],0,5,0,,0.62,https://pvs-studio.com/en/blog/posts/csharp/1248/,Xaneris47,2025-05-25T17:05:06.873416Z
+1k8vwvm,reddit,A database diagram cheat sheet - philosophies & tradeoffs to help you choose the correct DB,,2025-04-27T04:44:07Z,programming,programming,technology,Technology,[],0,8,5,,0.7,https://cheatsheets.davidveksler.com/databases.html,HeroicLife,2025-05-25T17:05:07.769276Z
+1k89sov,reddit,Syntax Updates of Python 3.14 That Will Make Your Code Safer and Better,,2025-04-26T10:22:56Z,programming,programming,technology,Technology,[],0,7,9,,0.55,https://medium.com/techtofreedom/3-syntax-updates-of-python-3-14-that-will-make-your-code-safer-and-better-e616c507ebd5?sk=de8a658e7104279d8e34a80526feade3,wyhjsbyb,2025-05-25T17:05:08.624615Z
+1kuf5g9,reddit,Brainfuck to RISC-V JIT compiler written in Zig,"Combination of an unstable brand-new programming language with a crazy one. JIT compiles for an ISA that almost nobody uses. So what's not to like?! :D
+
+The project is pretty useless (duh) but I thought you might find it interesting. Implementing the RISC-V instruction encodings was a breeze with Zig's stellar variable length integer support (see the file src/RV64.zig), and Zig also supports choosing the ABI for functions which made it really easy to make the JIT compilation portable for both Windows and Linux.
+
+So, if you need to do alot of bit twiddling or want to experiment writing your own JIT compiler, Zig is pretty good for that!",2025-05-24T16:07:40Z,programming,programming,technology,Technology,[],0,12,4,,0.74,https://github.com/evelance/brainiac,gorv256,2025-05-25T17:05:09.585372Z
+1kt921a,reddit,Red Programming Language,,2025-05-23T02:48:30Z,programming,programming,technology,Technology,[],0,6,8,,0.65,https://www.red-lang.org/p/about.html,namanyayg,2025-05-25T17:05:10.441613Z
+1kt90nh,reddit,Writing into Uninitialized Buffers in Rust,,2025-05-23T02:46:32Z,programming,programming,technology,Technology,[],0,6,0,,0.76,https://blog.sunfishcode.online/writingintouninitializedbuffersinrust/,namanyayg,2025-05-25T17:05:11.392991Z
+1ksr017,reddit,How to Refactor Complex Codebases,,2025-05-22T13:41:22Z,programming,programming,technology,Technology,[],0,6,1,,0.76,https://www.freecodecamp.org/news/how-to-refactor-complex-codebases/,thewritingwallah,2025-05-25T17:05:12.311643Z
+1ksaesw,reddit,Functional hash tables explained,,2025-05-21T21:58:48Z,programming,programming,technology,Technology,[],0,7,1,,0.89,https://spritely.institute/news/functional-hash-tables-explained.html,ketralnis,2025-05-25T17:05:13.202000Z
+1kox33b,reddit,How to Handle Concurrency with Optimistic Locking?,,2025-05-17T16:30:58Z,programming,programming,technology,Technology,[],0,5,0,,0.78,https://newsletter.scalablethread.com/p/how-to-handle-concurrency-with-optimistic,scalablethread,2025-05-25T17:05:14.091644Z
+1knb77o,reddit,Demystifying the protobuf wire format - Part 2,,2025-05-15T15:33:21Z,programming,programming,technology,Technology,[],0,6,0,,0.8,https://kreya.app/blog/protocolbuffers-wire-format-part-2/,mallenspach,2025-05-25T17:05:14.956501Z
+1klvh7o,reddit,REST API Design -  18 Proven Best Practices for Clean and Efficient Endpoints,Corious to hear your thougts and opinions when it comes to (rest) api design,2025-05-13T19:48:38Z,programming,programming,technology,Technology,[],0,6,7,,0.6,https://medium.com/@js_9757/rest-api-design-18-proven-best-practices-for-clean-and-efficient-endpoints-a295ba46c514,docaicdev,2025-05-25T17:05:15.801388Z
+1kg32zc,reddit,Beyond the Cloud: The Local-First Software Revolution • Brooklyn Zelenka & Julian Wood,,2025-05-06T12:21:23Z,programming,programming,technology,Technology,[],0,4,10,,0.58,https://youtu.be/9gZMnJ2XPkM,goto-con,2025-05-25T17:05:16.677827Z
+1kf5f20,reddit,"Typed Lisp, A Primer",,2025-05-05T07:05:06Z,programming,programming,technology,Technology,[],0,7,0,,0.77,https://alhassy.com/TypedLisp.html,mmaksimovic,2025-05-25T17:05:17.683969Z
+1kd6z4u,reddit,Bifurcate the Problem Space,,2025-05-02T17:39:17Z,programming,programming,technology,Technology,[],0,6,2,,0.88,https://potetm.com/devtalk/bifurcate-the-problem.html,jameswdunne,2025-05-25T17:05:18.609142Z
+1kd2w5f,reddit,Colibri: The Fully Declarative And Turing-Complete Language Lurking Inside Swift’s Type System,,2025-05-02T14:51:45Z,programming,programming,technology,Technology,[],0,5,0,,0.61,https://decodemeester.medium.com/colibri-the-fully-declarative-and-turing-complete-language-lurking-inside-swifts-type-system-9adfa27ce5ca,vikingosegundo,2025-05-25T17:05:19.540069Z
+1kbnsds,reddit,Impossible Components,,2025-04-30T18:33:03Z,programming,programming,technology,Technology,[],0,4,0,,0.67,https://overreacted.io/impossible-components/,ketralnis,2025-05-25T17:05:20.443597Z
+1kb2in9,reddit,Discovering the Lispworks IDE,,2025-04-29T23:42:47Z,programming,programming,technology,Technology,[],0,7,0,,0.89,https://lisp-journey.gitlab.io/blog/discovering-the-lispworks-ide/,ketralnis,2025-05-25T17:05:21.348478Z
+1kb2i1s,reddit,APL: Comparison with Traditional Mathematics,,2025-04-29T23:42:00Z,programming,programming,technology,Technology,[],0,5,0,,0.67,https://aplwiki.com/wiki/Comparison_with_traditional_mathematics,ketralnis,2025-05-25T17:05:22.227814Z
+1kaoov8,reddit,Quad Trees: Find in the area (part 2),,2025-04-29T14:01:46Z,programming,programming,technology,Technology,[],0,6,1,,1.0,https://hypersphere.blog/blog/quad-trees-find-in-area/,ab-azure,2025-05-25T17:05:23.075322Z
+1k9wc55,reddit,C++ DataFrame new release (3.5.0) is out on Conan and VCPKG,"The theme of the new release is adding new analytics and making the code really airtight by fixing boundary issues.
+
+1. Added many new statistical and ML related analysis mostly in the form of visitors
+2. Sped up reading large files by 20% to 75% depending on the format.
+3. Expanded the analytical interface of the internal matrix
+4. Fixed many edge-case and boundary issues by running all tests with debug version of STL",2025-04-28T14:03:57Z,programming,programming,technology,Technology,[],0,7,0,,0.82,https://github.com/hosseinmoein/DataFrame,hmoein,2025-05-25T17:05:23.973274Z
+1k95gic,reddit,Create a Tiny DLL in C | Remove CRT and Disassemble DLL with Cutter | Windows DLL Internals,,2025-04-27T14:39:16Z,programming,programming,technology,Technology,[],0,5,1,,0.61,https://youtu.be/lpRmhXG8Fro,paulpjoby,2025-05-25T17:05:25.162541Z
+1ksiv97,reddit,MCP Auth - Connect MCP Server to Any Compliant OAuth/OIDC Provider,,2025-05-22T05:17:49Z,programming,programming,technology,Technology,[],0,3,5,,0.57,https://mcp-auth.dev,HorrorFormal3170,2025-05-25T17:05:26.098824Z
+1kr4z94,reddit,"I built a programming language, inspired by Golang","
+Hello, I'm the author of the nature programming language, which has reached an early usable version since its first commit in 2021 until today.
+
+---
+
+Why implement such a programming language? 
+
+golang is a programming language that I use for my daily work, and the first time I used golang, I was amazed by its simple syntax, freedom of programming ideas, ease of cross-compilation and deployment, excellent and high-performance runtime implementations, and advanced concurrency style design based on goroutines, etc. But, golang also has some inconveniences
+
+- The syntax is too concise, resulting in a lack of expressive power.
+- The type system is not perfect
+- Cumbersome error handling
+- The automatic GC and preemptive scheduling design is excellent, but it also limits the scope of go.
+- Package management
+- interface{}
+- ...
+
+nature is designed to be a continuation and improvement of the go programming language, and to pursue certain differences. While improving the above problems, nature has a runtime, a GMP model, an allocator, a collector, a coroutine, a channel, a std, and so on, which are similar to those of go, but more concise. And nature also does not rely on llvm, with efficient compilation speed, easy cross-compilation and deployment.
+
+Based on the features already implemented in the nature programming language, it is suitable for game engines and game development, scientific computing and AI, operating systems and the Internet of Things, the command line, and web development.
+
+When nature is fully featured and optimized, it is expected that nature will be able to replace golang in any scenario (converting to readable golang code, using nature with minimal trial-and-error costs, and switching back to golang at any time). And as a general-purpose programming language, nature can compete with any other programming language of its type. [Note that this is not yet complete.]
+
+
+---
+
+I know, it's a little late, I spent too much time, just to bring another programming language, after all, the world is not short of programming languages. But when I really think about questions like ""Should I continue? Can I do it well?"", I realized I had already come a very, very long way.
+
+---
+
+Feel free to give me feedback. I'll answer any questions you may have.
+
+Github: [https://github.com/nature-lang/nature](https://github.com/nature-lang/nature)
+
+Official website: [https://nature-lang.org](https://nature-lang.org) The home page contains some examples of syntax features that you can try out in the playground. 
+
+Get started: [https://nature-lang.org/docs/get-started](https://nature-lang.org/docs/get-started) contains a tutorial on how to install the program and advice on how to use it.
+
+Syntax documentation: [https://nature-lang.org/docs/syntax](https://nature-lang.org/docs/syntax)
+
+Playground: [https://nature-lang.org/playground](https://nature-lang.org/playground) Try it online
+
+---
+
+Contribution Guide
+
+https://nature-lang.org/docs/contribute I have documented how the nature programming language is implemented. 
+
+nature has a proprietary compiler backend like golang, but the structure and implementation of the nature source code is very simple.
+
+This makes it easy and fun to contribute to the nature programming language. Instead of just a compiler frontend + llvm, you can participate in SSA, SIMD, register allocation, assembler, linker, and other fun tasks to validate your learning and ideas. You can express your ideas through github issues and I'll guide you through the contribution process.
+
+---
+
+These are some of the smaller projects I've implemented with nature, and I really like the feel of writing code with nature.
+
+https://github.com/weiwenhao/parker Lightweight packaging tool  
+
+https://github.com/weiwenhao/llama.n Llama2 nature language implementation  
+
+https://github.com/weiwenhao/tetris Tetris implementation based on raylib, macos only  
+
+https://github.com/weiwenhao/playground playground server api implementation  
+
+---
+
+Lastly, I'm looking for a job, so if you think this project is okay, I hope you'll give me a star, it would help me a lot 🙏
+",2025-05-20T13:33:00Z,programming,programming,technology,Technology,[],0,5,9,,0.55,https://github.com/nature-lang/nature,hualaka,2025-05-25T17:05:26.961502Z
+1kqne2i,reddit,Mimalloc Cigarette: Losing one week of my life catching a memory leak,,2025-05-19T21:12:57Z,programming,programming,technology,Technology,[],0,6,1,,0.8,https://pwy.io/posts/mimalloc-cigarette/,ketralnis,2025-05-25T17:05:27.870426Z
+1kq1ete,reddit,async/await versus the Calloop Model in Rust,,2025-05-19T02:53:19Z,programming,programming,technology,Technology,[],0,4,1,,0.6,https://notgull.net/calloop/,stackoverflooooooow,2025-05-25T17:05:28.757572Z
+1kpojvv,reddit,Reflecting on Software Engineering Handbook,,2025-05-18T16:53:23Z,programming,programming,technology,Technology,[],0,3,1,,0.61,https://yusufaytas.com/reflecting-on-software-engineering-handbook/,yusufaytas,2025-05-25T17:05:29.662775Z
+1kp3emf,reddit,I wrote a SwiftUI runtime in C++,,2025-05-17T21:09:30Z,programming,programming,technology,Technology,[],0,5,1,,0.69,https://www.kulve.org/blog/swiftui_runtime,notarealoneatall,2025-05-25T17:05:30.562966Z
+1kk9u31,reddit,How to easily measure how long each line of a Python script takes to run?,"Hi all I have built this project [lblprof](https://github.com/le-codeur-rapide/lblprof) to be able to very quickly get an overview of how much time each line of my python code would take to run.
+
+It is based on the new sys.monitoring api [PEP669](https://peps.python.org/pep-0669/)
+
+# What my project Does ?
+
+The goal is to be able to know very quickly how much time was spent on each line during my code execution.
+
+I don't aim to be precise at the nano second like other lower level profiling tool, but I really care at seeing **easily** where my 100s of milliseconds are spent. I built this project to replace the old good `print(start - time.time())` that I was abusing.
+
+This package profile your code and display a tree in the terminal showing the duration of each line (you can expand each call to display the duration of each line in this frame)
+
+Example of the terminal UI: [terminalui\_showcase.png (1210×523)](https://raw.githubusercontent.com/le-codeur-rapide/lblprof/refs/heads/main/docs/terminalui_showcase.png)
+
+# Target Audience
+
+Devs who want a quick insight into how their code’s execution time is distributed. (what are the longest lines ? Does the concurrence work ? Which of these imports is taking so much time ? ...)
+
+# Installation
+
+    pip install lblprof
+
+The only dependency of this package is pydantic, the rest is standard library.
+
+# Usage
+
+This package contains **4 main functions**:
+
+* `start_tracing()`: Start the tracing of the code.
+* `stop_tracing()`: Stop the tracing of the code, build the tree and compute stats
+* `show_interactive_tree(min_time_s: float = 0.1)`: show the interactive duration tree in the terminal.
+* `show_tree()`: print the tree to console.
+
+&#8203;
+
+    from lblprof import start_tracing, stop_tracing, show_interactive_tree, show_tree 
+    start_tracing()
+    
+    #Your code here (Any code)
+    
+    stop_tracing() 
+    show_tree() # print the tree to console 
+    show_interactive_tree() # show the interactive tree in the terminal
+
+The interactive terminal is based on built in library [curses](https://docs.python.org/3/howto/curses.html)
+
+What do you think ? Do you have any idea of how I could improve it ?",2025-05-11T19:58:55Z,programming,programming,technology,Technology,[],0,4,3,,0.59,https://github.com/le-codeur-rapide/lblprof,PhilosopherWrong6851,2025-05-25T17:05:31.505234Z
+1kk44bo,reddit,Winning Cluedo,,2025-05-11T15:50:09Z,programming,programming,technology,Technology,[],0,4,1,,0.7,https://bitsandtheorems.com/winning-cluedo/,Knaapje,2025-05-25T17:05:32.396498Z
+1khzvxl,reddit,Stability by design,,2025-05-08T20:09:22Z,programming,programming,technology,Technology,[],0,7,1,,0.77,https://potetm.com/devtalk/stability-by-design.html,jameswdunne,2025-05-25T17:05:33.284707Z
+1kgcuac,reddit,Bypassing AV: from memory tricks to fooling AMSI and defeating modern EDRs.,"From reverse engineering and exploit development to AV/EDR evasion, malware analysis, and secure coding practices. Whether you're writing tools, breaking systems, or defending them, this is where code meets cyber.",2025-05-06T19:07:37Z,programming,programming,technology,Technology,[],0,3,1,,0.62,https://github.com/andreisss/Ghosting-AMSI,Echoes-of-Tomorroww,2025-05-25T17:05:34.206801Z
+1kg5a5k,reddit,"A complete guide covering foundational Linux concepts, core tasks, and best practices.",,2025-05-06T14:03:17Z,programming,programming,technology,Technology,[],0,5,0,,0.7,https://github.com/AhmedOsamaMath/linux-basics,AhmedOsamaMath,2025-05-25T17:05:35.126312Z
+1kbgh7r,reddit,"Sharding Mastodon, Part 1",,2025-04-30T13:27:15Z,programming,programming,technology,Technology,[],0,5,3,,0.73,https://pgdog.dev/blog/sharding-mastodon-part-1,levkk1,2025-05-25T17:05:36.054939Z
+1kary9s,reddit,Syntactic musings on match expressions,,2025-04-29T16:18:04Z,programming,programming,technology,Technology,[],0,6,0,,1.0,https://blog.yoshuawuyts.com/syntactic-musings-on-match-expressions/,ketralnis,2025-05-25T17:05:36.940420Z
+1kaeuj0,reddit,Packed Data Support in Haskell,,2025-04-29T03:49:54Z,programming,programming,technology,Technology,[],0,5,0,,0.86,https://arthi-chaud.github.io/posts/packed/,ketralnis,2025-05-25T17:05:37.817317Z
+1k7n8gx,reddit,Having fun with C++ SFML and developing games without engines,"I wanted to learn how to program games without an engine and I started to work with C++'s SFML library to learn the basics of collisions , rendering and input. I left a link to my project repo in case anyone is interested in taking a look. 
+
+There are some areas of improvement , such as adding sound , improving the UI (SFML doesn't have things like buttons or labels , all of these need to be written ) and adding animations , I plan to go deeper into the capabilities of SFML and C++ , it has been a great learning experience so far  ",2025-04-25T15:06:29Z,programming,programming,technology,Technology,[],0,4,3,,0.7,https://github.com/Rhaegar2012/Proyectos-Cpp-Publico/tree/main/SpaceInvaders,Public_Amoeba_5486,2025-05-25T17:05:38.706571Z
+1kud4n9,reddit,UndoDB – The interactive time travel debugger for Linux C/C++ for debugging,,2025-05-24T14:38:07Z,programming,programming,technology,Technology,[],0,4,1,,0.64,https://undo.io/,namanyayg,2025-05-25T17:05:39.557283Z
+1ksujvu,reddit,Tales From Mainframe Modernization,,2025-05-22T16:07:05Z,programming,programming,technology,Technology,[],0,3,1,,0.67,https://oppi.li/posts/tales_from_mainframe_modernization/,ketralnis,2025-05-25T17:05:40.446125Z
+1ksagp2,reddit,JEP 519: Compact Object Headers,,2025-05-21T22:00:58Z,programming,programming,technology,Technology,[],0,4,2,,0.64,https://openjdk.org/jeps/519,ketralnis,2025-05-25T17:05:41.312477Z
+1krdybj,reddit,Bad Type Patterns - The Duplicate duck,,2025-05-20T19:33:51Z,programming,programming,technology,Technology,[],0,3,0,,0.64,https://www.schneems.com/2025/05/07/bad-type-patterns-the-duplicate-duck/,ketralnis,2025-05-25T17:05:42.201106Z
+1kqncgo,reddit,How to have the browser pick a contrasting color in CSS,,2025-05-19T21:11:12Z,programming,programming,technology,Technology,[],0,4,0,,0.75,https://webkit.org/blog/16929/contrast-color/,ketralnis,2025-05-25T17:05:43.059928Z
+1kq6ocv,reddit,A Use Case for Port Boundaries in Frontend Development,,2025-05-19T08:35:36Z,programming,programming,technology,Technology,[],0,3,0,,0.81,https://cekrem.github.io/posts/a-case-for-port-boundaries-in-frontend/,cekrem,2025-05-25T17:05:43.975872Z
+1kp6y4b,reddit,I made a crate to restrict/track syscalls in Rust. Thoughts?,"Hey.
+
+I’ve been working on [**restrict**](https://github.com/x0rw/restrict) \-- a simple way to block, track and allow syscalls in Rust programs based on Seccomp and Ptrace(for compatibility).  
+I think it's easy and very fluent,
+
+    let policy = Policy::allow_all()?;  //allow all syscall by default
+    policy  
+     .deny(Syscall::Execve)  
+    // kill process on shell escape  
+     .deny(Syscall::Ptrace)  
+    // block debugging  
+     .apply()?;  
+
+it also supports tracing syscalls before they run:
+
+    policy.trace(Syscall::Openat, |syscall| {  
+     println!(""Opening: {:?}"", syscall);  
+     TraceAction::Continue  
+    });  
+
+This lets you observe syscalls (like Openat, which is used under the hood when opening files), collect metrics, or log syscall usage -- all before the syscall actually runs. You can also make syscalls fail gracefully by returning a custom errno instead of terminating the process:
+
+    policy.fail_with(Syscall::Execve, 5);  // when the syscall is invoked it will return errrno(5)
+
+I would love to hear your suggestions and ideas, also the way syscalls enum is generated depends on your linux system because it parses your system headers at build time and it's prone to failure in some linux systems(if you want to understand how these enums are generated check 'build.rs' in the project dir),  
+so i would love to hear your feedback on this.  
+[https://github.com/x0rw/restrict](https://github.com/x0rw/restrict)",2025-05-18T00:02:01Z,programming,programming,technology,Technology,[],0,3,2,,0.62,https://github.com/x0rw/restrict,Traditional_Ball_552,2025-05-25T17:05:44.901061Z
+1kkxith,reddit,Understanding StructuredClone: The Modern Way to Deep Copy In JavaScript,,2025-05-12T16:52:18Z,programming,programming,technology,Technology,[],0,3,1,,0.64,https://claritydev.net/blog/javascript-structured-clone-deep-copying,Clarity_89,2025-05-25T17:05:45.764193Z
+1kkhxcp,reddit,Libcello - a cool project to modernize C,"Not mine. I always wanted to do something with this, but it never matched personally or professionally.",2025-05-12T02:37:33Z,programming,programming,technology,Technology,[],0,5,1,,0.67,https://libcello.org/,esdraelon,2025-05-25T17:05:46.666778Z
+1kjw856,reddit,How I Connected My Home Network with AWS Regions Using Tailscale and VPC Peering,,2025-05-11T08:27:33Z,programming,programming,technology,Technology,[],0,5,2,,0.77,https://www.dhairyashah.dev/posts/how-i-connected-my-home-network-with-aws-regions-using-tailscale-and-vpc-peering/,dhairyashah_,2025-05-25T17:05:47.571907Z
+1khyyvt,reddit,Fighting Unwanted Notifications with Machine Learning in Chrome,,2025-05-08T19:31:46Z,programming,programming,technology,Technology,[],0,2,7,,0.54,https://blog.chromium.org/2025/05/fighting-unwanted-notifications-with.html,feross,2025-05-25T17:05:48.445642Z
+1kd5bn0,reddit,The Tao of Programming,,2025-05-02T16:30:51Z,programming,programming,technology,Technology,[],0,3,0,,0.6,https://www.mit.edu/~xela/tao.html,ketralnis,2025-05-25T17:05:49.389993Z
+1kd5b9n,reddit,Reading Zanzibar,,2025-05-02T16:30:29Z,programming,programming,technology,Technology,[],0,4,0,,0.67,https://macwright.com/2025/05/02/reading-zanzibar,ketralnis,2025-05-25T17:05:50.264268Z
+1kck9ix,reddit,RVSDG: An Intermediate Representation for Optimizing Compilers,,2025-05-01T21:32:25Z,programming,programming,technology,Technology,[],0,3,0,,0.72,https://arxiv.org/abs/1912.05036,ketralnis,2025-05-25T17:05:51.097986Z
+1kbnrd3,reddit,Dataframely: A polars-native data frame validation library,,2025-04-30T18:31:52Z,programming,programming,technology,Technology,[],0,5,0,,0.78,https://tech.quantco.com/blog/dataframely,ketralnis,2025-05-25T17:05:51.958188Z
+1kaihsi,reddit,"ChoiceJacking: Compromising Mobile Devices through Malicious Chargers like a Decade ago -- ""In this paper, we present a novel family of USB-based attacks on mobile devices, ChoiceJacking, which is the first to bypass existing Juice Jacking mitigations.""",,2025-04-29T07:51:43Z,programming,programming,technology,Technology,[],0,4,1,,0.7,https://graz.elsevierpure.com/en/publications/choicejacking-compromising-mobile-devices-through-malicious-charg,throwaway16830261,2025-05-25T17:05:52.864050Z
+1kaf3v5,reddit,How to Use JWTs for Authorization: Best Practices and Common Mistakes,,2025-04-29T04:04:39Z,programming,programming,technology,Technology,[],0,4,1,,0.67,https://www.permit.io/blog/how-to-use-jwts-for-authorization-best-practices-and-common-mistakes,Permit_io,2025-05-25T17:05:53.790485Z
+1ka3bd3,reddit,Audit of the Rust p256 Crate,,2025-04-28T18:49:58Z,programming,programming,technology,Technology,[],0,3,0,,0.72,https://reports.zksecurity.xyz/reports/near-p256/,ketralnis,2025-05-25T17:05:54.712957Z
+1ka3aw7,reddit,Uncovering the mechanics of The Games: Winter Challenge,,2025-04-28T18:49:28Z,programming,programming,technology,Technology,[],0,3,0,,0.81,https://mrwint.github.io/winter/writeup/writeup.html,ketralnis,2025-05-25T17:05:55.587968Z
+1k8pl7g,reddit,Top 6 Features of Java NIO Library,,2025-04-26T22:59:24Z,programming,programming,technology,Technology,[],0,4,0,,0.67,https://javabulletin.substack.com/p/top-6-features-of-java-nio-library,Educational-Ad2036,2025-05-25T17:05:56.490661Z
+1ku3w44,reddit,How Kafka Producer Works internally,,2025-05-24T05:12:02Z,programming,programming,technology,Technology,[],0,6,0,,0.69,https://www.architecture-weekly.com/p/how-a-kafka-like-producer-writes,Adventurous-Salt8514,2025-05-25T17:05:57.390895Z
+1ktzhex,reddit,How React server components work: an in-depth guide,,2025-05-24T01:00:27Z,programming,programming,technology,Technology,[],0,4,0,,0.74,https://www.plasmic.app/blog/how-react-server-components-work,ketralnis,2025-05-25T17:05:58.251342Z
+1ktiy3j,reddit,Early Days of Agile Development & Is Design Dead? • Martin Fowler & James Lewis,,2025-05-23T12:59:12Z,programming,programming,technology,Technology,[],0,3,0,,0.71,https://youtu.be/xsMUuOwv7IA,goto-con,2025-05-25T17:05:59.118546Z
+1ktbezq,reddit,Why Your First 100 Bugs Are the Best Thing That Ever Happened to You,,2025-05-23T05:02:46Z,programming,programming,technology,Technology,[],0,2,5,,0.52,https://medium.com/@prouspwhs/why-your-first-100-bugs-are-the-best-thing-that-ever-happened-to-you-1e9dfa6e5dba,Maleficent-Fall-3246,2025-05-25T17:05:59.982151Z
+1kt3mm5,reddit,The Annotated Kolmogorov-Arnold Network (Kan),,2025-05-22T22:16:03Z,programming,programming,technology,Technology,[],0,3,0,,0.72,https://alexzhang13.github.io/blog/2024/annotated-kan/,ketralnis,2025-05-25T17:06:00.885590Z
+1ksukj5,reddit,libinput Preparing To Introduce A Lua-Based Plugin System For Modifying Devices/Events,,2025-05-22T16:07:48Z,programming,programming,technology,Technology,[],0,3,0,,0.61,https://www.phoronix.com/news/libinput-Lua-Plugin-System,ketralnis,2025-05-25T17:06:01.791438Z
+1ksagqa,reddit,FreeBSD and NetBSD Zig Cross-Compilation Support,,2025-05-21T22:01:00Z,programming,programming,technology,Technology,[],0,4,0,,0.75,https://ziglang.org/devlog/2025/#2025-05-20,ketralnis,2025-05-25T17:06:02.716291Z
+1ksadau,reddit,Overview of the Ada Computer Language Competition (1979),,2025-05-21T21:56:57Z,programming,programming,technology,Technology,[],0,2,0,,0.6,https://iment.com/maida/computer/redref/,ketralnis,2025-05-25T17:06:03.637844Z
+1krkpsx,reddit,Who Will Watch The Watchmen? Closing the Loop on Unit Testing With Mutation Testing,,2025-05-21T00:30:22Z,programming,programming,technology,Technology,[],0,4,0,,0.75,https://www.danmailloux.com/blog/mutation-testing,dmailloux,2025-05-25T17:06:04.540246Z
+1kr9w6w,reddit,Compiling OCaml to the TI-84 CE Calculator,,2025-05-20T16:54:02Z,programming,programming,technology,Technology,[],0,2,0,,0.59,https://farlow.dev/2025/05/17/ocaml-on-calculator,ketralnis,2025-05-25T17:06:05.383106Z
+1kqnbr6,reddit,A Python frozenset interpretation of Dependent Type Theory,,2025-05-19T21:10:26Z,programming,programming,technology,Technology,[],0,3,0,,1.0,https://www.philipzucker.com/frozenset_dtt/,ketralnis,2025-05-25T17:06:06.258588Z
+1kotqpu,reddit,Cutting Observability Costs and Data Noise by Optimising OpenTelemetry Pipelines,,2025-05-17T14:03:02Z,programming,programming,technology,Technology,[],0,2,0,,0.6,https://signoz.io/blog/optimising-opentelemetry-pipelines-to-cut-observability-costs-and-data-noise/,elizObserves,2025-05-25T17:06:07.135766Z
+1ko4t1w,reddit,New Community-Driven GitHub Repo for Mobile System Design Resources!,"Hey everyone,
+
+I've noticed a real lack of a centralized place for resources on mobile system design. It feels like valuable blogs, videos, and articles are scattered all over the internet. To address this, I've created a new community-driven GitHub repository to gather these resources in one place.
+
+The repo currently has a few initial links to get started, but the goal is for it to grow into a comprehensive collection through community contributions.
+
+If you know of any great resources related to mobile system design – blog posts, videos, talks, articles, etc. – please consider contributing by adding a pull request! Let's build this together and make it easier for everyone to learn and improve in this important area of mobile development.
+
+Looking forward to your contributions and discussions!",2025-05-16T16:12:54Z,programming,programming,technology,Technology,[],0,2,0,,0.67,https://github.com/yogeshpaliyal/awesome-mobile-system-design,paliyalyogesh,2025-05-25T17:06:08.027813Z
+1kmi23m,reddit,Lesson 6: Programming the Shooter Game in Squeak/Smalltalk,,2025-05-14T15:27:49Z,programming,programming,technology,Technology,[],0,4,0,,0.83,https://news.squeak.org/2025/05/14/lesson-6-programming-the-shooter-game-in-squeak-smalltalk/,itsmeront,2025-05-25T17:06:09.259452Z
+1kmgblp,reddit,25 in 1 Games 40KB Project HTML5 & compression methods,,2025-05-14T14:17:41Z,programming,programming,technology,Technology,[],0,3,0,,0.6,https://www.youtube.com/watch?v=QS04Ob1cDWI,OkScene375,2025-05-25T17:06:10.140666Z
+1klqz8c,reddit,"Rama 0.2 — A modular Rust framework for building proxies, servers, and clients","We just released **[Rama 0.2](https://github.com/plabayo/rama/discussions/544)** — a modular, open-source framework in Rust for building proxies, servers, and clients with full control over how network traffic is handled and transformed.
+
+Rama is already used in production by companies handling **terabytes of traffic daily**, and it’s designed to help developers **compose network systems from reusable building blocks**, similar to how you might approach software architecture with Unix-like philosophies or service pipelines.
+
+### 🔧 What makes Rama different?
+
+- Modular service and middleware composition (inspired by Tower, but fully extensible)
+- Explicit packet flow — no hidden control flow or “magic”
+- Built-in support for:
+  - TCP / UDP / HTTP1 / HTTP2
+  - Routing fingerprinting, UA emulation and traffic shapping
+  - Proxy protocols (HTTP CONNECT, HAProxy, ...)
+  - User-agent emulation
+  - telemetry (OpenTelemetry, tracing)
+  - Prebuilt binaries and examples
+
+Learn more at <https://ramaproxy.org/>
+
+Everything is opt-in and composable — you can build only what you need, or start with batteries included.
+
+### ⚙️ Why build it?
+
+There are already great tools out there (e.g. Nginx, Envoy, Pingora). But after years of building proxies and reverse engineering traffic, we found that many tools became limiting when trying to go off the beaten path.
+
+Rama is meant for people who want full control over the **network stack**, while still leveraging high-level primitives to move fast and stay sane.
+
+### 📢 Full announcement & roadmap:
+
+👉 [https://github.com/plabayo/rama/discussions/544](https://github.com/plabayo/rama/discussions/544)
+
+We’re already working on 0.3 with WebSocket support, better crypto primitives, and more service ergonomics. As part of that roadmap and already finished we have complete socks5 support ready to empower you, learn about that at <https://ramaproxy.org/book/proxies/socks5.html>
+
+Happy to hear your thoughts, feedback, and feature ideas.",2025-05-13T16:52:11Z,programming,programming,technology,Technology,[],0,3,2,,0.64,https://github.com/plabayo/rama/discussions/544,plabayo,2025-05-25T17:06:12.849801Z
+1klhkcr,reddit,Ultimatum: browser with extensions support on android and much more,,2025-05-13T09:24:39Z,programming,programming,technology,Technology,[],0,2,1,,0.6,https://github.com/gonzazoid/Ultimatum/tree/ultimatum_android_137.0.7151.16,gonzazoid,2025-05-25T17:06:13.713476Z
+1khwkfb,reddit,Static as a Server — overreacted,,2025-05-08T17:55:12Z,programming,programming,technology,Technology,[],0,3,0,,0.6,https://overreacted.io/static-as-a-server/,gaearon,2025-05-25T17:06:14.664619Z
+1khjm25,reddit,Test & Revise Your Knowledge on Spring Boot Annotations,,2025-05-08T06:43:42Z,programming,programming,technology,Technology,[],0,3,0,,0.8,https://javatechonline.com/spring-boot-annotations-mcqs-practice-test/,erdsingh24,2025-05-25T17:06:15.562560Z
+1kgwjbu,reddit,Colin Woodbury - Optimizing Common Lisp,,2025-05-07T12:49:36Z,programming,programming,technology,Technology,[],0,3,0,,0.71,https://www.fosskers.ca/en/blog/optimizing-common-lisp,Xadartt,2025-05-25T17:06:16.439502Z
+1kffnx6,reddit,Transparent UIs,,2025-05-05T16:16:39Z,programming,programming,technology,Technology,[],0,2,0,,0.6,https://aartaka.me/transparent-ui.html,aartaka,2025-05-25T17:06:17.329038Z
+1keu0u2,reddit,VCamdroid: Use your android phone as windows virtual webcam,,2025-05-04T20:48:14Z,programming,programming,technology,Technology,[],0,2,0,,0.6,https://github.com/darusc/VCamdroid,KryXus05,2025-05-25T17:06:18.211783Z
+1kdrlsj,reddit,Reverse Code Review: My Approach To Code Reviews,,2025-05-03T12:16:57Z,programming,programming,technology,Technology,[],0,3,4,,0.57,https://dailyrefactor.com/reverse-code-review-my-approach-to-code-reviews,olekjs,2025-05-25T17:06:19.104977Z
+1kdkm4l,reddit,How Failover Works in Single Leader Databases,,2025-05-03T04:30:29Z,programming,programming,technology,Technology,[],0,4,0,,0.67,https://newsletter.scalablethread.com/p/how-failover-works-in-single-leader,scalablethread,2025-05-25T17:06:19.980939Z
+1kdjgl8,reddit,Tolerant Machine Learning Framework for Space Applications,"# I Built a Radiation-Tolerant Machine Learning Framework for Space Applications - Seeking Professional Advice [P]
+
+Hey everyone,
+
+I wanted to share a project I've been developing: a C++ framework that enables machine learning systems to operate reliably in high-radiation environments like space. I'm also looking for professional guidance as I navigate next steps with this project.
+
+The Problem:  
+Radiation in space causes bit flips and memory corruption that can compromise neural network computations. This creates a significant challenge for deploying ML on spacecraft, satellites, and deep space missions where radiation effects are unavoidable.
+
+My Solution:  
+I've created a comprehensive framework that uses several techniques to ensure ML reliability:
+
+* Triple Modular Redundancy (TMR) with enhanced CRC checksums and health-weighted voting
+* Memory scrubbing to detect and correct radiation-induced bit flips
+* Fixed-point arithmetic for deterministic numerical computation
+* Branchless operations for predictable code paths
+* Physics-based radiation simulation for thorough testing
+* Mission-specific profiles (LEO, Mars, Jupiter, etc.) with adaptive protection levels
+
+Testing Results:  
+In our stress testing with extreme radiation conditions (beyond Jupiter levels), the framework achieves significant error recovery. For practical space applications such as Mars missions, our testing showed over 94% recovery rates, which is excellent for critical systems in radiation environments.
+
+Key Applications:
+
+* Space-based image processing without requiring data downlink
+* Autonomous navigation with reliable onboard ML
+* Scientific data analysis directly on spacecraft
+* Radiation-tolerant inference for any neural network application
+
+The framework is MIT-licensed, and I'm working on a comprehensive white paper that details the methodology and results.
+
+Looking for Advice:  
+As someone relatively new to the aerospace industry, I'd appreciate guidance from professionals in this field. How do I connect with the right people at space agencies or satellite companies who might be interested in this technology? What steps should I take to validate this framework further? Are there professional organizations or conferences where I should present this work?
+
+I'm open to career advice too - would it be better to pursue this as an independent project, seek collaboration with research institutions, or look for roles at aerospace companies where this expertise would be valuable?
+
+TL;DR: I built a framework that makes neural networks radiation-resilient for space applications through multiple fault-tolerance techniques, and I'm seeking professional guidance on how to take this work to the next level and advance my career in this field.
+
+Github:
+
+[https://github.com/r0nlt/Space-Radiation-Tolerant](https://github.com/r0nlt/Space-Radiation-Tolerant)",2025-05-03T03:23:37Z,programming,programming,technology,Technology,[],0,3,10,,0.57,https://github.com/r0nlt/Space-Radiation-Tolerant,Pkthunda01,2025-05-25T17:06:20.865800Z
+1kd8bzj,reddit,Product Analytics Queries Without Database Meltdown,,2025-05-02T18:35:51Z,programming,programming,technology,Technology,[],0,3,0,,0.72,https://blog.bemi.io/product-analytics-db/,EnvironmentalBox3925,2025-05-25T17:06:22.640094Z
+1kd5aj7,reddit,Rye principles,,2025-05-02T16:29:36Z,programming,programming,technology,Technology,[],0,1,1,,0.55,https://ryelang.org/#rye-principles,ketralnis,2025-05-25T17:06:23.554717Z
+1kd56ev,reddit,Settling the File Structure Debate,,2025-05-02T16:24:48Z,programming,programming,technology,Technology,[],0,3,1,,0.67,https://muhammedsari.me/settling-the-file-structure-debate,ketralnis,2025-05-25T17:06:24.468418Z
+1kd4lzx,reddit,API Lifecycle Management Strategies,,2025-05-02T16:01:20Z,programming,programming,technology,Technology,[],0,3,0,,0.64,https://zuplo.com/blog/2025/04/30/api-lifecycle-strategies,ZuploAdrian,2025-05-25T17:06:25.402105Z
+1kccffc,reddit,"APIs, Units, and Quantities: Building Unit-Agnostic Integrations",,2025-05-01T16:04:45Z,programming,programming,technology,Technology,[],0,3,0,,0.72,https://zuplo.com/blog/2025/04/22/building-unit-agnostic-apis,ZuploAdrian,2025-05-25T17:06:26.313570Z
+1kb8u9o,reddit,Code extractor using PyQt5,"
+I created a PyQt5-based code extractor that scans, filters and exports your entire codebase as Markdown. 
+
+GitHub repo: https://github.com/Adco30/CodeExtractor 
+
+YouTube demo: https://www.youtube.com/watch?v=nWZmAp8D0sM
+
+What my project does:
+
+Select a project folder or file and CodeExtractor walks the directory hierarchy, applies your exclusion list and extension filters, then displays a collapsible indented view. Language-specific parsers extract class and function signatures for detailed outlines. A Markdown service packages every file’s content into a single document with code fences.",2025-04-30T05:22:59Z,programming,programming,technology,Technology,[],0,3,4,,0.64,https://github.com/Adco30/CodeExtractor,Small_Trifle_2309,2025-05-25T17:06:27.240372Z
+1kahqb9,reddit,KLI – Kotlin-first CLI DSL with built-in interactive features,"Hi all,
+I’ve been working on a Kotlin library called KLI for building CLI apps faster and cleaner.
+It’s a Kotlin-first DSL that combines command parsing, input prompts, interactive mode, progress bars, and colorful output — all in one library.
+
+No need to mix Clikt for parsing + Mordant for styling — KLI handles both with minimal setup.",2025-04-29T06:56:46Z,programming,programming,technology,Technology,[],0,3,2,,1.0,https://github.com/kys0ff/kli,External-Bus7144,2025-05-25T17:06:28.154194Z
+1ka3qxi,reddit,Subtle Python Built-In Command-Line Tricks That Will Make Your Life Easier,,2025-04-28T19:07:28Z,programming,programming,technology,Technology,[],0,2,1,,0.56,https://medium.com/gitconnected/7-subtle-python-built-in-command-line-tricks-that-will-make-your-life-easier-2ef168fca8c7?sk=7f2a62e5cac07505177a0517f2d7c104,yangzhou1993,2025-05-25T17:06:29.060665Z
+1ka01zt,reddit,Comparing programming languages XIII: Retaking this series with ReScript,,2025-04-28T16:37:59Z,programming,programming,technology,Technology,[],0,4,1,,0.83,https://marioarias.hashnode.dev/comparing-programming-languages-xiii-retaking-this-series-with-rescript,dh44t,2025-05-25T17:06:29.967428Z
+1k9oovy,reddit,APL Cultivations,,2025-04-28T06:09:34Z,programming,programming,technology,Technology,[],0,3,0,,0.72,https://xpqz.github.io/cultivations/Intro.html,ketralnis,2025-05-25T17:06:30.843605Z
+1k9oolp,reddit,"Dive into Systems is a free, online textbook that serves as a gentle introduction to computer systems, computer organization, and parallel computing",,2025-04-28T06:09:01Z,programming,programming,technology,Technology,[],0,3,0,,0.8,https://diveintosystems.org/,ketralnis,2025-05-25T17:06:31.762879Z
+1k9oj5p,reddit,Silent Bugs Matter: A Study of Compiler-Introduced Security Bugs,,2025-04-28T05:58:48Z,programming,programming,technology,Technology,[],0,5,0,,0.77,https://www.usenix.org/conference/usenixsecurity23/presentation/xu-jianhao,ketralnis,2025-05-25T17:06:32.667818Z
+1k8gu5g,reddit,"Plan features, not implementation details",,2025-04-26T16:24:22Z,programming,programming,technology,Technology,[],0,3,0,,0.58,https://codestyleandtaste.com/plan-features-not-details.html,levodelellis,2025-05-25T17:06:33.538678Z

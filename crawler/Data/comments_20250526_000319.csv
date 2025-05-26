@@ -1,0 +1,1386 @@
+﻿comment_id,content_id,platform,content,created_at,score,author,source_name,crawl_time
+mr7a7th,1khe6rw,reddit,"There's a place between proofs and testing: model checking.
+
+The idea is basically:
+- You write a mathematical relation on how your system behaves in terms of state (much easier to express how it works rather than why it works)
+- You come up with a set of assertions you want to hold in the system (can also be related to time, e.g. ""a node that attempts to connect will eventually be connected"")
+- You pick a small world scenario (e.g. 5 bytes, 3 nodes, 2 clients, ..)
+- Model checker _exhaustively_ tests all the cases of that scenario
+- And if your assertions don't hold, your model checker will tell you the minimal counterexample of such a situation
+
+This doesn't _prove_ that the system works, but it increases your confidence in it, because most bugs turn up even in small situations, when you exhaustively iterate the state space (there are shortcuts and solver-based methods to limit iteration).
+
+Couple such systems are TLA+ and Alloy. The former at least is used by some big industry players like Amazon and Microsoft.
+
+I've found TLA+ is a good way to think about systems and find out if the design even can work before implementing it, as formulating it makes you ask yourself the right questions. It's much easier to implement software once you have a working model of it.",2025-05-08T06:13:58Z,44,eras,programming,2025-05-25T17:01:39.764097Z
+mr6aod4,1khe6rw,reddit,Because proving a program is correct mathematically is next to impossible for anything beyond the most basic toy examples?,2025-05-08T01:51:30Z,457,maxinstuff,programming,2025-05-25T17:01:39.764102Z
+mr6epnw,1khe6rw,reddit,Say you prove it. Someone makes a change. What now?,2025-05-08T02:15:05Z,52,SpaceToaster,programming,2025-05-25T17:01:39.764104Z
+mr6o3m0,1khe6rw,reddit,"Different from what the video might suggest it is possible to formally verify a wide range of programs. There are many examples of complex systems that are formally verified. Here are some examples:
+
+Project Everest: includes verified cryptographic algorithms, and protocols with the ultimate goal of building a fully verified HTTPS stack https://project-everest.github.io/
+
+seL4: formally verified kernel https://sel4.systems/
+
+Of course the halting problem prevents us from being able to verify arbitrary programs. But a lot of the code that we care about can be verified.
+
+Formal verification is still an active area of research and one of the main goals is to expand the scope of programs that can be verified.",2025-05-08T03:14:56Z,28,g1bber,programming,2025-05-25T17:01:39.764107Z
+mr7fqiu,1khe6rw,reddit,">Beware of bugs in the above code. I have only proved it correct, not tried it.
+
+\-Donald Knuth",2025-05-08T07:08:30Z,15,duplico,programming,2025-05-25T17:01:39.764109Z
+mr7zk2n,1khe6rw,reddit,Sometimes you need to build a gigantic super collider with a 4km radius to prove that a mathematically accurate model has any relation to the reality. Sometimes you need to break the wings of a fully functional cargo airplane to check if the wings break under the exact circumstances predicted by a mathematically accurate model. And as always “all models are wrong. some of them are useful.”,2025-05-08T10:32:17Z,6,dc0d,programming,2025-05-25T17:01:39.764112Z
+mr6jz4t,1khe6rw,reddit,"“Instead of writing tests, why don’t devs just solve the halting problem?”",2025-05-08T02:47:38Z,68,qubedView,programming,2025-05-25T17:01:39.764114Z
+mr7chcu,1khe6rw,reddit,"Ok wow, now bring it to a real world scenario, with real enterprise deadline and changes in the functional analysis every month.",2025-05-08T06:36:12Z,9,tototune,programming,2025-05-25T17:01:39.764116Z
+mr71dxz,1khe6rw,reddit,"Static types are proofs. If your language has a type system, you can and likely do already leverage that system to prove specific properties about your program.",2025-05-08T04:53:59Z,16,lord_braleigh,programming,2025-05-25T17:01:39.764118Z
+mr7fzvn,1khe6rw,reddit,"Because it's very difficult. (Video answers the question at 3:40). 
+Not impossible, but very difficult. (Everyone who says ""BuT HalTING PrOBlem"" either didn't watch the video, or write code so bad nothing will help them, not even tests)
+
+In reality even if algorithm can be proven, proving it in program is 10x times harder:
+
+* Every time `A+B` is done, the result may overflow. Which is ignored by 99% programs and 99% tests as ""pinky swear wouldn't happen"" works, but in formal verification you either need to prove it wouldn't happen, or hand wave it by adding some sort of axiom `pinky_swear_math_is_ok: A:i32 + B:i32 = A:int + B:int` to get rid of `(mod N)` and pray you don't have `mean arr := sum(arr)/len(arr)` which can overflow.
+
+* I don't even want to talk about floats.
+
+* Programs are very mutable. Which is PITA for proving, which is why in proof assistants lots of algorithms are proven over immutable datatypes.
+
+* In C and C++ aliasing adds another wrench: just remember memcpy/memmove. 
+
+* Some bugs may not be found: eg heartbleed relies on using old data in the buffer. With proofs you'll prove that you got a buffer and send buffer without going OoB. Unless you added ""each byte should have been written"" proof, heartbleed still would exist.",2025-05-08T07:11:04Z,8,Maykey,programming,2025-05-25T17:01:39.764120Z
+mr8iwim,1khe6rw,reddit,"Speaking as someone who has formally verified one of their personal projects, I can attest that it is tremendously useful because:
+
+Proving the code is the same as writing the code. 
+
+In other words, once I proved all the little components, I just reused the proven functions to build larger functions. The larger functions kept having bugs and I wasnt sure how to write them. But once I thought in terms of coercing program state, it became like a sudoku puzzle - pieces would fall into place and it became bug free. 
+
+With that said, test coverage of like 5% is still needed. As long as it works for some scenarios, the proof ensures it works for all scenarios. ",2025-05-08T12:49:47Z,4,iseahound,programming,2025-05-25T17:01:39.764122Z
+mr7n3n8,1khe6rw,reddit,"""Beware of bugs in the above code; I have only proved it correct, not tried it."" - Donald Knuth",2025-05-08T08:26:06Z,2,smarterthanyoda,programming,2025-05-25T17:01:39.764125Z
+mr8zphm,1khe6rw,reddit,"Because developing a ""formally verified"" application takes a lot (infinite) amount of time.",2025-05-08T14:21:45Z,2,MokoshHydro,programming,2025-05-25T17:01:39.764127Z
+mrcuivd,1khe6rw,reddit,Job security /s,2025-05-09T02:39:06Z,2,Kentzo,programming,2025-05-25T17:01:39.764129Z
+mr6gzgh,1khe6rw,reddit,"In a way, it is just crazy that mathematical results (including insignificant ones) are required to be proved but, with extremely few exceptions, we don't require proofs of correctness of software used by hundreds of millions of people or software which could cause human harm (software in medical devices, cars, planes, etc.).",2025-05-08T02:28:55Z,6,sagittarius_ack,programming,2025-05-25T17:01:39.764131Z
+mr7nay8,1khe6rw,reddit,Because it’s still cheaper even when verification is feasible. ,2025-05-08T08:28:17Z,1,Schmittfried,programming,2025-05-25T17:01:39.764133Z
+mr7qxh5,1khe6rw,reddit,Seeing is believing!,2025-05-08T09:07:03Z,1,namotous,programming,2025-05-25T17:01:39.764135Z
+mr827yc,1khe6rw,reddit,"We use it partially in hardware verification. It's called Formal verification. But it requires full time engineers and it's worth it because it's really hard or impossible to fix a bug in hardware post manufacturing. In software you just release an update.
+
+And even here you can formally verify mostly control blocks and not everything because there isn't enough computing power, and most verification is still done in function verification methods",2025-05-08T10:54:39Z,1,davidds0,programming,2025-05-25T17:01:39.764138Z
+mr94j1r,1khe6rw,reddit,"You can end up proving the wrong thing. In the words of Donald Knuth: ""Beware of bugs in the above code; I have only proved it correct, not tried it.""
+
+  
+And also it's a pain in the ass for very little gain.",2025-05-08T14:45:42Z,1,juancn,programming,2025-05-25T17:01:39.764140Z
+mr9ubc2,1khe6rw,reddit,A large number of developers lack adequate formal training.,2025-05-08T16:51:30Z,1,otherwiseguy,programming,2025-05-25T17:01:39.764142Z
+mr9s0xd,1khe6rw,reddit,Formal methods can prove the program doesn't crash. It can't prove it's doing the right thing it needs to do.,2025-05-08T16:40:26Z,1,aivdov,programming,2025-05-25T17:01:39.764144Z
+mr6ymv7,1khe6rw,reddit,"You can of course prove certain algorithms/programs, but a general method for any program and any input does not exist, eg Halting problem: https://en.wikipedia.org/wiki/Halting_problem",2025-05-08T04:31:30Z,-3,DonBeham,programming,2025-05-25T17:01:39.764146Z
+mr6dnqc,1khe6rw,reddit,The fact that engineers write buggy or poor coverage tests to begin with proves the idea of bug-free code is at best a good practice approach but certainly not fixing what the job is. Often a comedy of errors with multiple people touching the same code with poor or no documentation.,2025-05-08T02:08:47Z,-4,HankOfClanMardukas,programming,2025-05-25T17:01:39.764148Z
+msp37ty,1ko1bxx,reddit,"About 15 years ago, I was affraid of similar thing. Not because security, but because possible mojibake. I was affraid that the same text file will cause havock when interpreted as cp1250 by one program and when interpret as cp437 or as UTF-8 by another program. One of the programs would be the compiler, other night be version control system or my text editor. I set my text editor (jEdit) to accept 7bit ASCII only in order to detect this. Happily the only thing it ever detected was ... (three dots) vs … (unicode ellipsis) in code comments caused by Mac coworkers (I used Windows).",2025-05-16T21:33:41Z,20,MarekKnapek,programming,2025-05-25T17:01:40.686050Z
+msr5uls,1ko1bxx,reddit,Nowadays even unicode can be malicious,2025-05-17T06:18:22Z,8,Michaeli_Starky,programming,2025-05-25T17:01:40.686059Z
+mssenb7,1ko1bxx,reddit,"> When I flagged about this rather big omission to GitHub people, I got barely no responses at all and I get the feeling the impact of this flaw is not understood and acknowledged. Or perhaps they are all just too busy implementing the next AI feature we don’t want.
+
+🤣🤣🤣🤣🤣🤣🤣",2025-05-17T13:14:56Z,11,ScottContini,programming,2025-05-25T17:01:40.686065Z
+msmpwgd,1ko1bxx,reddit,I have also ever been mistrustful of the poop emoji. Always avoiding clicking on it.,2025-05-16T14:28:01Z,-16,shevy-java,programming,2025-05-25T17:01:40.686070Z
+msmkhoi,1ko1bxx,reddit,I do believe this is why repositories are hashed.,2025-05-16T14:00:18Z,-27,DXTRBeta,programming,2025-05-25T17:01:40.686074Z
+mtdcvhn,1krgbf7,reddit,"The amount of code I do, even if I delivered 50% faster, isn't getting the feature out either way. You're bound to people and processes that AI can't fix. I wish I could fire most middle managers, but here we are.",2025-05-20T21:51:25Z,236,MornwindShoma,programming,2025-05-25T17:01:42.876639Z
+mtdc9wj,1krgbf7,reddit,"There’s a small typo:
+
+>Ask delibrately
+
+You’re a heavy-vibe coder and didn’t ask your model for a review of ... your prose?
+
+Jokes aside, interesting topic!",2025-05-20T21:48:15Z,69,SubliminalPoet,programming,2025-05-25T17:01:42.876644Z
+mtf7qgw,1krgbf7,reddit,"You say AI is good with debugging? Are you sure you know what debugging is?
+
+>  the only way to debug was to search the error string, find information across multiple stackoverflow results, and condense it to a useable answer
+
+Oh... Yeah, not me looking at the call stacks, local variables, setting data breakpoints, or even improving the logging to solve some rare race condition. Pretty sure cutting edge LLMs can help with that, but I still would not call them being good at the task.
+
+Searching StackOverflow for the exact error message is... not debugging.",2025-05-21T04:42:11Z,37,voronaam,programming,2025-05-25T17:01:42.876647Z
+mtdsxi0,1krgbf7,reddit,"> The uncomfortable truth is that AI coding tools aren’t optional anymore.
+
+
+Hard disagree.
+
+
+Once a big pile of garbage you don't understand is what the business runs on, you won't be able to comfort yourself with ""works and ships on time"". Because once that's where you're at, nothing will work, and nothing will ship on time.",2025-05-20T23:20:57Z,88,angrynoah,programming,2025-05-25T17:01:42.876649Z
+mte23cl,1krgbf7,reddit,"This is horrible advice.  It honestly feels like this blog post is itself AI slop. 
+
+* 50% of your value as a programmer is your ability to be able to quickly and effectively debug issues.
+* 35% is your ability to write code that won't make the person debugging it in 5 years want to murder you.
+* 15% is being able to accurately tell stakeholders how long things will take, and if not why.
+
+All require knowing when something happens, what exactly happened and why in your codebase.  Using AI as this guy described will make you objectively worse at your job, if not get you fired.
+
+Side note, even a brief review of this dude's [Twitter account](https://x.com/namanyayg), which is linked in the bottom of this post, or his [reddit history](https://www.reddit.com/user/namanyayg/) makes it painfully clear this kid is just a dumbass grifter.",2025-05-21T00:14:32Z,56,ArtvVandal_523,programming,2025-05-25T17:01:42.876652Z
+mtdd1oq,1krgbf7,reddit,"Because our company spent money on copilot licenses etc, and we don't have a choice.
+
+Because interviewers are convinced that AI makes you a better a programmer, so you need to have experience with it enough to answer interview questions.",2025-05-20T21:52:20Z,17,jseego,programming,2025-05-25T17:01:42.876655Z
+mteaqqn,1krgbf7,reddit,Yea… this ain’t it chief. It’s hard for me to trust someone about AI topics who “builds AI tools”. Way too many assumptions with no backing.,2025-05-21T01:05:43Z,8,max_mou,programming,2025-05-25T17:01:42.876658Z
+mtezzuy,1krgbf7,reddit,"One thing I totally agree ""code is merely a tool to generate revenue"".
+
+
+I also think that you shouldn't have much boilerplate in your codebase, it's a sign there should be abstraction there.",2025-05-21T03:42:46Z,4,MMetalRain,programming,2025-05-25T17:01:42.876660Z
+mtka2v5,1krgbf7,reddit,">I don’t know about you, but writing repetitive framework code feels like the worst kind of drudgery to me. I know why GraphQL resolvers are needed, or how each component needs loading, error, and success states; but I really don’t like writing such code myself.
+
+That's what good old copy/paste is for!
+
+Or better yet, languages and frameworks that condense the boilerplate and remove the repetitive bits.  I'd much rather use simple .route calls over making an AI generate controller classes, for instance.  One big bummer about AI coding is that people just accept that a bunch of repetitive nonsense actually belongs in our code.",2025-05-21T23:20:29Z,3,crazyeddie123,programming,2025-05-25T17:01:42.876663Z
+mtdqhpx,1krgbf7,reddit,"I hate it, but it’s a useful tool. I’m retired, but I have a little project I’m working on for my own entertainment. Web dev has become insanely complicated. Google/StackOverflow used to be enough to get me unstuck, but web toolkits move so fast that it’s full of out-of-date answers that just add more confusion. I started using Co-pilot out of desperation and it’s… ok. I don’t trust the code it generates except as an example, but it’s nice that it’s using my codebase for context. ",2025-05-20T23:07:09Z,7,iamnotaclown,programming,2025-05-25T17:01:42.876665Z
+mtdv1uc,1krgbf7,reddit,"I infrequently use a gimped version of Copilot that my company has running on private servers. It’s so damn dumb, that whenever I break down and ask it the question I have, it often just gives me back the google search results that I had already found for that question.",2025-05-20T23:33:10Z,2,agustusmanningcocke,programming,2025-05-25T17:01:42.876668Z
+mtgagb2,1krgbf7,reddit,"I've been doing a Microsoft wpf xaml project, and some very rich complex ui work. I've been using AI (Copilot) for help with specific xaml trickery. It's stuff I know can be done, or I've done before, but can't recall the specific hypercomplex syntax to do it. I give copilot the use case, frame it in some detail and .. it produces mind blowingly useful explanations, code examples and alternate approaches. If it's not on point I use follow up questions (in context of what it has already done) to zero in on the exact case.
+
+I'm using it where I would have used Stack Overflow or similar in the past. 
+
+My problem is you know the AIs corpus of knowledge is based on human created questions and answers ripped from sites like SO. And those sites are now seeing hugely reduced user flow - due to AI.
+
+At some point in the future, there will not be lots of new information to train AI with as those places died. The AI then will be trained only on dry documentation, and I have to think AI will become less helpful.
+
+But right now it's undeniably helpful. I don't use AI to create whole large sections of code, I use it for specific cases and morph what is produced into what I need. And a few times it has provided wrong or substandard solutions.",2025-05-21T10:55:56Z,2,malakon,programming,2025-05-25T17:01:42.876671Z
+mte8597,1krgbf7,reddit,"It's kind of funny because I don't use AI to do what we usually call ""coding"" but I use it all the freaking time to debug my CMakeLists and other such nonsense",2025-05-21T00:50:39Z,4,which1umean,programming,2025-05-25T17:01:42.876673Z
+mtdjv3h,1krgbf7,reddit,They don’t. Stop this heresy. You know keywords and patterns before you make Sr. Engineer. This is bullshit.,2025-05-20T22:29:46Z,-5,HankOfClanMardukas,programming,2025-05-25T17:01:42.876676Z
+mtd8at6,1krgbf7,reddit,[removed],2025-05-20T21:27:30Z,-54,N/A,programming,2025-05-25T17:01:42.876679Z
+mpovf3f,1kassfn,reddit,"ZTA is not a single tool or product. It is a set of security principles that guide how systems should be built. It comes on top of strong security practices, IAM, continuous verification across layers, etc.
+
+I collected open-source tools that help cover different parts of the ZTA approach (a small portion of the potential toolset). Full disclosure: my company is presented in the list as it fits within the least privilege principle. Pls don't hate me for adding it 😊",2025-04-29T17:10:11Z,7,West-Chard-1474,programming,2025-05-25T17:01:43.819395Z
+mpzpyqj,1kc3nrc,reddit,Thanks for trying it so we don’t have to,2025-05-01T09:43:50Z,42,snrcambridge,programming,2025-05-25T17:01:44.793223Z
+mq18dk1,1kc3nrc,reddit,Actually a super good review. Shows just how bad half-baked a product this is. I had never heard of it but it's like an AI IDE,2025-05-01T15:31:27Z,16,light24bulbs,programming,2025-05-25T17:01:44.793230Z
+mq4zjio,1kc3nrc,reddit,Actually a good and very real world review. Thanks for that. I'll stay away from it lol,2025-05-02T03:32:11Z,3,GBcrazy,programming,2025-05-25T17:01:44.793235Z
+mqd7au9,1kc3nrc,reddit,googles going to kill it in a year anyways,2025-05-03T13:17:29Z,1,120785456214,programming,2025-05-25T17:01:44.793239Z
+mqi2c71,1kc3nrc,reddit,I would just like to say that I am thankful for all the support that I got ❤️,2025-05-04T07:29:00Z,1,Coffiie,programming,2025-05-25T17:01:44.793244Z
+mt4br1h,1kqacf9,reddit,"My Meta Quest 3 is my daily driver.  I was using it 5 minutes ago.  I don't even own a laptop and I have a headless machine just to do compute.  I absolutely love it, and don't intend to ever go back unless I'm forced to.  Like the author, I use a BT keyboard, termux and termux-x11.  As a distribution it's not perfect, but you have access to most everything you would normally use to develop software.  Name a modern programming language, it almost certainly has it available.  It has the most popular linux art software.  You can even develop Android applications inside termux itself, including access to adb.
+
+
+The only real downsides:
+- it's a bit hefty to lug around.
+- if you work in public you might draw attention.
+- the Quest OS sometimes interferes with your workflow, because Meta likes to futz with things and aren't careful.  Case in point, the last deployed update upgraded to Android 14 and a lot of things broke that they are busy fixing, like installing side loaded apks.
+- if you aren't used to it it's easy to wear incorrectly, which can become painful, so you have to take the time to figure that out (e.g., many people get a different strap, which are much more comfortable).
+- it is still an Android device, which is only so powerful.  It's why I use my headless server.
+- the battery doesn't last too long.  I leave mine plugged in while I'm working, and have a spare battery that attaches magnetically to my head strap.
+
+
+I'll stop there, but if you have any questions I'm happy to share more.",2025-05-19T13:38:43Z,34,WorkItMakeItDoIt,programming,2025-05-25T17:01:45.822050Z
+mt5kk7a,1kqacf9,reddit,"My eyes would combust, I have a Quest 3... I think maybe year and 2 months passed since last time I used it.",2025-05-19T17:25:04Z,12,afl_ext,programming,2025-05-25T17:01:45.822054Z
+mt6zhtb,1kqacf9,reddit,"I got hyped up about a similar setup a while ago and I got the Viture Pro XR. Okayish for playing on the Steam Deck, but nowhere usable for working with doing serious programming and viewing text all day.. so I’m a bit skeptical that the Xreal Air 2 Pro can actually be usable. Maybe I just use too many buffers in emacs.. Do you wanna share a little bit more about how well the glasses actually work, how clear is the text, etc ?",2025-05-19T21:37:16Z,6,Jumpy-Iron-7742,programming,2025-05-25T17:01:45.822056Z
+mtb7rmw,1kqacf9,reddit,I don't get the appeal of going through all of this for a finicky setup that performs like a midrange laptop from a decade ago.,2025-05-20T15:32:55Z,3,omniuni,programming,2025-05-25T17:01:45.822059Z
+mtfwpp0,1kqacf9,reddit,"For the keyboard there's a few diy attempts that use split keyboards, if you're feeling up to it. But learning that new layout is an additional challenge on its own
+
+https://www.reddit.com/r/ErgoMechKeyboards/s/OVHvN9qpIj
+
+https://www.reddit.com/r/ErgoMechKeyboards/s/rWJJSoTGBm",2025-05-21T08:42:32Z,3,ethereal_intellect,programming,2025-05-25T17:01:45.822061Z
+mt9a65i,1kqacf9,reddit,Damn now I gotta buy new glasses,2025-05-20T07:06:45Z,2,Redneckia,programming,2025-05-25T17:01:45.822063Z
+mtbj7n2,1kqacf9,reddit,"The author might be interested to hear that the Pixel 8 is now able to run full Linux installation using the Android Virtualization Framework.
+
+Turn on the ""Linux Terminal"" switch in Developer Settings and you get a full Debian installation just like that!
+
+It's still early days but it's an actual, normal Linux installation that doesn't require a lot of the workarounds that the other options laid out do.
+
+Shoutout to /r/androidterminal, small but growing!",2025-05-20T16:29:05Z,2,TheWheez,programming,2025-05-25T17:01:45.822065Z
+mt66rx7,1kqacf9,reddit,"AVP is the perfect productivity and media device.
+But ofc it doesn’t fit in a pocket..
+I used the setup you described here but found the static screen unpleasant and nauseating. Also visibility was a problem in direct sunlight, but I only have the old non darkening version. Maybe it’s time to upgrade",2025-05-19T19:12:56Z,1,RealLordDevien,programming,2025-05-25T17:01:45.822067Z
+mt8g32s,1kqacf9,reddit,"It is strange but wearing ""coding glasses"", is more like turning someone into a corporate cyborg (one that specializes in writing software). At the least I feel that way; I may soon be replaced by them coding hacker-cyborgs.",2025-05-20T02:53:59Z,1,shevy-java,programming,2025-05-25T17:01:45.822069Z
+ms9bveh,1kma2ds,reddit,"In the world where we now game on low latency equipment with 144 Hz monitors and 100+ frames per second, what's the latency and gaming experience like?",2025-05-14T12:26:50Z,51,nutidizen,programming,2025-05-25T17:01:46.796875Z
+ms9owst,1kma2ds,reddit,"As bad as Linux's ability to write NTFS often is, I did expect an EBS of that to be used, instead of exFAT.
+
+Interesting that the exFAT volume didn't work in Windows though. I guess some formatting issue was the case. And I would've tried recovering it, instead of the mess that happened.
+
+Cross AZ data transfer costs money. There's one way to get around this, putting data onto S3, but that still means there's storage and download costs. I'm not sure which is cheaper off the top of my head.
+
+We ultimately have two S3 Uploads Here of the same data. The EBS snapshot and the upload to S3 of the same file.
+
+Either way, at least after the first goof, I would've used another t2.micro in the good AZ and just rsynced it over as the simplest method. The better one being getting a working EBS.
+
+Unfortunately the Windows instance is paid hourly iirc, rounding up. So once you tried something and had it fail, you've wasted an hour of money unless you can get something working in the next hour on the t2.micro.
+
+I also wonder, could you just run Windows on the t2.micro and download directly on an NTFS EBS that way? It would be hourly, but perhaps much more viable to use to set up the Windows GPU instance with.
+
+In any case, I've definitely thought about doing this. The funniest thought is launching the GPU instance in a local zone, too, which can let the instance be even closer to you with less lag. Most local zones have G4dn support which has a GPU on it.
+
+Happy to see someone try this in the real world, despite the difficulties! Next, Cyberpunk 2077.",2025-05-14T13:43:07Z,8,Green0Photon,programming,2025-05-25T17:01:46.796881Z
+msdyf9p,1kma2ds,reddit,"I remember doing this while on a work trip for GTA 5 in like 2013.
+
+Worked decently well, probably because I was in DC  only a few miles away from the AWS DC.
+
+There were even blogs on how to set it up so I wasn’t the only one.
+
+Why is this even worthy of an article?
+
+
+Edit: this dude posted about this exact thing 10 years ago and managed to do it at 50% less cost per hour before inflation.
+
+https://lg.io/2015/04/12/run-your-own-high-end-cloud-gaming-service-on-ec2.html",2025-05-15T03:03:59Z,4,SippieCup,programming,2025-05-25T17:01:46.796884Z
+msdkaxw,1kma2ds,reddit,"Related:
+
+Hey, how do I get this SQL stack RuNnINg IN KuBerNeTeZ???!!",2025-05-15T01:37:27Z,1,orchestratingIO,programming,2025-05-25T17:01:46.796886Z
+mscdbar,1kma2ds,reddit,"Webpage blocked for Pakistan 🥲
+
+>The Amazon CloudFront distribution is configured to block access from your country. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner.",2025-05-14T21:34:22Z,-6,edomyrots,programming,2025-05-25T17:01:46.796888Z
+mrjrklr,1kj18dg,reddit,"Zed's biggest issue is it's lack of a plugin ecosystem. They are so desperate to keep pace on AI, they forgot that other really important areas are completely lacking. At least that's how I feel.
+
+Also, last time I used it, the linter kinda sucks and is REALLY REALLY inconsistent and doesn't listen to the rules you setup like other editors.",2025-05-10T06:22:17Z,197,Craiggles-,programming,2025-05-25T17:01:48.258366Z
+mrl0gri,1kj18dg,reddit,I hope everyone loses the AI coding race.,2025-05-10T13:09:04Z,159,Dean_Roddey,programming,2025-05-25T17:01:48.258376Z
+mrkqlz2,1kj18dg,reddit,"> To begin with, Zed is an open-source alternative to AI coding tools like Cursor and Windsurf without being a fork of VS Code. Moreover, it is built using Rust, a known choice for building fast-performance applications.
+
+
+I mean, in the grand scheme of things, virtually nobody cares about whether an editor is a fork or is implemented in Rust, because they are called ""implementation details"". For sure there is room to improve VSCode performance, but in most workflows, it is fast enough that improvements are going to be small. Then what most people care about is the extension ecosystem, ability to customize etc. At the end of the day, that's what people use the most (unless you are a pure vibe coder), and people are not going to move to a different editor because of Rust or some other things that don't matter in the end.",2025-05-10T12:00:43Z,79,Bubbaprime04,programming,2025-05-25T17:01:48.258381Z
+mrk55in,1kj18dg,reddit,Who's zed?,2025-05-10T08:38:38Z,19,EliSka93,programming,2025-05-25T17:01:48.258466Z
+mrlh0c4,1kj18dg,reddit,"I used Zed for a while, in between my neovim breaks after updating some plugins.   
+Its ok but it is not the last cookie. There are no perfect IDEs. I always go back to neovim.   
+Zed seems to be placing all the eggs into the AI basket, not sure if it is a good idea. In general I like options, if one IDE breaks or has an issue, I jump into another one. neovim > Zed (vim bindings) > helix",2025-05-10T14:47:23Z,8,Mascanho,programming,2025-05-25T17:01:48.258470Z
+mrlx9wn,1kj18dg,reddit,Zed feels more like a spiritual successor to Sublime than VSCode (but I mean that in the best way),2025-05-10T16:16:14Z,7,bananahead,programming,2025-05-25T17:01:48.258475Z
+mrm06a0,1kj18dg,reddit,"Wait a sec, autocompletion is behind a pay wall in zed now? If this is true then it's one of the dumbest ideas in the dev world. Autocompletion is a given in virtually any code editor or ide.",2025-05-10T16:32:16Z,2,bring_back_the_v10s,programming,2025-05-25T17:01:48.258479Z
+mrpxsk3,1kj18dg,reddit,"Well Zed isn’t a Microsoft product so that’s a massive win already.
+
+It’s the first editor that may move me away from daily driving Doom eMacs. Though I would surely miss magit.",2025-05-11T08:36:33Z,1,PapaOscar90,programming,2025-05-25T17:01:48.258484Z
+mrvgfv8,1kj18dg,reddit,"Windows user and a former C# developer here. 
+
+My mind is blown away. I followed up the concise but well-written tutorial how to build from source. Luckily, setting up dependencies is similar to how to prepare for using .NET AOT, so I did it without any issues. Then I ran `cargo run --release` and it built and run from the first time with a single warning in one of the dependencies. Yes, rustc at some point consumed 12 GB of RAM (WTF), and I watched quite a lot of Dune part 2 while it compiled, but it did compile! 
+
+The editor itself is obviously work in progress, but the *speed* and *responsibility* are shocking. I am used to the absolute shit Visual Studio, Code, and JetBrains being (slow, unresponsive, bad colors out of the box), so everything just being responsive is like a heavens opening and angels descending on my top of the line Ryzen 370 + 64GB RAM laptop. Which otherwise struggles editing a 100 lines of a Markdown file with a preview in VS Code.",2025-05-12T06:35:52Z,1,AlexKazumi,programming,2025-05-25T17:01:48.258488Z
+mrl6l6e,1kj18dg,reddit,"I code primarily with Claude code. Vscode is overkill for me and I like the minimalist feel to zed. Not polluted with a million plugins etc and it is snappy. Claude deals with git, type checking and linting so I mostly need an IDE when I am manually changing code myself.",2025-05-10T13:47:07Z,-14,abazabaaaa,programming,2025-05-25T17:01:48.258493Z
+mrktzmi,1kj18dg,reddit,"You lost me at VSCode. It has always sucked. Use Rider or VS, its electron garbage built for garbage JS apps that have no business being written in JS. It’s a shit language people, look up Anders Hjelsberg. He tried to fix that dumpster fire.",2025-05-10T12:25:31Z,-28,HankOfClanMardukas,programming,2025-05-25T17:01:48.258497Z
+mr5a5mv,1kh7m9w,reddit,yw,2025-05-07T22:22:22Z,45,mr_birkenblatt,programming,2025-05-25T17:01:49.202752Z
+mr4v3ax,1kh7m9w,reddit,This is like the fourth post about this I've seen in a week and the second today. Chill. ,2025-05-07T21:04:11Z,44,tomster10010,programming,2025-05-25T17:01:49.202762Z
+mr56q62,1kh7m9w,reddit,"> Development of this project takes place in the Ruff repository at this time.
+
+What? Is it going to be part of Ruff or not?
+
+I understand that linters and type-checkers have different purposes - but considering that both are developed by the same organization - in the same repository even! - does it really make sense to have them as separate tools? I mean - linting also needs to create an AST - wouldn't it be better to create it once in-process and have both Ruff and ty use the same structure?",2025-05-07T22:03:29Z,18,somebodddy,programming,2025-05-25T17:01:49.202769Z
+mr9ik68,1kh7m9w,reddit,If it was written in Rust then it must be good!,2025-05-08T15:53:54Z,2,Capable_Chair_8192,programming,2025-05-25T17:01:49.202776Z
+mr6857a,1kh7m9w,reddit,[deleted],2025-05-08T01:37:00Z,-3,N/A,programming,2025-05-25T17:01:49.202782Z
+msh0xdu,1knbyq5,reddit,"Something that can be solved by a strict set of instructions is something that can be solved by automation.
+
+Why aren't you automating self healing services as much as possible. The only exceptions really are 3rd party outages, but even then you enable circuit breakers that automatically disable features.
+
+Once you've solved that. What's left are weird and interesting failure modes which are hard to perfectly predict thus hard to write strict instructions for.
+
+So many times I've seen run books be used for papering over fixable cracks.",2025-05-15T16:23:59Z,89,UK-sHaDoW,programming,2025-05-25T17:01:50.124931Z
+mr2xi4o,1kgzyx8,reddit,"> A unified TOML lock file with a standard filename: pylock.toml
+
+Finally :)",2025-05-07T15:31:38Z,85,imbev,programming,2025-05-25T17:01:51.091419Z
+mr4h56r,1kgzyx8,reddit,[deleted],2025-05-07T19:58:25Z,14,N/A,programming,2025-05-25T17:01:51.091428Z
+mr85p7f,1kgzyx8,reddit,Another new way to manage dependencies for Python? Must be a day ending in y.,2025-05-08T11:21:33Z,7,DocMcCoy,programming,2025-05-25T17:01:51.091433Z
+mr839fb,1kgzyx8,reddit,I wonder if any of the existing formats could have been extended to include this information instead + making the extensions mandator after a certain version,2025-05-08T11:02:50Z,2,XNormal,programming,2025-05-25T17:01:51.091438Z
+mr443ph,1kgzyx8,reddit,You all know which xkcd applies here,2025-05-07T18:55:08Z,12,dasdull,programming,2025-05-25T17:01:51.091443Z
+mq0lams,1kc80sa,reddit,"I can't comment on the code, but this is a masterwork sir.  No notes.  🏆",2025-05-01T13:34:21Z,31,catfishjenkins,programming,2025-05-25T17:01:52.004799Z
+mq1tnxi,1kc80sa,reddit,This had to have been very hard.,2025-05-01T17:15:44Z,17,AlarmingBarrier,programming,2025-05-25T17:01:52.004811Z
+mq24u62,1kc80sa,reddit,This is the kind of pointless stuff that I can get behind. Amazing :),2025-05-01T18:08:52Z,7,Key-Cranberry8288,programming,2025-05-25T17:01:52.004819Z
+mq47ott,1kc80sa,reddit,What is that written in?,2025-05-02T00:40:26Z,3,BroBroMate,programming,2025-05-25T17:01:52.004826Z
+mq7loqs,1kc80sa,reddit,Finally a rock solid article here.,2025-05-02T15:22:00Z,5,RoomyRoots,programming,2025-05-25T17:01:52.004833Z
+mq3fq9g,1kc80sa,reddit,Thank you for being alive.,2025-05-01T22:00:32Z,3,EranuIndeed,programming,2025-05-25T17:01:52.004840Z
+mq1ntgr,1kc80sa,reddit,r/titlegore,2025-05-01T16:47:38Z,-6,Ythio,programming,2025-05-25T17:01:52.004847Z
+mt956k8,1kqt86c,reddit,"Bisecting is a great technique but I never had much success with Git's implementation of it, especially in heavily branched repos.
+
+Most of the time I end up doing it manually",2025-05-20T06:17:46Z,15,Aggressive-Two6479,programming,2025-05-25T17:01:52.963579Z
+mt9npc5,1kqt86c,reddit,"❤️ bisect.
+
+I use it about once a year, but in that moment it is always such a life saver.",2025-05-20T09:30:56Z,8,larikang,programming,2025-05-25T17:01:52.963587Z
+mtb7yb0,1kqt86c,reddit,"Is bisect underrated? That's the first thing the maintainers will ask you to do when you find a bug in an open source project, e.g. the kernel.",2025-05-20T15:33:50Z,3,patenteng,programming,2025-05-25T17:01:52.963592Z
+mt8zw2j,1kqt86c,reddit,"Emacs' [Magit bisect](https://www.reddit.com/r/emacs/comments/14mjc87/how_is_magit_a_better_git_experience_than_just/): underrated debugging tool in a developer's toolkit.
+
+FTFU",2025-05-20T05:29:02Z,2,church-rosser,programming,2025-05-25T17:01:52.963596Z
+mtbe6w8,1kqt86c,reddit,"Bisect works fine, but it is very painful at my job, because after each bisect requires installing dependencies, building, starting a bunch of services, and then I can see if a bug exists in that commit.
+
+So if you have to do that 10 times it takes forever.",2025-05-20T16:04:18Z,1,DapperCam,programming,2025-05-25T17:01:52.963601Z
+mtxxzqo,1ktzgq2,reddit,"red black tree spotted in the wild. finally, a practical application of an interview question",2025-05-24T02:04:43Z,49,mr_birkenblatt,programming,2025-05-25T17:01:53.845700Z
+mtznh95,1ktzgq2,reddit,"Thanks, very interesting. Is it the same state for 2025?",2025-05-24T11:04:34Z,5,ENx5vP,programming,2025-05-25T17:01:53.845704Z
+msm5n40,1kny3em,reddit,"Complexity is normal, it’s simplicity that’s hard.",2025-05-16T12:35:31Z,85,planodancer,programming,2025-05-25T17:01:54.843836Z
+mslz87r,1kny3em,reddit,"I think most ""accidental"" complexity is just that, it's not intentional but instead driven by what appeared to be sensible assumptions but turned out to be misunderstanding. I'm not so sure that complexity merchants are a driving force behind accidental complexity: if you want to guard against it your efforts are better spent on learning how to avoid it yourself.
+
+Getting a handle on accidental complexity in software is also virtually impossible given how incredible complex even the most simple tools we use are (a lot of which is itself accidental complexity.) Everything we do is, in a way, 99% accidentally complex.
+
+""Tried and true"" methods are not immune from accidental complexity either, they can just as well lead you straight to it in their pitfalls and limitations. If you really want to avoid complexity, then you often need to be willing to challenge the status quo.",2025-05-16T11:53:07Z,37,Isogash,programming,2025-05-25T17:01:54.843840Z
+mslyjb3,1kny3em,reddit,Reminds me of a talk from Brian Goetz recently. https://m.youtube.com/watch?v=Yiye8lqh0Ig,2025-05-16T11:48:18Z,6,Goodie__,programming,2025-05-25T17:01:54.843842Z
+msm7j06,1kny3em,reddit,[deleted],2025-05-16T12:47:07Z,22,N/A,programming,2025-05-25T17:01:54.843844Z
+msmnnzn,1kny3em,reddit,"So very often the product is not the product, THE PLAN is the product.
+
+Because a ridiculously complex plan gets you brownie points from the C-level, it gets you graphs that make you look smart, it gets you a massive team and a big budget...
+
+And by the time you need to show results, you fuck off somewhere else.
+
+Thanks, though, that's when they call me to do something that actually makes sense.",2025-05-16T14:16:48Z,5,mpanase,programming,2025-05-25T17:01:54.843846Z
+msreaqo,1kny3em,reddit,Somebody should send this to the clowns who developed Ethercat....🤮,2025-05-17T07:44:12Z,1,Jugaadming,programming,2025-05-25T17:01:54.843848Z
+msdai75,1kmr1rc,reddit,"I've noticed that using a separate PostgreSQL container for each test consumes excessive resources, particularly within GitHub Actions. 
+
+Therefore, I've opted to utilize a single PostgreSQL instance with multiple databases, one for each test.  
+
+In GitHub Actions, I've added a PostgreSQL in the services section, allowing GitHub to manage the instance's lifecycle automatically.",2025-05-15T00:41:07Z,31,quanhua92,programming,2025-05-25T17:01:56.051132Z
+mshtt94,1kmr1rc,reddit,"I used test containers for one thing.
+They work well. 
+
+
+I have only issue at some point they might change licensing and it will be added cost
+
+
+Ps. Still it's better than nothing.
+I would still recommend just writing simple docker compose",2025-05-15T18:43:48Z,6,theSurgeonOfDeath_,programming,2025-05-25T17:01:56.051136Z
+msmb8zj,1kmr1rc,reddit,They can be a bit of a security issue if you have to use local runners with something like gitlab. Using k8s runners makes it very difficult to expose the docker api to the test pod to start the containers without effectively granting root to the node as well.,2025-05-16T13:09:13Z,1,arlaneenalra,programming,2025-05-25T17:01:56.051138Z
+msvu5jn,1knux32,reddit,"And my code review would be “that’s cute, now do it the original way with the 3 ifs and the modulo so that other devs know wtf is happening”",2025-05-18T01:04:42Z,4,MUDrummer,programming,2025-05-25T17:01:56.958582Z
+msp4wj0,1knux32,reddit,[deleted],2025-05-16T21:42:55Z,-1,N/A,programming,2025-05-25T17:01:56.958589Z
+mp2tucz,1k7w0wx,reddit,"I used HaikuOS for a little while, though primarily via qemu. It's quite ok. My problem was that Linux (that is, the whole ecosystem) is so much ahead; simple things such as one could expect ruby to work, is more complicated on Haiku. I am still keeping an eye on the development, but my tinker-days are gone; I kind of need some essentials to work.
+
+Haiku looks very neat though, much better than my default IceWM on Linux (which I use because it really is fast and does not get into my way; I realised that both GNOME and KDE simply get too much into my way; XFCE and mate-desktop are also ok, but I find the smaller WMs nicer to use, that is, more efficient to use).",2025-04-26T02:03:27Z,17,shevy-java,programming,2025-05-25T17:01:57.904695Z
+mp1t1kh,1k7w0wx,reddit,"I still have my copy of ""Practical Filesystem Design""",2025-04-25T22:29:03Z,9,thalience,programming,2025-05-25T17:01:57.904699Z
+mp93wcr,1k7w0wx,reddit,I ran BeOS for a bit in the 90s.  It was wild how fast and futuristic it felt but you couldn’t actually do much with it. ,2025-04-27T02:47:39Z,4,OHotDawnThisIsMyJawn,programming,2025-05-25T17:01:57.904702Z
+mp1ewlf,1k7w0wx,reddit,[Previous post 6 years ago](https://old.reddit.com/r/programming/comments/8wj6z3/the_beos_file_system_an_os_geek_retrospective/),2025-04-25T21:11:58Z,3,ketralnis,programming,2025-05-25T17:01:57.904704Z
+mpaah7e,1k7w0wx,reddit,"BeOS 4.5 was great! (And for a while, a synth-less remix of _The Price of Things_ was my favorite song.)",2025-04-27T09:05:28Z,1,jliverse,programming,2025-05-25T17:01:57.904706Z
+mtcjb18,1krdjdi,reddit,All of my best code came from many long walks and long sleeps followed by a short burst of fast typing. ,2025-05-20T19:23:03Z,75,quadralien,programming,2025-05-25T17:01:58.817885Z
+mtgkizo,1krdjdi,reddit,"Eh... to an extent, but you can't plan everything since you learn things along the way.   At some point you have to start, learn things, throw half of what you did away and rebuild it based on the new information.",2025-05-21T12:09:50Z,12,liquidpele,programming,2025-05-25T17:01:58.817896Z
+mtd4yxf,1krdjdi,reddit,"I always ask the LLM to plan before executing. 
+
+/s (sort of)",2025-05-20T21:10:19Z,10,blazarious,programming,2025-05-25T17:01:58.817904Z
+mtg395c,1krdjdi,reddit,"Code is just a recipe to get something done, so it would be logical to sit down first and think about the recipe.",2025-05-21T09:50:37Z,3,spamzauberer,programming,2025-05-25T17:01:58.817911Z
+mtiblxi,1krdjdi,reddit,waterfalllll,2025-05-21T17:32:17Z,1,Specialist_Brain841,programming,2025-05-25T17:01:58.817918Z
+mteneog,1krdjdi,reddit,"If you think about it differently you can use cursor to try ideas that don’t work well faster, without as much emotional investment or opportunity cost.",2025-05-21T02:21:13Z,-7,TransitionNo9105,programming,2025-05-25T17:01:58.817924Z
+mrq903t,1kjwmj9,reddit,"The reason why the documentation is confusing is almost certainly because it is written by an LLM. LLMs have a tendency to not really stick to an organizational scheme, especially over multiple sessions (even when asked to).",2025-05-11T10:35:53Z,63,itijara,programming,2025-05-25T17:01:59.792812Z
+mrqj58r,1kjwmj9,reddit,"I will never see ""MCP"" and not think ""Master Control Program."" But I'm old.",2025-05-11T12:04:35Z,38,beisenhauer,programming,2025-05-25T17:01:59.792830Z
+mrr5ahm,1kjwmj9,reddit,"> However, I'm astonished by the apparent lack of mature engineering practices.
+
+
+Initially MCP did not specify Authentication. For a 2025 protocol over network! Only later drafts now contain some overly complicated double OIDC where the MCP server issues and manages its own tokens instead of relying on the Identity Provider. ",2025-05-11T14:29:24Z,34,BlackSuitHardHand,programming,2025-05-25T17:01:59.792843Z
+mrshq4p,1kjwmj9,reddit,"Repost. Posted 5 days ago:
+
+https://www.reddit.com/r/programming/comments/1kg6zws/a_critical_look_at_mcp/",2025-05-11T18:47:28Z,12,MCPtz,programming,2025-05-25T17:01:59.792856Z
+ms2a5pg,1kjwmj9,reddit,"MCP is right up in the LangChain category for me, aka. *""This too shall pass""*.
+
+What is it really? A standard for how to design an API that can be called by some vaguely defined ""AI Agent"". Sounds nice, doesn't it?
+
+Except when you look under the hood, it is just a really, really shitty JSON-RPC interface, and the only reasons why this became accepted, is because people fall for shiny new things that get hyped by gullible media, and because at this point the Web is so full of shitty, badly documented, bloated, barely functional interfaces that outright ignore best practices and common sense, what's one more.
+
+I have, and am, been implementing my own AI agents.
+
+Wanna know how I allow them to query context or call tools? With a simple REST API, custom built for the usecase. Because guess what, we do know how to get text from one system to another. The only people who'd like you to believe that you need some special secret sauce to do that, are architecture astronauts, who write very little, if any, functional systems, and instead waste their time constantly re-inventing the wheel, but as a triangle.",2025-05-13T09:31:48Z,2,Big_Combination9890,programming,2025-05-25T17:01:59.792869Z
+mrqw3bm,1kjwmj9,reddit,"> ... enable LLMs to become agents and interact with the world
+
+Yeah, this should be fine.",2025-05-11T13:34:59Z,3,GoAwayLurkin,programming,2025-05-25T17:01:59.792882Z
+mpshqri,1kb7ubh,reddit,No one wants to pay real contracting wages. They just assume they can pay you less for the same skills.,2025-04-30T05:02:55Z,66,crusoe,programming,2025-05-25T17:02:01.660871Z
+mpt9ewc,1kb7ubh,reddit,"I think there are 2 sides to the earnings of a freelancer. 
+
+On one side you have specialists that have a lot of proven experience. These people will bring something unique to a company. These specialists will get paid much more than an average freelancer.
+
+On the other side you have people who mostly just want the flexibility. This is the group that will be paid worse, because let's be honest, doesn't everyone secretly want to decide what to do? There are way more freelancers like this, and that brings the price down.",2025-04-30T09:38:07Z,25,phexc,programming,2025-05-25T17:02:01.660876Z
+mptmett,1kb7ubh,reddit,"I'm always hearing about people getting actively recruited on LinkedIn, but the only recruiters I ever hear from are offering 6-month contacts, and I'm just not at all interested. None of them pay nearly well enough to justify the risk.",2025-04-30T11:32:28Z,11,NocturneSapphire,programming,2025-05-25T17:02:01.660879Z
+mptxbg2,1kb7ubh,reddit,"They way I've done it is:
+
+1) Operate your business through your own LLC and directly contract with the client.  Have a lawyer write or review your contract and ensure you won't be screwed over.  Set your rate to be appropriate given the risk and lack of benefits.  This should be at least 1.5x what a FT employee would be making, but could be up to 2.0x.  You can go lower for work you like or has longer term guarantees, but needs to be on the higher end for more risk, shorter term, or work you don't enjoy.
+
+2) If the client insists on you working through a 3rd party contract house as their employee, tell them that's fine but you're still charging the same rate either way.  They can eat the cost of using the contract house if they want it so badly.  This means you don't worry about invoices getting paid, but I still prefer business-to-business payments since then I can use my own LLC's 401k and get some other tax advantages.
+
+If you're not getting paid at least 1.5x a FTE's hourly rate, do not do contract work.  You're getting taken advantage of.  There are tons of hidden pieces of the ""Total compensation"" you get while being an employee that do not apply to contractors.  You need to make up for this with extra $$.",2025-04-30T12:44:34Z,11,kdawgud,programming,2025-05-25T17:02:01.660882Z
+mptk3pi,1kb7ubh,reddit,">The whole point of working a contract gig, instead of the traditional salaried job, was that you made a choice to trade stability for flexibility and short-term financial gain.
+
+For you as a contractor, not for companies who hire you (see below).
+
+>companies hire large groups of contractors who aren’t paid benefits and can be let go with a lot less hassle
+
+This has *always* been the *only reason* for outstaffing (also CAPEX vs OPEX thing), and why Accenture, Adecco, Infosys and the like, and the term ""bodyshop"" exist.
+
+>while also giving them less money than full-time employees.
+
+This might be true in the US (i mean, workers have always been treated like shit over there), but completely false in EMEA. I would easily get 2-3x more money as a contractor in EU than an employee and it has always been like that for as long as i care to remember.
+
+TL/DR: Service contracting, freelancing and outstaffing have ever been an instrument to earn a shitload of money and pay as little taxes as possible [for consultants], and a way for companies to quickly get the manpower they need and quickly dispose of it when they don't any more. If you're somehow surprised by that - you've been living in a parallel universe for the last 30 years.",2025-04-30T11:15:02Z,16,zam0th,programming,2025-05-25T17:02:01.660884Z
+mpz4prx,1kb7ubh,reddit,"If you're going independent, be a consultant, not a gig freelance contractor.",2025-05-01T06:00:43Z,4,hasen-judi,programming,2025-05-25T17:02:01.660886Z
+mrx223c,1kkt7wd,reddit,Is that Begin or End ?,2025-05-12T14:25:19Z,17,HarmadeusZex,programming,2025-05-25T17:02:02.536796Z
+mry62do,1kkt7wd,reddit,"Non ""AMP"" link, because it looks weird on desktop:
+
+https://www.theregister.com/2025/05/09/new_lazarus_4/",2025-05-12T17:41:54Z,8,riffito,programming,2025-05-25T17:02:02.536808Z
+mrzyom7,1kkt7wd,reddit,I so wish I [went into Delphi/Lazarus instead of web dev](https://www.reddit.com/r/webdev/comments/r59nzr/i_regret_going_into_web_programming_should_have/). DOM sucks the big juicy one. Work life would be so much more satisfying. Can some deity please get me a DeLorean?,2025-05-12T23:14:54Z,5,Zardotab,programming,2025-05-25T17:02:02.536815Z
+ms1wmoq,1kkt7wd,reddit,"If (like me) you have ever had problems setting up Lazarus/FPC and getting it all working correctly,  I highly recommend [fpcupdeluxe](https://github.com/LongDirtyAnimAlf/fpcupdeluxe). It's a kind of rustup for Lazarus.",2025-05-13T07:10:57Z,1,kitd,programming,2025-05-25T17:02:02.536822Z
+msg3chs,1kkt7wd,reddit,Delphi is my first love but nowadays i write c#,2025-05-15T13:35:23Z,1,LlamaNL,programming,2025-05-25T17:02:02.536829Z
+msh4hgu,1kkt7wd,reddit,"When I started my programming career two decades ago Delphi was on its way out, why can't people let this crap die?",2025-05-15T16:41:36Z,0,IanAKemp,programming,2025-05-25T17:02:02.536836Z
+mta3j2k,1kqxn4z,reddit,"I would add one more thing in consideration when designing any binary format: make sure that all fields are always properly aligned in respect to the start offset (for instance all 4-byte length fields must be aligned to 4 bytes, 8-byte fields must be aligned to 8 bytes and so on). Add padding bytes if necessary.",2025-05-20T11:47:21Z,34,MartinLaSaucisse,programming,2025-05-25T17:02:03.562589Z
+mtap9ob,1kqxn4z,reddit,"> 3. Chunk your binaries.
+> 
+> If the data doesn't need to be human readable, it's often way easier to make a binary format. A common structure for these is a ""chunked"" format used by various file formats. ... The basic idea is to define data in chunks, where each chunk starts with two standard fields: tag and chunk length.
+
+There's an industry standard name for this: TLVs - Type, Length, Value.",2025-05-20T14:01:04Z,24,antiduh,programming,2025-05-25T17:02:03.562600Z
+mtc5ha3,1kqxn4z,reddit,"> 5\. Version your formats.  
+It doesn't matter whether you never, ever, ever plan to change the format, having a version field in your header doesn't cost much but can save you endless headache down the road. The field can be just a zero integer that your parser ignores for now.
+
+No, your parser *cannot* ignore it. That would make the introduction of newer formats impossible.
+
+> 10\. On filename extensions.  
+You may want to look up whether the filename extension you're deciding on is in use already. Most extensions have three characters, which means the search space is pretty crowded. You may want to consider using four letters.
+
+Or more. There is not really a reason to keep it as short as possible.",2025-05-20T18:15:22Z,12,ShinyHappyREM,programming,2025-05-25T17:02:03.562610Z
+mta788l,1kqxn4z,reddit,"Thanks for the interesting points!
+
+Is 3 mostly a recommendation for protobuf or am I missing something it doesn't cover?
+
+5 and 7 feel like they contradict each other since you say versions should exist ""just in case,"" but other stuff shouldn't. Would be nice to know if there's a general rule for exceptions to 7.",2025-05-20T12:12:56Z,3,hugogrant,programming,2025-05-25T17:02:03.562622Z
+mtismhs,1kqxn4z,reddit,"If you're ok with ""not human readable"", you're almost certainly better off using a SQLite database rather than some homegrown format. It does all of these things you want: it's easily versioned, it allows incremental updates, it ensures your files aren't corrupted, it's fast, it's flexible, and on and on. In addition, you get a proper SQL database you can query if you want! We're using it very successfully in production, and I'm never hand-rolling a binary format ever again.",2025-05-21T18:53:19Z,2,hi_im_new_to_this,programming,2025-05-25T17:02:03.562633Z
+mtbz4oy,1kqxn4z,reddit,"Oh you're the person that made SoLoud, great to see you! 
+
+
+This is really useful, great post :-)",2025-05-20T17:44:57Z,1,Shadow123_654,programming,2025-05-25T17:02:03.562644Z
+mtvm7h5,1kqxn4z,reddit,"They miss what is IMHO the most important part of human readable formats: They're version controllable.
+
+I think the first question should be ""will the user want to diff this"", and if they do, then you probably want YAML, or some other text format with multi line strings.
+
+The second question should be ""Does this need sync"", and if it does, I probably want either a proper sync backend, or atomically updated files for tools like SyncThing. If that's not practical, then you can save things in folders of multiple files, not individual files, and let people zip them up if they want to send them as a single file.
+
+Also, depending on what language you use, the whole system may need to be reimplemented all over again for different platforms, so using existing things like SQLite is going to help a lot.
+
+  
+99% of the time, I think these new file formats are a bad idea, and they could just be SQLite or zip files.",2025-05-23T18:14:32Z,1,EternityForest,programming,2025-05-25T17:02:03.562657Z
+mt94fx7,1kqxn4z,reddit,Just use sqlite,2025-05-20T06:10:48Z,-12,bwmat,programming,2025-05-25T17:02:03.562667Z
+msxmd15,1kpfsky,reddit,That’s a fun way to do it. Reminds me of Steam and other game stores that distribute the files encrypted and then release the key to decrypt at launch.,2025-05-18T10:30:00Z,21,Guinness,programming,2025-05-25T17:02:04.449437Z
+msyedtu,1kpfsky,reddit,"You can also gain a lot of performance by making the resource fully static. In many web applications, static resources are funneled through the same application that also handles dynamic resources.
+
+If you make delivery of them part of the reverse proxy itself (ideally from a ramdrive or even better, preloaded into memory), you will get into situations where you will saturate a 10 gbps link before you exhaust CPU resources even for small files.",2025-05-18T13:59:53Z,9,AyrA_ch,programming,2025-05-25T17:02:04.449442Z
+msywlj9,1kpfsky,reddit,Why not ping the CDN from various regions to warm up the cache before distributing the main payload URI? Your solution is eerily similar to steam sending out decryption keys on release while permitting to preload the games.,2025-05-18T15:38:42Z,2,Worth_Trust_3825,programming,2025-05-25T17:02:04.449447Z
+mtxdfly,1ktxyc0,reddit,"I'm not sure if it's still the case, but a few years back, certbot recommended a very wide range of permissions for DNS based authentication on OVH. Including ""delete this domain"".",2025-05-23T23:54:19Z,53,jaskij,programming,2025-05-25T17:02:05.482844Z
+mtz7g9p,1ktxyc0,reddit,I envy the free time to do chores like writing your own implementation instead of using one of dozen apps or libs doing that,2025-05-24T08:23:49Z,69,Familiar-Level-261,programming,2025-05-25T17:02:05.482856Z
+mtyh9h6,1ktxyc0,reddit,"Curious to hear people’s thoughts on acme.sh, which is the client I normally use.",2025-05-24T04:19:27Z,17,i_dont_know,programming,2025-05-25T17:02:05.482864Z
+mu0sn5z,1ktxyc0,reddit,"I wrote program [Getcerts](https://www.balug.org/~mycert/bin/Getcerts) which as I use for wrapper program that does most all the heavy lifting of getting certs from LetsEncrypt.org.  It takes one or more arguments, each for a cert, and each containing the SAN name(s) to be used in the cert, separated within each argument by , for multiple SAN names.  It handles generating key, CSR, making the request, doing the validation, leveraging certbot, but running certbot unprivileged, then uses helper programs to do the needed - also with quite minimal privilege.  So, it also handles the validation via DNS - in fact I've done implementations that handle various types of DNS servers, and yes, does that with minimal privilege - so it can only add/drop the specific type and form of TXT records needed, and only in the appropriate places - nothing else.  And it gets the certs in minutes or less, often only seconds.  See earlier example run in [one of my earlier comments](https://www.reddit.com/r/sysadmin/comments/1k13as2/comment/mnk6j5h/).
+
+See also: [https://www.balug.org/\~mycert/](https://www.balug.org/~mycert/)
+
+I've also generally automated (or at least semi-automated) the installation of certs too.  Often that's just running another program or so for most or all of that.",2025-05-24T15:24:19Z,8,michaelpaoli,programming,2025-05-25T17:02:05.482871Z
+mtzctfc,1ktxyc0,reddit,"Meanwhile, in NixOs, you can just put `enableACME = true` in an nginx config and then literally never think about it again.
+
+
+I don't even know what client it uses, and I'm perfectly content with that.",2025-05-24T09:19:41Z,14,paholg,programming,2025-05-25T17:02:05.482878Z
+mtyvam2,1ktxyc0,reddit,"One of these days I'll figure out how to get my acme.sh container to be able to auto restart my haproxy container.
+
+Lies I tell myself anyway.",2025-05-24T06:22:57Z,4,xeio87,programming,2025-05-25T17:02:05.482885Z
+mu1uqpo,1ktxyc0,reddit,"yeah, i, too, left gandi",2025-05-24T18:47:01Z,2,andrewcooke,programming,2025-05-25T17:02:05.482891Z
+mu57w5r,1ktxyc0,reddit,"I don't get the point of the article.
+It's not about ""old school certificate"", that's still x509 certificates, nothing new here.
+
+Most of the article just describe the requests for ACME when there is already a RFC describing it. And for the clients, there are many of them (like acme.sh script, Lego library and binary or built-in in Caddy to name a few).",2025-05-25T09:17:22Z,2,divad1196,programming,2025-05-25T17:02:05.482899Z
+mtz73dj,1ktxyc0,reddit,So much complexity for something DKIM had already figured out 8 years before.,2025-05-24T08:20:12Z,4,nelmaloc,programming,2025-05-25T17:02:05.482906Z
+mu0nhgk,1ktxyc0,reddit,"I write a client (or more a client library) in Powershell and have to say, I cannot share the sentiment - but then I'm also not calling it webshit ... so perhaps it's a self fulfilling prophecy ...",2025-05-24T14:57:26Z,1,RecognitionOwn4214,programming,2025-05-25T17:02:05.482912Z
+mu5eze8,1ktxyc0,reddit,"That bit about the exponent being incorrect but working anyway, in published peer reviewed software. 
+
+I constantly feel like an imposter, but what if security researchers who come up with these hairbrained schemes also don't have any idea what they're doing?",2025-05-25T10:29:20Z,0,spacelama,programming,2025-05-25T17:02:05.482919Z
+mp0khmv,1k7i0ig,reddit,"I've been using the latest git sources since some weeks. In general most software I try to compile, worked quite well. I have had a few issues with some C++ code bases though. I don't know whether 15.1 fixed those issues, but I'll eventually find out. It would be good if someone could have a test-infrastructure, to automatically report projects that are failing (I don't track all projects, but e. g. debian could probably try to compile tons of software automatically via a new GCC release and then report that systematically as well. Perhaps that is already done on github, but several projects I tried to compile with the git checked-out GCC did not compile, whereas the latest stable GCC 14.2.0 had no problem with the same source code, so I am not really certain anyone really checks that. I only discovered that semi-accidentally; should probably keep a local log file which projects failed ... will do so next time I see such problems.)",2025-04-25T18:38:07Z,1,shevy-java,programming,2025-05-25T17:02:06.418925Z
+moylih9,1k7i0ig,reddit,How are these releases notes so unreadable on mobile? It takes one meta tag to set the viewport to respect the user's device,2025-04-25T12:42:55Z,-16,elprophet,programming,2025-05-25T17:02:06.418928Z
+mu4lg5g,1kuowpx,reddit,"Valkey forked off redis and proceeded to add all the features redis stubbornly refused to add/fix.
+
+* Multi-threaded
+* Way way way better multi server setups.
+* Faster
+* Pub/sub isn't a neglected stepchild. 
+* Usable open source licence, not some make your company lawyers soil themselves worrying that somehow it will bite them on the ass, regardless of the protestations of non lawyer AGLP advocates.
+* Nobody trying to sell you crap; whereas redis also makes the lawyers soil themselves again wondering if some fee is not getting paid. 
+
+Probably the worst tech talk I've ever been to was one given by some travelling redis road show. They were arrogant pricks who didn't deliver on what the title of their talk was about (AI) and tried to sell us on hosting data at the redis datafarms. We all just about wet ourselves with laughter when they arrogantly told us that none of it was persistently stored and that they haven't lost a byte of hosted data. We all said ""Yet.""
+
+One person asked, ""Would you say then, that it is a best practice to not persist data and just keep it in memory in a redis DB?"" The arrogant redis shill tried to make the guy feel like a fool. 
+
+These guys needed to given the ""Worse than Oracle salespeople award.""
+
+I would argue that exactly zero people who moved to valkey will move back, and that anyone who does a greenfield project using redis in 2025 is a fool; or works for a company which is run by fools.",2025-05-25T05:34:08Z,69,LessonStudio,programming,2025-05-25T17:02:07.422545Z
+mu39cyc,1kuowpx,reddit,[deleted],2025-05-24T23:46:43Z,135,N/A,programming,2025-05-25T17:02:07.422559Z
+mu3fbt9,1kuowpx,reddit,Good luck to them now. Community won't trust.,2025-05-25T00:25:17Z,57,SquirrelOtherwise723,programming,2025-05-25T17:02:07.422562Z
+mu385gw,1kuowpx,reddit,"infoworld :  ""Redis makes a dramatic return to its open source roots, offering Redis 8 under the AGPLv3 license. The shift follows a similar move by Elastic in August 2024 and completes the company’s somewhat circuitous licensing path. In both cases, I suspect that neither company ever really wanted to leave open source. The irony is that the very thing that most threatened to hurt their businesses actually helped them: forking.""  May 1, 2025",2025-05-24T23:39:06Z,49,Bonazeta,programming,2025-05-25T17:02:07.422565Z
+mu39qlg,1kuowpx,reddit,This whole story is such a triumph for open source,2025-05-24T23:49:03Z,51,light24bulbs,programming,2025-05-25T17:02:07.422568Z
+mu3fh7z,1kuowpx,reddit,Lolll I think that ship has sailed,2025-05-25T00:26:16Z,18,namotous,programming,2025-05-25T17:02:07.422571Z
+mu3rdjl,1kuowpx,reddit,Once you lose trust it’s not that easy to regain it. People invested time and money to migrate away from Redis. It’s gonna require time and money to migrate again. Given those two reasons I suspect people won’t switch back.,2025-05-25T01:43:35Z,23,Grit1,programming,2025-05-25T17:02:07.422573Z
+mu3v0on,1kuowpx,reddit,"i dont expect itll pan out. my sample size is of course limited, but a large % of folks i know switched to valkey and of those i asked, none intend to switch back",2025-05-25T02:07:45Z,6,bin-c,programming,2025-05-25T17:02:07.422576Z
+mu4mz9h,1kuowpx,reddit,I hope all MBAs etc. take notes how to ruin a software company. Spoiler : they won't ,2025-05-25T05:48:14Z,6,yksvaan,programming,2025-05-25T17:02:07.422579Z
+mu3uj0n,1kuowpx,reddit,Varkey says what?,2025-05-25T02:04:24Z,5,TedGetsSnickelfritz,programming,2025-05-25T17:02:07.422582Z
+mu4o8m4,1kuowpx,reddit,"Doubt this is really gonna work. AGPLv3 for something like this is probably okay in most cases, but also lots of companies just have policies prohibiting it. Don't expect a lot will switch back from Valkey for the more restrictive licence.",2025-05-25T05:59:56Z,2,BadlyCamouflagedKiwi,programming,2025-05-25T17:02:07.422587Z
+mu5fk6l,1kuowpx,reddit,Why would anyone trust them now? Honest question.,2025-05-25T10:34:54Z,2,ficiek,programming,2025-05-25T17:02:07.422589Z
+mu45d1b,1kuowpx,reddit,I read reddit and was confused for a second,2025-05-25T03:20:19Z,2,EmptyPond,programming,2025-05-25T17:02:07.422592Z
+mu6ay5j,1kuowpx,reddit,"I’m hoping the Spring team can pivot and provide first class support for Valkey. spring-data-redis “just works” right now using the Redis client libs, but not guaranteed long term",2025-05-25T14:16:10Z,1,tootwrangler,programming,2025-05-25T17:02:07.422594Z
+mu639zz,1kuowpx,reddit,[ Removed by Reddit ],2025-05-25T13:32:51Z,0,DaGoodBoy,programming,2025-05-25T17:02:07.422597Z
+mttw3hi,1kth8f4,reddit,"Figuring out which concrete effect handler is being called in a particular function in a large legacy codebase sounds like a readability nightmare. This is like exceptions generalized to the extreme.
+
+How is saying ""uses f"" any different than adding a function pointer parameter? I've worked with some medium size code bases before that composed behavior by passing many function pointers around, and  it was a nightmare to read.",2025-05-23T13:14:31Z,29,trailing_zero_count,programming,2025-05-25T17:02:08.391542Z
+mtv3zg0,1kth8f4,reddit,"Interesting language, except for Algebraic Effects it seems to have similar goals to [Roc Language](https://www.roc-lang.org/).
+Also, perhaps the blog post should mention [Unison](https://www.unison-lang.org/), it also features Algebraic Effects but calls them `Abilities`... this [blog post](https://www.unison-lang.org/docs/fundamentals/abilities/for-monadically-inclined/) explains how Abilities (and Effects) relate to Monads and how they are superior in some ways, but less good than Monads in other ways (e.g. not referentially transparent).",2025-05-23T16:48:53Z,6,renatoathaydes,programming,2025-05-25T17:02:08.391546Z
+mtvh9dx,1kth8f4,reddit,"> You can think of algebraic effects essentially as exceptions that you can resume.
+
+So like good ol' Lisp Conditions + Restarts?
+
+https://gigamonkeys.com/book/beyond-exception-handling-conditions-and-restarts",2025-05-23T17:50:56Z,3,GwanTheSwans,programming,2025-05-25T17:02:08.391549Z
+mtvvgqu,1kth8f4,reddit,">A common pattern in just about any programming language is the use of a `Context` object which often needs to be passed to most functions in the program or library.
+
+A clear indicator that one is doing something wrong. Abstracting the constant ""context"" passing away isn't the solution here.",2025-05-23T19:00:57Z,3,footterr,programming,2025-05-25T17:02:08.391551Z
+mtyx5za,1kth8f4,reddit,"Ocaml also got effect handlers. Probably the most ""mainstream"" language (i know of) that has them.",2025-05-24T06:41:10Z,2,phplovesong,programming,2025-05-25T17:02:08.391553Z
+mtv5b2d,1kth8f4,reddit,"Algebraic effects and handlers are still something quite academic, but there is intense research over the topic, and this will definitely be the next big thing in programming. There are amazing opportunities for code abstraction and separation of concerns.",2025-05-23T16:55:06Z,3,takanuva,programming,2025-05-25T17:02:08.391555Z
+mtva9sa,1kth8f4,reddit,"I appreciate the article, it helped me get a sense of a dev community’s sentiment towards algebraic effects and other FP concepts.
+
+My impression is that most devs don’t know what algebraic effects are, mostly due to lack of exposure. I don’t know if effects systems are the next big thing but considering their usefulness and the increasing adoption it seems like that could be the case.",2025-05-23T17:18:23Z,2,BlaiseLabs,programming,2025-05-25T17:02:08.391558Z
+ms1vdv8,1kldmyq,reddit,"Why not read the source for GNU Systools? The tools have a surprising amount of complexity that could change your results, depending on environment conditions.",2025-05-13T06:58:41Z,27,accidentalviking,programming,2025-05-25T17:02:09.313986Z
+ms1ihd0,1kldmyq,reddit,"I'm trying to build the habit of studying regularly, and this is my effort toward achieving that.",2025-05-13T05:01:27Z,26,pirate_husky,programming,2025-05-25T17:02:09.313989Z
+ms1ix6m,1kldmyq,reddit,Nice!,2025-05-13T05:05:03Z,10,u0xee,programming,2025-05-25T17:02:09.313991Z
+ms4bxho,1kldmyq,reddit,"Now do so for windows!
+
+File copying is soooooooooo slow on windows. It's annoying me to no ends. I notice this when I copy video files specifically (large files, but I have also noticed windows has a problem with many small files). On Linux this takes perhaps 1/3 of the time or even less, so whatever windows is doing, is really not necessary.",2025-05-13T16:55:17Z,5,shevy-java,programming,2025-05-25T17:02:09.313994Z
+ms4dei8,1kldmyq,reddit,"You forgot `read(2)` for `cat`. `openat(2)` only gives you an fd, it doesn't actually do any reading.",2025-05-13T17:02:15Z,2,def-not-elons-alt,programming,2025-05-25T17:02:09.313995Z
+msbdvgg,1kldmyq,reddit,"https://9fans.github.io/usr/local/plan9/src/cmd/rm.c
+
+https://9fans.github.io/usr/local/plan9/src/cmd/cat.c",2025-05-14T18:38:12Z,1,anon-nymocity,programming,2025-05-25T17:02:09.313997Z
+mq2livs,1kceoa1,reddit,"The problem with what the author wants is that if you publish your code without a license, nobody can use it but the author.
+
+
+> your intention is irrelevant, it was published under ISC and not GPL, and so that version is forever ISC and can be used without the constraints GPL enforces.
+
+
+That's the way it already works, plenty of software became closed source, but you can still use the version prior to closing that source or changing the license.",2025-05-01T19:31:04Z,38,anon-nymocity,programming,2025-05-25T17:02:10.263446Z
+mq51rvm,1kceoa1,reddit,How about no. I don't want the entire ecosystem to be filled with landmines due to fools that wanted a proprietary license but took no effort to change a default to make it so. This default is perfectly sane and should stay as it is.,2025-05-02T03:47:51Z,20,Booty_Bumping,programming,2025-05-25T17:02:10.263450Z
+mq212ug,1kceoa1,reddit,[deleted],2025-05-01T17:50:47Z,3,N/A,programming,2025-05-25T17:02:10.263452Z
+mq5k918,1kceoa1,reddit,"In an era where machine learning companies frequently scrape our code, it makes sense to have a stricter default license. This approach would be effective as long as the process for releasing to public package repositories includes a reminder to review and, if necessary, change the license.
+
+Or perhaps to have a license with an additional clause against scraping?",2025-05-02T06:22:14Z,2,Raunhofer,programming,2025-05-25T17:02:10.263455Z
+mqcvr4s,1kceoa1,reddit,"If your Software is open source, it is free game. License doesn't matter. Nobody follows the laws. Especially the richest companies",2025-05-03T11:58:19Z,1,Stable_Orange_Genius,programming,2025-05-25T17:02:10.263457Z
+mq26l26,1kceoa1,reddit,Technical_Cap_6946.,2025-05-01T18:17:26Z,-9,Railysse,programming,2025-05-25T17:02:10.263459Z
+mqurdf2,1kex8ya,reddit,"This article appears to be AI slop. A few notes:
+
+My name is not ""William"" but ""Bill"" (yes, I am the creator of Odin), and the way it is presented is a very common thing that AI does compared to humans.
+
+There are also numerous claims without any sources. 
+
+So at best it is AI assisted slop with some human corrections.",2025-05-06T08:53:37Z,36,gingerbill,programming,2025-05-25T17:02:11.598215Z
+mqmdtuu,1kex8ya,reddit,[deleted],2025-05-04T23:39:52Z,19,N/A,programming,2025-05-25T17:02:11.598220Z
+mqnxqpx,1kex8ya,reddit,"Just a heads up, there's a duplicate paragraph near the top starting with
+
+>Odin also have a fairly old-fashioned view of types.",2025-05-05T06:06:58Z,6,Anthony356,programming,2025-05-25T17:02:11.598222Z
+mqn7uh3,1kex8ya,reddit,"Nice article! I’ve heard a lot of good things about Odin and you summarized them well. The error handling section intrigued me, so I’ll go off and read more about that. (Also just a heads up: the last paragraph of the second section is duplicated. Looks like a merge conflict resolution error maybe?)",2025-05-05T02:42:46Z,7,mathycuber,programming,2025-05-25T17:02:11.598224Z
+mrmzt31,1kex8ya,reddit,The follow up on Zig here: [https://www.reddit.com/r/programming/comments/1kjigtz/zig\_the\_ideal\_c\_replacement\_or/](https://www.reddit.com/r/programming/comments/1kjigtz/zig_the_ideal_c_replacement_or/),2025-05-10T19:50:23Z,1,Sufficient-Loss5603,programming,2025-05-25T17:02:11.598227Z
+mqsvr7x,1kex8ya,reddit,Is there a ISO/IEC standard?,2025-05-06T00:16:54Z,2,Empty_Geologist9645,programming,2025-05-25T17:02:11.598229Z
+mqphlaf,1kex8ya,reddit,"Is it as memory safe as Java, or at least Go?",2025-05-05T13:56:36Z,0,-Y0-,programming,2025-05-25T17:02:11.598231Z
+mqqb2su,1kex8ya,reddit,Odin is terrible. It looks nice until you use it because of its strictly procedural paradigm. So many times you have to create a variable and then pass it to an `init` function to allocate and initialise it. It's just poor design in today's world.,2025-05-05T16:24:51Z,-7,brutal_seizure,programming,2025-05-25T17:02:11.598233Z
+mqnb5cx,1kex8ya,reddit,Another esolang.,2025-05-05T03:04:14Z,-21,BlueGoliath,programming,2025-05-25T17:02:11.598235Z
+mqoim28,1kex8ya,reddit,"> The design ideology around Odin is to provide some greatly needed quality of life improvements over the lingua-franca of systems languages: C
+
+I don’t see how it can be regarded as an improvement over C when it’s missing some key features like macros and setjmp+longjmp. E.g.  in C you can handle null pointer exceptions and array out of bounds, while in Odin any such condition is a process crash. C is more fit for the multi-threaded age while Odin harks back to the single-threaded antiquity where one thread crashing the whole process is a-ok.
+
+To me, Odin is another case of a low-level “C improvement” that failed (along with Zig, C3 etc). Another testament to the greatness of Rust that we shouldn’t take for granted. Smart language designers are few and far between!",2025-05-05T09:46:09Z,-14,Linguistic-mystic,programming,2025-05-25T17:02:11.598237Z
+ms5z44z,1klgv41,reddit,">C programmers are used to malloc and free. 
+
+I always wondered about that. Im not a C programmer so maybe Im just off, but every C codebase I skimmed through, even those going for performance over all, seemed to use only the standart allocator. With all that talk over low level control, you'd think people would not just slap a lowest common denominator solution that has to work for all kinds of use cases on something so fundamental as their memory allocation.
+
+On another note of the 'C killers' Odin, Zig and D, that I tried in I liked Odin the most, very pleasant language. Asked for beta access to jai, but still waiting.",2025-05-13T21:42:52Z,15,Bananenkot,programming,2025-05-25T17:02:12.631874Z
+ms3nz4a,1klgv41,reddit,"To me, Odin has pretty much the right ideas in all places. I write most of my personal projects in Odin these days and only use Go for web stuff really. 
+I was also really surprised how easy foreign interfaces were in Odin, there's just not too much ceremony around... well anything really in Odin.",2025-05-13T14:59:02Z,12,minameitsi2,programming,2025-05-25T17:02:12.631886Z
+ms2dmo6,1klgv41,reddit,"The strangest thing is that literally every language that seeks to replace C, ends up being very similar to C. Evidently C++ is the best example, though not surprising as it must be backwards compatible, but look at other languages: D? C#? Java to some extent too (more competing against C++); Rust too (again competing against C++).
+
+Go is a bit different, but still reminds me a bit of a combination of C and Python.
+
+It seems as if all languages that try to replace C, end up becoming C. It's strange.",2025-05-13T10:05:46Z,3,shevy-java,programming,2025-05-25T17:02:12.631893Z
+mrxh17s,1kktr8t,reddit,"> As a browser-based distribution of Jupyter, it runs language kernels directly in the browser, enabling significantly greater scalability and ease of deployment.
+
+Are there guides to do so in languages such as ruby, nim, lua?",2025-05-12T15:39:57Z,5,shevy-java,programming,2025-05-25T17:02:13.605071Z
+mqaxa5j,1kd55nj,reddit,"John Bentley in is book ""Programming Pearls"" describes an early spell check program (1978) that used a Bloom filter. Memory was tight so there was no way to keep the 75,000 word dictionary in memory but they could fit the Bloom filter. The runtime for checking a 4,000 word document went from 6 minutes to 30 seconds.",2025-05-03T01:45:27Z,18,xxkvetter,programming,2025-05-25T17:02:14.523030Z
+mq8vshv,1kd55nj,reddit,"Bloom filters are awesome, I just learned about them not long ago and implemented one as a quick search feature to determine if an item exists. 
+
+If I recall correctly Firefox recently implemented them as a way to make certificate revocation much more reliable since it has been broken for years.",2025-05-02T19:01:21Z,10,Particular-Cloud3684,programming,2025-05-25T17:02:14.523042Z
+mq800oz,1kd55nj,reddit,eli's blog is a gold mine,2025-05-02T16:29:52Z,9,bzbub2,programming,2025-05-25T17:02:14.523049Z
+msfkcm6,1kmn6zf,reddit,"It's barely mentioned in the article, just a sentence fragment, but being able to run an entire web application locally makes for a much better developer experience as well. You don't need to worry about sharing a dev server with another team member, and other team members can simply pull your branch in to test against their changes locally.
+
+In past jobs that forced developers to use a shared server for QA, we were constantly stepping on each others toes. It was a nightmare. From then on, I decided any web software I built would be ""buildable"" with a single `./init` script in the root of the repository.
+
+Very good article. It makes me crazy seeing these developer horror stories on Twitter where someone is surprised with a five or six figure invoice because their little ""serverless"" app went viral. If they just stood up a $5 or $10/mo VPS, they could've handled the traffic fine and not worry about a massive bill at the end of the month.",2025-05-15T11:37:01Z,27,leftnode,programming,2025-05-25T17:02:15.434818Z
+msgf6bg,1kmn6zf,reddit,"There was something I was looking for last night related to this - it was someone talking about how big data isn't usually big. I think they showed that computing a large dataset locally was much much faster than distributed cloud tools. Anyone know what I'm talking about?
+
+edit - And of course I found it immediately after posting this. https://old.reddit.com/r/programming/comments/1mkvhs/dont_use_hadoop_your_data_isnt_that_big/",2025-05-15T14:37:26Z,6,Antinumeric,programming,2025-05-25T17:02:15.434825Z
+mse63vr,1kmn6zf,reddit,In my last business we managed to handle our database load growth just by throwing hardware at it. Billions of rows added per month.,2025-05-15T03:57:32Z,9,vivekkhera,programming,2025-05-25T17:02:15.434829Z
+msdu8ba,1kmn6zf,reddit,so true!,2025-05-15T02:37:08Z,4,manzanita2,programming,2025-05-25T17:02:15.434833Z
+mqttw75,1kfrlh5,reddit,"Long story short, we completed the circle and we are back to  having OLTPs and normal DBS",2025-05-06T03:43:29Z,43,frederik88917,programming,2025-05-25T17:02:17.270791Z
+mqvwgt1,1kfrlh5,reddit,"> 2. Most workloads don’t need distributed OLTP. Hardware got faster and cheaper. A single beefy machine can handle the majority of transactional workloads. Cursor is powered by a single-box Postgres instance. You’ll be just fine.
+
+This has always been true. 99% of sites need to chill the fuck out, you're not Google.",2025-05-06T14:00:30Z,36,rooktakesqueen,programming,2025-05-25T17:02:17.270795Z
+mqv8psz,1kfrlh5,reddit,"TLDR: devs decided they could do data cheaper by rolling their own, fucked around and found out otherwise.",2025-05-06T11:34:11Z,33,TypeComplex2837,programming,2025-05-25T17:02:17.270798Z
+mqvc784,1kfrlh5,reddit,"It just seems this dev figured out that platforms evolve. 
+
+First you stick everything in Postgres, cause it works. Then you use a general purpose db to be able to analytics as well. Then you use split your workloads into the right dbs.
+
+Lots of places don’t have the time to built the “perfect infra” because they don’t know where they’ll be in a year or two.
+
+Singlestore also isn’t really an OTLP. It’s an in memory OTLP plus column store.",2025-05-06T11:58:58Z,11,Smile-Nod,programming,2025-05-25T17:02:17.270801Z
+mqtkedl,1kfrlh5,reddit,What is HTAP?,2025-05-06T02:39:38Z,33,drakgremlin,programming,2025-05-25T17:02:17.270803Z
+mqy70e9,1kfrlh5,reddit,"Has NewSQL really stalled though? Yugabyte, Cockroach & Spanner all seem to be doing fine?
+
+Hyper even got acquired by tableau a few years ago",2025-05-06T20:36:25Z,3,redixhumayun,programming,2025-05-25T17:02:17.270805Z
+mr0px83,1kfrlh5,reddit,We are PostgreSQL vendor. Our customers have huge servers and they want to run OLAP queries on the same PostgreSQL instance. So I can definitely say: our customers want HTAP!,2025-05-07T05:38:52Z,1,funny_falcon,programming,2025-05-25T17:02:17.270807Z
+mqpxno2,1kfd216,reddit,"Let me share my insights:
+
+* The system requirements are insane. I get it, this is a complicated software, but compared to uptime kuma running on potatoes (I know, less features), 8gb ram + 20gb disk is just comical. (with the recommended requirements being 16gb ram + 400gb disk) I could draw a parallel with Sentry, where the 50+ container microservice insanity needs at least a dedicated bare metal server to run.
+* The docs page is not navigable on phone, the side nav does not show up. Actually, finding the docs in the first place was pretty unintuitive, with every single link and paragraph taking the user to the cloud login.",2025-05-05T15:18:30Z,25,nahhYouDont,programming,2025-05-25T17:02:18.336050Z
+mqqnbd0,1kfd216,reddit,Dashobards,2025-05-05T17:23:53Z,2,cjavad,programming,2025-05-25T17:02:18.336055Z
+mqruz52,1kfd216,reddit,"if just want uptime, get https://github.com/alexmyczko/ruptime",2025-05-05T20:56:18Z,0,aieidotch,programming,2025-05-25T17:02:18.336057Z
+mpfxyw0,1k9oj9z,reddit,I've browsed through the diet few chapters and it looks good. Bookmarked for later.,2025-04-28T06:24:08Z,5,TheMachineTookShape,programming,2025-05-25T17:02:19.270279Z
+mphgndv,1k9oj9z,reddit,"I remember early in the 1990s but also in the 1980s (I am not that old really ...) text-based MUDs as well as adventure-games (see Sierra and the old adventure-games, especially the old ones where you had to type commands, e. g. leisure suit larry 1) became quite popular. A friend and I decided to write a standalone text-adventure game, which was crap but fun.
+
+Since then I wrote a lot more, including a (semi-complete, at best) MUD engine, but it wasn't the same level of fun anymore and I lost interest, as often happens. People in their youth are often significantly more motivated, give or take; they have fewer nagging voices sitting on their shoulder, telling them ""this is not possible"" or ""use your time for something else"". They can ""just do"". While I do think I have gained a lot more insight and experience compared to my young self, and write significantly better code too, it does not feel the same anymore.
+
+Also, ""why C"":
+
+> My choice for C is a personal one. I know the language well, and I like it a lot. But more importantly, C is close to the metal.
+
+Yes, C is efficient. But, so is one's time to write programs. For a text adventure I would not understand why I'd want to choose C over ruby or python. And, by the way, the old Sierra games also had a DSL; I forgot the name right now, but it kind of simplified writing the game itself, so even those that used C, would try to seek simplifications back in the days already.",2025-04-28T14:05:57Z,7,shevy-java,programming,2025-05-25T17:02:19.270296Z
+mpghg0f,1k9oj9z,reddit,"I love this approach, and also love the Inform6 language which is purpose-built for Interactive Fiction.",2025-04-28T09:52:58Z,1,heptadecagram,programming,2025-05-25T17:02:19.270310Z
+mpj31y3,1k9oj9z,reddit,"Meh. Spends several chapters wasting time on what a good json parser should be able to handle automatically.
+
+I guess if you're in the business of doing this from scratch, great?",2025-04-28T18:56:20Z,2,maxineasher,programming,2025-05-25T17:02:19.270322Z
+msenodz,1kltmst,reddit,Very good read,2025-05-15T06:24:22Z,1,Thysce,programming,2025-05-25T17:02:20.234121Z
+mq2m6fr,1kccugy,reddit,"> What does ""push rbp"" mean ? Fuck if I know
+
+See, this is the kind of content I can relate to.
+
+Seriously though, great stuff. I am entirely unfamiliar with Overwatch and modding, but it is always inspiring seeing a community build something great out of sheer passion. Huge kudos.",2025-05-01T19:34:13Z,18,jdehesa,programming,2025-05-25T17:02:21.157599Z
+mq1znnn,1kccugy,reddit,Overpy saved the life of tens of thousands of kids,2025-05-01T17:44:04Z,5,Jokaes,programming,2025-05-25T17:02:21.157604Z
+mq4622v,1kccugy,reddit,Consider using quickjs for your macro support. We use it to embed js in js,2025-05-02T00:30:41Z,2,Somepotato,programming,2025-05-25T17:02:21.157606Z
+mq696pz,1kccugy,reddit,"I love this, this is a perfect crossover between my current game focus of Overwatch and my Compilers class that I took this semester. I'll look into using your language for making custom games my girlfriend will like to play :]",2025-05-02T10:35:37Z,2,Vizceral_,programming,2025-05-25T17:02:21.157608Z
+mq72ffm,1kccugy,reddit,Necessity is the mother of invention. Very neat tricks!,2025-05-02T13:48:10Z,1,larikang,programming,2025-05-25T17:02:21.157610Z
+mq9cq11,1kccugy,reddit,This is really cool - thanks for posting!,2025-05-02T20:25:16Z,1,Fedcom,programming,2025-05-25T17:02:21.157612Z
+mq35zpl,1kccugy,reddit,"I never thought I would ""push"" YAML, but this seems like something that YAML would work well for.",2025-05-01T21:09:34Z,1,emperor000,programming,2025-05-25T17:02:21.157615Z
+mtwm3ro,1ktp56t,reddit,"> ~~The shell~~ Bash and its crappy handling of whitespace
+
+Modern unix shells like YSH or fish handle whitespaces just fine. Everybody knows bash is broken, just stop writing more code with it.",2025-05-23T21:16:46Z,29,EnUnLugarDeLaMancha,programming,2025-05-25T17:02:22.110451Z
+mtgjamo,1krk7nr,reddit,"Sorry, I don't have the time right now this deserves, but doesn't ""without an engine"" just mean ""write your own engine""?",2025-05-21T12:01:28Z,10,GregTheMad,programming,2025-05-25T17:02:23.065562Z
+mtj46cf,1krk7nr,reddit,"Nice.
+I too went engineless but with Python/Pygame. It's been an interesting choice but I haven't had to wrangle it too much in the 4 years I've been making the game :')
+
+
+Next game will be much smaller scope. Lessons learned.
+
+
+If I were to do it again I'd go with C and raylib. I fell in love with C recently and raylib takes away a lot of the nasty boilerplate that you get with SDL",2025-05-21T19:49:04Z,2,mr-figs,programming,2025-05-25T17:02:23.065574Z
+mtqf316,1krk7nr,reddit,huh i am going to have to check out Dear ImGui after reading this,2025-05-22T22:08:17Z,2,DesecrateUsername,programming,2025-05-25T17:02:23.065581Z
+msophnf,1kncunj,reddit,So good to see the industry come together here to build something great,2025-05-16T20:22:50Z,1,Sigmatics,programming,2025-05-25T17:02:23.960644Z
+mqire4z,1ke9sh2,reddit,"Unit tests for things that are algorithmically ""complicated"" and mostly stateless (calculations and such), integration tests for everything else.",2025-05-04T11:38:22Z,79,databeestje,programming,2025-05-25T17:02:25.194209Z
+mqhmq2r,1ke9sh2,reddit,"I love integration tests.  To hell with a bunch of mocks or unit tests on things so small it doesn't matter.
+
+I like integration tests that spin up a bunch of things and have them open ports and talk to each other.  I like it when they write out databases.
+
+Pretty sure I have some integration tests that leave records in a global DHT.  Who cares.  DHTs love it.",2025-05-04T05:01:10Z,68,fireduck,programming,2025-05-25T17:02:25.194215Z
+mqja7tb,1ke9sh2,reddit,"Nice video. Aligns with my experience as well.
+
+Many businesses’ products are just integrations between systems so it makes sense that integration testing makes up most of it. 
+
+Maybe you work for a company making something brand new with no external dependencies, the traditional triangle model makes sense, but I strongly doubt that exists. There’s usually some layer that isn’t your own code. The video mentions that’s the DB.  
+
+Unit tests make a tonne of sense when building a library because that’s basically all that can be tested. Though a library like an SDK or ORM is basically all integration. 
+
+These are some of my opinions (anecdotal and bound to change overtime):
+
+- Mocks are time consuming to make, and don’t mimic actual behaviour. They’re a false sense of security. 
+- Building a system so that it can be tested well instead of work well is flawed. There are small things to help - if mapping data between two systems, move the mapping logic into its own function so that can be unit tested. But writing every single thing as an interface with a real and a mock implementation, for example, is asking for trouble. 
+- Automated integration testing is insanely difficult when you integrate with external SaaS. Testing usually involves automating someone else’s software to some level. E.g. automating the onboarding flow. 
+- Tests prevent bugs but can prohibit fixing bugs. If your massive customer needs something fixed in an hour or their million dollar transaction will keep failing, tests will either be ignored or haphazardly rebuilt. It defeats the purpose and is just more code to handle. 
+- The tests you do build should be critical points of the solution at a sufficiently high level that real world use cases are tested. It’s best to test for the success path than have no tests because you waste time testing every failure case. An exception here is auth. 
+- Manual testing is always needed. Dogfooding is the best way to handle it. 
+- Test-driven development doesn’t work for most projects because we don’t know what we’re building. Requirements change when we realise halfway through development that there’s a limitation. Now we’ve wasted time implementing tests for something that wasn’t possible in the first place. I think this approach does work for manual testing - but then the tests are actually use user stories. 
+- Code coverage is a lie when you have external dependencies. Have you handled every branch in the code? Yes. But when a downstream system does something unexpected there’s no way for tests to predict that. So many places things can go wrong. REST APIs you communicate with start behaving differently, JS runtimes have bugs (like memory leaks), ORMs have bugs, the OS changes, libc bindings behave differently in certain OS distributions, drivers break. It goes on and on. Leads to the next point. 
+- It’s better to expect the system to break at some point and build mitigations, than it is to expect it to work because of tests. Quick access to prod and to deploy code changes is worth a million times more than tests, especially in early stages. Logging, observability and alerts are crucial. That doesn’t mean “don’t test” it means I’d take a system with readable logs over a system that apparently works because CI/CD pipelines are green. Fixing bugs and debugging prod are difficult. 
+- Nobody wants to pay for tests. It doesn’t bring value to customers. You’re a profit centre when building features and a cost centre when writing the tests for it. It’s extremely difficult to convince people it’s worth the effort when it effectively doubles development cost. We know it’s worth it long-term, but the money usually says no.",2025-05-04T13:47:36Z,13,CorporalCloaca,programming,2025-05-25T17:02:25.194218Z
+mqjofur,1ke9sh2,reddit,Hello fellow developer with strong opinions and no data to back them up 😅,2025-05-04T15:05:02Z,4,buhrmi,programming,2025-05-25T17:02:25.194221Z
+mqiymt2,1ke9sh2,reddit,"I don't think people who promote integration tests have really tried modularizing their code in a unit test friendly way. It's really worth it to be able to run hundreds or even thousands of tests in a few seconds.
+
+I won't say it's easy, but it is worth the investment.",2025-05-04T12:33:46Z,5,gnus-migrate,programming,2025-05-25T17:02:25.194225Z
+mqiatrh,1ke9sh2,reddit,We had them. But their runtime was becoming ridiculous so we moved away from them and now use unit-tests and e2e mostly.,2025-05-04T08:56:41Z,5,MariusDelacriox,programming,2025-05-25T17:02:25.194229Z
+mpg05ry,1k9op12,reddit,"So... The `malloc()` thing... It's only needed because Newlib's `printf()` uses an ancient algorithm for formatting floats, one that needs it. By contrast, picolibc uses the modern Ryu algorithm that doesn't need a heap.
+
+cc u/urosp",2025-04-28T06:46:15Z,17,jaskij,programming,2025-05-25T17:02:26.100357Z
+mptyv9t,1k9mcse,reddit,But but but Java is deaaaaad 😭,2025-04-30T12:53:39Z,3,bring_back_the_v10s,programming,2025-05-25T17:02:26.942417Z
+msruh5p,1konhj0,reddit,"The main mental model that you must have: ""cloud"" architecture is the same as ""on-premise"" architecture. Boom, your mind is blown to the astral plane. There's literally no technical difference between using your own HCI and managed services, and those that you rent from a vendor/provider (minus the obvious infosec and regulatory part).
+
+The next mental model is: there is no ""cloud"", there is SDN, SDS and hypervisor (aggregatively called HCI). Everything else is built on top of these three things.",2025-05-17T10:36:19Z,60,zam0th,programming,2025-05-25T17:02:27.943068Z
+mssg5hp,1konhj0,reddit,"Good article. It'sintuitive. Architecture is such a tricky thing to teach because it's so vast and nebulous.
+
+I'm going to use this to teach junior devs.  Thanks!",2025-05-17T13:24:48Z,7,TheWix,programming,2025-05-25T17:02:27.943072Z
+msret03,1konhj0,reddit,"Not bad, actually.",2025-05-17T07:49:29Z,6,atika,programming,2025-05-25T17:02:27.943074Z
+msrh3yl,1konhj0,reddit,"This is great!
+I work as Solution Consult in the realms of digital products. One of my biggest hurdles is always to communicate complex systems, beeing it integrated and automated quality control machines into production lines for example, to non technical stakeholders, get their input and requirements and build upon and then translate all of it to the delivery team.
+
+I also always try to abstract away all technical aspects and lingo to find common grounds with people about how things are named and data flows trough the system.
+If we automate a shopfloor I will create a digital twin out of it and model from there.
+If we first need to design the system I try to paint pictures with Restaurants or Boat trips.
+
+I will totally try out the trainstations next.
+Thanks",2025-05-17T08:13:44Z,4,pago1985,programming,2025-05-25T17:02:27.943076Z
+msrtla2,1konhj0,reddit,"Yeah. Reads well. Good message. KISS
+
+Keep it simple Stupid. And in AWS that means Lambda. And only go to something else if lambda doesn’t work for you.",2025-05-17T10:27:29Z,2,diroussel,programming,2025-05-25T17:02:27.943078Z
+msrix00,1konhj0,reddit,None of us passed exams. You’re weak and feeble now.,2025-05-17T08:33:14Z,-5,HankOfClanMardukas,programming,2025-05-25T17:02:27.943080Z
+msk63qo,1knnuze,reddit,πthon,2025-05-16T02:30:49Z,21,vision0709,programming,2025-05-25T17:02:28.852124Z
+msjrx1p,1knnuze,reddit,Python π,2025-05-16T01:02:47Z,13,RemyhxNL,programming,2025-05-25T17:02:28.852130Z
+mskckq3,1knnuze,reddit,"I am still on Python 3.11.11, largely because I was holding back because the infrastructure (pip, setuptools, wheels etc..) changed and I could not get compilation of some dependent programs to work well. Sooner or later I have to switch; guess I'll give it a new try, in the hope that the python devs have resolved those problems finally.",2025-05-16T03:12:56Z,0,shevy-java,programming,2025-05-25T17:02:28.852133Z
+mtdkvi3,1krfloh,reddit,"Now France only has to convince Germany. Right now the lobby that mandates closed source in Germany is strong; a certain big corporation (but also others) lobbies for that, in particular in Bavaria. There may also be some ... ""influencing factor"" for this.",2025-05-20T22:35:28Z,8,shevy-java,programming,2025-05-25T17:02:29.749909Z
+mtdn55x,1krfloh,reddit,"Could you please explain what ""endorse"" means here?",2025-05-20T22:48:18Z,3,0xdef1,programming,2025-05-25T17:02:29.749921Z
+mrmjfj4,1kijjjr,reddit,"The problem is modern package management has made dependency management so easy that it's easier to download a dependency than it is to write that code by hand.
+
+Dependency management in C/C++ is a mess, Java dependency management is just as verbose as the rest of the language. Compare to npm and cargo where it's practically a one command install.
+
+Why would a developer go through pain when it's all so easy now.",2025-05-10T18:16:23Z,15,Smooth_Detective,programming,2025-05-25T17:02:30.748995Z
+mrrjn4l,1kijjjr,reddit,"Oh God, as soon as I saw a Robot Operating System package, I had to quit reading for a minute. I'm fucking scarred by that shitstorm of an ecosystem",2025-05-11T15:46:16Z,1,light24bulbs,programming,2025-05-25T17:02:30.748999Z
+mrp8ajf,1kijjjr,reddit,"Go's strong culture of using the standard library first and minimal dependencies beyond that has paid off very well in this regard. Only very few projects have runaway dependencies and they tend to be big and corporate backed (""enterprise"").",2025-05-11T04:30:15Z,0,eikenberry,programming,2025-05-25T17:02:30.749001Z
+mrfbwkn,1kijjjr,reddit,"I like Go because it never changes so I use it to generate code. I also like to code my own library or neural network so there is no need for dependencies.
+
+It also runs pretty well on Pie 0 if you need it to.
+
+Also, the second you raise the complexity bar you set a timer on your project. Think Hololens vs Oculus.
+
+Community is everything.",2025-05-09T14:33:11Z,-41,imscaredalot,programming,2025-05-25T17:02:30.749003Z
+mppbn1c,1k9aqrd,reddit,is the article worth reading?,2025-04-29T18:26:25Z,0,No_Consequence6546,programming,2025-05-25T17:02:31.645545Z
+mtrv0wq,1kt3o1t,reddit,"Wow, it’s nice to see [https://wiki.c2.com/](https://wiki.c2.com/) is still out there, albeit not updated for the last 10 years.
+
+I remember really enjoying reading it when I was a younger programmer.",2025-05-23T03:16:52Z,19,planodancer,programming,2025-05-25T17:02:32.854410Z
+mtrqt95,1kt3o1t,reddit,"You can't image how hilariously/utterly unreadable this is on 4k 16:9, much less so on ultrawide.",2025-05-23T02:49:15Z,24,Venthe,programming,2025-05-25T17:02:32.854422Z
+mtscvxq,1kt3o1t,reddit,">It is not well-known that objects and closures are equivalent. On the contrary, what is ""well-known"" is what LucaCardelli presents in the 18th chapter of TheoryOfObjects, precisely that encoding object oriented features in lambda calculi is unwieldly and cumbersome, especially when it comes to typed version of those calculi.
+
+There are no ""objects"" in lambda calculus, it is a calculus over functions. It's like saying apples and golf balls are equivalent because they're round. This article mixes up computer programming languages that [somewhat] support lambda calculus and the calculus itself (while, even more ironically, not mentioning Haskell even once).",2025-05-23T05:34:11Z,2,zam0th,programming,2025-05-25T17:02:32.854430Z
+mts1y2s,1kt3o1t,reddit,"That [Computer Science Version Two](https://wiki.c2.com/?ComputerScienceVersionTwo) link is also really good - I've recently been thinking about the annoyances involved in implementing symbolic operations (*, /, +, -, etc) in programming languages vs the benefits you get from them as a developer.
+
+I simply don't think there are any. Worse, they introduce a completely unnecessary class of bug: order of operations errors. It's basically impossible to screw up `mul(2, add(3, 4))` but `2 * 3 + 4` is really easy to accidentally type when you meant the former. Yeah, it's a stupid mistake, but most of the bugs that make it to production are stupid little mistakes like that. The compiler can rarely help point out this class of bug to you, so why are we using language constructs that exasperate the problem? Just because we grew up writing `1 + 2` instead of `add(1, 2)`? Literally yes - it's time to go back to the Ye Olden Days where people did math in sentences 
+
+Moreover, I think it's really dumbed down how people think about these operations: 
+
+ * `*` and `/` are not cheap operations, despite how easy they are to type.
+ * They offer no remedy to errors that *need* to be handled other than terminating the program, throwing an error up the stack, or really fucking up your day with a hardware error (but hey, that one you might *actually* be able to recover from).
+
+I think we take basic math operations for granted when we should really be avoiding their use in all but the most trivial of places (of which there are very few), instead opting for function-based operations that are less error prone, more communicative, and allow for handling of otherwise fatal errors.
+
+Edit: I see your downvotes, but no argument against what I'm saying. Stay mad. 
+
+---
+
+Note: I'm learning Zig right now, and I *really* like their `<op>|` and `<op>%` operators because they saturate and wrap respectively (eg, `+%` for making addition wrap instead of overflow error, but I feel more drawn to the builtin math functions for anything that involves precedence: `a +%= b +| c;`. It's really nice that there's at least consistent syntax available for the various types of arithmetic behaviors.",2025-05-23T04:06:08Z,0,ToaruBaka,programming,2025-05-25T17:02:32.854438Z
+mtqrrn0,1kt3o1t,reddit,"Car and trucks are the same thing. 
+
+They both have wheels, engines, can carry things, go vroom.",2025-05-22T23:19:32Z,-10,account22222221,programming,2025-05-25T17:02:32.854445Z
+mtrrilx,1kt3o1t,reddit,"""Back in the day"", when I would give interviews for JavaScript, one of my favorite questions was ""how can I have a private member in JavaScript?"".  Very, very few candidates passed this one despite the simplicity.
+
+https://jsfiddle.net/0n4dqy8s/
+
+```
+function person(name, ssid) {
+  const _ssid = ssid
+  
+  const maskedSsid = `*****${ssid.slice(5)}`
+  
+  return {
+     name,
+     maskedSsid
+  }
+}
+
+const p = new person('Oscar','112345555')
+
+console.log('_ssid:', p._ssid) // undefined
+console.log('name:', p.name) // Oscar
+console.log('maskedSsid:', p.maskedSsid) // *****5555
+```
+
+If you can't see how this is a private member, a second example:
+
+https://jsfiddle.net/2y6to5j7/2/
+
+```
+function person(name, ssid) {
+  let _ssid = ssid
+  let _name = name
+
+  function updateSsid(newSsid) {
+     _ssid = newSsid
+  }
+  
+  function getSsid() {
+     return `*****${_ssid.slice(5)}`
+  }
+  
+  function updateName(newName) {
+     _name = newName
+     return getName()
+  }
+  
+  function getName() {
+     return _name
+  }
+  
+  function format() {
+     return `${getName()}: ${getSsid()}`
+  }
+  
+  return {
+     getName,
+     getSsid,
+     updateSsid,
+     updateName,
+     format
+  }
+}
+
+const p = new person('Oscar','112345555')
+
+console.log('_ssid:', p._ssid) // undefined
+console.log('getName:', p.getName()) // Oscar
+console.log('getSsid:', p.getSsid()) // *****5555
+console.log('updateSsid:', p.updateSsid('000077777')) 
+console.log('getSsid:', p.getSsid()) // *****7777
+console.log('updateName:', p.updateName('Oscar Wilde')) // Oscar Wilde
+console.log('_name:', p._name) // undefined
+console.log('format:', p.format()) // Oscar Wilde: *****7777
+```
+
+This is a great interview question because it can be done in 5-10 minutes by anyone with familiarity with JS closures but quickly exposes the bootcamp React devs masquerading as software engineers.",2025-05-23T02:53:43Z,-16,c-digs,programming,2025-05-25T17:02:32.854453Z
+msr0cfz,1ko65ts,reddit,"A really nice post! Although quite a lot to go through of course. But you actually made me reconsider C# after ignoring it for the last few years.
+
+You said you've parted ways with Monogame. Can you please tell me what you're using instead now?",2025-05-17T05:26:33Z,12,bitbykanji,programming,2025-05-25T17:02:34.121031Z
+msqu3n4,1ko65ts,reddit,"> Aliasing Xor Mutable Cuts Your Wings
+> There is a bit of a journey every young :ferris: goes through. First, you try to mutate something while holding another reference to it, then you get scolded by the borrow checker. Rinse and repeat, and your mind is slowly shaped by the idea. You start developing coping mechanisms to navigate the restriction and you get better at it. But sometimes you need more, so you find out about interior mutability. You learn to tame it, you internalize it, and get more and more comfortable with controlled bending of the rules. Then you feel invincible, you're a Rustacean, a soldier of the crab army, through and through.
+
+The borrow checker definitely isn't the perfect solution, there are many cases where it rejects valid code.  But if you're trying to dodge it, you most likely aren't going to stick around in Rust. There are times where indeed you just need a escape hatch, and in my opinion this is where the Rust ""community"" really drops the ball in the field of game development.
+
+The answer never is `Rc<RefCell>`, that type is cursed. Rust is all about compile-time development - catching errors at compile time so that you waste less time finding these errors when testing your game (or worse: through a player bug report). The moment you introduce `Rc<RefCell>` you essentially just inserted hundreds of possible errors which you either painstakenly handle every time you attempt to access whatever is inside that cell, or you decide to unwrap and possibly crash your application if you did it at the wrong time.
+
+Instead, I found that the answer is `unsafe`, but not raw pointers, something a little less unsafe: Rc<UnsafeCell>, here's why:
+- You get all the benefits of `RefCell`, and none of the drawbacks, there's no error handling, and you can even put it in a wrapper type (like `Ptr<T>(Rc<UnsafeCell<T>>)` and then implement Deref/DerefMut for it.
+- There is no locking, you can just ""pretend"" `Rc<UnsafeCell<T>>` is `*mut T`, except this guarantees you'll never be dealing with a null pointer.
+- If you somehow make the mistake of double aliasing a cell (which is quite easy to avoid), at minimum, nothing happens, and at maximum you get UB, which is not simply ""chaos"", you effectively only get real bad UB if you're mutably aliasing an enum and you change the enum variant from 2 different aliases. The most likely outcome is that the player will never notice it, and you can still easily catch most cases in testing with `debug assertions` (I personally never experienced UB from using this pattern).",2025-05-17T04:32:09Z,9,Unlikely-Ad2518,programming,2025-05-25T17:02:34.121043Z
+mssfbm9,1ko65ts,reddit,"> dreaded orphan rule
+
+One man's dread, is another man's blessing.
+
+The orphan rule is there for a big reason. Without it, you get subtle specialization bugs and Undefined behavior of C++. 
+
+It's definitely on Rust team's radar, but it combined with backwards compatibility will be a difficult to achieve. Some code already uses orphan rules to guarantee safety. Others use it to guarantee performance characteristics.
+
+> Rust focuses on wrong things.
+
+Okay.
+
+> Const generics.
+
+And, you lost me. What happened before const generics is that you would open a crate and see:
+
+     impl Trait A for [A; 1]
+     impl Trait A for [A; 2]
+     impl Trait A for [A; 3]
+     impl Trait A for [A; 4]
+     impl Trait A for [A; 5]
+     //...
+     impl Trait A for [A; 34]
+     // or worse
+     impl_Trait_A_for_Array!(1, 34)
+
+Now, if we could only extend this to types so no more `impl Trait A for [B, C, D]  where B: A, C: A, D: A` we'd be half way to decent compile time reflection.
+
+> So, while ultimately I'm happy ignoring async, the idea that much more important things (coroutines) are not being worked on because of it annoys me.
+
+This is the fate of all OSS projects, you don't get what you want, you get what you spend your time and money on. And even then it's not a guarantee.
+
+> Not surprisingly either, compile-time reflection was at the very top of my wishlist for what the ideal gamedev language must have.
+
+> Compilation speed: Compilation speed is good, it makes everyone happy.
+
+These two things, at least the Jean Heyd's implementation, were in conflict. Why? Because IIRC the compile time reflection, spat out many Zero Sized Traits & Struct at compilation time. Having lots of ZST is how you get your compile to work overtime.
+
+> (Code generators in C#...)
+
+Having worked with code generators in C#, I wouldn't want them on my vilest enemy. The number of times they broke Rider, or they forced me to kill the `dotnet` build servers, or they just left cryptic warnings that I've yet to decipher is too high to count.
+
+I will admit it made me want to go back to Java mines. The second thing that makes me wish for Java mines is the `.Net Framework`, `.Net Core`, `.Net Standard`, `Mono`, `.NetPapaya` (joke), insane situation and conditional compilation.",2025-05-17T13:19:23Z,7,-Y0-,programming,2025-05-25T17:02:34.121051Z
+msqrp62,1ko65ts,reddit,"> I'm talking about things like the dreaded orphan rule and its glaring lack of escape hatches. These things are in place for a reason, but when the reason doesn't matter it just feels they're there because Rust doesn't trust you to be a grown-up and make your own life choices. If you're a small team trying to ship stuff, the last thing you should be worried about is someone taking your code and implementing a trait in an incompatible way. And moreover, restrictions like this are preventing you from organizing your codebase in a way that improves the also terrible compile times.
+
+I couldn't agree more. In fact, I hate the orphan rules so much that I decided to take matters in my own hands and made a [fork](https://github.com/Rust-Unchained/rust_unchained) of Rust that simply disables those rules. And I have been a lot happier with my gamedev experience after I switched to my fork.
+
+The reddit users of Rust clear didn't approve though: https://www.reddit.com/r/rust/comments/1gpdr29/announcing_rust_unchained_a_fork_of_the_official/",2025-05-17T04:12:25Z,13,Unlikely-Ad2518,programming,2025-05-25T17:02:34.121058Z
+msqr3hj,1ko65ts,reddit,"I agree with a lot of points you made in that post, but it's so big that listing all my agreements here would be a waste of reader time, so instead I'd like to mention a few points worth discussing.
+
+---
+
+> I'm more interested in having the properties I discussed above than anything to do with ownership, RAII or lifetimes. The way I see it, it's not that hard to take whatever system your language offers and make it perform well: Be it garbage collector, reference counting, generational references (hi Vale author! huge fan!!11 I love the side notes thing in your blog), or the infamous borrow checker :ferris:. If you want to be fast, you'll preallocate, reuse memory and avoid allocations in your hot loop. And that's just as true for C and Rust as it is for any flavor of GC'd language.
+
+
+Managing resources is a very important aspect of gamedev, you can't simply allocate everything in RAM and just be done with it. And I truly believe that reference counting is the most developer-efficient way of doing so (by that, I mean it takes less developer effort). 
+Godot does a good job at it with `RefCounted`, and Rust is extremely good at it with the trait `Drop`.
+On the other hand, the very common option `C#` doesn't support reference counting, which makes resource management a pain in Unity, I can't understate how much I like that I can simply almost-forget about resource management when doing game development in Rust (at least when it comes to indie games).
+
+With that in mind, I believe that the ideal game development language must provide good support for reference counting.",2025-05-17T04:07:35Z,3,Unlikely-Ad2518,programming,2025-05-25T17:02:34.121065Z
+msr5wsn,1ko65ts,reddit,"Great post, really resonated with me. There are parts of rust I really love, but it just isn't the right tool for rapid iteration on gameplay code.
+
+I've kinda gone full circle with my own attempts to address it. I started with [absurd hacks](https://github.com/MDFL64/skitter/) to speed up compilation. Then I moved on to designing my own rust-inspired scripting language. I'm really opinionated on what I want, but I agree with more than half of this post. I built some prototype toy compilers.
+
+Eventually I realized I could test out my weird architectural ideas without rolling my own knockoff language... so I'm doing WebAssembly plugins. Maybe I've fallen into the dreaded ""average rustacean"" trap. I don't know. I've always been skeptical of the whole ""WebAssembly as a universal binary format"" meme, but it should get me around 80% of what I want. Maybe it will somewhat work and I can iterate on it. Maybe it will blow up in my face and I can move on from this clownery.
+
+On another note, I've been playing around with the [S&box engine](https://sbox.game/about). It uses C# and supports hotloading, and if I'm being dead honest, I have to agree that this is the best option for gameplay code that actually exists. Still, I find myself missing things from Rust. I see people with larger projects fighting GC pauses in the discord. The siren song of the rustaceans still calls out to me.",2025-05-17T06:18:58Z,3,birdbrainswagtrain,programming,2025-05-25T17:02:34.121072Z
+msvdrbb,1ko65ts,reddit,"> Actually, if anything, I'd prefer my value types to be very mutable. As mutable as I can get away with. Games are big mutation machines. In that sense, I lost my faith in Project Valhalla the moment I realized after all these years they were only going for immutable value types ~~because they couldn't figure out how to make mutability work~~. That day was a sad day... But let's not dawdle!
+
+The author perhaps misunderstands the Valhalla design, but I don't think value types not being mutable will be a relevant limitation:  
+You mutate the location where the value is stored, not the value itself.
+
+Being able to mutate both causes some very intuitive and surprising behaviors that C# suffers from.  
+Java does not repeat those mistakes.",2025-05-17T23:18:55Z,2,simon_o,programming,2025-05-25T17:02:34.121078Z
+mt9vypn,1ko65ts,reddit,"An excellent post! Really liked the wording, definitely an adventure, but was worth it. I'm a Rust dev at hearth and I agree that it would benefit from having a *scripting* little brother that would integrate nicely and make things easier.
+Would be happy to read your future posts",2025-05-20T10:49:01Z,2,Rhaladriel,programming,2025-05-25T17:02:34.121085Z
+mt2ck8i,1ko65ts,reddit,"I feel like this article would be talking about a game dev specific C or C++ compiler rather than a ""language"" if it were genuine.",2025-05-19T03:27:14Z,1,Deathnote_Blockchain,programming,2025-05-25T17:02:34.121091Z
+mtaqwj7,1ko65ts,reddit,"This is a really awesome blog post (and a very long read lmao). 
+I have a very small nitpick: in chapter 2, section ""A Primer in Rebelry"" you wrote sth to the tune of ""rust has no default arguments leading to all those `new` function variations.""
+I think it's important to mention that rust does have a form of default arguments with the `..` struct literal thing, that is very rarely used bc rust people for some reason dislike making their struct fields public(or some other reason I don't know, idk ¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯).
+
+You also mentioned that u parted ways with Monogame, may I ask what u're using now?
+Also I wish u a fun dev process for ur next game :D !",2025-05-20T14:09:44Z,1,Upstairs_Arugula6278,programming,2025-05-25T17:02:34.121098Z
+mr3kde5,1kguuxa,reddit,"TL;DR it's a clusterfuck
+
+Seems like a nightmare for direct consumers of those APIs like HAProxy to upgrade and suddenly find out your library has a 99% performance degradation, but all the detailed performance data is neat to see anyway. It's easy to take for granted the work that goes into something like proxy middleware, I didn't even realize they had builds against different SSL stacks (albeit with a bunch of caveats about them).",2025-05-07T17:21:36Z,18,xeio87,programming,2025-05-25T17:02:35.023803Z
+mr8veim,1kguuxa,reddit,Love haproxy. Amazing piece of work.,2025-05-08T13:59:49Z,2,jonahbenton,programming,2025-05-25T17:02:35.023816Z
+msg5hc8,1kn5s1y,reddit,"Lazarus Pascal is a 25 year old project, didn't start recently, so it was never about resurrection.",2025-05-15T13:47:07Z,32,kagelos,programming,2025-05-25T17:02:35.942683Z
+msfjjo1,1kn5s1y,reddit,"To be fair, I can't speak for other markets, but Delphi is still somewhat popular here in Brazil. I always see a decent amount of Delphi job vacancies.",2025-05-15T11:31:05Z,19,mnbkp,programming,2025-05-25T17:02:35.942687Z
+msftw6r,1kn5s1y,reddit,"Lazarus is really good for native GUIs, free and portable (unlike Delphi).",2025-05-15T12:40:27Z,13,brtastic,programming,2025-05-25T17:02:35.942690Z
+msiaxbf,1kn5s1y,reddit,Yeah Delphi’s fate was set when Anders Hejlsberg joined Microsoft and created C#.,2025-05-15T20:08:27Z,9,DaveVdE,programming,2025-05-25T17:02:35.942692Z
+msgmthq,1kn5s1y,reddit,"People were happy with Delphi years ago, writing some GUIs. I ""met"" some of those (ok ok just on IRC but still they were Delphi-developers; I ""met"" them indirectly on non-delphi channels where they babbled about Delphi, but at this point this is +10 years ago).
+
+Unfortunately once a programming language is out-of-fashion, when it did not have a huge developer base, it is almost impossible to make a come-back. You face at the least two big problems now: other languages are more appealing (why would I want to use Lazarus if Python is better) and tons of other things have changed. Here I am thinking a lot about the web-related tech and the rise of javascript frameworks. I just can't see Delphi/Lazarus having a realistic chance here.",2025-05-15T15:15:00Z,8,shevy-java,programming,2025-05-25T17:02:35.942694Z
+msko528,1kn5s1y,reddit,I think about this project at least once a month. I like the idea.,2025-05-16T04:38:08Z,2,MarvelousWololo,programming,2025-05-25T17:02:35.942696Z
+mqrpxru,1kf5qdq,reddit,"""Sign in to prove you are not a bot.""
+
+Sorry, no.",2025-05-05T20:31:46Z,18,Accomplished_Yard636,programming,2025-05-25T17:02:37.203574Z
+mqqxfxq,1kf5qdq,reddit,"/u/ironykarl
+
+>I honestly suggest you do some reading. 
+
+I suggest you leave your bubble and do some reading that doesn’t just affirm your measurably incorrect statements  
+
+>Subroutines whose outputs are 1:1 functions of their input are easier to reason about than ones that aren't is not a controversial statement.
+
+This is a **claim**. Not evidence. Provide evidence for your claim. In fact, measurements of defects in programs where the language forces runtime immutability has as many **or more** defects compared to languages that do not force that. If your claim was accurate, this is not an expected result.
+
+So prove your claim with actual measured evidence.
+
+>It's virtually self-evident.
+
+The fact that you needed to qualify this as “virtually” shows you don’t even believe it.
+
+>The fact that you are asserting that functional code is less efficient shows that you simply don't know what you're talking about. It is unbelievably easier to optimize a function that does not rely on global state—both for human programmers and for compilers.
+
+Runtime immutability is measurably less efficient. This is not debatable. Even the fastest pure functional programs are far far far far slower than their counterparts that do not use runtime immutability. This is why the fastest runtime immutable game engine looks like PS2 games on modern top of the line hardware.
+
+Your claim that “runtime immutability is more optimizable” is simply wrong, and every example we have demonstrates that.
+
+>I'm probably making a mistake by engaging you in good faith, here, since you've been extremely rude and combative for this entire thread, but on the off chance that you're not a troll and that this is a topic you'd like to understand, I honestly suggest you do some basic reading about functional programming/idempotence/etc.
+
+I honestly suggest **you** do some basic reading, and then when you’re done that, ACTUALLY TESTING your claims.
+
+**Did you know that there’s a dude in a bat suit that runs around fighting crime in Gotham city? If not, maybe you should do some light reading.**
+
+The functional communities commitment to putting themselves on a pedestal above everyone else, and then just saying “everyone that asks us for evidence must be a troll” is actually doing the exact thing you accuse me of: **NOT ARGUING IN GOOD FAITH**. Troll.
+
+>Maybe even watch the video that you're commenting on ¯\_(ツ)_/¯ 
+
+I watched half the video. It says all the exact same things. It was entirely filled with strawman, red herrings and nonsense up to that point and I have zero reason to think that it’ll change beyond anything you’ve written or other functional bros have been writing for decades. ",2025-05-05T18:12:03Z,-11,uCodeSherpa,programming,2025-05-25T17:02:37.203580Z
+mqpmri1,1kf5qdq,reddit,"Right off the bat: I call nonsense. 
+
+For these two functions, they look like scripts people wrote for a reason. This isn’t a “side effect”. Even by name, these are the desired results of the functions.
+
+I’d probably argue that, in an application, I would approach these two scripts more robustly, but as a script, they’re fine.
+
+**Next up: supposedly frameworks requiring your environment setup are bad.**
+
+I don’t know what the saviour is supposed to be here. What framework does not require setup? Even in languages that fundamentally disallow “side-effects”, their frameworks require setup and documentation for the proper setup, and these will not function without that setup. 
+
+Really, the take away on this is actually to fail fast and more gracefully for your users. Not that “setup is a side effect and that’s bad”.
+
+**Next up: the standard “data changed from under our feet**
+
+The entire purpose of computation is to transform data. This idea you have that you should design all of your functions to only be able to work on an unchanging environment is whack and builds your complexity way up. 
+
+The problem here is you’re asking the wrong question. You’re asking “how can I stop data that’s supposed to change from changing” instead of “how can I write this so that it works with a dynamic set of data?”
+
+If you have dynamic data that two threads need to be acting on, then where I suspect this is going to go (just make everything runtime immutable!) is not going to help you anyway. It only takes thinking about this to understand that. 
+
+**unpause. Talks rust. Thought I ate my words. Then they went to “just make everything runtime immutable”**
+
+But “just make everything runtime immutable” **fundamentally disregards their own example because it’s not even possible**. It is a bait and switch. It asks the wrong question. This is a bad talk.
+
+Ironic that this person is talking about “horrific software” at the beginning of this talk. Because “just make everything runtime immutable” is what is making software today horrific.
+
+Edit:
+
+And the thread has been posted to the functional programmers discords for brigading.
+
+It’s only going to get brain dead in here. Later. ",2025-05-05T14:23:59Z,-23,uCodeSherpa,programming,2025-05-25T17:02:37.203584Z
+mt7wi1y,1kqrvvg,reddit,"Wow, it's gorgeous looking. I was not expecting that.  
+
+
+Really great write up too!",2025-05-20T00:49:53Z,6,WalterPecky,programming,2025-05-25T17:02:38.081365Z
+mtfudsd,1kqrvvg,reddit,"How is the bloom applied at 2:20? Or is that just my eyes playing me? Also, I love the discretized camera wiggle throughout - it's super trippy. It's a minimal render, but i really liked the composition and mood building toward the end. I didn't really understand what was going on from 0m to 2m.
+
+Also, have you run it on-hw?
+
+Edit: Ah, much is answered here - https://bsky.app/profile/pekkavaa.bsky.social/post/3lnnwax4vxk2v - Bloom is readback (if there's even separate vram) & executed on CPU, then overlaid as a textured quad. The earlier scene with an egg looks odd because there was supposed to be a cat atop the sphere.",2025-05-21T08:17:26Z,2,ItzWarty,programming,2025-05-25T17:02:38.081378Z
+mtstwx2,1ktcnrd,reddit,"It is Smalltalk, for those unaware of it.",2025-05-23T08:14:40Z,55,axilmar,programming,2025-05-25T17:02:39.065901Z
+mtsq3w8,1ktcnrd,reddit,"Why the lowres screenshot? Why “?” icons in tabs?
+
+Pharo (and other ST) are lightyears ahead in some domains, but polish is never one of them.",2025-05-23T07:36:39Z,20,AsIAm,programming,2025-05-25T17:02:39.065904Z
+mttruvj,1ktcnrd,reddit,"> Better refactorings UX Cleaner leaner code logic
+
+wat. This word salad refuses to let itself be parsed.",2025-05-23T12:50:31Z,12,notfancy,programming,2025-05-25T17:02:39.065907Z
+mtzvh0m,1ktcnrd,reddit,I may be in the minority here. But why video lectures?! Just give me a quickstart and some examples like every other language.,2025-05-24T12:08:38Z,3,astex_,programming,2025-05-25T17:02:39.065909Z
+mtxdrsi,1ktcnrd,reddit,Reminds me of IBM Visual Age,2025-05-23T23:56:23Z,2,No-Concern-8832,programming,2025-05-25T17:02:39.065911Z
+mtt37bp,1ktcnrd,reddit,"Somehow I keep on misreading this as ""Pharao"". My brain gets all the egyptian mummy-vibes ...",2025-05-23T09:48:41Z,1,shevy-java,programming,2025-05-25T17:02:39.065913Z
+mtum6fu,1ktcnrd,reddit,"As an older developer (35 years in the industry), I have seen many ""New"" languages come and go. This offers nothing that I can not get elsewhere in more mainstream languages. At least it is open source. Their licence is derived from the MIT license.",2025-05-23T15:24:45Z,-12,Bonejob,programming,2025-05-25T17:02:39.065915Z
+mryi1em,1kjlllf,reddit,This looks similar to GTA San Andreas' bug with Windows 11 24H2: https://www.reddit.com/r/programming/comments/1k5zjs8/how_a_20_year_old_bug_in_gta_san_andreas_surfaced/ .,2025-05-12T18:40:08Z,8,creovalis,programming,2025-05-25T17:02:39.943317Z
+mro5p19,1kjlllf,reddit,There is also https://github.com/induktio/thinker which fixed it as well among many other improvements,2025-05-11T00:03:42Z,5,makotech222,programming,2025-05-25T17:02:39.943321Z
+mrss1c3,1kjlllf,reddit,"Honestly, It seems like Linux runs games better than windows.
+
+https://www.protondb.com/app/2204130
+
+I'm glad there are workarounds for many of them so you can get them running on Windows at least.",2025-05-11T19:44:50Z,3,tonymurray,programming,2025-05-25T17:02:39.943324Z
+msn7o9q,1kjlllf,reddit,"With `xxd` on hand ([via
+Vim](https://github.com/vim/vim/blob/master/src/xxd/xxd.c),
+[rexxd](https://github.com/skeeto/w64devkit/blob/master/src/rexxd.c),
+etc.), you can apply the patch from the video using:
+
+    $ echo 1a6b1b: e9f1000000 | xxd -r - terranx.exe
+
+The CRC-32 before patching should be `f3b52d3d`, and `6287d026` after.",2025-05-16T15:54:36Z,1,skeeto,programming,2025-05-25T17:02:39.943327Z
+mq0lfz5,1kbsv2p,reddit,"> Note that in Go, a Unicode code point is typically called a “rune”. (Go seems to have introduced the term for the sake of brevity. […])
+
+Isn't ""rune"" from Plan 9's OG implementation (as in, Rob Pike's invention) of UTF-8?",2025-05-01T13:35:10Z,11,notfancy,programming,2025-05-25T17:02:40.877629Z
+mpyykzu,1kbsv2p,reddit,"As a non-English user, I'd say we're quite accustomed with each native character using up 2-3 bytes because our bank does exactly that for reference text when wiring money.
+
+That said, UTF-8 does suffer from ambiguity problems leading to WTF-8, and UTF-16 does seem better-defined for limiting.",2025-05-01T05:05:49Z,7,BibianaAudris,programming,2025-05-25T17:02:40.877633Z
+mqtcz1k,1kflm67,reddit,Can someone explain if LuaLaTeX is the only modern LaTeX or if the modernness is also available elsewhere?,2025-05-06T01:55:39Z,5,an1sotropy,programming,2025-05-25T17:02:41.806217Z
+mqzzdzo,1kflm67,reddit,It's called Typst.....,2025-05-07T02:27:20Z,4,RoboticElfJedi,programming,2025-05-25T17:02:41.806223Z
+mqxhrz6,1kflm67,reddit,[deleted],2025-05-06T18:35:49Z,2,N/A,programming,2025-05-25T17:02:41.806227Z
+msxxj4g,1kp0i2g,reddit,"Oh, just realized that it's not obvious that there is a link to a fully featured releas blog post witth more information -> https://ekxide.io/blog/iceoryx2-0-6-release/",2025-05-18T12:07:38Z,2,elBoberido,programming,2025-05-25T17:02:42.678269Z
+mq9m0d7,1kd6c74,reddit,"Thought this was about a very different thing, nevertheless, it's Interesting.
+
+
+You might want to post this on r/osdev to better reach your intended audience.",2025-05-02T21:11:17Z,15,Shadow123_654,programming,2025-05-25T17:02:43.602149Z
+mqcwch2,1kd6c74,reddit,"Fairly standard canvas library, although it is missing blit for images and I wouldn't be using the GUI as its namespace.",2025-05-03T12:02:46Z,3,alphaglosined,programming,2025-05-25T17:02:43.602153Z
+mq8l64r,1kd6c74,reddit,"Hm some trivial drawing primitive algorithms and a mysterious ""here is a pointer to the buffer, I'm gonna show you how to get a pointer to the actual frame buffer later 😉"" the headline and first paragraph made it sound like this was about getting your OS to actually display something on the screen and not just manipulate some bytes. Oh well",2025-05-02T18:09:16Z,9,Backson,programming,2025-05-25T17:02:43.602156Z
+mqa4vwv,1kd58m2,reddit,"I think it's a bit of a missed opportunity to write a blog post about gamedev in zig, but then not really mention anything specific about gamedev.
+
+
+Did chosing Zig help you or hinder you? Are the gamedev libraries mature? Have you compared with other ecosystems? We'll never know (by reading this blog post).
+
+
+I do have one specific question though. Did you chose to use Zig's vectors (which were SIMD vectors, not math vectors last time I checked) because they have the +-*/ operators defined for them whereas custom types can't do this (no operator overloading)?",2025-05-02T22:55:38Z,46,Dminik,programming,2025-05-25T17:02:44.974445Z
+mqasmd0,1kd58m2,reddit,"I have just recently picked up Zig, and I think this article mostly reflects my own experiences with the language as well.
+
+Zig still feels very young. The standard library and the compiler have some really rough edges, which can be a nightmare at times. For example, type errors in some standard library functions will lead to compiler errors with no mention of the function you called, or where in your source code you called it. That can lead to some difficult debugging... Or some standard library functions will cause a panic when an error occurs, instead of just returning the error.
+
+But Zig also has some genuinely great features, like slices, which make it very satisfying to work with. The comptime is also very useful, and Zig's approach to generics using it is very flexible. I'm pretty optimistic about it as a language, and I think I would reach to Zig for many projects where I would ordinarily use C. Although, I wish this article went into more detail about its use for gamedev in particular.",2025-05-03T01:16:27Z,11,sothatsit,programming,2025-05-25T17:02:44.974457Z
+mq9y4tv,1kd58m2,reddit,"Zig sucks. It intentionally crashes on carriage returns so that windows text files don't work by default and it has no concept of ownership. 
+
+Making a modern language with no garbage collection and no ownership built in is a huge mistake. Defer is not enough. You need to be able to return allocations from functions and have the memory be cleaned up automatically in some way.",2025-05-02T22:16:39Z,5,GaboureySidibe,programming,2025-05-25T17:02:44.974464Z
+mtv9pzs,1ktp1x6,reddit,"Since Twitter variously does and doesn't work logged out:
+
+> The full video of my Upper Bound 2025 talk about our research directions should be available at some point, but here are my slides: https://docs.google.com/presentation/d/1GmGe9ref1nxEX_ekDuJXhildpWGhLEYBMeXCclVECek/edit
+
+> And here are the notes I made while preparing, which are more extensive than what I had time to say: https://docs.google.com/document/d/1-Fqc6R6FdngRlxe9gi49PRvU97R83O7ZTN_KFXo_jf0/edit?usp=drivesdk
+
+> I had managed to go my entire career without making a slide deck. People generally seem happy enough to just let me ramble on for talks, but since I am new to the research community, I made an effort here!",2025-05-23T17:15:50Z,23,ketralnis,programming,2025-05-25T17:02:45.881458Z
+mtgjacq,1krg28c,reddit,Great understandable intro to this topic.,2025-05-21T12:01:25Z,3,darchangel,programming,2025-05-25T17:02:46.777131Z
+mtdds7a,1krg28c,reddit,"Nice article ! 
+I learned some new stuff.",2025-05-20T21:56:14Z,2,Hacaw,programming,2025-05-25T17:02:46.777142Z
+mtg9o4t,1krg28c,reddit,I was learning about hashing in the Software Assurance uni class I took during this past spring semester. Reading this article has definitely helped me to understand it a bit more. ,2025-05-21T10:49:32Z,2,creativetraveler24,programming,2025-05-25T17:02:46.777150Z
+mtm69lp,1krg28c,reddit,"Very nice article! Just wanted to point out that speed is not always a requirement for hashing.
+
+
+When used for security reason, such as sotting a password, being a bit slow is actually something we want: it makes it a LOT harder to bruteforce.",2025-05-22T07:03:50Z,2,Giannis4president,programming,2025-05-25T17:02:46.777157Z
+mtmqzhu,1krg28c,reddit,"Great write-up, this is something I will definitely pass along to junior devs when the topic of hashing comes up as it's often misunderstood.
+
+Unfortunately it currently gets flagged in our company proxy for using r2.dev for static resources, since r2.dev has been used in malware campaigns in the past.",2025-05-22T10:31:25Z,1,loptr,programming,2025-05-25T17:02:46.777164Z
+ms8qs1k,1km0119,reddit,"This is like Vim for your mouse—brilliant for power users, dangerous for productivity if you spend the first week just tweaking your config",2025-05-14T09:40:16Z,2,Physicalan,programming,2025-05-25T17:02:47.722354Z
+msg4hmf,1km0119,reddit,"This is cool, I like the grid approach. Is there any equivalent open-source/free alternative for mac ? ( I think on linux, there's [warpd](https://github.com/rvaiya/warpd), but not sure if it's still actively maintained )",2025-05-15T13:41:42Z,1,badpotato,programming,2025-05-25T17:02:47.722359Z
+ms8ho8w,1km0119,reddit,"This is so cool, I always wanted to do something similar.
+I wondered if it was possible to find clickable spots only via the Windows API or with AI.
+
+This solution is so cool, should help disabled people too",2025-05-14T08:03:58Z,1,MrMinimal,programming,2025-05-25T17:02:47.722362Z
+mr00f7s,1kg9iya,reddit,"Awesome article! Makes my head hurt a bit trying to follow, I haven't worked enough with AsyncIO for it to feel intuitive yet. Definitely need to give this a couple reads",2025-05-07T02:33:34Z,1,garcia_ajg,programming,2025-05-25T17:02:48.608695Z
+mqdy0qg,1kdsdc7,reddit,"From the assumptions section:
+
+## At an organizational level,
+
+    1. You are surrounded by like-minded folks.
+    2. Leadership is supportive & consistently takes/acts on feedback, or
+    3. You are NOT surrounded by folks who hinder your growth.
+
+I've worked in corporate America for over 25 years at this point. I think in all that time I've had these things be true for a grand total of 3 years, max.",2025-05-03T15:44:34Z,54,kintar1900,programming,2025-05-25T17:02:49.522135Z
+mqjrd4z,1kdsdc7,reddit,"Scale sucks, you have terrible oncalls. Give me a small dev tool to work on any day.",2025-05-04T15:20:24Z,1,Lame_Johnny,programming,2025-05-25T17:02:49.522146Z
+mqef3pq,1kdsdc7,reddit,damn this is a shit take.,2025-05-03T17:12:57Z,1,HeatedBidet,programming,2025-05-25T17:02:49.522154Z
+mqf4mcg,1kdsdc7,reddit,"> What about security, how confidently can you say all applications that you work on are secure? Do you run security audits yourself? What about compliance frameworks?
+
+In my experience software engineers have basically zero real understanding of security. At best software engineers are familiar with some of the most common threat classes (XSS, CSRF) in web applications and if you're lucky some libraries to use to prevent them, but not why they work. They lack a fundamental understanding of what a trust boundary actually is.
+
+Asking them if they are 'confident' about it is asking for a Dunning-Kruger case study. Software developers *are* 'confident' about how secure their platforms are, which is why we still have relatively widespread code security problems, for one.",2025-05-03T19:25:36Z,-6,nyctrainsplant,programming,2025-05-25T17:02:49.522161Z
+mqhjbyg,1kdsdc7,reddit,"Hey your content seems decent and i enjoyed reading it. 
+
+I recommend fixing typos and also defining any uncommon acronyms (what is DX?)",2025-05-04T04:32:58Z,0,MacBookMinus,programming,2025-05-25T17:02:49.522168Z
+mqes92s,1kd5a9n,reddit,"I’ve been using git forever (early GitHub user before they were public).  I’m kind of a power user with some good fundamentals and commits in git itself.
+
+Someone suggested jj at work and I gave it a shot.  Took a bit to get used to, but it’s all I use now (though still occasionally drop to lower level git when I manage to confuse myself).",2025-05-03T18:18:53Z,6,dlsspy,programming,2025-05-25T17:02:50.863153Z
+mqbltsu,1kd5a9n,reddit,">If I had s -> t -> u -> v and wanted to reorder them, it’s as easy as jj rebase --revision u --after s, and I’d end up with s -> u -> t -> v
+
+Why in God's name would you ever want to do that? 
+
+I keep reading about jj waiting to come across something - anything - that resonates with me and every time I get nothing.  I guess I don't spend enough time thinking about version control as part of my day job.",2025-05-03T04:37:39Z,25,mcmcc,programming,2025-05-25T17:02:50.863158Z
+mqa5nf9,1kd5a9n,reddit,I really intensely dislike the idea of capturing all changes by default.,2025-05-02T22:59:58Z,11,starlevel01,programming,2025-05-25T17:02:50.863162Z
+mq9t8lc,1kd5a9n,reddit,"> As someone who’s been using git for nearly two decades, it’s refreshing to gain new perspectives 
+
+this is truly heartbreaking to read.
+
+jj isn't even departing so much from git, it's merely providing sane defaults and a tasteful UX to git (and yes, what people find liberating about not caring about an index or giving branches a name is essentially that). With jj drawing most of those ideas from mercurial, this is less a testimony about how great jj is (although there is no doubt about that!) but one about how bad we have had it with git since we let it become a monopoly.
+
+Through jj, I really hope that people will rediscover mercurial, so we get a more powerful VCS with features like phases, changeset evolution, long-lived branches, weave-annotation, topics and others that git probably won't ever be able to embark.",2025-05-02T21:49:32Z,11,u_tamtam,programming,2025-05-25T17:02:50.863165Z
+mqbz495,1kd5a9n,reddit,I thought this is about jiu jitsu.,2025-05-03T06:39:56Z,2,BogdanPradatu,programming,2025-05-25T17:02:50.863168Z
+mqv0q31,1kd5a9n,reddit,Mercurial's ideas are alive,2025-05-06T10:29:04Z,1,orion_tvv,programming,2025-05-25T17:02:50.863171Z
+mqdxptr,1kd5a9n,reddit,"Everyone out here talking about JJ, noone talk about fossil. That is a great vcs, super simple and comes with its own web interface.",2025-05-03T15:43:00Z,1,Scavenger53,programming,2025-05-25T17:02:50.863174Z
+mt9n1tt,1kqnfmb,reddit,mandatory link [https://www.gnu.org/fun/jokes/ed-msg.html](https://www.gnu.org/fun/jokes/ed-msg.html),2025-05-20T09:24:01Z,9,NoFastpathNoParty,programming,2025-05-25T17:02:51.749618Z
+mtalycs,1kqnfmb,reddit,great channel thanks for sharing!,2025-05-20T13:43:04Z,2,bhison,programming,2025-05-25T17:02:51.749622Z
+mta4nlr,1kqnfmb,reddit,Enjoyed this! It’s about the context that drove the UX design of the (infamous) ed unix editor - both physical & social.,2025-05-20T11:55:19Z,1,pja,programming,2025-05-25T17:02:51.749624Z
+mqp43ep,1kf4mys,reddit,"Excellently written! This concept of the ""compilation pipeline"" is something I often find myself teaching developers, and you've done an excellent job laying it out and explaining what's going on behind the scenes.",2025-05-05T12:36:48Z,3,heptadecagram,programming,2025-05-25T17:02:54.474838Z
+mtz3gp1,1ku5qm0,reddit,Does this only work in special case when p and q are close? Or did I read this wrong.,2025-05-24T07:43:29Z,37,pftbest,programming,2025-05-25T17:02:57.274008Z
+mtzr18t,1ku5qm0,reddit,"As somebody who half understands what this would entail, this article screams ""fake"".
+
+For starters, the number they allegedly factored is not RSA-2048 (see https://en.wikipedia.org/wiki/RSA_numbers).
+
+My guess is this is a pump & dump for D-Wave stock.",2025-05-24T11:34:17Z,150,sidneyc,programming,2025-05-25T17:02:57.274021Z
+mu0d2t6,1ku5qm0,reddit,"D-Wave has a looooong history of ""over promise and under deliver"" on quantum annealing, and I see that remains true.  Global energy minimization through annealing is NP-complete, and quantum computation has the same difficulty with NP-complete problems that classical computing has.  Worse, approximate annealing (finding local minima instead of global minima, as D-Wave's devices do) isn't very useful for most yes-or-no problems, and there's no fricking way you could use it to run Shor's algorithm or some other general integer factorization algorithm.
+
+
+My face when I read that the factors differed by two bits: 😐",2025-05-24T14:01:04Z,41,CyberneticWerewolf,programming,2025-05-25T17:02:57.274029Z
+mtzi372,1ku5qm0,reddit,https://www.cs.auckland.ac.nz/~pgut001/pubs/bollocks.pdf,2025-05-24T10:14:05Z,16,iamnotalinuxnoob,programming,2025-05-25T17:02:57.274037Z
+mu5etr9,1ku5qm0,reddit,Just use calculator,2025-05-25T10:27:47Z,1,HarmadeusZex,programming,2025-05-25T17:02:57.274044Z
+ms1cy2c,1kl8dgw,reddit,"Hello, I wrote that post.
+
+Previously discussed back in November: https://www.reddit.com/r/programming/comments/1ggwhoa/embeddings_are_underrated/
+
+(I only found out about that previous posting a week or two ago, otherwise I would have joined the discussion.)
+
+Reposting my comment from HN about some of the issues about the post. 
+
+> To be clear, when I said ""embeddings are underrated"" I was only arguing that my fellow technical writers (TWs) were not paying enough attention to a very useful new tool in the TW toolbox. I know that the statement sounds silly to ML practitioners, who very much don't ""underrate"" embeddings.
+>
+> I know that the post is light on details regarding how exactly we apply embeddings in TW. I have some projects and other blog posts in the pipeline. Short story long, embeddings are important because they can help us make progress on the 3 intractable challenges of TW: https://technicalwriting.dev/strategy/challenges.html
+
+One direct application is outlined here: https://www.tdcommons.org/dpubs_series/8057/
+
+https://news.ycombinator.com/item?id=43963868
+
+My day job is https://pigweed.dev, not embeddings, and I'm the proud papa of a new 3-month-old human, so it's hard to find time to keep making progress on side quests like embeddings :)",2025-05-13T04:18:49Z,7,kaycebasques,programming,2025-05-25T17:02:58.153469Z
+msb0nay,1kl8dgw,reddit,This article is a gold mine. Thank you for sharing.,2025-05-14T17:35:20Z,1,Lucidendinq,programming,2025-05-25T17:02:58.153477Z
+mtrtzx8,1kt3mak,reddit,"Is this some combination of numerical instability (admitted) and not actually using IEEE-754 (not admitted)?
+
+IEEE-754 is bizarre at times, but it's not as random as people think. It is fully specified how guard bits work and such.
+
+Is it possible this code is using fused multiply-adds and thus the differences in those (which are not part of IEEE-754) between implementations appear and then due to numerical instability of the calculations become large?
+
+Try forcing your compiler to use only IEEE-754 and no fused multiply-adds. If you do that and that feature of your compiler works and you use the same size floats on all systems (doubles) and you are not multi-threaded (which will cause issues for your PRNG reproducibility) then I feel like it should produce the same results on all systems. Even when the answers are wrong, they should be consistently wrong.",2025-05-23T03:09:58Z,15,happyscrappy,programming,2025-05-25T17:02:59.082474Z
+mts1s0k,1kt3mak,reddit,Do folks actually try to get reproducible results from floating point code? I had always assumed it was a fool's errand and instead one should do it on integers.,2025-05-23T04:04:53Z,-1,antiduh,programming,2025-05-25T17:02:59.082486Z
+mto7t4y,1ksqbpt,reddit,"Distributed SQL has enough complexity in plain sight, the hidden ones are just cherry on top.",2025-05-22T15:40:56Z,24,Soccer_Vader,programming,2025-05-25T17:02:59.993987Z
+mtp8m1z,1ksqbpt,reddit,SQL without ACID guarantees is just clickbait.,2025-05-22T18:36:36Z,9,CherryLongjump1989,programming,2025-05-25T17:02:59.993993Z
+mtpx673,1ksqbpt,reddit,"Distributed SQL sounds clean on paper, but once you dive in, the trade-offs around consistency, latency, and coordination get real fast. Great reminder that scaling isn't just about throwing more nodes at the problem.",2025-05-22T20:35:55Z,3,Ok_Information3286,programming,2025-05-25T17:02:59.993996Z
+mtqdxml,1ksqbpt,reddit,">The dcount dilemma 
+>Try to think of a solution to this problem :)
+>How would you solve it?
+
+Does it imply HyperLogLog? Any idea what the solution is?",2025-05-22T22:02:02Z,2,anxious_ch33tah,programming,2025-05-25T17:02:59.994000Z
+mtts1tj,1ksqbpt,reddit,Multi MCP servers will make this redundant imo,2025-05-23T12:51:36Z,1,Marxkarl10,programming,2025-05-25T17:02:59.994003Z
+mu4bgjl,1ksqbpt,reddit,"Replicated Postgres still outperforms compared to most nosql non sense.
+
+I don’t understand concept of not having schema, explode the data size then reinvent schema and introduce new query language and call it biggest nosql.",2025-05-25T04:07:44Z,1,akash_kava,programming,2025-05-25T17:02:59.994006Z
+mqea2md,1kdqm6n,reddit,"More detailed benchmarks, I think would be nice? I've found that the data involved has a very large outcome on compression speeds as well as ratios.
+
+E.g. I've seen zstd be great at some text, and binary giles (executables, proc space, core dumps). I've seen it be awful at pcaps.
+
+The current benchmarks (not categorizing the data from the corpus), to an unbeknownst observer, makes one think ""why wouldn't I just use lzav for everything?""",2025-05-03T16:47:40Z,6,13steinj,programming,2025-05-25T17:03:00.942320Z
+mqpk9pn,1kdqm6n,reddit,very impressive; nice work!,2025-05-05T14:11:00Z,1,CVisionIsMyJam,programming,2025-05-25T17:03:00.942323Z
+mpab4j0,1k8hzcc,reddit,"Another way would be to have a happy path - instead of checking 5 times for 1 include, create a file that includes 5 files. 
+
+Also fourtantely autoconf is dead for new projects. The best thing is not to improve this garbage but forget its existence.",2025-04-27T09:12:29Z,14,Maykey,programming,2025-05-25T17:03:03.956835Z
+mpfde1p,1k8hzcc,reddit,./configure speed basically never matters. You're not re running that when iterating on a project,2025-04-28T03:30:30Z,1,WindHawkeye,programming,2025-05-25T17:03:03.956841Z
+mpam7sc,1k8hzcc,reddit,"I am having a few small issues with the blog article, but I also appreciate more people talking about the build-situation in general - primarily on linux, but, in consequence by the build systems being crap, on ALL platforms and operating systems (and yes, operating systems and platforms are also crap; this is in part why the build systems were created, in particular GNU configure, libtool etc... to deal with the underlying crap; sadly, they also add a lot more crap on top of that, so we have a really huge pile of ... ""practical engineering"").
+
+The article claims that ./configure only uses 69% of the CPUs. The author also claims that configure takes longer than the actual build - this latter part I agree with. GNU configure is very slow. Cmake is also quite slow-ish; meson/ninja I found the fastest in general, but it seems as if the initial configure-like stage, indeed takes longer than the actual build for smaller projects. GNU configure is by far the worst here, and what annoys me IMMENSELY, is that it checks for certain header files (this part is semi-ok, after all we need to determine what is available) - and does so FOR EVERY PROJECT ANEW. If I have a header file called fancypants.h, then why does GNU configure insist on checking it again and again and again, as if it had no prior knowledge of already having checked this for another project. Yes, in theory a header file could be deleted, but how likely is that going to happen? In 99.99% of the cases, the .h file should remain available. GNU configure does not use any local database. It's about the ""simplest possibility"" and thus also is by far the worst; both cmake and meson are, from my experience, MUCH much faster. Personally I am sold on meson/ninja, but even that also has tons of annoyances. We don't have any perfect build system in general.
+
+> This is an embarrassingly parallel problem, but Autoconf can't parallelize it, and neither can CMake, neither can Meson, etc., etc.
+
+I am not sure whether this is true. Wasn't the whole point of ninja of being as fast as possible? And what does he mean with ""parallelize"": is not using several CPUs a parallel situation already? There is also the software called parallel; https://ftp.gnu.org/gnu/parallel/?C=M;O=D - I have not used it much, but it seems there are several projects that try to have modern computer systems perform well.
+
+The problem is that most build configuration scripts pretty much look like this:
+
+    CFLAGS=""-g""
+    if $CC $CFLAGS -Wall empty.c; then
+        CFLAGS=""$CFLAGS -Wall""
+    fi
+
+So I think this part is already wrong. Doesn't cmake and especially meson do this differently? E. g. generate a Makefile, if necessary? The whole logic then isn't in a shell script, as the author writes, so he appears to refer more to GNU configure, which is by far the worst. Just look at libtool - it is not necessarily a direct part of GNU configure but often used. It is truly horrible; nobody in his sane mind wants to maintain this mess.
+
+> Now let's check which flags our compiler supports. We'll use this helper script:
+
+And this kind of reinforces the old problem: using shell scripts. This is just madness. Shell scripts are ONE of the reason why GNU configure is such a horrible way to install software. At the least meson understood this, even though cmake seems to be used more widely (and GNU configure even more - tons of older projects use GNU configure; can we also have a look at .m4 macros, I hate those things).
+
+    > And to join them all together (along with a header guard):
+
+    header.mk
+    config.h: ${HEADERS}
+        printf '#ifndef CONFIG_H\n' >$@
+        printf '#define CONFIG_H\n' >>$@
+
+I am sorry, but there is no way I would use code like the above. Using a proper
+programming language cuts all that line noise away. If you want to be fancy
+you can use a DSL too; see ruby on rails for the web. I am not really using rails,
+but many who use or used it found the DSL productive. Why would I have to 
+figure out what $@ is? I don't want to get stuck in the awfulness of shell script
+""logic"". (I can figure out that it appends that string onto something, probably 
+some local file, but I don't want to read thousands of lines with snoopy swearing
+like that.)
+
+> I've also been using a similar build system in bfs for a while, if you want to see a larger example.
+
+But what was bfs using before that? GNU configure, cmake, meson? All of them?
+
+The article is primarily about GNU configure I guess, so that's ok, but the article also
+mentions cmake and meson and points out that they are crap in regards to parallel
+compilation/installation. While that may be the case, I think it may have been better
+to explain these parts more; right now I am not sure cmake and meson have the
+same or similar problems as GNU configure has. There was a reason why KDE developers
+switched to cmake. Many others may have a similar reason and rationale. We should
+not have any illusion that GNU configure will be improved though - it reached its
+evolutionary dead end already years ago. (Both cmake and meson seem to evolve,
+though this creates problems; some projects can not be compiled without changes,
+e. g. now cmake version 4.x; I also had issues with meson not so long ago, some
+older projects no longer compile.)",2025-04-27T11:05:05Z,1,shevy-java,programming,2025-05-25T17:03:03.956845Z
+mp6zlc3,1k8hzcc,reddit,Pull requests are always welcome,2025-04-26T19:17:41Z,-1,SaltineAmerican_1970,programming,2025-05-25T17:03:03.956849Z
+mpsi0w8,1kb7bp2,reddit,"> The authors of this blog post are all developers of the ASD ecosystem in Julia. We use Julia for our demonstration since we are not aware of a similar ecosystem in Python or R.
+
+[Casadi](https://web.casadi.org/) has sparse AD and bindings for python and matlab. It was originally motivated by optimal control problems.",2025-04-30T05:05:12Z,2,redditusername58,programming,2025-05-25T17:03:04.872441Z
+mpsctwi,1kb7bp2,reddit,Very informative blogpost!,2025-04-30T04:24:51Z,1,Wonderful-Wind-5736,programming,2025-05-25T17:03:04.872445Z
+mqflxw3,1kb7bp2,reddit,"Man, I wonder how they generated this?  I really like this documentation.",2025-05-03T21:00:45Z,1,daidoji70,programming,2025-05-25T17:03:04.872447Z
+mt4xgu2,1kow0w7,reddit,"This author has some great texts and presentation on YT. But from time to time a clickbait text appears out of nowhere. This one is just like that.
+
+Taking an elite practice, that is used in minority of places, and calling it ""oversold"" at the very beginning already shown what the ""correct narrative"" will be.
+
+Couldn't it just be ""here are tradeoffs, and it won't work if..."" without the bias?
+
+PS. ""Branches"" and ""Feature branches"" are not the same concept. That's what people don't get in the DORA report.",2025-05-19T15:31:39Z,3,steve-7890,programming,2025-05-25T17:03:05.763625Z
+mst6rnk,1kow0w7,reddit,Link to my site https://trunkbaseddevelopment.com has an extraneous close parens.,2025-05-17T15:56:27Z,5,paul_h,programming,2025-05-25T17:03:05.763629Z
+mt3q6jd,1kow0w7,reddit,Good read. Totally agree.,2025-05-19T11:14:45Z,2,chrisza4,programming,2025-05-25T17:03:05.763631Z
+mrrldle,1kk2ue8,reddit,"Ran into this problem at work. Sent a while trying to prove out a system, but Honeycomb just doesn't support the stupid simple queries necessary. I just want joins, man.
+
+Ultimately the path forward would be to put it into Clickhouse, which seemed to have some nice native support for ingesting OTEL traces to do this? Not so much info though, last I checked. Except we didn't have support for Clickhouse.
+
+But might be doable with other DBs, too, tbh. Maybe even with that neat Postgres+DuckDB combo you're starting to see nowadays...
+
+Hmm, if I can grab some time, might try doing something with that at some point.",2025-05-11T15:55:28Z,7,Green0Photon,programming,2025-05-25T17:03:06.680409Z
+mrrgqe8,1kk2ue8,reddit,"I was wondering something similar lately:
+
+What if I stored traces inside my real database, and enjoyed joins and what not? Traces being normalised and having foreign keys, that would be nice.
+
+I believe that it wouldn’t work that well with a normal relational database because its load would be heavily impacting user performance. I don’t believe having to use non-relational databases would be great.
+
+But traces are more and more important lately, and with AI systems that would love to feed on such data, I d welcome feedbacks",2025-05-11T15:30:42Z,5,Merry-Lane,programming,2025-05-25T17:03:06.680415Z
+mu3d24j,1kk2ue8,reddit,"Ah, the dream of using relational databases for trace data – like a toddler trying to fit a square peg into a round hole. Tried it myself and almost drowned in the sea of write throughput bottlenecks and indexing nightmares. Using Postgres for trace data was like hosting a marathon in a broom closet; everything jammed up, and no one got to the finish line.
+
+Something I found useful though, is checking out solutions like ClickHouse for handling bulk writes or even time-series databases like InfluxDB for that sweet, sweet append-only setup. And, if you're keen on integrating with other data, DreamFactory helps automate API generation for smoother data handling. The right tool can feel like finally finding your car keys after searching for hours.",2025-05-25T00:10:24Z,1,Known_Anywhere3954,programming,2025-05-25T17:03:06.680419Z
+mrs1ejp,1kk2ue8,reddit,"What does it even mean to do cross queries on metrics and logs exactly? Metric are aggregated on a 30sec interval, logs are accurate at the ms.",2025-05-11T17:20:20Z,0,Brilliant-Sky2969,programming,2025-05-25T17:03:06.680423Z
+mpc53zt,1k8a6ri,reddit,"Please don't abbreviate C Language as ""Clang""",2025-04-27T16:40:53Z,20,KrazyKirby99999,programming,2025-05-25T17:03:07.620634Z
+mpbpqv2,1k8a6ri,reddit,Umm so basically use interface pattern? ,2025-04-27T15:21:15Z,15,dragneelfps,programming,2025-05-25T17:03:07.620646Z
+mp78dig,1k8a6ri,reddit,[deleted],2025-04-26T20:06:19Z,-25,N/A,programming,2025-05-25T17:03:07.620654Z
+mu3vxbd,1kugj8s,reddit,"`select tech_stack from jobs where is_remote = 1 sort_by pay desc limit 5`
+
+The other side of the tech stack selection coin 👆
+
+Great article :-)",2025-05-25T02:13:56Z,14,amirrajan,programming,2025-05-25T17:03:08.544773Z
+mu1pvgm,1kugj8s,reddit,Can't choose what doesn't exist.,2025-05-24T18:20:11Z,23,BlueGoliath,programming,2025-05-25T17:03:08.544777Z
+mu2lazu,1kugj8s,reddit,"Notice the intellectually dishonesty in the article. Choosing the ""Obscure Thing"" is ipso facto wrong because if the ""Popular Thing"" got where it is, it must have been because it's better in all possible dimensions. Therefore, choosing the ""Obscure Thing"" must have been on purely aesthetical grounds hence utterly foolish but Mr. Borretti, in all his magnanimacy and from the heights of his superior intellect, will condescend to allow it.",2025-05-24T21:18:27Z,0,sionescu,programming,2025-05-25T17:03:08.544779Z
+mr5e3y7,1kh1od4,reddit,"I like the article, it is concise and without b******t, but I have some ""but""s,
+
+I think Ad-hoc section should be much more extended. Type classes found in functional languages are far more powerful than just `it is just the same function name for different arguments`
+
+I also lack description of Smalltalk/Objective-C type of messaging/runtime polymorphism. It is for sure an interesting idea to mention as most people never dealt with such a way of desiging a project",2025-05-07T22:44:43Z,8,Revolutionary_Ad7262,programming,2025-05-25T17:03:09.758748Z
+mrle07k,1kh1od4,reddit,"I'm pretty sure parametric polymorphism is different from the static monomorphism seen in C++ Templates and Rust. 
+
+For example, if you were to have an identity function value `id` that is generic over some type T, then that value can _only_ accept values of a single type. You can't call `id(5)` and also `id(""hello"")` if `id` is a generic function value (note that I'm not saying function, I'm saying function value because it has been instantiated with a specific type). This is how it is done in Rust, and I'm pretty sure that's how it is done in C++ as well.
+
+This is as opposed to functional languages like OCaml where you can do this, and that is what parametric polymorphism actually allows.",2025-05-10T14:30:34Z,2,xSUNiMODx,programming,2025-05-25T17:03:09.758761Z
+mr8g1kk,1kh1od4,reddit,Polypolymorphism,2025-05-08T12:32:05Z,2,Full-Spectral,programming,2025-05-25T17:03:09.758769Z
+mr6shac,1kh1od4,reddit,"> Ad-hoc Polymorphism (Overloading)
+
+Yeah... absolutely not.
+
+Overloading is static polymorphism.
+
+Ad hoc polymorphism is runtime.
+
+Author of the article should go back and do more reading.",2025-05-08T03:45:09Z,1,devraj7,programming,2025-05-25T17:03:09.758777Z
+mr3p63t,1kh1od4,reddit,"> ""Templates in C++ in the 1990s brought parametric polymorphism to the mainstream.""
+
+Parametric polymorphism was available in MacLisp derived Lisp's by the early 1980s as the '[Flavors](http://www.softwarepreservation.org/projects/LISP/MIT/nnnfla1-20040122.pdf)'  object oriented extension.  The Flavors OOP model was later incorporated into [CommonLopps](https://en.m.wikipedia.org/wiki/CommonLoops) and then Common Lisp's [CLOS](https://en.m.wikipedia.org/wiki/Common_Lisp_Object_System) system and by extension it's [meta object protocol](https://en.m.wikipedia.org/wiki/The_Art_of_the_Metaobject_Protocol), which unlike Smalltalk's allowed more than one superclass.  
+
+So, Parametric Polymorphism with multiple superclass inheritance scheme's was first developed and implemented in MacLisp derived Lisp's as early as 1980 and was integrated into the proposed proposed Common Lisp  ANSI Standard by as early as 1985.  At that time, MacLisp derived Lisp's were absolutely mainstream and both their language implementations and the hardware and operating systems that supported them were considered state of the art.  
+
+It's patently ridiculous to claim that C++ brought Parametric Polymorphism to the mainstream in the early 1990s.  Although first released to public in 1985, Stroustrup's C++ wasn't a standardized programming language until 1998. C++ 2.0 wasn't released until 1989, and it wasn't until that time that features multiple inheritance, abstract classes, static member functions, const member functions, and protected members which could effectively accommodate a Parametric Polymorphism became available to C++ programmers. 
+
+Likewise, it wasn't until 1990 that The Annotated C++ Reference Manual was published. This manual went on to become the basis for the 1998 C++ Standard.  By contrast, Common Lisp's first manual Common Lisp the Language (CLTL1) was published in 1994 and a second version  (CLTL2) was published in 1990. The first manual became the basis for the Common Lisp ANSI Standard, while the second updated the manual to incorporate changes made to the language by the standards process.  
+
+IOW, the mechanics and protocols for Common Lisp's Parametric Polymorphism were in full effect and up and running on installations (at least in prototypical form) as early as 1982 roughly 3-4 years prior to the first release of Stroustrup's C++, and with a documented and published manual of use and implementation available for public dissemination 5  full years before the equivalent C++ manual.
+
+ While history has indeed shown that manually memory managed strongly and statically typed languages like C and C++ were better suited to Intel's x86 architecture and Bell Labs UNIX OS design, it is nonetheless incredibly short sighted and revisionist to claim that C++ brought Parametric Polymorphism to mainstream programming.  Had Intel not built much of its early chip architectures to favor C style languages, and had UNIX not gained as much early traction in Academic Computing and CompSci research labs, it is highly doubtful that C++ and by extension it's particularly hamstrung and poorly conceived version of Parametric Polymorphism.  
+
+It's unfortunate that C++ fanbois and the under informed are largely unaware of the existence a more powerful and altogether  better designed system and protocol for Parametric Polymorphism exists and existed outside the confines of the C++ echo chamber.  Likewise, it's incredibly sad and dismaying to consider the sheer number of later programming languages that were designed subsequent to the advent of C++ which sought to mimic and/or reproduce aspects of it's Parametric Polymorphism without seemingly any awareness, knowledge, experience, or understanding that their exists and existed a strongly typed dynamic multi-paradigm programming language (ie Common Lisp) that can execute quite performant native compiled object code inside a garbage collected runtime with a relatively small memory and heap footprint.  See for example a contemporary FOSS Common Lisp implementation like [SBCL](https://www.sbcl.org) for more details. 
+
+The current state of programming and programming languages and programming language design would likely look very different if compsci people, software engineers, programmers, and devs weren't so myopically focused on C++ as the metric for what constitutes a well designed, performant, and 'safe' language. Likewise, the history and narrative around of the implementation and adoption of important and significant programming language designs and features would benefit from some sanity and sanitization around the overemphasis and over focus on a very particular bent and approach to static typing, type safety and memory management vis a vis C/C++ ... there's a reason we in the programming and compsci fields find ourselves rethinking the over reliance on C oriented and C focused hardware and OS designs that have allowed for some pretty hairy security problems that left unchecked have the potential to undo civilization as we know it given the right circumstances.  
+
+For my part, I'd love to see a return to a focus on
+building a security oriented strongly _and_ dynamically typed compiled multi paradigm'd systems programming language with a garbage collected memory model and runtime.  I'm not at all convinced that Common Lisp is such a beast, but it gets mighty close, and quite a bit closer than pretty much any other programming language in active use.  Realistically, some modern version of Dylan (ideally with it's original Sexp based syntax) is probably the best example of the way forward. And I'd be willing to wager that 15-20 years from now we're just as likely to see a language like Dylan as the userland programming language and ABI of choice to the underlying metal as we are to see a language like Rust occupying that role.",2025-05-07T17:44:03Z,-11,church-rosser,programming,2025-05-25T17:03:09.758784Z
+mqd4myn,1kdsd6l,reddit,"The old OSSRH publishing method will [die this summer (June 30th, 2025)](https://central.sonatype.org/news/20250326_ossrh_sunset/).",2025-05-03T13:00:28Z,6,jskovmadadk,programming,2025-05-25T17:03:10.683714Z
+mqe4wad,1kdsd6l,reddit,"For a normal user, the important part is they must use central-publishing-maven-plugin to deploy artifacts.
+
+Documentation is in https://central.sonatype.org/publish/publish-portal-maven/#automatic-publishing",2025-05-03T16:20:25Z,7,Pote-Pote-Pote,programming,2025-05-25T17:03:10.683720Z
+mqeum9l,1kdsd6l,reddit,"So, what does this announcement actually mean?
+
+From past experience, I know that reading their documentation is completely pointless because it seems to be written by Sonatype employees for Sonatype employees and famously does not answer any relevant question outsiders may have.
+
+(Yes, it's a free service, but I'm still annoyed by the `s01.oss.sonatype.org` vs. `oss.sonatype.org` thing.)",2025-05-03T18:31:21Z,4,simon_o,programming,2025-05-25T17:03:10.683724Z
+mphpd79,1k9ojxb,reddit,I love that Weissteiner et al. successfully replicated the fnords. Finally.,2025-04-28T14:51:26Z,1,notfancy,programming,2025-05-25T17:03:11.560222Z
+mpmqyd7,1k9ojxb,reddit,These are all fantastic. Much love to the authors!,2025-04-29T09:33:40Z,1,IanAKemp,programming,2025-05-25T17:03:11.560226Z
+mticruk,1kryqpt,reddit,"I recently fell out of my chair when someone replied to my comment about leetcode being rote learning, saying I was dead wrong. Their argument was leetcode was a display of intelligence.
+
+I'm loving that LLMs are killing the market for rote learning fools.",2025-05-21T17:37:40Z,9,LessonStudio,programming,2025-05-25T17:03:12.685073Z
+mt93f64,1kqng5j,reddit,"Hol up
+
+
+> The way that we tackled this in Hatchet is to add a set of very lightweight, in-memory buffers which flush an array of tasks to the database with the following properties:
+The buffer has reached its flush interval , or
+If the buffer has reached its maximum size , it blocks writes until the buffer has been flushed, to properly exert backpressure on the application.
+
+
+Are we really just going to hand wave away the fact that you no longer have ACID guarantees on the message queue, and have also turned your stateless application service into a stateful service?
+
+
+If you were willing to sacrifice durability, why use postgres in the first place and not just e.g. Redis? I feel like this architecture invalidates the entire premise that postgres is a reasonable choice at scale.",2025-05-20T06:01:09Z,40,zjm555,programming,2025-05-25T17:03:13.600626Z
+mt7zrp2,1kqng5j,reddit,"Your main optimization completely changes the consistency model, and you never touch on that fact.
+
+You are trading durability for throughput by letting writers move on after pushing to the buffer, instead of having writers wait to receive ACK that their writes succeeded. If the process fails, buffered writes are dropped.
+
+It is very important to acknowledge the trade-offs you are making.
+
+Cool to see COPY in there, though. I didn't know about that.",2025-05-20T01:10:00Z,43,IsleOfOne,programming,2025-05-25T17:03:13.600631Z
+mt6y64v,1kqng5j,reddit,Great article. Some real usable examples and nice benchmarks.,2025-05-19T21:30:10Z,1,Sea-Commission1399,programming,2025-05-25T17:03:13.600634Z
+mro9bsn,1kjc9g8,reddit,"Learning Gradle gave me depression. God what an overcomplicated tool.
+
+Pretty powerful once you learn it though.",2025-05-11T00:27:48Z,15,larikang,programming,2025-05-25T17:03:14.597061Z
+mrn903v,1kjc9g8,reddit,"I've always enjoyed the Java language but despised the build tooling so this is right up my alley. People have been using Maven and Gradle for so long that they just accept the quirks but practically speaking the dev experience is pretty terrible between both of them. Slow, unintuitive and hard to work with. The [Mill build tool](https://mill-build.org/mill/comparisons/maven.html) discussed in this video sounds promising!",2025-05-10T20:42:45Z,27,ejfrodo,programming,2025-05-25T17:03:14.597065Z
+mrnib5p,1kjc9g8,reddit,"I'd say they couldn't be much worse, so yes, anything would be an improvement.",2025-05-10T21:37:15Z,6,Atulin,programming,2025-05-25T17:03:14.597067Z
+mrnexx5,1kjc9g8,reddit,"Loved the fact you're trying to build a new tool. 
+
+Can the scripts be written in java too?
+
+Might be a stupid question to ask, but I wanted to be sure.",2025-05-10T21:17:00Z,1,neopointer,programming,2025-05-25T17:03:14.597071Z
+mrpl1w8,1kjc9g8,reddit,"For smaller projects,  [jbang](https://www.jbang.dev/) works pretty well. Config like dependencies and resources are all defined in the source files themselves. It's pretty opinionated though, so migrating existing maven-like code to it would be very hard.",2025-05-11T06:25:22Z,1,kitd,programming,2025-05-25T17:03:14.597073Z
+mrr4h84,1kjc9g8,reddit,"I'm curious what people that have worked with very many build tools think which languages have gotten it right? I'm only familiar with maven, Gradle, npm and poetry. I don't think any of them are great.",2025-05-11T14:24:52Z,1,Empanatacion,programming,2025-05-25T17:03:14.597076Z
+mrw2gfy,1kjc9g8,reddit,"Yeah, it could...",2025-05-12T10:26:58Z,1,yektadev,programming,2025-05-25T17:03:14.597078Z
+mrq0kqu,1kjc9g8,reddit,"The javac example is cute, but obtuse for the sake of joke, and it's a result of large projects, and you'd be passing in wildcards in regular projects.
+
+Why is maven single module slower than javac? Maven checks your dependency tree, and has to figure out that classpath. You're not comparing the same things - really, you should be comparing maven compiler plugin (which is a wrapper around javac) to javac. 
+
+It's nice that you addressed mvnd question. 
+
+Looking at mill  you seem to fall for the same problem that gradle does, where you have some functions that configure the project, and there's not much way to figure out what is invoked when.
+
+I'd really like to see this done with maven 4",2025-05-11T09:06:22Z,1,Worth_Trust_3825,programming,2025-05-25T17:03:14.597080Z
+mrlp1ub,1kjc9g8,reddit,"___Java___ ~~tooling~~ could be so much better
+
+^ Fixed that for you OP.",2025-05-10T15:31:34Z,-37,church-rosser,programming,2025-05-25T17:03:14.597083Z
+mred62w,1kie3u9,reddit,Oooh I like this. I have used R for alot of Remote Sensing before and it was awful. Any improvement on this is appreciated ,2025-05-09T10:53:34Z,12,Meistermagier,programming,2025-05-25T17:03:15.530823Z
+mrn0pnt,1kie3u9,reddit,R has its usecases. I support anything that aims to make it better.,2025-05-10T19:55:37Z,3,CoroteDeMelancia,programming,2025-05-25T17:03:15.530835Z
+mreh372,1kie3u9,reddit,The hubris of mankind truly has no bounds.,2025-05-09T11:24:32Z,5,hetero-scedastic,programming,2025-05-25T17:03:15.530843Z
+mrbjy85,1khx9ke,reddit,AIO support is great news,2025-05-08T21:56:18Z,2,Pheasn,programming,2025-05-25T17:03:16.430666Z
+mqqgdjb,1kfbtib,reddit,"Good article about the nature of shutdown and signals, but I don’t love the concept of “graceful shutdown”. Life is uncertain. Machines can die. Power lines can fail. Meteors can strike. A SIGKILL can be sent at any time. Why design your programs so they’re only correct when everything works well and everyone is polite?",2025-05-05T16:50:45Z,-12,lord_braleigh,programming,2025-05-25T17:03:17.362839Z

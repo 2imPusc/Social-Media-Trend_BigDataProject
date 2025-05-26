@@ -1,6 +1,18 @@
 - Chay spark_batch
 spark-submit --packages org.elasticsearch:elasticsearch-spark-30_2.12:8.14.1 /opt/bitnami/spark/apps/spark_batch.py
 
-spark-submit --packages org.elasticsearch:elasticsearch-spark-30_2.12:8.14.1 /opt/bitnami/spark/apps/spark_ml.py
+- chay reddit_streaming
+spark-submit --packages org.elasticsearch:elasticsearch-spark-30_2.12:8.14.1,org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.3,com.johnsnowlabs.nlp:spark-nlp_2.12:4.4.0 /opt/bitnami/spark/apps/reddit_streaming.py
+spark-submit /opt/bitnami/spark/apps/reddit_streaming.py
 
-spark-submit --packages org.elasticsearch:elasticsearch-spark-30_2.12:8.14.1,org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.3 /opt/bitnami/spark/apps/spark_streaming.py
+# kafka
+
+kafka-topics --list --bootstrap-server localhost:9092
+
+kafka-topics --create \
+  --bootstrap-server localhost:9092 \
+  --replication-factor 1 \
+  --partitions 1 \
+  --topic reddit_stream
+
+kafka-console-consumer --bootstrap-server localhost:9092 --topic reddit_stream --from-beginning
