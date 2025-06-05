@@ -7,6 +7,8 @@ myenv/
 __pycache__/
 *.pyo
 
+/crawler/Data/
+
 # IDE specific files
 .idea/
 .vscode/
