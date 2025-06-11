@@ -5,6 +5,9 @@ spark-submit --packages org.elasticsearch:elasticsearch-spark-30_2.12:8.14.1 /op
 spark-submit --packages org.elasticsearch:elasticsearch-spark-30_2.12:8.14.1,org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.3,com.johnsnowlabs.nlp:spark-nlp_2.12:4.4.0 /opt/bitnami/spark/apps/reddit_streaming.py
 spark-submit /opt/bitnami/spark/apps/reddit_streaming.py
 
+spark-submit /opt/bitnami/spark/apps/reddit_stream_processing.py
+
+
 spark-submit /opt/bitnami/spark/apps/reddit_batch.py
 
 spark-submit /opt/bitnami/spark/apps/speed_layer.py
@@ -19,4 +22,4 @@ kafka-topics --create \
   --partitions 1 \
   --topic reddit_stream
 
-kafka-console-consumer --bootstrap-server localhost:9092 --topic reddit_stream --from-beginning
+kafka-console-consumer --bootstrap-server localhost:9092 --topic reddit_stream
