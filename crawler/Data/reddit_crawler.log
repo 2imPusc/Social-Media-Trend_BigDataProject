@@ -5247,3 +5247,1116 @@ HOÀN TẤT THU THẬP DỮ LIỆU: 2025-05-28 12:34:09
 2025-06-04 11:29:19,280 - API còn lại: 317.0 yêu cầu, reset sau 0.70 phút
 2025-06-04 11:29:38,195 - API còn lại: 299.0 yêu cầu, reset sau 0.42 phút
 2025-06-04 11:30:12,374 - API còn lại: 986.0 yêu cầu, reset sau 9.78 phút
+2025-06-06 09:08:31,729 - BẮT ĐẦU THU THẬP DỮ LIỆU: 2025-06-06 09:08:31
+2025-06-06 09:08:31,729 - 
+--- LĨNH VỰC: Technology ---
+2025-06-06 09:08:31,730 - Đang thu thập từ r/technology... (Lần thử 1)
+2025-06-06 09:08:31,730 - Đang thu thập từ r/gadgets... (Lần thử 1)
+2025-06-06 09:08:31,832 - Retrying due to ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))) status: GET https://oauth.reddit.com/r/gadgets/top
+2025-06-06 09:08:34,046 - API còn lại: 999.0 yêu cầu, reset sau 1.45 phút
+2025-06-06 09:08:35,298 - API còn lại: 998.0 yêu cầu, reset sau 1.43 phút
+2025-06-06 09:10:43,161 - API còn lại: 970.0 yêu cầu, reset sau 9.28 phút
+2025-06-06 09:11:49,695 - Đã lưu 100 bản ghi vào Data/contents_20250606_091149.csv
+2025-06-06 09:11:53,987 - Đã đẩy Data/contents_20250606_091149.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_091149.csv
+2025-06-06 09:11:53,987 - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2025-06-06 09:11:53,988 - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2025-06-06 09:11:53,988 - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=host.docker.internal:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2025-06-06 09:11:54,036 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:11:54,059 - Đã lưu 3368 bản ghi vào Data/comments_20250606_091154.csv
+2025-06-06 09:11:56,985 - Đã đẩy Data/comments_20250606_091154.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_091154.csv
+2025-06-06 09:11:57,383 - Đã gửi 3368 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:11:57,383 - Đã thu thập 100 bài đăng từ r/gadgets
+2025-06-06 09:11:57,996 - API còn lại: 900.0 yêu cầu, reset sau 8.03 phút
+2025-06-06 09:12:05,945 - API còn lại: 894.0 yêu cầu, reset sau 7.95 phút
+2025-06-06 09:12:16,366 - Đã lưu 18 bản ghi vào Data/contents_20250606_091216.csv
+2025-06-06 09:12:20,030 - Đã đẩy Data/contents_20250606_091216.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_091216.csv
+2025-06-06 09:12:20,038 - Đã gửi 18 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:12:20,041 - Đã lưu 133 bản ghi vào Data/comments_20250606_091220.csv
+2025-06-06 09:12:24,426 - Đã đẩy Data/comments_20250606_091220.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_091220.csv
+2025-06-06 09:12:24,447 - Đã gửi 133 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:12:24,448 - Đã thu thập 18 bài đăng từ r/gadgets
+2025-06-06 09:12:24,448 - Đang thu thập từ r/programming... (Lần thử 1)
+2025-06-06 09:12:25,784 - API còn lại: 874.0 yêu cầu, reset sau 7.58 phút
+2025-06-06 09:14:18,829 - API còn lại: 793.0 yêu cầu, reset sau 5.68 phút
+2025-06-06 09:15:02,440 - Đã lưu 100 bản ghi vào Data/contents_20250606_091502.csv
+2025-06-06 09:15:05,442 - Đã đẩy Data/contents_20250606_091502.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_091502.csv
+2025-06-06 09:15:05,459 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:15:05,535 - Đã lưu 9060 bản ghi vào Data/comments_20250606_091505.csv
+2025-06-06 09:15:09,021 - Đã đẩy Data/comments_20250606_091505.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_091505.csv
+2025-06-06 09:15:10,748 - Đã gửi 9060 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:15:10,748 - Đã thu thập 100 bài đăng từ r/technology
+2025-06-06 09:15:12,559 - API còn lại: 740.0 yêu cầu, reset sau 4.82 phút
+2025-06-06 09:15:25,593 - Đã lưu 100 bản ghi vào Data/contents_20250606_091525.csv
+2025-06-06 09:15:28,253 - Đã đẩy Data/contents_20250606_091525.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_091525.csv
+2025-06-06 09:15:28,278 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:15:28,310 - Đã lưu 2308 bản ghi vào Data/comments_20250606_091528.csv
+2025-06-06 09:15:31,500 - Đã đẩy Data/comments_20250606_091528.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_091528.csv
+2025-06-06 09:15:31,912 - Đã gửi 2308 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:15:31,913 - Đã thu thập 100 bài đăng từ r/programming
+2025-06-06 09:15:33,276 - API còn lại: 721.0 yêu cầu, reset sau 4.45 phút
+2025-06-06 09:16:27,199 - API còn lại: 651.0 yêu cầu, reset sau 3.55 phút
+2025-06-06 09:17:20,423 - Đã lưu 100 bản ghi vào Data/contents_20250606_091720.csv
+2025-06-06 09:17:22,441 - Đã đẩy Data/contents_20250606_091720.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_091720.csv
+2025-06-06 09:17:22,453 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:17:22,460 - Đã lưu 479 bản ghi vào Data/comments_20250606_091722.csv
+2025-06-06 09:17:24,693 - Đã đẩy Data/comments_20250606_091722.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_091722.csv
+2025-06-06 09:17:24,744 - Đã gửi 479 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:17:24,744 - Đã thu thập 100 bài đăng từ r/programming
+2025-06-06 09:17:26,027 - API còn lại: 579.0 yêu cầu, reset sau 2.58 phút
+2025-06-06 09:17:33,507 - API còn lại: 572.0 yêu cầu, reset sau 2.48 phút
+2025-06-06 09:18:15,882 - API còn lại: 510.0 yêu cầu, reset sau 1.73 phút
+2025-06-06 09:19:06,577 - Đã lưu 100 bản ghi vào Data/contents_20250606_091906.csv
+2025-06-06 09:19:08,787 - Đã đẩy Data/contents_20250606_091906.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_091906.csv
+2025-06-06 09:19:08,838 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:19:08,842 - Đã lưu 191 bản ghi vào Data/comments_20250606_091908.csv
+2025-06-06 09:19:12,245 - Đã đẩy Data/comments_20250606_091908.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_091908.csv
+2025-06-06 09:19:12,274 - Đã gửi 191 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:19:12,274 - Đã thu thập 100 bài đăng từ r/programming
+2025-06-06 09:19:13,655 - API còn lại: 437.0 yêu cầu, reset sau 0.78 phút
+2025-06-06 09:19:45,812 - Đã lưu 100 bản ghi vào Data/contents_20250606_091945.csv
+2025-06-06 09:19:47,819 - Đã đẩy Data/contents_20250606_091945.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_091945.csv
+2025-06-06 09:19:47,868 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:19:47,908 - Đã lưu 6747 bản ghi vào Data/comments_20250606_091947.csv
+2025-06-06 09:19:50,007 - Đã đẩy Data/comments_20250606_091947.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_091947.csv
+2025-06-06 09:19:50,653 - Đã gửi 6747 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:19:50,653 - Đã thu thập 100 bài đăng từ r/technology
+2025-06-06 09:19:52,247 - API còn lại: 386.0 yêu cầu, reset sau 0.15 phút
+2025-06-06 09:20:01,660 - API còn lại: 997.0 yêu cầu, reset sau 9.97 phút
+2025-06-06 09:20:48,671 - Đã lưu 100 bản ghi vào Data/contents_20250606_092048.csv
+2025-06-06 09:20:50,597 - Đã đẩy Data/contents_20250606_092048.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_092048.csv
+2025-06-06 09:20:50,618 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:20:50,620 - Đã lưu 79 bản ghi vào Data/comments_20250606_092050.csv
+2025-06-06 09:20:52,720 - Đã đẩy Data/comments_20250606_092050.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_092050.csv
+2025-06-06 09:20:52,728 - Đã gửi 79 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:20:52,728 - Đã thu thập 100 bài đăng từ r/programming
+2025-06-06 09:20:54,081 - API còn lại: 924.0 yêu cầu, reset sau 9.12 phút
+2025-06-06 09:21:40,991 - API còn lại: 853.0 yêu cầu, reset sau 8.32 phút
+2025-06-06 09:21:46,962 - API còn lại: 845.0 yêu cầu, reset sau 8.23 phút
+2025-06-06 09:22:28,923 - Đã lưu 100 bản ghi vào Data/contents_20250606_092228.csv
+2025-06-06 09:22:30,903 - Đã đẩy Data/contents_20250606_092228.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_092228.csv
+2025-06-06 09:22:30,935 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:22:30,936 - Đã lưu 23 bản ghi vào Data/comments_20250606_092230.csv
+2025-06-06 09:22:33,243 - Đã đẩy Data/comments_20250606_092230.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_092230.csv
+2025-06-06 09:22:33,248 - Đã gửi 23 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:22:33,248 - Đã thu thập 100 bài đăng từ r/programming
+2025-06-06 09:22:34,658 - API còn lại: 779.0 yêu cầu, reset sau 7.43 phút
+2025-06-06 09:23:20,650 - API còn lại: 709.0 yêu cầu, reset sau 6.65 phút
+2025-06-06 09:23:40,423 - Đã lưu 100 bản ghi vào Data/contents_20250606_092340.csv
+2025-06-06 09:23:43,435 - Đã đẩy Data/contents_20250606_092340.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_092340.csv
+2025-06-06 09:23:43,454 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:23:43,497 - Đã lưu 5052 bản ghi vào Data/comments_20250606_092343.csv
+2025-06-06 09:23:46,841 - Đã đẩy Data/comments_20250606_092343.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_092343.csv
+2025-06-06 09:23:47,514 - Đã gửi 5052 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:23:47,515 - Đã thu thập 100 bài đăng từ r/technology
+2025-06-06 09:23:49,380 - API còn lại: 670.0 yêu cầu, reset sau 6.20 phút
+2025-06-06 09:24:07,974 - Đã lưu 100 bản ghi vào Data/contents_20250606_092407.csv
+2025-06-06 09:24:10,933 - Đã đẩy Data/contents_20250606_092407.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_092407.csv
+2025-06-06 09:24:10,956 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:24:10,957 - Đã lưu 32 bản ghi vào Data/comments_20250606_092410.csv
+2025-06-06 09:24:14,013 - Đã đẩy Data/comments_20250606_092410.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_092410.csv
+2025-06-06 09:24:14,019 - Đã gửi 32 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:24:14,019 - Đã thu thập 100 bài đăng từ r/programming
+2025-06-06 09:24:15,741 - API còn lại: 635.0 yêu cầu, reset sau 5.75 phút
+2025-06-06 09:25:01,880 - API còn lại: 559.0 yêu cầu, reset sau 4.97 phút
+2025-06-06 09:25:24,992 - API còn lại: 524.0 yêu cầu, reset sau 4.62 phút
+2025-06-06 09:25:47,789 - Đã lưu 100 bản ghi vào Data/contents_20250606_092547.csv
+2025-06-06 09:25:50,336 - Đã đẩy Data/contents_20250606_092547.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_092547.csv
+2025-06-06 09:25:50,357 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:25:50,359 - Đã lưu 53 bản ghi vào Data/comments_20250606_092550.csv
+2025-06-06 09:25:53,903 - Đã đẩy Data/comments_20250606_092550.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_092550.csv
+2025-06-06 09:25:53,911 - Đã gửi 53 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:25:53,911 - Đã thu thập 100 bài đăng từ r/programming
+2025-06-06 09:25:55,242 - API còn lại: 482.0 yêu cầu, reset sau 4.08 phút
+2025-06-06 09:26:42,995 - API còn lại: 411.0 yêu cầu, reset sau 3.28 phút
+2025-06-06 09:27:07,240 - Đã lưu 100 bản ghi vào Data/contents_20250606_092707.csv
+2025-06-06 09:27:10,163 - Đã đẩy Data/contents_20250606_092707.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_092707.csv
+2025-06-06 09:27:10,180 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:27:10,222 - Đã lưu 4294 bản ghi vào Data/comments_20250606_092710.csv
+2025-06-06 09:27:13,402 - Đã đẩy Data/comments_20250606_092710.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_092710.csv
+2025-06-06 09:27:13,896 - Đã gửi 4294 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:27:13,896 - Đã thu thập 100 bài đăng từ r/technology
+2025-06-06 09:27:15,644 - API còn lại: 362.0 yêu cầu, reset sau 2.75 phút
+2025-06-06 09:27:29,481 - Đã lưu 100 bản ghi vào Data/contents_20250606_092729.csv
+2025-06-06 09:27:32,292 - Đã đẩy Data/contents_20250606_092729.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_092729.csv
+2025-06-06 09:27:32,315 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:27:32,317 - Đã lưu 108 bản ghi vào Data/comments_20250606_092732.csv
+2025-06-06 09:27:35,695 - Đã đẩy Data/comments_20250606_092732.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_092732.csv
+2025-06-06 09:27:35,711 - Đã gửi 108 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:27:35,711 - Đã thu thập 100 bài đăng từ r/programming
+2025-06-06 09:27:37,030 - API còn lại: 333.0 yêu cầu, reset sau 2.40 phút
+2025-06-06 09:28:24,404 - API còn lại: 253.0 yêu cầu, reset sau 1.58 phút
+2025-06-06 09:28:37,067 - API còn lại: 232.0 yêu cầu, reset sau 1.38 phút
+2025-06-06 09:29:12,880 - Đã lưu 100 bản ghi vào Data/contents_20250606_092912.csv
+2025-06-06 09:29:15,927 - Đã đẩy Data/contents_20250606_092912.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_092912.csv
+2025-06-06 09:29:15,944 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:29:15,948 - Đã lưu 215 bản ghi vào Data/comments_20250606_092915.csv
+2025-06-06 09:29:19,097 - Đã đẩy Data/comments_20250606_092915.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_092915.csv
+2025-06-06 09:29:19,129 - Đã gửi 215 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:29:19,129 - Đã thu thập 100 bài đăng từ r/programming
+2025-06-06 09:29:20,589 - API còn lại: 165.0 yêu cầu, reset sau 0.67 phút
+2025-06-06 09:29:58,066 - Đã lưu 100 bản ghi vào Data/contents_20250606_092958.csv
+2025-06-06 09:30:01,118 - Đã đẩy Data/contents_20250606_092958.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_092958.csv
+2025-06-06 09:30:01,137 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:30:01,163 - Đã lưu 2755 bản ghi vào Data/comments_20250606_093001.csv
+2025-06-06 09:30:04,476 - Đã đẩy Data/comments_20250606_093001.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_093001.csv
+2025-06-06 09:30:04,767 - Đã gửi 2755 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:30:04,767 - Đã thu thập 100 bài đăng từ r/technology
+2025-06-06 09:30:06,473 - API còn lại: 994.0 yêu cầu, reset sau 9.92 phút
+2025-06-06 09:30:09,838 - API còn lại: 987.0 yêu cầu, reset sau 9.83 phút
+2025-06-06 09:30:46,726 - Đã lưu 87 bản ghi vào Data/contents_20250606_093046.csv
+2025-06-06 09:30:49,679 - Đã đẩy Data/contents_20250606_093046.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_093046.csv
+2025-06-06 09:30:49,728 - Đã gửi 87 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:30:49,731 - Đã lưu 300 bản ghi vào Data/comments_20250606_093049.csv
+2025-06-06 09:30:52,914 - Đã đẩy Data/comments_20250606_093049.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_093049.csv
+2025-06-06 09:30:52,975 - Đã gửi 300 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:30:52,975 - Đã thu thập 87 bài đăng từ r/programming
+2025-06-06 09:30:52,975 - Đang thu thập từ r/science... (Lần thử 1)
+2025-06-06 09:30:54,695 - API còn lại: 921.0 yêu cầu, reset sau 9.10 phút
+2025-06-06 09:31:25,449 - API còn lại: 893.0 yêu cầu, reset sau 8.57 phút
+2025-06-06 09:32:40,369 - Đã lưu 100 bản ghi vào Data/contents_20250606_093240.csv
+2025-06-06 09:32:43,376 - Đã đẩy Data/contents_20250606_093240.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_093240.csv
+2025-06-06 09:32:43,390 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:32:43,407 - Đã lưu 2365 bản ghi vào Data/comments_20250606_093243.csv
+2025-06-06 09:32:46,493 - Đã đẩy Data/comments_20250606_093243.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_093243.csv
+2025-06-06 09:32:46,734 - Đã gửi 2365 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:32:46,734 - Đã thu thập 100 bài đăng từ r/technology
+2025-06-06 09:32:48,666 - API còn lại: 818.0 yêu cầu, reset sau 7.22 phút
+2025-06-06 09:33:38,534 - API còn lại: 765.0 yêu cầu, reset sau 6.37 phút
+2025-06-06 09:33:57,883 - API còn lại: 741.0 yêu cầu, reset sau 6.03 phút
+2025-06-06 09:35:02,265 - Đã lưu 100 bản ghi vào Data/contents_20250606_093502.csv
+2025-06-06 09:35:05,219 - Đã đẩy Data/contents_20250606_093502.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_093502.csv
+2025-06-06 09:35:05,236 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:35:05,258 - Đã lưu 1579 bản ghi vào Data/comments_20250606_093505.csv
+2025-06-06 09:35:08,242 - Đã đẩy Data/comments_20250606_093505.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_093505.csv
+2025-06-06 09:35:08,394 - Đã gửi 1579 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:35:08,394 - Đã thu thập 100 bài đăng từ r/technology
+2025-06-06 09:35:10,350 - API còn lại: 657.0 yêu cầu, reset sau 4.85 phút
+2025-06-06 09:35:23,082 - Đã lưu 100 bản ghi vào Data/contents_20250606_093523.csv
+2025-06-06 09:35:25,902 - Đã đẩy Data/contents_20250606_093523.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_093523.csv
+2025-06-06 09:35:25,919 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:35:25,964 - Đã lưu 5329 bản ghi vào Data/comments_20250606_093525.csv
+2025-06-06 09:35:28,902 - Đã đẩy Data/comments_20250606_093525.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_093525.csv
+2025-06-06 09:35:29,703 - Đã gửi 5329 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:35:29,704 - Đã thu thập 100 bài đăng từ r/science
+2025-06-06 09:35:31,199 - API còn lại: 632.0 yêu cầu, reset sau 4.50 phút
+2025-06-06 09:36:14,180 - API còn lại: 574.0 yêu cầu, reset sau 3.77 phút
+2025-06-06 09:36:59,568 - API còn lại: 510.0 yêu cầu, reset sau 3.00 phút
+2025-06-06 09:37:13,522 - Đã lưu 100 bản ghi vào Data/contents_20250606_093713.csv
+2025-06-06 09:37:16,510 - Đã đẩy Data/contents_20250606_093713.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_093713.csv
+2025-06-06 09:37:16,525 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:37:16,534 - Đã lưu 1190 bản ghi vào Data/comments_20250606_093716.csv
+2025-06-06 09:37:19,567 - Đã đẩy Data/comments_20250606_093716.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_093716.csv
+2025-06-06 09:37:19,696 - Đã gửi 1190 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:37:19,696 - Đã thu thập 100 bài đăng từ r/technology
+2025-06-06 09:37:21,470 - API còn lại: 486.0 yêu cầu, reset sau 2.67 phút
+2025-06-06 09:38:17,682 - API còn lại: 398.0 yêu cầu, reset sau 1.70 phút
+2025-06-06 09:38:18,227 - Đã lưu 100 bản ghi vào Data/contents_20250606_093818.csv
+2025-06-06 09:38:21,909 - Đã đẩy Data/contents_20250606_093818.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_093818.csv
+2025-06-06 09:38:21,928 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:38:21,957 - Đã lưu 2056 bản ghi vào Data/comments_20250606_093821.csv
+2025-06-06 09:38:25,720 - Đã đẩy Data/comments_20250606_093821.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_093821.csv
+2025-06-06 09:38:26,097 - Đã gửi 2056 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:38:26,097 - Đã thu thập 100 bài đăng từ r/science
+2025-06-06 09:38:27,774 - API còn lại: 388.0 yêu cầu, reset sau 1.55 phút
+2025-06-06 09:39:13,284 - Đã lưu 100 bản ghi vào Data/contents_20250606_093913.csv
+2025-06-06 09:39:15,213 - Đã đẩy Data/contents_20250606_093913.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_093913.csv
+2025-06-06 09:39:15,225 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:39:15,232 - Đã lưu 909 bản ghi vào Data/comments_20250606_093915.csv
+2025-06-06 09:39:17,233 - Đã đẩy Data/comments_20250606_093915.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_093915.csv
+2025-06-06 09:39:17,474 - Đã gửi 909 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:39:17,474 - Đã thu thập 100 bài đăng từ r/technology
+2025-06-06 09:39:19,020 - API còn lại: 309.0 yêu cầu, reset sau 0.70 phút
+2025-06-06 09:39:34,395 - API còn lại: 280.0 yêu cầu, reset sau 0.43 phút
+2025-06-06 09:40:12,138 - API còn lại: 980.0 yêu cầu, reset sau 9.80 phút
+2025-06-06 09:40:36,973 - Đã lưu 100 bản ghi vào Data/contents_20250606_094036.csv
+2025-06-06 09:40:39,158 - Đã đẩy Data/contents_20250606_094036.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_094036.csv
+2025-06-06 09:40:39,169 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:40:39,179 - Đã lưu 1086 bản ghi vào Data/comments_20250606_094039.csv
+2025-06-06 09:40:41,232 - Đã đẩy Data/comments_20250606_094039.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_094039.csv
+2025-06-06 09:40:41,355 - Đã gửi 1086 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:40:41,356 - Đã thu thập 100 bài đăng từ r/science
+2025-06-06 09:40:43,061 - API còn lại: 932.0 yêu cầu, reset sau 9.30 phút
+2025-06-06 09:41:05,567 - Đã lưu 100 bản ghi vào Data/contents_20250606_094105.csv
+2025-06-06 09:41:07,618 - Đã đẩy Data/contents_20250606_094105.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_094105.csv
+2025-06-06 09:41:07,665 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:41:07,671 - Đã lưu 699 bản ghi vào Data/comments_20250606_094107.csv
+2025-06-06 09:41:09,648 - Đã đẩy Data/comments_20250606_094107.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_094107.csv
+2025-06-06 09:41:09,842 - Đã gửi 699 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:41:09,842 - Đã thu thập 100 bài đăng từ r/technology
+2025-06-06 09:41:10,207 - Đang thu thập từ r/todayilearned... (Lần thử 1)
+2025-06-06 09:41:11,900 - API còn lại: 883.0 yêu cầu, reset sau 8.82 phút
+2025-06-06 09:41:37,363 - API còn lại: 851.0 yêu cầu, reset sau 8.38 phút
+2025-06-06 09:42:26,715 - Đã lưu 100 bản ghi vào Data/contents_20250606_094226.csv
+2025-06-06 09:42:28,927 - Đã đẩy Data/contents_20250606_094226.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_094226.csv
+2025-06-06 09:42:28,980 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:42:28,994 - Đã lưu 546 bản ghi vào Data/comments_20250606_094228.csv
+2025-06-06 09:42:31,683 - Đã đẩy Data/comments_20250606_094228.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_094228.csv
+2025-06-06 09:42:31,784 - Đã gửi 546 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:42:31,784 - Đã thu thập 100 bài đăng từ r/science
+2025-06-06 09:42:33,341 - API còn lại: 786.0 yêu cầu, reset sau 7.47 phút
+2025-06-06 09:43:20,818 - API còn lại: 725.0 yêu cầu, reset sau 6.65 phút
+2025-06-06 09:44:08,817 - Đã lưu 100 bản ghi vào Data/contents_20250606_094408.csv
+2025-06-06 09:44:10,951 - Đã đẩy Data/contents_20250606_094408.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_094408.csv
+2025-06-06 09:44:10,963 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:44:10,968 - Đã lưu 302 bản ghi vào Data/comments_20250606_094410.csv
+2025-06-06 09:44:12,945 - Đã đẩy Data/comments_20250606_094410.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_094410.csv
+2025-06-06 09:44:12,992 - Đã gửi 302 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:44:12,992 - Đã thu thập 100 bài đăng từ r/science
+2025-06-06 09:44:14,655 - API còn lại: 662.0 yêu cầu, reset sau 5.77 phút
+2025-06-06 09:44:42,965 - API còn lại: 631.0 yêu cầu, reset sau 5.35 phút
+2025-06-06 09:45:04,006 - API còn lại: 600.0 yêu cầu, reset sau 4.93 phút
+2025-06-06 09:45:52,045 - Đã lưu 100 bản ghi vào Data/contents_20250606_094552.csv
+2025-06-06 09:45:54,021 - Đã đẩy Data/contents_20250606_094552.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_094552.csv
+2025-06-06 09:45:54,031 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:45:54,035 - Đã lưu 187 bản ghi vào Data/comments_20250606_094554.csv
+2025-06-06 09:45:56,069 - Đã đẩy Data/comments_20250606_094554.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_094554.csv
+2025-06-06 09:45:56,116 - Đã gửi 187 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:45:56,116 - Đã thu thập 100 bài đăng từ r/science
+2025-06-06 09:45:57,142 - API còn lại: 536.0 yêu cầu, reset sau 4.05 phút
+2025-06-06 09:46:44,056 - API còn lại: 472.0 yêu cầu, reset sau 3.27 phút
+2025-06-06 09:47:10,335 - Đã lưu 76 bản ghi vào Data/contents_20250606_094710.csv
+2025-06-06 09:47:12,318 - Đã đẩy Data/contents_20250606_094710.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_094710.csv
+2025-06-06 09:47:12,326 - Đã gửi 76 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:47:12,329 - Đã lưu 164 bản ghi vào Data/comments_20250606_094712.csv
+2025-06-06 09:47:14,228 - Đã đẩy Data/comments_20250606_094712.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_094712.csv
+2025-06-06 09:47:14,250 - Đã gửi 164 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:47:14,250 - Đã thu thập 76 bài đăng từ r/science
+2025-06-06 09:47:52,310 - Đã lưu 100 bản ghi vào Data/contents_20250606_094752.csv
+2025-06-06 09:47:55,647 - Đã đẩy Data/contents_20250606_094752.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_094752.csv
+2025-06-06 09:47:55,694 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:47:55,798 - Đã lưu 8018 bản ghi vào Data/comments_20250606_094755.csv
+2025-06-06 09:47:59,521 - Đã đẩy Data/comments_20250606_094755.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_094755.csv
+2025-06-06 09:48:00,925 - Đã gửi 8018 bản ghi vào Kafka topic reddit_stream
+2025-06-06 09:48:00,926 - Đã thu thập 100 bài đăng từ r/todayilearned
+2025-06-06 09:48:02,529 - API còn lại: 427.0 yêu cầu, reset sau 1.97 phút
+2025-06-06 09:50:10,125 - Retrying due to ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Read timed out. (read timeout=16.0)")) status: GET https://oauth.reddit.com/comments/1kz4hp9/
+2025-06-06 09:50:11,099 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /comments/1kz4hp9/?limit=2048&sort=confidence&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcdaf56390>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/comments/1kz4hp9/
+2025-06-06 09:50:14,217 - Lỗi API khi thu thập r/todayilearned: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /comments/1kz4hp9/?limit=2048&sort=confidence&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcee7d7710>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-06-06 09:50:14,224 - Thử lại sau 60s...
+2025-06-06 09:51:14,225 - Đang thu thập từ r/todayilearned... (Lần thử 2)
+2025-06-06 09:51:14,229 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/todayilearned/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bce2240050>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/todayilearned/top
+2025-06-06 09:51:15,094 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/todayilearned/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcd9ee72d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/todayilearned/top
+2025-06-06 09:51:17,133 - Lỗi API khi thu thập r/todayilearned: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/todayilearned/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcd9ee71d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-06-06 09:51:17,133 - Thử lại sau 120s...
+2025-06-06 09:53:17,134 - Đang thu thập từ r/todayilearned... (Lần thử 3)
+2025-06-06 09:53:17,138 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/todayilearned/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcd9ee7650>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/todayilearned/top
+2025-06-06 09:53:19,099 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/todayilearned/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bce2263390>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/todayilearned/top
+2025-06-06 09:53:22,888 - Lỗi API khi thu thập r/todayilearned: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/todayilearned/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bced560ed0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-06-06 09:53:22,888 - Đã thử 3 lần, bỏ qua r/todayilearned
+2025-06-06 09:53:22,896 - 
+--- LĨNH VỰC: News ---
+2025-06-06 09:53:22,897 - Đang thu thập từ r/worldnews... (Lần thử 1)
+2025-06-06 09:53:22,897 - Đang thu thập từ r/news... (Lần thử 1)
+2025-06-06 09:53:22,905 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/worldnews/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bce2882690>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/worldnews/top
+2025-06-06 09:53:23,642 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/worldnews/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bce28d4c50>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/worldnews/top
+2025-06-06 09:53:26,833 - Lỗi API khi thu thập r/worldnews: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/worldnews/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bce2bc5a10>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-06-06 09:53:26,834 - Thử lại sau 60s...
+2025-06-06 09:53:38,921 - Retrying due to ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Read timed out. (read timeout=16.0)")) status: GET https://oauth.reddit.com/r/news/top
+2025-06-06 09:53:40,622 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/news/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcecacf9d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/news/top
+2025-06-06 09:53:43,624 - Lỗi API khi thu thập r/news: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/news/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcee9ae2d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-06-06 09:53:43,624 - Thử lại sau 60s...
+2025-06-06 09:54:26,834 - Đang thu thập từ r/worldnews... (Lần thử 2)
+2025-06-06 09:54:26,838 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/worldnews/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bce2bc6990>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/worldnews/top
+2025-06-06 09:54:27,098 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/worldnews/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bce3f73690>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/worldnews/top
+2025-06-06 09:54:30,789 - Lỗi API khi thu thập r/worldnews: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/worldnews/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bce3f3a950>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-06-06 09:54:30,789 - Thử lại sau 120s...
+2025-06-06 09:54:43,624 - Đang thu thập từ r/news... (Lần thử 2)
+2025-06-06 09:54:43,629 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/news/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcee9a7050>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/news/top
+2025-06-06 09:54:43,966 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/news/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcec429610>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/news/top
+2025-06-06 09:54:46,846 - Lỗi API khi thu thập r/news: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/news/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bce2362f10>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-06-06 09:54:46,846 - Thử lại sau 120s...
+2025-06-06 09:56:30,790 - Đang thu thập từ r/worldnews... (Lần thử 3)
+2025-06-06 09:56:30,794 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/worldnews/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bce3f89e10>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/worldnews/top
+2025-06-06 09:56:31,174 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/worldnews/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bce23efd90>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/worldnews/top
+2025-06-06 09:56:34,949 - Lỗi API khi thu thập r/worldnews: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/worldnews/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bce3e2f450>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-06-06 09:56:34,950 - Đã thử 3 lần, bỏ qua r/worldnews
+2025-06-06 09:56:34,950 - Đang thu thập từ r/VietNam... (Lần thử 1)
+2025-06-06 09:56:34,954 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/VietNam/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bce3e8ed10>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/VietNam/top
+2025-06-06 09:56:36,196 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/VietNam/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcdb5719d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/VietNam/top
+2025-06-06 09:56:40,193 - Lỗi API khi thu thập r/VietNam: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/VietNam/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcdbd71890>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-06-06 09:56:40,193 - Thử lại sau 60s...
+2025-06-06 09:56:46,846 - Đang thu thập từ r/news... (Lần thử 3)
+2025-06-06 09:56:46,851 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/news/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcecb43990>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/news/top
+2025-06-06 09:56:47,405 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/news/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcee4dc510>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/news/top
+2025-06-06 09:56:49,693 - Lỗi API khi thu thập r/news: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/news/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcee179710>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-06-06 09:56:49,694 - Đã thử 3 lần, bỏ qua r/news
+2025-06-06 09:56:49,694 - Đang thu thập từ r/AskReddit... (Lần thử 1)
+2025-06-06 09:56:49,698 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/AskReddit/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcee167b90>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/AskReddit/top
+2025-06-06 09:56:49,904 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/AskReddit/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcecb41490>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/AskReddit/top
+2025-06-06 09:56:53,752 - Lỗi API khi thu thập r/AskReddit: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/AskReddit/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bce3fd2b90>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-06-06 09:56:53,752 - Thử lại sau 60s...
+2025-06-06 09:57:40,194 - Đang thu thập từ r/VietNam... (Lần thử 2)
+2025-06-06 09:57:40,198 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/VietNam/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcdbd925d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/VietNam/top
+2025-06-06 09:57:41,495 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/VietNam/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcd9e81d50>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/VietNam/top
+2025-06-06 09:57:45,041 - Lỗi API khi thu thập r/VietNam: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/VietNam/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcd98c8050>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-06-06 09:57:45,041 - Thử lại sau 120s...
+2025-06-06 09:57:53,752 - Đang thu thập từ r/AskReddit... (Lần thử 2)
+2025-06-06 09:57:53,757 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/AskReddit/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcec432c10>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/AskReddit/top
+2025-06-06 09:57:55,746 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/AskReddit/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bced55c9d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/AskReddit/top
+2025-06-06 09:57:59,098 - Lỗi API khi thu thập r/AskReddit: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/AskReddit/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bce221fb10>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-06-06 09:57:59,098 - Thử lại sau 120s...
+2025-06-06 09:59:45,042 - Đang thu thập từ r/VietNam... (Lần thử 3)
+2025-06-06 09:59:47,692 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 09:59:47,692 - Retrying due to SSLError(MaxRetryError('HTTPSConnectionPool(host=\'oauth.reddit.com\', port=443): Max retries exceeded with url: /r/VietNam/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname \'oauth.reddit.com\' doesn\'t match either of \'*.hust.edu.vn\', \'hust.edu.vn\'")))')) status: GET https://oauth.reddit.com/r/VietNam/top
+2025-06-06 09:59:49,004 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 09:59:49,004 - Retrying due to SSLError(MaxRetryError('HTTPSConnectionPool(host=\'oauth.reddit.com\', port=443): Max retries exceeded with url: /r/VietNam/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname \'oauth.reddit.com\' doesn\'t match either of \'*.hust.edu.vn\', \'hust.edu.vn\'")))')) status: GET https://oauth.reddit.com/r/VietNam/top
+2025-06-06 09:59:52,988 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 09:59:52,989 - Lỗi API khi thu thập r/VietNam: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/VietNam/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname 'oauth.reddit.com' doesn't match either of '*.hust.edu.vn', 'hust.edu.vn'")))
+2025-06-06 09:59:52,989 - Đã thử 3 lần, bỏ qua r/VietNam
+2025-06-06 09:59:59,098 - Đang thu thập từ r/AskReddit... (Lần thử 3)
+2025-06-06 10:00:01,225 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:00:01,226 - Retrying due to SSLError(MaxRetryError('HTTPSConnectionPool(host=\'oauth.reddit.com\', port=443): Max retries exceeded with url: /r/AskReddit/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname \'oauth.reddit.com\' doesn\'t match either of \'*.hust.edu.vn\', \'hust.edu.vn\'")))')) status: GET https://oauth.reddit.com/r/AskReddit/top
+2025-06-06 10:00:01,391 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:00:01,391 - Retrying due to SSLError(MaxRetryError('HTTPSConnectionPool(host=\'oauth.reddit.com\', port=443): Max retries exceeded with url: /r/AskReddit/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname \'oauth.reddit.com\' doesn\'t match either of \'*.hust.edu.vn\', \'hust.edu.vn\'")))')) status: GET https://oauth.reddit.com/r/AskReddit/top
+2025-06-06 10:00:04,032 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:00:04,032 - Lỗi API khi thu thập r/AskReddit: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/AskReddit/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname 'oauth.reddit.com' doesn't match either of '*.hust.edu.vn', 'hust.edu.vn'")))
+2025-06-06 10:00:04,033 - Đã thử 3 lần, bỏ qua r/AskReddit
+2025-06-06 10:00:04,033 - 
+--- LĨNH VỰC: Entertainment ---
+2025-06-06 10:00:04,041 - Đang thu thập từ r/movies... (Lần thử 1)
+2025-06-06 10:00:04,041 - Đang thu thập từ r/gaming... (Lần thử 1)
+2025-06-06 10:00:06,250 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:00:06,250 - Retrying due to SSLError(MaxRetryError('HTTPSConnectionPool(host=\'oauth.reddit.com\', port=443): Max retries exceeded with url: /r/movies/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname \'oauth.reddit.com\' doesn\'t match either of \'*.hust.edu.vn\', \'hust.edu.vn\'")))')) status: GET https://oauth.reddit.com/r/movies/top
+2025-06-06 10:00:06,253 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:00:06,254 - Retrying due to SSLError(MaxRetryError('HTTPSConnectionPool(host=\'oauth.reddit.com\', port=443): Max retries exceeded with url: /r/gaming/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname \'oauth.reddit.com\' doesn\'t match either of \'*.hust.edu.vn\', \'hust.edu.vn\'")))')) status: GET https://oauth.reddit.com/r/gaming/top
+2025-06-06 10:00:06,827 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:00:06,828 - Retrying due to SSLError(MaxRetryError('HTTPSConnectionPool(host=\'oauth.reddit.com\', port=443): Max retries exceeded with url: /r/gaming/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname \'oauth.reddit.com\' doesn\'t match either of \'*.hust.edu.vn\', \'hust.edu.vn\'")))')) status: GET https://oauth.reddit.com/r/gaming/top
+2025-06-06 10:00:07,404 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:00:07,405 - Retrying due to SSLError(MaxRetryError('HTTPSConnectionPool(host=\'oauth.reddit.com\', port=443): Max retries exceeded with url: /r/movies/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname \'oauth.reddit.com\' doesn\'t match either of \'*.hust.edu.vn\', \'hust.edu.vn\'")))')) status: GET https://oauth.reddit.com/r/movies/top
+2025-06-06 10:00:13,544 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:00:13,545 - Lỗi API khi thu thập r/gaming: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/gaming/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname 'oauth.reddit.com' doesn't match either of '*.hust.edu.vn', 'hust.edu.vn'")))
+2025-06-06 10:00:13,545 - Thử lại sau 60s...
+2025-06-06 10:00:13,580 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:00:13,581 - Lỗi API khi thu thập r/movies: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/movies/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname 'oauth.reddit.com' doesn't match either of '*.hust.edu.vn', 'hust.edu.vn'")))
+2025-06-06 10:00:13,581 - Thử lại sau 60s...
+2025-06-06 10:01:13,545 - Đang thu thập từ r/gaming... (Lần thử 2)
+2025-06-06 10:01:13,581 - Đang thu thập từ r/movies... (Lần thử 2)
+2025-06-06 10:01:18,694 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:01:18,694 - Retrying due to SSLError(MaxRetryError('HTTPSConnectionPool(host=\'oauth.reddit.com\', port=443): Max retries exceeded with url: /r/gaming/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname \'oauth.reddit.com\' doesn\'t match either of \'*.hust.edu.vn\', \'hust.edu.vn\'")))')) status: GET https://oauth.reddit.com/r/gaming/top
+2025-06-06 10:01:18,743 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:01:18,743 - Retrying due to SSLError(MaxRetryError('HTTPSConnectionPool(host=\'oauth.reddit.com\', port=443): Max retries exceeded with url: /r/movies/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname \'oauth.reddit.com\' doesn\'t match either of \'*.hust.edu.vn\', \'hust.edu.vn\'")))')) status: GET https://oauth.reddit.com/r/movies/top
+2025-06-06 10:01:19,394 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:01:19,394 - Retrying due to SSLError(MaxRetryError('HTTPSConnectionPool(host=\'oauth.reddit.com\', port=443): Max retries exceeded with url: /r/gaming/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname \'oauth.reddit.com\' doesn\'t match either of \'*.hust.edu.vn\', \'hust.edu.vn\'")))')) status: GET https://oauth.reddit.com/r/gaming/top
+2025-06-06 10:01:21,758 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:01:21,759 - Retrying due to SSLError(MaxRetryError('HTTPSConnectionPool(host=\'oauth.reddit.com\', port=443): Max retries exceeded with url: /r/movies/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname \'oauth.reddit.com\' doesn\'t match either of \'*.hust.edu.vn\', \'hust.edu.vn\'")))')) status: GET https://oauth.reddit.com/r/movies/top
+2025-06-06 10:01:21,877 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:01:21,878 - Lỗi API khi thu thập r/gaming: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/gaming/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname 'oauth.reddit.com' doesn't match either of '*.hust.edu.vn', 'hust.edu.vn'")))
+2025-06-06 10:01:21,878 - Thử lại sau 120s...
+2025-06-06 10:01:26,603 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:01:26,604 - Lỗi API khi thu thập r/movies: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/movies/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname 'oauth.reddit.com' doesn't match either of '*.hust.edu.vn', 'hust.edu.vn'")))
+2025-06-06 10:01:26,604 - Thử lại sau 120s...
+2025-06-06 10:03:21,878 - Đang thu thập từ r/gaming... (Lần thử 3)
+2025-06-06 10:03:22,299 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:03:22,299 - Retrying due to SSLError(MaxRetryError('HTTPSConnectionPool(host=\'oauth.reddit.com\', port=443): Max retries exceeded with url: /r/gaming/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname \'oauth.reddit.com\' doesn\'t match either of \'*.hust.edu.vn\', \'hust.edu.vn\'")))')) status: GET https://oauth.reddit.com/r/gaming/top
+2025-06-06 10:03:22,505 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:03:22,505 - Retrying due to SSLError(MaxRetryError('HTTPSConnectionPool(host=\'oauth.reddit.com\', port=443): Max retries exceeded with url: /r/gaming/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname \'oauth.reddit.com\' doesn\'t match either of \'*.hust.edu.vn\', \'hust.edu.vn\'")))')) status: GET https://oauth.reddit.com/r/gaming/top
+2025-06-06 10:03:26,604 - Đang thu thập từ r/movies... (Lần thử 3)
+2025-06-06 10:03:26,944 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:03:26,945 - Lỗi API khi thu thập r/gaming: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/gaming/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname 'oauth.reddit.com' doesn't match either of '*.hust.edu.vn', 'hust.edu.vn'")))
+2025-06-06 10:03:26,945 - Đã thử 3 lần, bỏ qua r/gaming
+2025-06-06 10:03:26,945 - Đang thu thập từ r/music... (Lần thử 1)
+2025-06-06 10:03:26,950 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:03:26,950 - Retrying due to SSLError(MaxRetryError('HTTPSConnectionPool(host=\'oauth.reddit.com\', port=443): Max retries exceeded with url: /r/movies/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname \'oauth.reddit.com\' doesn\'t match either of \'*.hust.edu.vn\', \'hust.edu.vn\'")))')) status: GET https://oauth.reddit.com/r/movies/top
+2025-06-06 10:03:27,071 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:03:27,072 - Retrying due to SSLError(MaxRetryError('HTTPSConnectionPool(host=\'oauth.reddit.com\', port=443): Max retries exceeded with url: /r/music/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname \'oauth.reddit.com\' doesn\'t match either of \'*.hust.edu.vn\', \'hust.edu.vn\'")))')) status: GET https://oauth.reddit.com/r/music/top
+2025-06-06 10:03:27,627 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:03:27,627 - Retrying due to SSLError(MaxRetryError('HTTPSConnectionPool(host=\'oauth.reddit.com\', port=443): Max retries exceeded with url: /r/movies/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname \'oauth.reddit.com\' doesn\'t match either of \'*.hust.edu.vn\', \'hust.edu.vn\'")))')) status: GET https://oauth.reddit.com/r/movies/top
+2025-06-06 10:03:27,875 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:03:27,876 - Retrying due to SSLError(MaxRetryError('HTTPSConnectionPool(host=\'oauth.reddit.com\', port=443): Max retries exceeded with url: /r/music/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname \'oauth.reddit.com\' doesn\'t match either of \'*.hust.edu.vn\', \'hust.edu.vn\'")))')) status: GET https://oauth.reddit.com/r/music/top
+2025-06-06 10:03:33,066 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:03:33,067 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:03:33,067 - Lỗi API khi thu thập r/movies: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/movies/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname 'oauth.reddit.com' doesn't match either of '*.hust.edu.vn', 'hust.edu.vn'")))
+2025-06-06 10:03:33,067 - Lỗi API khi thu thập r/music: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/music/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname 'oauth.reddit.com' doesn't match either of '*.hust.edu.vn', 'hust.edu.vn'")))
+2025-06-06 10:03:33,067 - Đã thử 3 lần, bỏ qua r/movies
+2025-06-06 10:03:33,068 - Thử lại sau 60s...
+2025-06-06 10:03:33,068 - Đang thu thập từ r/funny... (Lần thử 1)
+2025-06-06 10:03:33,204 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:03:33,205 - Retrying due to SSLError(MaxRetryError('HTTPSConnectionPool(host=\'oauth.reddit.com\', port=443): Max retries exceeded with url: /r/funny/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname \'oauth.reddit.com\' doesn\'t match either of \'*.hust.edu.vn\', \'hust.edu.vn\'")))')) status: GET https://oauth.reddit.com/r/funny/top
+2025-06-06 10:03:33,556 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:03:33,556 - Retrying due to SSLError(MaxRetryError('HTTPSConnectionPool(host=\'oauth.reddit.com\', port=443): Max retries exceeded with url: /r/funny/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname \'oauth.reddit.com\' doesn\'t match either of \'*.hust.edu.vn\', \'hust.edu.vn\'")))')) status: GET https://oauth.reddit.com/r/funny/top
+2025-06-06 10:03:37,071 - Certificate did not match expected hostname: oauth.reddit.com. Certificate: {'subject': ((('countryName', 'VN'),), (('stateOrProvinceName', 'Ha Noi'),), (('localityName', 'Ha Noi'),), (('organizationName', 'Hanoi University of Science and Technology'),), (('commonName', '*.hust.edu.vn'),)), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'GlobalSign RSA OV SSL CA 2018'),)), 'version': 3, 'serialNumber': '7F8C4561FEBCE30076AFEACD', 'notBefore': 'May  7 03:06:05 2024 GMT', 'notAfter': 'Jun  8 03:06:04 2025 GMT', 'subjectAltName': (('DNS', '*.hust.edu.vn'), ('DNS', 'hust.edu.vn')), 'OCSP': ('http://ocsp.globalsign.com/gsrsaovsslca2018',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt',)}
+2025-06-06 10:03:37,071 - Lỗi API khi thu thập r/funny: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/funny/top?t=month&limit=5000&raw_json=1 (Caused by SSLError(CertificateError("hostname 'oauth.reddit.com' doesn't match either of '*.hust.edu.vn', 'hust.edu.vn'")))
+2025-06-06 10:03:37,071 - Thử lại sau 60s...
+2025-06-06 10:04:33,068 - Đang thu thập từ r/music... (Lần thử 2)
+2025-06-06 10:04:34,961 - API còn lại: 999.0 yêu cầu, reset sau 5.43 phút
+2025-06-06 10:04:37,071 - Đang thu thập từ r/funny... (Lần thử 2)
+2025-06-06 10:04:38,918 - API còn lại: 997.0 yêu cầu, reset sau 5.37 phút
+2025-06-06 10:06:34,314 - Retrying due to ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Read timed out. (read timeout=16.0)")) status: GET https://oauth.reddit.com/comments/1kjwdvm/
+2025-06-06 10:06:34,816 - Retrying due to ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Read timed out. (read timeout=16.0)")) status: GET https://oauth.reddit.com/comments/1l3ii9k/
+2025-06-06 10:06:55,249 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /comments/1l3ii9k/?limit=2048&sort=confidence&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bce327b310>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/comments/1l3ii9k/
+2025-06-06 10:06:55,664 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /comments/1kjwdvm/?limit=2048&sort=confidence&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcef4c1150>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/comments/1kjwdvm/
+2025-06-06 10:07:18,144 - Lỗi API khi thu thập r/music: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /comments/1l3ii9k/?limit=2048&sort=confidence&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bced5f6050>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-06-06 10:07:18,144 - Thử lại sau 120s...
+2025-06-06 10:07:19,558 - Lỗi API khi thu thập r/funny: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /comments/1kjwdvm/?limit=2048&sort=confidence&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bced659a90>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-06-06 10:07:19,558 - Thử lại sau 120s...
+2025-06-06 10:09:18,144 - Đang thu thập từ r/music... (Lần thử 3)
+2025-06-06 10:09:19,558 - Đang thu thập từ r/funny... (Lần thử 3)
+2025-06-06 10:10:25,202 - API còn lại: 987.0 yêu cầu, reset sau 9.62 phút
+2025-06-06 10:10:55,157 - API còn lại: 971.0 yêu cầu, reset sau 9.13 phút
+2025-06-06 10:12:49,942 - Đã lưu 100 bản ghi vào Data/contents_20250606_101249.csv
+2025-06-06 10:12:54,404 - Đã đẩy Data/contents_20250606_101249.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_101249.csv
+2025-06-06 10:12:54,439 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:12:54,557 - Đã lưu 9282 bản ghi vào Data/comments_20250606_101254.csv
+2025-06-06 10:12:57,986 - Đã đẩy Data/comments_20250606_101254.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_101254.csv
+2025-06-06 10:12:59,277 - Đã gửi 9282 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:12:59,277 - Đã thu thập 100 bài đăng từ r/funny
+2025-06-06 10:12:59,281 - API còn lại: 891.0 yêu cầu, reset sau 7.03 phút
+2025-06-06 10:13:29,353 - Đã lưu 100 bản ghi vào Data/contents_20250606_101329.csv
+2025-06-06 10:13:32,766 - Đã đẩy Data/contents_20250606_101329.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_101329.csv
+2025-06-06 10:13:32,802 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:13:32,896 - Đã lưu 8044 bản ghi vào Data/comments_20250606_101332.csv
+2025-06-06 10:13:36,223 - Đã đẩy Data/comments_20250606_101332.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_101332.csv
+2025-06-06 10:13:37,491 - Đã gửi 8044 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:13:37,491 - Đã thu thập 100 bài đăng từ r/music
+2025-06-06 10:13:37,495 - API còn lại: 866.0 yêu cầu, reset sau 6.41 phút
+2025-06-06 10:15:04,609 - API còn lại: 785.0 yêu cầu, reset sau 4.93 phút
+2025-06-06 10:15:21,275 - API còn lại: 771.0 yêu cầu, reset sau 4.65 phút
+2025-06-06 10:16:38,097 - Đã lưu 100 bản ghi vào Data/contents_20250606_101638.csv
+2025-06-06 10:16:41,267 - Đã đẩy Data/contents_20250606_101638.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_101638.csv
+2025-06-06 10:16:41,284 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:16:41,345 - Đã lưu 6495 bản ghi vào Data/comments_20250606_101641.csv
+2025-06-06 10:16:45,092 - Đã đẩy Data/comments_20250606_101641.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_101641.csv
+2025-06-06 10:16:46,115 - Đã gửi 6495 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:16:46,116 - Đã thu thập 100 bài đăng từ r/funny
+2025-06-06 10:16:46,119 - API còn lại: 687.0 yêu cầu, reset sau 3.26 phút
+2025-06-06 10:17:06,087 - Đã lưu 100 bản ghi vào Data/contents_20250606_101706.csv
+2025-06-06 10:17:09,725 - Đã đẩy Data/contents_20250606_101706.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_101706.csv
+2025-06-06 10:17:09,765 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:17:09,853 - Đã lưu 4207 bản ghi vào Data/comments_20250606_101709.csv
+2025-06-06 10:17:13,315 - Đã đẩy Data/comments_20250606_101709.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_101709.csv
+2025-06-06 10:17:14,001 - Đã gửi 4207 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:17:14,001 - Đã thu thập 100 bài đăng từ r/music
+2025-06-06 10:17:14,004 - API còn lại: 663.0 yêu cầu, reset sau 2.78 phút
+2025-06-06 10:18:21,245 - API còn lại: 593.0 yêu cầu, reset sau 1.65 phút
+2025-06-06 10:18:50,896 - API còn lại: 558.0 yêu cầu, reset sau 1.15 phút
+2025-06-06 10:19:47,528 - Đã lưu 100 bản ghi vào Data/contents_20250606_101947.csv
+2025-06-06 10:19:50,980 - Đã đẩy Data/contents_20250606_101947.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_101947.csv
+2025-06-06 10:19:51,014 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:19:51,082 - Đã lưu 5195 bản ghi vào Data/comments_20250606_101951.csv
+2025-06-06 10:19:54,731 - Đã đẩy Data/comments_20250606_101951.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_101951.csv
+2025-06-06 10:19:55,494 - Đã gửi 5195 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:19:55,494 - Đã thu thập 100 bài đăng từ r/funny
+2025-06-06 10:19:55,497 - API còn lại: 491.0 yêu cầu, reset sau 0.07 phút
+2025-06-06 10:20:27,683 - Đã lưu 100 bản ghi vào Data/contents_20250606_102027.csv
+2025-06-06 10:20:31,327 - Đã đẩy Data/contents_20250606_102027.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_102027.csv
+2025-06-06 10:20:31,357 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:20:31,418 - Đã lưu 3946 bản ghi vào Data/comments_20250606_102031.csv
+2025-06-06 10:20:34,851 - Đã đẩy Data/comments_20250606_102031.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_102031.csv
+2025-06-06 10:20:35,417 - Đã gửi 3946 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:20:35,417 - Đã thu thập 100 bài đăng từ r/music
+2025-06-06 10:20:35,420 - API còn lại: 968.0 yêu cầu, reset sau 9.41 phút
+2025-06-06 10:21:13,566 - API còn lại: 920.0 yêu cầu, reset sau 8.77 phút
+2025-06-06 10:22:00,268 - API còn lại: 858.0 yêu cầu, reset sau 8.00 phút
+2025-06-06 10:22:28,066 - Đã lưu 100 bản ghi vào Data/contents_20250606_102228.csv
+2025-06-06 10:22:32,080 - Đã đẩy Data/contents_20250606_102228.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_102228.csv
+2025-06-06 10:22:32,114 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:22:32,190 - Đã lưu 3430 bản ghi vào Data/comments_20250606_102232.csv
+2025-06-06 10:22:36,332 - Đã đẩy Data/comments_20250606_102232.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_102232.csv
+2025-06-06 10:22:37,020 - Đã gửi 3430 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:22:37,020 - Đã thu thập 100 bài đăng từ r/funny
+2025-06-06 10:22:37,024 - API còn lại: 818.0 yêu cầu, reset sau 7.41 phút
+2025-06-06 10:23:23,180 - Đã lưu 100 bản ghi vào Data/contents_20250606_102323.csv
+2025-06-06 10:23:26,790 - Đã đẩy Data/contents_20250606_102323.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_102323.csv
+2025-06-06 10:23:26,833 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:23:26,894 - Đã lưu 3577 bản ghi vào Data/comments_20250606_102326.csv
+2025-06-06 10:23:30,495 - Đã đẩy Data/comments_20250606_102326.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_102326.csv
+2025-06-06 10:23:31,044 - Đã gửi 3577 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:23:31,045 - Đã thu thập 100 bài đăng từ r/music
+2025-06-06 10:23:31,047 - API còn lại: 749.0 yêu cầu, reset sau 6.48 phút
+2025-06-06 10:23:45,686 - API còn lại: 727.0 yêu cầu, reset sau 6.25 phút
+2025-06-06 10:24:39,475 - API còn lại: 646.0 yêu cầu, reset sau 5.35 phút
+2025-06-06 10:24:49,835 - Đã lưu 100 bản ghi vào Data/contents_20250606_102449.csv
+2025-06-06 10:24:52,904 - Đã đẩy Data/contents_20250606_102449.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_102449.csv
+2025-06-06 10:24:52,938 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:24:52,976 - Đã lưu 3109 bản ghi vào Data/comments_20250606_102452.csv
+2025-06-06 10:24:56,237 - Đã đẩy Data/comments_20250606_102452.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_102452.csv
+2025-06-06 10:24:56,844 - Đã gửi 3109 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:24:56,844 - Đã thu thập 100 bài đăng từ r/funny
+2025-06-06 10:24:56,847 - API còn lại: 622.0 yêu cầu, reset sau 5.05 phút
+2025-06-06 10:25:35,307 - Đã lưu 100 bản ghi vào Data/contents_20250606_102535.csv
+2025-06-06 10:25:38,971 - Đã đẩy Data/contents_20250606_102535.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_102535.csv
+2025-06-06 10:25:39,030 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:25:39,062 - Đã lưu 1614 bản ghi vào Data/comments_20250606_102539.csv
+2025-06-06 10:25:42,776 - Đã đẩy Data/comments_20250606_102539.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_102539.csv
+2025-06-06 10:25:43,099 - Đã gửi 1614 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:25:43,099 - Đã thu thập 100 bài đăng từ r/music
+2025-06-06 10:25:43,100 - API còn lại: 554.0 yêu cầu, reset sau 4.28 phút
+2025-06-06 10:26:03,117 - API còn lại: 521.0 yêu cầu, reset sau 3.95 phút
+2025-06-06 10:26:43,588 - API còn lại: 450.0 yêu cầu, reset sau 3.27 phút
+2025-06-06 10:26:59,600 - Đã lưu 100 bản ghi vào Data/contents_20250606_102659.csv
+2025-06-06 10:27:02,969 - Đã đẩy Data/contents_20250606_102659.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_102659.csv
+2025-06-06 10:27:03,007 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:27:03,055 - Đã lưu 2605 bản ghi vào Data/comments_20250606_102703.csv
+2025-06-06 10:27:06,428 - Đã đẩy Data/comments_20250606_102703.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_102703.csv
+2025-06-06 10:27:06,810 - Đã gửi 2605 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:27:06,810 - Đã thu thập 100 bài đăng từ r/funny
+2025-06-06 10:27:06,811 - API còn lại: 414.0 yêu cầu, reset sau 2.88 phút
+2025-06-06 10:27:39,275 - Đã lưu 100 bản ghi vào Data/contents_20250606_102739.csv
+2025-06-06 10:27:42,393 - Đã đẩy Data/contents_20250606_102739.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_102739.csv
+2025-06-06 10:27:42,428 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:27:42,449 - Đã lưu 1138 bản ghi vào Data/comments_20250606_102742.csv
+2025-06-06 10:27:45,694 - Đã đẩy Data/comments_20250606_102742.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_102742.csv
+2025-06-06 10:27:45,943 - Đã gửi 1138 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:27:45,943 - Đã thu thập 100 bài đăng từ r/music
+2025-06-06 10:27:45,944 - API còn lại: 351.0 yêu cầu, reset sau 2.23 phút
+2025-06-06 10:28:05,057 - API còn lại: 318.0 yêu cầu, reset sau 1.92 phút
+2025-06-06 10:28:46,656 - API còn lại: 246.0 yêu cầu, reset sau 1.22 phút
+2025-06-06 10:28:59,278 - Đã lưu 100 bản ghi vào Data/contents_20250606_102859.csv
+2025-06-06 10:29:02,680 - Đã đẩy Data/contents_20250606_102859.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_102859.csv
+2025-06-06 10:29:02,702 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:29:02,717 - Đã lưu 1729 bản ghi vào Data/comments_20250606_102902.csv
+2025-06-06 10:29:05,882 - Đã đẩy Data/comments_20250606_102902.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_102902.csv
+2025-06-06 10:29:06,134 - Đã gửi 1729 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:29:06,134 - Đã thu thập 100 bài đăng từ r/funny
+2025-06-06 10:29:06,135 - API còn lại: 215.0 yêu cầu, reset sau 0.89 phút
+2025-06-06 10:29:40,254 - Đã lưu 100 bản ghi vào Data/contents_20250606_102940.csv
+2025-06-06 10:29:43,576 - Đã đẩy Data/contents_20250606_102940.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_102940.csv
+2025-06-06 10:29:43,627 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:29:43,644 - Đã lưu 846 bản ghi vào Data/comments_20250606_102943.csv
+2025-06-06 10:29:47,217 - Đã đẩy Data/comments_20250606_102943.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_102943.csv
+2025-06-06 10:29:47,385 - Đã gửi 846 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:29:47,385 - Đã thu thập 100 bài đăng từ r/music
+2025-06-06 10:29:47,386 - API còn lại: 147.0 yêu cầu, reset sau 0.21 phút
+2025-06-06 10:30:01,692 - API còn lại: 997.0 yêu cầu, reset sau 9.97 phút
+2025-06-06 10:30:47,607 - API còn lại: 921.0 yêu cầu, reset sau 9.20 phút
+2025-06-06 10:30:59,597 - Đã lưu 100 bản ghi vào Data/contents_20250606_103059.csv
+2025-06-06 10:31:02,950 - Đã đẩy Data/contents_20250606_103059.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_103059.csv
+2025-06-06 10:31:02,976 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:31:02,992 - Đã lưu 1211 bản ghi vào Data/comments_20250606_103102.csv
+2025-06-06 10:31:06,455 - Đã đẩy Data/comments_20250606_103102.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_103102.csv
+2025-06-06 10:31:06,702 - Đã gửi 1211 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:31:06,702 - Đã thu thập 100 bài đăng từ r/funny
+2025-06-06 10:31:06,703 - API còn lại: 892.0 yêu cầu, reset sau 8.88 phút
+2025-06-06 10:31:42,316 - Đã lưu 100 bản ghi vào Data/contents_20250606_103142.csv
+2025-06-06 10:31:46,284 - Đã đẩy Data/contents_20250606_103142.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_103142.csv
+2025-06-06 10:31:46,304 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:31:46,315 - Đã lưu 500 bản ghi vào Data/comments_20250606_103146.csv
+2025-06-06 10:31:50,051 - Đã đẩy Data/comments_20250606_103146.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_103146.csv
+2025-06-06 10:31:50,174 - Đã gửi 500 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:31:50,175 - Đã thu thập 100 bài đăng từ r/music
+2025-06-06 10:31:50,176 - API còn lại: 823.0 yêu cầu, reset sau 8.16 phút
+2025-06-06 10:32:04,852 - API còn lại: 794.0 yêu cầu, reset sau 7.92 phút
+2025-06-06 10:32:48,364 - API còn lại: 718.0 yêu cầu, reset sau 7.18 phút
+2025-06-06 10:33:01,565 - Đã lưu 100 bản ghi vào Data/contents_20250606_103301.csv
+2025-06-06 10:33:05,379 - Đã đẩy Data/contents_20250606_103301.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_103301.csv
+2025-06-06 10:33:05,415 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:33:05,435 - Đã lưu 892 bản ghi vào Data/comments_20250606_103305.csv
+2025-06-06 10:33:09,199 - Đã đẩy Data/comments_20250606_103305.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_103305.csv
+2025-06-06 10:33:09,408 - Đã gửi 892 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:33:09,409 - Đã thu thập 100 bài đăng từ r/funny
+2025-06-06 10:33:09,409 - API còn lại: 690.0 yêu cầu, reset sau 6.86 phút
+2025-06-06 10:33:44,766 - Đã lưu 100 bản ghi vào Data/contents_20250606_103344.csv
+2025-06-06 10:33:47,877 - Đã đẩy Data/contents_20250606_103344.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_103344.csv
+2025-06-06 10:33:47,939 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:33:47,946 - Đã lưu 215 bản ghi vào Data/comments_20250606_103347.csv
+2025-06-06 10:33:51,209 - Đã đẩy Data/comments_20250606_103347.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_103347.csv
+2025-06-06 10:33:51,258 - Đã gửi 215 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:33:51,259 - Đã thu thập 100 bài đăng từ r/music
+2025-06-06 10:33:51,259 - API còn lại: 620.0 yêu cầu, reset sau 6.14 phút
+2025-06-06 10:34:04,865 - API còn lại: 594.0 yêu cầu, reset sau 5.92 phút
+2025-06-06 10:34:49,890 - API còn lại: 516.0 yêu cầu, reset sau 5.17 phút
+2025-06-06 10:35:02,623 - Đã lưu 100 bản ghi vào Data/contents_20250606_103502.csv
+2025-06-06 10:35:06,114 - Đã đẩy Data/contents_20250606_103502.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_103502.csv
+2025-06-06 10:35:06,142 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:35:06,158 - Đã lưu 702 bản ghi vào Data/comments_20250606_103506.csv
+2025-06-06 10:35:09,448 - Đã đẩy Data/comments_20250606_103506.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_103506.csv
+2025-06-06 10:35:09,597 - Đã gửi 702 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:35:09,597 - Đã thu thập 100 bài đăng từ r/funny
+2025-06-06 10:35:09,598 - API còn lại: 489.0 yêu cầu, reset sau 4.84 phút
+2025-06-06 10:35:31,468 - Đã lưu 21 bản ghi vào Data/contents_20250606_103531.csv
+2025-06-06 10:35:34,513 - Đã đẩy Data/contents_20250606_103531.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_103531.csv
+2025-06-06 10:35:34,523 - Đã gửi 21 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:35:34,528 - Đã lưu 148 bản ghi vào Data/comments_20250606_103534.csv
+2025-06-06 10:35:37,956 - Đã đẩy Data/comments_20250606_103534.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_103534.csv
+2025-06-06 10:35:38,014 - Đã gửi 148 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:35:38,014 - Đã thu thập 21 bài đăng từ r/funny
+2025-06-06 10:35:38,014 - Đang thu thập từ r/memes... (Lần thử 1)
+2025-06-06 10:35:39,837 - API còn lại: 440.0 yêu cầu, reset sau 4.35 phút
+2025-06-06 10:35:45,088 - Đã lưu 100 bản ghi vào Data/contents_20250606_103545.csv
+2025-06-06 10:35:48,816 - Đã đẩy Data/contents_20250606_103545.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_103545.csv
+2025-06-06 10:35:48,852 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:35:48,860 - Đã lưu 344 bản ghi vào Data/comments_20250606_103548.csv
+2025-06-06 10:35:52,959 - Đã đẩy Data/comments_20250606_103548.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_103548.csv
+2025-06-06 10:35:53,054 - Đã gửi 344 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:35:53,055 - Đã thu thập 100 bài đăng từ r/music
+2025-06-06 10:35:53,055 - API còn lại: 430.0 yêu cầu, reset sau 4.15 phút
+2025-06-06 10:36:48,265 - API còn lại: 362.0 yêu cầu, reset sau 3.20 phút
+2025-06-06 10:36:52,078 - Đã lưu 54 bản ghi vào Data/contents_20250606_103652.csv
+2025-06-06 10:36:55,679 - Đã đẩy Data/contents_20250606_103652.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_103652.csv
+2025-06-06 10:36:55,694 - Đã gửi 54 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:36:55,699 - Đã lưu 291 bản ghi vào Data/comments_20250606_103655.csv
+2025-06-06 10:36:58,787 - Đã đẩy Data/comments_20250606_103655.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_103655.csv
+2025-06-06 10:36:58,856 - Đã gửi 291 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:36:58,856 - Đã thu thập 54 bài đăng từ r/music
+2025-06-06 10:38:21,095 - API còn lại: 328.0 yêu cầu, reset sau 1.70 phút
+2025-06-06 10:40:10,636 - Đã lưu 100 bản ghi vào Data/contents_20250606_104010.csv
+2025-06-06 10:40:14,474 - Đã đẩy Data/contents_20250606_104010.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_104010.csv
+2025-06-06 10:40:14,493 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:40:14,568 - Đã lưu 7216 bản ghi vào Data/comments_20250606_104014.csv
+2025-06-06 10:40:18,697 - Đã đẩy Data/comments_20250606_104014.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_104014.csv
+2025-06-06 10:40:19,647 - Đã gửi 7216 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:40:19,647 - Đã thu thập 100 bài đăng từ r/memes
+2025-06-06 10:40:21,637 - API còn lại: 994.0 yêu cầu, reset sau 9.67 phút
+2025-06-06 10:42:00,071 - API còn lại: 944.0 yêu cầu, reset sau 8.03 phút
+2025-06-06 10:43:30,494 - Đã lưu 100 bản ghi vào Data/contents_20250606_104330.csv
+2025-06-06 10:43:33,714 - Đã đẩy Data/contents_20250606_104330.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_104330.csv
+2025-06-06 10:43:33,735 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:43:33,778 - Đã lưu 4880 bản ghi vào Data/comments_20250606_104333.csv
+2025-06-06 10:43:37,025 - Đã đẩy Data/comments_20250606_104333.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_104333.csv
+2025-06-06 10:43:37,686 - Đã gửi 4880 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:43:37,687 - Đã thu thập 100 bài đăng từ r/memes
+2025-06-06 10:43:39,382 - API còn lại: 893.0 yêu cầu, reset sau 6.37 phút
+2025-06-06 10:45:09,184 - API còn lại: 843.0 yêu cầu, reset sau 4.87 phút
+2025-06-06 10:46:32,832 - Đã lưu 100 bản ghi vào Data/contents_20250606_104632.csv
+2025-06-06 10:46:35,911 - Đã đẩy Data/contents_20250606_104632.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_104632.csv
+2025-06-06 10:46:35,942 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:46:35,993 - Đã lưu 4034 bản ghi vào Data/comments_20250606_104635.csv
+2025-06-06 10:46:39,124 - Đã đẩy Data/comments_20250606_104635.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_104635.csv
+2025-06-06 10:46:39,765 - Đã gửi 4034 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:46:39,766 - Đã thu thập 100 bài đăng từ r/memes
+2025-06-06 10:46:41,569 - API còn lại: 792.0 yêu cầu, reset sau 3.33 phút
+2025-06-06 10:47:59,667 - API còn lại: 742.0 yêu cầu, reset sau 2.00 phút
+2025-06-06 10:49:12,981 - Đã lưu 100 bản ghi vào Data/contents_20250606_104912.csv
+2025-06-06 10:49:16,155 - Đã đẩy Data/contents_20250606_104912.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_104912.csv
+2025-06-06 10:49:16,179 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:49:16,231 - Đã lưu 3283 bản ghi vào Data/comments_20250606_104916.csv
+2025-06-06 10:49:19,646 - Đã đẩy Data/comments_20250606_104916.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_104916.csv
+2025-06-06 10:49:20,100 - Đã gửi 3283 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:49:20,100 - Đã thu thập 100 bài đăng từ r/memes
+2025-06-06 10:49:21,902 - API còn lại: 691.0 yêu cầu, reset sau 0.65 phút
+2025-06-06 10:50:38,708 - API còn lại: 973.0 yêu cầu, reset sau 9.35 phút
+2025-06-06 10:51:49,391 - Đã lưu 100 bản ghi vào Data/contents_20250606_105149.csv
+2025-06-06 10:51:53,789 - Đã đẩy Data/contents_20250606_105149.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_105149.csv
+2025-06-06 10:51:53,815 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:51:53,867 - Đã lưu 3415 bản ghi vào Data/comments_20250606_105153.csv
+2025-06-06 10:51:57,484 - Đã đẩy Data/comments_20250606_105153.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_105153.csv
+2025-06-06 10:51:58,065 - Đã gửi 3415 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:51:58,066 - Đã thu thập 100 bài đăng từ r/memes
+2025-06-06 10:51:59,899 - API còn lại: 922.0 yêu cầu, reset sau 8.02 phút
+2025-06-06 10:53:01,840 - API còn lại: 872.0 yêu cầu, reset sau 6.97 phút
+2025-06-06 10:54:04,407 - Đã lưu 100 bản ghi vào Data/contents_20250606_105404.csv
+2025-06-06 10:54:07,798 - Đã đẩy Data/contents_20250606_105404.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_105404.csv
+2025-06-06 10:54:07,852 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:54:07,890 - Đã lưu 2121 bản ghi vào Data/comments_20250606_105407.csv
+2025-06-06 10:54:10,953 - Đã đẩy Data/comments_20250606_105407.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_105407.csv
+2025-06-06 10:54:11,235 - Đã gửi 2121 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:54:11,235 - Đã thu thập 100 bài đăng từ r/memes
+2025-06-06 10:54:13,391 - API còn lại: 821.0 yêu cầu, reset sau 5.80 phút
+2025-06-06 10:55:14,312 - API còn lại: 771.0 yêu cầu, reset sau 4.77 phút
+2025-06-06 10:56:15,321 - Đã lưu 100 bản ghi vào Data/contents_20250606_105615.csv
+2025-06-06 10:56:18,492 - Đã đẩy Data/contents_20250606_105615.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_105615.csv
+2025-06-06 10:56:18,544 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:56:18,579 - Đã lưu 2125 bản ghi vào Data/comments_20250606_105618.csv
+2025-06-06 10:56:21,798 - Đã đẩy Data/comments_20250606_105618.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_105618.csv
+2025-06-06 10:56:22,115 - Đã gửi 2125 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:56:22,115 - Đã thu thập 100 bài đăng từ r/memes
+2025-06-06 10:56:24,190 - API còn lại: 720.0 yêu cầu, reset sau 3.62 phút
+2025-06-06 10:57:22,326 - API còn lại: 670.0 yêu cầu, reset sau 2.62 phút
+2025-06-06 10:58:19,675 - Đã lưu 100 bản ghi vào Data/contents_20250606_105819.csv
+2025-06-06 10:58:22,887 - Đã đẩy Data/contents_20250606_105819.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_105819.csv
+2025-06-06 10:58:22,913 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:58:22,935 - Đã lưu 1717 bản ghi vào Data/comments_20250606_105822.csv
+2025-06-06 10:58:26,083 - Đã đẩy Data/comments_20250606_105822.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_105822.csv
+2025-06-06 10:58:26,329 - Đã gửi 1717 bản ghi vào Kafka topic reddit_stream
+2025-06-06 10:58:26,329 - Đã thu thập 100 bài đăng từ r/memes
+2025-06-06 10:58:28,099 - API còn lại: 619.0 yêu cầu, reset sau 1.55 phút
+2025-06-06 10:59:22,771 - API còn lại: 569.0 yêu cầu, reset sau 0.62 phút
+2025-06-06 11:00:16,242 - Đã lưu 100 bản ghi vào Data/contents_20250606_110016.csv
+2025-06-06 11:00:19,903 - Đã đẩy Data/contents_20250606_110016.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_110016.csv
+2025-06-06 11:00:19,923 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:00:19,932 - Đã lưu 1152 bản ghi vào Data/comments_20250606_110019.csv
+2025-06-06 11:00:23,553 - Đã đẩy Data/comments_20250606_110019.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_110019.csv
+2025-06-06 11:00:23,793 - Đã gửi 1152 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:00:23,794 - Đã thu thập 100 bài đăng từ r/memes
+2025-06-06 11:00:25,540 - API còn lại: 984.0 yêu cầu, reset sau 9.58 phút
+2025-06-06 11:01:21,384 - API còn lại: 934.0 yêu cầu, reset sau 8.63 phút
+2025-06-06 11:02:10,702 - Đã lưu 96 bản ghi vào Data/contents_20250606_110210.csv
+2025-06-06 11:02:13,937 - Đã đẩy Data/contents_20250606_110210.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_110210.csv
+2025-06-06 11:02:13,964 - Đã gửi 96 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:02:13,981 - Đã lưu 954 bản ghi vào Data/comments_20250606_110213.csv
+2025-06-06 11:02:17,063 - Đã đẩy Data/comments_20250606_110213.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_110213.csv
+2025-06-06 11:02:17,253 - Đã gửi 954 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:02:17,254 - Đã thu thập 96 bài đăng từ r/memes
+2025-06-06 11:02:17,255 - 
+--- LĨNH VỰC: Lifestyle ---
+2025-06-06 11:02:17,256 - Đang thu thập từ r/fitness... (Lần thử 1)
+2025-06-06 11:02:17,259 - Đang thu thập từ r/food... (Lần thử 1)
+2025-06-06 11:02:18,236 - API còn lại: 887.0 yêu cầu, reset sau 7.70 phút
+2025-06-06 11:02:33,290 - Retrying due to ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Read timed out. (read timeout=16.0)")) status: GET https://oauth.reddit.com/r/food/top
+2025-06-06 11:02:36,900 - API còn lại: 879.0 yêu cầu, reset sau 7.42 phút
+2025-06-06 11:03:58,172 - Đã lưu 50 bản ghi vào Data/contents_20250606_110358.csv
+2025-06-06 11:04:01,328 - Đã đẩy Data/contents_20250606_110358.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_110358.csv
+2025-06-06 11:04:01,370 - Đã gửi 50 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:04:01,411 - Đã lưu 1817 bản ghi vào Data/comments_20250606_110401.csv
+2025-06-06 11:04:03,304 - API còn lại: 786.0 yêu cầu, reset sau 5.97 phút
+2025-06-06 11:04:04,579 - Đã đẩy Data/comments_20250606_110401.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_110401.csv
+2025-06-06 11:04:04,897 - Đã gửi 1817 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:04:04,897 - Đã thu thập 50 bài đăng từ r/fitness
+2025-06-06 11:04:04,897 - Đang thu thập từ r/travel... (Lần thử 1)
+2025-06-06 11:04:07,698 - API còn lại: 784.0 yêu cầu, reset sau 5.90 phút
+2025-06-06 11:04:24,014 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1knxxit/
+2025-06-06 11:05:04,669 - Đã lưu 100 bản ghi vào Data/contents_20250606_110504.csv
+2025-06-06 11:05:07,755 - Đã đẩy Data/contents_20250606_110504.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_110504.csv
+2025-06-06 11:05:07,812 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:05:07,861 - Đã lưu 3524 bản ghi vào Data/comments_20250606_110507.csv
+2025-06-06 11:05:11,154 - Đã đẩy Data/comments_20250606_110507.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_110507.csv
+2025-06-06 11:05:11,576 - Đã gửi 3524 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:05:11,576 - Đã thu thập 100 bài đăng từ r/food
+2025-06-06 11:05:14,591 - API còn lại: 705.0 yêu cầu, reset sau 4.80 phút
+2025-06-06 11:05:57,879 - API còn lại: 645.0 yêu cầu, reset sau 4.03 phút
+2025-06-06 11:06:10,991 - API còn lại: 627.0 yêu cầu, reset sau 3.82 phút
+2025-06-06 11:06:55,900 - Retrying due to 500 status: GET https://oauth.reddit.com/comments/1l3ocu5/
+2025-06-06 11:07:04,430 - Đã lưu 100 bản ghi vào Data/contents_20250606_110704.csv
+2025-06-06 11:07:07,593 - Đã đẩy Data/contents_20250606_110704.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_110704.csv
+2025-06-06 11:07:07,623 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:07:07,644 - Đã lưu 1266 bản ghi vào Data/comments_20250606_110707.csv
+2025-06-06 11:07:10,796 - Đã đẩy Data/comments_20250606_110707.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_110707.csv
+2025-06-06 11:07:11,012 - Đã gửi 1266 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:07:11,012 - Đã thu thập 100 bài đăng từ r/food
+2025-06-06 11:07:13,705 - API còn lại: 543.0 yêu cầu, reset sau 2.80 phút
+2025-06-06 11:07:29,713 - Đã lưu 100 bản ghi vào Data/contents_20250606_110729.csv
+2025-06-06 11:07:32,710 - Đã đẩy Data/contents_20250606_110729.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_110729.csv
+2025-06-06 11:07:32,799 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:07:32,887 - Đã lưu 5788 bản ghi vào Data/comments_20250606_110732.csv
+2025-06-06 11:07:36,145 - Đã đẩy Data/comments_20250606_110732.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_110732.csv
+2025-06-06 11:07:37,298 - Đã gửi 5788 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:07:37,298 - Đã thu thập 100 bài đăng từ r/travel
+2025-06-06 11:07:39,525 - API còn lại: 509.0 yêu cầu, reset sau 2.37 phút
+2025-06-06 11:08:06,848 - API còn lại: 462.0 yêu cầu, reset sau 1.88 phút
+2025-06-06 11:08:49,608 - API còn lại: 390.0 yêu cầu, reset sau 1.18 phút
+2025-06-06 11:08:58,482 - Đã lưu 100 bản ghi vào Data/contents_20250606_110858.csv
+2025-06-06 11:09:01,612 - Đã đẩy Data/contents_20250606_110858.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_110858.csv
+2025-06-06 11:09:01,644 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:09:01,658 - Đã lưu 880 bản ghi vào Data/comments_20250606_110901.csv
+2025-06-06 11:09:04,845 - Đã đẩy Data/comments_20250606_110901.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_110901.csv
+2025-06-06 11:09:05,032 - Đã gửi 880 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:09:05,032 - Đã thu thập 100 bài đăng từ r/food
+2025-06-06 11:09:07,431 - API còn lại: 365.0 yêu cầu, reset sau 0.90 phút
+2025-06-06 11:09:47,665 - Đã lưu 100 bản ghi vào Data/contents_20250606_110947.csv
+2025-06-06 11:09:50,836 - Đã đẩy Data/contents_20250606_110947.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_110947.csv
+2025-06-06 11:09:50,936 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:09:51,013 - Đã lưu 2644 bản ghi vào Data/comments_20250606_110950.csv
+2025-06-06 11:09:54,830 - Đã đẩy Data/comments_20250606_110950.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_110950.csv
+2025-06-06 11:09:55,488 - Đã gửi 2644 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:09:55,488 - Đã thu thập 100 bài đăng từ r/travel
+2025-06-06 11:09:57,981 - API còn lại: 281.0 yêu cầu, reset sau 0.06 phút
+2025-06-06 11:09:58,021 - API còn lại: 278.0 yêu cầu, reset sau 0.03 phút
+2025-06-06 11:10:54,588 - Đã lưu 100 bản ghi vào Data/contents_20250606_111054.csv
+2025-06-06 11:10:57,805 - Đã đẩy Data/contents_20250606_111054.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_111054.csv
+2025-06-06 11:10:57,834 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:10:57,844 - Đã lưu 568 bản ghi vào Data/comments_20250606_111057.csv
+2025-06-06 11:10:59,210 - API còn lại: 904.0 yêu cầu, reset sau 9.02 phút
+2025-06-06 11:11:01,568 - Đã đẩy Data/comments_20250606_111057.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_111057.csv
+2025-06-06 11:11:01,713 - Đã gửi 568 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:11:01,713 - Đã thu thập 100 bài đăng từ r/food
+2025-06-06 11:11:04,682 - API còn lại: 900.0 yêu cầu, reset sau 8.97 phút
+2025-06-06 11:11:54,864 - Đã lưu 100 bản ghi vào Data/contents_20250606_111154.csv
+2025-06-06 11:11:57,888 - Đã đẩy Data/contents_20250606_111154.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_111154.csv
+2025-06-06 11:11:57,950 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:11:57,979 - Đã lưu 1251 bản ghi vào Data/comments_20250606_111157.csv
+2025-06-06 11:11:59,981 - API còn lại: 803.0 yêu cầu, reset sau 8.00 phút
+2025-06-06 11:12:01,107 - Đã đẩy Data/comments_20250606_111157.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_111157.csv
+2025-06-06 11:12:01,434 - Đã gửi 1251 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:12:01,434 - Đã thu thập 100 bài đăng từ r/travel
+2025-06-06 11:12:04,013 - API còn lại: 800.0 yêu cầu, reset sau 7.95 phút
+2025-06-06 11:12:54,876 - Đã lưu 100 bản ghi vào Data/contents_20250606_111254.csv
+2025-06-06 11:12:57,930 - Đã đẩy Data/contents_20250606_111254.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_111254.csv
+2025-06-06 11:12:57,967 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:12:57,976 - Đã lưu 408 bản ghi vào Data/comments_20250606_111257.csv
+2025-06-06 11:13:00,129 - API còn lại: 702.0 yêu cầu, reset sau 7.00 phút
+2025-06-06 11:13:01,227 - Đã đẩy Data/comments_20250606_111257.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_111257.csv
+2025-06-06 11:13:01,283 - Đã gửi 408 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:13:01,284 - Đã thu thập 100 bài đăng từ r/food
+2025-06-06 11:13:03,679 - API còn lại: 700.0 yêu cầu, reset sau 6.96 phút
+2025-06-06 11:13:56,488 - Đã lưu 100 bản ghi vào Data/contents_20250606_111356.csv
+2025-06-06 11:13:59,603 - Đã đẩy Data/contents_20250606_111356.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_111356.csv
+2025-06-06 11:13:59,683 - API còn lại: 601.0 yêu cầu, reset sau 6.00 phút
+2025-06-06 11:13:59,702 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:13:59,718 - Đã lưu 583 bản ghi vào Data/comments_20250606_111359.csv
+2025-06-06 11:14:02,799 - Đã đẩy Data/comments_20250606_111359.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_111359.csv
+2025-06-06 11:14:02,980 - Đã gửi 583 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:14:02,980 - Đã thu thập 100 bài đăng từ r/travel
+2025-06-06 11:14:05,077 - API còn lại: 597.0 yêu cầu, reset sau 5.93 phút
+2025-06-06 11:14:56,316 - Đã lưu 100 bản ghi vào Data/contents_20250606_111456.csv
+2025-06-06 11:14:59,393 - Đã đẩy Data/contents_20250606_111456.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_111456.csv
+2025-06-06 11:14:59,421 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:14:59,429 - Đã lưu 315 bản ghi vào Data/comments_20250606_111459.csv
+2025-06-06 11:15:00,283 - API còn lại: 500.0 yêu cầu, reset sau 5.00 phút
+2025-06-06 11:15:02,644 - Đã đẩy Data/comments_20250606_111459.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_111459.csv
+2025-06-06 11:15:02,707 - Đã gửi 315 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:15:02,707 - Đã thu thập 100 bài đăng từ r/food
+2025-06-06 11:15:04,851 - API còn lại: 497.0 yêu cầu, reset sau 4.95 phút
+2025-06-06 11:15:57,459 - Đã lưu 100 bản ghi vào Data/contents_20250606_111557.csv
+2025-06-06 11:16:00,642 - Đã đẩy Data/contents_20250606_111557.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_111557.csv
+2025-06-06 11:16:00,760 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:16:00,771 - Đã lưu 497 bản ghi vào Data/comments_20250606_111600.csv
+2025-06-06 11:16:01,934 - API còn lại: 399.0 yêu cầu, reset sau 3.97 phút
+2025-06-06 11:16:03,929 - Đã đẩy Data/comments_20250606_111600.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_111600.csv
+2025-06-06 11:16:04,085 - Đã gửi 497 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:16:04,085 - Đã thu thập 100 bài đăng từ r/travel
+2025-06-06 11:16:06,535 - API còn lại: 396.0 yêu cầu, reset sau 3.92 phút
+2025-06-06 11:16:56,924 - Đã lưu 100 bản ghi vào Data/contents_20250606_111656.csv
+2025-06-06 11:17:00,058 - Đã đẩy Data/contents_20250606_111656.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_111656.csv
+2025-06-06 11:17:00,092 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:17:00,098 - Đã lưu 283 bản ghi vào Data/comments_20250606_111700.csv
+2025-06-06 11:17:02,700 - API còn lại: 298.0 yêu cầu, reset sau 2.95 phút
+2025-06-06 11:17:03,388 - Đã đẩy Data/comments_20250606_111700.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_111700.csv
+2025-06-06 11:17:03,413 - Đã gửi 283 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:17:03,413 - Đã thu thập 100 bài đăng từ r/food
+2025-06-06 11:17:05,982 - API còn lại: 296.0 yêu cầu, reset sau 2.93 phút
+2025-06-06 11:17:59,154 - Đã lưu 100 bản ghi vào Data/contents_20250606_111759.csv
+2025-06-06 11:18:02,248 - Đã đẩy Data/contents_20250606_111759.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_111759.csv
+2025-06-06 11:18:02,316 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:18:02,325 - Đã lưu 441 bản ghi vào Data/comments_20250606_111802.csv
+2025-06-06 11:18:02,790 - API còn lại: 197.0 yêu cầu, reset sau 1.95 phút
+2025-06-06 11:18:05,507 - Đã đẩy Data/comments_20250606_111802.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_111802.csv
+2025-06-06 11:18:05,619 - Đã gửi 441 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:18:05,619 - Đã thu thập 100 bài đăng từ r/travel
+2025-06-06 11:18:07,663 - API còn lại: 193.0 yêu cầu, reset sau 1.90 phút
+2025-06-06 11:19:03,640 - Đã lưu 100 bản ghi vào Data/contents_20250606_111903.csv
+2025-06-06 11:19:06,675 - Đã đẩy Data/contents_20250606_111903.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_111903.csv
+2025-06-06 11:19:06,704 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:19:06,710 - Đã lưu 251 bản ghi vào Data/comments_20250606_111906.csv
+2025-06-06 11:19:09,983 - Đã đẩy Data/comments_20250606_111906.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_111906.csv
+2025-06-06 11:19:10,027 - Đã gửi 251 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:19:10,027 - Đã thu thập 100 bài đăng từ r/food
+2025-06-06 11:19:13,035 - API còn lại: 101.0 yêu cầu, reset sau 0.82 phút
+2025-06-06 11:19:16,614 - API còn lại: 92.0 yêu cầu, reset sau 0.72 phút
+2025-06-06 11:20:02,731 - API còn lại: 994.0 yêu cầu, reset sau 9.95 phút
+2025-06-06 11:20:07,756 - Đã lưu 100 bản ghi vào Data/contents_20250606_112007.csv
+2025-06-06 11:20:10,768 - Đã đẩy Data/contents_20250606_112007.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_112007.csv
+2025-06-06 11:20:10,834 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:20:10,841 - Đã lưu 395 bản ghi vào Data/comments_20250606_112010.csv
+2025-06-06 11:20:13,780 - Đã đẩy Data/comments_20250606_112010.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_112010.csv
+2025-06-06 11:20:13,893 - Đã gửi 395 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:20:13,893 - Đã thu thập 100 bài đăng từ r/travel
+2025-06-06 11:20:16,003 - API còn lại: 979.0 yêu cầu, reset sau 9.75 phút
+2025-06-06 11:20:59,342 - Đã lưu 100 bản ghi vào Data/contents_20250606_112059.csv
+2025-06-06 11:21:02,354 - Đã đẩy Data/contents_20250606_112059.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_112059.csv
+2025-06-06 11:21:02,370 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:21:02,374 - Đã lưu 179 bản ghi vào Data/comments_20250606_112102.csv
+2025-06-06 11:21:05,555 - Đã đẩy Data/comments_20250606_112102.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_112102.csv
+2025-06-06 11:21:05,596 - Đã gửi 179 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:21:05,596 - Đã thu thập 100 bài đăng từ r/food
+2025-06-06 11:21:08,232 - API còn lại: 894.0 yêu cầu, reset sau 8.90 phút
+2025-06-06 11:21:12,583 - API còn lại: 886.0 yêu cầu, reset sau 8.78 phút
+2025-06-06 11:22:10,038 - API còn lại: 791.0 yêu cầu, reset sau 7.83 phút
+2025-06-06 11:22:13,186 - Đã lưu 100 bản ghi vào Data/contents_20250606_112213.csv
+2025-06-06 11:22:16,318 - Đã đẩy Data/contents_20250606_112213.csv vào hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_112213.csv
+2025-06-06 11:22:16,380 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:22:16,391 - Đã lưu 356 bản ghi vào Data/comments_20250606_112216.csv
+2025-06-06 11:22:19,532 - Đã đẩy Data/comments_20250606_112216.csv vào hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_112216.csv
+2025-06-06 11:22:19,636 - Đã gửi 356 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:22:19,636 - Đã thu thập 100 bài đăng từ r/travel
+2025-06-06 11:22:35,654 - Retrying due to ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Read timed out. (read timeout=16.0)")) status: GET https://oauth.reddit.com/r/travel/top
+2025-06-06 11:22:41,264 - Retrying due to ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Read timed out. (read timeout=16.0)")) status: GET https://oauth.reddit.com/comments/1kwh9ga/
+2025-06-06 11:22:56,728 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/travel/top?t=month&limit=5000&after=t3_1kxsin1&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcf4446990>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/travel/top
+2025-06-06 11:23:01,425 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /comments/1kwh9ga/?limit=2048&sort=confidence&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcd91b6f10>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/comments/1kwh9ga/
+2025-06-06 11:23:19,314 - Lỗi API khi thu thập r/travel: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/travel/top?t=month&limit=5000&after=t3_1kxsin1&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcdb9071d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-06-06 11:23:19,315 - Thử lại sau 60s...
+2025-06-06 11:23:23,794 - Lỗi API khi thu thập r/food: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /comments/1kwh9ga/?limit=2048&sort=confidence&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bce1c79010>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-06-06 11:23:23,794 - Thử lại sau 60s...
+2025-06-06 11:24:19,315 - Đang thu thập từ r/travel... (Lần thử 2)
+2025-06-06 11:24:23,794 - Đang thu thập từ r/food... (Lần thử 2)
+2025-06-06 11:24:39,334 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/travel/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcdb946390>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/travel/top
+2025-06-06 11:24:43,818 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/food/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bce3263a50>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/food/top
+2025-06-06 11:24:59,405 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/travel/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcd91b58d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/travel/top
+2025-06-06 11:25:03,865 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/food/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcec582090>: Failed to establish a new connection: [Errno -2] Name or service not known'))")) status: GET https://oauth.reddit.com/r/food/top
+2025-06-06 11:25:22,577 - Lỗi API khi thu thập r/travel: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/travel/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcec582250>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-06-06 11:25:22,577 - Thử lại sau 120s...
+2025-06-06 11:25:26,013 - Lỗi API khi thu thập r/food: error with request HTTPSConnectionPool(host='oauth.reddit.com', port=443): Max retries exceeded with url: /r/food/top?t=month&limit=5000&raw_json=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70bcec580ed0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-06-06 11:25:26,014 - Thử lại sau 120s...
+2025-06-06 11:52:52,794 - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-06-06 11:52:52,808 - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2025-06-06 11:52:52,809 - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2025-06-06 11:53:27,330 - Đang thu thập từ r/travel... (Lần thử 3)
+2025-06-06 11:53:30,756 - Đang thu thập từ r/food... (Lần thử 3)
+2025-06-06 11:53:30,882 - API còn lại: 999.0 yêu cầu, reset sau 6.53 phút
+2025-06-06 11:54:42,768 - Đã lưu 100 bản ghi vào Data/contents_20250606_115442.csv
+2025-06-06 11:55:17,160 - API còn lại: 906.0 yêu cầu, reset sau 4.72 phút
+2025-06-06 11:55:46,337 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/contents_20250606_115442.csv', 'hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_115442.csv']' returned non-zero exit status 1.
+2025-06-06 11:55:46,356 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:55:46,373 - Đã lưu 2292 bản ghi vào Data/comments_20250606_115546.csv
+2025-06-06 11:56:46,634 - Đã lưu 100 bản ghi vào Data/contents_20250606_115646.csv
+2025-06-06 11:56:49,274 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/comments_20250606_115546.csv', 'hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_115546.csv']' returned non-zero exit status 1.
+2025-06-06 11:56:49,593 - Đã gửi 2292 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:56:49,593 - Đã thu thập 100 bài đăng từ r/food
+2025-06-06 11:56:49,595 - API còn lại: 856.0 yêu cầu, reset sau 3.17 phút
+2025-06-06 11:57:49,862 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/contents_20250606_115646.csv', 'hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_115646.csv']' returned non-zero exit status 130.
+2025-06-06 11:57:49,926 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:57:49,981 - Đã lưu 5790 bản ghi vào Data/comments_20250606_115749.csv
+2025-06-06 11:57:50,041 - API còn lại: 806.0 yêu cầu, reset sau 2.17 phút
+2025-06-06 11:58:51,283 - Đã lưu 100 bản ghi vào Data/contents_20250606_115851.csv
+2025-06-06 11:58:53,957 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/comments_20250606_115749.csv', 'hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_115749.csv']' returned non-zero exit status 1.
+2025-06-06 11:58:54,828 - Đã gửi 5790 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:58:54,828 - Đã thu thập 100 bài đăng từ r/travel
+2025-06-06 11:58:57,195 - API còn lại: 754.0 yêu cầu, reset sau 1.07 phút
+2025-06-06 11:59:54,726 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/contents_20250606_115851.csv', 'hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_115851.csv']' returned non-zero exit status 1.
+2025-06-06 11:59:54,759 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 11:59:54,783 - Đã lưu 1925 bản ghi vào Data/comments_20250606_115954.csv
+2025-06-06 12:00:07,652 - API còn lại: 993.0 yêu cầu, reset sau 9.88 phút
+2025-06-06 12:00:57,900 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/comments_20250606_115954.csv', 'hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_115954.csv']' returned non-zero exit status 1.
+2025-06-06 12:00:58,194 - Đã gửi 1925 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:00:58,195 - Đã thu thập 100 bài đăng từ r/food
+2025-06-06 12:00:58,196 - API còn lại: 951.0 yêu cầu, reset sau 9.02 phút
+2025-06-06 12:01:06,589 - Đã lưu 100 bản ghi vào Data/contents_20250606_120106.csv
+2025-06-06 12:01:51,120 - API còn lại: 893.0 yêu cầu, reset sau 8.15 phút
+2025-06-06 12:02:10,449 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/contents_20250606_120106.csv', 'hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_120106.csv']' returned non-zero exit status 1.
+2025-06-06 12:02:10,489 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:02:10,520 - Đã lưu 2651 bản ghi vào Data/comments_20250606_120210.csv
+2025-06-06 12:02:47,006 - Đã lưu 100 bản ghi vào Data/contents_20250606_120247.csv
+2025-06-06 12:03:14,259 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/comments_20250606_120210.csv', 'hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_120210.csv']' returned non-zero exit status 1.
+2025-06-06 12:03:14,911 - Đã gửi 2651 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:03:14,911 - Đã thu thập 100 bài đăng từ r/travel
+2025-06-06 12:03:17,328 - API còn lại: 841.0 yêu cầu, reset sau 6.73 phút
+2025-06-06 12:03:50,214 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/contents_20250606_120247.csv', 'hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_120247.csv']' returned non-zero exit status 1.
+2025-06-06 12:03:50,246 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:03:50,261 - Đã lưu 1074 bản ghi vào Data/comments_20250606_120350.csv
+2025-06-06 12:04:11,191 - API còn lại: 791.0 yêu cầu, reset sau 5.80 phút
+2025-06-06 12:04:55,230 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/comments_20250606_120350.csv', 'hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_120350.csv']' returned non-zero exit status 1.
+2025-06-06 12:04:55,434 - Đã gửi 1074 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:04:55,434 - Đã thu thập 100 bài đăng từ r/food
+2025-06-06 12:04:55,435 - API còn lại: 749.0 yêu cầu, reset sau 5.07 phút
+2025-06-06 12:05:03,627 - Đã lưu 100 bản ghi vào Data/contents_20250606_120503.csv
+2025-06-06 12:05:07,369 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/contents_20250606_120503.csv', 'hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_120503.csv']' returned non-zero exit status 1.
+2025-06-06 12:05:07,441 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:05:07,466 - Đã lưu 1252 bản ghi vào Data/comments_20250606_120507.csv
+2025-06-06 12:05:11,263 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/comments_20250606_120507.csv', 'hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_120507.csv']' returned non-zero exit status 1.
+2025-06-06 12:05:11,597 - Đã gửi 1252 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:05:11,597 - Đã thu thập 100 bài đăng từ r/travel
+2025-06-06 12:05:13,664 - API còn lại: 725.0 yêu cầu, reset sau 4.80 phút
+2025-06-06 12:05:46,329 - API còn lại: 658.0 yêu cầu, reset sau 4.22 phút
+2025-06-06 12:06:02,859 - API còn lại: 624.0 yêu cầu, reset sau 3.95 phút
+2025-06-06 12:06:37,312 - Đã lưu 100 bản ghi vào Data/contents_20250606_120637.csv
+2025-06-06 12:06:40,717 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/contents_20250606_120637.csv', 'hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_120637.csv']' returned non-zero exit status 1.
+2025-06-06 12:06:40,743 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:06:40,754 - Đã lưu 741 bản ghi vào Data/comments_20250606_120640.csv
+2025-06-06 12:06:44,969 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/comments_20250606_120640.csv', 'hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_120640.csv']' returned non-zero exit status 1.
+2025-06-06 12:06:45,052 - Đã gửi 741 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:06:45,052 - Đã thu thập 100 bài đăng từ r/food
+2025-06-06 12:06:45,053 - API còn lại: 545.0 yêu cầu, reset sau 3.25 phút
+2025-06-06 12:06:50,320 - Đã lưu 100 bản ghi vào Data/contents_20250606_120650.csv
+2025-06-06 12:06:54,995 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/contents_20250606_120650.csv', 'hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_120650.csv']' returned non-zero exit status 1.
+2025-06-06 12:06:55,056 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:06:55,065 - Đã lưu 583 bản ghi vào Data/comments_20250606_120655.csv
+2025-06-06 12:06:58,674 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/comments_20250606_120655.csv', 'hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_120655.csv']' returned non-zero exit status 1.
+2025-06-06 12:06:58,803 - Đã gửi 583 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:06:58,803 - Đã thu thập 100 bài đăng từ r/travel
+2025-06-06 12:07:00,847 - API còn lại: 524.0 yêu cầu, reset sau 3.00 phút
+2025-06-06 12:07:34,146 - API còn lại: 454.0 yêu cầu, reset sau 2.42 phút
+2025-06-06 12:07:49,301 - API còn lại: 424.0 yêu cầu, reset sau 2.17 phút
+2025-06-06 12:08:24,069 - Đã lưu 100 bản ghi vào Data/contents_20250606_120824.csv
+2025-06-06 12:08:28,368 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/contents_20250606_120824.csv', 'hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_120824.csv']' returned non-zero exit status 1.
+2025-06-06 12:08:28,405 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:08:28,413 - Đã lưu 465 bản ghi vào Data/comments_20250606_120828.csv
+2025-06-06 12:08:32,049 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/comments_20250606_120828.csv', 'hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_120828.csv']' returned non-zero exit status 1.
+2025-06-06 12:08:32,139 - Đã gửi 465 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:08:32,139 - Đã thu thập 100 bài đăng từ r/food
+2025-06-06 12:08:32,140 - API còn lại: 345.0 yêu cầu, reset sau 1.45 phút
+2025-06-06 12:08:39,164 - Đã lưu 100 bản ghi vào Data/contents_20250606_120839.csv
+2025-06-06 12:08:42,710 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/contents_20250606_120839.csv', 'hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_120839.csv']' returned non-zero exit status 1.
+2025-06-06 12:08:42,796 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:08:42,811 - Đã lưu 497 bản ghi vào Data/comments_20250606_120842.csv
+2025-06-06 12:08:46,356 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/comments_20250606_120842.csv', 'hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_120842.csv']' returned non-zero exit status 1.
+2025-06-06 12:08:46,515 - Đã gửi 497 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:08:46,516 - Đã thu thập 100 bài đăng từ r/travel
+2025-06-06 12:08:48,507 - API còn lại: 321.0 yêu cầu, reset sau 1.22 phút
+2025-06-06 12:09:23,067 - API còn lại: 253.0 yêu cầu, reset sau 0.65 phút
+2025-06-06 12:09:37,014 - API còn lại: 223.0 yêu cầu, reset sau 0.38 phút
+2025-06-06 12:10:15,329 - Đã lưu 100 bản ghi vào Data/contents_20250606_121015.csv
+2025-06-06 12:10:18,963 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/contents_20250606_121015.csv', 'hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_121015.csv']' returned non-zero exit status 1.
+2025-06-06 12:10:18,983 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:10:18,988 - Đã lưu 367 bản ghi vào Data/comments_20250606_121018.csv
+2025-06-06 12:10:22,922 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/comments_20250606_121018.csv', 'hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_121018.csv']' returned non-zero exit status 1.
+2025-06-06 12:10:23,009 - Đã gửi 367 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:10:23,009 - Đã thu thập 100 bài đăng từ r/food
+2025-06-06 12:10:23,010 - API còn lại: 965.0 yêu cầu, reset sau 9.61 phút
+2025-06-06 12:10:28,720 - Đã lưu 100 bản ghi vào Data/contents_20250606_121028.csv
+2025-06-06 12:10:32,767 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/contents_20250606_121028.csv', 'hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_121028.csv']' returned non-zero exit status 1.
+2025-06-06 12:10:32,859 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:10:32,872 - Đã lưu 441 bản ghi vào Data/comments_20250606_121032.csv
+2025-06-06 12:10:36,983 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/comments_20250606_121032.csv', 'hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_121032.csv']' returned non-zero exit status 1.
+2025-06-06 12:10:37,143 - Đã gửi 441 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:10:37,143 - Đã thu thập 100 bài đăng từ r/travel
+2025-06-06 12:10:39,156 - API còn lại: 942.0 yêu cầu, reset sau 9.33 phút
+2025-06-06 12:11:13,763 - API còn lại: 876.0 yêu cầu, reset sau 8.77 phút
+2025-06-06 12:11:33,297 - API còn lại: 842.0 yêu cầu, reset sau 8.43 phút
+2025-06-06 12:12:15,355 - Đã lưu 100 bản ghi vào Data/contents_20250606_121215.csv
+2025-06-06 12:12:18,982 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/contents_20250606_121215.csv', 'hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_121215.csv']' returned non-zero exit status 1.
+2025-06-06 12:12:19,001 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:12:19,006 - Đã lưu 301 bản ghi vào Data/comments_20250606_121219.csv
+2025-06-06 12:12:22,612 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/comments_20250606_121219.csv', 'hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_121219.csv']' returned non-zero exit status 1.
+2025-06-06 12:12:22,678 - Đã gửi 301 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:12:22,679 - Đã thu thập 100 bài đăng từ r/food
+2025-06-06 12:12:22,679 - API còn lại: 765.0 yêu cầu, reset sau 7.61 phút
+2025-06-06 12:12:30,188 - Đã lưu 100 bản ghi vào Data/contents_20250606_121230.csv
+2025-06-06 12:12:33,547 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/contents_20250606_121230.csv', 'hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_121230.csv']' returned non-zero exit status 1.
+2025-06-06 12:12:33,636 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:12:33,649 - Đã lưu 395 bản ghi vào Data/comments_20250606_121233.csv
+2025-06-06 12:12:37,651 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/comments_20250606_121233.csv', 'hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_121233.csv']' returned non-zero exit status 1.
+2025-06-06 12:12:37,783 - Đã gửi 395 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:12:37,784 - Đã thu thập 100 bài đăng từ r/travel
+2025-06-06 12:12:39,370 - API còn lại: 740.0 yêu cầu, reset sau 7.35 phút
+2025-06-06 12:13:15,033 - API còn lại: 673.0 yêu cầu, reset sau 6.75 phút
+2025-06-06 12:13:34,132 - API còn lại: 642.0 yêu cầu, reset sau 6.42 phút
+2025-06-06 12:14:17,821 - Đã lưu 100 bản ghi vào Data/contents_20250606_121417.csv
+2025-06-06 12:14:21,670 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/contents_20250606_121417.csv', 'hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_121417.csv']' returned non-zero exit status 1.
+2025-06-06 12:14:21,714 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:14:21,724 - Đã lưu 288 bản ghi vào Data/comments_20250606_121421.csv
+2025-06-06 12:14:25,674 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/comments_20250606_121421.csv', 'hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_121421.csv']' returned non-zero exit status 1.
+2025-06-06 12:14:25,737 - Đã gửi 288 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:14:25,737 - Đã thu thập 100 bài đăng từ r/food
+2025-06-06 12:14:25,737 - API còn lại: 562.0 yêu cầu, reset sau 5.57 phút
+2025-06-06 12:14:31,737 - Đã lưu 100 bản ghi vào Data/contents_20250606_121431.csv
+2025-06-06 12:14:35,234 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/contents_20250606_121431.csv', 'hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_121431.csv']' returned non-zero exit status 1.
+2025-06-06 12:14:35,310 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:14:35,324 - Đã lưu 358 bản ghi vào Data/comments_20250606_121435.csv
+2025-06-06 12:14:39,480 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/comments_20250606_121435.csv', 'hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_121435.csv']' returned non-zero exit status 1.
+2025-06-06 12:14:39,593 - Đã gửi 358 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:14:39,593 - Đã thu thập 100 bài đăng từ r/travel
+2025-06-06 12:14:41,379 - API còn lại: 540.0 yêu cầu, reset sau 5.33 phút
+2025-06-06 12:15:15,161 - API còn lại: 472.0 yêu cầu, reset sau 4.73 phút
+2025-06-06 12:15:37,215 - API còn lại: 437.0 yêu cầu, reset sau 4.37 phút
+2025-06-06 12:16:16,389 - Đã lưu 100 bản ghi vào Data/contents_20250606_121616.csv
+2025-06-06 12:16:20,001 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/contents_20250606_121616.csv', 'hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_121616.csv']' returned non-zero exit status 1.
+2025-06-06 12:16:20,024 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:16:20,029 - Đã lưu 225 bản ghi vào Data/comments_20250606_121620.csv
+2025-06-06 12:16:23,506 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/comments_20250606_121620.csv', 'hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_121620.csv']' returned non-zero exit status 1.
+2025-06-06 12:16:23,550 - Đã gửi 225 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:16:23,551 - Đã thu thập 100 bài đăng từ r/food
+2025-06-06 12:16:23,551 - API còn lại: 363.0 yêu cầu, reset sau 3.61 phút
+2025-06-06 12:16:33,089 - Đã lưu 100 bản ghi vào Data/contents_20250606_121633.csv
+2025-06-06 12:16:36,547 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/contents_20250606_121633.csv', 'hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_121633.csv']' returned non-zero exit status 1.
+2025-06-06 12:16:36,597 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:16:36,610 - Đã lưu 407 bản ghi vào Data/comments_20250606_121636.csv
+2025-06-06 12:16:40,476 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/comments_20250606_121636.csv', 'hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_121636.csv']' returned non-zero exit status 1.
+2025-06-06 12:16:40,590 - Đã gửi 407 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:16:40,591 - Đã thu thập 100 bài đăng từ r/travel
+2025-06-06 12:16:41,920 - API còn lại: 335.0 yêu cầu, reset sau 3.32 phút
+2025-06-06 12:17:16,196 - API còn lại: 271.0 yêu cầu, reset sau 2.72 phút
+2025-06-06 12:17:37,617 - API còn lại: 237.0 yêu cầu, reset sau 2.37 phút
+2025-06-06 12:18:19,683 - Đã lưu 100 bản ghi vào Data/contents_20250606_121819.csv
+2025-06-06 12:18:22,847 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/contents_20250606_121819.csv', 'hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_121819.csv']' returned non-zero exit status 1.
+2025-06-06 12:18:22,871 - Đã gửi 100 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:18:22,874 - Đã lưu 173 bản ghi vào Data/comments_20250606_121822.csv
+2025-06-06 12:18:25,208 - Đã lưu 91 bản ghi vào Data/contents_20250606_121825.csv
+2025-06-06 12:18:26,870 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/comments_20250606_121822.csv', 'hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_121822.csv']' returned non-zero exit status 1.
+2025-06-06 12:18:26,896 - Đã gửi 173 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:18:26,896 - Đã thu thập 100 bài đăng từ r/food
+2025-06-06 12:18:26,896 - API còn lại: 160.0 yêu cầu, reset sau 1.54 phút
+2025-06-06 12:18:29,194 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/contents_20250606_121825.csv', 'hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_121825.csv']' returned non-zero exit status 1.
+2025-06-06 12:18:29,217 - Đã gửi 91 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:18:29,222 - Đã lưu 254 bản ghi vào Data/comments_20250606_121829.csv
+2025-06-06 12:18:32,239 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/comments_20250606_121829.csv', 'hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_121829.csv']' returned non-zero exit status 1.
+2025-06-06 12:18:32,342 - Đã gửi 254 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:18:32,342 - Đã thu thập 91 bài đăng từ r/travel
+2025-06-06 12:18:32,342 - Đang thu thập từ r/aww... (Lần thử 1)
+2025-06-06 12:18:34,553 - API còn lại: 153.0 yêu cầu, reset sau 1.45 phút
+2025-06-06 12:19:13,949 - API còn lại: 99.0 yêu cầu, reset sau 0.77 phút
+2025-06-06 12:19:21,624 - Đã lưu 58 bản ghi vào Data/contents_20250606_121921.csv
+2025-06-06 12:19:25,037 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/contents_20250606_121921.csv', 'hdfs://host.docker.internal:9000/Data/Contents/contents_20250606_121921.csv']' returned non-zero exit status 1.
+2025-06-06 12:19:25,054 - Đã gửi 58 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:19:25,058 - Đã lưu 95 bản ghi vào Data/comments_20250606_121925.csv
+2025-06-06 12:19:28,589 - Lỗi khi đẩy vào HDFS: Command '['hdfs', 'dfs', '-put', 'Data/comments_20250606_121925.csv', 'hdfs://host.docker.internal:9000/Data/Comments/comments_20250606_121925.csv']' returned non-zero exit status 1.
+2025-06-06 12:19:28,607 - Đã gửi 95 bản ghi vào Kafka topic reddit_stream
+2025-06-06 12:19:28,608 - Đã thu thập 58 bài đăng từ r/food
