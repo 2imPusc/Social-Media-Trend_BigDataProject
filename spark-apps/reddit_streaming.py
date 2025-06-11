@@ -1,5 +1,5 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import from_json, col, current_timestamp, when, length
+from pyspark.sql.functions import from_json, col, current_timestamp, when, length, date_format
 from pyspark.sql.types import StructType, StringType, IntegerType, FloatType
 from sparknlp.pretrained import PretrainedPipeline
 import sparknlp
@@ -18,9 +18,6 @@ spark = SparkSession.builder \
     .config("es.nodes.wan.only", "true") \
     .config("spark.sql.streaming.checkpointLocation", "/opt/bitnami/spark/checkpoints/reddit_streaming") \
     .getOrCreate()
-
-import sparknlp
-from sparknlp.pretrained import PretrainedPipeline
 
 spark.sparkContext.setLogLevel("WARN")
 
@@ -61,8 +58,7 @@ df_raw = spark.readStream \
 df_parsed = df_raw.selectExpr("CAST(value AS STRING) as json") \
     .select(from_json(col("json"), schema).alias("data")) \
     .select("data.*") \
-    .withColumn("timestamp", current_timestamp())
-
+    .withColumn("timestamp", date_format(current_timestamp(), "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"))
 # Tạo cột text cho pipeline NLP (ưu tiên content, fallback sang title)
 df_parsed = df_parsed.withColumn(
     "text",
@@ -79,7 +75,7 @@ df_annotated = sentiment_pipeline.transform(df_parsed) \
         col("category_name"),
         col("score"),
         col("timestamp"),
-        col("sentiment.result").alias("sentiment")
+        col("sentiment.result")[0].alias("sentiment")
     )
 
 # Ghi vào Elasticsearch
